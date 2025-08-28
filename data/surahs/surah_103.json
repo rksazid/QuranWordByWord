@@ -1,0 +1,87 @@
+{
+  "surah_id": 103,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالْعَصْرِ",
+      "bangla_trans": "সময়ের কসম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْعَصْرِ",
+          "translate_bn": "শপথ মহাকালের"
+        }
+      },
+      "english_trans": "I swear by the time,"
+    },
+    "2": {
+      "arabic_text": "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+      "bangla_trans": "মানুষ আসলে বড়ই ক্ষতির মধ্যে রয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষ"
+        },
+        "3": {
+          "words_ar": "لَفِي",
+          "translate_bn": "অবশ্যই মধ্যে"
+        },
+        "4": {
+          "words_ar": "خُسْرٍ",
+          "translate_bn": "ক্ষতির"
+        }
+      },
+      "english_trans": "Most surely man is in loss,"
+    },
+    "3": {
+      "arabic_text": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "bangla_trans": "তবে তারা ছাড়া যারা ঈমান এনেছে ও সৎকাজ করতে থেকেছে এবং একজন অন্যজনকে হক কথার ও সবর করার উপদেশ দিতে থেকেছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "(তাদের) ছাড়া"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "4": {
+          "words_ar": "وَعَمِلُوا",
+          "translate_bn": "এবং করেছে"
+        },
+        "5": {
+          "words_ar": "الصَّالِحَاتِ",
+          "translate_bn": "সৎকর্মের"
+        },
+        "6": {
+          "words_ar": "وَتَوَاصَوْا",
+          "translate_bn": "এবং পরস্পরকে উপদেশ দিয়েছে"
+        },
+        "7": {
+          "words_ar": "بِالْحَقِّ",
+          "translate_bn": "সত্যের"
+        },
+        "8": {
+          "words_ar": "وَتَوَاصَوْا",
+          "translate_bn": "ও পরস্পরকে উপদেশ দিয়েছে"
+        },
+        "9": {
+          "words_ar": "بِالصَّبْرِ",
+          "translate_bn": "ধৈর্যের"
+        }
+      },
+      "english_trans": "Except those who believe and do good, and enjoin on each other truth, and enjoin on each other patience."
+    }
+  }
+}

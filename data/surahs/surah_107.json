@@ -1,0 +1,159 @@
+{
+  "surah_id": 107,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+      "bangla_trans": "তুমি কি তাকে দেখেছো। যে আখেরাতের পুরস্কার ও শাস্তিকে মিথ্যা বলছে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَرَأَيْتَ",
+          "translate_bn": "তুমি কি দেখেছ"
+        },
+        "2": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "(তাকে) যে"
+        },
+        "3": {
+          "words_ar": "يُكَذِّبُ",
+          "translate_bn": "মিথ্যা অভিহিত করে"
+        },
+        "4": {
+          "words_ar": "بِالدِّينِ",
+          "translate_bn": "বিচার দিনকে"
+        }
+      },
+      "english_trans": "Have you considered him who calls the judgment a lie?"
+    },
+    "2": {
+      "arabic_text": "فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
+      "bangla_trans": "সে-ই তো এতিমকে ধাক্কা দেয়",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَذَٰلِكَ",
+          "translate_bn": "সে তো সে-ই"
+        },
+        "2": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "يَدُعُّ",
+          "translate_bn": "ধাক্কা দেয়"
+        },
+        "4": {
+          "words_ar": "الْيَتِيمَ",
+          "translate_bn": "ইয়াতিমকে"
+        }
+      },
+      "english_trans": "That is the one who treats the orphan with harshness,"
+    },
+    "3": {
+      "arabic_text": "وَلَا يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ",
+      "bangla_trans": "এবং মিসকিনকে খাবার দিতে উদ্বুদ্ধ করে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "يَحُضُّ",
+          "translate_bn": "উৎসাহিত করে"
+        },
+        "3": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "ব্যাপারে"
+        },
+        "4": {
+          "words_ar": "طَعَامِ",
+          "translate_bn": "খাদ্যদানের"
+        },
+        "5": {
+          "words_ar": "الْمِسْكِينِ",
+          "translate_bn": "অভাবগ্রস্তকে"
+        }
+      },
+      "english_trans": "And does not urge (others) to feed the poor."
+    },
+    "4": {
+      "arabic_text": "فَوَيْلٌ لِلْمُصَلِّينَ",
+      "bangla_trans": "তারপর সেই নামাযীদের জন্য ধ্বংস,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَوَيْلٌ",
+          "translate_bn": "অতএব দুর্ভোগ"
+        },
+        "2": {
+          "words_ar": "لِلْمُصَلِّينَ",
+          "translate_bn": "(ঐসব) সালাত আদায়কারীদের জন্য"
+        }
+      },
+      "english_trans": "So woe to the praying ones,"
+    },
+    "5": {
+      "arabic_text": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
+      "bangla_trans": "যারা নিজেদের নামাযের ব্যাপারে গাফলতি করে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যাদের (বৈশিষ্ট্য হলো)"
+        },
+        "2": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারা"
+        },
+        "3": {
+          "words_ar": "عَنْ",
+          "translate_bn": "সম্বন্ধে"
+        },
+        "4": {
+          "words_ar": "صَلَاتِهِمْ",
+          "translate_bn": "তাদের সালাত"
+        },
+        "5": {
+          "words_ar": "سَاهُونَ",
+          "translate_bn": "উদাসীন"
+        }
+      },
+      "english_trans": "Who are unmindful of their prayers,"
+    },
+    "6": {
+      "arabic_text": "الَّذِينَ هُمْ يُرَاءُونَ",
+      "bangla_trans": "যারা লোক দেখানো কাজ করে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যাদের (বৈশিষ্ট্য হলো)"
+        },
+        "2": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারা"
+        },
+        "3": {
+          "words_ar": "يُرَاءُونَ",
+          "translate_bn": "লোকদেখানোর (কাজ করে)"
+        }
+      },
+      "english_trans": "Who do (good) to be seen,"
+    },
+    "7": {
+      "arabic_text": "وَيَمْنَعُونَ الْمَاعُونَ",
+      "bangla_trans": "এবং মামুলি প্রয়োজনের জিনিসপাতি (লোকদেরকে) দিতে বিরত থাকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَمْنَعُونَ",
+          "translate_bn": "এবং দেওয়া হতে বিরত থাকে"
+        },
+        "2": {
+          "words_ar": "الْمَاعُونَ",
+          "translate_bn": "সংসারের প্রয়োজনীয় ছোটখাটো জিনিসের"
+        }
+      },
+      "english_trans": "And withhold the necessaries of life."
+    }
+  }
+}

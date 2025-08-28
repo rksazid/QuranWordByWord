@@ -1,0 +1,431 @@
+{
+  "surah_id": 87,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
+      "bangla_trans": "(হে নবী!) তোমার সুমহান রবের নামের তাসবীহ পাঠ করো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَبِّحِ",
+          "translate_bn": "মহিমা ঘোষণা করো"
+        },
+        "2": {
+          "words_ar": "اسْمَ",
+          "translate_bn": "নামের"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "الْأَعْلَى",
+          "translate_bn": "সুমহান"
+        }
+      },
+      "english_trans": "Glorify the name of your Lord, the Most High,"
+    },
+    "2": {
+      "arabic_text": "الَّذِي خَلَقَ فَسَوَّى",
+      "bangla_trans": "যিনি সৃষ্টি করেছেন এবং সমতা কায়েম করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "2": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "সৃষ্টি করেছেন"
+        },
+        "3": {
+          "words_ar": "فَسَوَّىٰ",
+          "translate_bn": "অতঃপর সুবিন্যস্ত করেছেন"
+        }
+      },
+      "english_trans": "Who creates, then makes complete,"
+    },
+    "3": {
+      "arabic_text": "وَالَّذِي قَدَّرَ فَهَدَى",
+      "bangla_trans": "যিনি তাকদীর গড়েছেন তারপর পথ দেখিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِي",
+          "translate_bn": "এবং যিনি"
+        },
+        "2": {
+          "words_ar": "قَدَّرَ",
+          "translate_bn": "নিয়তি নির্ধারণ করেছেন"
+        },
+        "3": {
+          "words_ar": "فَهَدَىٰ",
+          "translate_bn": "অতঃপর পথ দেখিয়েছেন"
+        }
+      },
+      "english_trans": "And Who makes (things) according to a measure, then guides (them to their goal),"
+    },
+    "4": {
+      "arabic_text": "وَالَّذِي أَخْرَجَ الْمَرْعَى",
+      "bangla_trans": "যিনি উদ্ভিদ উৎপন্ন করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِي",
+          "translate_bn": "এবং যিনি"
+        },
+        "2": {
+          "words_ar": "أَخْرَجَ",
+          "translate_bn": "উৎপন্ন করেছেন"
+        },
+        "3": {
+          "words_ar": "الْمَرْعَىٰ",
+          "translate_bn": "তৃণ"
+        }
+      },
+      "english_trans": "And Who brings forth herbage,"
+    },
+    "5": {
+      "arabic_text": "فَجَعَلَهُ غُثَاءً أَحْوَى",
+      "bangla_trans": "তারপর তাদেরকে কালো আবর্জনায় পরিণত করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَجَعَلَهُ",
+          "translate_bn": "অতঃপর তা পরিণত করেছেন"
+        },
+        "2": {
+          "words_ar": "غُثَاءً",
+          "translate_bn": "আবর্জনায়"
+        },
+        "3": {
+          "words_ar": "أَحْوَىٰ",
+          "translate_bn": "কালো"
+        }
+      },
+      "english_trans": "Then makes it dried up, dust-colored."
+    },
+    "6": {
+      "arabic_text": "سَنُقْرِئُكَ فَلَا تَنْسَى",
+      "bangla_trans": "আমি তোমাকে পড়িয়ে দেবো, তারপর তুমি আর ভুলবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَنُقْرِئُكَ",
+          "translate_bn": "তোমাকে শীঘ্রই আমরা পড়িয়ে দেব"
+        },
+        "2": {
+          "words_ar": "فَلَا",
+          "translate_bn": "অতঃপর না"
+        },
+        "3": {
+          "words_ar": "تَنْسَىٰ",
+          "translate_bn": "তুমি ভুলবে"
+        }
+      },
+      "english_trans": "We will make you recite so you shall not forget,"
+    },
+    "7": {
+      "arabic_text": "إِلَّا مَا شَاءَ اللَّهُ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَى",
+      "bangla_trans": "তবে আল্লাহ‌ যা চান তা ছাড়া। তিনি জানেন প্রকাশ্য এবং যা কিছু গোপন আছে তাও।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ব্যতীত"
+        },
+        "2": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "3": {
+          "words_ar": "شَاءَ",
+          "translate_bn": "ইচ্ছা করেন"
+        },
+        "4": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ্‌"
+        },
+        "5": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয়ই তিনি"
+        },
+        "6": {
+          "words_ar": "يَعْلَمُ",
+          "translate_bn": "জানেন"
+        },
+        "7": {
+          "words_ar": "الْجَهْرَ",
+          "translate_bn": "প্রকাশ্য (বিষয়)"
+        },
+        "8": {
+          "words_ar": "وَمَا",
+          "translate_bn": "ও যা কিছু"
+        },
+        "9": {
+          "words_ar": "يَخْفَىٰ",
+          "translate_bn": "কেউ গোপন করে"
+        }
+      },
+      "english_trans": "Except what Allah pleases, surely He knows the manifest, and what is hidden."
+    },
+    "8": {
+      "arabic_text": "وَنُيَسِّرُكَ لِلْيُسْرَى",
+      "bangla_trans": "আর আমি তোমাকে সহজ পথের সুযোগ সুবিধা দিচ্ছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَنُيَسِّرُكَ",
+          "translate_bn": "এবং আমরা তোমাকে সহজ করে দিবো"
+        },
+        "2": {
+          "words_ar": "لِلْيُسْرَىٰ",
+          "translate_bn": "সহজ (পন্থাকে)"
+        }
+      },
+      "english_trans": "And We will make your way smooth to a state of ease."
+    },
+    "9": {
+      "arabic_text": "فَذَكِّرْ إِنْ نَفَعَتِ الذِّكْرَى",
+      "bangla_trans": "কাজেই তুমি উপদেশ দাও, যদি উপদেশ উপকারী হয়",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَذَكِّرْ",
+          "translate_bn": "অতঃপর উপদেশ দাও"
+        },
+        "2": {
+          "words_ar": "إِنْ",
+          "translate_bn": "যদি"
+        },
+        "3": {
+          "words_ar": "نَفَعَتِ",
+          "translate_bn": "কল্যাণকর হয়"
+        },
+        "4": {
+          "words_ar": "الذِّكْرَىٰ",
+          "translate_bn": "উপদেশ"
+        }
+      },
+      "english_trans": "Therefore do remind, surely reminding does profit."
+    },
+    "10": {
+      "arabic_text": "سَيَذَّكَّرُ مَنْ يَخْشَى",
+      "bangla_trans": "যে ভয় করে সে উপদেশ গ্রহণ করে নেবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَيَذَّكَّرُ",
+          "translate_bn": "সে শীঘ্রই শিক্ষা নেবে"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "يَخْشَىٰ",
+          "translate_bn": "ভয় করে"
+        }
+      },
+      "english_trans": "He who fears will mind,"
+    },
+    "11": {
+      "arabic_text": "وَيَتَجَنَّبُهَا الْأَشْقَى",
+      "bangla_trans": "আর তার প্রতি অবহেলা করবে নিতান্ত দুর্ভাগাই,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَتَجَنَّبُهَا",
+          "translate_bn": "আর তা পাশ কাটাবে উপেক্ষা করবে"
+        },
+        "2": {
+          "words_ar": "الْأَشْقَى",
+          "translate_bn": "নিতান্তই হতভাগা"
+        }
+      },
+      "english_trans": "And the most unfortunate one will avoid it,"
+    },
+    "12": {
+      "arabic_text": "الَّذِي يَصْلَى النَّارَ الْكُبْرَى",
+      "bangla_trans": "যে বৃহৎ আগুনে প্রবেশ করবে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যে"
+        },
+        "2": {
+          "words_ar": "يَصْلَى",
+          "translate_bn": "প্রবেশ করবে"
+        },
+        "3": {
+          "words_ar": "النَّارَ",
+          "translate_bn": "আগুনে"
+        },
+        "4": {
+          "words_ar": "الْكُبْرَىٰ",
+          "translate_bn": "ভয়াবহ"
+        }
+      },
+      "english_trans": "Who shall enter the great fire;"
+    },
+    "13": {
+      "arabic_text": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَى",
+      "bangla_trans": "তারপর সেখানে মরবেও না, বাঁচবেও না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "অতঃপর"
+        },
+        "2": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "يَمُوتُ",
+          "translate_bn": "সে মরবে"
+        },
+        "4": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "5": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "6": {
+          "words_ar": "يَحْيَىٰ",
+          "translate_bn": "বাঁচবে"
+        }
+      },
+      "english_trans": "Then therein he shall neither live nor die."
+    },
+    "14": {
+      "arabic_text": "قَدْ أَفْلَحَ مَنْ تَزَكَّى",
+      "bangla_trans": "সে সফলকাম হয়েছে, যে পবিত্রতা অবলম্বন করেছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قَدْ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "أَفْلَحَ",
+          "translate_bn": "সে সাফল্য পেলো"
+        },
+        "3": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "4": {
+          "words_ar": "تَزَكَّىٰ",
+          "translate_bn": "পবিত্র হলো"
+        }
+      },
+      "english_trans": "He indeed shall be successful who purifies himself,"
+    },
+    "15": {
+      "arabic_text": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّى",
+      "bangla_trans": "এবং নিজের রবের নাম স্মরণ করেছে তারপর নামায পড়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَذَكَرَ",
+          "translate_bn": "স্মরণ করল"
+        },
+        "2": {
+          "words_ar": "اسْمَ",
+          "translate_bn": "নাম"
+        },
+        "3": {
+          "words_ar": "رَبِّهِ",
+          "translate_bn": "তার রবের"
+        },
+        "4": {
+          "words_ar": "فَصَلَّىٰ",
+          "translate_bn": "অতঃপর সে সালাত পড়ল"
+        }
+      },
+      "english_trans": "And magnifies the name of his Lord and prays."
+    },
+    "16": {
+      "arabic_text": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا",
+      "bangla_trans": "কিন্তু তোমরা দুনিয়ার জীবনকে প্রাধান্য দিয়ে থাকো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "بَلْ",
+          "translate_bn": "বরং"
+        },
+        "2": {
+          "words_ar": "تُؤْثِرُونَ",
+          "translate_bn": "তোমরা প্রাধান্য দাও"
+        },
+        "3": {
+          "words_ar": "الْحَيَاةَ",
+          "translate_bn": "জীবনকে"
+        },
+        "4": {
+          "words_ar": "الدُّنْيَا",
+          "translate_bn": "দুনিয়ার পার্থিব"
+        }
+      },
+      "english_trans": "Nay! you prefer the life of this world,"
+    },
+    "17": {
+      "arabic_text": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَى",
+      "bangla_trans": "অথচ আখেরাত উৎকৃষ্ট ও স্থায়ী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْآخِرَةُ",
+          "translate_bn": "অথচ পরকাল"
+        },
+        "2": {
+          "words_ar": "خَيْرٌ",
+          "translate_bn": "উত্তম"
+        },
+        "3": {
+          "words_ar": "وَأَبْقَىٰ",
+          "translate_bn": "ও স্থায়ী"
+        }
+      },
+      "english_trans": "While the hereafter is better and more lasting."
+    },
+    "18": {
+      "arabic_text": "إِنَّ هَذَا لَفِي الصُّحُفِ الْأُولَى",
+      "bangla_trans": "পূর্বে অবতীর্ণ সহীফাগুলোয় একথাই বলা হয়েছিল,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "هَٰذَا",
+          "translate_bn": "এটা (ছিল)"
+        },
+        "3": {
+          "words_ar": "لَفِي",
+          "translate_bn": "অবশ্যই মধ্যে"
+        },
+        "4": {
+          "words_ar": "الصُّحُفِ",
+          "translate_bn": "সহীফাসমূহের"
+        },
+        "5": {
+          "words_ar": "الْأُولَىٰ",
+          "translate_bn": "পূর্ববর্তী"
+        }
+      },
+      "english_trans": "Most surely this is in the earlier scriptures,"
+    },
+    "19": {
+      "arabic_text": "صُحُفِ إِبْرَاهِيمَ وَمُوسَى",
+      "bangla_trans": "ইবরাহীম ও মূসার সহীফায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "صُحُفِ",
+          "translate_bn": "সহীফাসমূহে"
+        },
+        "2": {
+          "words_ar": "إِبْرَاهِيمَ",
+          "translate_bn": "ইব্রাহীমের"
+        },
+        "3": {
+          "words_ar": "وَمُوسَىٰ",
+          "translate_bn": "ও মূসার"
+        }
+      },
+      "english_trans": "The scriptures of Ibrahim and Musa."
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "surah_id": 102,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "أَلْهَاكُمُ التَّكَاثُرُ",
+      "bangla_trans": "বেশী বেশী এবং একে অপরের থেকে বেশী দুনিয়ার স্বার্থ লাভ করার মোহ তোমাদের গাফলতির মধ্যে ফেলে দিয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلْهَاكُمُ",
+          "translate_bn": "তোমাদের মোহাচ্ছন্ন করে রেখেছে"
+        },
+        "2": {
+          "words_ar": "التَّكَاثُرُ",
+          "translate_bn": "প্রাচুর্যের প্রতিযোগিতা"
+        }
+      },
+      "english_trans": "Abundance diverts you,"
+    },
+    "2": {
+      "arabic_text": "حَتَّى زُرْتُمُ الْمَقَابِرَ",
+      "bangla_trans": "এমনকি (এই চিন্তায় আচ্ছন্ন হয়ে) তোমরা কবর পর্যন্ত পৌঁছে যাও। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "حَتَّىٰ",
+          "translate_bn": "যতক্ষণ না"
+        },
+        "2": {
+          "words_ar": "زُرْتُمُ",
+          "translate_bn": "তোমরা উপস্থিত হও"
+        },
+        "3": {
+          "words_ar": "الْمَقَابِرَ",
+          "translate_bn": "কবরসমূহে"
+        }
+      },
+      "english_trans": "Until you come to the graves."
+    },
+    "3": {
+      "arabic_text": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "bangla_trans": "কখ্খনো না, শীঘ্রই তোমরা জানতে পারবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "এটা সঙ্গত নয়"
+        },
+        "2": {
+          "words_ar": "سَوْفَ",
+          "translate_bn": "শীঘ্রই"
+        },
+        "3": {
+          "words_ar": "تَعْلَمُونَ",
+          "translate_bn": "তোমরা জানবে"
+        }
+      },
+      "english_trans": "Nay! you shall soon know,"
+    },
+    "4": {
+      "arabic_text": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "bangla_trans": "আবার (শুনে নাও) কখ্খনো না শীঘ্রই তোমরা জানতে পারবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "আবার বলি"
+        },
+        "2": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "এটা সঙ্গত নয়"
+        },
+        "3": {
+          "words_ar": "سَوْفَ",
+          "translate_bn": "শীঘ্রই"
+        },
+        "4": {
+          "words_ar": "تَعْلَمُونَ",
+          "translate_bn": "তোমরা জানবে"
+        }
+      },
+      "english_trans": "Nay! Nay! you shall soon know."
+    },
+    "5": {
+      "arabic_text": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
+      "bangla_trans": "কখ্খনো না, যদি তোমরা নিশ্চিত জ্ঞানের ভিত্তিতে (এই আচরণের পরিণাম) জানতে (তাহলে তোমরা এ ধরনের কাজ করতে না)।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "সাবধান!"
+        },
+        "2": {
+          "words_ar": "لَوْ",
+          "translate_bn": "যদি"
+        },
+        "3": {
+          "words_ar": "تَعْلَمُونَ",
+          "translate_bn": "তোমরা জানতে"
+        },
+        "4": {
+          "words_ar": "عِلْمَ",
+          "translate_bn": "জ্ঞানে"
+        },
+        "5": {
+          "words_ar": "الْيَقِينِ",
+          "translate_bn": "নিশ্চিত"
+        }
+      },
+      "english_trans": "Nay! if you had known with a certain knowledge,"
+    },
+    "6": {
+      "arabic_text": "لَتَرَوُنَّ الْجَحِيمَ",
+      "bangla_trans": "তোমরা জাহান্নাম দেখবেই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَتَرَوُنَّ",
+          "translate_bn": "অবশ্যই তোমরা দেখবে"
+        },
+        "2": {
+          "words_ar": "الْجَحِيمَ",
+          "translate_bn": "দোযখ"
+        }
+      },
+      "english_trans": "You should most certainly have seen the hell;"
+    },
+    "7": {
+      "arabic_text": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
+      "bangla_trans": "আবার (শুনে নাও) তোমরা একেবারে স্থির নিশ্চিতভাবে তা দেখবেই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "আবার (শুনো)"
+        },
+        "2": {
+          "words_ar": "لَتَرَوُنَّهَا",
+          "translate_bn": "অবশ্যই তা তোমরা দেখবে"
+        },
+        "3": {
+          "words_ar": "عَيْنَ",
+          "translate_bn": "চোখে"
+        },
+        "4": {
+          "words_ar": "الْيَقِينِ",
+          "translate_bn": "প্রত্যয়"
+        }
+      },
+      "english_trans": "Then you shall most certainly see it with the eye of certainty;"
+    },
+    "8": {
+      "arabic_text": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
+      "bangla_trans": "তারপর অবশ্যই সেদিন তোমাদের এই নিয়ামতগুলো সম্পর্কে জিজ্ঞাসাবাদ করা হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "পরে"
+        },
+        "2": {
+          "words_ar": "لَتُسْأَلُنَّ",
+          "translate_bn": "অবশ্যই তোমাদের জিজ্ঞেস করা হবেই"
+        },
+        "3": {
+          "words_ar": "يَوْمَئِذٍ",
+          "translate_bn": "সেদিন"
+        },
+        "4": {
+          "words_ar": "عَنِ",
+          "translate_bn": "সম্পর্কে"
+        },
+        "5": {
+          "words_ar": "النَّعِيمِ",
+          "translate_bn": "নিয়ামতসমূহ"
+        }
+      },
+      "english_trans": "Then on that day you shall most certainly be questioned about the boons."
+    }
+  }
+}

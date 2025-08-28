@@ -1,0 +1,98 @@
+{
+  "surah_id": 112,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "bangla_trans": "বলো, তিনি আল্লাহ, একক।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনি"
+        },
+        "3": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "4": {
+          "words_ar": "أَحَدٌ",
+          "translate_bn": "এক-অদ্বিতীয়"
+        }
+      },
+      "english_trans": "Say: He, Allah, is One."
+    },
+    "2": {
+      "arabic_text": "اللَّهُ الصَّمَدُ",
+      "bangla_trans": "আল্লাহ কারোর ওপর নির্ভরশীল নন এবং সবাই তাঁর ওপর নির্ভরশীল।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "2": {
+          "words_ar": "الصَّمَدُ",
+          "translate_bn": "অমুখাপেক্ষী"
+        }
+      },
+      "english_trans": "Allah is He on Whom all depend."
+    },
+    "3": {
+      "arabic_text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "bangla_trans": "তাঁর কোন সন্তান নেই এবং তিনি কারোর সন্তান নন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَمْ",
+          "translate_bn": "নি"
+        },
+        "2": {
+          "words_ar": "يَلِدْ",
+          "translate_bn": "তিনি (কাউকে) জন্ম দেন"
+        },
+        "3": {
+          "words_ar": "وَلَمْ",
+          "translate_bn": "এবং নি"
+        },
+        "4": {
+          "words_ar": "يُولَدْ",
+          "translate_bn": "তাঁকে জন্ম দেয়া হয়"
+        }
+      },
+      "english_trans": "He begets not, nor is He begotten."
+    },
+    "4": {
+      "arabic_text": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+      "bangla_trans": "এবং তাঁর সমতুল্য কেউ নেই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَمْ",
+          "translate_bn": "এবং নাই"
+        },
+        "2": {
+          "words_ar": "يَكُنْ",
+          "translate_bn": "(হয়)"
+        },
+        "3": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তাঁর"
+        },
+        "4": {
+          "words_ar": "كُفُوًا",
+          "translate_bn": "সমতুল্য সমান"
+        },
+        "5": {
+          "words_ar": "أَحَدٌ",
+          "translate_bn": "কেউই"
+        }
+      },
+      "english_trans": "And none is like Him."
+    }
+  }
+}

@@ -1,0 +1,1807 @@
+{
+  "surah_id": 44,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "حم",
+      "bangla_trans": "হা-মীম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "حم",
+          "translate_bn": "হা-মীম"
+        }
+      },
+      "english_trans": "Ha Mim!"
+    },
+    "2": {
+      "arabic_text": "وَالْكِتَابِ الْمُبِينِ",
+      "bangla_trans": "এই সুস্পষ্ট কিতাবের শপথ,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْكِتَابِ",
+          "translate_bn": "শপথ (এই) কিতাবের"
+        },
+        "2": {
+          "words_ar": "الْمُبِينِ",
+          "translate_bn": "সুস্পষ্ট"
+        }
+      },
+      "english_trans": "I swear by the Book that makes manifest (the truth)."
+    },
+    "3": {
+      "arabic_text": "إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةٍ مُبَارَكَةٍ إِنَّا كُنَّا مُنْذِرِينَ",
+      "bangla_trans": "আমি এটি এক বরকত ও কল্যাণময় রাতে নাযিল করেছি। কারণ, আমি মানুষকে সতর্ক করতে চেয়েছিলাম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "2": {
+          "words_ar": "أَنْزَلْنَاهُ",
+          "translate_bn": "তা আমরা অবতীর্ণ করেছি"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "لَيْلَةٍ",
+          "translate_bn": "এক রাতের"
+        },
+        "5": {
+          "words_ar": "مُبَارَكَةٍ",
+          "translate_bn": "সৌভাগ্যময়"
+        },
+        "6": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "7": {
+          "words_ar": "كُنَّا",
+          "translate_bn": "আমরা ছিলাম"
+        },
+        "8": {
+          "words_ar": "مُنْذِرِينَ",
+          "translate_bn": "সতর্ককারী"
+        }
+      },
+      "english_trans": "Surely We revealed it on a blessed night surely We are ever warning--"
+    },
+    "4": {
+      "arabic_text": "فِيهَا يُفْرَقُ كُلُّ أَمْرٍ حَكِيمٍ",
+      "bangla_trans": "এটা ছিল সেই রাত যে রাতে  প্রতিটি বিষয়ের বিজ্ঞোচিত ফায়সালা দেয়া হয়ে থাকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে(অর্থাৎ সেই রাতে)"
+        },
+        "2": {
+          "words_ar": "يُفْرَقُ",
+          "translate_bn": "স্থির করা হয়"
+        },
+        "3": {
+          "words_ar": "كُلُّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "4": {
+          "words_ar": "أَمْرٍ",
+          "translate_bn": "বিষয়"
+        },
+        "5": {
+          "words_ar": "حَكِيمٍ",
+          "translate_bn": "বিজ্ঞতাপূর্ণ"
+        }
+      },
+      "english_trans": "Therein every wise affair is made distinct,"
+    },
+    "5": {
+      "arabic_text": "أَمْرًا مِنْ عِنْدِنَا إِنَّا كُنَّا مُرْسِلِينَ",
+      "bangla_trans": "আমার নির্দেশে।   আমি একজন রসূল পাঠাতে যাচ্ছিলাম  ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَمْرًا",
+          "translate_bn": "নির্দেশক্রমে"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "3": {
+          "words_ar": "عِنْدِنَا",
+          "translate_bn": "আমাদের নিকট"
+        },
+        "4": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "5": {
+          "words_ar": "كُنَّا",
+          "translate_bn": "আমরা ছিলাম"
+        },
+        "6": {
+          "words_ar": "مُرْسِلِينَ",
+          "translate_bn": "(এক রাসূল) প্রেরণকারী"
+        }
+      },
+      "english_trans": "A command from Us; surely We are the senders (of messengers),"
+    },
+    "6": {
+      "arabic_text": "رَحْمَةً مِنْ رَبِّكَ إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
+      "bangla_trans": "তোমার রবের রহমত স্বরূপ। নিশ্চয় তিনি সর্বশ্রোতা ও সর্বজ্ঞানী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "رَحْمَةً",
+          "translate_bn": "অনুগ্রহস্বরূপ"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "পক্ষ হতে"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয়ই তিনি"
+        },
+        "5": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনিই"
+        },
+        "6": {
+          "words_ar": "السَّمِيعُ",
+          "translate_bn": "সব কিছুই শুনেন"
+        },
+        "7": {
+          "words_ar": "الْعَلِيمُ",
+          "translate_bn": "সবকিছু জানেন"
+        }
+      },
+      "english_trans": "A mercy from your Lord, surely He is the Hearing, the Knowing,"
+    },
+    "7": {
+      "arabic_text": "رَبِّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا إِنْ كُنْتُمْ مُوقِنِينَ",
+      "bangla_trans": "তিনি আসমান ও যমীনের মাঝখানের প্রতিটি জিনিসের রব, যদি তোমরা সত্যিই দৃঢ় বিশ্বাস পোষণকারী হও। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "رَبِّ",
+          "translate_bn": "(তিনি) রব"
+        },
+        "2": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশের"
+        },
+        "3": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "ও পৃথিবীর"
+        },
+        "4": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যা কিছু"
+        },
+        "5": {
+          "words_ar": "بَيْنَهُمَا",
+          "translate_bn": "উভয়ের মাঝে আছে"
+        },
+        "6": {
+          "words_ar": "إِنْ",
+          "translate_bn": "যদি"
+        },
+        "7": {
+          "words_ar": "كُنْتُمْ",
+          "translate_bn": "তোমরা হয়ে থাকো"
+        },
+        "8": {
+          "words_ar": "مُوقِنِينَ",
+          "translate_bn": "নিশ্চিত বিশ্বাসী"
+        }
+      },
+      "english_trans": "The Lord of the heavens and the earth and what is between them, if you would be sure."
+    },
+    "8": {
+      "arabic_text": "لَا إِلَهَ إِلَّا هُوَ يُحْيِي وَيُمِيتُ رَبُّكُمْ وَرَبُّ آبَائِكُمُ الْأَوَّلِينَ",
+      "bangla_trans": "তিনি ছাড়া কোন উপাস্য নেই।  তিনিই জীবন দান করেন এবং মৃত্যু ঘটান।  তোমাদের রব ও তোমাদের পূর্ববর্তীদের রব যারা অতীত হয়ে গিয়েছেন। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَا",
+          "translate_bn": "নেই"
+        },
+        "2": {
+          "words_ar": "إِلَٰهَ",
+          "translate_bn": "কোনো ইলাহ"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ছাড়া"
+        },
+        "4": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনি"
+        },
+        "5": {
+          "words_ar": "يُحْيِي",
+          "translate_bn": "তিনি জীবন দেন"
+        },
+        "6": {
+          "words_ar": "وَيُمِيتُ",
+          "translate_bn": "এবং মৃত্যুও ঘটান"
+        },
+        "7": {
+          "words_ar": "رَبُّكُمْ",
+          "translate_bn": "তোমাদের রব"
+        },
+        "8": {
+          "words_ar": "وَرَبُّ",
+          "translate_bn": "ও রব"
+        },
+        "9": {
+          "words_ar": "آبَائِكُمُ",
+          "translate_bn": "তোমাদের পিতৃপুরুষদের"
+        },
+        "10": {
+          "words_ar": "الْأَوَّلِينَ",
+          "translate_bn": "পূর্বকালের"
+        }
+      },
+      "english_trans": "There is no god but He; He gives life and causes death, your Lord and the Lord of your fathers of yore."
+    },
+    "9": {
+      "arabic_text": "بَلْ هُمْ فِي شَكٍّ يَلْعَبُونَ",
+      "bangla_trans": "(কিন্তু বাস্তবে এসব লোকের দৃঢ় বিশ্বাস নেই) বরং তারা নিজেদের সন্দেহের মধ্যে পড়ে খেলছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "بَلْ",
+          "translate_bn": "বরং"
+        },
+        "2": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারা"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "شَكٍّ",
+          "translate_bn": "সন্দেহের"
+        },
+        "5": {
+          "words_ar": "يَلْعَبُونَ",
+          "translate_bn": "খেলা করছে"
+        }
+      },
+      "english_trans": "Nay, they are in doubt, they sport."
+    },
+    "10": {
+      "arabic_text": "فَارْتَقِبْ يَوْمَ تَأْتِي السَّمَاءُ بِدُخَانٍ مُبِينٍ",
+      "bangla_trans": "বেশ তো! সেই দিনের জন্য অপেক্ষা করো, যে দিন আসমান পরিষ্কার ধোঁয়া নিয়ে আসবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَارْتَقِبْ",
+          "translate_bn": "সুতরাং অপেক্ষা করো"
+        },
+        "2": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "সেই দিনের (যখন)"
+        },
+        "3": {
+          "words_ar": "تَأْتِي",
+          "translate_bn": "আসবে"
+        },
+        "4": {
+          "words_ar": "السَّمَاءُ",
+          "translate_bn": "আকাশ"
+        },
+        "5": {
+          "words_ar": "بِدُخَانٍ",
+          "translate_bn": "নিয়ে ধোঁয়া (আচ্ছন্ন হয়ে)"
+        },
+        "6": {
+          "words_ar": "مُبِينٍ",
+          "translate_bn": "সুস্পষ্ট"
+        }
+      },
+      "english_trans": "Therefore keep waiting for the day when the heaven shall bring an evident smoke,"
+    },
+    "11": {
+      "arabic_text": "يَغْشَى النَّاسَ هَذَا عَذَابٌ أَلِيمٌ",
+      "bangla_trans": "এবং তা মানুষকে আচ্ছন্ন করে ফেলবে। এটা কষ্টদায়ক শাস্তি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَغْشَى",
+          "translate_bn": "ঢেকে নিবে"
+        },
+        "2": {
+          "words_ar": "النَّاسَ",
+          "translate_bn": "মানুষকে"
+        },
+        "3": {
+          "words_ar": "هَٰذَا",
+          "translate_bn": "এটাই"
+        },
+        "4": {
+          "words_ar": "عَذَابٌ",
+          "translate_bn": "শাস্তি"
+        },
+        "5": {
+          "words_ar": "أَلِيمٌ",
+          "translate_bn": "নিদারুণ"
+        }
+      },
+      "english_trans": "That shall overtake men; this is a painful punishment."
+    },
+    "12": {
+      "arabic_text": "رَبَّنَا اكْشِفْ عَنَّا الْعَذَابَ إِنَّا مُؤْمِنُونَ",
+      "bangla_trans": "(এখন এরা বলে) হে প্রভু, আমাদের ওপর থেকে আযাব সরিয়ে দাও। আমরা ঈমান আনবো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "رَبَّنَا",
+          "translate_bn": "(এখন তারা বলে) হে আমাদের রব"
+        },
+        "2": {
+          "words_ar": "اكْشِفْ",
+          "translate_bn": "দূর করো"
+        },
+        "3": {
+          "words_ar": "عَنَّا",
+          "translate_bn": "আমাদের থেকে"
+        },
+        "4": {
+          "words_ar": "الْعَذَابَ",
+          "translate_bn": "শাস্তি"
+        },
+        "5": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "6": {
+          "words_ar": "مُؤْمِنُونَ",
+          "translate_bn": "বিশ্বাসী হবো (ঈমান আনবো)"
+        }
+      },
+      "english_trans": "Our Lord! remove from us the punishment; surely we are believers."
+    },
+    "13": {
+      "arabic_text": "أَنَّى لَهُمُ الذِّكْرَى وَقَدْ جَاءَهُمْ رَسُولٌ مُبِينٌ",
+      "bangla_trans": "কোথায় এদের গাফলতি দূর হচ্ছে? এদের অবস্থা তো এই যে, এদের কাছে ‘রসূলে মুবীন’ এসেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَنَّىٰ",
+          "translate_bn": "কেমন করে হবে"
+        },
+        "2": {
+          "words_ar": "لَهُمُ",
+          "translate_bn": "তাদের জন্যে"
+        },
+        "3": {
+          "words_ar": "الذِّكْرَىٰ",
+          "translate_bn": "উপদেশ গ্রহণ (সম্ভব হবে)"
+        },
+        "4": {
+          "words_ar": "وَقَدْ",
+          "translate_bn": "অথচ নিশ্চয়ই"
+        },
+        "5": {
+          "words_ar": "جَاءَهُمْ",
+          "translate_bn": "তাদের কাছে এসেছে"
+        },
+        "6": {
+          "words_ar": "رَسُولٌ",
+          "translate_bn": "একজন রাসূল"
+        },
+        "7": {
+          "words_ar": "مُبِينٌ",
+          "translate_bn": "সুস্পষ্ট"
+        }
+      },
+      "english_trans": "How shall they be reminded, and there came to them an Messenger making clear (the truth),"
+    },
+    "14": {
+      "arabic_text": "ثُمَّ تَوَلَّوْا عَنْهُ وَقَالُوا مُعَلَّمٌ مَجْنُونٌ",
+      "bangla_trans": "তা সত্ত্বেও এরা তার প্রতি ভ্রুক্ষেপ করেনি এবং বলেছেঃ এতো শিখিয়ে নেয়া পাগল।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "এরপরও"
+        },
+        "2": {
+          "words_ar": "تَوَلَّوْا",
+          "translate_bn": "তারা ফিরে যায়"
+        },
+        "3": {
+          "words_ar": "عَنْهُ",
+          "translate_bn": "তা হতে"
+        },
+        "4": {
+          "words_ar": "وَقَالُوا",
+          "translate_bn": "এবং তারা বললো"
+        },
+        "5": {
+          "words_ar": "مُعَلَّمٌ",
+          "translate_bn": "(সে একজন) প্রশিক্ষণপ্রাপ্ত"
+        },
+        "6": {
+          "words_ar": "مَجْنُونٌ",
+          "translate_bn": "পাগল"
+        }
+      },
+      "english_trans": "Yet they turned their backs on him and said: One taught (by others), a madman."
+    },
+    "15": {
+      "arabic_text": "إِنَّا كَاشِفُو الْعَذَابِ قَلِيلًا إِنَّكُمْ عَائِدُونَ",
+      "bangla_trans": "আমি আযাব কিছুটা সরিয়ে নিচ্ছি। এরপরও তোমরা যা আগে করছিলে তাই করবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "2": {
+          "words_ar": "كَاشِفُو",
+          "translate_bn": "দূর করে দিই"
+        },
+        "3": {
+          "words_ar": "الْعَذَابِ",
+          "translate_bn": "শাস্তি"
+        },
+        "4": {
+          "words_ar": "قَلِيلًا",
+          "translate_bn": "কিছুটা (তবুও)"
+        },
+        "5": {
+          "words_ar": "إِنَّكُمْ",
+          "translate_bn": "তোমরা নিশ্চয়ই"
+        },
+        "6": {
+          "words_ar": "عَائِدُونَ",
+          "translate_bn": "আগের অবস্হায় ফিরে যাও (যা পূর্বে করতে)"
+        }
+      },
+      "english_trans": "Surely We will remove the punishment a little, (but) you will surely return (to evil)."
+    },
+    "16": {
+      "arabic_text": "يَوْمَ نَبْطِشُ الْبَطْشَةَ الْكُبْرَى إِنَّا مُنْتَقِمُونَ",
+      "bangla_trans": "যেদিন আমি বড় আঘাত করবো, সেদিন আমি তোমাদের থেকে প্রতিশোধ গ্রহণ করবো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "যেদিন"
+        },
+        "2": {
+          "words_ar": "نَبْطِشُ",
+          "translate_bn": "আমরা পাকড়াও করবো"
+        },
+        "3": {
+          "words_ar": "الْبَطْشَةَ",
+          "translate_bn": "পাকড়াও"
+        },
+        "4": {
+          "words_ar": "الْكُبْرَىٰ",
+          "translate_bn": "কঠিনভাবে"
+        },
+        "5": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "6": {
+          "words_ar": "مُنْتَقِمُونَ",
+          "translate_bn": "প্রতিশোধ গ্রহণকারী(সেহদিন)"
+        }
+      },
+      "english_trans": "On the day when We will seize (them) with the most violent seizing; surely We will inflict retribution."
+    },
+    "17": {
+      "arabic_text": "وَلَقَدْ فَتَنَّا قَبْلَهُمْ قَوْمَ فِرْعَوْنَ وَجَاءَهُمْ رَسُولٌ كَرِيمٌ",
+      "bangla_trans": "আমি এর আগে ফেরাউনের কওমকেও এই পরীক্ষায় ফেলেছিলাম। তাদের কাছে একজন সম্ভ্রান্ত রসূল এসেছিলেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَقَدْ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "فَتَنَّا",
+          "translate_bn": "আমরা পরীক্ষা করেছি"
+        },
+        "3": {
+          "words_ar": "قَبْلَهُمْ",
+          "translate_bn": "তাদের পুর্বে"
+        },
+        "4": {
+          "words_ar": "قَوْمَ",
+          "translate_bn": "জাতিকে"
+        },
+        "5": {
+          "words_ar": "فِرْعَوْنَ",
+          "translate_bn": "ফিরআউনের"
+        },
+        "6": {
+          "words_ar": "وَجَاءَهُمْ",
+          "translate_bn": "এবং তাদের কাছে এসেছিলো"
+        },
+        "7": {
+          "words_ar": "رَسُولٌ",
+          "translate_bn": "একজন রাসূল"
+        },
+        "8": {
+          "words_ar": "كَرِيمٌ",
+          "translate_bn": "মহান"
+        }
+      },
+      "english_trans": "And certainly We tried before them the people of Firon, and there came to them a noble messenger,"
+    },
+    "18": {
+      "arabic_text": "أَنْ أَدُّوا إِلَيَّ عِبَادَ اللَّهِ إِنِّي لَكُمْ رَسُولٌ أَمِينٌ",
+      "bangla_trans": "তিনি বললেনঃ আল্লাহর বান্দাদেরকে আমার কাছে সোপর্দ করো। আমি তোমাদের জন্য একজন বিশ্বস্ত রসূল। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَنْ",
+          "translate_bn": "(সে বলেছিলো) যে"
+        },
+        "2": {
+          "words_ar": "أَدُّوا",
+          "translate_bn": "তোমরা সমর্পণ করো"
+        },
+        "3": {
+          "words_ar": "إِلَيَّ",
+          "translate_bn": "আমার কাছে"
+        },
+        "4": {
+          "words_ar": "عِبَادَ",
+          "translate_bn": "দাসদেরকে"
+        },
+        "5": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহ্‌র"
+        },
+        "6": {
+          "words_ar": "إِنِّي",
+          "translate_bn": "নিশ্চয়ই আমি"
+        },
+        "7": {
+          "words_ar": "لَكُمْ",
+          "translate_bn": "তোমাদের জন্যে"
+        },
+        "8": {
+          "words_ar": "رَسُولٌ",
+          "translate_bn": "রাসূল"
+        },
+        "9": {
+          "words_ar": "أَمِينٌ",
+          "translate_bn": "বিশ্বস্ত"
+        }
+      },
+      "english_trans": "Saying: Deliver to me the servants of Allah, surely I am a faithful messenger to you,"
+    },
+    "19": {
+      "arabic_text": "وَأَنْ لَا تَعْلُوا عَلَى اللَّهِ إِنِّي آتِيكُمْ بِسُلْطَانٍ مُبِينٍ",
+      "bangla_trans": "আল্লাহর বিরুদ্ধে বিদ্রোহ করো না। আমি তোমাদের কাছে (আমার নিযুক্তির) স্পষ্ট সনদ পেশ করছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَنْ",
+          "translate_bn": "এবং (এও বলেছিল) যে"
+        },
+        "2": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "تَعْلُوا",
+          "translate_bn": "বড়াই করো"
+        },
+        "4": {
+          "words_ar": "عَلَى",
+          "translate_bn": "উপর"
+        },
+        "5": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহ্‌র"
+        },
+        "6": {
+          "words_ar": "إِنِّي",
+          "translate_bn": "আমি নিশ্চয়ই"
+        },
+        "7": {
+          "words_ar": "آتِيكُمْ",
+          "translate_bn": "তোমাদের কাছে এসেছি"
+        },
+        "8": {
+          "words_ar": "بِسُلْطَانٍ",
+          "translate_bn": "নিয়ে প্রমাণ"
+        },
+        "9": {
+          "words_ar": "مُبِينٍ",
+          "translate_bn": "সুস্পষ্ট"
+        }
+      },
+      "english_trans": "And that do not exalt yourselves against Allah, surely I will bring to you a clear authority:"
+    },
+    "20": {
+      "arabic_text": "وَإِنِّي عُذْتُ بِرَبِّي وَرَبِّكُمْ أَنْ تَرْجُمُونِ",
+      "bangla_trans": "তোমরা আমার ওপরে হামলা করে বসবে, এ ব্যাপার আমি আমার ও তোমাদের রবের আশ্রয় নিয়েছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنِّي",
+          "translate_bn": "এবং নিশ্চয়ই আমি"
+        },
+        "2": {
+          "words_ar": "عُذْتُ",
+          "translate_bn": "আশ্রয় নিয়েছি"
+        },
+        "3": {
+          "words_ar": "بِرَبِّي",
+          "translate_bn": "আমার রবের (কাছে)"
+        },
+        "4": {
+          "words_ar": "وَرَبِّكُمْ",
+          "translate_bn": "এবং তোমাদের (প্রকৃত রবের)"
+        },
+        "5": {
+          "words_ar": "أَنْ",
+          "translate_bn": "(এ হতে) যে"
+        },
+        "6": {
+          "words_ar": "تَرْجُمُونِ",
+          "translate_bn": "আমাকে তোমরা পাথর মেরে হত্যা করবে"
+        }
+      },
+      "english_trans": "And surely I take refuge with my Lord and your Lord that you should stone me to death:"
+    },
+    "21": {
+      "arabic_text": "وَإِنْ لَمْ تُؤْمِنُوا لِي فَاعْتَزِلُونِ",
+      "bangla_trans": "তোমরা যদি আমার কথা না মানো, তাহলে আমাকে আঘাত করা থেকে বিরত থাকো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنْ",
+          "translate_bn": "আর যদি"
+        },
+        "2": {
+          "words_ar": "لَمْ",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "تُؤْمِنُوا",
+          "translate_bn": "তোমরা ঈমান আনো"
+        },
+        "4": {
+          "words_ar": "لِي",
+          "translate_bn": "আমার উপর"
+        },
+        "5": {
+          "words_ar": "فَاعْتَزِلُونِ",
+          "translate_bn": "তবে আমার থেকে দূরে থাকো"
+        }
+      },
+      "english_trans": "And if you do not believe in me, then leave me alone."
+    },
+    "22": {
+      "arabic_text": "فَدَعَا رَبَّهُ أَنَّ هَؤُلَاءِ قَوْمٌ مُجْرِمُونَ",
+      "bangla_trans": "অবশেষে তিনি তাঁর রবকে ডেকে বললেন, এসব লোক অপরাধী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَدَعَا",
+          "translate_bn": "অবশেষে সে ডাকলো"
+        },
+        "2": {
+          "words_ar": "رَبَّهُ",
+          "translate_bn": "তার রবকে"
+        },
+        "3": {
+          "words_ar": "أَنَّ",
+          "translate_bn": "(এবং বললো) যে"
+        },
+        "4": {
+          "words_ar": "هَٰؤُلَاءِ",
+          "translate_bn": "এসব"
+        },
+        "5": {
+          "words_ar": "قَوْمٌ",
+          "translate_bn": "সম্প্রদায়"
+        },
+        "6": {
+          "words_ar": "مُجْرِمُونَ",
+          "translate_bn": "অপরাধী (তাদের মীমাংসা করো)"
+        }
+      },
+      "english_trans": "Then he called upon his Lord: These are a guilty people."
+    },
+    "23": {
+      "arabic_text": "فَأَسْرِ بِعِبَادِي لَيْلًا إِنَّكُمْ مُتَّبَعُونَ",
+      "bangla_trans": "(জবাব দেয়া হলো) বেশ তাহলে রাতের মধ্যেই আমার বান্দাদের নিয়ে বেরিয়ে পড়ো। তোমাদের পিছু ধাওয়া করা হবে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَسْرِ",
+          "translate_bn": "(বলা হলো) রওনা হও তাহলে"
+        },
+        "2": {
+          "words_ar": "بِعِبَادِي",
+          "translate_bn": "আমার দাসদের নিয়ে"
+        },
+        "3": {
+          "words_ar": "لَيْلًا",
+          "translate_bn": "রাতে"
+        },
+        "4": {
+          "words_ar": "إِنَّكُمْ",
+          "translate_bn": "নিশ্চয়ই তোমাদের"
+        },
+        "5": {
+          "words_ar": "مُتَّبَعُونَ",
+          "translate_bn": "পিছনে (ধাওয়া) করা হবে"
+        }
+      },
+      "english_trans": "So go forth with My servants by night; surely you will be pursued:"
+    },
+    "24": {
+      "arabic_text": "وَاتْرُكِ الْبَحْرَ رَهْوًا إِنَّهُمْ جُنْدٌ مُغْرَقُونَ",
+      "bangla_trans": "সমুদ্রকে আপন অবস্থায় উন্মুক্ত থাকতে দাও। এই পুরো সেনাবাহিনী নিমজ্জিত হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَاتْرُكِ",
+          "translate_bn": "এবং ছেড়ে দাও"
+        },
+        "2": {
+          "words_ar": "الْبَحْرَ",
+          "translate_bn": "সাগরকে"
+        },
+        "3": {
+          "words_ar": "رَهْوًا",
+          "translate_bn": "শান্ত অবস্হায়"
+        },
+        "4": {
+          "words_ar": "إِنَّهُمْ",
+          "translate_bn": "তারা নিশ্চয়ই"
+        },
+        "5": {
+          "words_ar": "جُنْدٌ",
+          "translate_bn": "(অর্থাৎ ধাওয়াকারী) সৈন্যবাহিনী"
+        },
+        "6": {
+          "words_ar": "مُغْرَقُونَ",
+          "translate_bn": "ডুবে যাবে"
+        }
+      },
+      "english_trans": "And leave the sea intervening; surely they are a host that shall be drowned."
+    },
+    "25": {
+      "arabic_text": "كَمْ تَرَكُوا مِنْ جَنَّاتٍ وَعُيُونٍ",
+      "bangla_trans": "কত বাগ-বাগীচা, ঝর্ণাধারা,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَمْ",
+          "translate_bn": "কতই না"
+        },
+        "2": {
+          "words_ar": "تَرَكُوا",
+          "translate_bn": "তারা ছেড়েছিলো"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "4": {
+          "words_ar": "جَنَّاتٍ",
+          "translate_bn": "বাগান"
+        },
+        "5": {
+          "words_ar": "وَعُيُونٍ",
+          "translate_bn": "ও ঝর্ণাসমূহ"
+        }
+      },
+      "english_trans": "How many of the gardens and fountains have they left!"
+    },
+    "26": {
+      "arabic_text": "وَزُرُوعٍ وَمَقَامٍ كَرِيمٍ",
+      "bangla_trans": "ফসল ও জমকালো প্রাসাদ তারা ছেড়ে গিয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَزُرُوعٍ",
+          "translate_bn": "এবং শস্যক্ষেত"
+        },
+        "2": {
+          "words_ar": "وَمَقَامٍ",
+          "translate_bn": "ও বাসস্থান"
+        },
+        "3": {
+          "words_ar": "كَرِيمٍ",
+          "translate_bn": "সুন্দর"
+        }
+      },
+      "english_trans": "And cornfields and noble places!"
+    },
+    "27": {
+      "arabic_text": "وَنَعْمَةٍ كَانُوا فِيهَا فَاكِهِينَ",
+      "bangla_trans": "তাদের পিছনে কত ভোগের উপকরণ পড়ে রইলো যা নিয়ে তারা ফুর্তিতে মেতে থাকতো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَنَعْمَةٍ",
+          "translate_bn": "এবং বিলাস"
+        },
+        "2": {
+          "words_ar": "كَانُوا",
+          "translate_bn": "তারা ছিলো"
+        },
+        "3": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "যার মধ্যে"
+        },
+        "4": {
+          "words_ar": "فَاكِهِينَ",
+          "translate_bn": "আনন্দকারী (সব ছেড়ে চলে গেলো)"
+        }
+      },
+      "english_trans": "And goodly things wherein they rejoiced;"
+    },
+    "28": {
+      "arabic_text": "كَذَلِكَ وَأَوْرَثْنَاهَا قَوْمًا آخَرِينَ",
+      "bangla_trans": "এই হয়েছে তাদের পরিণাম। আমি অন্যদেরকে এসব জিনিসের উত্তরাধিকারী বানিয়ে দিয়েছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَذَٰلِكَ",
+          "translate_bn": "এভাবেই (পরিণাম হয়েছিলো)"
+        },
+        "2": {
+          "words_ar": "وَأَوْرَثْنَاهَا",
+          "translate_bn": "এবং তার আমরা উত্তরাধিকারী করেছিলাম"
+        },
+        "3": {
+          "words_ar": "قَوْمًا",
+          "translate_bn": "সম্প্রদায়কে"
+        },
+        "4": {
+          "words_ar": "آخَرِينَ",
+          "translate_bn": "অন্য"
+        }
+      },
+      "english_trans": "Thus (it was), and We gave them as a heritage to another people."
+    },
+    "29": {
+      "arabic_text": "فَمَا بَكَتْ عَلَيْهِمُ السَّمَاءُ وَالْأَرْضُ وَمَا كَانُوا مُنْظَرِينَ",
+      "bangla_trans": "অতঃপর না আসমান তাদের জন্য কেঁদেছে না যমীন এবং সামান্যতম অবকাশও তাদের দেয়া হয়নি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَمَا",
+          "translate_bn": "না অতঃপর"
+        },
+        "2": {
+          "words_ar": "بَكَتْ",
+          "translate_bn": "কাঁদলো"
+        },
+        "3": {
+          "words_ar": "عَلَيْهِمُ",
+          "translate_bn": "তাদের উপর"
+        },
+        "4": {
+          "words_ar": "السَّمَاءُ",
+          "translate_bn": "আকাশ"
+        },
+        "5": {
+          "words_ar": "وَالْأَرْضُ",
+          "translate_bn": "আর (না) পৃথিবী"
+        },
+        "6": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "7": {
+          "words_ar": "كَانُوا",
+          "translate_bn": "তারা ছিলো"
+        },
+        "8": {
+          "words_ar": "مُنْظَرِينَ",
+          "translate_bn": "অবকাশপ্রাপ্ত"
+        }
+      },
+      "english_trans": "So the heaven and the earth did not weep for them, nor were they respited."
+    },
+    "30": {
+      "arabic_text": "وَلَقَدْ نَجَّيْنَا بَنِي إِسْرَائِيلَ مِنَ الْعَذَابِ الْمُهِينِ",
+      "bangla_trans": "এভাবে আমি নাযাত দিয়েছিলাম বন্দি বনী ইসরাঈলদের কঠিন অপমানজনক আযাব, ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَقَدْ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "نَجَّيْنَا",
+          "translate_bn": "আমরা উদ্ধার করেছিলাম"
+        },
+        "3": {
+          "words_ar": "بَنِي",
+          "translate_bn": "বনী"
+        },
+        "4": {
+          "words_ar": "إِسْرَائِيلَ",
+          "translate_bn": "ইসরাঈলকে"
+        },
+        "5": {
+          "words_ar": "مِنَ",
+          "translate_bn": "থেকে"
+        },
+        "6": {
+          "words_ar": "الْعَذَابِ",
+          "translate_bn": "শাস্তি"
+        },
+        "7": {
+          "words_ar": "الْمُهِينِ",
+          "translate_bn": "অপমানজনক"
+        }
+      },
+      "english_trans": "And certainly We delivered the children of Israel from the abasing chastisement,"
+    },
+    "31": {
+      "arabic_text": "مِنْ فِرْعَوْنَ إِنَّهُ كَانَ عَالِيًا مِنَ الْمُسْرِفِينَ",
+      "bangla_trans": "ফেরাউন  থেকে ।  সীমালংঘনকারীদের মধ্যে সে ছিল প্রকৃতই উচ্চ পর্যায়ের লোক।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مِنْ",
+          "translate_bn": "দেওয়া"
+        },
+        "2": {
+          "words_ar": "فِرْعَوْنَ",
+          "translate_bn": "ফিরআউনের"
+        },
+        "3": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "সে নিশ্চয়ই"
+        },
+        "4": {
+          "words_ar": "كَانَ",
+          "translate_bn": "ছিলো"
+        },
+        "5": {
+          "words_ar": "عَالِيًا",
+          "translate_bn": "পরাক্রান্ত"
+        },
+        "6": {
+          "words_ar": "مِنَ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "7": {
+          "words_ar": "الْمُسْرِفِينَ",
+          "translate_bn": "সীমালংঘনকারীদের"
+        }
+      },
+      "english_trans": "From Firon; surely he was haughty, (and) one of the extravagant."
+    },
+    "32": {
+      "arabic_text": "وَلَقَدِ اخْتَرْنَاهُمْ عَلَى عِلْمٍ عَلَى الْعَالَمِينَ",
+      "bangla_trans": "তাদের অবস্থা জেনে শুনেই আমি দুনিয়ার অন্য সব জাতির ওপর তাদের অগ্রাধিকার দিয়েছিলাম। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَقَدِ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "اخْتَرْنَاهُمْ",
+          "translate_bn": "তাদেরকে (বনী ইসরাঈলকে) আমরা মনোনীত করেছিলাম"
+        },
+        "3": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "ভিত্তিতে"
+        },
+        "4": {
+          "words_ar": "عِلْمٍ",
+          "translate_bn": "জ্ঞানের"
+        },
+        "5": {
+          "words_ar": "عَلَى",
+          "translate_bn": "উপর"
+        },
+        "6": {
+          "words_ar": "الْعَالَمِينَ",
+          "translate_bn": "বিশ্ববাসীর (অন্যান্য জাতির)"
+        }
+      },
+      "english_trans": "And certainly We chose them, having knowledge, above the nations."
+    },
+    "33": {
+      "arabic_text": "وَآتَيْنَاهُمْ مِنَ الْآيَاتِ مَا فِيهِ بَلَاءٌ مُبِينٌ",
+      "bangla_trans": "তাদেরকে এমন সব নিদর্শন দেখিয়েছিলাম যার মধ্যে সুস্পষ্ট পরীক্ষা ছিল। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَآتَيْنَاهُمْ",
+          "translate_bn": "এবং তাদেরকে আমরা দিয়েছিলাম"
+        },
+        "2": {
+          "words_ar": "مِنَ",
+          "translate_bn": "কিছু"
+        },
+        "3": {
+          "words_ar": "الْآيَاتِ",
+          "translate_bn": "নিদর্শনাবলী"
+        },
+        "4": {
+          "words_ar": "مَا",
+          "translate_bn": "যার"
+        },
+        "5": {
+          "words_ar": "فِيهِ",
+          "translate_bn": "মধ্যে ছিলো"
+        },
+        "6": {
+          "words_ar": "بَلَاءٌ",
+          "translate_bn": "পরীক্ষা"
+        },
+        "7": {
+          "words_ar": "مُبِينٌ",
+          "translate_bn": "সুস্পষ্ট"
+        }
+      },
+      "english_trans": "And We gave them of the communications wherein was clear blessing."
+    },
+    "34": {
+      "arabic_text": "إِنَّ هَؤُلَاءِ لَيَقُولُونَ",
+      "bangla_trans": " নিশ্চয়ই, এরা অবশ্যই বলে, ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "هَٰؤُلَاءِ",
+          "translate_bn": "এসব লোক"
+        },
+        "3": {
+          "words_ar": "لَيَقُولُونَ",
+          "translate_bn": "অবশ্যই বলে"
+        }
+      },
+      "english_trans": "Most surely these do say:"
+    },
+    "35": {
+      "arabic_text": "إِنْ هِيَ إِلَّا مَوْتَتُنَا الْأُولَى وَمَا نَحْنُ بِمُنْشَرِينَ",
+      "bangla_trans": " আমাদের প্রথম মৃত্যু ছাড়া আর কিছুই নেই।এরপর আমাদের পুনরায় আর উঠানো হবে না। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنْ",
+          "translate_bn": "নেই"
+        },
+        "2": {
+          "words_ar": "هِيَ",
+          "translate_bn": "তা"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ব্যতীত"
+        },
+        "4": {
+          "words_ar": "مَوْتَتُنَا",
+          "translate_bn": "আমাদের মৃত্যু"
+        },
+        "5": {
+          "words_ar": "الْأُولَىٰ",
+          "translate_bn": "প্রথম (অর্থাৎ মৃতই শেষ)"
+        },
+        "6": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "7": {
+          "words_ar": "نَحْنُ",
+          "translate_bn": "আমরা"
+        },
+        "8": {
+          "words_ar": "بِمُنْشَرِينَ",
+          "translate_bn": "উত্থিত হবো"
+        }
+      },
+      "english_trans": "There is naught but our first death and we shall not be raised again."
+    },
+    "36": {
+      "arabic_text": "فَأْتُوا بِآبَائِنَا إِنْ كُنْتُمْ صَادِقِينَ",
+      "bangla_trans": "“যদি তুমি সত্যবাদী হয়ে থাকো তাহলে আমাদের বাপ-দাদাদের জীবিত করে আনো।”",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأْتُوا",
+          "translate_bn": "তোমরা তবে আসো"
+        },
+        "2": {
+          "words_ar": "بِآبَائِنَا",
+          "translate_bn": "নিয়ে আমাদের পিতৃপুরুষদেরকে"
+        },
+        "3": {
+          "words_ar": "إِنْ",
+          "translate_bn": "যদি"
+        },
+        "4": {
+          "words_ar": "كُنْتُمْ",
+          "translate_bn": "তোমরা হও"
+        },
+        "5": {
+          "words_ar": "صَادِقِينَ",
+          "translate_bn": "সত্যবাদী"
+        }
+      },
+      "english_trans": "So bring our fathers (back), if you are truthful."
+    },
+    "37": {
+      "arabic_text": "أَهُمْ خَيْرٌ أَمْ قَوْمُ تُبَّعٍ وَالَّذِينَ مِنْ قَبْلِهِمْ أَهْلَكْنَاهُمْ إِنَّهُمْ كَانُوا مُجْرِمِينَ",
+      "bangla_trans": "‘এরাই উত্তম না তুব্বা’ কওম  এবং তাদের পূর্ববর্তী লোকেরা? আমি তাদের ধ্বংস করেছিলাম। কারণ তারা অপরাধী হয়ে গিয়েছিলো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَهُمْ",
+          "translate_bn": "(তাদেরকে বলো) তারা কি"
+        },
+        "2": {
+          "words_ar": "خَيْرٌ",
+          "translate_bn": "উত্তম"
+        },
+        "3": {
+          "words_ar": "أَمْ",
+          "translate_bn": "অথবা"
+        },
+        "4": {
+          "words_ar": "قَوْمُ",
+          "translate_bn": "জাতি"
+        },
+        "5": {
+          "words_ar": "تُبَّعٍ",
+          "translate_bn": "তুব্বার"
+        },
+        "6": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা (ছিলো)"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "8": {
+          "words_ar": "قَبْلِهِمْ",
+          "translate_bn": "তাদের পূর্বে"
+        },
+        "9": {
+          "words_ar": "أَهْلَكْنَاهُمْ",
+          "translate_bn": "তাদেরকে আমরা ধ্বংস করেছি"
+        },
+        "10": {
+          "words_ar": "إِنَّهُمْ",
+          "translate_bn": "তারা নিশ্চয়ই"
+        },
+        "11": {
+          "words_ar": "كَانُوا",
+          "translate_bn": "ছিলো"
+        },
+        "12": {
+          "words_ar": "مُجْرِمِينَ",
+          "translate_bn": "অপরাধী"
+        }
+      },
+      "english_trans": "Are they better or the people of Tubba and those before them? We destroyed them, for surely they were guilty."
+    },
+    "38": {
+      "arabic_text": "وَمَا خَلَقْنَا السَّمَاوَاتِ وَالْأَرْضَ وَمَا بَيْنَهُمَا لَاعِبِينَ",
+      "bangla_trans": "আমি এ আসমান ও যমীন এবং এর কাছের সমস্ত জিনিস খেলাচ্ছলে তৈরি করিনি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "خَلَقْنَا",
+          "translate_bn": "আমরা সৃষ্টি করেছি"
+        },
+        "3": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশকে"
+        },
+        "4": {
+          "words_ar": "وَالْأَرْضَ",
+          "translate_bn": "ও পৃথিবীকে"
+        },
+        "5": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যা কিছু"
+        },
+        "6": {
+          "words_ar": "بَيْنَهُمَا",
+          "translate_bn": "উভয়ের মাঝে আছে"
+        },
+        "7": {
+          "words_ar": "لَاعِبِينَ",
+          "translate_bn": "খেলাচ্ছলে"
+        }
+      },
+      "english_trans": "And We did not create the heavens and the earth and what is between them in sport."
+    },
+    "39": {
+      "arabic_text": "مَا خَلَقْنَاهُمَا إِلَّا بِالْحَقِّ وَلَكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "bangla_trans": "এসবই আমি যথাযথ উদ্দেশ্যে সৃষ্টি করেছি। কিন্তু অধিকাংশ লোকই জানে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "خَلَقْنَاهُمَا",
+          "translate_bn": "উভয়কে আমরা সৃষ্টি করেছি"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ব্যতীত"
+        },
+        "4": {
+          "words_ar": "بِالْحَقِّ",
+          "translate_bn": "সত্যসহ"
+        },
+        "5": {
+          "words_ar": "وَلَٰكِنَّ",
+          "translate_bn": "কিন্তু"
+        },
+        "6": {
+          "words_ar": "أَكْثَرَهُمْ",
+          "translate_bn": "তাদের অধিকাংশই"
+        },
+        "7": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "8": {
+          "words_ar": "يَعْلَمُونَ",
+          "translate_bn": "জানে"
+        }
+      },
+      "english_trans": "We did not create them both but with the truth, but most of them do not know."
+    },
+    "40": {
+      "arabic_text": "إِنَّ يَوْمَ الْفَصْلِ مِيقَاتُهُمْ أَجْمَعِينَ",
+      "bangla_trans": "এদের সবার পুনরুজ্জীবনের জন্য নির্ধারিত সময়টিই এদের ফায়সালার দিন। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই (আসবে)"
+        },
+        "2": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "দিন"
+        },
+        "3": {
+          "words_ar": "الْفَصْلِ",
+          "translate_bn": "মীমাংসার"
+        },
+        "4": {
+          "words_ar": "مِيقَاتُهُمْ",
+          "translate_bn": "তাদের নির্ধারিত সময়ে"
+        },
+        "5": {
+          "words_ar": "أَجْمَعِينَ",
+          "translate_bn": "সকলেরই"
+        }
+      },
+      "english_trans": "Surely the day of separation is their appointed term, of all of them"
+    },
+    "41": {
+      "arabic_text": "يَوْمَ لَا يُغْنِي مَوْلًى عَنْ مَوْلًى شَيْئًا وَلَا هُمْ يُنْصَرُونَ",
+      "bangla_trans": "সেটি এমন দিন যেদিন কোন নিকটতম প্রিয়জনও কোন নিকটতম প্রিয়জনের কাজে আসবে না  এবং  তারা কোথাও থেকে কোন সাহায্য লাভ করবে না",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "যেদিন"
+        },
+        "2": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "يُغْنِي",
+          "translate_bn": "কাজে লাগবে"
+        },
+        "4": {
+          "words_ar": "مَوْلًى",
+          "translate_bn": "কোনো বন্ধু"
+        },
+        "5": {
+          "words_ar": "عَنْ",
+          "translate_bn": "জন্যে"
+        },
+        "6": {
+          "words_ar": "مَوْلًى",
+          "translate_bn": "(অপর) কোনো বন্ধুর"
+        },
+        "7": {
+          "words_ar": "شَيْئًا",
+          "translate_bn": "কিছুমাত্র"
+        },
+        "8": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "9": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তাদের"
+        },
+        "10": {
+          "words_ar": "يُنْصَرُونَ",
+          "translate_bn": "সাহায্য করা হবে"
+        }
+      },
+      "english_trans": "The day on which a friend shall not avail (his) friend aught, nor shall they be helped,"
+    },
+    "42": {
+      "arabic_text": "إِلَّا مَنْ رَحِمَ اللَّهُ إِنَّهُ هُوَ الْعَزِيزُ الرَّحِيمُ",
+      "bangla_trans": "শুধুমাত্র আল্লাহ‌ যাকে রহমত দান করবেন সে ছাড়া । তিনি মহাপরাক্রমশালী ও অত্যন্ত দয়াবান।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "কিন্তু"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যাকে"
+        },
+        "3": {
+          "words_ar": "رَحِمَ",
+          "translate_bn": "দয়া করবেন"
+        },
+        "4": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ (সেটা অন্য কথা)"
+        },
+        "5": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "তিনি নিশ্চয়ই"
+        },
+        "6": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনিই"
+        },
+        "7": {
+          "words_ar": "الْعَزِيزُ",
+          "translate_bn": "পরাক্রমশালী"
+        },
+        "8": {
+          "words_ar": "الرَّحِيمُ",
+          "translate_bn": "দয়ালু"
+        }
+      },
+      "english_trans": "Save those on whom Allah shall have mercy; surely He is the Mighty the Merciful."
+    },
+    "43": {
+      "arabic_text": "إِنَّ شَجَرَتَ الزَّقُّومِ",
+      "bangla_trans": "নিশ্চয়ই  ‘যাককূম    গাছ হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "شَجَرَتَ",
+          "translate_bn": "গাছ"
+        },
+        "3": {
+          "words_ar": "الزَّقُّومِ",
+          "translate_bn": "যাক্কুম"
+        }
+      },
+      "english_trans": "Surely the tree of the Zaqqum,"
+    },
+    "44": {
+      "arabic_text": "طَعَامُ الْأَثِيمِ",
+      "bangla_trans": "গোনাগারদের খাদ্য।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "طَعَامُ",
+          "translate_bn": "খাদ্য"
+        },
+        "2": {
+          "words_ar": "الْأَثِيمِ",
+          "translate_bn": "পাপীদের"
+        }
+      },
+      "english_trans": "Is the food of the sinful"
+    },
+    "45": {
+      "arabic_text": "كَالْمُهْلِ يَغْلِي فِي الْبُطُونِ",
+      "bangla_trans": "তেলের তলানির মত     পেটের মধ্যে এমনভাবে উথলাতে থাকবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَالْمُهْلِ",
+          "translate_bn": "গলিত তামার মতো"
+        },
+        "2": {
+          "words_ar": "يَغْلِي",
+          "translate_bn": "ফুটবে"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "الْبُطُونِ",
+          "translate_bn": "পেটের"
+        }
+      },
+      "english_trans": "Like dregs of oil; it shall boil in (their) bellies,"
+    },
+    "46": {
+      "arabic_text": "كَغَلْيِ الْحَمِيمِ",
+      "bangla_trans": "যেমন ফুটন্তপানি উথলায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَغَلْيِ",
+          "translate_bn": "ফুটে যেমন"
+        },
+        "2": {
+          "words_ar": "الْحَمِيمِ",
+          "translate_bn": "ফুটন্ত পানি"
+        }
+      },
+      "english_trans": "Like the boiling of hot water."
+    },
+    "47": {
+      "arabic_text": "خُذُوهُ فَاعْتِلُوهُ إِلَى سَوَاءِ الْجَحِيمِ",
+      "bangla_trans": "পাকড়াও করো একে এবং টেনে হিঁচড়ে নিয়ে যাও জাহান্নামের মধ্যখানে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "خُذُوهُ",
+          "translate_bn": "(বলা হবে) তাকে ধরো"
+        },
+        "2": {
+          "words_ar": "فَاعْتِلُوهُ",
+          "translate_bn": "এরপর তাকে টেনে নাও"
+        },
+        "3": {
+          "words_ar": "إِلَىٰ",
+          "translate_bn": "দিকে"
+        },
+        "4": {
+          "words_ar": "سَوَاءِ",
+          "translate_bn": "মধ্যস্থলে"
+        },
+        "5": {
+          "words_ar": "الْجَحِيمِ",
+          "translate_bn": "জাহান্নামের"
+        }
+      },
+      "english_trans": "Seize him, then drag him down into the middle of the hell;"
+    },
+    "48": {
+      "arabic_text": "ثُمَّ صُبُّوا فَوْقَ رَأْسِهِ مِنْ عَذَابِ الْحَمِيمِ",
+      "bangla_trans": "তারপর ঢেলে দাও তার মাথার ওপর ফুটন্ত পানির আযাব।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "এরপর"
+        },
+        "2": {
+          "words_ar": "صُبُّوا",
+          "translate_bn": "তোমরা ঢালো"
+        },
+        "3": {
+          "words_ar": "فَوْقَ",
+          "translate_bn": "উপর"
+        },
+        "4": {
+          "words_ar": "رَأْسِهِ",
+          "translate_bn": "তার মাথায়"
+        },
+        "5": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "6": {
+          "words_ar": "عَذَابِ",
+          "translate_bn": "শাস্তি"
+        },
+        "7": {
+          "words_ar": "الْحَمِيمِ",
+          "translate_bn": "ফুটন্ত পানির"
+        }
+      },
+      "english_trans": "Then pour above his head of the torment of the boiling water:"
+    },
+    "49": {
+      "arabic_text": "ذُقْ إِنَّكَ أَنْتَ الْعَزِيزُ الْكَرِيمُ",
+      "bangla_trans": "এখন এর মজা চাখো। তুমি বড় সম্মানী ব্যক্তি কিনা, তাই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ذُقْ",
+          "translate_bn": "(বলা হবে) স্বাদ নাও"
+        },
+        "2": {
+          "words_ar": "إِنَّكَ",
+          "translate_bn": "তুমি নিশ্চয়ই"
+        },
+        "3": {
+          "words_ar": "أَنْتَ",
+          "translate_bn": "তুমিই (ছিলে)"
+        },
+        "4": {
+          "words_ar": "الْعَزِيزُ",
+          "translate_bn": "পরাক্রমশালী(?)"
+        },
+        "5": {
+          "words_ar": "الْكَرِيمُ",
+          "translate_bn": "সম্মানিত"
+        }
+      },
+      "english_trans": "Taste; you forsooth are the mighty, the honorable:"
+    },
+    "50": {
+      "arabic_text": "إِنَّ هَذَا مَا كُنْتُمْ بِهِ تَمْتَرُونَ",
+      "bangla_trans": "এটা সেই জিনিস যার আমার ব্যাপারে তোমরা সন্দেহ পোষণ করতে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "هَٰذَا",
+          "translate_bn": "এটাই"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "(সেই জিনিষ) যা"
+        },
+        "4": {
+          "words_ar": "كُنْتُمْ",
+          "translate_bn": "তোমরা ছিলে"
+        },
+        "5": {
+          "words_ar": "بِهِ",
+          "translate_bn": "সে সম্বন্ধে"
+        },
+        "6": {
+          "words_ar": "تَمْتَرُونَ",
+          "translate_bn": "সন্দেহ করতে"
+        }
+      },
+      "english_trans": "Surely this is what you disputed about."
+    },
+    "51": {
+      "arabic_text": "إِنَّ الْمُتَّقِينَ فِي مَقَامٍ أَمِينٍ",
+      "bangla_trans": "আল্লাহভীরু লোকেরা শান্তি ও নিরাপত্তার জায়গায় থাকবে ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الْمُتَّقِينَ",
+          "translate_bn": "মুত্তাকীরা (থাকবে)"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "مَقَامٍ",
+          "translate_bn": "স্থানের"
+        },
+        "5": {
+          "words_ar": "أَمِينٍ",
+          "translate_bn": "নিরাপদ"
+        }
+      },
+      "english_trans": "Surely those who guard (against evil) are in a secure place,"
+    },
+    "52": {
+      "arabic_text": "فِي جَنَّاتٍ وَعُيُونٍ",
+      "bangla_trans": "বাগান ও ঝর্ণা ঘেরা জায়গায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "2": {
+          "words_ar": "جَنَّاتٍ",
+          "translate_bn": "বাগানের"
+        },
+        "3": {
+          "words_ar": "وَعُيُونٍ",
+          "translate_bn": "ও ঝর্ণাসমূহের"
+        }
+      },
+      "english_trans": "In gardens and springs;"
+    },
+    "53": {
+      "arabic_text": "يَلْبَسُونَ مِنْ سُنْدُسٍ وَإِسْتَبْرَقٍ مُتَقَابِلِينَ",
+      "bangla_trans": "তারা রেশম ও মখমলের পোশাক পরে সামনাসামনি বসবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَلْبَسُونَ",
+          "translate_bn": "তারা পোশাক পরবে"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "তৈরী"
+        },
+        "3": {
+          "words_ar": "سُنْدُسٍ",
+          "translate_bn": "মিহি রেশমের"
+        },
+        "4": {
+          "words_ar": "وَإِسْتَبْرَقٍ",
+          "translate_bn": "ও পুরু রেশমের"
+        },
+        "5": {
+          "words_ar": "مُتَقَابِلِينَ",
+          "translate_bn": "মুখোমুখী (হয়ে বসবে)"
+        }
+      },
+      "english_trans": "They shall wear of fine and thick silk, (sitting) face to face;"
+    },
+    "54": {
+      "arabic_text": "كَذَلِكَ وَزَوَّجْنَاهُمْ بِحُورٍ عِينٍ",
+      "bangla_trans": "এটা হবে তাদের অবস্থা। আমি সুন্দরী হরিণ নয়না নারীদের সাথে তাদের বিয়ে দেবো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَذَٰلِكَ",
+          "translate_bn": "এভাবেই (ঘটবে)"
+        },
+        "2": {
+          "words_ar": "وَزَوَّجْنَاهُمْ",
+          "translate_bn": "এবং তাদের আমরা বিয়ে দিবো"
+        },
+        "3": {
+          "words_ar": "بِحُورٍ",
+          "translate_bn": "(সুন্দরী-রূপসী) সাথে হুরদের"
+        },
+        "4": {
+          "words_ar": "عِينٍ",
+          "translate_bn": "আয়তলোচনা (হরিণ-নয়না)"
+        }
+      },
+      "english_trans": "Thus (shall it be), and We will wed them with Houris pure, beautiful ones."
+    },
+    "55": {
+      "arabic_text": "يَدْعُونَ فِيهَا بِكُلِّ فَاكِهَةٍ آمِنِينَ",
+      "bangla_trans": "সেখানে তারা নিশ্চিন্তে মনের সুখে সবরকম সুস্বাদু জিনিস চেয়ে চেয়ে নেবে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَدْعُونَ",
+          "translate_bn": "তারা চেয়ে চেয়ে নিবে"
+        },
+        "2": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "3": {
+          "words_ar": "بِكُلِّ",
+          "translate_bn": "প্রত্যেক প্রকার"
+        },
+        "4": {
+          "words_ar": "فَاكِهَةٍ",
+          "translate_bn": "ফলমূল"
+        },
+        "5": {
+          "words_ar": "آمِنِينَ",
+          "translate_bn": "প্রশান্ত মনে"
+        }
+      },
+      "english_trans": "They shall call therein for every fruit in security;"
+    },
+    "56": {
+      "arabic_text": "لَا يَذُوقُونَ فِيهَا الْمَوْتَ إِلَّا الْمَوْتَةَ الْأُولَى وَوَقَاهُمْ عَذَابَ الْجَحِيمِ",
+      "bangla_trans": "সেখানে তারা কখনো মৃত্যুর স্বাদ চাখবে না।  তবে দুনিয়াতে যে মৃত্যু এসেছিলো তা তো এসেই গেছে। আর আল্লাহ‌ তাদেরকে জাহান্নাম থেকে রক্ষা করবেন-",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "يَذُوقُونَ",
+          "translate_bn": "তারা স্বাদ গ্রহণ করবে"
+        },
+        "3": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "4": {
+          "words_ar": "الْمَوْتَ",
+          "translate_bn": "মৃত্যুর"
+        },
+        "5": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ব্যতীত"
+        },
+        "6": {
+          "words_ar": "الْمَوْتَةَ",
+          "translate_bn": "মৃত্যু"
+        },
+        "7": {
+          "words_ar": "الْأُولَىٰ",
+          "translate_bn": "প্রথম"
+        },
+        "8": {
+          "words_ar": "وَوَقَاهُمْ",
+          "translate_bn": "এবং তাদের তিনি রক্ষা করবেন"
+        },
+        "9": {
+          "words_ar": "عَذَابَ",
+          "translate_bn": "শাস্তি (হতে)"
+        },
+        "10": {
+          "words_ar": "الْجَحِيمِ",
+          "translate_bn": "জাহান্নামের"
+        }
+      },
+      "english_trans": "They shall not taste therein death except the first death, and He will save them from the punishment of the hell,"
+    },
+    "57": {
+      "arabic_text": "فَضْلًا مِنْ رَبِّكَ ذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
+      "bangla_trans": "তোমার রবের করুণায় । এটাই বড় সফলতা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَضْلًا",
+          "translate_bn": "অনুগ্রহে"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "পক্ষ হতে"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "ذَٰلِكَ",
+          "translate_bn": "এটাই"
+        },
+        "5": {
+          "words_ar": "هُوَ",
+          "translate_bn": "সেই"
+        },
+        "6": {
+          "words_ar": "الْفَوْزُ",
+          "translate_bn": "সাফল্য"
+        },
+        "7": {
+          "words_ar": "الْعَظِيمُ",
+          "translate_bn": "মহা"
+        }
+      },
+      "english_trans": "A grace from your Lord; this is the great achievement."
+    },
+    "58": {
+      "arabic_text": "فَإِنَّمَا يَسَّرْنَاهُ بِلِسَانِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
+      "bangla_trans": "হে নবী, আমি এই কিতাবকে তোমার ভাষায় সহজ করে দিয়েছি যাতে এই লোকেরা উপদেশ গ্রহণ করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَإِنَّمَا",
+          "translate_bn": "(হে নাবী) মূলতঃ"
+        },
+        "2": {
+          "words_ar": "يَسَّرْنَاهُ",
+          "translate_bn": "তা (অর্থাৎ এ কিতাবকে) আমরা সহজ করে দিয়েছি"
+        },
+        "3": {
+          "words_ar": "بِلِسَانِكَ",
+          "translate_bn": "তোমার ভাষায়"
+        },
+        "4": {
+          "words_ar": "لَعَلَّهُمْ",
+          "translate_bn": "তারা যেন"
+        },
+        "5": {
+          "words_ar": "يَتَذَكَّرُونَ",
+          "translate_bn": "উপদেশ গ্রহণ করে"
+        }
+      },
+      "english_trans": "So have We made it easy in your tongue that they may be mindful."
+    },
+    "59": {
+      "arabic_text": "فَارْتَقِبْ إِنَّهُمْ مُرْتَقِبُونَ",
+      "bangla_trans": "এখন তুমিও অপেক্ষা করো, এরাও অপেক্ষা করছে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَارْتَقِبْ",
+          "translate_bn": "সুতরাং অপেক্ষা করো তুমি"
+        },
+        "2": {
+          "words_ar": "إِنَّهُمْ",
+          "translate_bn": "তারা নিশ্চয়ই"
+        },
+        "3": {
+          "words_ar": "مُرْتَقِبُونَ",
+          "translate_bn": "অপেক্ষামান"
+        }
+      },
+      "english_trans": "Therefore wait; surely they are waiting."
+    }
+  }
+}

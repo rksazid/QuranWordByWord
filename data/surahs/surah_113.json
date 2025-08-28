@@ -1,0 +1,137 @@
+{
+  "surah_id": 113,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "bangla_trans": "বলো, আশ্রয় চাচ্ছি আমি প্রভাতের রবের,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "2": {
+          "words_ar": "أَعُوذُ",
+          "translate_bn": "আমি আশ্রয় চাই"
+        },
+        "3": {
+          "words_ar": "بِرَبِّ",
+          "translate_bn": "স্রষ্টার নিকট"
+        },
+        "4": {
+          "words_ar": "الْفَلَقِ",
+          "translate_bn": "প্রভাতের"
+        }
+      },
+      "english_trans": "Say: I seek refuge in the Lord of the dawn,"
+    },
+    "2": {
+      "arabic_text": "مِنْ شَرِّ مَا خَلَقَ",
+      "bangla_trans": "এমন প্রত্যেকটি জিনিসের অনিষ্টকারিতা থেকে যা তিনি সৃষ্টি করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "2": {
+          "words_ar": "شَرِّ",
+          "translate_bn": "অনিষ্ট"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "তিনি সৃষ্টি করেছেন"
+        }
+      },
+      "english_trans": "From the evil of what He has created,"
+    },
+    "3": {
+      "arabic_text": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "bangla_trans": "এবং রাতের অন্ধকারের অনিষ্টকারিতা থেকে, যখন তা ছেয়ে যায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمِنْ",
+          "translate_bn": "এবং হতে"
+        },
+        "2": {
+          "words_ar": "شَرِّ",
+          "translate_bn": "অনিষ্ট"
+        },
+        "3": {
+          "words_ar": "غَاسِقٍ",
+          "translate_bn": "রাতের অন্ধকারের"
+        },
+        "4": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "5": {
+          "words_ar": "وَقَبَ",
+          "translate_bn": "তা গভীর হয়"
+        }
+      },
+      "english_trans": "And from the evil of the utterly dark night when it comes,"
+    },
+    "4": {
+      "arabic_text": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+      "bangla_trans": "আর গিরায় ফুঁৎকারদানকারীদের (বা কারিনীদের) অনিষ্টকারিতা থেকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمِنْ",
+          "translate_bn": "এবং হতে"
+        },
+        "2": {
+          "words_ar": "شَرِّ",
+          "translate_bn": "অনিষ্ট"
+        },
+        "3": {
+          "words_ar": "النَّفَّاثَاتِ",
+          "translate_bn": "ফুঁকদানকারীর (রাতের) অনিষ্ট"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "5": {
+          "words_ar": "الْعُقَدِ",
+          "translate_bn": "গিঁটগুলোর"
+        }
+      },
+      "english_trans": "And from the evil of those who blow on knots,"
+    },
+    "5": {
+      "arabic_text": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "bangla_trans": "এবং হিংসুকের অনিষ্টকারিতা থেকে, যখন সে হিংসা করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمِنْ",
+          "translate_bn": "এবং হতে"
+        },
+        "2": {
+          "words_ar": "شَرِّ",
+          "translate_bn": "অনিষ্ট"
+        },
+        "3": {
+          "words_ar": "حَاسِدٍ",
+          "translate_bn": "হিংসুকের"
+        },
+        "4": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "5": {
+          "words_ar": "حَسَدَ",
+          "translate_bn": "সে হিংসা করে"
+        }
+      },
+      "english_trans": "And from the evil of the envious when he envies"
+    }
+  }
+}

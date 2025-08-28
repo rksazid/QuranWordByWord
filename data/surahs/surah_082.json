@@ -1,0 +1,463 @@
+{
+  "surah_id": 82,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "إِذَا السَّمَاءُ انْفَطَرَتْ",
+      "bangla_trans": "যখন আকাশ ফেটে যাবে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "2": {
+          "words_ar": "السَّمَاءُ",
+          "translate_bn": "আকাশ"
+        },
+        "3": {
+          "words_ar": "انْفَطَرَتْ",
+          "translate_bn": "ফেটে যাবে"
+        }
+      },
+      "english_trans": "When the heaven becomes cleft asunder,"
+    },
+    "2": {
+      "arabic_text": "وَإِذَا الْكَوَاكِبُ انْتَثَرَتْ",
+      "bangla_trans": "যখন তারকারা চারদিকে বিক্ষিপ্ত হয়ে যাবে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْكَوَاكِبُ",
+          "translate_bn": "তারাগুলো"
+        },
+        "3": {
+          "words_ar": "انْتَثَرَتْ",
+          "translate_bn": "বিক্ষিপ্ত হবে"
+        }
+      },
+      "english_trans": "And when the stars become dispersed,"
+    },
+    "3": {
+      "arabic_text": "وَإِذَا الْبِحَارُ فُجِّرَتْ",
+      "bangla_trans": "যখন সমুদ্র ফাটিয়ে ফেলা হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْبِحَارُ",
+          "translate_bn": "সাগরগুলো"
+        },
+        "3": {
+          "words_ar": "فُجِّرَتْ",
+          "translate_bn": "উথলে উঠবে"
+        }
+      },
+      "english_trans": "And when the seas are made to flow forth,"
+    },
+    "4": {
+      "arabic_text": "وَإِذَا الْقُبُورُ بُعْثِرَتْ",
+      "bangla_trans": "এবং যখন কবরগুলো খুলে ফেলা হবে, ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْقُبُورُ",
+          "translate_bn": "কবরগুলো"
+        },
+        "3": {
+          "words_ar": "بُعْثِرَتْ",
+          "translate_bn": "উন্মোচিত হবে"
+        }
+      },
+      "english_trans": "And when the graves are laid open,"
+    },
+    "5": {
+      "arabic_text": "عَلِمَتْ نَفْسٌ مَا قَدَّمَتْ وَأَخَّرَتْ",
+      "bangla_trans": "তখন প্রত্যেক ব্যক্তি তার সামনের ও পেছনের সবকিছু জেনে যাবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَلِمَتْ",
+          "translate_bn": "জানবে"
+        },
+        "2": {
+          "words_ar": "نَفْسٌ",
+          "translate_bn": "প্রত্যেক ব্যক্তি"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "قَدَّمَتْ",
+          "translate_bn": "সে আগে পাঠিয়েছে"
+        },
+        "5": {
+          "words_ar": "وَأَخَّرَتْ",
+          "translate_bn": "এবং পিছনে ছেড়েছে"
+        }
+      },
+      "english_trans": "Every soul shall know what it has sent before and held back."
+    },
+    "6": {
+      "arabic_text": "يَا أَيُّهَا الْإِنْسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ",
+      "bangla_trans": "হে মানুষ! কোন জিনিষ তোমাকে তোমার মহান রবের ব্যাপারে ধোঁকায় ফেলে রেখেছে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَاأَيُّهَا",
+          "translate_bn": "হে"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانُ",
+          "translate_bn": "মানুষ"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কিসে"
+        },
+        "4": {
+          "words_ar": "غَرَّكَ",
+          "translate_bn": "তোমাকে ধোঁকা দিয়েছে"
+        },
+        "5": {
+          "words_ar": "بِرَبِّكَ",
+          "translate_bn": "তোমার রবের ব্যাপারে"
+        },
+        "6": {
+          "words_ar": "الْكَرِيمِ",
+          "translate_bn": "মহান"
+        }
+      },
+      "english_trans": "O man! what has beguiled you from your Lord, the Gracious one,"
+    },
+    "7": {
+      "arabic_text": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ",
+      "bangla_trans": "যিনি তোমাকে সৃষ্টি করেছেন, তোমাকে সুঠাম ও সুসামঞ্জস্য করে গড়েছেন",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "2": {
+          "words_ar": "خَلَقَكَ",
+          "translate_bn": "তোমাকে সৃষ্টি করেছেন"
+        },
+        "3": {
+          "words_ar": "فَسَوَّاكَ",
+          "translate_bn": "অতঃপর তোমাকে সুঠাম করেছেন"
+        },
+        "4": {
+          "words_ar": "فَعَدَلَكَ",
+          "translate_bn": "অতঃপর তোমাকে সুসামঞ্জস্য করেছেন"
+        }
+      },
+      "english_trans": "Who created you, then made you complete, then made you symmetrical?"
+    },
+    "8": {
+      "arabic_text": "فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ",
+      "bangla_trans": "এবং যে আকৃতিতে চেয়েছেন তোমাকে গঠন করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "2": {
+          "words_ar": "أَيِّ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "صُورَةٍ",
+          "translate_bn": "আকৃতিতে"
+        },
+        "4": {
+          "words_ar": "مَا",
+          "translate_bn": "(যা) যেমন"
+        },
+        "5": {
+          "words_ar": "شَاءَ",
+          "translate_bn": "তিনি চেয়েছেন"
+        },
+        "6": {
+          "words_ar": "رَكَّبَكَ",
+          "translate_bn": "তোমাকে গঠন করেছেন"
+        }
+      },
+      "english_trans": "Into whatever form He pleased He constituted you."
+    },
+    "9": {
+      "arabic_text": "كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ",
+      "bangla_trans": "কখ্খনো না, বরং (আসল কথা হচ্ছে এই যে), তোমরা শাস্তি ও পুরস্কারকে মিথ্যা মনে করছো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "কখনও নয়"
+        },
+        "2": {
+          "words_ar": "بَلْ",
+          "translate_bn": "বরং"
+        },
+        "3": {
+          "words_ar": "تُكَذِّبُونَ",
+          "translate_bn": "তোমারা মিথ্যা মনে করছ"
+        },
+        "4": {
+          "words_ar": "بِالدِّينِ",
+          "translate_bn": "শেষ বিচারকে"
+        }
+      },
+      "english_trans": "Nay! but you give the lie to the judgment day,"
+    },
+    "10": {
+      "arabic_text": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ",
+      "bangla_trans": "অথচ তোমাদের ওপর পরিদর্শক নিযুক্ত রয়েছে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنَّ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "عَلَيْكُمْ",
+          "translate_bn": "তোমাদের উপর"
+        },
+        "3": {
+          "words_ar": "لَحَافِظِينَ",
+          "translate_bn": "সংরক্ষক দল অবশ্যই (আছে)"
+        }
+      },
+      "english_trans": "And most surely there are keepers over you"
+    },
+    "11": {
+      "arabic_text": "كِرَامًا كَاتِبِينَ",
+      "bangla_trans": "এমন সম্মানিত লেখকবৃন্দ,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كِرَامًا",
+          "translate_bn": "সম্মানিত"
+        },
+        "2": {
+          "words_ar": "كَاتِبِينَ",
+          "translate_bn": "লেখকবৃন্দ"
+        }
+      },
+      "english_trans": "Honorable recorders,"
+    },
+    "12": {
+      "arabic_text": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+      "bangla_trans": "যারা তোমাদের প্রত্যেকটি কাজ জানে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَعْلَمُونَ",
+          "translate_bn": "তারা জানে"
+        },
+        "2": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "3": {
+          "words_ar": "تَفْعَلُونَ",
+          "translate_bn": "তোমরা কর"
+        }
+      },
+      "english_trans": "They know what you do."
+    },
+    "13": {
+      "arabic_text": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+      "bangla_trans": "নিঃসন্দেহে নেক লোকেরা পরমানন্দে থাকবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الْأَبْرَارَ",
+          "translate_bn": "সৎ ব্যক্তিরা"
+        },
+        "3": {
+          "words_ar": "لَفِي",
+          "translate_bn": "অবশ্যই মধ্যে(থাকবে)"
+        },
+        "4": {
+          "words_ar": "نَعِيمٍ",
+          "translate_bn": "স্বাচ্ছন্দ্যে (সুখে-শান্তিতে)"
+        }
+      },
+      "english_trans": "Most surely the righteous are in bliss,"
+    },
+    "14": {
+      "arabic_text": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
+      "bangla_trans": "আর পাপীরা অবশ্যি যাবে জাহান্নামে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنَّ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الْفُجَّارَ",
+          "translate_bn": "পাপাচারীরা"
+        },
+        "3": {
+          "words_ar": "لَفِي",
+          "translate_bn": "অবশ্যই মধ্যে (যাবে)"
+        },
+        "4": {
+          "words_ar": "جَحِيمٍ",
+          "translate_bn": "দোজখের"
+        }
+      },
+      "english_trans": "And most surely the wicked are in burning fire,"
+    },
+    "15": {
+      "arabic_text": "يَصْلَوْنَهَا يَوْمَ الدِّينِ",
+      "bangla_trans": "কর্মফলের দিন তারা তার মধ্যে প্রবেশ করবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَصْلَوْنَهَا",
+          "translate_bn": "সেখানে তারা প্রবেশ করবে"
+        },
+        "2": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "দিনে"
+        },
+        "3": {
+          "words_ar": "الدِّينِ",
+          "translate_bn": "বিচার"
+        }
+      },
+      "english_trans": "They shall enter it on the day of judgment."
+    },
+    "16": {
+      "arabic_text": "وَمَا هُمْ عَنْهَا بِغَائِبِينَ",
+      "bangla_trans": "এবং সেখান থেকে কোনক্রমেই সরে পড়তে পারবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারা"
+        },
+        "3": {
+          "words_ar": "عَنْهَا",
+          "translate_bn": "তা থেকে"
+        },
+        "4": {
+          "words_ar": "بِغَائِبِينَ",
+          "translate_bn": "অনুপস্থিত (থাকতে সক্ষম হবে)"
+        }
+      },
+      "english_trans": "And they shall by no means be absent from it."
+    },
+    "17": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+      "bangla_trans": "আর তোমরা কি জানো, ঐ কর্মফল দিনটি কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কিসে"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কি (সেই)"
+        },
+        "4": {
+          "words_ar": "يَوْمُ",
+          "translate_bn": "দিন"
+        },
+        "5": {
+          "words_ar": "الدِّينِ",
+          "translate_bn": "বিচারের"
+        }
+      },
+      "english_trans": "And what will make you realize what the day of judgement is?"
+    },
+    "18": {
+      "arabic_text": "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+      "bangla_trans": "হ্যাঁ, তোমরা কি জানো, ঐ কর্মফল দিনটি কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "অতঃপর"
+        },
+        "2": {
+          "words_ar": "مَا",
+          "translate_bn": "কিসে"
+        },
+        "3": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "4": {
+          "words_ar": "مَا",
+          "translate_bn": "কি সেই"
+        },
+        "5": {
+          "words_ar": "يَوْمُ",
+          "translate_bn": "দিন"
+        },
+        "6": {
+          "words_ar": "الدِّينِ",
+          "translate_bn": "বিচারের"
+        }
+      },
+      "english_trans": "Again, what will make you realize what the day of judgment Is?"
+    },
+    "19": {
+      "arabic_text": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئًا وَالْأَمْرُ يَوْمَئِذٍ لِلَّهِ",
+      "bangla_trans": "এটি সেই দিন যখন কারোর জন্য কোন কিছু করার সাধ্য কারোর থাকবে না। ফায়সালা সেদিন একমাত্র আল্লাহর ইখতিয়ারে থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "সেদিন"
+        },
+        "2": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "تَمْلِكُ",
+          "translate_bn": "সক্ষম হবে"
+        },
+        "4": {
+          "words_ar": "نَفْسٌ",
+          "translate_bn": "কেউ"
+        },
+        "5": {
+          "words_ar": "لِنَفْسٍ",
+          "translate_bn": "কারও জন্যে"
+        },
+        "6": {
+          "words_ar": "شَيْئًا",
+          "translate_bn": "কিছু (করতে)"
+        },
+        "7": {
+          "words_ar": "وَالْأَمْرُ",
+          "translate_bn": "এবং কর্তৃত্ব"
+        },
+        "8": {
+          "words_ar": "يَوْمَئِذٍ",
+          "translate_bn": "সেদিন (হবে কেবল)"
+        },
+        "9": {
+          "words_ar": "لِلَّهِ",
+          "translate_bn": "আল্লাহর জন্যে"
+        }
+      },
+      "english_trans": "The day on which no soul shall control anything for (another) soul; and the command on that day shall be entirely Allah´s."
+    }
+  }
+}

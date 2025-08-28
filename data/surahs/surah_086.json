@@ -1,0 +1,373 @@
+{
+  "surah_id": 86,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالسَّمَاءِ وَالطَّارِقِ",
+      "bangla_trans": "কসম আকাশের এবং রাতে আত্মপ্রকাশকারীর।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالسَّمَاءِ",
+          "translate_bn": "শপথ আকাশের"
+        },
+        "2": {
+          "words_ar": "وَالطَّارِقِ",
+          "translate_bn": "এবং রাত্রে আত্মপ্রকাশকারী (নক্ষত্রের)"
+        }
+      },
+      "english_trans": "I swear by the heaven and the comer by night;"
+    },
+    "2": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا الطَّارِقُ",
+      "bangla_trans": "তুমি কি জানো ঐ রাতে আত্মপ্রকাশকারী কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কিসে"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কি সেই"
+        },
+        "4": {
+          "words_ar": "الطَّارِقُ",
+          "translate_bn": "রাতে আত্মপ্রকাশকারী"
+        }
+      },
+      "english_trans": "And what will make you know what the comer by night is?"
+    },
+    "3": {
+      "arabic_text": "النَّجْمُ الثَّاقِبُ",
+      "bangla_trans": "উজ্জ্বল তারকা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "النَّجْمُ",
+          "translate_bn": "নক্ষত্র"
+        },
+        "2": {
+          "words_ar": "الثَّاقِبُ",
+          "translate_bn": "উজ্জ্বল"
+        }
+      },
+      "english_trans": "The star of piercing brightness;"
+    },
+    "4": {
+      "arabic_text": "إِنْ كُلُّ نَفْسٍ لَمَّا عَلَيْهَا حَافِظٌ",
+      "bangla_trans": "এমন কোন প্রাণ নেই যার ওপর কোন হেফাজতকারী নেই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنْ",
+          "translate_bn": "নেই"
+        },
+        "2": {
+          "words_ar": "كُلُّ",
+          "translate_bn": "কোন"
+        },
+        "3": {
+          "words_ar": "نَفْسٍ",
+          "translate_bn": "ব্যক্তি"
+        },
+        "4": {
+          "words_ar": "لَمَّا",
+          "translate_bn": "এ ছাড়া যে"
+        },
+        "5": {
+          "words_ar": "عَلَيْهَا",
+          "translate_bn": "তার উপর"
+        },
+        "6": {
+          "words_ar": "حَافِظٌ",
+          "translate_bn": "তত্ত্বাবধায়ক"
+        }
+      },
+      "english_trans": "There is not a soul but over it is a keeper."
+    },
+    "5": {
+      "arabic_text": "فَلْيَنْظُرِ الْإِنْسَانُ مِمَّ خُلِقَ",
+      "bangla_trans": "কাজেই মানুষ একবার এটাই দেখে নিক কী জিনিস থেকে তাকে সৃষ্টি করা হয়েছে!",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَلْيَنْظُرِ",
+          "translate_bn": "অতএব লক্ষ করা উচিৎ"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانُ",
+          "translate_bn": "মানুষের"
+        },
+        "3": {
+          "words_ar": "مِمَّ",
+          "translate_bn": "কি থেকে"
+        },
+        "4": {
+          "words_ar": "خُلِقَ",
+          "translate_bn": "সৃষ্টি করা হয়েছে (তাকে)"
+        }
+      },
+      "english_trans": "So let man consider of what he is created:"
+    },
+    "6": {
+      "arabic_text": "خُلِقَ مِنْ مَاءٍ دَافِقٍ",
+      "bangla_trans": "তাকে সৃষ্টি করা হয়েছে প্রবলবেগে নিঃসৃত পানি থেকে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "خُلِقَ",
+          "translate_bn": "সৃষ্টি করা হয়েছে"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "3": {
+          "words_ar": "مَاءٍ",
+          "translate_bn": "পানি"
+        },
+        "4": {
+          "words_ar": "دَافِقٍ",
+          "translate_bn": "সবেগে স্খলিত"
+        }
+      },
+      "english_trans": "He is created of water pouring forth,"
+    },
+    "7": {
+      "arabic_text": "يَخْرُجُ مِنْ بَيْنِ الصُّلْبِ وَالتَّرَائِبِ",
+      "bangla_trans": "যা পিঠ ও বুকের হাড়ের মাঝখান দিয়ে বের হয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَخْرُجُ",
+          "translate_bn": "যা বের হয়"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "3": {
+          "words_ar": "بَيْنِ",
+          "translate_bn": "মাঝ"
+        },
+        "4": {
+          "words_ar": "الصُّلْبِ",
+          "translate_bn": "মেরুদণ্ড"
+        },
+        "5": {
+          "words_ar": "وَالتَّرَائِبِ",
+          "translate_bn": "ও বক্ষপিঞ্জরের"
+        }
+      },
+      "english_trans": "Coming from between the back and the ribs."
+    },
+    "8": {
+      "arabic_text": "إِنَّهُ عَلَى رَجْعِهِ لَقَادِرٌ",
+      "bangla_trans": "নিশ্চিতভাবেই তিনি (স্রষ্টা) তাকে দ্বিতীয় বার সৃষ্টি করার ক্ষমতা রাখেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয়ই তিনি"
+        },
+        "2": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "ব্যাপারে"
+        },
+        "3": {
+          "words_ar": "رَجْعِهِ",
+          "translate_bn": "তার প্রত্যাবর্তনে"
+        },
+        "4": {
+          "words_ar": "لَقَادِرٌ",
+          "translate_bn": "অবশ্যই সক্ষম"
+        }
+      },
+      "english_trans": "Most surely He is able to return him (to life)."
+    },
+    "9": {
+      "arabic_text": "يَوْمَ تُبْلَى السَّرَائِرُ",
+      "bangla_trans": "যেদিন গোপন রহস্যের যাচাই বাছাই হবে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "সেদিন"
+        },
+        "2": {
+          "words_ar": "تُبْلَى",
+          "translate_bn": "পরীক্ষা করা হবে"
+        },
+        "3": {
+          "words_ar": "السَّرَائِرُ",
+          "translate_bn": "গোপন বিষয়াবলী"
+        }
+      },
+      "english_trans": "On the day when hidden things shall be made manifest,"
+    },
+    "10": {
+      "arabic_text": "فَمَا لَهُ مِنْ قُوَّةٍ وَلَا نَاصِرٍ",
+      "bangla_trans": "সেদিন মানুষের নিজের কোন শক্তি থাকবে না এবং কেউ তার সাহায্যকারীও হবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَمَا",
+          "translate_bn": "অতঃপর না"
+        },
+        "2": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তার জন্য (থাকবে)"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কোন"
+        },
+        "4": {
+          "words_ar": "قُوَّةٍ",
+          "translate_bn": "শক্তি"
+        },
+        "5": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "6": {
+          "words_ar": "نَاصِرٍ",
+          "translate_bn": "কোনো সাহায্যকারী"
+        }
+      },
+      "english_trans": "He shall have neither strength nor helper."
+    },
+    "11": {
+      "arabic_text": "وَالسَّمَاءِ ذَاتِ الرَّجْعِ",
+      "bangla_trans": "কসম বৃষ্টি বর্ষণকারী আকাশের",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالسَّمَاءِ",
+          "translate_bn": "শপথ আকাশের"
+        },
+        "2": {
+          "words_ar": "ذَاتِ",
+          "translate_bn": "ধারণকারী"
+        },
+        "3": {
+          "words_ar": "الرَّجْعِ",
+          "translate_bn": "বৃষ্টির"
+        }
+      },
+      "english_trans": "I swear by the raingiving heavens,"
+    },
+    "12": {
+      "arabic_text": "وَالْأَرْضِ ذَاتِ الصَّدْعِ",
+      "bangla_trans": "এবং (উদ্ভিদ জন্মাবার সময়) ফেটে যাওয়া যমীনের,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "শপথ পৃথিবীর (যা)"
+        },
+        "2": {
+          "words_ar": "ذَاتِ",
+          "translate_bn": "বিশিষ্ট"
+        },
+        "3": {
+          "words_ar": "الصَّدْعِ",
+          "translate_bn": "বিদীর্ণ (বক্ষ)"
+        }
+      },
+      "english_trans": "And the earth splitting (with plants);"
+    },
+    "13": {
+      "arabic_text": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
+      "bangla_trans": "এটি মাপাজোকা মীমাংসাকারী কথা,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয় তা"
+        },
+        "2": {
+          "words_ar": "لَقَوْلٌ",
+          "translate_bn": "অবশ্যই বাণী"
+        },
+        "3": {
+          "words_ar": "فَصْلٌ",
+          "translate_bn": "মীমাংসাকারী"
+        }
+      },
+      "english_trans": "Most surely it is a decisive word,"
+    },
+    "14": {
+      "arabic_text": "وَمَا هُوَ بِالْهَزْلِ",
+      "bangla_trans": "হাসি-ঠাট্টা নয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তা"
+        },
+        "3": {
+          "words_ar": "بِالْهَزْلِ",
+          "translate_bn": "হাসি-ঠাট্টার কথা"
+        }
+      },
+      "english_trans": "And it is no joke."
+    },
+    "15": {
+      "arabic_text": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+      "bangla_trans": "এরা কিছু চক্রান্ত করছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّهُمْ",
+          "translate_bn": "নিশ্চয়ই তারা"
+        },
+        "2": {
+          "words_ar": "يَكِيدُونَ",
+          "translate_bn": "ষড়যন্ত্র করছে"
+        },
+        "3": {
+          "words_ar": "كَيْدًا",
+          "translate_bn": "ভীষণ ষড়যন্ত্র"
+        }
+      },
+      "english_trans": "Surely they will make a scheme,"
+    },
+    "16": {
+      "arabic_text": "وَأَكِيدُ كَيْدًا",
+      "bangla_trans": "এবং আমিও একটি কৌশল করছি। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَكِيدُ",
+          "translate_bn": "এবং আমি কৌশল করছি"
+        },
+        "2": {
+          "words_ar": "كَيْدًا",
+          "translate_bn": "ভীষণ কৌশল"
+        }
+      },
+      "english_trans": "And I (too) will make a scheme."
+    },
+    "17": {
+      "arabic_text": "فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا",
+      "bangla_trans": "কাজেই ছেড়ে দাও, হে নবী! এ কাফেরদেরকে সামান্য কিছুক্ষণের জন্য এদের অবস্থার ওপর ছেড়ে দাও।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَمَهِّلِ",
+          "translate_bn": "তাই অবকাশ দাও"
+        },
+        "2": {
+          "words_ar": "الْكَافِرِينَ",
+          "translate_bn": "কাফেরদেরকে"
+        },
+        "3": {
+          "words_ar": "أَمْهِلْهُمْ",
+          "translate_bn": "তাদের অবকাশ দাও"
+        },
+        "4": {
+          "words_ar": "رُوَيْدًا",
+          "translate_bn": "কিছুক্ষণের"
+        }
+      },
+      "english_trans": "So grant the unbelievers a respite: let them alone for a"
+    }
+  }
+}

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Quran Word by Word</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Meta tags for PWA -->
+    <meta name="theme-color" content="#2d7d32">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Quran WbW">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <button id="backBtn" class="back-btn" style="display: none;">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Back</span>
+                </button>
+                
+                <div class="logo">
+                    <img src="favicon/favicon-32x32.png" alt="Al-Quran Logo" class="logo-icon">
+                    <h1>Al-Quran</h1>
+                </div>
+                
+                <div class="header-controls">
+                    <!-- Homepage Controls -->
+                    <div id="homepageControls" class="control-group">
+                        <button id="searchBtn" class="icon-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button id="favoritesBtn" class="icon-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Surah Page Controls -->
+                    <div id="surahControls" class="control-group" style="display: none;">
+                        <button id="goToAyahBtn" class="icon-btn" title="Go to Ayah">
+                            <i class="fas fa-list-ol"></i>
+                        </button>
+                        <button id="toggleFavoriteBtn" class="icon-btn" title="Add to Favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button id="toggleControlsBtn" class="icon-btn" title="Reading Controls">
+                            <i class="fas fa-sliders-h"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Common Controls -->
+                    <button id="settingsBtn" class="icon-btn">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Search Bar -->
+            <div id="searchContainer" class="search-container" style="display: none;">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search surah by name...">
+                    <button id="clearSearch" class="clear-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Surah List Page -->
+            <div id="surahListPage" class="page">
+                <div class="page-header">
+                    <h2>Choose a Surah</h2>
+                    <p>Select any surah to read with word-by-word translation</p>
+                </div>
+                
+                <!-- Last Opened Surah Suggestion -->
+                <div id="lastSurahSuggestion" class="last-surah-suggestion" style="display: none;">
+                    <div class="suggestion-header">
+                        <i class="fas fa-bookmark"></i>
+                        <h3>Continue Reading</h3>
+                    </div>
+                    <div id="lastSurahCard" class="suggestion-card">
+                        <!-- Last surah content will be populated here -->
+                    </div>
+                </div>
+                
+                <div id="surahList" class="surah-list">
+                    <!-- Surah items will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <!-- Surah Reading Page -->
+            <div id="surahReadingPage" class="page" style="display: none;">
+                <!-- Surah Header -->
+                <div class="surah-header">
+                    <div class="surah-info">
+                        <h2 id="surahTitle" class="surah-title"></h2>
+                        <div class="surah-meta">
+                            <span id="surahType" class="surah-type"></span>
+                            <span id="surahAyahs" class="surah-ayahs"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reading Controls -->
+                <div class="reading-controls">
+                    <div class="control-group">
+                        <label class="control-label">
+                            <input type="checkbox" id="translationToggle" checked>
+                            <span class="checkmark"></span>
+                            Show Translation
+                        </label>
+                        
+                        <div id="translationLanguage" class="language-selector">
+                            <button id="banglaBtn" class="lang-btn active" data-lang="bangla">
+                                বাংলা
+                            </button>
+                            <button id="englishBtn" class="lang-btn" data-lang="english">
+                                English
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label class="control-label">
+                            <input type="checkbox" id="wordByWordToggle">
+                            <span class="checkmark"></span>
+                            Word by Word
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Floating Reading Controls -->
+                <div id="floatingControls" class="floating-controls" style="display: none;">
+                    <button id="floatingControlsToggle" class="floating-toggle">
+                        <i class="fas fa-sliders-h"></i>
+                    </button>
+                    <div id="floatingControlsPanel" class="floating-panel" style="display: none;">
+                        <div class="floating-control-group">
+                            <label class="floating-control-label">
+                                <input type="checkbox" id="floatingTranslationToggle" checked>
+                                <span class="floating-checkmark"></span>
+                                Translation
+                            </label>
+                            
+                            <div class="floating-language-selector">
+                                <button id="floatingBanglaBtn" class="floating-lang-btn active" data-lang="bangla">
+                                    বাং
+                                </button>
+                                <button id="floatingEnglishBtn" class="floating-lang-btn" data-lang="english">
+                                    Eng
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="floating-control-group">
+                            <label class="floating-control-label">
+                                <input type="checkbox" id="floatingWordByWordToggle">
+                                <span class="floating-checkmark"></span>
+                                Word by Word
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bismillah -->
+                <div id="bismillah" class="bismillah">
+                    <div class="arabic-text">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ</div>
+                    <div class="translation">
+                        <div class="bangla-trans">পরম করুণাময় মেহেরবান আল্লাহর নামে</div>
+                        <div class="english-trans" style="display: none;">In the name of Allah, the Beneficent, the Merciful.</div>
+                    </div>
+                </div>
+
+                <!-- Verses Container -->
+                <div id="versesContainer" class="verses-container">
+                    <!-- Verses will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Favorites Modal -->
+    <div id="favoritesModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content favorites-modal">
+            <div class="modal-header">
+                <h2><i class="fas fa-heart"></i> Favorite Surahs</h2>
+                <button class="close-btn" onclick="closeFavoritesModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="favoritesContent">
+                    <div class="favorites-empty" style="display: none;">
+                        <div class="empty-state">
+                            <i class="fas fa-heart-broken"></i>
+                            <h3>No Favorites Yet</h3>
+                            <p>Add surahs to your favorites by clicking the heart icon when reading them.</p>
+                        </div>
+                    </div>
+                    <div id="favoritesList" class="favorites-list">
+                        <!-- Favorites will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-quran-open"></i>
+                        <h3>Al-Quran Word by Word</h3>
+                    </div>
+                    <p class="footer-description">
+                        A modern Progressive Web App for reading the Holy Quran with 
+                        word-by-word Bengali translations. Experience the beauty of 
+                        Quranic study with advanced customization features.
+                    </p>
+                    <div class="footer-stats">
+                        <div class="stat-item">
+                            <strong>114</strong>
+                            <span>Surahs</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>6,236</strong>
+                            <span>Ayahs</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>2+</strong>
+                            <span>Languages</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Features</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-check"></i> Word-by-word Bengali meanings</li>
+                        <li><i class="fas fa-check"></i> Complete translations</li>
+                        <li><i class="fas fa-check"></i> Progressive Web App</li>
+                        <li><i class="fas fa-check"></i> Offline reading support</li>
+                        <li><i class="fas fa-check"></i> Multiple Arabic fonts</li>
+                        <li><i class="fas fa-check"></i> Dark & Light themes</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support & Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" id="aboutAppLink"><i class="fas fa-info-circle"></i> About App</a></li>
+                        <li><a href="#" id="installAppLink"><i class="fas fa-download"></i> Install App</a></li>
+                        <li><a href="mailto:rksazid@gmail.com" id="feedbackLink"><i class="fas fa-comment"></i> Send Feedback</a></li>
+                        <li><a href="#" id="privacyLink"><i class="fas fa-shield-alt"></i> Privacy</a></li>
+                    </ul>
+                    
+                    <div class="app-version">
+                        <p><strong>Version 2.0.0</strong></p>
+                        <p>Built with ❤️ for the Muslim Ummah</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Al-Quran Word by Word. Created for educational and religious purposes.</p>
+                    <p class="islamic-quote">
+                        "وَنُنَزِّلُ مِنَ ٱلْقُرْآنِ مَا هُوَ شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ"
+                        <br>
+                        <span class="quote-translation">
+                            "And We send down of the Quran that which is healing and mercy for the believers" - Surah Al-Isra 17:82
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Word Meaning Modal -->
+    <div id="wordModal" class="modal-overlay" style="display: none;">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Word Meaning</h3>
+                <button id="closeModal" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content">
+                <div class="word-info">
+                    <div id="modalArabicWord" class="arabic-word"></div>
+                    <div id="modalMeaning" class="word-meaning"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Go to Ayah Modal -->
+    <div id="goToAyahModal" class="modal-overlay" style="display: none;">
+        <div class="modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-list-ol"></i> Go to Ayah</h3>
+                <button id="closeGoToAyahModal" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content">
+                <div class="ayah-navigation">
+                    <div class="ayah-input-group">
+                        <label for="ayahNumberInput">Enter Ayah Number</label>
+                        <div class="input-with-range">
+                            <input type="number" id="ayahNumberInput" min="1" max="286" placeholder="1" />
+                            <span id="ayahRange" class="ayah-range">of 7 ayahs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="ayah-quick-nav">
+                        <h4>Quick Navigation</h4>
+                        <div class="ayah-buttons">
+                            <button class="ayah-nav-btn" data-ayah="1">First Ayah</button>
+                            <button class="ayah-nav-btn" data-ayah="middle">Middle</button>
+                            <button class="ayah-nav-btn" data-ayah="last">Last Ayah</button>
+                        </div>
+                    </div>
+                    
+                    <div class="ayah-actions">
+                        <button id="goToAyahConfirm" class="primary-btn">
+                            <i class="fas fa-arrow-down"></i>
+                            Go to Ayah
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal-overlay" style="display: none;">
+        <div class="modal large-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-cog"></i> Settings</h3>
+                <button id="closeSettingsModal" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content">
+                <div class="settings-tabs">
+                    <button class="tab-btn active" data-tab="display">
+                        <i class="fas fa-eye"></i> Display
+                    </button>
+                    <button class="tab-btn" data-tab="reading">
+                        <i class="fas fa-book-open"></i> Reading
+                    </button>
+                    <button class="tab-btn" data-tab="theme">
+                        <i class="fas fa-palette"></i> Theme
+                    </button>
+                    <button class="tab-btn" data-tab="about">
+                        <i class="fas fa-info-circle"></i> About
+                    </button>
+                </div>
+
+                <!-- Display Settings -->
+                <div id="displayTab" class="settings-tab-content active">
+                    <h4>Font Settings</h4>
+                    <div class="settings-group">
+                        <label>Font Size</label>
+                        <div class="font-size-control">
+                            <button id="decreaseFontSize" class="font-btn">A-</button>
+                            <span id="fontSizeDisplay">Medium</span>
+                            <button id="increaseFontSize" class="font-btn">A+</button>
+                        </div>
+                    </div>
+
+                    <div class="settings-group">
+                        <label>Arabic Font</label>
+                        <select id="arabicFontSelect">
+                            <option value="Amiri">Amiri (Default)</option>
+                            <option value="Scheherazade New">Scheherazade New</option>
+                            <option value="Lateef">Lateef</option>
+                            <option value="Reem Kufi">Reem Kufi</option>
+                        </select>
+                    </div>
+
+                    <div class="settings-group">
+                        <label>UI Font</label>
+                        <select id="uiFontSelect">
+                            <option value="Inter">Inter (Default)</option>
+                            <option value="system">System Default</option>
+                            <option value="Poppins">Poppins</option>
+                            <option value="Roboto">Roboto</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Reading Settings -->
+                <div id="readingTab" class="settings-tab-content">
+                    <h4>Auto Scroll</h4>
+                    <div class="settings-group">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="autoScrollToggle">
+                            <span class="toggle-slider"></span>
+                            Enable Auto Scroll
+                        </label>
+                    </div>
+
+                    <div class="settings-group">
+                        <label>Scroll Speed</label>
+                        <div class="speed-control">
+                            <input type="range" id="scrollSpeedRange" min="0.5" max="3" step="0.1" value="1">
+                            <span id="scrollSpeedDisplay">1.0x</span>
+                        </div>
+                    </div>
+
+                    <h4>Session Data</h4>
+                    <div class="settings-group">
+                        <p>Last opened Surah will be suggested on homepage</p>
+                        <button id="clearSessionBtn" class="danger-btn">
+                            <i class="fas fa-trash"></i> Clear All Data
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Theme Settings -->
+                <div id="themeTab" class="settings-tab-content">
+                    <h4>Appearance</h4>
+                    <div class="settings-group">
+                        <label>Theme</label>
+                        <div class="theme-selector">
+                            <button class="theme-option active" data-theme="light">
+                                <i class="fas fa-sun"></i>
+                                Light
+                            </button>
+                            <button class="theme-option" data-theme="dark">
+                                <i class="fas fa-moon"></i>
+                                Dark
+                            </button>
+                            <button class="theme-option" data-theme="auto">
+                                <i class="fas fa-adjust"></i>
+                                Auto
+                            </button>
+                        </div>
+                    </div>
+
+                    <h4>Color Scheme</h4>
+                    <div class="settings-group">
+                        <label>Primary Color</label>
+                        <div class="color-palette">
+                            <button class="color-option active" data-color="#2d7d32" style="background: #2d7d32;"></button>
+                            <button class="color-option" data-color="#1976d2" style="background: #1976d2;"></button>
+                            <button class="color-option" data-color="#7b1fa2" style="background: #7b1fa2;"></button>
+                            <button class="color-option" data-color="#d32f2f" style="background: #d32f2f;"></button>
+                            <button class="color-option" data-color="#f57c00" style="background: #f57c00;"></button>
+                            <button class="color-option" data-color="#5d4037" style="background: #5d4037;"></button>
+                            <button class="color-option" data-color="#455a64" style="background: #455a64;"></button>
+                            <button class="color-option" data-color="#e91e63" style="background: #e91e63;"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About -->
+                <div id="aboutTab" class="settings-tab-content">
+                    <div class="about-content">
+                        <div class="developer-info">
+                            <div class="developer-avatar">
+                                <img src="./img/dev_img.jpeg" alt="MD Rezaul Karim" class="developer-photo">
+                            </div>
+                            <h4>MD Rezaul Karim (rksazid)</h4>
+                            <p>Senior Full Stack Developer</p>
+                            <p>Expert in React, Node.js, Python & PWA Development</p>
+                            <div class="developer-links">
+                                <a href="https://www.linkedin.com/in/rksazid/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                    LinkedIn Profile
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="app-info">
+                            <h5>About This App</h5>
+                            <p>Al-Quran Word by Word is a modern web application designed to help users read and understand the Holy Quran with detailed word-by-word Bengali translations.</p>
+                            
+                            <div class="app-features">
+                                <h6>Features:</h6>
+                                <ul>
+                                    <li>Complete Quran with Bengali & English translations</li>
+                                    <li>Word-by-word Bengali meanings</li>
+                                    <li>Progressive Web App (PWA) support</li>
+                                    <li>Customizable themes and fonts</li>
+                                    <li>Responsive design for all devices</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="app-version">
+                                <p><strong>Version:</strong> 2.0.0</p>
+                                <p><strong>Last Updated:</strong> <span id="lastUpdated"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    
+    <!-- PWA Service Worker Registration -->
+    <script>
+        // Register service worker for PWA functionality
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then((registration) => {
+                        console.log('SW registered: ', registration);
+                        
+                        // Check for updates
+                        registration.addEventListener('updatefound', () => {
+                            const newWorker = registration.installing;
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    // Show update notification
+                                    if (confirm('New version available! Refresh to update?')) {
+                                        window.location.reload();
+                                    }
+                                }
+                            });
+                        });
+                    })
+                    .catch((registrationError) => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+
+        // Handle PWA install prompt
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent Chrome 67 and earlier from automatically showing the prompt
+            e.preventDefault();
+            // Stash the event so it can be triggered later
+            deferredPrompt = e;
+            
+            // Show install button/banner (you can customize this)
+            console.log('PWA install prompt available');
+            
+            // Optional: Show a custom install banner
+            showInstallBanner();
+        });
+
+        function showInstallBanner() {
+            // Create and show a custom install prompt
+            const installBanner = document.createElement('div');
+            installBanner.className = 'install-banner';
+            installBanner.innerHTML = `
+                <div class="install-content">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="install-text">
+                        <strong>Install Quran App</strong>
+                        <p>Install this app on your device for a better experience</p>
+                    </div>
+                    <button id="installBtn" class="install-btn">Install</button>
+                    <button id="dismissBtn" class="dismiss-btn">&times;</button>
+                </div>
+            `;
+            
+            document.body.appendChild(installBanner);
+            
+            // Handle install button click
+            document.getElementById('installBtn').addEventListener('click', () => {
+                if (deferredPrompt) {
+                    deferredPrompt.prompt();
+                    deferredPrompt.userChoice.then((choiceResult) => {
+                        if (choiceResult.outcome === 'accepted') {
+                            console.log('User accepted the A2HS prompt');
+                        } else {
+                            console.log('User dismissed the A2HS prompt');
+                        }
+                        deferredPrompt = null;
+                        installBanner.remove();
+                    });
+                }
+            });
+            
+            // Handle dismiss button click
+            document.getElementById('dismissBtn').addEventListener('click', () => {
+                installBanner.remove();
+                deferredPrompt = null;
+            });
+        }
+
+        // Track PWA usage
+        window.addEventListener('appinstalled', (evt) => {
+            console.log('PWA was installed successfully');
+        });
+    </script>
+</body>
+</html>

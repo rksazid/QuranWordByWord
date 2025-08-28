@@ -1,0 +1,137 @@
+{
+  "surah_id": 111,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+      "bangla_trans": "ভেঙে গেছে আবু লাহাবের হাত এবং ব্যর্থ হয়েছে সে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "تَبَّتْ",
+          "translate_bn": "ধ্বংস হোক"
+        },
+        "2": {
+          "words_ar": "يَدَا",
+          "translate_bn": "দুহাত"
+        },
+        "3": {
+          "words_ar": "أَبِي",
+          "translate_bn": "আবু"
+        },
+        "4": {
+          "words_ar": "لَهَبٍ",
+          "translate_bn": "লাহাবের"
+        },
+        "5": {
+          "words_ar": "وَتَبَّ",
+          "translate_bn": "এবং সেও ধ্বংস হোক"
+        }
+      },
+      "english_trans": "Perdition overtake both hands of Abu Lahab, and he will perish."
+    },
+    "2": {
+      "arabic_text": "مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ",
+      "bangla_trans": "তার ধন-সম্পদ এবং যা কিছু সে উপার্জন করেছে তা তার কোন কাজে লাগেনি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "أَغْنَىٰ",
+          "translate_bn": "কাজে আসলো"
+        },
+        "3": {
+          "words_ar": "عَنْهُ",
+          "translate_bn": "তার পক্ষে"
+        },
+        "4": {
+          "words_ar": "مَالُهُ",
+          "translate_bn": "তার সম্পদ"
+        },
+        "5": {
+          "words_ar": "وَمَا",
+          "translate_bn": "আর যা"
+        },
+        "6": {
+          "words_ar": "كَسَبَ",
+          "translate_bn": "সে উপার্জন করেছিল"
+        }
+      },
+      "english_trans": "His wealth and what he earns will not avail him."
+    },
+    "3": {
+      "arabic_text": "سَيَصْلَى نَارًا ذَاتَ لَهَبٍ",
+      "bangla_trans": "অবশ্যই সেই লেলিহান আগুনে নিক্ষিপ্ত হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَيَصْلَىٰ",
+          "translate_bn": "শীঘ্রই জ্বলবে"
+        },
+        "2": {
+          "words_ar": "نَارًا",
+          "translate_bn": "আগুনে"
+        },
+        "3": {
+          "words_ar": "ذَاتَ",
+          "translate_bn": "সমন্বিত"
+        },
+        "4": {
+          "words_ar": "لَهَبٍ",
+          "translate_bn": "শিখা"
+        }
+      },
+      "english_trans": "He shall soon burn in fire that flames,"
+    },
+    "4": {
+      "arabic_text": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+      "bangla_trans": "এবং (তার সাথে) তার স্ত্রীও, লাগানো ভাঙানো চোগলখুরী করে বেড়ানো যার কাজ,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَامْرَأَتُهُ",
+          "translate_bn": "এবং তার স্ত্রীও"
+        },
+        "2": {
+          "words_ar": "حَمَّالَةَ",
+          "translate_bn": "বহনকারিণী"
+        },
+        "3": {
+          "words_ar": "الْحَطَبِ",
+          "translate_bn": "কাঠের"
+        }
+      },
+      "english_trans": "And his wife, the bearer of fuel,"
+    },
+    "5": {
+      "arabic_text": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
+      "bangla_trans": "তার গলায় থাকবে খেজুর ডালের আঁশের পাকানো শক্ত রশি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "2": {
+          "words_ar": "جِيدِهَا",
+          "translate_bn": "তার গলার"
+        },
+        "3": {
+          "words_ar": "حَبْلٌ",
+          "translate_bn": "দড়ি"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "5": {
+          "words_ar": "مَسَدٍ",
+          "translate_bn": "পাকানো"
+        }
+      },
+      "english_trans": "Upon her neck a halter of strongly twisted rope."
+    }
+  }
+}

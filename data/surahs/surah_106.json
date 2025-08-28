@@ -1,0 +1,106 @@
+{
+  "surah_id": 106,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "لِإِيلَافِ قُرَيْشٍ",
+      "bangla_trans": "যেহেতু কুরাইশরা অভ্যস্ত হয়েছে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لِإِيلَافِ",
+          "translate_bn": "যেহেতু আসক্তি আছে"
+        },
+        "2": {
+          "words_ar": "قُرَيْشٍ",
+          "translate_bn": "কুরাইশদের"
+        }
+      },
+      "english_trans": "For the protection of the Qureaish--"
+    },
+    "2": {
+      "arabic_text": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+      "bangla_trans": "(অর্থাৎ) শীতের ও গ্রীষ্মের সফরে অভ্যস্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِيلَافِهِمْ",
+          "translate_bn": "আসক্তি আছে"
+        },
+        "2": {
+          "words_ar": "رِحْلَةَ",
+          "translate_bn": "ভ্রমণে"
+        },
+        "3": {
+          "words_ar": "الشِّتَاءِ",
+          "translate_bn": "শীতের"
+        },
+        "4": {
+          "words_ar": "وَالصَّيْفِ",
+          "translate_bn": "ও গ্রীষ্মের"
+        }
+      },
+      "english_trans": "Their protection during their trading caravans in the winter and the summer--"
+    },
+    "3": {
+      "arabic_text": "فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ",
+      "bangla_trans": "কাজেই তাদের এই ঘরের রবের ইবাদাত করা উচিত,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَلْيَعْبُدُوا",
+          "translate_bn": "অতএব তারা ইবাদত করুক"
+        },
+        "2": {
+          "words_ar": "رَبَّ",
+          "translate_bn": "রবের"
+        },
+        "3": {
+          "words_ar": "هَٰذَا",
+          "translate_bn": "এই"
+        },
+        "4": {
+          "words_ar": "الْبَيْتِ",
+          "translate_bn": "ঘরের"
+        }
+      },
+      "english_trans": "So let them serve the Lord of this House"
+    },
+    "4": {
+      "arabic_text": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
+      "bangla_trans": "যিনি তাদেরকে ক্ষুধা থেকে রেহাই দিয়ে খাবার দিয়েছেন এবং ভীতি থেকে নিরাপত্তা দান করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "2": {
+          "words_ar": "أَطْعَمَهُمْ",
+          "translate_bn": "তাদেরকে খাবার দিয়েছেন"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "4": {
+          "words_ar": "جُوعٍ",
+          "translate_bn": "ক্ষুধা"
+        },
+        "5": {
+          "words_ar": "وَآمَنَهُمْ",
+          "translate_bn": "এবং তাদের নিরাপত্তা দিয়েছেন"
+        },
+        "6": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "7": {
+          "words_ar": "خَوْفٍ",
+          "translate_bn": "ভয়"
+        }
+      },
+      "english_trans": "Who feeds them against hunger and gives them security against fear."
+    }
+  }
+}

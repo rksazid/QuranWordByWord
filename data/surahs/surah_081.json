@@ -1,0 +1,629 @@
+{
+  "surah_id": 81,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "إِذَا الشَّمْسُ كُوِّرَتْ",
+      "bangla_trans": "যখন সূর্য গুটিয়ে নেয়া হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "2": {
+          "words_ar": "الشَّمْسُ",
+          "translate_bn": "সূর্য"
+        },
+        "3": {
+          "words_ar": "كُوِّرَتْ",
+          "translate_bn": "নিষ্প্রভ হবে"
+        }
+      },
+      "english_trans": "When the sun is covered,"
+    },
+    "2": {
+      "arabic_text": "وَإِذَا النُّجُومُ انْكَدَرَتْ",
+      "bangla_trans": "যখন তারকারা চারদিকে বিক্ষিপ্ত হয়ে যাবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "النُّجُومُ",
+          "translate_bn": "তারকাগুলো"
+        },
+        "3": {
+          "words_ar": "انْكَدَرَتْ",
+          "translate_bn": "খসে পড়বে"
+        }
+      },
+      "english_trans": "And when the stars darken,"
+    },
+    "3": {
+      "arabic_text": "وَإِذَا الْجِبَالُ سُيِّرَتْ",
+      "bangla_trans": "যখন পাহাড়গুলোকে চলমান করা হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْجِبَالُ",
+          "translate_bn": "পাহাড়গুলো"
+        },
+        "3": {
+          "words_ar": "سُيِّرَتْ",
+          "translate_bn": "চালানো হবে"
+        }
+      },
+      "english_trans": "And when the mountains are made to pass away,"
+    },
+    "4": {
+      "arabic_text": "وَإِذَا الْعِشَارُ عُطِّلَتْ",
+      "bangla_trans": "যখন দশ মাসের গর্ভবতী উটনীগুলোকে তাদের অবস্থার ওপর ছেড়ে দেয়া হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْعِشَارُ",
+          "translate_bn": "পূর্ণ গর্ভবতী উট"
+        },
+        "3": {
+          "words_ar": "عُطِّلَتْ",
+          "translate_bn": "উপেক্ষিত হবে"
+        }
+      },
+      "english_trans": "And when the camels are left untended,"
+    },
+    "5": {
+      "arabic_text": "وَإِذَا الْوُحُوشُ حُشِرَتْ",
+      "bangla_trans": "যখন বন্য পশুদের চারদিক থেকে এনে একত্র করা হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "ও যখন"
+        },
+        "2": {
+          "words_ar": "الْوُحُوشُ",
+          "translate_bn": "বন্য পশুদের"
+        },
+        "3": {
+          "words_ar": "حُشِرَتْ",
+          "translate_bn": "একত্র করা হবে"
+        }
+      },
+      "english_trans": "And when the wild animals are made to go forth,"
+    },
+    "6": {
+      "arabic_text": "وَإِذَا الْبِحَارُ سُجِّرَتْ",
+      "bangla_trans": "যখন সমুদ্রগুলোতে আগুন ধরিয়ে দেয়া হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْبِحَارُ",
+          "translate_bn": "সাগরগুলো"
+        },
+        "3": {
+          "words_ar": "سُجِّرَتْ",
+          "translate_bn": "প্রজ্বলিত করা হবে"
+        }
+      },
+      "english_trans": "And when the seas are set on fire,"
+    },
+    "7": {
+      "arabic_text": "وَإِذَا النُّفُوسُ زُوِّجَتْ",
+      "bangla_trans": "যখন প্রাণসমূহকে (দেহের সাথে) জুড়ে দেয়া হবে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "النُّفُوسُ",
+          "translate_bn": "আত্মাগুলোকে"
+        },
+        "3": {
+          "words_ar": "زُوِّجَتْ",
+          "translate_bn": "জুড়ে দেয়া হবে (শরীরের সাথে)"
+        }
+      },
+      "english_trans": "And when souls are united,"
+    },
+    "8": {
+      "arabic_text": "وَإِذَا الْمَوْءُودَةُ سُئِلَتْ",
+      "bangla_trans": "যখন জীবিত পুঁতে ফেলা মেয়েকে জিজ্ঞেস করা হবে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْمَوْءُودَةُ",
+          "translate_bn": "জীবন্ত কবর দেয়া কন্যাকে"
+        },
+        "3": {
+          "words_ar": "سُئِلَتْ",
+          "translate_bn": "জিজ্ঞাসা করা হবে"
+        }
+      },
+      "english_trans": "And when the female infant buried alive is asked"
+    },
+    "9": {
+      "arabic_text": "بِأَيِّ ذَنْبٍ قُتِلَتْ",
+      "bangla_trans": "কোন অপরাধে তাকে হত্যা করা হয়েছে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "بِأَيِّ",
+          "translate_bn": "কোন কারণে"
+        },
+        "2": {
+          "words_ar": "ذَنْبٍ",
+          "translate_bn": "দোষের"
+        },
+        "3": {
+          "words_ar": "قُتِلَتْ",
+          "translate_bn": "তাকে হত্যা করা হয়েছে"
+        }
+      },
+      "english_trans": "For what sin she was killed,"
+    },
+    "10": {
+      "arabic_text": "وَإِذَا الصُّحُفُ نُشِرَتْ",
+      "bangla_trans": "যখন আমলনামাসমূহ খুলে ধরা হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الصُّحُفُ",
+          "translate_bn": "আমলনামাগুলো"
+        },
+        "3": {
+          "words_ar": "نُشِرَتْ",
+          "translate_bn": "উন্মোচিত হবে"
+        }
+      },
+      "english_trans": "And when the books are spread,"
+    },
+    "11": {
+      "arabic_text": "وَإِذَا السَّمَاءُ كُشِطَتْ",
+      "bangla_trans": "যখন আকাশের পরদা সরিয়ে ফেলা হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "السَّمَاءُ",
+          "translate_bn": "আকাশ"
+        },
+        "3": {
+          "words_ar": "كُشِطَتْ",
+          "translate_bn": "আবরণ অপসারিত হবে"
+        }
+      },
+      "english_trans": "And when the heaven has its covering removed,"
+    },
+    "12": {
+      "arabic_text": "وَإِذَا الْجَحِيمُ سُعِّرَتْ",
+      "bangla_trans": "যখন জাহান্নামের আগুন জ্বালিয়ে দেয়া হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْجَحِيمُ",
+          "translate_bn": "জাহান্নাম"
+        },
+        "3": {
+          "words_ar": "سُعِّرَتْ",
+          "translate_bn": "প্রজ্বলিত করা হবে"
+        }
+      },
+      "english_trans": "And when the hell is kindled up,"
+    },
+    "13": {
+      "arabic_text": "وَإِذَا الْجَنَّةُ أُزْلِفَتْ",
+      "bangla_trans": "এবং জান্নাতকে নিকটে আনা হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "2": {
+          "words_ar": "الْجَنَّةُ",
+          "translate_bn": "জান্নাত"
+        },
+        "3": {
+          "words_ar": "أُزْلِفَتْ",
+          "translate_bn": "নিকটে আনা হবে"
+        }
+      },
+      "english_trans": "And when the garden is brought nigh,"
+    },
+    "14": {
+      "arabic_text": "عَلِمَتْ نَفْسٌ مَا أَحْضَرَتْ",
+      "bangla_trans": "সে সময় প্রত্যেক ব্যক্তি জানতে পারবে সে কি নিয়ে এসেছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَلِمَتْ",
+          "translate_bn": "জানবে"
+        },
+        "2": {
+          "words_ar": "نَفْسٌ",
+          "translate_bn": "(প্রত্যেক) ব্যক্তি"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "أَحْضَرَتْ",
+          "translate_bn": "উপস্থিত করেছে"
+        }
+      },
+      "english_trans": "Every soul shall (then) know what it has prepared."
+    },
+    "15": {
+      "arabic_text": "فَلَا أُقْسِمُ بِالْخُنَّسِ",
+      "bangla_trans": "কাজেই, না, আমি কসম খাচ্ছি",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَلَا",
+          "translate_bn": "অতঃপর না"
+        },
+        "2": {
+          "words_ar": "أُقْسِمُ",
+          "translate_bn": "আমি শপথ করছি"
+        },
+        "3": {
+          "words_ar": "بِالْخُنَّسِ",
+          "translate_bn": "পশ্চাদপসরণকারী"
+        }
+      },
+      "english_trans": "But nay! I swear by the stars,"
+    },
+    "16": {
+      "arabic_text": "الْجَوَارِ الْكُنَّسِ",
+      "bangla_trans": "পেছনে ফিরে আসা ও অদৃশ্য হয়ে যাওয়া তারকারাজির এবং রাত্রির,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الْجَوَارِ",
+          "translate_bn": "চলমান"
+        },
+        "2": {
+          "words_ar": "الْكُنَّسِ",
+          "translate_bn": "অদৃশ্যমান (নক্ষত্রগুলোর)"
+        }
+      },
+      "english_trans": "That run their course (and) hide themselves,"
+    },
+    "17": {
+      "arabic_text": "وَاللَّيْلِ إِذَا عَسْعَسَ",
+      "bangla_trans": "যখন তা বিদায় নিয়েছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَاللَّيْلِ",
+          "translate_bn": "শপথ রাতের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "عَسْعَسَ",
+          "translate_bn": "শেষ হয়"
+        }
+      },
+      "english_trans": "And the night when it departs,"
+    },
+    "18": {
+      "arabic_text": "وَالصُّبْحِ إِذَا تَنَفَّسَ",
+      "bangla_trans": "এবং প্রভাতের, যখন তা শ্বাস ফেলেছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالصُّبْحِ",
+          "translate_bn": "শপথ প্রভাতের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "تَنَفَّسَ",
+          "translate_bn": "শ্বাস নেয়"
+        }
+      },
+      "english_trans": "And the morning when it brightens,"
+    },
+    "19": {
+      "arabic_text": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "bangla_trans": "এটি প্রকৃতপক্ষে একজন সম্মানিত বাণীবাহকের বাণী,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয়ই তা"
+        },
+        "2": {
+          "words_ar": "لَقَوْلُ",
+          "translate_bn": "অবশ্যই বাণী"
+        },
+        "3": {
+          "words_ar": "رَسُولٍ",
+          "translate_bn": "বার্তা-বাহকের"
+        },
+        "4": {
+          "words_ar": "كَرِيمٍ",
+          "translate_bn": "সম্মানিত"
+        }
+      },
+      "english_trans": "Most surely it is the Word of an honored messenger,"
+    },
+    "20": {
+      "arabic_text": "ذِي قُوَّةٍ عِنْدَ ذِي الْعَرْشِ مَكِينٍ",
+      "bangla_trans": "যিনি বড়ই শক্তিধর, আরশের মালিকের কাছে উন্নত মর্যাদার অধিকারী,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ذِي",
+          "translate_bn": "সম্পন্ন"
+        },
+        "2": {
+          "words_ar": "قُوَّةٍ",
+          "translate_bn": "শক্তি"
+        },
+        "3": {
+          "words_ar": "عِنْدَ",
+          "translate_bn": "কাছে"
+        },
+        "4": {
+          "words_ar": "ذِي",
+          "translate_bn": "অধিপতির"
+        },
+        "5": {
+          "words_ar": "الْعَرْشِ",
+          "translate_bn": "আরশের"
+        },
+        "6": {
+          "words_ar": "مَكِينٍ",
+          "translate_bn": "সামর্থ্যশালী"
+        }
+      },
+      "english_trans": "The processor of strength, having an honorable place with the Lord of the Dominion,"
+    },
+    "21": {
+      "arabic_text": "مُطَاعٍ ثَمَّ أَمِينٍ",
+      "bangla_trans": "সেখানে তার হুকুম মেনে চলা হয়, তিনি আস্থাভাজন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مُطَاعٍ",
+          "translate_bn": "মান্য করা হয়"
+        },
+        "2": {
+          "words_ar": "ثَمَّ",
+          "translate_bn": "সেখানে"
+        },
+        "3": {
+          "words_ar": "أَمِينٍ",
+          "translate_bn": "(এবং সে) বিশ্বস্ত"
+        }
+      },
+      "english_trans": "One (to be) obeyed, and faithful in trust."
+    },
+    "22": {
+      "arabic_text": "وَمَا صَاحِبُكُمْ بِمَجْنُونٍ",
+      "bangla_trans": "আর (হে মক্কাবাসীরা!) তোমাদের সাথী পাগল নয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "صَاحِبُكُمْ",
+          "translate_bn": "তোমাদের সাথী"
+        },
+        "3": {
+          "words_ar": "بِمَجْنُونٍ",
+          "translate_bn": "পাগল"
+        }
+      },
+      "english_trans": "And your companion is not gone mad."
+    },
+    "23": {
+      "arabic_text": "وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ",
+      "bangla_trans": "সেই বাণীবাহককে দেখেছে উজ্জ্বল দিগন্তে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَقَدْ",
+          "translate_bn": "এবং নিশ্চয়ই সে"
+        },
+        "2": {
+          "words_ar": "رَآهُ",
+          "translate_bn": "তাকে দেখেছে"
+        },
+        "3": {
+          "words_ar": "بِالْأُفُقِ",
+          "translate_bn": "দিগন্তে"
+        },
+        "4": {
+          "words_ar": "الْمُبِينِ",
+          "translate_bn": "সুস্পষ্ট"
+        }
+      },
+      "english_trans": "And of a truth he saw himself on the clear horizon."
+    },
+    "24": {
+      "arabic_text": "وَمَا هُوَ عَلَى الْغَيْبِ بِضَنِينٍ",
+      "bangla_trans": "আর সে গায়েবের (এই জ্ঞান লোকদের কাছে পৌঁছানেরা) ব্যাপারে কৃপণ নয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "সে"
+        },
+        "3": {
+          "words_ar": "عَلَى",
+          "translate_bn": "ব্যাপারে"
+        },
+        "4": {
+          "words_ar": "الْغَيْبِ",
+          "translate_bn": "অদৃশ্যের"
+        },
+        "5": {
+          "words_ar": "بِضَنِينٍ",
+          "translate_bn": "কৃপণ"
+        }
+      },
+      "english_trans": "Nor of the unseen is he a tenacious concealer."
+    },
+    "25": {
+      "arabic_text": "وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَجِيمٍ",
+      "bangla_trans": "এটা কোন অভিশপ্ত শয়তানের বাক্য নয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তা"
+        },
+        "3": {
+          "words_ar": "بِقَوْلِ",
+          "translate_bn": "কথা"
+        },
+        "4": {
+          "words_ar": "شَيْطَانٍ",
+          "translate_bn": "শয়তানের"
+        },
+        "5": {
+          "words_ar": "رَجِيمٍ",
+          "translate_bn": "অভিশপ্ত"
+        }
+      },
+      "english_trans": "Nor is it the word of the cursed Shaitan,"
+    },
+    "26": {
+      "arabic_text": "فَأَيْنَ تَذْهَبُونَ",
+      "bangla_trans": "কাজেই তোমরা কোথায় চলে যাচ্ছো?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَيْنَ",
+          "translate_bn": "অতএব কোথায়"
+        },
+        "2": {
+          "words_ar": "تَذْهَبُونَ",
+          "translate_bn": "তোমরা চলেছ"
+        }
+      },
+      "english_trans": "Whither then will you go?"
+    },
+    "27": {
+      "arabic_text": "إِنْ هُوَ إِلَّا ذِكْرٌ لِلْعَالَمِينَ",
+      "bangla_trans": "এটা তো সারা জাহানের অধিবাসীদের জন্য একটা উপদেশ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنْ",
+          "translate_bn": "নয়"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তা"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া"
+        },
+        "4": {
+          "words_ar": "ذِكْرٌ",
+          "translate_bn": "উপদেশ"
+        },
+        "5": {
+          "words_ar": "لِلْعَالَمِينَ",
+          "translate_bn": "বিশ্ব-জগতের জন্যে"
+        }
+      },
+      "english_trans": "It is naught but a reminder for the nations,"
+    },
+    "28": {
+      "arabic_text": "لِمَنْ شَاءَ مِنْكُمْ أَنْ يَسْتَقِيمَ",
+      "bangla_trans": "তোমাদের মধ্য থেকে এমন প্রত্যেক ব্যক্তির জন্য, যে সত্য সরল পথে চলতে চায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لِمَنْ",
+          "translate_bn": "তার জন্যে"
+        },
+        "2": {
+          "words_ar": "شَاءَ",
+          "translate_bn": "যে চায়"
+        },
+        "3": {
+          "words_ar": "مِنْكُمْ",
+          "translate_bn": "তোমাদের মধ্যে"
+        },
+        "4": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "5": {
+          "words_ar": "يَسْتَقِيمَ",
+          "translate_bn": "সোজা চলতে"
+        }
+      },
+      "english_trans": "For him among you who pleases to go straight."
+    },
+    "29": {
+      "arabic_text": "وَمَا تَشَاءُونَ إِلَّا أَنْ يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ",
+      "bangla_trans": "আর তোমাদের চাইলেই কিছু হয় না, যতক্ষণ না আল্লাহ রাব্বুল আলামীন তা চান।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "تَشَاءُونَ",
+          "translate_bn": "(যা) তোমরা চাও (তা কিছু হয়)"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া"
+        },
+        "4": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "5": {
+          "words_ar": "يَشَاءَ",
+          "translate_bn": "চান"
+        },
+        "6": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "7": {
+          "words_ar": "رَبُّ",
+          "translate_bn": "রব"
+        },
+        "8": {
+          "words_ar": "الْعَالَمِينَ",
+          "translate_bn": "জগতসমূহের"
+        }
+      },
+      "english_trans": "And you do not please except that Allah please, the Lord of the worlds."
+    }
+  }
+}

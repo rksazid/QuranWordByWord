@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Helper - Al-Quran App</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .debug-container {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .status {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .status:last-child {
+            border-bottom: none;
+        }
+        .status-label {
+            font-weight: 600;
+            color: #333;
+        }
+        .status-value {
+            font-family: Monaco, monospace;
+            background: #f8f9fa;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .good { color: #28a745; }
+        .warning { color: #ffc107; }
+        .danger { color: #dc3545; }
+        .debug-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 8px;
+        }
+        .debug-button:hover {
+            background: #0056b3;
+        }
+        .log {
+            background: #1a1a1a;
+            color: #00ff00;
+            padding: 16px;
+            border-radius: 8px;
+            font-family: Monaco, monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 16px;
+        }
+        .section {
+            margin-bottom: 24px;
+        }
+        .alert {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-container">
+        <h1>🔧 Debug Helper - Word-by-Word Issue</h1>
+        
+        <div class="alert">
+            <strong>Issue:</strong> Error when checking Word By Word checkbox<br>
+            <strong>Fix Applied:</strong> Updated lazy loading data access
+        </div>
+        
+        <div class="section">
+            <h2>🚨 Common Issues & Solutions</h2>
+            
+            <div class="status">
+                <span class="status-label">Data Structure Changed</span>
+                <span class="status-value good">✅ Fixed</span>
+            </div>
+            
+            <div class="status">
+                <span class="status-label">Cache Access Updated</span>
+                <span class="status-value good">✅ Fixed</span>
+            </div>
+            
+            <div class="status">
+                <span class="status-label">Error Handling Added</span>
+                <span class="status-value good">✅ Fixed</span>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <button class="debug-button" onclick="testWordByWordToggle()">Test Word-by-Word Toggle</button>
+            <button class="debug-button" onclick="checkDataStructure()">Check Data Structure</button>
+            <button class="debug-button" onclick="testCacheAccess()">Test Cache Access</button>
+            <button class="debug-button" onclick="clearDebugLog()">Clear Log</button>
+        </div>
+    </div>
+
+    <div class="debug-container">
+        <h2>📊 Diagnostic Information</h2>
+        <div id="diagnostics">
+            <div class="status">
+                <span class="status-label">Current Surah</span>
+                <span class="status-value" id="currentSurah">Not set</span>
+            </div>
+            <div class="status">
+                <span class="status-label">Cache Status</span>
+                <span class="status-value" id="cacheStatus">Unknown</span>
+            </div>
+            <div class="status">
+                <span class="status-label">Word-by-Word Mode</span>
+                <span class="status-value" id="wordByWordMode">Unknown</span>
+            </div>
+            <div class="status">
+                <span class="status-label">Translation Mode</span>
+                <span class="status-value" id="translationMode">Unknown</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="debug-container">
+        <h2>📝 Debug Log</h2>
+        <div id="debugLog" class="log">
+            Ready for debugging...<br>
+            🔍 This tool helps diagnose the word-by-word checkbox issue<br>
+        </div>
+    </div>
+
+    <div class="debug-container">
+        <h2>🛠️ Manual Tests</h2>
+        <p><strong>Steps to test the fix:</strong></p>
+        <ol>
+            <li>Open your main app</li>
+            <li>Open any surah (e.g., Al-Fatihah)</li>
+            <li>Try checking the "Word by Word" checkbox</li>
+            <li>If it works, try clicking on Arabic words</li>
+            <li>Test the floating controls version too</li>
+        </ol>
+        
+        <p><strong>If still having issues:</strong></p>
+        <ul>
+            <li>Open browser console (F12)</li>
+            <li>Look for error messages</li>
+            <li>Run: <code>checkPerformance()</code></li>
+            <li>Run: <code>window.appData</code> to check state</li>
+        </ul>
+    </div>
+
+    <script>
+        function log(message) {
+            const logElement = document.getElementById('debugLog');
+            const timestamp = new Date().toLocaleTimeString();
+            logElement.innerHTML += `[${timestamp}] ${message}<br>`;
+            logElement.scrollTop = logElement.scrollHeight;
+        }
+
+        function updateStatus(id, value, status = '') {
+            const element = document.getElementById(id);
+            if (element) {
+                element.textContent = value;
+                element.className = 'status-value ' + status;
+            }
+        }
+
+        function testWordByWordToggle() {
+            log('🧪 Testing word-by-word toggle functionality...');
+            
+            // Check if we're in parent window
+            if (window.parent !== window) {
+                log('⚠️ Running in iframe - limited access to main app');
+                return;
+            }
+            
+            // Try to access main app state
+            try {
+                if (typeof window.appData !== 'undefined') {
+                    log('✅ Main app state accessible');
+                    updateStatus('currentSurah', window.appData.currentSurah || 'None');
+                    updateStatus('wordByWordMode', window.appData.isWordByWordMode ? 'Enabled' : 'Disabled');
+                    updateStatus('translationMode', window.appData.isTranslationVisible ? 'Visible' : 'Hidden');
+                } else {
+                    log('❌ Cannot access main app state');
+                }
+            } catch (error) {
+                log(`❌ Error accessing app state: ${error.message}`);
+            }
+        }
+
+        function checkDataStructure() {
+            log('🔍 Checking data structure...');
+            
+            try {
+                if (typeof window.surahCache !== 'undefined') {
+                    log('✅ surahCache accessible');
+                    updateStatus('cacheStatus', `${window.surahCache.size} surahs cached`, 'good');
+                } else {
+                    log('❌ surahCache not accessible');
+                    updateStatus('cacheStatus', 'Not accessible', 'danger');
+                }
+                
+                if (typeof window.checkPerformance === 'function') {
+                    log('✅ Performance tools available');
+                    log('💡 Try running: checkPerformance() in console');
+                } else {
+                    log('❌ Performance tools not available');
+                }
+                
+            } catch (error) {
+                log(`❌ Error checking data structure: ${error.message}`);
+            }
+        }
+
+        function testCacheAccess() {
+            log('🧠 Testing cache access...');
+            
+            try {
+                if (typeof window.QuranPerformance !== 'undefined') {
+                    const stats = window.QuranPerformance.getStats();
+                    log(`✅ Cache stats: ${stats.cachedSurahs}/${stats.totalSurahs} surahs`);
+                    log(`💾 Memory usage: ${stats.estimatedMemoryUsage}`);
+                } else {
+                    log('❌ Cannot access performance API');
+                }
+            } catch (error) {
+                log(`❌ Error testing cache: ${error.message}`);
+            }
+        }
+
+        function clearDebugLog() {
+            document.getElementById('debugLog').innerHTML = 'Debug log cleared.<br>';
+        }
+
+        // Auto-run diagnostics
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                log('🎬 Auto-running diagnostics...');
+                testWordByWordToggle();
+                checkDataStructure();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

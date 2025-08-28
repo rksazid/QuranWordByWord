@@ -1,0 +1,441 @@
+{
+  "surah_id": 92,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَاللَّيْلِ إِذَا يَغْشَى",
+      "bangla_trans": "রাতের কসম যখন তা ঢেকে যায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَاللَّيْلِ",
+          "translate_bn": "শপথ রাতের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "يَغْشَىٰ",
+          "translate_bn": "আচ্ছন্ন করে"
+        }
+      },
+      "english_trans": "I swear by the night when it draws a veil,"
+    },
+    "2": {
+      "arabic_text": "وَالنَّهَارِ إِذَا تَجَلَّى",
+      "bangla_trans": "দিনের কসম যখন তা উজ্জ্বল হয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالنَّهَارِ",
+          "translate_bn": "শপথ দিনের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "تَجَلَّىٰ",
+          "translate_bn": "আলোকিত হয়"
+        }
+      },
+      "english_trans": "And the day when it shines in brightness,"
+    },
+    "3": {
+      "arabic_text": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنْثَى",
+      "bangla_trans": "আর সেই সত্তার কসম যিনি পুরুষ ও স্ত্রী সৃষ্টি করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "শপথ তাঁর (যিনি)"
+        },
+        "2": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "সৃষ্টি করেছেন"
+        },
+        "3": {
+          "words_ar": "الذَّكَرَ",
+          "translate_bn": "পুরুষ"
+        },
+        "4": {
+          "words_ar": "وَالْأُنْثَىٰ",
+          "translate_bn": "ও নারী"
+        }
+      },
+      "english_trans": "And the creating of the male and the female,"
+    },
+    "4": {
+      "arabic_text": "إِنَّ سَعْيَكُمْ لَشَتَّى",
+      "bangla_trans": "আসলে তোমাদের প্রচেষ্টা নানা ধরনের।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "سَعْيَكُمْ",
+          "translate_bn": "তোমাদের কর্মপ্রচেষ্টা"
+        },
+        "3": {
+          "words_ar": "لَشَتَّىٰ",
+          "translate_bn": "অবশ্যই বিভিন্ন প্রকৃতির"
+        }
+      },
+      "english_trans": "Your striving is most surely (directed to) various (ends)."
+    },
+    "5": {
+      "arabic_text": "فَأَمَّا مَنْ أَعْطَى وَاتَّقَى",
+      "bangla_trans": "কাজেই যে (আল্লাহর পথে) ধন সম্পদ দান করেছে,  (আল্লাহর নাফরমানি থেকে) দূরে থেকেছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَمَّا",
+          "translate_bn": "অতঃপর (তার) ক্ষেত্রে"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "أَعْطَىٰ",
+          "translate_bn": "দান করলো"
+        },
+        "4": {
+          "words_ar": "وَاتَّقَىٰ",
+          "translate_bn": "ও খোদাভীরু হলো"
+        }
+      },
+      "english_trans": "Then as for him who gives away and guards (against evil),"
+    },
+    "6": {
+      "arabic_text": "وَصَدَّقَ بِالْحُسْنَى",
+      "bangla_trans": "এবং সৎবৃত্তিকে সত্য বলে মেনে নিয়েছে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَصَدَّقَ",
+          "translate_bn": "এবং সত্য মানলো"
+        },
+        "2": {
+          "words_ar": "بِالْحُسْنَىٰ",
+          "translate_bn": "উত্তমকে (ইসলামকে)"
+        }
+      },
+      "english_trans": "And accepts the best,"
+    },
+    "7": {
+      "arabic_text": "فَسَنُيَسِّرُهُ لِلْيُسْرَى",
+      "bangla_trans": " তাকে আমি সহজ পথের সুযোগ- সুবিধা দেবো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَسَنُيَسِّرُهُ",
+          "translate_bn": "আমরা তাকে সহজতা দিব"
+        },
+        "2": {
+          "words_ar": "لِلْيُسْرَىٰ",
+          "translate_bn": "সহজ (পথের) জন্য"
+        }
+      },
+      "english_trans": "We will facilitate for him the easy end."
+    },
+    "8": {
+      "arabic_text": "وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَى",
+      "bangla_trans": "আর যে কৃপণতা করেছে, আল্লাহ‌ থেকে বেপরোয়া হয়ে গেছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَمَّا",
+          "translate_bn": "আর (তার)ক্ষেত্রে"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "بَخِلَ",
+          "translate_bn": "কৃপণতা করলো"
+        },
+        "4": {
+          "words_ar": "وَاسْتَغْنَىٰ",
+          "translate_bn": "ও নিজেকে স্বয়ংসম্পূর্ণ মনে করলো"
+        }
+      },
+      "english_trans": "And as for him who is niggardly and considers himself free from need (of Allah),"
+    },
+    "9": {
+      "arabic_text": "وَكَذَّبَ بِالْحُسْنَى",
+      "bangla_trans": "এবং সৎবৃত্তিকে মিথ্যা গণ্য করেছে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَكَذَّبَ",
+          "translate_bn": "এবং অমান্য করলো"
+        },
+        "2": {
+          "words_ar": "بِالْحُسْنَىٰ",
+          "translate_bn": "উত্তমকে (ইসলামকে)"
+        }
+      },
+      "english_trans": "And rejects the best,"
+    },
+    "10": {
+      "arabic_text": "فَسَنُيَسِّرُهُ لِلْعُسْرَى",
+      "bangla_trans": "তাকে আমি কঠিন পথের সুযোগ-সুবিধা দেবো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَسَنُيَسِّرُهُ",
+          "translate_bn": "ফলে আমরা তাকে সহজতা দিব"
+        },
+        "2": {
+          "words_ar": "لِلْعُسْرَىٰ",
+          "translate_bn": "কঠোর পথের জন্য"
+        }
+      },
+      "english_trans": "We will facilitate for him the difficult end."
+    },
+    "11": {
+      "arabic_text": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّى",
+      "bangla_trans": "আর তার ধন-সম্পদ তার কোন কাজে লাগবে যখন সে ধ্বংস হয়ে যাবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "يُغْنِي",
+          "translate_bn": "কাজে আসবে"
+        },
+        "3": {
+          "words_ar": "عَنْهُ",
+          "translate_bn": "তার জন্যে"
+        },
+        "4": {
+          "words_ar": "مَالُهُ",
+          "translate_bn": "তার ধনসম্পদ"
+        },
+        "5": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "6": {
+          "words_ar": "تَرَدَّىٰ",
+          "translate_bn": "সে ধ্বংস হবে"
+        }
+      },
+      "english_trans": "And his wealth will not avail him when he perishes."
+    },
+    "12": {
+      "arabic_text": "إِنَّ عَلَيْنَا لَلْهُدَى",
+      "bangla_trans": "নিঃসন্দেহে পথনির্দেশ দেয়া তো আমার দায়িত্বের অন্তর্ভুক্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "عَلَيْنَا",
+          "translate_bn": "আমাদের দায়িত্বে"
+        },
+        "3": {
+          "words_ar": "لَلْهُدَىٰ",
+          "translate_bn": "পথ প্রদর্শন"
+        }
+      },
+      "english_trans": "Surely Ours is it to show the way,"
+    },
+    "13": {
+      "arabic_text": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَى",
+      "bangla_trans": "আর আসলে আমি তো আখেরাত ও দুনিয়া উভয়েরই মালিক।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنَّ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "لَنَا",
+          "translate_bn": "আমরা মালিক"
+        },
+        "3": {
+          "words_ar": "لَلْآخِرَةَ",
+          "translate_bn": "পরকালের"
+        },
+        "4": {
+          "words_ar": "وَالْأُولَىٰ",
+          "translate_bn": "ও ইহকালের"
+        }
+      },
+      "english_trans": "And most surely Ours is the hereafter and the former."
+    },
+    "14": {
+      "arabic_text": "فَأَنْذَرْتُكُمْ نَارًا تَلَظَّى",
+      "bangla_trans": "তাই আমি তোমাদের সাবধান করে দিয়েছি জ্বলন্ত আগুন থেকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَنْذَرْتُكُمْ",
+          "translate_bn": "অতএব তোমাদেরকে আমি সতর্ক করছি"
+        },
+        "2": {
+          "words_ar": "نَارًا",
+          "translate_bn": "অগ্নির"
+        },
+        "3": {
+          "words_ar": "تَلَظَّىٰ",
+          "translate_bn": "জ্বলন্ত"
+        }
+      },
+      "english_trans": "Therefore I warn you of the fire that flames:"
+    },
+    "15": {
+      "arabic_text": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
+      "bangla_trans": "যে চরম হতভাগ্য ব্যক্তি মিথ্যা আরোপ করেছে ও মুখ ফিরিয়ে নিয়েছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "يَصْلَاهَا",
+          "translate_bn": "এতে প্রবেশ করবে"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া"
+        },
+        "4": {
+          "words_ar": "الْأَشْقَى",
+          "translate_bn": "নিতান্ত হতভাগ্য"
+        }
+      },
+      "english_trans": "None shall enter it but the most unhappy,"
+    },
+    "16": {
+      "arabic_text": "الَّذِي كَذَّبَ وَتَوَلَّى",
+      "bangla_trans": "সে ছাড়া আর কেউ তাতে ঝলসে যাবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যে"
+        },
+        "2": {
+          "words_ar": "كَذَّبَ",
+          "translate_bn": "মিথ্যারোপ করলো"
+        },
+        "3": {
+          "words_ar": "وَتَوَلَّىٰ",
+          "translate_bn": "এবং মুখ ফিরালো"
+        }
+      },
+      "english_trans": "Who gives the lie (to the truth) and turns (his) back."
+    },
+    "17": {
+      "arabic_text": "وَسَيُجَنَّبُهَا الْأَتْقَى",
+      "bangla_trans": "আর সেই ব্যাক্তিকে তা থেকে দূরে রাখা হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَسَيُجَنَّبُهَا",
+          "translate_bn": "এবং এ থেকে দূরে রাখা হবে"
+        },
+        "2": {
+          "words_ar": "الْأَتْقَى",
+          "translate_bn": "পরম মুত্তাকীকে"
+        }
+      },
+      "english_trans": "And away from it shall be kept the one who guards most (against evil),"
+    },
+    "18": {
+      "arabic_text": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّى",
+      "bangla_trans": "যেই পরম মুত্তাকী ব্যক্তি পবিত্রতা অর্জনের জন্য নিজের ধন-সম্পদ দান করে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যে"
+        },
+        "2": {
+          "words_ar": "يُؤْتِي",
+          "translate_bn": "দান করে"
+        },
+        "3": {
+          "words_ar": "مَالَهُ",
+          "translate_bn": "তার ধনসম্পদ"
+        },
+        "4": {
+          "words_ar": "يَتَزَكَّىٰ",
+          "translate_bn": "আত্মশুদ্ধির জন্য"
+        }
+      },
+      "english_trans": "Who gives away his wealth, purifying himself"
+    },
+    "19": {
+      "arabic_text": "وَمَا لِأَحَدٍ عِنْدَهُ مِنْ نِعْمَةٍ تُجْزَى",
+      "bangla_trans": "তার প্রতি কারো কোন অনুগ্রহ নেই যার প্রতিদান তাকে দিতে হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং নাই"
+        },
+        "2": {
+          "words_ar": "لِأَحَدٍ",
+          "translate_bn": "কারও"
+        },
+        "3": {
+          "words_ar": "عِنْدَهُ",
+          "translate_bn": "তার উপর"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কোন"
+        },
+        "5": {
+          "words_ar": "نِعْمَةٍ",
+          "translate_bn": "অনুগ্রহ (যার)"
+        },
+        "6": {
+          "words_ar": "تُجْزَىٰ",
+          "translate_bn": "প্রতিদান দিতে হবে"
+        }
+      },
+      "english_trans": "And no one has with him any boon for which he should be rewarded,"
+    },
+    "20": {
+      "arabic_text": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَى",
+      "bangla_trans": "সেতো কেবলমাত্র নিজের রবের সন্তুষ্টি লাভের জন্য এ কাজ করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "কেবল"
+        },
+        "2": {
+          "words_ar": "ابْتِغَاءَ",
+          "translate_bn": "সে অন্বেষণ করে"
+        },
+        "3": {
+          "words_ar": "وَجْهِ",
+          "translate_bn": "সন্তুষ্টি"
+        },
+        "4": {
+          "words_ar": "رَبِّهِ",
+          "translate_bn": "তার রবের"
+        },
+        "5": {
+          "words_ar": "الْأَعْلَىٰ",
+          "translate_bn": "সর্বশ্রেষ্ঠ"
+        }
+      },
+      "english_trans": "Except the seeking of the pleasure of his Lord, the Most High."
+    },
+    "21": {
+      "arabic_text": "وَلَسَوْفَ يَرْضَى",
+      "bangla_trans": "আর তিনি অবশ্যি (তার প্রতি) সন্তুষ্ট হবেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَسَوْفَ",
+          "translate_bn": "এবং অচিরেই অবশ্যই"
+        },
+        "2": {
+          "words_ar": "يَرْضَىٰ",
+          "translate_bn": "তিনি সন্তুষ্ট হবেন (তার প্রতি)"
+        }
+      },
+      "english_trans": "And he shall soon be well-pleased."
+    }
+  }
+}

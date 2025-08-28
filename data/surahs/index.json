@@ -1,0 +1,7 @@
+{
+  "total_surahs": 114,
+  "file_pattern": "surah_XXX.json",
+  "average_size_kb": 130,
+  "created_at": "2025-08-28T15:22:09.815Z",
+  "description": "Individual surah files for lazy loading"
+}

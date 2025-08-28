@@ -1,0 +1,205 @@
+{
+  "surah_id": 104,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَيْلٌ لِكُلِّ هُمَزَةٍ لُمَزَةٍ",
+      "bangla_trans": "ধবংশ এমন প্রত্যেক ব্যক্তির জন্য যে (সামনা সামনি) লোকদের ধিক্কার দেয় এবং (পেছনে) নিন্দা করতে অভ্যস্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيْلٌ",
+          "translate_bn": "দুর্ভোগ"
+        },
+        "2": {
+          "words_ar": "لِكُلِّ",
+          "translate_bn": "প্রত্যেকের"
+        },
+        "3": {
+          "words_ar": "هُمَزَةٍ",
+          "translate_bn": "সামনে নিন্দাকারীর"
+        },
+        "4": {
+          "words_ar": "لُمَزَةٍ",
+          "translate_bn": "পিছনে দোষ প্রচারকারীর"
+        }
+      },
+      "english_trans": "Woe to every slanderer, defamer,"
+    },
+    "2": {
+      "arabic_text": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ",
+      "bangla_trans": "যে অর্থ জমায় এবং তা গুণে গুণে রাখে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যে"
+        },
+        "2": {
+          "words_ar": "جَمَعَ",
+          "translate_bn": "জমা করেছে"
+        },
+        "3": {
+          "words_ar": "مَالًا",
+          "translate_bn": "অর্থ"
+        },
+        "4": {
+          "words_ar": "وَعَدَّدَهُ",
+          "translate_bn": "এবং তা বারবার গণনা করে রেখেছে"
+        }
+      },
+      "english_trans": "Who amasses wealth and considers it a provision (against mishap);"
+    },
+    "3": {
+      "arabic_text": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ",
+      "bangla_trans": "সে মনে করে তার অর্থ-সম্পদ চিরকাল থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَحْسَبُ",
+          "translate_bn": "সে ধারণা করে"
+        },
+        "2": {
+          "words_ar": "أَنَّ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "مَالَهُ",
+          "translate_bn": "তার অর্থ"
+        },
+        "4": {
+          "words_ar": "أَخْلَدَهُ",
+          "translate_bn": "তাকে অমর করবে"
+        }
+      },
+      "english_trans": "He thinks that his wealth will make him immortal."
+    },
+    "4": {
+      "arabic_text": "كَلَّا لَيُنْبَذَنَّ فِي الْحُطَمَةِ",
+      "bangla_trans": "কখনো নয়, তাকে তো চূর্ণ-বিচূর্ণকারী জায়গায় ফেলে দেয়া হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "কখনও না"
+        },
+        "2": {
+          "words_ar": "لَيُنْبَذَنَّ",
+          "translate_bn": "সে নিক্ষিপ্ত হবে অবশ্যই"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "الْحُطَمَةِ",
+          "translate_bn": "বিচূর্ণকারী স্থানের"
+        }
+      },
+      "english_trans": "Nay! he shall most certainly be hurled into the crushing disaster,"
+    },
+    "5": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ",
+      "bangla_trans": "আর তুমি কি জানো সেই চূর্ণ-বিচূর্ণকারী জায়গাটি কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কি"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কি"
+        },
+        "4": {
+          "words_ar": "الْحُطَمَةُ",
+          "translate_bn": "বিচূর্ণকারী স্থান"
+        }
+      },
+      "english_trans": "And what will make you realize what the crushing disaster is?"
+    },
+    "6": {
+      "arabic_text": "نَارُ اللَّهِ الْمُوقَدَةُ",
+      "bangla_trans": "আল্লাহর আগুন,  প্রচণ্ডভাবে উৎক্ষিপ্ত,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "نَارُ",
+          "translate_bn": "আগুন"
+        },
+        "2": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "3": {
+          "words_ar": "الْمُوقَدَةُ",
+          "translate_bn": "প্রজ্জ্বলিত"
+        }
+      },
+      "english_trans": "It is the fire kindled by Allah,"
+    },
+    "7": {
+      "arabic_text": "الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ",
+      "bangla_trans": "যা হৃদয় অভ্যন্তরে পৌঁছে যাবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّتِي",
+          "translate_bn": "যা"
+        },
+        "2": {
+          "words_ar": "تَطَّلِعُ",
+          "translate_bn": "পৌঁছে যাবে"
+        },
+        "3": {
+          "words_ar": "عَلَى",
+          "translate_bn": "উপর"
+        },
+        "4": {
+          "words_ar": "الْأَفْئِدَةِ",
+          "translate_bn": "অন্তরসমূহের"
+        }
+      },
+      "english_trans": "Which rises above the hearts."
+    },
+    "8": {
+      "arabic_text": "إِنَّهَا عَلَيْهِمْ مُؤْصَدَةٌ",
+      "bangla_trans": "তা তাদের ওপর ঢেকে দিয়ে বন্ধ করা হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّهَا",
+          "translate_bn": "নিশ্চয়ই তা"
+        },
+        "2": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "তাদের উপর"
+        },
+        "3": {
+          "words_ar": "مُؤْصَدَةٌ",
+          "translate_bn": "অবরুদ্ধ করে দেয়া হবে"
+        }
+      },
+      "english_trans": "Surely it shall be closed over upon them,"
+    },
+    "9": {
+      "arabic_text": "فِي عَمَدٍ مُمَدَّدَةٍ",
+      "bangla_trans": "(এমন অবস্থায় যে তা) উঁচু উঁচু থামে (ঘেরাও হয়ে থাকবো)।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "2": {
+          "words_ar": "عَمَدٍ",
+          "translate_bn": "স্তম্ভসমূহের"
+        },
+        "3": {
+          "words_ar": "مُمَدَّدَةٍ",
+          "translate_bn": "দীর্ঘায়িত"
+        }
+      },
+      "english_trans": "In extended columns."
+    }
+  }
+}

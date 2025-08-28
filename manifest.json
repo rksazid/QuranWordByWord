@@ -1,0 +1,66 @@
+{
+  "name": "Al-Quran Word by Word",
+  "short_name": "Quran WbW",
+  "description": "Read the Holy Quran with word-by-word Bengali translations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2d7d32",
+  "theme_color": "#2d7d32",
+  "orientation": "portrait-primary",
+  "categories": ["education", "religion", "books"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjU2OCIgdmlld0JveD0iMCAwIDMyMCA1NjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iNTY4IiBmaWxsPSIjZmFmYWZhIi8+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIzMjAiIGhlaWdodD0iODAiIGZpbGw9InVybCgjZ3JhZGllbnQwX2xpbmVhcl8wXzEpIi8+CjxyZWN0IHg9IjIwIiB5PSIxMDAiIHdpZHRoPSIyODAiIGhlaWdodD0iMTAwIiByeD0iMTIiIGZpbGw9IndoaXRlIiBzdHJva2U9IiNlMGUwZTAiLz4KPHN2ZyB4PSIyNCIgeT0iMjQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHN0eWxlPgogICAgLnF1cmFuLWljb24geyBmaWxsOiAjZDRhZjM3OyB9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJxdXJhbi1pY29uIiBkPSJNMTggMkg2QzQuOSAyIDQgMi45IDQgNFYyMEM0IDIxLjEgNC45IDIyIDYgMjJIMThDMTkuMSAyMiAyMCAyMS4xIDIwIDIwVjRDMjAgMi45IDE5LjEgMiAxOCAyWk0xNiAyMEg4VjRIOVY2SDE1VjRIMTZWMjBaIi8+CjwvcGF0aD4KPC9zdmc+Cjx0ZXh0IHg9IjY0IiB5PSI0NCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSI2MDAiPkFsLVF1cmFuIFdvcmQgYnkgV29yZDwvdGV4dD4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQwX2xpbmVhcl8wXzEiIHgxPSIwIiB5MT0iMCIgeDI9IjMyMCIgeTI9IjAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzJkN2QzMiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0Y2FmNTAiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K",
+      "sizes": "320x568",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ],
+  "shortcuts": [
+    {
+      "name": "Al-Fatihah",
+      "short_name": "Fatihah",
+      "description": "Open Surah Al-Fatihah",
+      "url": "/?surah=1",
+      "icons": [
+        {
+          "src": "favicon/android-chrome-192x192.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Al-Baqarah",
+      "short_name": "Baqarah",
+      "description": "Open Surah Al-Baqarah",
+      "url": "/?surah=2",
+      "icons": [
+        {
+          "src": "favicon/android-chrome-192x192.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

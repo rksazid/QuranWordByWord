@@ -1,0 +1,71 @@
+{
+  "surah_id": 108,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+      "bangla_trans": "(হে নবী!) আমি তোমাকে কাউসার দান করেছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই আমরা"
+        },
+        "2": {
+          "words_ar": "أَعْطَيْنَاكَ",
+          "translate_bn": "আমরা তোমাকে দিয়েছি"
+        },
+        "3": {
+          "words_ar": "الْكَوْثَرَ",
+          "translate_bn": "কাউসার"
+        }
+      },
+      "english_trans": "Surely We have given you Kausar,"
+    },
+    "2": {
+      "arabic_text": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+      "bangla_trans": "কাজেই তুমি নিজের রবেরই জন্য নামায পড়ো ও কুরবানী করো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَصَلِّ",
+          "translate_bn": "সুতরাং তুমি সালাত পড়ো"
+        },
+        "2": {
+          "words_ar": "لِرَبِّكَ",
+          "translate_bn": "তোমার রবের উদ্দেশ্যে"
+        },
+        "3": {
+          "words_ar": "وَانْحَرْ",
+          "translate_bn": "এবং তুমি কুরবানী করো"
+        }
+      },
+      "english_trans": "Therefore pray to your Lord and make a sacrifice."
+    },
+    "3": {
+      "arabic_text": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+      "bangla_trans": "তোমার দুশমনই শিকড় কাটা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "شَانِئَكَ",
+          "translate_bn": "তোমার দুশমন"
+        },
+        "3": {
+          "words_ar": "هُوَ",
+          "translate_bn": "সে-ই তো"
+        },
+        "4": {
+          "words_ar": "الْأَبْتَرُ",
+          "translate_bn": "নির্বংশ"
+        }
+      },
+      "english_trans": "Surely your enemy is the one who shall be without posterity,"
+    }
+  }
+}

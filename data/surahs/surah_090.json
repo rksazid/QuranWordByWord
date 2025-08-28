@@ -1,0 +1,478 @@
+{
+  "surah_id": 90,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "لَا أُقْسِمُ بِهَذَا الْبَلَدِ",
+      "bangla_trans": "না, আমি কসম খাচ্ছি এই নগরের।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "أُقْسِمُ",
+          "translate_bn": "আমি শপথ করছি"
+        },
+        "3": {
+          "words_ar": "بِهَٰذَا",
+          "translate_bn": "এই"
+        },
+        "4": {
+          "words_ar": "الْبَلَدِ",
+          "translate_bn": "নগরের (অর্থাৎ মক্কার)"
+        }
+      },
+      "english_trans": "Nay! I swear by this city."
+    },
+    "2": {
+      "arabic_text": "وَأَنْتَ حِلٌّ بِهَذَا الْبَلَدِ",
+      "bangla_trans": "আর অবস্থা হচ্ছে এই যে (হে নবী!) তোমাকে এই নগরে হালাল করে নেয়া হয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَنْتَ",
+          "translate_bn": "আর তুমি"
+        },
+        "2": {
+          "words_ar": "حِلٌّ",
+          "translate_bn": "হালালঅধিবাসী (হয়েছে)"
+        },
+        "3": {
+          "words_ar": "بِهَٰذَا",
+          "translate_bn": "এই"
+        },
+        "4": {
+          "words_ar": "الْبَلَدِ",
+          "translate_bn": "নগরের"
+        }
+      },
+      "english_trans": "And you shall be made free from obligation in this city--"
+    },
+    "3": {
+      "arabic_text": "وَوَالِدٍ وَمَا وَلَدَ",
+      "bangla_trans": "কসম খাচ্ছি বাপের এবং তার ঔরসে যে সন্তান জন্ম নিয়েছে তার।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَوَالِدٍ",
+          "translate_bn": "(আরও) শপথ পিতার (আদম আঃ)"
+        },
+        "2": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যা"
+        },
+        "3": {
+          "words_ar": "وَلَدَ",
+          "translate_bn": "জন্ম দিয়েছেন (সেই সন্তানের)"
+        }
+      },
+      "english_trans": "And the begetter and whom he begot."
+    },
+    "4": {
+      "arabic_text": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي كَبَدٍ",
+      "bangla_trans": "আসলে আমি মানুষকে কষ্ট ও পরিশ্রমের মধ্যে সৃষ্টি করেছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَقَدْ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "خَلَقْنَا",
+          "translate_bn": "আমরা সৃষ্টি করেছি"
+        },
+        "3": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষকে"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "5": {
+          "words_ar": "كَبَدٍ",
+          "translate_bn": "কষ্টের"
+        }
+      },
+      "english_trans": "Certainly We have created man to be in distress."
+    },
+    "5": {
+      "arabic_text": "أَيَحْسَبُ أَنْ لَنْ يَقْدِرَ عَلَيْهِ أَحَدٌ",
+      "bangla_trans": "সে কি মনে করে রেখেছে, তার ওপর কেউ জোর খাটাতে পারবে না?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَيَحْسَبُ",
+          "translate_bn": "মনে করে কি সে"
+        },
+        "2": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "لَنْ",
+          "translate_bn": "কখনও না"
+        },
+        "4": {
+          "words_ar": "يَقْدِرَ",
+          "translate_bn": "ক্ষমতাবান হবে"
+        },
+        "5": {
+          "words_ar": "عَلَيْهِ",
+          "translate_bn": "তার উপর"
+        },
+        "6": {
+          "words_ar": "أَحَدٌ",
+          "translate_bn": "কেউ"
+        }
+      },
+      "english_trans": "Does he think that no one has power over him?"
+    },
+    "6": {
+      "arabic_text": "يَقُولُ أَهْلَكْتُ مَالًا لُبَدًا",
+      "bangla_trans": "সে বলে, আমি প্রচুর ধন সম্পদ উড়িয়ে দিয়েছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَقُولُ",
+          "translate_bn": "সে বলে"
+        },
+        "2": {
+          "words_ar": "أَهْلَكْتُ",
+          "translate_bn": "আমি নিঃশেষ করেছি"
+        },
+        "3": {
+          "words_ar": "مَالًا",
+          "translate_bn": "ধনসম্পদ"
+        },
+        "4": {
+          "words_ar": "لُبَدًا",
+          "translate_bn": "বিপুল (পরিমাণ)"
+        }
+      },
+      "english_trans": "He shall say: I have wasted much wealth."
+    },
+    "7": {
+      "arabic_text": "أَيَحْسَبُ أَنْ لَمْ يَرَهُ أَحَدٌ",
+      "bangla_trans": "সে কি মনে করে কেউ তাকে দেখেনি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَيَحْسَبُ",
+          "translate_bn": "সে মনে করে কি"
+        },
+        "2": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "لَمْ",
+          "translate_bn": "নি"
+        },
+        "4": {
+          "words_ar": "يَرَهُ",
+          "translate_bn": "তাকে দেখে"
+        },
+        "5": {
+          "words_ar": "أَحَدٌ",
+          "translate_bn": "কেউ"
+        }
+      },
+      "english_trans": "Does he think that no one sees him?"
+    },
+    "8": {
+      "arabic_text": "أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ",
+      "bangla_trans": "আমি কি তাকে দু’টি চোখ,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَمْ",
+          "translate_bn": "নি কি"
+        },
+        "2": {
+          "words_ar": "نَجْعَلْ",
+          "translate_bn": "আমরা দিই"
+        },
+        "3": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তার জন্য"
+        },
+        "4": {
+          "words_ar": "عَيْنَيْنِ",
+          "translate_bn": "দুচোখ"
+        }
+      },
+      "english_trans": "Have We not given him two eyes,"
+    },
+    "9": {
+      "arabic_text": "وَلِسَانًا وَشَفَتَيْنِ",
+      "bangla_trans": "একটি জিহ্বা ও দু’টি ঠোঁট দেইনি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلِسَانًا",
+          "translate_bn": "এবং জিহ্বা"
+        },
+        "2": {
+          "words_ar": "وَشَفَتَيْنِ",
+          "translate_bn": "ও দুঠোট"
+        }
+      },
+      "english_trans": "And a tongue and two lips,"
+    },
+    "10": {
+      "arabic_text": "وَهَدَيْنَاهُ النَّجْدَيْنِ",
+      "bangla_trans": "আমি কি তাকে দু’টি সুস্পষ্ট পথ দেখাইনি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَهَدَيْنَاهُ",
+          "translate_bn": "এবং আমরা তাকে দেখিয়েছি"
+        },
+        "2": {
+          "words_ar": "النَّجْدَيْنِ",
+          "translate_bn": "(ভাল মন্দ) দুই পথের"
+        }
+      },
+      "english_trans": "And pointed out to him the two conspicuous ways?"
+    },
+    "11": {
+      "arabic_text": "فَلَا اقْتَحَمَ الْعَقَبَةَ",
+      "bangla_trans": "কিন্তু সে দুর্গম গিরিপথ অতিক্রম করার সহস করেনি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَلَا",
+          "translate_bn": "কিন্তু না"
+        },
+        "2": {
+          "words_ar": "اقْتَحَمَ",
+          "translate_bn": "সে অবলম্বন করেছে"
+        },
+        "3": {
+          "words_ar": "الْعَقَبَةَ",
+          "translate_bn": "কষ্টসাধ্য গিরিপথ"
+        }
+      },
+      "english_trans": "But he would not attempt the uphill road,"
+    },
+    "12": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا الْعَقَبَةُ",
+      "bangla_trans": "তুমি কি জানো সেই দুর্গম গিরিপথটি কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কিসে"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কি"
+        },
+        "4": {
+          "words_ar": "الْعَقَبَةُ",
+          "translate_bn": "সেই কষ্টসাধ্য গিরিপথ"
+        }
+      },
+      "english_trans": "And what will make you comprehend what the uphill road is?"
+    },
+    "13": {
+      "arabic_text": "فَكُّ رَقَبَةٍ",
+      "bangla_trans": "কোন গলাকে দাসত্বমুক্ত করা",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَكُّ",
+          "translate_bn": "মুক্তি"
+        },
+        "2": {
+          "words_ar": "رَقَبَةٍ",
+          "translate_bn": "দাস"
+        }
+      },
+      "english_trans": "(It is) the setting free of a slave,"
+    },
+    "14": {
+      "arabic_text": "أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ",
+      "bangla_trans": "অথবা অনাহারের দিন",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَوْ",
+          "translate_bn": "অথবা"
+        },
+        "2": {
+          "words_ar": "إِطْعَامٌ",
+          "translate_bn": "খানা খাওয়ানো"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "يَوْمٍ",
+          "translate_bn": "দিনে"
+        },
+        "5": {
+          "words_ar": "ذِي",
+          "translate_bn": "এর"
+        },
+        "6": {
+          "words_ar": "مَسْغَبَةٍ",
+          "translate_bn": "দুর্ভিক্ষ"
+        }
+      },
+      "english_trans": "Or the giving of food in a day of hunger"
+    },
+    "15": {
+      "arabic_text": "يَتِيمًا ذَا مَقْرَبَةٍ",
+      "bangla_trans": "কোন নিকটবর্তী এতিম",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَتِيمًا",
+          "translate_bn": "ইয়াতীমকে"
+        },
+        "2": {
+          "words_ar": "ذَا",
+          "translate_bn": "এর"
+        },
+        "3": {
+          "words_ar": "مَقْرَبَةٍ",
+          "translate_bn": "নিকট আত্মীয় সম্পর্ক"
+        }
+      },
+      "english_trans": "To an orphan, having relationship,"
+    },
+    "16": {
+      "arabic_text": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
+      "bangla_trans": "বা ধূলি মলিন মিসকিনকে খাবার খাওয়ানো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَوْ",
+          "translate_bn": "অথবা"
+        },
+        "2": {
+          "words_ar": "مِسْكِينًا",
+          "translate_bn": "নিঃস্বকে"
+        },
+        "3": {
+          "words_ar": "ذَا",
+          "translate_bn": "মাখা যুক্ত"
+        },
+        "4": {
+          "words_ar": "مَتْرَبَةٍ",
+          "translate_bn": "ধুলি দারিদ্র-নিষ্পেষিত"
+        }
+      },
+      "english_trans": "Or to the poor man lying in the dust."
+    },
+    "17": {
+      "arabic_text": "ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ",
+      "bangla_trans": "তারপর (এই সঙ্গে) তাদের মধ্যে শামিল হওয়া যারা ঈমান এনেছে এবং যারা পরস্পরকে সবর ও (আল্লাহর সৃষ্টির প্রতি) রহম করার উপদেশ দেয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "তদুপরি (এর সাথে)"
+        },
+        "2": {
+          "words_ar": "كَانَ",
+          "translate_bn": "সে হলো"
+        },
+        "3": {
+          "words_ar": "مِنَ",
+          "translate_bn": "শামিলও"
+        },
+        "4": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "(তাদের মধ্য) যারা"
+        },
+        "5": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "6": {
+          "words_ar": "وَتَوَاصَوْا",
+          "translate_bn": "ও তারা পরস্পরকে উপদেশ দিয়েছে"
+        },
+        "7": {
+          "words_ar": "بِالصَّبْرِ",
+          "translate_bn": "ধৈর্যধারণের"
+        },
+        "8": {
+          "words_ar": "وَتَوَاصَوْا",
+          "translate_bn": "ও তারা পরস্পরকে উপদেশ দিয়েছে"
+        },
+        "9": {
+          "words_ar": "بِالْمَرْحَمَةِ",
+          "translate_bn": "দয়া প্রদর্শনের"
+        }
+      },
+      "english_trans": "Then he is of those who believe and charge one another to show patience, and charge one another to show compassion."
+    },
+    "18": {
+      "arabic_text": "أُولَئِكَ أَصْحَابُ الْمَيْمَنَةِ",
+      "bangla_trans": "এরাই ডানপন্থী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব"
+        },
+        "2": {
+          "words_ar": "أَصْحَابُ",
+          "translate_bn": "লোক"
+        },
+        "3": {
+          "words_ar": "الْمَيْمَنَةِ",
+          "translate_bn": "ডান দিকের (অর্থাৎ সৌভাগ্যশীল)"
+        }
+      },
+      "english_trans": "These are the people of the right hand."
+    },
+    "19": {
+      "arabic_text": "وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ",
+      "bangla_trans": "আর যারা আমার আয়াত মানতে অস্বীকার করেছে তারা বামপন্থী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা"
+        },
+        "2": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "3": {
+          "words_ar": "بِآيَاتِنَا",
+          "translate_bn": "আমাদের আয়াতগুলোকে"
+        },
+        "4": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারাই"
+        },
+        "5": {
+          "words_ar": "أَصْحَابُ",
+          "translate_bn": "লোক"
+        },
+        "6": {
+          "words_ar": "الْمَشْأَمَةِ",
+          "translate_bn": "বাম দিকের (অর্থাৎ হতভাগ্য)"
+        }
+      },
+      "english_trans": "And (as for) those who disbelieve in our communications, they are the people of the left hand."
+    },
+    "20": {
+      "arabic_text": "عَلَيْهِمْ نَارٌ مُؤْصَدَةٌ",
+      "bangla_trans": "এদের ওপর আগুন ছেয়ে থাকবে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "তাদের উপর"
+        },
+        "2": {
+          "words_ar": "نَارٌ",
+          "translate_bn": "আগুন"
+        },
+        "3": {
+          "words_ar": "مُؤْصَدَةٌ",
+          "translate_bn": "পরিবেষ্টনকারী (হয়ে থাকবে)"
+        }
+      },
+      "english_trans": "On them is fire closed over."
+    }
+  }
+}

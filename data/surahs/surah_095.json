@@ -1,0 +1,202 @@
+{
+  "surah_id": 95,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالتِّينِ وَالزَّيْتُونِ",
+      "bangla_trans": "তীন ও যায়তূন,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالتِّينِ",
+          "translate_bn": "শপথ তীন (ডুমুর)"
+        },
+        "2": {
+          "words_ar": "وَالزَّيْتُونِ",
+          "translate_bn": "এবং যয়তুনের (জলপাই)"
+        }
+      },
+      "english_trans": "I swear by the fig and the olive,"
+    },
+    "2": {
+      "arabic_text": "وَطُورِ سِينِينَ",
+      "bangla_trans": "সিনাই পর্বত",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَطُورِ",
+          "translate_bn": "শপথ তুর পর্বতের"
+        },
+        "2": {
+          "words_ar": "سِينِينَ",
+          "translate_bn": "সিনাই"
+        }
+      },
+      "english_trans": "And mount Sinai,"
+    },
+    "3": {
+      "arabic_text": "وَهَذَا الْبَلَدِ الْأَمِينِ",
+      "bangla_trans": "এবং এই নিরাপদ নগরীর (মক্কা) কসম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَهَٰذَا",
+          "translate_bn": "শপথ এই"
+        },
+        "2": {
+          "words_ar": "الْبَلَدِ",
+          "translate_bn": "নগরীর"
+        },
+        "3": {
+          "words_ar": "الْأَمِينِ",
+          "translate_bn": "নিরাপদ"
+        }
+      },
+      "english_trans": "And this city made secure,"
+    },
+    "4": {
+      "arabic_text": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+      "bangla_trans": "আমি মানুষকে পয়দা করেছি সর্বোত্তম কাঠামোয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَقَدْ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "خَلَقْنَا",
+          "translate_bn": "আমরা সৃষ্টি করেছি"
+        },
+        "3": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষকে"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "5": {
+          "words_ar": "أَحْسَنِ",
+          "translate_bn": "সুন্দরতম"
+        },
+        "6": {
+          "words_ar": "تَقْوِيمٍ",
+          "translate_bn": "গঠনে"
+        }
+      },
+      "english_trans": "Certainly We created man in the best make."
+    },
+    "5": {
+      "arabic_text": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
+      "bangla_trans": "তারপর তাকে উল্টো ফিরিয়ে নীচতমদেরও নীচে পৌঁছিয়ে দিয়েছি",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "এরপরে"
+        },
+        "2": {
+          "words_ar": "رَدَدْنَاهُ",
+          "translate_bn": "আমরা তাকে ফিরিয়ে দিয়েছি"
+        },
+        "3": {
+          "words_ar": "أَسْفَلَ",
+          "translate_bn": "অতি নীচে"
+        },
+        "4": {
+          "words_ar": "سَافِلِينَ",
+          "translate_bn": "সব নীচুর"
+        }
+      },
+      "english_trans": "Then We render him the lowest of the low."
+    },
+    "6": {
+      "arabic_text": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "bangla_trans": "তাদেরকে ছাড়া যারা ঈমান আনে ও সৎকাজ করতে থাকে। কেননা তাদের রয়েছে এমন পুরস্কার যা কোনদিন শেষ হবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "(তবে) ব্যতিক্রম"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "(তাদের) যারা"
+        },
+        "3": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "4": {
+          "words_ar": "وَعَمِلُوا",
+          "translate_bn": "এবং করেছে"
+        },
+        "5": {
+          "words_ar": "الصَّالِحَاتِ",
+          "translate_bn": "সৎকর্ম"
+        },
+        "6": {
+          "words_ar": "فَلَهُمْ",
+          "translate_bn": "তাদের জন্য (রয়েছে)"
+        },
+        "7": {
+          "words_ar": "أَجْرٌ",
+          "translate_bn": "প্রতিফল"
+        },
+        "8": {
+          "words_ar": "غَيْرُ",
+          "translate_bn": "অশেষ"
+        },
+        "9": {
+          "words_ar": "مَمْنُونٍ",
+          "translate_bn": "অশেষ"
+        }
+      },
+      "english_trans": "Except those who believe and do good, so they shall have a reward never to be cut off."
+    },
+    "7": {
+      "arabic_text": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ",
+      "bangla_trans": "কাজেই (হে নবী!) এরপর পুরস্কার ও শাস্তির ব্যাপারে কে তোমাকে মিথ্যাবাদী বলতে পারে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَمَا",
+          "translate_bn": "সুতরাং কিসে"
+        },
+        "2": {
+          "words_ar": "يُكَذِّبُكَ",
+          "translate_bn": "তোমাকে অস্বীকার করায়"
+        },
+        "3": {
+          "words_ar": "بَعْدُ",
+          "translate_bn": "এরপরে"
+        },
+        "4": {
+          "words_ar": "بِالدِّينِ",
+          "translate_bn": "বিচার দিনের ব্যাপারে"
+        }
+      },
+      "english_trans": "Then who can give you the lie after (this) about the judgment?"
+    },
+    "8": {
+      "arabic_text": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+      "bangla_trans": "আল্লাহ কি সব শাসকের চাইতে বড় শাসক নন?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَيْسَ",
+          "translate_bn": "নন কি"
+        },
+        "2": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "3": {
+          "words_ar": "بِأَحْكَمِ",
+          "translate_bn": "শ্রেষ্ঠ বিচারক"
+        },
+        "4": {
+          "words_ar": "الْحَاكِمِينَ",
+          "translate_bn": "সব বিচারকের"
+        }
+      },
+      "english_trans": "Is not Allah the best of the Judges?"
+    }
+  }
+}

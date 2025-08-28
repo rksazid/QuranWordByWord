@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Temporary files
+split-json.js
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# Test files
+performance-test.html
+
+# Keep the important data files
+!data/surah_name.json
+!data/surahs/
+!data/al-quran-word-by-word.json

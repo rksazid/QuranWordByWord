@@ -1,0 +1,137 @@
+{
+  "surah_id": 105,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+      "bangla_trans": "তুমি কি দেখনি তোমার রব হাতিওয়ালাদের সাথে কি করেছেন?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَمْ",
+          "translate_bn": "নাই কি"
+        },
+        "2": {
+          "words_ar": "تَرَ",
+          "translate_bn": "তুমি দেখো"
+        },
+        "3": {
+          "words_ar": "كَيْفَ",
+          "translate_bn": "কেমন"
+        },
+        "4": {
+          "words_ar": "فَعَلَ",
+          "translate_bn": "করেছেন"
+        },
+        "5": {
+          "words_ar": "رَبُّكَ",
+          "translate_bn": "তোমার রব"
+        },
+        "6": {
+          "words_ar": "بِأَصْحَابِ",
+          "translate_bn": "বাহিনীর সাথে"
+        },
+        "7": {
+          "words_ar": "الْفِيلِ",
+          "translate_bn": "হাতি"
+        }
+      },
+      "english_trans": "Have you not considered how your Lord dealt with the possessors of the elephant?"
+    },
+    "2": {
+      "arabic_text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+      "bangla_trans": "তিনি কি তাদের কৌশল ব্যর্থ করে দেননি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَمْ",
+          "translate_bn": "নাই কি"
+        },
+        "2": {
+          "words_ar": "يَجْعَلْ",
+          "translate_bn": "তিনি পরণত করে"
+        },
+        "3": {
+          "words_ar": "كَيْدَهُمْ",
+          "translate_bn": "তাদের ষড়যন্ত্রকে"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "5": {
+          "words_ar": "تَضْلِيلٍ",
+          "translate_bn": "নিষ্ফলতার"
+        }
+      },
+      "english_trans": "Did He not cause their war to end in confusion,"
+    },
+    "3": {
+      "arabic_text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "bangla_trans": "আর তাদের ওপর ঝাঁকে ঝাঁকে পাখি পাঠান,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَرْسَلَ",
+          "translate_bn": "এবং পাঠিয়েছেন"
+        },
+        "2": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "তাদের বিরুদ্ধে"
+        },
+        "3": {
+          "words_ar": "طَيْرًا",
+          "translate_bn": "পাখি"
+        },
+        "4": {
+          "words_ar": "أَبَابِيلَ",
+          "translate_bn": "ঝাঁকে ঝাঁকে"
+        }
+      },
+      "english_trans": "And send down (to prey) upon them birds in flocks,"
+    },
+    "4": {
+      "arabic_text": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ",
+      "bangla_trans": "যারা তাদের ওপর নিক্ষেপ করছিল পোড়া মাটির পাথর।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "تَرْمِيهِمْ",
+          "translate_bn": "তাদের উপর নিক্ষেপ করে"
+        },
+        "2": {
+          "words_ar": "بِحِجَارَةٍ",
+          "translate_bn": "পাথরসমূহকে"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "4": {
+          "words_ar": "سِجِّيلٍ",
+          "translate_bn": "কংকরের"
+        }
+      },
+      "english_trans": "Casting against them stones of baked clay,"
+    },
+    "5": {
+      "arabic_text": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
+      "bangla_trans": "তারপর তাদের অবস্থা করে দেন পশুর খাওয়া ভূষির মতো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَجَعَلَهُمْ",
+          "translate_bn": "অতঃপর তিনি তাদের করে দেন"
+        },
+        "2": {
+          "words_ar": "كَعَصْفٍ",
+          "translate_bn": "ভুসির মতো"
+        },
+        "3": {
+          "words_ar": "مَأْكُولٍ",
+          "translate_bn": "খাওয়াভক্ষিত"
+        }
+      },
+      "english_trans": "So He rendered them like straw eaten up?"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "surah_id": 94,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "bangla_trans": "হে নবী! আমি কি তোমার বক্ষদেশ তোমার জন্য উন্মুক্ত করে দেইনি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَمْ",
+          "translate_bn": "করি দিই নি?"
+        },
+        "2": {
+          "words_ar": "نَشْرَحْ",
+          "translate_bn": "আমরা উন্মুক্ত"
+        },
+        "3": {
+          "words_ar": "لَكَ",
+          "translate_bn": "তোমার জন্যে"
+        },
+        "4": {
+          "words_ar": "صَدْرَكَ",
+          "translate_bn": "তোমার বক্ষকে"
+        }
+      },
+      "english_trans": "Have We not expanded for you your breast,"
+    },
+    "2": {
+      "arabic_text": "وَوَضَعْنَا عَنْكَ وِزْرَكَ",
+      "bangla_trans": "আমি তোমার ওপর থেকে ভারী বোঝা নামিয়ে দিয়েছি,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَوَضَعْنَا",
+          "translate_bn": "এবং আমরা নামিয়েছি"
+        },
+        "2": {
+          "words_ar": "عَنْكَ",
+          "translate_bn": "তোমার থেকে"
+        },
+        "3": {
+          "words_ar": "وِزْرَكَ",
+          "translate_bn": "তোমার ভার"
+        }
+      },
+      "english_trans": "And taken off from you your burden,"
+    },
+    "3": {
+      "arabic_text": "الَّذِي أَنْقَضَ ظَهْرَكَ",
+      "bangla_trans": "যা তোমার কোমর ভেঙ্গে দিচ্ছিল।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যা"
+        },
+        "2": {
+          "words_ar": "أَنْقَضَ",
+          "translate_bn": "ভেঙ্গে দিচ্ছিলো"
+        },
+        "3": {
+          "words_ar": "ظَهْرَكَ",
+          "translate_bn": "তোমার পিঠ"
+        }
+      },
+      "english_trans": "Which pressed heavily upon your back,"
+    },
+    "4": {
+      "arabic_text": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "bangla_trans": "আর তোমার জন্য তোমার খ্যাতির কথা বুলন্দ করে দিয়েছি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَرَفَعْنَا",
+          "translate_bn": "ও আমরা সুউচ্চ করেছি"
+        },
+        "2": {
+          "words_ar": "لَكَ",
+          "translate_bn": "তোমার জন্যে"
+        },
+        "3": {
+          "words_ar": "ذِكْرَكَ",
+          "translate_bn": "তোমার খ্যাতি স্মরণকে"
+        }
+      },
+      "english_trans": "And exalted for you your esteem?"
+    },
+    "5": {
+      "arabic_text": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "bangla_trans": "প্রকৃত কথা এই যে, সংকীর্ণতার সাথে প্রশস্ততাও রয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَإِنَّ",
+          "translate_bn": "অতএব নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "مَعَ",
+          "translate_bn": "সাথে"
+        },
+        "3": {
+          "words_ar": "الْعُسْرِ",
+          "translate_bn": "কষ্টের"
+        },
+        "4": {
+          "words_ar": "يُسْرًا",
+          "translate_bn": "স্বস্তি (আছে)"
+        }
+      },
+      "english_trans": "Surely with difficulty is ease."
+    },
+    "6": {
+      "arabic_text": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "bangla_trans": "আসলে সংকীর্ণতার সাথে আছে প্রশস্ততাও।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "مَعَ",
+          "translate_bn": "সাথে"
+        },
+        "3": {
+          "words_ar": "الْعُسْرِ",
+          "translate_bn": "কষ্টের"
+        },
+        "4": {
+          "words_ar": "يُسْرًا",
+          "translate_bn": "স্বস্তি (আছে)"
+        }
+      },
+      "english_trans": "With difficulty is surely ease."
+    },
+    "7": {
+      "arabic_text": "فَإِذَا فَرَغْتَ فَانْصَبْ",
+      "bangla_trans": "কাজেই যখনই অবসর পাও ইবাদাতের কঠোর শ্রমে লেগে যাও",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَإِذَا",
+          "translate_bn": "অতএব যখনই"
+        },
+        "2": {
+          "words_ar": "فَرَغْتَ",
+          "translate_bn": "তুমি অবসর হও"
+        },
+        "3": {
+          "words_ar": "فَانْصَبْ",
+          "translate_bn": "তুমি তখন ইবাদাত করো"
+        }
+      },
+      "english_trans": "So when you are free, nominate."
+    },
+    "8": {
+      "arabic_text": "وَإِلَى رَبِّكَ فَارْغَبْ",
+      "bangla_trans": "এবং নিজের রবেরই প্রতি মনোযোগ দাও।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِلَىٰ",
+          "translate_bn": "এবং প্রতি"
+        },
+        "2": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "3": {
+          "words_ar": "فَارْغَبْ",
+          "translate_bn": "তখন মনোনিবেশ করো"
+        }
+      },
+      "english_trans": "And make your Lord your exclusive object."
+    }
+  }
+}

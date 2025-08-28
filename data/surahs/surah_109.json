@@ -1,0 +1,156 @@
+{
+  "surah_id": 109,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+      "bangla_trans": "বলে দাও, হে কাফেররা!",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "2": {
+          "words_ar": "يَاأَيُّهَا",
+          "translate_bn": "হে"
+        },
+        "3": {
+          "words_ar": "الْكَافِرُونَ",
+          "translate_bn": "কাফিররা"
+        }
+      },
+      "english_trans": "Say: O unbelievers!"
+    },
+    "2": {
+      "arabic_text": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+      "bangla_trans": "আমি তাদের ইবাদাত করি না যাদের ইবাদাত তোমরা করো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "أَعْبُدُ",
+          "translate_bn": "আমি ইবাদাত করি"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যার"
+        },
+        "4": {
+          "words_ar": "تَعْبُدُونَ",
+          "translate_bn": "তোমরা ইবাদাত কর"
+        }
+      },
+      "english_trans": "I do not serve that which you serve,"
+    },
+    "3": {
+      "arabic_text": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "bangla_trans": "আর না তোমরা তাঁর ইবাদাত করো যাঁর ইবাদাত আমি করি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "أَنْتُمْ",
+          "translate_bn": "তোমরা"
+        },
+        "3": {
+          "words_ar": "عَابِدُونَ",
+          "translate_bn": "ইবাদাতকারী"
+        },
+        "4": {
+          "words_ar": "مَا",
+          "translate_bn": "যার"
+        },
+        "5": {
+          "words_ar": "أَعْبُدُ",
+          "translate_bn": "আমি ইবাদাত করি"
+        }
+      },
+      "english_trans": "Nor do you serve Him Whom I serve:"
+    },
+    "4": {
+      "arabic_text": "وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ",
+      "bangla_trans": "আর না আমি তাদের ইবাদাত করবো যাদের ইবাদাত তোমরা করে আসছো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "2": {
+          "words_ar": "أَنَا",
+          "translate_bn": "আমি"
+        },
+        "3": {
+          "words_ar": "عَابِدٌ",
+          "translate_bn": "ইবাদাতকারী"
+        },
+        "4": {
+          "words_ar": "مَا",
+          "translate_bn": "যার"
+        },
+        "5": {
+          "words_ar": "عَبَدْتُمْ",
+          "translate_bn": "তোমরা ইবাদাত করেছ"
+        }
+      },
+      "english_trans": "Nor am I going to serve that which you serve,"
+    },
+    "5": {
+      "arabic_text": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "bangla_trans": "আর না তোমরা তাঁর ইবাদাত করবে যাঁর ইবাদাত আমি করি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "2": {
+          "words_ar": "أَنْتُمْ",
+          "translate_bn": "তোমরা"
+        },
+        "3": {
+          "words_ar": "عَابِدُونَ",
+          "translate_bn": "ইবাদাতকারী"
+        },
+        "4": {
+          "words_ar": "مَا",
+          "translate_bn": "যার"
+        },
+        "5": {
+          "words_ar": "أَعْبُدُ",
+          "translate_bn": "আমি ইবাদাত করি"
+        }
+      },
+      "english_trans": "Nor are you going to serve Him Whom I serve:"
+    },
+    "6": {
+      "arabic_text": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+      "bangla_trans": "তোমাদের দ্বীন তোমাদের জন্য এবং আমার দ্বীন আমার জন্য।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَكُمْ",
+          "translate_bn": "তোমাদের জন্য"
+        },
+        "2": {
+          "words_ar": "دِينُكُمْ",
+          "translate_bn": "তোমার ধর্ম"
+        },
+        "3": {
+          "words_ar": "وَلِيَ",
+          "translate_bn": "এবং আমার জন্য"
+        },
+        "4": {
+          "words_ar": "دِينِ",
+          "translate_bn": "আমার ধর্ম"
+        }
+      },
+      "english_trans": "You shall have your religion and I shall have my religion."
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "surah_id": 91,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالشَّمْسِ وَضُحَاهَا",
+      "bangla_trans": "সূর্যের ও তার রোদের কসম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالشَّمْسِ",
+          "translate_bn": "শপথ সূর্যের"
+        },
+        "2": {
+          "words_ar": "وَضُحَاهَا",
+          "translate_bn": "এবং তার কিরণের"
+        }
+      },
+      "english_trans": "I swear by the sun and its brilliance,"
+    },
+    "2": {
+      "arabic_text": "وَالْقَمَرِ إِذَا تَلَاهَا",
+      "bangla_trans": "চাঁদের কসম যখন তা সূর্যের পেছনে পেছনে আসে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْقَمَرِ",
+          "translate_bn": "শপথ চাঁদের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "تَلَاهَا",
+          "translate_bn": "তার পিছে আসে"
+        }
+      },
+      "english_trans": "And the moon when it follows the sun,"
+    },
+    "3": {
+      "arabic_text": "وَالنَّهَارِ إِذَا جَلَّاهَا",
+      "bangla_trans": "দিনের কসম যখন তা (সূর্যকে) প্রকাশ করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالنَّهَارِ",
+          "translate_bn": "শপথ দিনের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "جَلَّاهَا",
+          "translate_bn": "তাকে প্রকাশ করে"
+        }
+      },
+      "english_trans": "And the day when it shows it,"
+    },
+    "4": {
+      "arabic_text": "وَاللَّيْلِ إِذَا يَغْشَاهَا",
+      "bangla_trans": "রাতের কসম যখন তা (সূর্যকে) ঢেকে নেয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَاللَّيْلِ",
+          "translate_bn": "শপথ রাতের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "يَغْشَاهَا",
+          "translate_bn": "তাকে ঢেকে ফেলে"
+        }
+      },
+      "english_trans": "And the night when it draws a veil over it,"
+    },
+    "5": {
+      "arabic_text": "وَالسَّمَاءِ وَمَا بَنَاهَا",
+      "bangla_trans": "আকাশের ও সেই সত্তার কসম যিনি তাকে প্রতিষ্ঠিত করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالسَّمَاءِ",
+          "translate_bn": "শপথ আকাশের"
+        },
+        "2": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যিনি"
+        },
+        "3": {
+          "words_ar": "بَنَاهَا",
+          "translate_bn": "তা তৈরি করেছেন"
+        }
+      },
+      "english_trans": "And the heaven and Him Who made it,"
+    },
+    "6": {
+      "arabic_text": "وَالْأَرْضِ وَمَا طَحَاهَا",
+      "bangla_trans": "পৃথিবীর ও সেই সত্তার কসম যিনি তাকে বিছিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "শপথ পৃথিবীর"
+        },
+        "2": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যিনি"
+        },
+        "3": {
+          "words_ar": "طَحَاهَا",
+          "translate_bn": "তা বিস্তৃত করেছেন"
+        }
+      },
+      "english_trans": "And the earth and Him Who extended it,"
+    },
+    "7": {
+      "arabic_text": "وَنَفْسٍ وَمَا سَوَّاهَا",
+      "bangla_trans": "মানুষের নফসের ও সেই সত্তার কসম যিনি তাকে ঠিকভাবে গঠন করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَنَفْسٍ",
+          "translate_bn": "শপথ মানুষের"
+        },
+        "2": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যিনি"
+        },
+        "3": {
+          "words_ar": "سَوَّاهَا",
+          "translate_bn": "তাকে সুঠাম করেছেন"
+        }
+      },
+      "english_trans": "And the soul and Him Who made it perfect,"
+    },
+    "8": {
+      "arabic_text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا",
+      "bangla_trans": "তারপর তার পাপ ও তার তাকওয়া তার প্রতি ইলহাম করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَلْهَمَهَا",
+          "translate_bn": "অতঃপর তাকে জ্ঞান দিয়েছেন"
+        },
+        "2": {
+          "words_ar": "فُجُورَهَا",
+          "translate_bn": "তার মন্দকাজ"
+        },
+        "3": {
+          "words_ar": "وَتَقْوَاهَا",
+          "translate_bn": "ও তার তাকওয়া (সম্পর্কে )"
+        }
+      },
+      "english_trans": "Then He inspired it to understand what is right and wrong for it;"
+    },
+    "9": {
+      "arabic_text": "قَدْ أَفْلَحَ مَنْ زَكَّاهَا",
+      "bangla_trans": "নিঃসন্দেহে সফল হয়ে গেছে সেই ব্যক্তির নফসকে পরিশুদ্ধ করেছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قَدْ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "أَفْلَحَ",
+          "translate_bn": "সফল হলো"
+        },
+        "3": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "4": {
+          "words_ar": "زَكَّاهَا",
+          "translate_bn": "তাকে পবিত্র করলো"
+        }
+      },
+      "english_trans": "He will indeed be successful who purifies it,"
+    },
+    "10": {
+      "arabic_text": "وَقَدْ خَابَ مَنْ دَسَّاهَا",
+      "bangla_trans": "এবং যে তাকে দাবিয়ে দিয়েছে সে ব্যর্থ হয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَقَدْ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "خَابَ",
+          "translate_bn": "ব্যর্থ হলো"
+        },
+        "3": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "4": {
+          "words_ar": "دَسَّاهَا",
+          "translate_bn": "তাকে কলুষিত করলো"
+        }
+      },
+      "english_trans": "And he will indeed fail who corrupts it."
+    },
+    "11": {
+      "arabic_text": "كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا",
+      "bangla_trans": "সামূদ জাতি বিদ্রোহের কারণে মিথ্যা আরোপ করলো। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَذَّبَتْ",
+          "translate_bn": "মিথ্যারোপ করেছিল"
+        },
+        "2": {
+          "words_ar": "ثَمُودُ",
+          "translate_bn": "সামূদ জাতি"
+        },
+        "3": {
+          "words_ar": "بِطَغْوَاهَا",
+          "translate_bn": "তার অবাধ্যতাবশতঃ"
+        }
+      },
+      "english_trans": "Samood gave the lie (to the truth) in their inordinacy,"
+    },
+    "12": {
+      "arabic_text": "إِذِ انْبَعَثَ أَشْقَاهَا",
+      "bangla_trans": "যখন সেই জাতির সবচেয়ে বড় হতভাগ্য লোকটি ক্ষেপে গেলো,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِذِ",
+          "translate_bn": "যখন"
+        },
+        "2": {
+          "words_ar": "انْبَعَثَ",
+          "translate_bn": "(তৎপর হয়ে)উঠলো"
+        },
+        "3": {
+          "words_ar": "أَشْقَاهَا",
+          "translate_bn": "তার সবচেয়ে হতভাগা ব্যক্তি"
+        }
+      },
+      "english_trans": "When the most unfortunate of them broke forth with"
+    },
+    "13": {
+      "arabic_text": "فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا",
+      "bangla_trans": "আল্লাহর রসূল তাদেরকে বললোঃ সাবধান! আল্লাহর উটনীকে স্পর্শ করো না এবং তাকে পানি পান করতে (বাধা দিয়ো না)",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَقَالَ",
+          "translate_bn": "অতঃপর বললো"
+        },
+        "2": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদেরকে"
+        },
+        "3": {
+          "words_ar": "رَسُولُ",
+          "translate_bn": "রাসূল"
+        },
+        "4": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "5": {
+          "words_ar": "نَاقَةَ",
+          "translate_bn": "(সাবধান)উষ্ট্রীকে"
+        },
+        "6": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর (স্পর্শ করো না)"
+        },
+        "7": {
+          "words_ar": "وَسُقْيَاهَا",
+          "translate_bn": "ও তার পানি পান করায় (বাধা দিও না)"
+        }
+      },
+      "english_trans": "So Allah´s messenger said to them (Leave alone) Allah´s she-camel, and (give) her (to) drink."
+    },
+    "14": {
+      "arabic_text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا",
+      "bangla_trans": "কিন্তু তারা তার কথা প্রত্যাখ্যান করলো এবং উটনীটিকে মেরে ফেললো। অবশেষে তাদের গোনাহের কারণে তাদের রব তাদের ওপর বিপদের পাহাড় চাপিয়ে দিয়ে তাদেরকে মাটির সাথে মিশিয়ে দিলেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَكَذَّبُوهُ",
+          "translate_bn": "কিন্তু তারা তাকে মিথ্যা ভাবলো"
+        },
+        "2": {
+          "words_ar": "فَعَقَرُوهَا",
+          "translate_bn": "অতঃপর তারা তাকে হত্যা করলো"
+        },
+        "3": {
+          "words_ar": "فَدَمْدَمَ",
+          "translate_bn": "ফলে ধ্বংস করে দিলেন"
+        },
+        "4": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "তাদেরকে"
+        },
+        "5": {
+          "words_ar": "رَبُّهُمْ",
+          "translate_bn": "তাদের রব"
+        },
+        "6": {
+          "words_ar": "بِذَنْبِهِمْ",
+          "translate_bn": "তাদের পাপের জন্য"
+        },
+        "7": {
+          "words_ar": "فَسَوَّاهَا",
+          "translate_bn": "অতঃপর তাদেরকে (মাটি) সমান করে দিলেন"
+        }
+      },
+      "english_trans": "But they called him a liar and slaughtered her, therefore their Lord crushed them for their sin and levelled them (with the ground)."
+    },
+    "15": {
+      "arabic_text": "وَلَا يَخَافُ عُقْبَاهَا",
+      "bangla_trans": "আর তিনি (তাঁর এই কাজের) খারাপ পরিণতির কোন ভয়ই করেন না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "يَخَافُ",
+          "translate_bn": "ভয় করেন তিনি"
+        },
+        "3": {
+          "words_ar": "عُقْبَاهَا",
+          "translate_bn": "তাঁর (কাজের) পরিণতির"
+        }
+      },
+      "english_trans": "And He fears not its consequence."
+    }
+  }
+}

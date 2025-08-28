@@ -1,0 +1,600 @@
+{
+  "surah_id": 85,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالسَّمَاءِ ذَاتِ الْبُرُوجِ",
+      "bangla_trans": "কসম মজবুত দুর্গ বিশিষ্ট আকাশের",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالسَّمَاءِ",
+          "translate_bn": "শপথ আকাশের"
+        },
+        "2": {
+          "words_ar": "ذَاتِ",
+          "translate_bn": "বিশিষ্ট"
+        },
+        "3": {
+          "words_ar": "الْبُرُوجِ",
+          "translate_bn": "বুরুজ গ্রহ-নক্ষত্র"
+        }
+      },
+      "english_trans": "I swear by the mansions of the stars,"
+    },
+    "2": {
+      "arabic_text": "وَالْيَوْمِ الْمَوْعُودِ",
+      "bangla_trans": "এবং সেই দিনের যার ওয়াদা করা হয়েছে ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْيَوْمِ",
+          "translate_bn": "এবং দিনের"
+        },
+        "2": {
+          "words_ar": "الْمَوْعُودِ",
+          "translate_bn": "প্রতিশ্রুত"
+        }
+      },
+      "english_trans": "And the promised day,"
+    },
+    "3": {
+      "arabic_text": "وَشَاهِدٍ وَمَشْهُودٍ",
+      "bangla_trans": "আর যে দেখে তার এবং সেই জিনিসের যা দেখা যায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَشَاهِدٍ",
+          "translate_bn": "শপথ দর্শকের"
+        },
+        "2": {
+          "words_ar": "وَمَشْهُودٍ",
+          "translate_bn": "ও যা পরিদৃষ্ট হয়"
+        }
+      },
+      "english_trans": "And the bearer of witness and those against whom the witness is borne."
+    },
+    "4": {
+      "arabic_text": "قُتِلَ أَصْحَابُ الْأُخْدُودِ",
+      "bangla_trans": "মারা পড়েছে গর্তওয়ালারা যে গর্তে দাউ দাউ করে জ্বলা জ্বালানীর আগুন ছিল,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قُتِلَ",
+          "translate_bn": "ধ্বংস হয়েছে"
+        },
+        "2": {
+          "words_ar": "أَصْحَابُ",
+          "translate_bn": "কর্তারা অধিপতিরা"
+        },
+        "3": {
+          "words_ar": "الْأُخْدُودِ",
+          "translate_bn": "গর্তের"
+        }
+      },
+      "english_trans": "Cursed be the makers of the pit,"
+    },
+    "5": {
+      "arabic_text": "النَّارِ ذَاتِ الْوَقُودِ",
+      "bangla_trans": "যখন তারা সেই গর্তের কিনারে বসেছিল",
+      "word_by_word": {
+        "1": {
+          "words_ar": "النَّارِ",
+          "translate_bn": "আগুনের"
+        },
+        "2": {
+          "words_ar": "ذَاتِ",
+          "translate_bn": "বিশিষ্ট"
+        },
+        "3": {
+          "words_ar": "الْوَقُودِ",
+          "translate_bn": "(প্রজ্জ্বলিত) ইন্ধন"
+        }
+      },
+      "english_trans": "Of the fire (kept burning) with fuel,"
+    },
+    "6": {
+      "arabic_text": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
+      "bangla_trans": "এবং ঈমানদারদের সাথে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِذْ",
+          "translate_bn": "যখন"
+        },
+        "2": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারা (ছিল)"
+        },
+        "3": {
+          "words_ar": "عَلَيْهَا",
+          "translate_bn": "তার পাশে"
+        },
+        "4": {
+          "words_ar": "قُعُودٌ",
+          "translate_bn": "উপবিষ্ট"
+        }
+      },
+      "english_trans": "When they sat by it,"
+    },
+    "7": {
+      "arabic_text": "وَهُمْ عَلَى مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ",
+      "bangla_trans": "তারা সবকিছু করছিল তা দেখছিল।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَهُمْ",
+          "translate_bn": "এবং তারা (ছিল)"
+        },
+        "2": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "ঐ সম্পর্কে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "يَفْعَلُونَ",
+          "translate_bn": "তারা করছিল"
+        },
+        "5": {
+          "words_ar": "بِالْمُؤْمِنِينَ",
+          "translate_bn": "মুমিনদের সাথে"
+        },
+        "6": {
+          "words_ar": "شُهُودٌ",
+          "translate_bn": "প্রত্যক্ষকারী"
+        }
+      },
+      "english_trans": "And they were witnesses of what they did with the believers."
+    },
+    "8": {
+      "arabic_text": "وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَنْ يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ",
+      "bangla_trans": "ওই ঈমানদারদের সাথে তাদের শত্রুতার এছাড়া আর কোন কারণ ছিল না যে, তারা সেই আল্লাহর প্রতি ঈমান এনেছিল",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "نَقَمُوا",
+          "translate_bn": "তারা প্রতিশোধ নিয়েছিল"
+        },
+        "3": {
+          "words_ar": "مِنْهُمْ",
+          "translate_bn": "তাদের থেকে (অন্য কারণে)"
+        },
+        "4": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া"
+        },
+        "5": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "6": {
+          "words_ar": "يُؤْمِنُوا",
+          "translate_bn": "তারা ঈমান এনেছে"
+        },
+        "7": {
+          "words_ar": "بِاللَّهِ",
+          "translate_bn": "আল্লাহর উপর"
+        },
+        "8": {
+          "words_ar": "الْعَزِيزِ",
+          "translate_bn": "পরাক্রমশালী"
+        },
+        "9": {
+          "words_ar": "الْحَمِيدِ",
+          "translate_bn": "প্রশংসিত"
+        }
+      },
+      "english_trans": "And they did not take vengeance on them for aught except that they believed in Allah, the Mighty, the Praised,"
+    },
+    "9": {
+      "arabic_text": "الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ",
+      "bangla_trans": "যিনি মহাপরাক্রমশালী এবং নিজের সত্তায় নিজেই প্রশংসিত, যিনি আকাশ ও পৃথিবীর রাজত্বের অধিকারী। আর সে আল্লাহ‌ সবকিছু দেখছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি (এমন সত্তা যে)"
+        },
+        "2": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তাঁরই জন্য"
+        },
+        "3": {
+          "words_ar": "مُلْكُ",
+          "translate_bn": "রাজত্ব"
+        },
+        "4": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশমণ্ডলীর"
+        },
+        "5": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "ও পৃথিবীর"
+        },
+        "6": {
+          "words_ar": "وَاللَّهُ",
+          "translate_bn": "এবং আল্লাহই"
+        },
+        "7": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "উপর"
+        },
+        "8": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "সব"
+        },
+        "9": {
+          "words_ar": "شَيْءٍ",
+          "translate_bn": "কিছুর"
+        },
+        "10": {
+          "words_ar": "شَهِيدٌ",
+          "translate_bn": "সূক্ষ্মদর্শী"
+        }
+      },
+      "english_trans": "Whose is the kingdom of the heavens and the earth; and Allah is a Witness of all things."
+    },
+    "10": {
+      "arabic_text": "إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ",
+      "bangla_trans": "যারা মু’মিন পুরুষ ও নারীদের ওপর জুলুম-নিপীড়ন চালিয়েছে, তারপর তা থেকে তওবা করেনি, নিশ্চিতভাবেই তাদের জন্য রয়েছে জাহান্নামের আযাব এবং জ্বালা-পোড়ার শাস্তি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "فَتَنُوا",
+          "translate_bn": "নির্যাতন করেছিল"
+        },
+        "4": {
+          "words_ar": "الْمُؤْمِنِينَ",
+          "translate_bn": "মুমিনদের"
+        },
+        "5": {
+          "words_ar": "وَالْمُؤْمِنَاتِ",
+          "translate_bn": "ও মুমিনাদের (উপর)"
+        },
+        "6": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "অতঃপর"
+        },
+        "7": {
+          "words_ar": "لَمْ",
+          "translate_bn": "নি"
+        },
+        "8": {
+          "words_ar": "يَتُوبُوا",
+          "translate_bn": "তওবা করে"
+        },
+        "9": {
+          "words_ar": "فَلَهُمْ",
+          "translate_bn": "তাদের জন্যে (রয়েছে) তাই"
+        },
+        "10": {
+          "words_ar": "عَذَابُ",
+          "translate_bn": "শাস্তি"
+        },
+        "11": {
+          "words_ar": "جَهَنَّمَ",
+          "translate_bn": "জাহান্নামের"
+        },
+        "12": {
+          "words_ar": "وَلَهُمْ",
+          "translate_bn": "ও তাদের জন্যে (রয়েছে)"
+        },
+        "13": {
+          "words_ar": "عَذَابُ",
+          "translate_bn": "শাস্তি"
+        },
+        "14": {
+          "words_ar": "الْحَرِيقِ",
+          "translate_bn": "দহনের"
+        }
+      },
+      "english_trans": "Surely (as for) those who persecute the believing men and the believing women, then do not repent, they shall have the chastisement of hell, and they shall have the chastisement of burning."
+    },
+    "11": {
+      "arabic_text": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ ذَلِكَ الْفَوْزُ الْكَبِيرُ",
+      "bangla_trans": "যারা ঈমান এনেছে ও সৎকাজ করেছে নিশ্চিতভাবেই তাদের জন্য রয়েছে জান্নাতের বাগান যার নিম্নদেশে প্রবাহিত হতে থাকবে ঝরণাধারা। এটিই বড় সাফল্য।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "4": {
+          "words_ar": "وَعَمِلُوا",
+          "translate_bn": "এবং করেছে"
+        },
+        "5": {
+          "words_ar": "الصَّالِحَاتِ",
+          "translate_bn": "সৎকর্ম"
+        },
+        "6": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্য (রয়েছে)"
+        },
+        "7": {
+          "words_ar": "جَنَّاتٌ",
+          "translate_bn": "জান্নাত"
+        },
+        "8": {
+          "words_ar": "تَجْرِي",
+          "translate_bn": "প্রবাহিত হচ্ছে"
+        },
+        "9": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "10": {
+          "words_ar": "تَحْتِهَا",
+          "translate_bn": "তার নীচ"
+        },
+        "11": {
+          "words_ar": "الْأَنْهَارُ",
+          "translate_bn": "ঝর্ণাসমূহ"
+        },
+        "12": {
+          "words_ar": "ذَٰلِكَ",
+          "translate_bn": "সেটাই"
+        },
+        "13": {
+          "words_ar": "الْفَوْزُ",
+          "translate_bn": "সাফল্য"
+        },
+        "14": {
+          "words_ar": "الْكَبِيرُ",
+          "translate_bn": "মহা"
+        }
+      },
+      "english_trans": "Surely (as for) those who believe and do good, they shall have gardens beneath which rivers flow, that is the great achievement."
+    },
+    "12": {
+      "arabic_text": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+      "bangla_trans": "আসলে তোমার রবের পাকড়াও বড় শক্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়"
+        },
+        "2": {
+          "words_ar": "بَطْشَ",
+          "translate_bn": "পাকড়াও"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "لَشَدِيدٌ",
+          "translate_bn": "অবশ্যই কঠিন"
+        }
+      },
+      "english_trans": "Surely the might of your Lord is great."
+    },
+    "13": {
+      "arabic_text": "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
+      "bangla_trans": "তিনিই প্রথমবার সৃষ্টি করেন আবার তিনিই দ্বিতীয় বার সৃষ্টি করবেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয়ই তিনি"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনিই"
+        },
+        "3": {
+          "words_ar": "يُبْدِئُ",
+          "translate_bn": "অস্তিত্ব দান করেন"
+        },
+        "4": {
+          "words_ar": "وَيُعِيدُ",
+          "translate_bn": "ও তিনি পুনরাবর্তন ঘটান"
+        }
+      },
+      "english_trans": "Surely He it is Who originates and reproduces,"
+    },
+    "14": {
+      "arabic_text": "وَهُوَ الْغَفُورُ الْوَدُودُ",
+      "bangla_trans": "তিনি ক্ষমাশীল, প্রেমময়,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَهُوَ",
+          "translate_bn": "এবং তিনিই"
+        },
+        "2": {
+          "words_ar": "الْغَفُورُ",
+          "translate_bn": "ক্ষমাশীল"
+        },
+        "3": {
+          "words_ar": "الْوَدُودُ",
+          "translate_bn": "প্রেমময়"
+        }
+      },
+      "english_trans": "And He is the Forgiving, the Loving,"
+    },
+    "15": {
+      "arabic_text": "ذُو الْعَرْشِ الْمَجِيدُ",
+      "bangla_trans": "আরশের মালিক, শ্রেষ্ঠ-সম্মানিত",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ذُو",
+          "translate_bn": "অধিকারী"
+        },
+        "2": {
+          "words_ar": "الْعَرْشِ",
+          "translate_bn": "আরশের"
+        },
+        "3": {
+          "words_ar": "الْمَجِيدُ",
+          "translate_bn": "সম্মানিত"
+        }
+      },
+      "english_trans": "Lord of the Arsh, the Glorious,"
+    },
+    "16": {
+      "arabic_text": "فَعَّالٌ لِمَا يُرِيدُ",
+      "bangla_trans": "এবং তিনি যা চান তাই করেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَعَّالٌ",
+          "translate_bn": "সম্পন্নকারী"
+        },
+        "2": {
+          "words_ar": "لِمَا",
+          "translate_bn": "যা"
+        },
+        "3": {
+          "words_ar": "يُرِيدُ",
+          "translate_bn": "তিনি চান"
+        }
+      },
+      "english_trans": "The great doer of what He will."
+    },
+    "17": {
+      "arabic_text": "هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ",
+      "bangla_trans": "তোমার কাছে কি পৌঁছেছে সেনাদলের খবর?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "هَلْ",
+          "translate_bn": "কি"
+        },
+        "2": {
+          "words_ar": "أَتَاكَ",
+          "translate_bn": "তোমার কাছে পৌঁছেছে"
+        },
+        "3": {
+          "words_ar": "حَدِيثُ",
+          "translate_bn": "বৃত্তান্ত"
+        },
+        "4": {
+          "words_ar": "الْجُنُودِ",
+          "translate_bn": "সৈন্যদের"
+        }
+      },
+      "english_trans": "Has not there come to you the story of the hosts,"
+    },
+    "18": {
+      "arabic_text": "فِرْعَوْنَ وَثَمُودَ",
+      "bangla_trans": "ফেরাউন ও সামূদের সেনাদলের?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِرْعَوْنَ",
+          "translate_bn": "ফিরআউনের"
+        },
+        "2": {
+          "words_ar": "وَثَمُودَ",
+          "translate_bn": "ও সামূদের"
+        }
+      },
+      "english_trans": "Of Firon and Samood?"
+    },
+    "19": {
+      "arabic_text": "بَلِ الَّذِينَ كَفَرُوا فِي تَكْذِيبٍ",
+      "bangla_trans": "কিন্তু যারা কুফরী করেছে, তারা মিথ্যা আরোপ করার কাজে লেগে রয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "بَلِ",
+          "translate_bn": "বরং"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অবিশ্বাস করেছে"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে (রত)"
+        },
+        "5": {
+          "words_ar": "تَكْذِيبٍ",
+          "translate_bn": "মিথ্যারোপে"
+        }
+      },
+      "english_trans": "Nay! those who disbelieve are in (the act of) giving the lie to the truth."
+    },
+    "20": {
+      "arabic_text": "وَاللَّهُ مِنْ وَرَائِهِمْ مُحِيطٌ",
+      "bangla_trans": "অথচ আল্লাহ‌ তাদেরকে ঘেরাও করে রেখেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَاللَّهُ",
+          "translate_bn": "অথচ আল্লাহ"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "3": {
+          "words_ar": "وَرَائِهِمْ",
+          "translate_bn": "তাদের অলক্ষ্য"
+        },
+        "4": {
+          "words_ar": "مُحِيطٌ",
+          "translate_bn": "(তাদেরকে) পরিবেষ্টনকারী"
+        }
+      },
+      "english_trans": "And Allah encompasses them on every side."
+    },
+    "21": {
+      "arabic_text": "بَلْ هُوَ قُرْآنٌ مَجِيدٌ",
+      "bangla_trans": "(তাদের মিথ্যা আরোপ করায় এ কুরআনের কিছু আসে যায় না) বরং, এটি উন্নত মর্যাদাসম্পন্ন কুরআন",
+      "word_by_word": {
+        "1": {
+          "words_ar": "بَلْ",
+          "translate_bn": "বরং"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তা"
+        },
+        "3": {
+          "words_ar": "قُرْآنٌ",
+          "translate_bn": "কুরআন"
+        },
+        "4": {
+          "words_ar": "مَجِيدٌ",
+          "translate_bn": "সম্মানিত"
+        }
+      },
+      "english_trans": "Nay! it is a glorious Quran,"
+    },
+    "22": {
+      "arabic_text": "فِي لَوْحٍ مَحْفُوظٍ",
+      "bangla_trans": "সংরক্ষিত ফলকে লিপিবদ্ধ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "2": {
+          "words_ar": "لَوْحٍ",
+          "translate_bn": "ফলকের"
+        },
+        "3": {
+          "words_ar": "مَحْفُوظٍ",
+          "translate_bn": "সুরক্ষিত"
+        }
+      },
+      "english_trans": "In a guarded tablet."
+    }
+  }
+}

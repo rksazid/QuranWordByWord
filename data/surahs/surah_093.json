@@ -1,0 +1,247 @@
+{
+  "surah_id": 93,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالضُّحَى",
+      "bangla_trans": "উজ্জ্বল দিনের কসম",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالضُّحَىٰ",
+          "translate_bn": "শপথ প্রথম প্রহরের"
+        }
+      },
+      "english_trans": "I swear by the early hours of the day,"
+    },
+    "2": {
+      "arabic_text": "وَاللَّيْلِ إِذَا سَجَى",
+      "bangla_trans": "এবং রাতের কসম যখন তা নিঝুম হয়ে যায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَاللَّيْلِ",
+          "translate_bn": "শপথ রাতের"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "سَجَىٰ",
+          "translate_bn": "নিঝুম হয়"
+        }
+      },
+      "english_trans": "And the night when it covers with darkness."
+    },
+    "3": {
+      "arabic_text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى",
+      "bangla_trans": "(হে নবী!) তোমার রব তোমাকে কখনো পরিত্যাগ করেননি এবং তোমার প্রতি অসন্তুষ্টও হননি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَا",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "وَدَّعَكَ",
+          "translate_bn": "তোমাকে ত্যাগ করেছেন"
+        },
+        "3": {
+          "words_ar": "رَبُّكَ",
+          "translate_bn": "তোমার রব"
+        },
+        "4": {
+          "words_ar": "وَمَا",
+          "translate_bn": "আর না"
+        },
+        "5": {
+          "words_ar": "قَلَىٰ",
+          "translate_bn": "অসন্তুষ্ট হয়েছেন"
+        }
+      },
+      "english_trans": "Your Lord has not forsaken you, nor has He become displeased,"
+    },
+    "4": {
+      "arabic_text": "وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَى",
+      "bangla_trans": "নিঃসন্দেহে তোমার জন্য পরবর্তী যুগ পূর্ববর্তী যুগের চেয়ে ভালো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَلْآخِرَةُ",
+          "translate_bn": "এবং পরবর্তী (পরকাল) নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "خَيْرٌ",
+          "translate_bn": "উত্তম"
+        },
+        "3": {
+          "words_ar": "لَكَ",
+          "translate_bn": "তোমার জন্য"
+        },
+        "4": {
+          "words_ar": "مِنَ",
+          "translate_bn": "অপেক্ষা (সময়)"
+        },
+        "5": {
+          "words_ar": "الْأُولَىٰ",
+          "translate_bn": "পূর্ববর্তী (ইহকাল)"
+        }
+      },
+      "english_trans": "And surely what comes after is better for you than that which has gone before."
+    },
+    "5": {
+      "arabic_text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى",
+      "bangla_trans": "আর শীঘ্রই তোমার রব তোমাকে এত দেবেন যে, তুমি খুশী হয়ে যাবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَسَوْفَ",
+          "translate_bn": "এবং শীঘ্রই অবশ্য"
+        },
+        "2": {
+          "words_ar": "يُعْطِيكَ",
+          "translate_bn": "তোমাকে দান করবেন"
+        },
+        "3": {
+          "words_ar": "رَبُّكَ",
+          "translate_bn": "তোমার রব"
+        },
+        "4": {
+          "words_ar": "فَتَرْضَىٰ",
+          "translate_bn": "ফলে তুমি খুশী হবে"
+        }
+      },
+      "english_trans": "And soon will your Lord give you so that you shall be well pleased."
+    },
+    "6": {
+      "arabic_text": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَى",
+      "bangla_trans": "তিনি কি তোমাকে এতিম হিসেবে পাননি? তারপর তোমাকে আশ্রয় দেননি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَمْ",
+          "translate_bn": "পান নি কি"
+        },
+        "2": {
+          "words_ar": "يَجِدْكَ",
+          "translate_bn": "তিনি তোমাকে"
+        },
+        "3": {
+          "words_ar": "يَتِيمًا",
+          "translate_bn": "ইয়াতীমরূপে"
+        },
+        "4": {
+          "words_ar": "فَآوَىٰ",
+          "translate_bn": "অতঃপর আশ্রয় দিয়েছেন"
+        }
+      },
+      "english_trans": "Did He not find you an orphan and give you shelter?"
+    },
+    "7": {
+      "arabic_text": "وَوَجَدَكَ ضَالًّا فَهَدَى",
+      "bangla_trans": "তিনি তোমাকে পথ না পাওয়া অবস্থায় পান, তারপর তিনিই পথ দেখান।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَوَجَدَكَ",
+          "translate_bn": "এবং তিনি তোমাকে পেয়েছিলেন"
+        },
+        "2": {
+          "words_ar": "ضَالًّا",
+          "translate_bn": "পথ অনবহিত (রূপে)"
+        },
+        "3": {
+          "words_ar": "فَهَدَىٰ",
+          "translate_bn": "অতঃপর তিনি পথের দিশা দেন"
+        }
+      },
+      "english_trans": "And find you lost (that is, unrecognized by men) and guide (them to you)?"
+    },
+    "8": {
+      "arabic_text": "وَوَجَدَكَ عَائِلًا فَأَغْنَى",
+      "bangla_trans": "তিনি তোমাকে নিঃস্ব অবস্থায় পান, তারপর তোমাকে ধনী করেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَوَجَدَكَ",
+          "translate_bn": "এবং তোমাকে পেয়েছিলেন"
+        },
+        "2": {
+          "words_ar": "عَائِلًا",
+          "translate_bn": "অভাবী"
+        },
+        "3": {
+          "words_ar": "فَأَغْنَىٰ",
+          "translate_bn": "অতঃপর অভাবমুক্ত করলেন"
+        }
+      },
+      "english_trans": "And find you in want and make you to be free from want?"
+    },
+    "9": {
+      "arabic_text": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
+      "bangla_trans": "কাজেই এতিমের প্রতি কঠোর হয়ো না। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَمَّا",
+          "translate_bn": "সুতরাং ক্ষেত্রে"
+        },
+        "2": {
+          "words_ar": "الْيَتِيمَ",
+          "translate_bn": "ইয়াতীমের"
+        },
+        "3": {
+          "words_ar": "فَلَا",
+          "translate_bn": "তাই না"
+        },
+        "4": {
+          "words_ar": "تَقْهَرْ",
+          "translate_bn": "কঠোর হয়ো"
+        }
+      },
+      "english_trans": "Therefore, as for the orphan, do not oppress (him)."
+    },
+    "10": {
+      "arabic_text": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+      "bangla_trans": "প্রার্থীকে তিরস্কার করো না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَمَّا",
+          "translate_bn": "আর ক্ষেত্রে"
+        },
+        "2": {
+          "words_ar": "السَّائِلَ",
+          "translate_bn": "প্রার্থীর"
+        },
+        "3": {
+          "words_ar": "فَلَا",
+          "translate_bn": "তাই না"
+        },
+        "4": {
+          "words_ar": "تَنْهَرْ",
+          "translate_bn": "তিরস্কার করো"
+        }
+      },
+      "english_trans": "And as for him who asks, do not chide (him),"
+    },
+    "11": {
+      "arabic_text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "bangla_trans": "আর নিজের রবের নিয়ামত প্রকাশ করো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَمَّا",
+          "translate_bn": "আর প্রসঙ্গ"
+        },
+        "2": {
+          "words_ar": "بِنِعْمَةِ",
+          "translate_bn": "অনুগ্রহের"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "فَحَدِّثْ",
+          "translate_bn": "অতঃপর বর্ণনা করো"
+        }
+      },
+      "english_trans": "And as for the favor of your Lord, do announce (it)."
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "surah_id": 96,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+      "bangla_trans": "পড়ো (হে নবী) , তোমার রবের নামে। যিনি সৃষ্টি করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اقْرَأْ",
+          "translate_bn": "(হে নবী) পড়"
+        },
+        "2": {
+          "words_ar": "بِاسْمِ",
+          "translate_bn": "নামে"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "5": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "সৃষ্টি করেছেন"
+        }
+      },
+      "english_trans": "Read in the name of your Lord Who created."
+    },
+    "2": {
+      "arabic_text": "خَلَقَ الْإِنْسَانَ مِنْ عَلَقٍ",
+      "bangla_trans": "জমাট বাঁধা রক্তের দলা থেকে মানুষকে সৃষ্টি করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "সৃষ্টি করেছেন"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষকে"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "4": {
+          "words_ar": "عَلَقٍ",
+          "translate_bn": "জমাট রক্তপিণ্ড"
+        }
+      },
+      "english_trans": "He created man from a clot."
+    },
+    "3": {
+      "arabic_text": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
+      "bangla_trans": "পড়ো এবং তোমার রব বড় মেহেরবান,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اقْرَأْ",
+          "translate_bn": "পড়"
+        },
+        "2": {
+          "words_ar": "وَرَبُّكَ",
+          "translate_bn": "আর তোমার রব"
+        },
+        "3": {
+          "words_ar": "الْأَكْرَمُ",
+          "translate_bn": "বড়ই অনুগ্রহশীল"
+        }
+      },
+      "english_trans": "Read and your Lord is Most Honorable,"
+    },
+    "4": {
+      "arabic_text": "الَّذِي عَلَّمَ بِالْقَلَمِ",
+      "bangla_trans": "যিনি কলমের সাহায্যে জ্ঞান শিখিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "2": {
+          "words_ar": "عَلَّمَ",
+          "translate_bn": "শিখিয়েছেন"
+        },
+        "3": {
+          "words_ar": "بِالْقَلَمِ",
+          "translate_bn": "কলম দিয়ে"
+        }
+      },
+      "english_trans": "Who taught (to write) with the pen"
+    },
+    "5": {
+      "arabic_text": "عَلَّمَ الْإِنْسَانَ مَا لَمْ يَعْلَمْ",
+      "bangla_trans": "মানুষকে এমন জ্ঞান দিয়েছেন, যা সে জানতো না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَلَّمَ",
+          "translate_bn": "শিখিয়েছেন"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষকে (এমন জ্ঞান)"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "لَمْ",
+          "translate_bn": "না"
+        },
+        "5": {
+          "words_ar": "يَعْلَمْ",
+          "translate_bn": "সে জানতো"
+        }
+      },
+      "english_trans": "Taught man what he knew not."
+    },
+    "6": {
+      "arabic_text": "كَلَّا إِنَّ الْإِنْسَانَ لَيَطْغَى",
+      "bangla_trans": "কখনই নয়, মানুষ সীমালংঘন করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "কখনও নয়"
+        },
+        "2": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "3": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষ"
+        },
+        "4": {
+          "words_ar": "لَيَطْغَىٰ",
+          "translate_bn": "অবশ্যই সীমালঙ্ঘন করে"
+        }
+      },
+      "english_trans": "Nay! man is most surely inordinate,"
+    },
+    "7": {
+      "arabic_text": "أَنْ رَآهُ اسْتَغْنَى",
+      "bangla_trans": "কারণ সে নিজেকে দেখে অভাবমুক্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَنْ",
+          "translate_bn": "(এ কারণে) যে"
+        },
+        "2": {
+          "words_ar": "رَآهُ",
+          "translate_bn": "নিজেকে মনে করে"
+        },
+        "3": {
+          "words_ar": "اسْتَغْنَىٰ",
+          "translate_bn": "অভাবমুক্ত"
+        }
+      },
+      "english_trans": "Because he sees himself free from want."
+    },
+    "8": {
+      "arabic_text": "إِنَّ إِلَى رَبِّكَ الرُّجْعَى",
+      "bangla_trans": "(অথচ) নিশ্চিতভাবেই তোমার রবের দিকেই ফিরে আসতে হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "إِلَىٰ",
+          "translate_bn": "কাছে"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "الرُّجْعَىٰ",
+          "translate_bn": "প্রত্যাবর্তন হবে"
+        }
+      },
+      "english_trans": "Surely to your Lord is the return."
+    },
+    "9": {
+      "arabic_text": "أَرَأَيْتَ الَّذِي يَنْهَى",
+      "bangla_trans": "তুমি কি দেখেছো সেই ব্যক্তিকে,  যে নিষেধ করে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَرَأَيْتَ",
+          "translate_bn": "তুমি দেখেছ কি"
+        },
+        "2": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "(তাকে) যে"
+        },
+        "3": {
+          "words_ar": "يَنْهَىٰ",
+          "translate_bn": "বাধা দেয়"
+        }
+      },
+      "english_trans": "Have you seen him who forbids"
+    },
+    "10": {
+      "arabic_text": "عَبْدًا إِذَا صَلَّى",
+      "bangla_trans": "এক বান্দাকে, যখন সে নামায পড়ে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَبْدًا",
+          "translate_bn": "এক বান্দাকে"
+        },
+        "2": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "3": {
+          "words_ar": "صَلَّىٰ",
+          "translate_bn": "সে সালাত পড়ে"
+        }
+      },
+      "english_trans": "A servant when he prays?"
+    },
+    "11": {
+      "arabic_text": "أَرَأَيْتَ إِنْ كَانَ عَلَى الْهُدَى",
+      "bangla_trans": "তুমি কি মনে করো, যদি (সেই বান্দা) সঠিক পথে থাকে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَرَأَيْتَ",
+          "translate_bn": "তুমি (ভেবে) দেখেছ কি"
+        },
+        "2": {
+          "words_ar": "إِنْ",
+          "translate_bn": "যদি"
+        },
+        "3": {
+          "words_ar": "كَانَ",
+          "translate_bn": "সে হয়"
+        },
+        "4": {
+          "words_ar": "عَلَى",
+          "translate_bn": "উপর"
+        },
+        "5": {
+          "words_ar": "الْهُدَىٰ",
+          "translate_bn": "সঠিক পথের"
+        }
+      },
+      "english_trans": "Have you considered if he were on the right way,"
+    },
+    "12": {
+      "arabic_text": "أَوْ أَمَرَ بِالتَّقْوَى",
+      "bangla_trans": "অথবা তাকওয়ার নির্দেশ দেয়?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَوْ",
+          "translate_bn": "অথবা"
+        },
+        "2": {
+          "words_ar": "أَمَرَ",
+          "translate_bn": "নির্দেশ দেয়"
+        },
+        "3": {
+          "words_ar": "بِالتَّقْوَىٰ",
+          "translate_bn": "তাকওয়ার"
+        }
+      },
+      "english_trans": "Or enjoined guarding (against evil)?"
+    },
+    "13": {
+      "arabic_text": "أَرَأَيْتَ إِنْ كَذَّبَ وَتَوَلَّى",
+      "bangla_trans": "তুমি কি মনে করো, যদি (এই নিষেধকারী সত্যের প্রতি) মিথ্যা আরোপ করে এবং মুখ ফিরিয়ে নেয়?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَرَأَيْتَ",
+          "translate_bn": "তুমি (ভেবে) দেখেছ কি"
+        },
+        "2": {
+          "words_ar": "إِنْ",
+          "translate_bn": "যদি"
+        },
+        "3": {
+          "words_ar": "كَذَّبَ",
+          "translate_bn": "সে মিথ্যা আরোপ করে"
+        },
+        "4": {
+          "words_ar": "وَتَوَلَّىٰ",
+          "translate_bn": "ও মুখ ফিরায় (কি পরিণাম হবে)"
+        }
+      },
+      "english_trans": "Have you considered if he gives the lie to the truth and turns (his) back?"
+    },
+    "14": {
+      "arabic_text": "أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَى",
+      "bangla_trans": "সে কি জানে না, আল্লাহ‌ দেখছেন?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَمْ",
+          "translate_bn": "নাকি"
+        },
+        "2": {
+          "words_ar": "يَعْلَمْ",
+          "translate_bn": "সে জানে"
+        },
+        "3": {
+          "words_ar": "بِأَنَّ",
+          "translate_bn": "যে"
+        },
+        "4": {
+          "words_ar": "اللَّهَ",
+          "translate_bn": "আল্লাহ"
+        },
+        "5": {
+          "words_ar": "يَرَىٰ",
+          "translate_bn": "দেখেন (সব কিছু)"
+        }
+      },
+      "english_trans": "Does he not know that Allah does see?"
+    },
+    "15": {
+      "arabic_text": "كَلَّا لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ",
+      "bangla_trans": "কখনই নয়,  যদি সে বিরত না হয় তাহলে আমি তার কপালের দিকে চুল ধরে তাকে টানবো,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "সাবধান"
+        },
+        "2": {
+          "words_ar": "لَئِنْ",
+          "translate_bn": "অবশ্যই যদি"
+        },
+        "3": {
+          "words_ar": "لَمْ",
+          "translate_bn": "না"
+        },
+        "4": {
+          "words_ar": "يَنْتَهِ",
+          "translate_bn": "সে বিরত হয়"
+        },
+        "5": {
+          "words_ar": "لَنَسْفَعًا",
+          "translate_bn": "আমরা অবশ্যই টানবো"
+        },
+        "6": {
+          "words_ar": "بِالنَّاصِيَةِ",
+          "translate_bn": "মাথার সামনের চুল ধরে"
+        }
+      },
+      "english_trans": "Nay! if he desist not, We would certainly smite his forehead,"
+    },
+    "16": {
+      "arabic_text": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ",
+      "bangla_trans": "সেই কপালের চুল (ওয়ালা) যে মিথ্যুক ও কঠিন অপরাধকারী। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "نَاصِيَةٍ",
+          "translate_bn": "সামনের চুল (টানবো)"
+        },
+        "2": {
+          "words_ar": "كَاذِبَةٍ",
+          "translate_bn": "মিথ্যুকের"
+        },
+        "3": {
+          "words_ar": "خَاطِئَةٍ",
+          "translate_bn": "পাপীর"
+        }
+      },
+      "english_trans": "A lying, sinful forehead."
+    },
+    "17": {
+      "arabic_text": "فَلْيَدْعُ نَادِيَهُ",
+      "bangla_trans": "সে তার সমর্থক দলকে ডেকে নিক",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَلْيَدْعُ",
+          "translate_bn": "অতএব সে যেন ডাকে"
+        },
+        "2": {
+          "words_ar": "نَادِيَهُ",
+          "translate_bn": "তার দোসরদেরকে"
+        }
+      },
+      "english_trans": "Then let him summon his council,"
+    },
+    "18": {
+      "arabic_text": "سَنَدْعُ الزَّبَانِيَةَ",
+      "bangla_trans": "আমি ডেকে নিই আযাবের ফেরেশতাদেরকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَنَدْعُ",
+          "translate_bn": "আমরা শীঘ্র ডাকবো"
+        },
+        "2": {
+          "words_ar": "الزَّبَانِيَةَ",
+          "translate_bn": "জাহান্নামের প্রহরীদেরকে"
+        }
+      },
+      "english_trans": "We too would summon the braves of the army."
+    },
+    "19": {
+      "arabic_text": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ",
+      "bangla_trans": "কখনই নয়, তার কথা মেনে নিয়ো না, তুমি সিজদা করো এবং (তোমার রবের) নৈকট্য অর্জন করো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَلَّا",
+          "translate_bn": "কখনও নয় (সাবধান)"
+        },
+        "2": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "تُطِعْهُ",
+          "translate_bn": "তাকে অনুসরণ করো"
+        },
+        "4": {
+          "words_ar": "وَاسْجُدْ",
+          "translate_bn": "এবং তুমি সিজদা করো"
+        },
+        "5": {
+          "words_ar": "وَاقْتَرِبْ",
+          "translate_bn": "ও নৈকট্য লাভ করো (তোমার রবের)"
+        }
+      },
+      "english_trans": "Nay! obey him not, and make obeisance and draw nigh (to Allah)."
+    }
+  }
+}

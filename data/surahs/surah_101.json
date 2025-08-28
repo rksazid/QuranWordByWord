@@ -1,0 +1,231 @@
+{
+  "surah_id": 101,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "الْقَارِعَةُ",
+      "bangla_trans": "মহাদুর্ঘটনা!",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الْقَارِعَةُ",
+          "translate_bn": "মহাপ্রলয়"
+        }
+      },
+      "english_trans": "The terrible calamity!"
+    },
+    "2": {
+      "arabic_text": "مَا الْقَارِعَةُ",
+      "bangla_trans": "কী সেই মহাদুর্ঘটনা?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَا",
+          "translate_bn": "কি সেই"
+        },
+        "2": {
+          "words_ar": "الْقَارِعَةُ",
+          "translate_bn": "মহাপ্রলয়"
+        }
+      },
+      "english_trans": "What is the terrible calamity!"
+    },
+    "3": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
+      "bangla_trans": "তুমি কি জানো সেই মহাদুর্ঘটনাটি কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কিসে"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "মহাপ্রলয়"
+        },
+        "4": {
+          "words_ar": "الْقَارِعَةُ",
+          "translate_bn": "ভয়াবহ দুর্ঘটনা"
+        }
+      },
+      "english_trans": "And what will make you comprehend what the terrible calamity is?"
+    },
+    "4": {
+      "arabic_text": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
+      "bangla_trans": "সেদিন যখন লোকেরা ছড়িয়ে থাকা পতঙ্গের মতো",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَوْمَ",
+          "translate_bn": "সেদিন"
+        },
+        "2": {
+          "words_ar": "يَكُونُ",
+          "translate_bn": "হবে"
+        },
+        "3": {
+          "words_ar": "النَّاسُ",
+          "translate_bn": "মানুষ"
+        },
+        "4": {
+          "words_ar": "كَالْفَرَاشِ",
+          "translate_bn": "পতঙ্গের মতো"
+        },
+        "5": {
+          "words_ar": "الْمَبْثُوثِ",
+          "translate_bn": "বিক্ষিপ্ত"
+        }
+      },
+      "english_trans": "The day on which men shall be as scattered moths,"
+    },
+    "5": {
+      "arabic_text": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ",
+      "bangla_trans": "এবং পাহাড়গুলো রং বেরঙের ধূনা পশমের মতো হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَتَكُونُ",
+          "translate_bn": "এবং হবে"
+        },
+        "2": {
+          "words_ar": "الْجِبَالُ",
+          "translate_bn": "পাহাড়সমূহ"
+        },
+        "3": {
+          "words_ar": "كَالْعِهْنِ",
+          "translate_bn": "রঙিন পশমের মতো"
+        },
+        "4": {
+          "words_ar": "الْمَنْفُوشِ",
+          "translate_bn": "ধুনিত"
+        }
+      },
+      "english_trans": "And the mountains shall be as loosened wool."
+    },
+    "6": {
+      "arabic_text": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
+      "bangla_trans": "তারপর যার পাল্লা ভারী হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَمَّا",
+          "translate_bn": "অতঃপর তার (ব্যাপার)"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যার"
+        },
+        "3": {
+          "words_ar": "ثَقُلَتْ",
+          "translate_bn": "ভারী হবে"
+        },
+        "4": {
+          "words_ar": "مَوَازِينُهُ",
+          "translate_bn": "তার (পূণ্যের) পাল্লাসমূহ"
+        }
+      },
+      "english_trans": "Then as for him whose measure of good deeds is heavy,"
+    },
+    "7": {
+      "arabic_text": "فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ",
+      "bangla_trans": "সে মনের মতো সুখী জীবন লাভ করবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَهُوَ",
+          "translate_bn": "সে অতঃপর থাকবে"
+        },
+        "2": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "3": {
+          "words_ar": "عِيشَةٍ",
+          "translate_bn": "জীবনের"
+        },
+        "4": {
+          "words_ar": "رَاضِيَةٍ",
+          "translate_bn": "সন্তোষজনক"
+        }
+      },
+      "english_trans": "He shall live a pleasant life."
+    },
+    "8": {
+      "arabic_text": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
+      "bangla_trans": "আর যার পাল্লা হালকা হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَمَّا",
+          "translate_bn": "আর (তার) ব্যাপার"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যার"
+        },
+        "3": {
+          "words_ar": "خَفَّتْ",
+          "translate_bn": "হালকা হবে"
+        },
+        "4": {
+          "words_ar": "مَوَازِينُهُ",
+          "translate_bn": "তার পাল্লাসমূহ নেকীর"
+        }
+      },
+      "english_trans": "And as for him whose measure of good deeds is light,"
+    },
+    "9": {
+      "arabic_text": "فَأُمُّهُ هَاوِيَةٌ",
+      "bangla_trans": "তার আবাস হবে গভীর খাদ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأُمُّهُ",
+          "translate_bn": "অতঃপর তার বাসস্থান"
+        },
+        "2": {
+          "words_ar": "هَاوِيَةٌ",
+          "translate_bn": "গভীর গর্ত হবে"
+        }
+      },
+      "english_trans": "His abode shall be the abyss."
+    },
+    "10": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا هِيَهْ",
+      "bangla_trans": "আর তুমি কি জানো সেটি কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কিসে"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কি"
+        },
+        "4": {
+          "words_ar": "هِيَهْ",
+          "translate_bn": "সেটা"
+        }
+      },
+      "english_trans": "And what will make you know what it is?"
+    },
+    "11": {
+      "arabic_text": "نَارٌ حَامِيَةٌ",
+      "bangla_trans": "(সেটি) জ্বলন্ত আগুন। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "نَارٌ",
+          "translate_bn": "(সেটা হলো) আগুন"
+        },
+        "2": {
+          "words_ar": "حَامِيَةٌ",
+          "translate_bn": "গণগণে"
+        }
+      },
+      "english_trans": "A burning fire."
+    }
+  }
+}

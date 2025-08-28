@@ -1,0 +1,247 @@
+{
+  "surah_id": 100,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "وَالْعَادِيَاتِ ضَبْحًا",
+      "bangla_trans": "কসম সেই (ঘোড়া) গুলোর যারা হ্রেষারব সহকারে দৌড়ায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْعَادِيَاتِ",
+          "translate_bn": "শপথ ধাবমান (ঘোড়াগুলোর)"
+        },
+        "2": {
+          "words_ar": "ضَبْحًا",
+          "translate_bn": "(যারা দৌঁড়ায়) উর্ধ্বশ্বাসে"
+        }
+      },
+      "english_trans": "I swear by the runners breathing pantingly,"
+    },
+    "2": {
+      "arabic_text": "فَالْمُورِيَاتِ قَدْحًا",
+      "bangla_trans": "তারপর (খুরের আঘাতে) আগুনের ফুলকি ঝরায়। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَالْمُورِيَاتِ",
+          "translate_bn": "অতঃপর যারা বিচ্ছুরিত করে"
+        },
+        "2": {
+          "words_ar": "قَدْحًا",
+          "translate_bn": "(ক্ষুরাঘাতে) আগুনের ফুলকি"
+        }
+      },
+      "english_trans": "Then those that produce fire striking,"
+    },
+    "3": {
+      "arabic_text": "فَالْمُغِيرَاتِ صُبْحًا",
+      "bangla_trans": "তারপর অতর্কিত আক্রমণ চালায় প্রভাতকালে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَالْمُغِيرَاتِ",
+          "translate_bn": "অতঃপর যারা অভিযান চালায়"
+        },
+        "2": {
+          "words_ar": "صُبْحًا",
+          "translate_bn": "প্রভাতে"
+        }
+      },
+      "english_trans": "Then those that make raids at morn,"
+    },
+    "4": {
+      "arabic_text": "فَأَثَرْنَ بِهِ نَقْعًا",
+      "bangla_trans": "তারপর এ সময় ধূলা উড়ায়",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَأَثَرْنَ",
+          "translate_bn": "অতঃপর উড়ায়"
+        },
+        "2": {
+          "words_ar": "بِهِ",
+          "translate_bn": "এভাবে"
+        },
+        "3": {
+          "words_ar": "نَقْعًا",
+          "translate_bn": "ধুলোবালি"
+        }
+      },
+      "english_trans": "Then thereby raise dust,"
+    },
+    "5": {
+      "arabic_text": "فَوَسَطْنَ بِهِ جَمْعًا",
+      "bangla_trans": "এবং এ অবস্থায় কোন জনপদের ভিড়ের মধ্যে ঢুকে পড়ে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَوَسَطْنَ",
+          "translate_bn": "অতঃপর (ঢুকে পড়ে) অভ্যন্তরে"
+        },
+        "2": {
+          "words_ar": "بِهِ",
+          "translate_bn": "এভাবে"
+        },
+        "3": {
+          "words_ar": "جَمْعًا",
+          "translate_bn": "(শত্রু)দলে"
+        }
+      },
+      "english_trans": "Then rush thereby upon an assembly:"
+    },
+    "6": {
+      "arabic_text": "إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ",
+      "bangla_trans": "আসলে মানুষ তার রবের প্রতি বড়ই অকৃতজ্ঞ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষ"
+        },
+        "3": {
+          "words_ar": "لِرَبِّهِ",
+          "translate_bn": "তার রবের প্রতি"
+        },
+        "4": {
+          "words_ar": "لَكَنُودٌ",
+          "translate_bn": "অবশ্যই অকৃতজ্ঞ"
+        }
+      },
+      "english_trans": "Most surely man is ungrateful to his Lord."
+    },
+    "7": {
+      "arabic_text": "وَإِنَّهُ عَلَى ذَلِكَ لَشَهِيدٌ",
+      "bangla_trans": "আর সে নিজেরই এর সাক্ষী। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنَّهُ",
+          "translate_bn": "এবং সে নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "বিষয়ে"
+        },
+        "3": {
+          "words_ar": "ذَٰلِكَ",
+          "translate_bn": "এর"
+        },
+        "4": {
+          "words_ar": "لَشَهِيدٌ",
+          "translate_bn": "অবশ্যই সাক্ষী"
+        }
+      },
+      "english_trans": "And most surely he is a witness of that."
+    },
+    "8": {
+      "arabic_text": "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ",
+      "bangla_trans": "অবশ্য সে ধন দৌলতের মোহে খুব বেশী মত্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنَّهُ",
+          "translate_bn": "এবং নিশ্চয়ই সে"
+        },
+        "2": {
+          "words_ar": "لِحُبِّ",
+          "translate_bn": "মহব্বতের ক্ষেত্রে"
+        },
+        "3": {
+          "words_ar": "الْخَيْرِ",
+          "translate_bn": "ধন-সম্পদের"
+        },
+        "4": {
+          "words_ar": "لَشَدِيدٌ",
+          "translate_bn": "বড়ই প্রবল"
+        }
+      },
+      "english_trans": "And most surely he is tenacious in the love of wealth."
+    },
+    "9": {
+      "arabic_text": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ",
+      "bangla_trans": "তবে কি সে সেই সময়ের কথা জানে না যখন কবরের মধ্যে যা কিছু (দাফন করা) আছে সেসব বের করে আনা হবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَفَلَا",
+          "translate_bn": "তবে কি না"
+        },
+        "2": {
+          "words_ar": "يَعْلَمُ",
+          "translate_bn": "সে জানে"
+        },
+        "3": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "4": {
+          "words_ar": "بُعْثِرَ",
+          "translate_bn": "উঠানো হবে"
+        },
+        "5": {
+          "words_ar": "مَا",
+          "translate_bn": "যা কিছু"
+        },
+        "6": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে আছে"
+        },
+        "7": {
+          "words_ar": "الْقُبُورِ",
+          "translate_bn": "কবরগুলোর"
+        }
+      },
+      "english_trans": "Does he not then know when what is in the graves is raised,"
+    },
+    "10": {
+      "arabic_text": "وَحُصِّلَ مَا فِي الصُّدُورِ",
+      "bangla_trans": " এবং বুকের মধ্যে যা কিছু (লুকানো) আছে সব বের করে এনে যাচাই করা হবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَحُصِّلَ",
+          "translate_bn": "এবং প্রকাশ করা হবে"
+        },
+        "2": {
+          "words_ar": "مَا",
+          "translate_bn": "যা কিছু"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে আছে"
+        },
+        "4": {
+          "words_ar": "الصُّدُورِ",
+          "translate_bn": "অন্তরসমূহের"
+        }
+      },
+      "english_trans": "And what is in the breasts is made apparent?"
+    },
+    "11": {
+      "arabic_text": "إِنَّ رَبَّهُمْ بِهِمْ يَوْمَئِذٍ لَخَبِيرٌ",
+      "bangla_trans": "অবশ্য সেদিন তাদের রব তাদের সম্পর্কে ভালোভাবেই অবগত থাকবেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "رَبَّهُمْ",
+          "translate_bn": "তাদের রব"
+        },
+        "3": {
+          "words_ar": "بِهِمْ",
+          "translate_bn": "তাদের সাথে"
+        },
+        "4": {
+          "words_ar": "يَوْمَئِذٍ",
+          "translate_bn": "সেদিন"
+        },
+        "5": {
+          "words_ar": "لَخَبِيرٌ",
+          "translate_bn": "অবশ্যই তা ভালো করেই জানেন"
+        }
+      },
+      "english_trans": "Most surely their Lord that day shall be fully aware of them."
+    }
+  }
+}

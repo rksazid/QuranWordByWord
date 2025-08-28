@@ -1,0 +1,132 @@
+{
+  "surah_id": 114,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "bangla_trans": "বলো, আমি আশ্রয় চাচ্ছি মানুষের রব,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "2": {
+          "words_ar": "أَعُوذُ",
+          "translate_bn": "আমি আশ্রয় চাই"
+        },
+        "3": {
+          "words_ar": "بِرَبِّ",
+          "translate_bn": "রবের নিকট"
+        },
+        "4": {
+          "words_ar": "النَّاسِ",
+          "translate_bn": "মানুষের"
+        }
+      },
+      "english_trans": "Say: I seek refuge in the Lord of men,"
+    },
+    "2": {
+      "arabic_text": "مَلِكِ النَّاسِ",
+      "bangla_trans": "মানুষের বাদশাহ,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَلِكِ",
+          "translate_bn": "মহা অধিপতির (নিকট)"
+        },
+        "2": {
+          "words_ar": "النَّاسِ",
+          "translate_bn": "মানুষের"
+        }
+      },
+      "english_trans": "The King of men,"
+    },
+    "3": {
+      "arabic_text": "إِلَهِ النَّاسِ",
+      "bangla_trans": "মানুষের প্রকৃত মাবুদের কাছে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِلَٰهِ",
+          "translate_bn": "ইলাহ্‌র (নিকট)"
+        },
+        "2": {
+          "words_ar": "النَّاسِ",
+          "translate_bn": "মানুষের"
+        }
+      },
+      "english_trans": "The god of men,"
+    },
+    "4": {
+      "arabic_text": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+      "bangla_trans": "এমন প্ররোচনা দানকারীর অনিষ্ট থেকে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "2": {
+          "words_ar": "شَرِّ",
+          "translate_bn": "অমঙ্গল"
+        },
+        "3": {
+          "words_ar": "الْوَسْوَاسِ",
+          "translate_bn": "কুমন্ত্রণার"
+        },
+        "4": {
+          "words_ar": "الْخَنَّاسِ",
+          "translate_bn": "আত্নগোপনকারী"
+        }
+      },
+      "english_trans": "From the evil of the whisperings of the slinking (Shaitan),"
+    },
+    "5": {
+      "arabic_text": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+      "bangla_trans": "যে বারবার ফিরে আসে, যে মানুষের মনে প্ররোচনা দান করে,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যে"
+        },
+        "2": {
+          "words_ar": "يُوَسْوِسُ",
+          "translate_bn": "কুমন্ত্রণা দেয়"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "صُدُورِ",
+          "translate_bn": "অন্তরসমূহের"
+        },
+        "5": {
+          "words_ar": "النَّاسِ",
+          "translate_bn": "মানুষের"
+        }
+      },
+      "english_trans": "Who whispers into the hearts of men,"
+    },
+    "6": {
+      "arabic_text": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "bangla_trans": "সে জিনের মধ্য থেকে হোক বা মানুষের মধ্য থেকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مِنَ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "2": {
+          "words_ar": "الْجِنَّةِ",
+          "translate_bn": "জিনের"
+        },
+        "3": {
+          "words_ar": "وَالنَّاسِ",
+          "translate_bn": "ও মানুষের"
+        }
+      },
+      "english_trans": "From among the jinn and the men."
+    }
+  }
+}

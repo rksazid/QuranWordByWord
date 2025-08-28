@@ -1,0 +1,165 @@
+{
+  "surah_id": 97,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+      "bangla_trans": "আমি এ (কুরআন) নাযিল করেছি কদরের রাতে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّا",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "أَنْزَلْنَاهُ",
+          "translate_bn": "তা আমরা অবতীর্ণ করেছি"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "لَيْلَةِ",
+          "translate_bn": "রাতের"
+        },
+        "5": {
+          "words_ar": "الْقَدْرِ",
+          "translate_bn": "কদরের মহিমার"
+        }
+      },
+      "english_trans": "Surely We revealed it on the grand night."
+    },
+    "2": {
+      "arabic_text": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+      "bangla_trans": "তুমি কি জানো, কদরের রাত কি?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং কিসে"
+        },
+        "2": {
+          "words_ar": "أَدْرَاكَ",
+          "translate_bn": "তোমাকে জানাবে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "কি সেই"
+        },
+        "4": {
+          "words_ar": "لَيْلَةُ",
+          "translate_bn": "রাত"
+        },
+        "5": {
+          "words_ar": "الْقَدْرِ",
+          "translate_bn": "কদরের"
+        }
+      },
+      "english_trans": "And what will make you comprehend what the grand night"
+    },
+    "3": {
+      "arabic_text": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ",
+      "bangla_trans": "কদরের রাত হাজার মাসের চাইতেও বেশী ভালো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَيْلَةُ",
+          "translate_bn": "রাত"
+        },
+        "2": {
+          "words_ar": "الْقَدْرِ",
+          "translate_bn": "কদরের"
+        },
+        "3": {
+          "words_ar": "خَيْرٌ",
+          "translate_bn": "শ্রেষ্ঠ"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতেও"
+        },
+        "5": {
+          "words_ar": "أَلْفِ",
+          "translate_bn": "হাজার"
+        },
+        "6": {
+          "words_ar": "شَهْرٍ",
+          "translate_bn": "মাস"
+        }
+      },
+      "english_trans": "The grand night is better than a thousand months."
+    },
+    "4": {
+      "arabic_text": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِمْ مِنْ كُلِّ أَمْرٍ",
+      "bangla_trans": "ফেরেশতারা ও রূহ এই রাতে তাদের রবের অনুমতিক্রমে প্রত্যেকটি হুকুম নিয়ে নাযিল হয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "تَنَزَّلُ",
+          "translate_bn": "অবতীর্ণ হয়"
+        },
+        "2": {
+          "words_ar": "الْمَلَائِكَةُ",
+          "translate_bn": "ফেরেশতারা"
+        },
+        "3": {
+          "words_ar": "وَالرُّوحُ",
+          "translate_bn": "এবং রূহ (জিব্রাঈল)"
+        },
+        "4": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "5": {
+          "words_ar": "بِإِذْنِ",
+          "translate_bn": "অনুমতিক্রমে"
+        },
+        "6": {
+          "words_ar": "رَبِّهِمْ",
+          "translate_bn": "তাদের রবের"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "8": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "সব"
+        },
+        "9": {
+          "words_ar": "أَمْرٍ",
+          "translate_bn": "কাজে"
+        }
+      },
+      "english_trans": "The angels and Gibreel descend in it by the permission of their Lord for every affair,"
+    },
+    "5": {
+      "arabic_text": "سَلَامٌ هِيَ حَتَّى مَطْلَعِ الْفَجْرِ",
+      "bangla_trans": "এ রাতটি পুরোপুরি শান্তিময় ফজরের উদয় পর্যন্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَلَامٌ",
+          "translate_bn": "শান্তির"
+        },
+        "2": {
+          "words_ar": "هِيَ",
+          "translate_bn": "সেই (রাত)"
+        },
+        "3": {
+          "words_ar": "حَتَّىٰ",
+          "translate_bn": "পর্যন্ত"
+        },
+        "4": {
+          "words_ar": "مَطْلَعِ",
+          "translate_bn": "উদয়"
+        },
+        "5": {
+          "words_ar": "الْفَجْرِ",
+          "translate_bn": "ঊষার"
+        }
+      },
+      "english_trans": "Peace! it is till the break of the morning."
+    }
+  }
+}

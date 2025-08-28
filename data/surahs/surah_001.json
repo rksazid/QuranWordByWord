@@ -1,0 +1,152 @@
+{
+  "surah_id": 1,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "bangla_trans": "প্রশংসা একমাত্র আল্লাহর জন্য যিনি নিখিল বিশ্ব–জাহানের রব,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الْحَمْدُ",
+          "translate_bn": "সকল প্রশংসা"
+        },
+        "2": {
+          "words_ar": "لِلَّهِ",
+          "translate_bn": "আল্লাহ্‌রই জন্য"
+        },
+        "3": {
+          "words_ar": "رَبِّ",
+          "translate_bn": "(যিনি) রব"
+        },
+        "4": {
+          "words_ar": "الْعَالَمِينَ",
+          "translate_bn": "সারা জগতের"
+        }
+      },
+      "english_trans": "All praise is due to Allah, the Lord of the Worlds."
+    },
+    "2": {
+      "arabic_text": "الرَّحْمَنِ الرَّحِيمِ",
+      "bangla_trans": "যিনি পরম দয়ালু ও করুণাময়",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الرَّحْمَٰنِ",
+          "translate_bn": "অশেষ করুণাময়"
+        },
+        "2": {
+          "words_ar": "الرَّحِيمِ",
+          "translate_bn": "পরম দয়ালু"
+        }
+      },
+      "english_trans": "The Beneficent, the Merciful."
+    },
+    "3": {
+      "arabic_text": "مَالِكِ يَوْمِ الدِّينِ",
+      "bangla_trans": "প্রতিদান দিবসের মালিক।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَالِكِ",
+          "translate_bn": "অধিপতি"
+        },
+        "2": {
+          "words_ar": "يَوْمِ",
+          "translate_bn": "দিনের"
+        },
+        "3": {
+          "words_ar": "الدِّينِ",
+          "translate_bn": "বিচারের"
+        }
+      },
+      "english_trans": "Master of the Day of Judgment."
+    },
+    "4": {
+      "arabic_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "bangla_trans": "আমরা একমাত্র তোমারই ইবাদাত করি এবং একমাত্র তোমারই কাছে সাহায্য চাই",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِيَّاكَ",
+          "translate_bn": "আপনারই শুধু"
+        },
+        "2": {
+          "words_ar": "نَعْبُدُ",
+          "translate_bn": "আমরা ইবাদত করি"
+        },
+        "3": {
+          "words_ar": "وَإِيَّاكَ",
+          "translate_bn": "এবং আপনারই (কাছে শুধু)"
+        },
+        "4": {
+          "words_ar": "نَسْتَعِينُ",
+          "translate_bn": "আমরা সাহায্য চাই।"
+        }
+      },
+      "english_trans": "Thee do we serve and Thee do we beseech for help."
+    },
+    "5": {
+      "arabic_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "bangla_trans": "তুমি আমাদের সোজা পথ দেখাও,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اهْدِنَا",
+          "translate_bn": "আমাদেরকে দেখান"
+        },
+        "2": {
+          "words_ar": "الصِّرَاطَ",
+          "translate_bn": "পথ"
+        },
+        "3": {
+          "words_ar": "الْمُسْتَقِيمَ",
+          "translate_bn": "সরল সঠিক"
+        }
+      },
+      "english_trans": "Keep us on the right path."
+    },
+    "6": {
+      "arabic_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "bangla_trans": "তাদের পথ যাদের প্রতি তুমি অনুগ্রহ করেছ, যাদের ওপর গযব পড়েনি এবং যারা পথভ্রষ্ট হয়নি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "صِرَاطَ",
+          "translate_bn": "(সেই) পথে"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যাদেরকে"
+        },
+        "3": {
+          "words_ar": "أَنْعَمْتَ",
+          "translate_bn": "আপনি অনুগ্রহ দান করেছেন"
+        },
+        "4": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "তাদের উপর"
+        },
+        "5": {
+          "words_ar": "غَيْرِ",
+          "translate_bn": "নয় (পথ)"
+        },
+        "6": {
+          "words_ar": "الْمَغْضُوبِ",
+          "translate_bn": "অভিশপ্তদের"
+        },
+        "7": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "যাদের উপর (গজব পরেছে)"
+        },
+        "8": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "9": {
+          "words_ar": "الضَّالِّينَ",
+          "translate_bn": "পথভ্রষ্টদের"
+        }
+      },
+      "english_trans": "The path of those upon whom Thou hast bestowed favors. Not (the path) of those upon whom Thy wrath is brought down, nor of those who go astray."
+    }
+  }
+}

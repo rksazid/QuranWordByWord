@@ -1,0 +1,1960 @@
+{
+  "surah_id": 55,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "الرَّحْمَنُ",
+      "bangla_trans": "পরম দয়ালু (আল্লাহ)",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الرَّحْمَٰنُ",
+          "translate_bn": "অশেষ দয়ালু (আল্লাহ্‌)"
+        }
+      },
+      "english_trans": "The Beneficent Allah,"
+    },
+    "2": {
+      "arabic_text": "عَلَّمَ الْقُرْآنَ",
+      "bangla_trans": "এ কুরআনের শিক্ষা দিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَلَّمَ",
+          "translate_bn": "শিক্ষা দিয়েছেন"
+        },
+        "2": {
+          "words_ar": "الْقُرْآنَ",
+          "translate_bn": "(এই) কুরআন"
+        }
+      },
+      "english_trans": "Taught the Quran."
+    },
+    "3": {
+      "arabic_text": "خَلَقَ الْإِنْسَانَ",
+      "bangla_trans": "তিনিই মানুষকে সৃষ্টি করেছেন",
+      "word_by_word": {
+        "1": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "তিনি সৃষ্টি করেছেন"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষকে"
+        }
+      },
+      "english_trans": "He created man,"
+    },
+    "4": {
+      "arabic_text": "عَلَّمَهُ الْبَيَانَ",
+      "bangla_trans": "এবং তাকে কথা শিখিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَلَّمَهُ",
+          "translate_bn": "তাকে শিখিয়েছেন"
+        },
+        "2": {
+          "words_ar": "الْبَيَانَ",
+          "translate_bn": "ভাব প্রকাশ করতে"
+        }
+      },
+      "english_trans": "Taught him the mode of expression."
+    },
+    "5": {
+      "arabic_text": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ",
+      "bangla_trans": "সূর্য ও চন্দ্র একটি হিসেবের অনুসরণ করছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الشَّمْسُ",
+          "translate_bn": "সূর্য"
+        },
+        "2": {
+          "words_ar": "وَالْقَمَرُ",
+          "translate_bn": "ও চাঁদ"
+        },
+        "3": {
+          "words_ar": "بِحُسْبَانٍ",
+          "translate_bn": "একটি হিসাব অনুসরণ করেই চলে"
+        }
+      },
+      "english_trans": "The sun and the moon follow a reckoning."
+    },
+    "6": {
+      "arabic_text": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
+      "bangla_trans": "এবং তারকারাজি ও গাছপালা সব সিজদাবনত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالنَّجْمُ",
+          "translate_bn": "এবং তারকা"
+        },
+        "2": {
+          "words_ar": "وَالشَّجَرُ",
+          "translate_bn": "ও গাছপালা"
+        },
+        "3": {
+          "words_ar": "يَسْجُدَانِ",
+          "translate_bn": "উভয়ে সিজদারত"
+        }
+      },
+      "english_trans": "And the herbs and the trees do prostrate (to Him)."
+    },
+    "7": {
+      "arabic_text": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
+      "bangla_trans": "আসমানকে তিনিই সুউচ্চ করেছেন এবং দাড়িপাল্লা কায়েম করেছেন। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالسَّمَاءَ",
+          "translate_bn": "এবং আকাশকে"
+        },
+        "2": {
+          "words_ar": "رَفَعَهَا",
+          "translate_bn": "তা সমুন্নত করেছেন তিনি"
+        },
+        "3": {
+          "words_ar": "وَوَضَعَ",
+          "translate_bn": "ও স্থাপন করেছেন"
+        },
+        "4": {
+          "words_ar": "الْمِيزَانَ",
+          "translate_bn": "মানদণ্ড"
+        }
+      },
+      "english_trans": "And the heaven, He raised it high, and He made the balance"
+    },
+    "8": {
+      "arabic_text": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
+      "bangla_trans": "এর দাবী হলো তোমরা দাড়িপাল্লায় বিশৃংখলা সৃষ্টি করো না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَلَّا",
+          "translate_bn": "(ঐকান্তিক দাবি) না যেন"
+        },
+        "2": {
+          "words_ar": "تَطْغَوْا",
+          "translate_bn": "তোমরা সীমা লঙ্ঘন কর"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "الْمِيزَانِ",
+          "translate_bn": "মানদণ্ডের"
+        }
+      },
+      "english_trans": "That you may not be inordinate in respect of the measure."
+    },
+    "9": {
+      "arabic_text": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ",
+      "bangla_trans": "ইনসাফের সাথে সঠিকভাবে ওজন করো এবং ওজনে কম দিও না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَأَقِيمُوا",
+          "translate_bn": "এবং তোমরা প্রতিষ্ঠা করো"
+        },
+        "2": {
+          "words_ar": "الْوَزْنَ",
+          "translate_bn": "ওজন"
+        },
+        "3": {
+          "words_ar": "بِالْقِسْطِ",
+          "translate_bn": "ন্যায্য ভাবে"
+        },
+        "4": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "5": {
+          "words_ar": "تُخْسِرُوا",
+          "translate_bn": "তোমরা কম দিয়ো"
+        },
+        "6": {
+          "words_ar": "الْمِيزَانَ",
+          "translate_bn": "দাঁড়িপাল্লায় পরিমাপে"
+        }
+      },
+      "english_trans": "And keep up the balance with equity and do not make the measure deficient."
+    },
+    "10": {
+      "arabic_text": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+      "bangla_trans": "পৃথিবীকে তিনি সমস্ত সৃষ্টির জন্য বানিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْأَرْضَ",
+          "translate_bn": "এবং পৃথিবীকে"
+        },
+        "2": {
+          "words_ar": "وَضَعَهَا",
+          "translate_bn": "তা তিনি স্থাপন করেছেন"
+        },
+        "3": {
+          "words_ar": "لِلْأَنَامِ",
+          "translate_bn": "সৃষ্ট জীবের জন্যে"
+        }
+      },
+      "english_trans": "And the earth, He has set it for living creatures;"
+    },
+    "11": {
+      "arabic_text": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
+      "bangla_trans": "এখানে সব ধরনের সুস্বাদু ফল প্রচুর পরিমাণে আছে। খেজুর গাছ আছে যার ফল পাতলা আবরণে ঢাকা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে (আছে)"
+        },
+        "2": {
+          "words_ar": "فَاكِهَةٌ",
+          "translate_bn": "ফলমূল"
+        },
+        "3": {
+          "words_ar": "وَالنَّخْلُ",
+          "translate_bn": "ও খেজুর গাছ"
+        },
+        "4": {
+          "words_ar": "ذَاتُ",
+          "translate_bn": "আছে"
+        },
+        "5": {
+          "words_ar": "الْأَكْمَامِ",
+          "translate_bn": "আবরণ বিশিষ্ট (যার ফল)"
+        }
+      },
+      "english_trans": "Therein is fruit and palms having sheathed clusters,"
+    },
+    "12": {
+      "arabic_text": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
+      "bangla_trans": "নানা রকমের শস্য আছে যার মধ্যে আছে দানা ও ভূষি উভয়ই। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالْحَبُّ",
+          "translate_bn": "এবং শস্য"
+        },
+        "2": {
+          "words_ar": "ذُو",
+          "translate_bn": "আছে"
+        },
+        "3": {
+          "words_ar": "الْعَصْفِ",
+          "translate_bn": "ভুসি বিশিষ্ট (দানা)"
+        },
+        "4": {
+          "words_ar": "وَالرَّيْحَانُ",
+          "translate_bn": "ও সুগন্ধ (বিশিষ্ট উদ্ভিদ)"
+        }
+      },
+      "english_trans": "And the grain with (its) husk and fragrance."
+    },
+    "13": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "অতএব, হে জ্বীন ও মানব জাতি, তোমরা তোমাদের রবের কোন কোন নিয়ামতকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "14": {
+      "arabic_text": "خَلَقَ الْإِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ",
+      "bangla_trans": "মাটির শুকনো ঢিলের মত পচা কাদা থেকে তিনি মানুষকে সৃষ্টি করেছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "خَلَقَ",
+          "translate_bn": "তিনি সৃষ্টি করেছেন"
+        },
+        "2": {
+          "words_ar": "الْإِنْسَانَ",
+          "translate_bn": "মানুষকে"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "4": {
+          "words_ar": "صَلْصَالٍ",
+          "translate_bn": "শুকনো ঠনঠনে মাটি"
+        },
+        "5": {
+          "words_ar": "كَالْفَخَّارِ",
+          "translate_bn": "(যা) পোড়া মাটির মতো"
+        }
+      },
+      "english_trans": "He created man from dry clay like earthen vessels,"
+    },
+    "15": {
+      "arabic_text": "وَخَلَقَ الْجَانَّ مِنْ مَارِجٍ مِنْ نَارٍ",
+      "bangla_trans": "আর জিনদের সৃষ্টি করেছেন আগুনের শিখা থেকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَخَلَقَ",
+          "translate_bn": "এবং সৃষ্টি করেছেন"
+        },
+        "2": {
+          "words_ar": "الْجَانَّ",
+          "translate_bn": "জিনকে"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "4": {
+          "words_ar": "مَارِجٍ",
+          "translate_bn": "শিখা"
+        },
+        "5": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "6": {
+          "words_ar": "نَارٍ",
+          "translate_bn": "আগুনের"
+        }
+      },
+      "english_trans": "And He created the jinn of a flame of fire."
+    },
+    "16": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানব জাতি, তোমরা তোমাদের রবের অসীম ক্ষমতার কোন কোন বিস্ময়কর দিক অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "17": {
+      "arabic_text": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ",
+      "bangla_trans": "দুই উদয়াচল ও দুই অস্তাচল-সব কিছুর মালিক ও পালনকর্তা তিনিই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "رَبُّ",
+          "translate_bn": "(তিনিই) মালিক"
+        },
+        "2": {
+          "words_ar": "الْمَشْرِقَيْنِ",
+          "translate_bn": "দুই উদয়াচলের"
+        },
+        "3": {
+          "words_ar": "وَرَبُّ",
+          "translate_bn": "ও মালিক"
+        },
+        "4": {
+          "words_ar": "الْمَغْرِبَيْنِ",
+          "translate_bn": "দুই অস্তাচলের"
+        }
+      },
+      "english_trans": "Lord of the East and Lord of the West."
+    },
+    "18": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানবজাতি, তোমরা তোমাদের রবের কোন কোন্ কোন্ কুদরতকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "19": {
+      "arabic_text": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "bangla_trans": "দু’টি সমুদ্রকে তিনি পরস্পর মিলিত হতে দিয়েছেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَرَجَ",
+          "translate_bn": "প্রবাহিত করেছেন"
+        },
+        "2": {
+          "words_ar": "الْبَحْرَيْنِ",
+          "translate_bn": "দুই সমুদ্রকে"
+        },
+        "3": {
+          "words_ar": "يَلْتَقِيَانِ",
+          "translate_bn": "পরস্পরে মিলিত হয়"
+        }
+      },
+      "english_trans": "He has made the two seas to flow freely (so that) they meet together:"
+    },
+    "20": {
+      "arabic_text": "بَيْنَهُمَا بَرْزَخٌ لَا يَبْغِيَانِ",
+      "bangla_trans": "তা সত্ত্বেও উভয়ের মধ্যে একটি পর্দা আড়াল হয়ে আছে যা তারা অতিক্রম করে না ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "بَيْنَهُمَا",
+          "translate_bn": "তাদের উভয়ের মাঝে (তবুও)"
+        },
+        "2": {
+          "words_ar": "بَرْزَخٌ",
+          "translate_bn": "অন্তরাল (আছে)"
+        },
+        "3": {
+          "words_ar": "لَا",
+          "translate_bn": "(যার) না"
+        },
+        "4": {
+          "words_ar": "يَبْغِيَانِ",
+          "translate_bn": "উভয়ে সীমা অতিক্রম করে"
+        }
+      },
+      "english_trans": "Between them is a barrier which they cannot pass."
+    },
+    "21": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানব জাতি, তোমরা তোমাদের রবের অসীম শক্তির কোন্ কোন্ বিস্ময়কর দিক অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "22": {
+      "arabic_text": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ",
+      "bangla_trans": "এই উভয় সমুদ্র থেকেই মুক্তা ও প্রবাল পাওয়া যায়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَخْرُجُ",
+          "translate_bn": "বের হয়"
+        },
+        "2": {
+          "words_ar": "مِنْهُمَا",
+          "translate_bn": "তাদের উভয় হতে"
+        },
+        "3": {
+          "words_ar": "اللُّؤْلُؤُ",
+          "translate_bn": "মুক্তা"
+        },
+        "4": {
+          "words_ar": "وَالْمَرْجَانُ",
+          "translate_bn": "ও প্রবাল"
+        }
+      },
+      "english_trans": "There come forth from them pearls, both large and small."
+    },
+    "23": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানব জাতি, তোমরা তোমাদের রবের কুদরতের কোন্ কোন্ পরিপূর্ণতা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "24": {
+      "arabic_text": "وَلَهُ الْجَوَارِ الْمُنْشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ",
+      "bangla_trans": "সমুদ্রের বুকে পাহাড়ের মত উঁচু ভাসমান জাহাজসমূহ তাঁরই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَهُ",
+          "translate_bn": "এবং তাঁরই নিয়ন্ত্রণে"
+        },
+        "2": {
+          "words_ar": "الْجَوَارِ",
+          "translate_bn": "জাহাজ সমূহ"
+        },
+        "3": {
+          "words_ar": "الْمُنْشَآتُ",
+          "translate_bn": "উঁচু উঁচু (পালসহ)"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "5": {
+          "words_ar": "الْبَحْرِ",
+          "translate_bn": "সাগরের"
+        },
+        "6": {
+          "words_ar": "كَالْأَعْلَامِ",
+          "translate_bn": "পাহাড়ের মতো"
+        }
+      },
+      "english_trans": "And His are the ships reared aloft in the sea like mountains."
+    },
+    "25": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "অতএব, হে জ্বীন ও মানব জাতি, তোমরা তোমাদের রবের কোন্ কোন্ অনুগ্রহ অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "26": {
+      "arabic_text": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+      "bangla_trans": "এ ভূপৃষ্ঠের প্রতিটি জিনিসই ধ্বংস হয়ে যাবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كُلُّ",
+          "translate_bn": "প্রত্যেক (জিনিস)"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যা কিছু"
+        },
+        "3": {
+          "words_ar": "عَلَيْهَا",
+          "translate_bn": "তার উপর (আছে)"
+        },
+        "4": {
+          "words_ar": "فَانٍ",
+          "translate_bn": "নশ্বর"
+        }
+      },
+      "english_trans": "Everyone on it must pass away."
+    },
+    "27": {
+      "arabic_text": "وَيَبْقَى وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
+      "bangla_trans": "এবং তোমার মহীয়ান ও দয়াবান রবের সত্তাই অবশিষ্ট থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَبْقَىٰ",
+          "translate_bn": "এবং অবশিষ্ট থাকবেন"
+        },
+        "2": {
+          "words_ar": "وَجْهُ",
+          "translate_bn": "সত্তা"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "ذُو",
+          "translate_bn": "(যিনি) সম্পন্ন"
+        },
+        "5": {
+          "words_ar": "الْجَلَالِ",
+          "translate_bn": "মহিমা"
+        },
+        "6": {
+          "words_ar": "وَالْإِكْرَامِ",
+          "translate_bn": "মহানুভবতা"
+        }
+      },
+      "english_trans": "And there will endure for ever the person of your Lord, the Lord of glory and honor."
+    },
+    "28": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "অতএব, হে জ্বীন ও মানুষ তোমরা তোমাদের রবের কোন্ কোন্ পূর্ণতাকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "29": {
+      "arabic_text": "يَسْأَلُهُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
+      "bangla_trans": "পৃথিবী ও আকাশ মণ্ডলে যা-ই আছে সবাই তাঁর কাছে নিজের প্রয়োজন প্রার্থনা করছে। প্রতি মুহূর্তে তিনি নতুন নতুন কর্মকাণ্ডে ব্যস্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَسْأَلُهُ",
+          "translate_bn": "তাঁরই কাছে প্রার্থনা করে"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যা কিছু"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে (আছে)"
+        },
+        "4": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশ"
+        },
+        "5": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "ও পৃথিবীর"
+        },
+        "6": {
+          "words_ar": "كُلَّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "7": {
+          "words_ar": "يَوْمٍ",
+          "translate_bn": "দিন"
+        },
+        "8": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনি"
+        },
+        "9": {
+          "words_ar": "فِي",
+          "translate_bn": "থাকেন"
+        },
+        "10": {
+          "words_ar": "شَأْنٍ",
+          "translate_bn": "(এক বিশেষ) অবস্থায়"
+        }
+      },
+      "english_trans": "All those who are in the heavens and the earth ask of Him; every moment He is in a state (of glory)."
+    },
+    "30": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানুষ, তোমরা তোমাদের রবের কোন্ কোন্ মহত গুণাবলী অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "31": {
+      "arabic_text": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ",
+      "bangla_trans": "ওহে পৃথিবীর দুই বোঝা তোমাদের জিজ্ঞাসাবাদের জন্য আমি অতি শীঘ্রই তোমাদের প্রতি একাগ্রভাবে মনোনিবেশ করবো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَنَفْرُغُ",
+          "translate_bn": "অবসর হব আমরা শীঘ্রই"
+        },
+        "2": {
+          "words_ar": "لَكُمْ",
+          "translate_bn": "তোমাদের জন্যে"
+        },
+        "3": {
+          "words_ar": "أَيُّهَ",
+          "translate_bn": "হে"
+        },
+        "4": {
+          "words_ar": "الثَّقَلَانِ",
+          "translate_bn": "দুই ভার (জিন ও মানব)"
+        }
+      },
+      "english_trans": "Soon will We apply Ourselves to you, O you two armies."
+    },
+    "32": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "(তারপর দেখবো) তোমরা তোমাদের রবের কোন্ কোন্ অনুগ্রহকে অস্বীকার করো?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "দয়া অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "33": {
+      "arabic_text": "يَا مَعْشَرَ الْجِنِّ وَالْإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانْفُذُوا لَا تَنْفُذُونَ إِلَّا بِسُلْطَانٍ",
+      "bangla_trans": "হে জ্বীন ও মানব গোষ্ঠী, তোমরা যদি পৃথিবী ও আকাশ মণ্ডলের সীমা পেরিয়ে কোথাও পালিয়ে যেতে পার তাহলে গিয়ে দেখ। পালাতে পারবে না, এ জন্য বড় শক্তি প্রয়োজন। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَا مَعْشَرَ",
+          "translate_bn": "হে সম্প্রদায়"
+        },
+        "2": {
+          "words_ar": "الْجِنِّ",
+          "translate_bn": "জিনের"
+        },
+        "3": {
+          "words_ar": "وَالْإِنْسِ",
+          "translate_bn": "ও মানবের"
+        },
+        "4": {
+          "words_ar": "إِنِ",
+          "translate_bn": "যদি"
+        },
+        "5": {
+          "words_ar": "اسْتَطَعْتُمْ",
+          "translate_bn": "তোমরা পার"
+        },
+        "6": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "7": {
+          "words_ar": "تَنْفُذُوا",
+          "translate_bn": "তোমরা অতিক্রম করে পালাও"
+        },
+        "8": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "9": {
+          "words_ar": "أَقْطَارِ",
+          "translate_bn": "সীমা সমূহ"
+        },
+        "10": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশের"
+        },
+        "11": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "ও পৃথিবীর"
+        },
+        "12": {
+          "words_ar": "فَانْفُذُوا",
+          "translate_bn": "তবে তোমরা অতিক্রম করো"
+        },
+        "13": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "14": {
+          "words_ar": "تَنْفُذُونَ",
+          "translate_bn": "তোমরা অতিক্রম করে পালাতে পারবে"
+        },
+        "15": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ব্যতীত"
+        },
+        "16": {
+          "words_ar": "بِسُلْطَانٍ",
+          "translate_bn": "শক্তি দিয়ে (যা তোমাদের নেই)"
+        }
+      },
+      "english_trans": "O assembly of the jinn and the men! If you are able to pass through the regions of the heavens and the earth, then pass through; you cannot pass through but with authority."
+    },
+    "34": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমরা তোমাদের রবের কোন্ কোন্ অসীম ক্ষমতাকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "35": {
+      "arabic_text": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِنْ نَارٍ وَنُحَاسٌ فَلَا تَنْتَصِرَانِ",
+      "bangla_trans": "(যদি পালানেরা চেষ্টা করো তাহলে) তোমাদের প্রতি আগুনের শিখা এবং ধোঁয়া ছেড়ে দেয়া হবে তোমরা যার মোকাবিলা করতে পারবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يُرْسَلُ",
+          "translate_bn": "পাঠানো হবে"
+        },
+        "2": {
+          "words_ar": "عَلَيْكُمَا",
+          "translate_bn": "তোমাদের উভয়ের উপর"
+        },
+        "3": {
+          "words_ar": "شُوَاظٌ",
+          "translate_bn": "শিখা"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "5": {
+          "words_ar": "نَارٍ",
+          "translate_bn": "আগুন"
+        },
+        "6": {
+          "words_ar": "وَنُحَاسٌ",
+          "translate_bn": "ও ধোঁয়া"
+        },
+        "7": {
+          "words_ar": "فَلَا",
+          "translate_bn": "না তখন"
+        },
+        "8": {
+          "words_ar": "تَنْتَصِرَانِ",
+          "translate_bn": "তোমরা প্রতিরোধ করতে পারবে"
+        }
+      },
+      "english_trans": "The flames of fire and smoke will be sent on you two, then you will not be able to defend yourselves."
+    },
+    "36": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানুষ, তোমরা তোমাদের রবের কোন্ কোন্ ক্ষমতাকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "37": {
+      "arabic_text": "فَإِذَا انْشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ",
+      "bangla_trans": "অতঃপর (কি হবে সেই সময়) যখন আসমান ফেটে চৌচির হয়ে যাবে এবং লাল চামড়ার মত লোহিত বর্ণ ধারণ করবে? ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَإِذَا",
+          "translate_bn": "যখন অতঃপর"
+        },
+        "2": {
+          "words_ar": "انْشَقَّتِ",
+          "translate_bn": "ছিঁড়েফেটে"
+        },
+        "3": {
+          "words_ar": "السَّمَاءُ",
+          "translate_bn": "আকাশ"
+        },
+        "4": {
+          "words_ar": "فَكَانَتْ",
+          "translate_bn": "অতঃপর হবে (তা)"
+        },
+        "5": {
+          "words_ar": "وَرْدَةً",
+          "translate_bn": "লাল"
+        },
+        "6": {
+          "words_ar": "كَالدِّهَانِ",
+          "translate_bn": "মতো লাল চামড়ার"
+        }
+      },
+      "english_trans": "And when the heaven is rent asunder, and then becomes red like red hide."
+    },
+    "38": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানুষ, তোমরা তোমাদের রবের কোন্ কোন্ ক্ষমতা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "তখন কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "39": {
+      "arabic_text": "فَيَوْمَئِذٍ لَا يُسْأَلُ عَنْ ذَنْبِهِ إِنْسٌ وَلَا جَانٌّ",
+      "bangla_trans": "সে দিন কোন মানুষ ও কোন জিনকে তার গোনাহ সম্পর্কে জিজ্ঞেস করার প্রয়োজন হবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَيَوْمَئِذٍ",
+          "translate_bn": "সেদিন অতঃপর"
+        },
+        "2": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "3": {
+          "words_ar": "يُسْأَلُ",
+          "translate_bn": "জিজ্ঞেস করা হবে"
+        },
+        "4": {
+          "words_ar": "عَنْ",
+          "translate_bn": "সম্পর্কে"
+        },
+        "5": {
+          "words_ar": "ذَنْبِهِ",
+          "translate_bn": "তার পাপ"
+        },
+        "6": {
+          "words_ar": "إِنْسٌ",
+          "translate_bn": "কোনো মানবকে"
+        },
+        "7": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "8": {
+          "words_ar": "جَانٌّ",
+          "translate_bn": "কোনো জিনকে"
+        }
+      },
+      "english_trans": "So on that day neither man nor jinni shall be asked about his sin."
+    },
+    "40": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তখন (দেখা যাবে) তোমরা দুই গোষ্ঠী তোমাদের রবের কোন্ কোন্ অনুগ্রহ অস্বীকার করো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "তখন কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "41": {
+      "arabic_text": "يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ فَيُؤْخَذُ بِالنَّوَاصِي وَالْأَقْدَامِ",
+      "bangla_trans": "সেখানে চেহারা দেখেই অপরাধীকে চেনা যাবে এবং তাদেরকে মাথার সম্মুখভাগের চুল ও পা ধরে হিঁচড়ে টেনে নেয়া হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يُعْرَفُ",
+          "translate_bn": "চেনা যাবে"
+        },
+        "2": {
+          "words_ar": "الْمُجْرِمُونَ",
+          "translate_bn": "অপরাধীদেরকে"
+        },
+        "3": {
+          "words_ar": "بِسِيمَاهُمْ",
+          "translate_bn": "তাদের লক্ষণ দ্বারা"
+        },
+        "4": {
+          "words_ar": "فَيُؤْخَذُ",
+          "translate_bn": "পাকড়াও করা হবে অতঃপর"
+        },
+        "5": {
+          "words_ar": "بِالنَّوَاصِي",
+          "translate_bn": "সামনের চুল ধরে"
+        },
+        "6": {
+          "words_ar": "وَالْأَقْدَامِ",
+          "translate_bn": "ও পা সমূহকে"
+        }
+      },
+      "english_trans": "The guilty shall be recognized by their marks, so they shall be seized by the forelocks and the feet."
+    },
+    "42": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "সেই সময় তোমরা তোমাদের রবের কোন্ কোন্ ক্ষমতাকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "তখন কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "43": {
+      "arabic_text": "هَذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ",
+      "bangla_trans": "সেই (সময় বলা হবে) এতো সেই জাহান্নাম অপরাধীরা যা মিথ্যা বলে আখ্যায়িত করতো।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "هَٰذِهِ",
+          "translate_bn": "(বলা হবে) এই সেই"
+        },
+        "2": {
+          "words_ar": "جَهَنَّمُ",
+          "translate_bn": "জাহান্নাম"
+        },
+        "3": {
+          "words_ar": "الَّتِي",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "يُكَذِّبُ",
+          "translate_bn": "মিথ্যা মনে করত"
+        },
+        "5": {
+          "words_ar": "بِهَا",
+          "translate_bn": "যাকে"
+        },
+        "6": {
+          "words_ar": "الْمُجْرِمُونَ",
+          "translate_bn": "অপরাধীরা"
+        }
+      },
+      "english_trans": "This is the hell which the guilty called a lie."
+    },
+    "44": {
+      "arabic_text": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ",
+      "bangla_trans": "তারা ঐ জাহান্নাম ও ফুটন্ত টগবগে পানির উৎসের মধ্যে যাতায়াত করতে থাকবে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَطُوفُونَ",
+          "translate_bn": "তারা ছুটোছুটি করবে"
+        },
+        "2": {
+          "words_ar": "بَيْنَهَا",
+          "translate_bn": "তার মাঝে"
+        },
+        "3": {
+          "words_ar": "وَبَيْنَ",
+          "translate_bn": "ও মাঝে"
+        },
+        "4": {
+          "words_ar": "حَمِيمٍ",
+          "translate_bn": "গরম পানির"
+        },
+        "5": {
+          "words_ar": "آنٍ",
+          "translate_bn": "ফুটন্ত"
+        }
+      },
+      "english_trans": "Round about shall they go between it and hot, boiling water."
+    },
+    "45": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তারপরেও তোমরা তোমাদের রবের কোন্ কোন্ ক্ষমতাকে অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "তখন কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "46": {
+      "arabic_text": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
+      "bangla_trans": "আর যারা তাদের প্রভুর সামনে হাজির হওয়ার ব্যাপারে ভয় পায় তাদের প্রত্যেকের জন্য আছে দু’টি করে বাগান।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلِمَنْ",
+          "translate_bn": "এবং তার জন্যে যে"
+        },
+        "2": {
+          "words_ar": "خَافَ",
+          "translate_bn": "ভয় করে"
+        },
+        "3": {
+          "words_ar": "مَقَامَ",
+          "translate_bn": "দাঁড়াতে"
+        },
+        "4": {
+          "words_ar": "رَبِّهِ",
+          "translate_bn": "তার রবের (সামনে)"
+        },
+        "5": {
+          "words_ar": "جَنَّتَانِ",
+          "translate_bn": "দুটো বাগান (রয়েছে)"
+        }
+      },
+      "english_trans": "And for him who fears to stand before his Lord are two gardens."
+    },
+    "47": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দানকে তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "48": {
+      "arabic_text": "ذَوَاتَا أَفْنَانٍ",
+      "bangla_trans": "তরুতাজা লতাপাতা ও ডালপালায় ভরা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "ذَوَاتَا",
+          "translate_bn": "(উভয়ে) বিশিষ্ট"
+        },
+        "2": {
+          "words_ar": "أَفْنَانٍ",
+          "translate_bn": "ঘন শাখা পল্লব"
+        }
+      },
+      "english_trans": "Having in them various kinds."
+    },
+    "49": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দানকে তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "50": {
+      "arabic_text": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+      "bangla_trans": "উভয় বাগানে দু’টি ঝর্ণা প্রবাহিত থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهِمَا",
+          "translate_bn": "উভয়ের মধ্যে থাকবে"
+        },
+        "2": {
+          "words_ar": "عَيْنَانِ",
+          "translate_bn": "দুটো ঝরনা"
+        },
+        "3": {
+          "words_ar": "تَجْرِيَانِ",
+          "translate_bn": "প্রবহমান (উভয়ে)"
+        }
+      },
+      "english_trans": "In both of them are two fountains flowing."
+    },
+    "51": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দানকে তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "52": {
+      "arabic_text": "فِيهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجَانِ",
+      "bangla_trans": "উভয় বাগানের প্রতিটি ফলই হবে দু’রকমের।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهِمَا",
+          "translate_bn": "উভয়ের মধ্যে রয়েছে"
+        },
+        "2": {
+          "words_ar": "مِنْ",
+          "translate_bn": "ধরনের"
+        },
+        "3": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "4": {
+          "words_ar": "فَاكِهَةٍ",
+          "translate_bn": "ফল"
+        },
+        "5": {
+          "words_ar": "زَوْجَانِ",
+          "translate_bn": "দুই রকম"
+        }
+      },
+      "english_trans": "In both of them are two pairs of every fruit."
+    },
+    "53": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দানকে তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "54": {
+      "arabic_text": "مُتَّكِئِينَ عَلَى فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ وَجَنَى الْجَنَّتَيْنِ دَانٍ",
+      "bangla_trans": "জান্নাতের বাসিন্দারা এমন সব ফরাশের ওপর হেলান দিয়ে বসবে যার আবরণ হবে পুরু রেশমের এবং বাগানের ছোট ছোট শাখা-প্রশাখা ফলভারে নূয়ে পড়তে থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مُتَّكِئِينَ",
+          "translate_bn": "হেলান দিয়ে বসবে"
+        },
+        "2": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "উপর"
+        },
+        "3": {
+          "words_ar": "فُرُشٍ",
+          "translate_bn": "বিছানা সমূহের"
+        },
+        "4": {
+          "words_ar": "بَطَائِنُهَا",
+          "translate_bn": "তার আস্তরণ (হবে)"
+        },
+        "5": {
+          "words_ar": "مِنْ",
+          "translate_bn": "তৈরি"
+        },
+        "6": {
+          "words_ar": "إِسْتَبْرَقٍ",
+          "translate_bn": "মোটা রেশমের"
+        },
+        "7": {
+          "words_ar": "وَجَنَى",
+          "translate_bn": "এবং ফল সমূহ"
+        },
+        "8": {
+          "words_ar": "الْجَنَّتَيْنِ",
+          "translate_bn": "দুই বাগানের"
+        },
+        "9": {
+          "words_ar": "دَانٍ",
+          "translate_bn": "নিকটে (ঝুঁকে পড়বে)"
+        }
+      },
+      "english_trans": "Reclining on beds, the inner coverings of which are of silk brocade; and the fruits of the two gardens shall be within reach."
+    },
+    "55": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমরা তোমাদের রবের কোন্ কোন্ দান অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "56": {
+      "arabic_text": "فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+      "bangla_trans": "এসব নিয়ামতের মধ্যে থাকবে লজ্জাবনত চক্ষু বিশিষ্টা ললনারা যাদেরকে এসব জান্নাতবাসীদের আগে কোন মানুষ বা জিন স্পর্শ করেনি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهِنَّ",
+          "translate_bn": "তাদের মধ্যে (থাকবে)"
+        },
+        "2": {
+          "words_ar": "قَاصِرَاتُ",
+          "translate_bn": "লজ্জাবনত"
+        },
+        "3": {
+          "words_ar": "الطَّرْفِ",
+          "translate_bn": "দৃষ্টির (রমণী)"
+        },
+        "4": {
+          "words_ar": "لَمْ",
+          "translate_bn": "নি"
+        },
+        "5": {
+          "words_ar": "يَطْمِثْهُنَّ",
+          "translate_bn": "তাদেরকে স্পর্শ করেছে"
+        },
+        "6": {
+          "words_ar": "إِنْسٌ",
+          "translate_bn": "কোনো মানুষ"
+        },
+        "7": {
+          "words_ar": "قَبْلَهُمْ",
+          "translate_bn": "তাদের পূর্বে"
+        },
+        "8": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "9": {
+          "words_ar": "جَانٌّ",
+          "translate_bn": "কোনো জিন"
+        }
+      },
+      "english_trans": "In them shall be those who restrained their eyes; before them neither man nor jinni shall have touched them."
+    },
+    "57": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দানকে তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "58": {
+      "arabic_text": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ",
+      "bangla_trans": "এমন সুদর্শনা, যেমন হীরা এবং মুক্তা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَأَنَّهُنَّ",
+          "translate_bn": "তারা যেন"
+        },
+        "2": {
+          "words_ar": "الْيَاقُوتُ",
+          "translate_bn": "হীরা"
+        },
+        "3": {
+          "words_ar": "وَالْمَرْجَانُ",
+          "translate_bn": "ও মুক্তার (মত সুন্দরী)"
+        }
+      },
+      "english_trans": "As though they were rubies and pearls."
+    },
+    "59": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "নিয়ামত সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "60": {
+      "arabic_text": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
+      "bangla_trans": "সদাচারের প্রতিদান সদাচার ছাড়া আর কি হতে পারে? ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "هَلْ",
+          "translate_bn": "কি (হতে পারে)"
+        },
+        "2": {
+          "words_ar": "جَزَاءُ",
+          "translate_bn": "পুরস্কার"
+        },
+        "3": {
+          "words_ar": "الْإِحْسَانِ",
+          "translate_bn": "উত্তম (কাজের)"
+        },
+        "4": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ব্যতীত"
+        },
+        "5": {
+          "words_ar": "الْإِحْسَانُ",
+          "translate_bn": "উত্তম"
+        }
+      },
+      "english_trans": "Is the reward of goodness aught but goodness?"
+    },
+    "61": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "হে জ্বীন ও মানুষ, এরপরও তোমরা তোমাদের রবের মহত গুণাবলীর কোন্ কোনটি অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "সুতরাং কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "62": {
+      "arabic_text": "وَمِنْ دُونِهِمَا جَنَّتَانِ",
+      "bangla_trans": "ঐ দু’টি বাগান ছাড়া আরো দু’টি বাগান থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمِنْ",
+          "translate_bn": "এবং"
+        },
+        "2": {
+          "words_ar": "دُونِهِمَا",
+          "translate_bn": "সে দুটো ছাড়াও"
+        },
+        "3": {
+          "words_ar": "جَنَّتَانِ",
+          "translate_bn": "দুটো বাগান (থাকবে)"
+        }
+      },
+      "english_trans": "And besides these two are two (other) gardens:"
+    },
+    "63": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "64": {
+      "arabic_text": "مُدْهَامَّتَانِ",
+      "bangla_trans": "নিবিড়, শ্যামল-সবুজ ও তরুতাজা বাগান।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مُدْهَامَّتَانِ",
+          "translate_bn": "(এ দুই) ঘন সবুজ বাগান"
+        }
+      },
+      "english_trans": "Both inclining to blackness."
+    },
+    "65": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "66": {
+      "arabic_text": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+      "bangla_trans": "উভয় বাগানের মধ্যে দু’টি ঝর্ণাধারা ফোয়ারার মত উৎক্ষিপ্ত হতে থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهِمَا",
+          "translate_bn": "উভয়ের মধ্যে রয়েছে"
+        },
+        "2": {
+          "words_ar": "عَيْنَانِ",
+          "translate_bn": "দুটো ঝরনা"
+        },
+        "3": {
+          "words_ar": "نَضَّاخَتَانِ",
+          "translate_bn": "উচ্ছলিত উভয়েই"
+        }
+      },
+      "english_trans": "In both of them are two springs gushing forth."
+    },
+    "67": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "68": {
+      "arabic_text": "فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
+      "bangla_trans": "সেখানে থাকবে প্রচুর পরিমাণে ফল, খেজুর ও আনার।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهِمَا",
+          "translate_bn": "তাদের উভয়ের মধ্যে রয়েছে"
+        },
+        "2": {
+          "words_ar": "فَاكِهَةٌ",
+          "translate_bn": "ফলমূল"
+        },
+        "3": {
+          "words_ar": "وَنَخْلٌ",
+          "translate_bn": "ও খেজুর"
+        },
+        "4": {
+          "words_ar": "وَرُمَّانٌ",
+          "translate_bn": "ও ডালিম"
+        }
+      },
+      "english_trans": "In both are fruits and palms and pomegranates."
+    },
+    "69": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "70": {
+      "arabic_text": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ",
+      "bangla_trans": "এসব নিয়ামতের মধ্যে থাকবে সচ্চরিত্রের অধিকারীনী সুন্দরী স্ত্রীগণ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهِنَّ",
+          "translate_bn": "তাদের মধ্যে (থাকবে)"
+        },
+        "2": {
+          "words_ar": "خَيْرَاتٌ",
+          "translate_bn": "সচ্চরিত্রা (স্ত্রীরা)"
+        },
+        "3": {
+          "words_ar": "حِسَانٌ",
+          "translate_bn": "সুদর্শনা"
+        }
+      },
+      "english_trans": "In them are goodly things, beautiful ones."
+    },
+    "71": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "72": {
+      "arabic_text": "حُورٌ مَقْصُورَاتٌ فِي الْخِيَامِ",
+      "bangla_trans": "তাঁবুতে অবস্থানরত হুরগণ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "حُورٌ",
+          "translate_bn": "হুর সমূহ (থাকবে)"
+        },
+        "2": {
+          "words_ar": "مَقْصُورَاتٌ",
+          "translate_bn": "সুরক্ষিতা"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "الْخِيَامِ",
+          "translate_bn": "তাঁবু সমূহের"
+        }
+      },
+      "english_trans": "Pure ones confined to the pavilions."
+    },
+    "73": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "74": {
+      "arabic_text": "لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+      "bangla_trans": "এসব জান্নাতবাসীদের পূর্বে কখনো কোন মানুষ বা জিন তাদের স্পর্শও করেনি।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَمْ",
+          "translate_bn": "নি"
+        },
+        "2": {
+          "words_ar": "يَطْمِثْهُنَّ",
+          "translate_bn": "তাদের স্পর্শ করেছে"
+        },
+        "3": {
+          "words_ar": "إِنْسٌ",
+          "translate_bn": "কোন মানুষ"
+        },
+        "4": {
+          "words_ar": "قَبْلَهُمْ",
+          "translate_bn": "তাদের পূর্বে"
+        },
+        "5": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "6": {
+          "words_ar": "جَانٌّ",
+          "translate_bn": "কোন জিন"
+        }
+      },
+      "english_trans": "Man has not touched them before them nor jinni."
+    },
+    "75": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন কোন দান তোমরা অস্বীকার করবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "76": {
+      "arabic_text": "مُتَّكِئِينَ عَلَى رَفْرَفٍ خُضْرٍ وَعَبْقَرِيٍّ حِسَانٍ",
+      "bangla_trans": "ঐ সব জান্নাতবাসী সবুজ গালিচা ও সূক্ষ্ম পরিমার্জিত অনুপম ফরাশের ওপর হেলান দিয়ে বসবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مُتَّكِئِينَ",
+          "translate_bn": "(জান্নাতীরা) হেলান দিয়ে বসবে"
+        },
+        "2": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "উপর"
+        },
+        "3": {
+          "words_ar": "رَفْرَفٍ",
+          "translate_bn": "গালিচার"
+        },
+        "4": {
+          "words_ar": "خُضْرٍ",
+          "translate_bn": "সবুজ"
+        },
+        "5": {
+          "words_ar": "وَعَبْقَرِيٍّ",
+          "translate_bn": "ও অমূল্য চাদরের (উপর)"
+        },
+        "6": {
+          "words_ar": "حِسَانٍ",
+          "translate_bn": "সুন্দর"
+        }
+      },
+      "english_trans": "Reclining on green cushions and beautiful carpets."
+    },
+    "77": {
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "bangla_trans": "তোমাদের রবের কোন্ কোন্ দান তোমরা অস্বীকার করবে?",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَبِأَيِّ",
+          "translate_bn": "অতএব কোন কোন"
+        },
+        "2": {
+          "words_ar": "آلَاءِ",
+          "translate_bn": "অনুগ্রহ সমূহকে"
+        },
+        "3": {
+          "words_ar": "رَبِّكُمَا",
+          "translate_bn": "তোমাদের উভয়ের রবের"
+        },
+        "4": {
+          "words_ar": "تُكَذِّبَانِ",
+          "translate_bn": "উভয়ে অস্বীকার করবে"
+        }
+      },
+      "english_trans": "Which then of the bounties of your Lord will you deny?"
+    },
+    "78": {
+      "arabic_text": "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
+      "bangla_trans": "তোমার মহিমান্বিত ও দাতা রবের নাম অত্যন্ত কল্যাণময়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "تَبَارَكَ",
+          "translate_bn": "বড়ই মহান"
+        },
+        "2": {
+          "words_ar": "اسْمُ",
+          "translate_bn": "নাম"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমাদের রবের"
+        },
+        "4": {
+          "words_ar": "ذِي",
+          "translate_bn": "সম্পন্ন"
+        },
+        "5": {
+          "words_ar": "الْجَلَالِ",
+          "translate_bn": "মহিম"
+        },
+        "6": {
+          "words_ar": "وَالْإِكْرَامِ",
+          "translate_bn": "ও মর্যাদা"
+        }
+      },
+      "english_trans": "Blessed be the name of your Lord, the Lord of Glory and Honor!"
+    }
+  }
+}

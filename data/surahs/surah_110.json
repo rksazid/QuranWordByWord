@@ -1,0 +1,107 @@
+{
+  "surah_id": 110,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+      "bangla_trans": "যখন আল্লাহর সাহায্য এসে যায় এবং বিজয় লাভ হয়,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِذَا",
+          "translate_bn": "যখন"
+        },
+        "2": {
+          "words_ar": "جَاءَ",
+          "translate_bn": "আসবে"
+        },
+        "3": {
+          "words_ar": "نَصْرُ",
+          "translate_bn": "সাহায্য"
+        },
+        "4": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "5": {
+          "words_ar": "وَالْفَتْحُ",
+          "translate_bn": "ও বিজয়"
+        }
+      },
+      "english_trans": "When there comes the help of Allah and the victory,"
+    },
+    "2": {
+      "arabic_text": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+      "bangla_trans": "আর (হে নবী!) তুমি (যদি) দেখ যে লোকেরা দলে দলে আল্লাহর দ্বীন গ্রহণ করছে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَرَأَيْتَ",
+          "translate_bn": "এবং তুমি দেখবে"
+        },
+        "2": {
+          "words_ar": "النَّاسَ",
+          "translate_bn": "মানুষকে"
+        },
+        "3": {
+          "words_ar": "يَدْخُلُونَ",
+          "translate_bn": "প্রবেশ করছে"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "5": {
+          "words_ar": "دِينِ",
+          "translate_bn": "দীনের"
+        },
+        "6": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "7": {
+          "words_ar": "أَفْوَاجًا",
+          "translate_bn": "দলে দলে"
+        }
+      },
+      "english_trans": "And you see men entering the religion of Allah in companies,"
+    },
+    "3": {
+      "arabic_text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
+      "bangla_trans": "তখন তুমি তোমার রবের হামদ সহকারে তাঁর তাসবীহ পড়ো এবং তাঁর কাছে মাগফিরাত চাও। অবশ্যি তিনি বড়ই তাওবা কবুলকারী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فَسَبِّحْ",
+          "translate_bn": "তখন তুমি গুণগান করবে"
+        },
+        "2": {
+          "words_ar": "بِحَمْدِ",
+          "translate_bn": "প্রশংসার সাথে"
+        },
+        "3": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "4": {
+          "words_ar": "وَاسْتَغْفِرْهُ",
+          "translate_bn": "এবং তাঁর (নিকট) ক্ষমা চাও"
+        },
+        "5": {
+          "words_ar": "إِنَّهُ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "6": {
+          "words_ar": "كَانَ",
+          "translate_bn": "হলেন"
+        },
+        "7": {
+          "words_ar": "تَوَّابًا",
+          "translate_bn": "ক্ষমাপরবশ"
+        }
+      },
+      "english_trans": "Then celebrate the praise of your Lord, and ask His forgiveness; surely He is oft-returning (to mercy)."
+    }
+  }
+}

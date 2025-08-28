@@ -1,0 +1,442 @@
+{
+  "surah_id": 98,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّى تَأْتِيَهُمُ الْبَيِّنَةُ",
+      "bangla_trans": "আহলি কিতাব ও মুশরিকদের মধ্যে যারা কাফের ছিল তাদের কাছে সুস্পষ্ট প্রমাণ না আসা পর্যন্ত তারা (নিজেদের কুফরী থেকে) বিরত থাকতে প্রস্তুত ছিল না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَمْ",
+          "translate_bn": "না"
+        },
+        "2": {
+          "words_ar": "يَكُنِ",
+          "translate_bn": "ছিল (প্রস্তুত)"
+        },
+        "3": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "4": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "কুফরি করেছে"
+        },
+        "5": {
+          "words_ar": "مِنْ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "6": {
+          "words_ar": "أَهْلِ",
+          "translate_bn": "অধিকারী"
+        },
+        "7": {
+          "words_ar": "الْكِتَابِ",
+          "translate_bn": "কিতাবের"
+        },
+        "8": {
+          "words_ar": "وَالْمُشْرِكِينَ",
+          "translate_bn": "এবং মুশরিকদের (মধ্য হতে)"
+        },
+        "9": {
+          "words_ar": "مُنْفَكِّينَ",
+          "translate_bn": "(কুফরী হতে) বিরত"
+        },
+        "10": {
+          "words_ar": "حَتَّىٰ",
+          "translate_bn": "যতক্ষণ না"
+        },
+        "11": {
+          "words_ar": "تَأْتِيَهُمُ",
+          "translate_bn": "তাদের কাছে আসবে"
+        },
+        "12": {
+          "words_ar": "الْبَيِّنَةُ",
+          "translate_bn": "অকাট্য প্রমাণ (অর্থাৎ)"
+        }
+      },
+      "english_trans": "Those who disbelieved from among the followers of the Book and the polytheists could not have separated (from the faithful) until there had come to them the clear evidence:"
+    },
+    "2": {
+      "arabic_text": "رَسُولٌ مِنَ اللَّهِ يَتْلُو صُحُفًا مُطَهَّرَةً",
+      "bangla_trans": "(অর্থাৎ) আল্লাহর পক্ষ থেকে একজন রসূল যিনি পবিত্র সহীফা পড়ে শুনাবেন,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "رَسُولٌ",
+          "translate_bn": "একজন রাসূল"
+        },
+        "2": {
+          "words_ar": "مِنَ",
+          "translate_bn": "পক্ষ হতে"
+        },
+        "3": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "4": {
+          "words_ar": "يَتْلُو",
+          "translate_bn": "যে আবৃত্তি করবে"
+        },
+        "5": {
+          "words_ar": "صُحُفًا",
+          "translate_bn": "সহীফাসমূহ"
+        },
+        "6": {
+          "words_ar": "مُطَهَّرَةً",
+          "translate_bn": "পবিত্র"
+        }
+      },
+      "english_trans": "An messenger from Allah, reciting pure pages,"
+    },
+    "3": {
+      "arabic_text": "فِيهَا كُتُبٌ قَيِّمَةٌ",
+      "bangla_trans": "যাতে একেবারে সঠিক কথা লেখা আছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে (থাকবে)"
+        },
+        "2": {
+          "words_ar": "كُتُبٌ",
+          "translate_bn": "বিধানাবলী"
+        },
+        "3": {
+          "words_ar": "قَيِّمَةٌ",
+          "translate_bn": "সঠিক"
+        }
+      },
+      "english_trans": "Wherein are all the right ordinances."
+    },
+    "4": {
+      "arabic_text": "وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ",
+      "bangla_trans": "প্রথমে যাদেরকে কিতাব দেয়া হয়েছিল তাদের মধ্যে তো বিভেদ সৃষ্টি হলো তাদের কাছে (সত্য পথের) সুস্পষ্ট প্রমাণ এসে যাওয়ার পর।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "تَفَرَّقَ",
+          "translate_bn": "বিভেদে লিপ্ত হয়েছে"
+        },
+        "3": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "(তারা) যাদের"
+        },
+        "4": {
+          "words_ar": "أُوتُوا",
+          "translate_bn": "দেয়া হয়েছিল"
+        },
+        "5": {
+          "words_ar": "الْكِتَابَ",
+          "translate_bn": "কিতাব"
+        },
+        "6": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "তবে"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "8": {
+          "words_ar": "بَعْدِ",
+          "translate_bn": "পরে"
+        },
+        "9": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "10": {
+          "words_ar": "جَاءَتْهُمُ",
+          "translate_bn": "তাদের কাছে এসেছিল"
+        },
+        "11": {
+          "words_ar": "الْبَيِّنَةُ",
+          "translate_bn": "সুস্পষ্ট প্রমাণ"
+        }
+      },
+      "english_trans": "And those who were given the Book did not become divided except after clear evidence had come to them."
+    },
+    "5": {
+      "arabic_text": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ وَذَلِكَ دِينُ الْقَيِّمَةِ",
+      "bangla_trans": "তাদেরকে তো এছাড়া আর কোন হুকুম দেয়া হয়নি যে, তারা নিজেদের দ্বীনকে একমাত্র আল্লাহর জন্য নির্ধারিত করে একনিষ্ঠভাবে তাঁর ইবাদাত করবে, নামায কায়েম করবে ও যাকাত দেবে, এটিই যথার্থ সত্য ও সঠিক দ্বীন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "2": {
+          "words_ar": "أُمِرُوا",
+          "translate_bn": "তারা আদিষ্ট হয়েছে"
+        },
+        "3": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া যে"
+        },
+        "4": {
+          "words_ar": "لِيَعْبُدُوا",
+          "translate_bn": "তারা ইবাদত করুক"
+        },
+        "5": {
+          "words_ar": "اللَّهَ",
+          "translate_bn": "আল্লাহর"
+        },
+        "6": {
+          "words_ar": "مُخْلِصِينَ",
+          "translate_bn": "একনিষ্ঠভাবে"
+        },
+        "7": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তাঁরই জন্যে"
+        },
+        "8": {
+          "words_ar": "الدِّينَ",
+          "translate_bn": "আনুগত্যকে"
+        },
+        "9": {
+          "words_ar": "حُنَفَاءَ",
+          "translate_bn": "খাঁটি মনে"
+        },
+        "10": {
+          "words_ar": "وَيُقِيمُوا",
+          "translate_bn": "এবং তারা কায়েম করবে"
+        },
+        "11": {
+          "words_ar": "الصَّلَاةَ",
+          "translate_bn": "সালাত"
+        },
+        "12": {
+          "words_ar": "وَيُؤْتُوا",
+          "translate_bn": "ও তারা দেবে"
+        },
+        "13": {
+          "words_ar": "الزَّكَاةَ",
+          "translate_bn": "যাকাত"
+        },
+        "14": {
+          "words_ar": "وَذَٰلِكَ",
+          "translate_bn": "এবং এটাই"
+        },
+        "15": {
+          "words_ar": "دِينُ",
+          "translate_bn": "দীন"
+        },
+        "16": {
+          "words_ar": "الْقَيِّمَةِ",
+          "translate_bn": "সঠিক"
+        }
+      },
+      "english_trans": "And they were not enjoined anything except that they should serve Allah, being sincere to Him in obedience, upright, and keep up prayer and pay the poor-rate, and that is the right religion."
+    },
+    "6": {
+      "arabic_text": "إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا أُولَئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
+      "bangla_trans": "আহলি কিতাব ও মুশরিকদের মধ্যে যারা কুফরী করেছে তারা নিশ্চিতভাবে জাহান্নামের আগুনে স্থায়ীভাবে অবস্থান করবে। তারা সৃষ্টির অধম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "কুফরি করেছে"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "5": {
+          "words_ar": "أَهْلِ",
+          "translate_bn": "অধিকারী"
+        },
+        "6": {
+          "words_ar": "الْكِتَابِ",
+          "translate_bn": "কিতাবের"
+        },
+        "7": {
+          "words_ar": "وَالْمُشْرِكِينَ",
+          "translate_bn": "এবং মুশরিকদের"
+        },
+        "8": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে (থাকবে)"
+        },
+        "9": {
+          "words_ar": "نَارِ",
+          "translate_bn": "আগুনের"
+        },
+        "10": {
+          "words_ar": "جَهَنَّمَ",
+          "translate_bn": "জাহান্নামের"
+        },
+        "11": {
+          "words_ar": "خَالِدِينَ",
+          "translate_bn": "চিরস্থায়ী (হবে)"
+        },
+        "12": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "13": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব লোক"
+        },
+        "14": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারাই"
+        },
+        "15": {
+          "words_ar": "شَرُّ",
+          "translate_bn": "অধম"
+        },
+        "16": {
+          "words_ar": "الْبَرِيَّةِ",
+          "translate_bn": "সৃষ্টির"
+        }
+      },
+      "english_trans": "Surely those who disbelieve from among the followers of the Book and the polytheists shall be in the fire of hell, abiding therein; they are the worst of men."
+    },
+    "7": {
+      "arabic_text": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَئِكَ هُمْ خَيْرُ الْبَرِيَّةِ",
+      "bangla_trans": "যারা ঈমান এনেছে এবং সৎকাজ করেছে তারা নিশ্চিত ভাবে সৃষ্টির সেরা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "4": {
+          "words_ar": "وَعَمِلُوا",
+          "translate_bn": "এবং করেছে"
+        },
+        "5": {
+          "words_ar": "الصَّالِحَاتِ",
+          "translate_bn": "সৎকাজ"
+        },
+        "6": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব লোক"
+        },
+        "7": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারাই"
+        },
+        "8": {
+          "words_ar": "خَيْرُ",
+          "translate_bn": "সেরা"
+        },
+        "9": {
+          "words_ar": "الْبَرِيَّةِ",
+          "translate_bn": "সৃষ্টির"
+        }
+      },
+      "english_trans": "(As for) those who believe and do good, surely they are the -best of men."
+    },
+    "8": {
+      "arabic_text": "جَزَاؤُهُمْ عِنْدَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ذَلِكَ لِمَنْ خَشِيَ رَبَّهُ",
+      "bangla_trans": "তাদের পুরস্কার রয়েছে তাদের রবের কাছে চিরস্থায়ী জান্নাত, যার নিম্নদেশে ঝরণাধারা প্রবাহিত। সেখানে তারা চিরকাল থাকবে। আল্লাহ‌ তাদের প্রতি সন্তুষ্ট হয়েছেন এবং তারাও তাঁর প্রতি সন্তুষ্ট। এসব সে ব্যক্তির জন্য যে তার রবকে ভয় করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "جَزَاؤُهُمْ",
+          "translate_bn": "তাদের পুরস্কার (রয়েছে)"
+        },
+        "2": {
+          "words_ar": "عِنْدَ",
+          "translate_bn": "কাছে"
+        },
+        "3": {
+          "words_ar": "رَبِّهِمْ",
+          "translate_bn": "তাদের রবের"
+        },
+        "4": {
+          "words_ar": "جَنَّاتُ",
+          "translate_bn": "জান্নাত"
+        },
+        "5": {
+          "words_ar": "عَدْنٍ",
+          "translate_bn": "চিরস্থায়ী"
+        },
+        "6": {
+          "words_ar": "تَجْرِي",
+          "translate_bn": "প্রবাহিত হয়"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "দিয়ে"
+        },
+        "8": {
+          "words_ar": "تَحْتِهَا",
+          "translate_bn": "তার তলদেশ"
+        },
+        "9": {
+          "words_ar": "الْأَنْهَارُ",
+          "translate_bn": "ঝর্ণা ধারা"
+        },
+        "10": {
+          "words_ar": "خَالِدِينَ",
+          "translate_bn": "চিরস্থায়ী হবে"
+        },
+        "11": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "12": {
+          "words_ar": "أَبَدًا",
+          "translate_bn": "সর্বদা"
+        },
+        "13": {
+          "words_ar": "رَضِيَ",
+          "translate_bn": "সন্তুষ্ট হয়েছেন"
+        },
+        "14": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ্‌"
+        },
+        "15": {
+          "words_ar": "عَنْهُمْ",
+          "translate_bn": "তাদের প্রতি"
+        },
+        "16": {
+          "words_ar": "وَرَضُوا",
+          "translate_bn": "এবং তারা সন্তুষ্ট হয়েছে"
+        },
+        "17": {
+          "words_ar": "عَنْهُ",
+          "translate_bn": "তাঁর প্রতি"
+        },
+        "18": {
+          "words_ar": "ذَٰلِكَ",
+          "translate_bn": "এটা"
+        },
+        "19": {
+          "words_ar": "لِمَنْ",
+          "translate_bn": "তাঁর জন্যে যে"
+        },
+        "20": {
+          "words_ar": "خَشِيَ",
+          "translate_bn": "ভয় করে"
+        },
+        "21": {
+          "words_ar": "رَبَّهُ",
+          "translate_bn": "তার রবকে"
+        }
+      },
+      "english_trans": "Their reward with their Lord is gardens of perpetuity beneath which rivers flow, abiding therein for ever; Allah is well pleased with them and they are well pleased with Him; that is for him who fears his Lord."
+    }
+  }
+}

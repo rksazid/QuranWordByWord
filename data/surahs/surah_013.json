@@ -1,0 +1,3723 @@
+{
+  "surah_id": 13,
+  "verses": {
+    "0": {
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "english_trans": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    "1": {
+      "arabic_text": "المر تِلْكَ آيَاتُ الْكِتَابِ وَالَّذِي أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ الْحَقُّ وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يُؤْمِنُونَ",
+      "bangla_trans": "আলিম লাম মীম র। এগুলো আল্লাহর কিতাবের আয়াত। আর তোমার রবের পক্ষ থেকে তোমার প্রতি যা কিছু নাযিল হয়েছে তা প্রকৃত সত্য কিন্তু (তোমার কওমের) অধিকাংশ লোক তা বিশ্বাস করে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "المر",
+          "translate_bn": "আলিফ লা-ম মী-ম রা-"
+        },
+        "2": {
+          "words_ar": "تِلْكَ",
+          "translate_bn": "এই"
+        },
+        "3": {
+          "words_ar": "آيَاتُ",
+          "translate_bn": "আয়াতসমূহ"
+        },
+        "4": {
+          "words_ar": "الْكِتَابِ",
+          "translate_bn": "কিতাবের"
+        },
+        "5": {
+          "words_ar": "وَالَّذِي",
+          "translate_bn": "এবং যা"
+        },
+        "6": {
+          "words_ar": "أُنْزِلَ",
+          "translate_bn": "অবতীর্ণ হয়েছে"
+        },
+        "7": {
+          "words_ar": "إِلَيْكَ",
+          "translate_bn": "তোমার প্রতি"
+        },
+        "8": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "9": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "10": {
+          "words_ar": "الْحَقُّ",
+          "translate_bn": "(তা) সত্য"
+        },
+        "11": {
+          "words_ar": "وَلَٰكِنَّ",
+          "translate_bn": "কিন্তু"
+        },
+        "12": {
+          "words_ar": "أَكْثَرَ",
+          "translate_bn": "অধিকাংশ"
+        },
+        "13": {
+          "words_ar": "النَّاسِ",
+          "translate_bn": "মানুষ"
+        },
+        "14": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "15": {
+          "words_ar": "يُؤْمِنُونَ",
+          "translate_bn": "ঈমান আনে"
+        }
+      },
+      "english_trans": "Alif Lam Mim Ra. These are the verses of the Book; and that which is revealed to you from your Lord is the truth, but most people do not believe."
+    },
+    "2": {
+      "arabic_text": "اللَّهُ الَّذِي رَفَعَ السَّمَاوَاتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ثُمَّ اسْتَوَى عَلَى الْعَرْشِ وَسَخَّرَ الشَّمْسَ وَالْقَمَرَ كُلٌّ يَجْرِي لِأَجَلٍ مُسَمًّى يُدَبِّرُ الْأَمْرَ يُفَصِّلُ الْآيَاتِ لَعَلَّكُمْ بِلِقَاءِ رَبِّكُمْ تُوقِنُونَ",
+      "bangla_trans": "আল্লাহই আকাশসমূহ স্থাপন করেছেন এমন কোন স্তম্ভ ছাড়াই যা তোমরা দেখতে পাও। তারপর তিনি নিজের শাসন কর্তৃত্বের আসনে সমাসীন হয়েছেন। আর তিনি সূর্য ও চন্দ্রকে একটি আইনের অধীন করেছেন। এ সমগ্র ব্যবস্থার প্রত্যেকটি জিনিস একটি নির্দিষ্ট সময় পর্যন্ত চলে।  আল্লাহই এ সমস্ত কাজের ব্যবস্থাপনা করছেন। তিনি নিদর্শনাবলী খুলে খুলে বর্ণনা করেন,  সম্ভবত তোমরা নিজেদের রবের সাথে সাক্ষাতের ব্যাপারটি নিশ্চিতভাবে বিশ্বাস করবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "(তিনিই) আল্লাহ"
+        },
+        "2": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "3": {
+          "words_ar": "رَفَعَ",
+          "translate_bn": "উপরে স্থাপন করেছেন"
+        },
+        "4": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশমন্ডলী"
+        },
+        "5": {
+          "words_ar": "بِغَيْرِ",
+          "translate_bn": "ছাড়া"
+        },
+        "6": {
+          "words_ar": "عَمَدٍ",
+          "translate_bn": "কোন খুঁটি"
+        },
+        "7": {
+          "words_ar": "تَرَوْنَهَا",
+          "translate_bn": "তা তোমরা দেখছো"
+        },
+        "8": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "এরপর"
+        },
+        "9": {
+          "words_ar": "اسْتَوَىٰ",
+          "translate_bn": "উঠেছেন"
+        },
+        "10": {
+          "words_ar": "عَلَى",
+          "translate_bn": "উপর"
+        },
+        "11": {
+          "words_ar": "الْعَرْشِ",
+          "translate_bn": "আরশের"
+        },
+        "12": {
+          "words_ar": "وَسَخَّرَ",
+          "translate_bn": "এবং অধীন করেছেন"
+        },
+        "13": {
+          "words_ar": "الشَّمْسَ",
+          "translate_bn": "সূর্যকে (নিয়মের)"
+        },
+        "14": {
+          "words_ar": "وَالْقَمَرَ",
+          "translate_bn": "ও চাঁদকে"
+        },
+        "15": {
+          "words_ar": "كُلٌّ",
+          "translate_bn": "প্রত্যেকে"
+        },
+        "16": {
+          "words_ar": "يَجْرِي",
+          "translate_bn": "চলছে"
+        },
+        "17": {
+          "words_ar": "لِأَجَلٍ",
+          "translate_bn": "জন্যে সময়ের"
+        },
+        "18": {
+          "words_ar": "مُسَمًّى",
+          "translate_bn": "নির্দিষ্ট"
+        },
+        "19": {
+          "words_ar": "يُدَبِّرُ",
+          "translate_bn": "তিনি পরিচালনা করেন"
+        },
+        "20": {
+          "words_ar": "الْأَمْرَ",
+          "translate_bn": "সকল বিষয়"
+        },
+        "21": {
+          "words_ar": "يُفَصِّلُ",
+          "translate_bn": "বিশদ বর্ণনা করেন"
+        },
+        "22": {
+          "words_ar": "الْآيَاتِ",
+          "translate_bn": "নিদর্শনসমূহ"
+        },
+        "23": {
+          "words_ar": "لَعَلَّكُمْ",
+          "translate_bn": "তোমরা যাতে"
+        },
+        "24": {
+          "words_ar": "بِلِقَاءِ",
+          "translate_bn": "সম্পর্কে সাক্ষাত"
+        },
+        "25": {
+          "words_ar": "رَبِّكُمْ",
+          "translate_bn": "তোমাদের রবের"
+        },
+        "26": {
+          "words_ar": "تُوقِنُونَ",
+          "translate_bn": "তোমরা দৃঢ় বিশ্বাস করো"
+        }
+      },
+      "english_trans": "Allah is He Who raised the heavens without any pillars that you see, and He is firm in power and He made the sun and the moon subservient (to you); each one pursues its course to an appointed time; He regulates the affair, making clear the signs that you may be certain of meeting your Lord."
+    },
+    "3": {
+      "arabic_text": "وَهُوَ الَّذِي مَدَّ الْأَرْضَ وَجَعَلَ فِيهَا رَوَاسِيَ وَأَنْهَارًا وَمِنْ كُلِّ الثَّمَرَاتِ جَعَلَ فِيهَا زَوْجَيْنِ اثْنَيْنِ يُغْشِي اللَّيْلَ النَّهَارَ إِنَّ فِي ذَلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "bangla_trans": "আর তিনিই এ ভূতলকে বিছিয়ে রেখেছেন, এর মধ্যে পাহাড়ের খুঁটি গেড়ে দিয়েছেন এবং নদী প্রবাহিত করেছেন। তিনিই সব রকম ফল সৃষ্টি করেছেন জোড়ায় জোড়ায় এবং তিনিই দিনকে রাত দিয়ে ঢেকে ফেলেন। এ সমস্ত জিনিসের মধ্যে বহুতর নিদর্শন রয়েছে তাদের জন্য যারা চিন্তা-ভাবনা করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَهُوَ",
+          "translate_bn": "এবং তিনিই"
+        },
+        "2": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "3": {
+          "words_ar": "مَدَّ",
+          "translate_bn": "বিস্তৃত করেছেন"
+        },
+        "4": {
+          "words_ar": "الْأَرْضَ",
+          "translate_bn": "জমিনকে"
+        },
+        "5": {
+          "words_ar": "وَجَعَلَ",
+          "translate_bn": "ও সৃষ্টি করেছেন"
+        },
+        "6": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "7": {
+          "words_ar": "رَوَاسِيَ",
+          "translate_bn": "সুদৃঢ় পর্বত"
+        },
+        "8": {
+          "words_ar": "وَأَنْهَارًا",
+          "translate_bn": "ও নদীসমূহ"
+        },
+        "9": {
+          "words_ar": "وَمِنْ",
+          "translate_bn": "এবং রকমের"
+        },
+        "10": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "সব"
+        },
+        "11": {
+          "words_ar": "الثَّمَرَاتِ",
+          "translate_bn": "ফলমূলসমূহ"
+        },
+        "12": {
+          "words_ar": "جَعَلَ",
+          "translate_bn": "সৃষ্টি করেছেন"
+        },
+        "13": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "14": {
+          "words_ar": "زَوْجَيْنِ",
+          "translate_bn": "জোড়া"
+        },
+        "15": {
+          "words_ar": "اثْنَيْنِ",
+          "translate_bn": "দুই (ধরণের)"
+        },
+        "16": {
+          "words_ar": "يُغْشِي",
+          "translate_bn": "তিনি ঢেকে রেখেছেন"
+        },
+        "17": {
+          "words_ar": "اللَّيْلَ",
+          "translate_bn": "রাত (দিয়ে)"
+        },
+        "18": {
+          "words_ar": "النَّهَارَ",
+          "translate_bn": "দিনকে"
+        },
+        "19": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "20": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে (আছে)"
+        },
+        "21": {
+          "words_ar": "ذَٰلِكَ",
+          "translate_bn": "এর"
+        },
+        "22": {
+          "words_ar": "لَآيَاتٍ",
+          "translate_bn": "অবশ্যই নিদর্শনাবলী"
+        },
+        "23": {
+          "words_ar": "لِقَوْمٍ",
+          "translate_bn": "লোকদের জন্যে (যারা)"
+        },
+        "24": {
+          "words_ar": "يَتَفَكَّرُونَ",
+          "translate_bn": "চিন্তা-ভাবনা করে"
+        }
+      },
+      "english_trans": "And He it is Who spread the earth and made in it firm mountains and rivers, and of all fruits He has made in it two kinds; He makes the night cover the day; most surely there are signs in this for a people who reflect."
+    },
+    "4": {
+      "arabic_text": "وَفِي الْأَرْضِ قِطَعٌ مُتَجَاوِرَاتٌ وَجَنَّاتٌ مِنْ أَعْنَابٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَى بِمَاءٍ وَاحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَى بَعْضٍ فِي الْأُكُلِ إِنَّ فِي ذَلِكَ لَآيَاتٍ لِقَوْمٍ يَعْقِلُونَ",
+      "bangla_trans": "আর দেখো, পৃথিবীতে রয়েছে পরস্পর সংলগ্ন আলাদা আলাদা ভূখণ্ড, রয়েছে আংগুর বাগান, শস্যক্ষেত, খেজুর গাছ- কিছু একাধিক কাণ্ডবিশিষ্ট আবার কিছু এক কাণ্ড বিশিষ্ট,  সবই সিঞ্চিত একই পানিতে কিন্তু স্বাদের ক্ষেত্রে আমি করে দেই তাদের কোনটাকে বেশী ভালো এবং কোনটাকে কম ভালো। এসব জিনিসের মধ্যে যারা বুদ্ধিকে কাজে লাগায় তাদের জন্য রয়েছে বহুতর নির্দশন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَفِي",
+          "translate_bn": "এবং মধ্যে"
+        },
+        "2": {
+          "words_ar": "الْأَرْضِ",
+          "translate_bn": "পৃথিবীর"
+        },
+        "3": {
+          "words_ar": "قِطَعٌ",
+          "translate_bn": "ভূখন্ড"
+        },
+        "4": {
+          "words_ar": "مُتَجَاوِرَاتٌ",
+          "translate_bn": "পরস্পর সংলগ্ন"
+        },
+        "5": {
+          "words_ar": "وَجَنَّاتٌ",
+          "translate_bn": "ও বাগানসমূহ"
+        },
+        "6": {
+          "words_ar": "مِنْ",
+          "translate_bn": "এর"
+        },
+        "7": {
+          "words_ar": "أَعْنَابٍ",
+          "translate_bn": "আঙ্গুর"
+        },
+        "8": {
+          "words_ar": "وَزَرْعٌ",
+          "translate_bn": "ও শস্যক্ষেত"
+        },
+        "9": {
+          "words_ar": "وَنَخِيلٌ",
+          "translate_bn": "ও খেজুর গাছসমূহ"
+        },
+        "10": {
+          "words_ar": "صِنْوَانٌ",
+          "translate_bn": "একাধিক শিরবিশিষ্ট"
+        },
+        "11": {
+          "words_ar": "وَغَيْرُ",
+          "translate_bn": "ও নয়"
+        },
+        "12": {
+          "words_ar": "صِنْوَانٍ",
+          "translate_bn": "একাধিক শিরবিশিষ্ট"
+        },
+        "13": {
+          "words_ar": "يُسْقَىٰ",
+          "translate_bn": "সেচ করা হয়"
+        },
+        "14": {
+          "words_ar": "بِمَاءٍ",
+          "translate_bn": "দিয়ে পানি"
+        },
+        "15": {
+          "words_ar": "وَاحِدٍ",
+          "translate_bn": "একই"
+        },
+        "16": {
+          "words_ar": "وَنُفَضِّلُ",
+          "translate_bn": "এবং শ্রেষ্ঠত্ব দিই আমরা"
+        },
+        "17": {
+          "words_ar": "بَعْضَهَا",
+          "translate_bn": "কিছু সংখ্যককে তার"
+        },
+        "18": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "উপর"
+        },
+        "19": {
+          "words_ar": "بَعْضٍ",
+          "translate_bn": "কিছু সংখ্যকের"
+        },
+        "20": {
+          "words_ar": "فِي",
+          "translate_bn": "(স্বাদের) মধ্যে"
+        },
+        "21": {
+          "words_ar": "الْأُكُلِ",
+          "translate_bn": "ফলের"
+        },
+        "22": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "23": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "24": {
+          "words_ar": "ذَٰلِكَ",
+          "translate_bn": "এর"
+        },
+        "25": {
+          "words_ar": "لَآيَاتٍ",
+          "translate_bn": "অবশ্যই নিদর্শনাবলী"
+        },
+        "26": {
+          "words_ar": "لِقَوْمٍ",
+          "translate_bn": "লোকদের জন্যে (রয়েছে)"
+        },
+        "27": {
+          "words_ar": "يَعْقِلُونَ",
+          "translate_bn": "(যারা) বুঝে"
+        }
+      },
+      "english_trans": "And in the earth there are tracts side by side and gardens of grapes and corn and palm trees having one root and (others) having distinct roots-- they are watered with one water, and We make some of them excel others in fruit; most surely there are signs in this for a people who understand."
+    },
+    "5": {
+      "arabic_text": "وَإِنْ تَعْجَبْ فَعَجَبٌ قَوْلُهُمْ أَإِذَا كُنَّا تُرَابًا أَإِنَّا لَفِي خَلْقٍ جَدِيدٍ أُولَئِكَ الَّذِينَ كَفَرُوا بِرَبِّهِمْ وَأُولَئِكَ الْأَغْلَالُ فِي أَعْنَاقِهِمْ وَأُولَئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
+      "bangla_trans": "এখন যদি তুমি বিস্মিত হও, তাহলে লোকদের এ কথাটিই বিস্ময়করঃ “মরে মাটিতে মিশে যাবার পর কি আমাদের আবার নতুন করে পয়দা করা হবে?” এরা এমনসব লোক যারা নিজেদের রবের সাথে কুফরী করেছে। এরা এমনসব লোক যাদের গলায় শেকল পরানো আছে। এরা জাহান্নামী এবং চিরকাল জাহান্নামেই থাকবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنْ",
+          "translate_bn": "এবং যদি"
+        },
+        "2": {
+          "words_ar": "تَعْجَبْ",
+          "translate_bn": "তুমি বিস্মিত হও"
+        },
+        "3": {
+          "words_ar": "فَعَجَبٌ",
+          "translate_bn": "তবে বিস্ময়কর বিষয় (হলো)"
+        },
+        "4": {
+          "words_ar": "قَوْلُهُمْ",
+          "translate_bn": "তাদের কথা"
+        },
+        "5": {
+          "words_ar": "أَإِذَا",
+          "translate_bn": "যখন কি"
+        },
+        "6": {
+          "words_ar": "كُنَّا",
+          "translate_bn": "আমরা হবো"
+        },
+        "7": {
+          "words_ar": "تُرَابًا",
+          "translate_bn": "মাটি"
+        },
+        "8": {
+          "words_ar": "أَإِنَّا",
+          "translate_bn": "আমরা কি নিশ্চয়ই"
+        },
+        "9": {
+          "words_ar": "لَفِي",
+          "translate_bn": "অবশ্যই মধ্যে (হবো)"
+        },
+        "10": {
+          "words_ar": "خَلْقٍ",
+          "translate_bn": "সৃষ্টির"
+        },
+        "11": {
+          "words_ar": "جَدِيدٍ",
+          "translate_bn": "নতুন"
+        },
+        "12": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব লোক"
+        },
+        "13": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "14": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "15": {
+          "words_ar": "بِرَبِّهِمْ",
+          "translate_bn": "রবকে তাদের"
+        },
+        "16": {
+          "words_ar": "وَأُولَٰئِكَ",
+          "translate_bn": "এবং ঐসব লোকের"
+        },
+        "17": {
+          "words_ar": "الْأَغْلَالُ",
+          "translate_bn": "শিকল"
+        },
+        "18": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে (থাকবে)"
+        },
+        "19": {
+          "words_ar": "أَعْنَاقِهِمْ",
+          "translate_bn": "তাদের গলার"
+        },
+        "20": {
+          "words_ar": "وَأُولَٰئِكَ",
+          "translate_bn": "এবং ঐসব লোক"
+        },
+        "21": {
+          "words_ar": "أَصْحَابُ",
+          "translate_bn": "অধিবাসী"
+        },
+        "22": {
+          "words_ar": "النَّارِ",
+          "translate_bn": "আগুনের"
+        },
+        "23": {
+          "words_ar": "هُمْ",
+          "translate_bn": "তারা"
+        },
+        "24": {
+          "words_ar": "فِيهَا",
+          "translate_bn": "তার মধ্যে"
+        },
+        "25": {
+          "words_ar": "خَالِدُونَ",
+          "translate_bn": "স্থায়ী অবস্থানকারী"
+        }
+      },
+      "english_trans": "And if you would wonder, then wondrous is their saying: What! when we are dust, shall we then certainly be in a new creation? These are they who disbelieve in their Lord, and these have chains on their necks, and they are the inmates of the fire; in it they shall abide."
+    },
+    "6": {
+      "arabic_text": "وَيَسْتَعْجِلُونَكَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ وَقَدْ خَلَتْ مِنْ قَبْلِهِمُ الْمَثُلَاتُ وَإِنَّ رَبَّكَ لَذُو مَغْفِرَةٍ لِلنَّاسِ عَلَى ظُلْمِهِمْ وَإِنَّ رَبَّكَ لَشَدِيدُ الْعِقَابِ",
+      "bangla_trans": "এ লোকেরা ভালোর পূর্বে মন্দের জন্য তাড়াহুড়ো করছে। অথচ এদের আগে (যারাই এ নীতি অবলম্বন করেছে তাদের ওপর আল্লাহর আযাবের) বহু শিক্ষণীয় দৃষ্টান্ত অতীত হয়ে গেছে। একথা সত্য, তোমার রব লোকদের বাড়াবাড়ি সত্ত্বেও তাদের প্রতি ক্ষমাশীল আবার একথাও সত্য যে, তোমার রব কঠোর শাস্তিদাতা।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَسْتَعْجِلُونَكَ",
+          "translate_bn": "এবং তোমার কাছে তারা তাড়াহুড়ো করছে"
+        },
+        "2": {
+          "words_ar": "بِالسَّيِّئَةِ",
+          "translate_bn": "ব্যাপারে মন্দের"
+        },
+        "3": {
+          "words_ar": "قَبْلَ",
+          "translate_bn": "পূর্বে"
+        },
+        "4": {
+          "words_ar": "الْحَسَنَةِ",
+          "translate_bn": "ভালোর"
+        },
+        "5": {
+          "words_ar": "وَقَدْ",
+          "translate_bn": "অথচ নিশ্চয়ই"
+        },
+        "6": {
+          "words_ar": "خَلَتْ",
+          "translate_bn": "গত হয়েছে"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকেই"
+        },
+        "8": {
+          "words_ar": "قَبْلِهِمُ",
+          "translate_bn": "তাদের আগে"
+        },
+        "9": {
+          "words_ar": "الْمَثُلَاتُ",
+          "translate_bn": "শিক্ষামূলক দৃষ্টান্তসমূহ"
+        },
+        "10": {
+          "words_ar": "وَإِنَّ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "11": {
+          "words_ar": "رَبَّكَ",
+          "translate_bn": "তোমার রব"
+        },
+        "12": {
+          "words_ar": "لَذُو",
+          "translate_bn": "অবশ্যই"
+        },
+        "13": {
+          "words_ar": "مَغْفِرَةٍ",
+          "translate_bn": "সম্পন্ন ক্ষমাশীল"
+        },
+        "14": {
+          "words_ar": "لِلنَّاسِ",
+          "translate_bn": "মানুষের জন্যে"
+        },
+        "15": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "সত্ত্বেও"
+        },
+        "16": {
+          "words_ar": "ظُلْمِهِمْ",
+          "translate_bn": "তাদের সীমালঙ্ঘন"
+        },
+        "17": {
+          "words_ar": "وَإِنَّ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "18": {
+          "words_ar": "رَبَّكَ",
+          "translate_bn": "তোমার রব"
+        },
+        "19": {
+          "words_ar": "لَشَدِيدُ",
+          "translate_bn": "অবশ্যই কঠোর"
+        },
+        "20": {
+          "words_ar": "الْعِقَابِ",
+          "translate_bn": "শাস্তিদানে"
+        }
+      },
+      "english_trans": "And they ask you to hasten on the evil before the good, and indeed there have been exemplary punishments before them; and most surely your Lord is the Lord of forgiveness to people, notwithstanding their injustice; and most surely your Lord is severe in requiting (evil)."
+    },
+    "7": {
+      "arabic_text": "وَيَقُولُ الَّذِينَ كَفَرُوا لَوْلَا أُنْزِلَ عَلَيْهِ آيَةٌ مِنْ رَبِّهِ إِنَّمَا أَنْتَ مُنْذِرٌ وَلِكُلِّ قَوْمٍ هَادٍ",
+      "bangla_trans": "যারা তোমার কথা মেনে নিতে অস্বীকার করেছে তারা বলে, “এ ব্যক্তির ওপর এর রবের পক্ষ থেকে কোন নিদর্শন অবতীর্ণ হয়নি কেন?” - তুমি তো শুধুমাত্র একজন সতর্ককারী, আর প্রত্যেক জনগোষ্ঠীর জন্য রয়েছে একজন পথপ্রদর্শক।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَقُولُ",
+          "translate_bn": "এবং বলে"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "4": {
+          "words_ar": "لَوْلَا",
+          "translate_bn": "কেন না"
+        },
+        "5": {
+          "words_ar": "أُنْزِلَ",
+          "translate_bn": "অবতীর্ণ করা হলো"
+        },
+        "6": {
+          "words_ar": "عَلَيْهِ",
+          "translate_bn": "তার উপর"
+        },
+        "7": {
+          "words_ar": "آيَةٌ",
+          "translate_bn": "কোনো নিদর্শন"
+        },
+        "8": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "9": {
+          "words_ar": "رَبِّهِ",
+          "translate_bn": "তার রবের"
+        },
+        "10": {
+          "words_ar": "إِنَّمَا",
+          "translate_bn": "কেবল"
+        },
+        "11": {
+          "words_ar": "أَنْتَ",
+          "translate_bn": "তুমি"
+        },
+        "12": {
+          "words_ar": "مُنْذِرٌ",
+          "translate_bn": "একজন সতর্ককারী"
+        },
+        "13": {
+          "words_ar": "وَلِكُلِّ",
+          "translate_bn": "ও জন্যে প্রত্যেক"
+        },
+        "14": {
+          "words_ar": "قَوْمٍ",
+          "translate_bn": "জাতির"
+        },
+        "15": {
+          "words_ar": "هَادٍ",
+          "translate_bn": "একজন পথ প্রদর্শক (আছে)"
+        }
+      },
+      "english_trans": "And those who disbelieve say: Why has not a sign been sent down upon him from his Lord? You are only a warner and (there is) a guide for every people."
+    },
+    "8": {
+      "arabic_text": "اللَّهُ يَعْلَمُ مَا تَحْمِلُ كُلُّ أُنْثَى وَمَا تَغِيضُ الْأَرْحَامُ وَمَا تَزْدَادُ وَكُلُّ شَيْءٍ عِنْدَهُ بِمِقْدَارٍ",
+      "bangla_trans": "আল্লাহ প্রত্যেক গর্ভবতীর গর্ভ সম্পর্কে জানেন। যা কিছু তার মধ্যে গঠিত হয় তাও তিনি জানেন এবং যা কিছু তার মধ্যে কমবেশী হয় সে সম্পর্কেও তিনি খবর রাখেন।  তাঁর কাছে প্রত্যেক জিনিসের জন্য একটি পরিমাণ নির্দিষ্ট রয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ তালা"
+        },
+        "2": {
+          "words_ar": "يَعْلَمُ",
+          "translate_bn": "জানেন"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "تَحْمِلُ",
+          "translate_bn": "গর্ভধারণ করে"
+        },
+        "5": {
+          "words_ar": "كُلُّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "6": {
+          "words_ar": "أُنْثَىٰ",
+          "translate_bn": "নারী"
+        },
+        "7": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং যা"
+        },
+        "8": {
+          "words_ar": "تَغِيضُ",
+          "translate_bn": "কমায়"
+        },
+        "9": {
+          "words_ar": "الْأَرْحَامُ",
+          "translate_bn": "জরায়ু"
+        },
+        "10": {
+          "words_ar": "وَمَا",
+          "translate_bn": "ও যা"
+        },
+        "11": {
+          "words_ar": "تَزْدَادُ",
+          "translate_bn": "বাড়ায়"
+        },
+        "12": {
+          "words_ar": "وَكُلُّ",
+          "translate_bn": "এবং প্রত্যেক"
+        },
+        "13": {
+          "words_ar": "شَيْءٍ",
+          "translate_bn": "বস্তুর"
+        },
+        "14": {
+          "words_ar": "عِنْدَهُ",
+          "translate_bn": "তাঁর কাছে (আছে)"
+        },
+        "15": {
+          "words_ar": "بِمِقْدَارٍ",
+          "translate_bn": "পরিমাণ নির্দিষ্ট"
+        }
+      },
+      "english_trans": "Allah knows what every female bears, and that of which the wombs fall short of completion and that in which they increase; and there is a measure with Him of everything."
+    },
+    "9": {
+      "arabic_text": "عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْكَبِيرُ الْمُتَعَالِ",
+      "bangla_trans": "তিনি অদৃশ্য ও দৃশ্যমান প্রত্যেক জিনিসের জ্ঞান রাখেন। তিনি মহান ও সর্বাবস্থায় সবার ওপর অবস্থান করেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "عَالِمُ",
+          "translate_bn": "তিনি জ্ঞানী"
+        },
+        "2": {
+          "words_ar": "الْغَيْبِ",
+          "translate_bn": "অদৃশ্যের (সম্পর্কে)"
+        },
+        "3": {
+          "words_ar": "وَالشَّهَادَةِ",
+          "translate_bn": "ও দৃশ্যের"
+        },
+        "4": {
+          "words_ar": "الْكَبِيرُ",
+          "translate_bn": "তিনি মহান"
+        },
+        "5": {
+          "words_ar": "الْمُتَعَالِ",
+          "translate_bn": "সর্বোচ্চ (মর্যাদাবান)"
+        }
+      },
+      "english_trans": "The knower of the unseen and the seen, the Great, the Most High."
+    },
+    "10": {
+      "arabic_text": "سَوَاءٌ مِنْكُمْ مَنْ أَسَرَّ الْقَوْلَ وَمَنْ جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَارِ",
+      "bangla_trans": "তোমাদের মধ্যে কোন ব্যক্তি জোরে কথা বলুক বা নীচু স্বরে এবং কেউ রাতের আঁধারে লুকিয়ে থাকুক বা দিনের আলোয় চলতে থাকুক,",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَوَاءٌ",
+          "translate_bn": "(তারা) সমান"
+        },
+        "2": {
+          "words_ar": "مِنْكُمْ",
+          "translate_bn": "তোমাদের মধ্য হতে"
+        },
+        "3": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "4": {
+          "words_ar": "أَسَرَّ",
+          "translate_bn": "গোপন করে"
+        },
+        "5": {
+          "words_ar": "الْقَوْلَ",
+          "translate_bn": "কথা"
+        },
+        "6": {
+          "words_ar": "وَمَنْ",
+          "translate_bn": "ও যে"
+        },
+        "7": {
+          "words_ar": "جَهَرَ",
+          "translate_bn": "প্রকাশ করে"
+        },
+        "8": {
+          "words_ar": "بِهِ",
+          "translate_bn": "সম্পর্কে তা"
+        },
+        "9": {
+          "words_ar": "وَمَنْ",
+          "translate_bn": "এবং যে"
+        },
+        "10": {
+          "words_ar": "هُوَ",
+          "translate_bn": "সে"
+        },
+        "11": {
+          "words_ar": "مُسْتَخْفٍ",
+          "translate_bn": "আত্নগোপনকারী"
+        },
+        "12": {
+          "words_ar": "بِاللَّيْلِ",
+          "translate_bn": "বেলায় রাতের"
+        },
+        "13": {
+          "words_ar": "وَسَارِبٌ",
+          "translate_bn": "ও বিচরণকারী"
+        },
+        "14": {
+          "words_ar": "بِالنَّهَارِ",
+          "translate_bn": "বেলায় দিনের"
+        }
+      },
+      "english_trans": "Alike (to Him) among you is he who conceals (his) words and he who speaks them openly, and he who hides himself by night and (who) goes forth by day."
+    },
+    "11": {
+      "arabic_text": "لَهُ مُعَقِّبَاتٌ مِنْ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِ يَحْفَظُونَهُ مِنْ أَمْرِ اللَّهِ إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُوا مَا بِأَنْفُسِهِمْ وَإِذَا أَرَادَ اللَّهُ بِقَوْمٍ سُوءًا فَلَا مَرَدَّ لَهُ وَمَا لَهُمْ مِنْ دُونِهِ مِنْ وَالٍ",
+      "bangla_trans": "তাঁর জন্য সবই সমান। প্রত্যেক ব্যক্তির সামনে ও পেছনে তাঁর নিযুক্ত পাহারাদার লেগে রয়েছে, যারা আল্লাহর হুকুমে তার দেখাশুনা করছে।  আসলে আল্লাহ‌ ততক্ষণ পর্যন্ত কোন জাতির অবস্থা বদলান না যতক্ষণ না তারা নিজেরা নিজেদের গুণাবলী বদলে ফেলে। আর আল্লাহ‌ যখন কোন জাতিকে দুর্ভাগ্য কবলিত করার ফায়সালা করে ফেলেন তখন কারো রদ করায় তা রদ হতে পারে না এবং আল্লাহর মোকাবিলায় এমন জাতির কোন সহায় ও সাহায্যকারী হতে পারে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তার জন্যে (আছে)"
+        },
+        "2": {
+          "words_ar": "مُعَقِّبَاتٌ",
+          "translate_bn": "একের পর এক আগমনকারী প্রহরী"
+        },
+        "3": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "4": {
+          "words_ar": "بَيْنِ",
+          "translate_bn": "সামনে"
+        },
+        "5": {
+          "words_ar": "يَدَيْهِ",
+          "translate_bn": "তার"
+        },
+        "6": {
+          "words_ar": "وَمِنْ",
+          "translate_bn": "এবং থেকে"
+        },
+        "7": {
+          "words_ar": "خَلْفِهِ",
+          "translate_bn": "তার পিছন"
+        },
+        "8": {
+          "words_ar": "يَحْفَظُونَهُ",
+          "translate_bn": "তাকে তারা রক্ষণাবেক্ষণ করে"
+        },
+        "9": {
+          "words_ar": "مِنْ",
+          "translate_bn": "মধ্যে সে"
+        },
+        "10": {
+          "words_ar": "أَمْرِ",
+          "translate_bn": "নির্দেশের"
+        },
+        "11": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "12": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "13": {
+          "words_ar": "اللَّهَ",
+          "translate_bn": "আল্লাহ"
+        },
+        "14": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "15": {
+          "words_ar": "يُغَيِّرُ",
+          "translate_bn": "পরিবর্তন করেন"
+        },
+        "16": {
+          "words_ar": "مَا",
+          "translate_bn": "অবস্থা"
+        },
+        "17": {
+          "words_ar": "بِقَوْمٍ",
+          "translate_bn": "কোন জাতির"
+        },
+        "18": {
+          "words_ar": "حَتَّىٰ",
+          "translate_bn": "যতক্ষণ না"
+        },
+        "19": {
+          "words_ar": "يُغَيِّرُوا",
+          "translate_bn": "তারা পরিবর্তন করে"
+        },
+        "20": {
+          "words_ar": "مَا",
+          "translate_bn": "অবস্থা"
+        },
+        "21": {
+          "words_ar": "بِأَنْفُسِهِمْ",
+          "translate_bn": "তাদের নিজেদের"
+        },
+        "22": {
+          "words_ar": "وَإِذَا",
+          "translate_bn": "এবং যখন"
+        },
+        "23": {
+          "words_ar": "أَرَادَ",
+          "translate_bn": "ইচ্ছে করেন"
+        },
+        "24": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "25": {
+          "words_ar": "بِقَوْمٍ",
+          "translate_bn": "সম্পর্কে কোনো জাতির"
+        },
+        "26": {
+          "words_ar": "سُوءًا",
+          "translate_bn": "অশুভ"
+        },
+        "27": {
+          "words_ar": "فَلَا",
+          "translate_bn": "তখন নেই"
+        },
+        "28": {
+          "words_ar": "مَرَدَّ",
+          "translate_bn": "ফেরানোর"
+        },
+        "29": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তার জন্যে"
+        },
+        "30": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং নেই"
+        },
+        "31": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্যে"
+        },
+        "32": {
+          "words_ar": "مِنْ",
+          "translate_bn": "ছাড়া"
+        },
+        "33": {
+          "words_ar": "دُونِهِ",
+          "translate_bn": "তিনি"
+        },
+        "34": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কোনো"
+        },
+        "35": {
+          "words_ar": "وَالٍ",
+          "translate_bn": "অভিভাবক"
+        }
+      },
+      "english_trans": "For his sake there are angels following one another, before him and behind him, who guard him by Allah´s commandment; surely Allah does not change the condition of a people until they change their own condition; and when Allah intends evil to a people, there is no averting it, and besides Him they have no protector."
+    },
+    "12": {
+      "arabic_text": "هُوَ الَّذِي يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا وَيُنْشِئُ السَّحَابَ الثِّقَالَ",
+      "bangla_trans": "তিনিই তোমাদের সামনে বিজলী চমকান, যা দেখে তোমাদের মধ্যে আংশকার সঞ্চার হয় আবার আশাও জাগে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনিই"
+        },
+        "2": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যিনি"
+        },
+        "3": {
+          "words_ar": "يُرِيكُمُ",
+          "translate_bn": "তোমাদের দেখান"
+        },
+        "4": {
+          "words_ar": "الْبَرْقَ",
+          "translate_bn": "বিদ্যুৎ"
+        },
+        "5": {
+          "words_ar": "خَوْفًا",
+          "translate_bn": "ভয়ের (জন্যে)"
+        },
+        "6": {
+          "words_ar": "وَطَمَعًا",
+          "translate_bn": "ও আশার"
+        },
+        "7": {
+          "words_ar": "وَيُنْشِئُ",
+          "translate_bn": "এবং সৃষ্টি করেন"
+        },
+        "8": {
+          "words_ar": "السَّحَابَ",
+          "translate_bn": "মেঘ"
+        },
+        "9": {
+          "words_ar": "الثِّقَالَ",
+          "translate_bn": "(পানিভরা) ঘন"
+        }
+      },
+      "english_trans": "He it is Who shows you the lightning causing fear and hope and (Who) brings up the heavy cloud."
+    },
+    "13": {
+      "arabic_text": "وَيُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيفَتِهِ وَيُرْسِلُ الصَّوَاعِقَ فَيُصِيبُ بِهَا مَنْ يَشَاءُ وَهُمْ يُجَادِلُونَ فِي اللَّهِ وَهُوَ شَدِيدُ الْمِحَالِ",
+      "bangla_trans": "তিনিই পানিভরা মেঘ উঠান। মেঘের গর্জন তাঁর প্রশংসা সহকারে তাঁর পবিত্রতা বর্ণনা করে এবং ফেরেশতারা তাঁর ভয়ে কম্পিত হয়ে তাঁর তাস্‌বীহ করে। তিনি বজ্রপাত করেন এবং (অনেক সময়) তাকে যার ওপর চান, ঠিক সে যখন আল্লাহ সম্পর্কে বিতণ্ডায় লিপ্ত তখনই নিক্ষেপ করেন। আসলে তাঁর কৌশল বড়ই জবরদস্ত।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيُسَبِّحُ",
+          "translate_bn": "এবং মহিমা প্রকাশ করে"
+        },
+        "2": {
+          "words_ar": "الرَّعْدُ",
+          "translate_bn": "বজ্রনির্ঘোষ"
+        },
+        "3": {
+          "words_ar": "بِحَمْدِهِ",
+          "translate_bn": "সাথে তাঁর প্রশংসার"
+        },
+        "4": {
+          "words_ar": "وَالْمَلَائِكَةُ",
+          "translate_bn": "এবং ফেরেশতারাও"
+        },
+        "5": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "6": {
+          "words_ar": "خِيفَتِهِ",
+          "translate_bn": "তাঁর ভয়"
+        },
+        "7": {
+          "words_ar": "وَيُرْسِلُ",
+          "translate_bn": "এবং তিনি পাঠান"
+        },
+        "8": {
+          "words_ar": "الصَّوَاعِقَ",
+          "translate_bn": "গর্জনকারী বজ্রসমূহ"
+        },
+        "9": {
+          "words_ar": "فَيُصِيبُ",
+          "translate_bn": "অতঃপর আঘাত করেন"
+        },
+        "10": {
+          "words_ar": "بِهَا",
+          "translate_bn": "দিয়ে তা"
+        },
+        "11": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যাকে"
+        },
+        "12": {
+          "words_ar": "يَشَاءُ",
+          "translate_bn": "ইচ্ছে করেন"
+        },
+        "13": {
+          "words_ar": "وَهُمْ",
+          "translate_bn": "তবুও তারা"
+        },
+        "14": {
+          "words_ar": "يُجَادِلُونَ",
+          "translate_bn": "বাক-বিতন্ডা করে"
+        },
+        "15": {
+          "words_ar": "فِي",
+          "translate_bn": "সম্বন্ধে"
+        },
+        "16": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "17": {
+          "words_ar": "وَهُوَ",
+          "translate_bn": "অথচ তিনি"
+        },
+        "18": {
+          "words_ar": "شَدِيدُ",
+          "translate_bn": "শক্তিতে প্রবল"
+        },
+        "19": {
+          "words_ar": "الْمِحَالِ",
+          "translate_bn": "শাস্তিতে কঠোর"
+        }
+      },
+      "english_trans": "And the thunder declares His glory with His praise, and the angels too for awe of Him; and He sends the thunderbolts and smites with them whom He pleases, yet they dispute concerning Allah, and He is mighty in prowess."
+    },
+    "14": {
+      "arabic_text": "لَهُ دَعْوَةُ الْحَقِّ وَالَّذِينَ يَدْعُونَ مِنْ دُونِهِ لَا يَسْتَجِيبُونَ لَهُمْ بِشَيْءٍ إِلَّا كَبَاسِطِ كَفَّيْهِ إِلَى الْمَاءِ لِيَبْلُغَ فَاهُ وَمَا هُوَ بِبَالِغِهِ وَمَا دُعَاءُ الْكَافِرِينَ إِلَّا فِي ضَلَالٍ",
+      "bangla_trans": "একমাত্র তাঁকেই ডাকা সঠিক। আর অন্যান্য সত্তাসমূহ, আল্লাহকে বাদ দিয়ে যাদেরকে এ লোকেরা ডাকে, তারা তাদের প্রার্থনায় কোন সাড়া দিতে পারে না। তাদেরকে ডাকা তো ঠিক এমনি ধরনের যেমন কোন ব্যক্তি পানির দিকে হাত বাড়িয়ে তার কাছে আবেদন জানায়, তুমি আমার মুখে পৌঁছে যাও, অথচ পানি তার মুখে পৌঁছতে সক্ষম নয়। ঠিক এমনিভাবে কাফেরদের দোয়াও একটি লক্ষভ্রষ্ট তীর ছাড়া আর কিছু নয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তাঁরই জন্য"
+        },
+        "2": {
+          "words_ar": "دَعْوَةُ",
+          "translate_bn": "আহবান"
+        },
+        "3": {
+          "words_ar": "الْحَقِّ",
+          "translate_bn": "সত্যের"
+        },
+        "4": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা"
+        },
+        "5": {
+          "words_ar": "يَدْعُونَ",
+          "translate_bn": "ডাকে"
+        },
+        "6": {
+          "words_ar": "مِنْ",
+          "translate_bn": "ছাড়া"
+        },
+        "7": {
+          "words_ar": "دُونِهِ",
+          "translate_bn": "তাঁকে (অন্য কাউকে)"
+        },
+        "8": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "9": {
+          "words_ar": "يَسْتَجِيبُونَ",
+          "translate_bn": "তারা সাড়া দেয়"
+        },
+        "10": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদেরকে"
+        },
+        "11": {
+          "words_ar": "بِشَيْءٍ",
+          "translate_bn": "কোনো কিছুর"
+        },
+        "12": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া"
+        },
+        "13": {
+          "words_ar": "كَبَاسِطِ",
+          "translate_bn": "মতো সম্প্রসারণকারীর"
+        },
+        "14": {
+          "words_ar": "كَفَّيْهِ",
+          "translate_bn": "তার দুহাত"
+        },
+        "15": {
+          "words_ar": "إِلَى",
+          "translate_bn": "প্রতি"
+        },
+        "16": {
+          "words_ar": "الْمَاءِ",
+          "translate_bn": "পানির"
+        },
+        "17": {
+          "words_ar": "لِيَبْلُغَ",
+          "translate_bn": "যেন পৌঁছে"
+        },
+        "18": {
+          "words_ar": "فَاهُ",
+          "translate_bn": "তার মুখে"
+        },
+        "19": {
+          "words_ar": "وَمَا",
+          "translate_bn": "অথচ নয়"
+        },
+        "20": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তা"
+        },
+        "21": {
+          "words_ar": "بِبَالِغِهِ",
+          "translate_bn": "তার কাছে পৌঁছবার"
+        },
+        "22": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং নয়"
+        },
+        "23": {
+          "words_ar": "دُعَاءُ",
+          "translate_bn": "ডাক"
+        },
+        "24": {
+          "words_ar": "الْكَافِرِينَ",
+          "translate_bn": "কাফেরদের"
+        },
+        "25": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "এ ছাড়া"
+        },
+        "26": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "27": {
+          "words_ar": "ضَلَالٍ",
+          "translate_bn": "ভ্রান্তির"
+        }
+      },
+      "english_trans": "To Him is due the true prayer; and those whom they pray to besides Allah give them no answer, but (they are) like one who stretches forth his two hands towards water that it may reach his mouth, but it will not reach it; and the prayer of the unbelievers is only in error."
+    },
+    "15": {
+      "arabic_text": "وَلِلَّهِ يَسْجُدُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَالُهُمْ بِالْغُدُوِّ وَالْآصَالِ",
+      "bangla_trans": "আল্লাহকেই সিজ্‌দা করছে পৃথিবী ও আকাশের প্রত্যেকটি বস্তু ইচ্ছায় ও অনিচ্ছায় এবং প্রত্যেকটি বস্তুর ছায়া সকাল-সাঁঝে তাঁর সামনে নত হয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلِلَّهِ",
+          "translate_bn": "এবং আল্লাহকেই"
+        },
+        "2": {
+          "words_ar": "يَسْجُدُ",
+          "translate_bn": "সিজদা করে"
+        },
+        "3": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যা কিছু"
+        },
+        "4": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে আছে"
+        },
+        "5": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশের"
+        },
+        "6": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "ও পৃথিবীর"
+        },
+        "7": {
+          "words_ar": "طَوْعًا",
+          "translate_bn": "ইচ্ছায়"
+        },
+        "8": {
+          "words_ar": "وَكَرْهًا",
+          "translate_bn": "ও অনিচ্ছায়"
+        },
+        "9": {
+          "words_ar": "وَظِلَالُهُمْ",
+          "translate_bn": "এবং তাদের ছায়াগুলোও"
+        },
+        "10": {
+          "words_ar": "بِالْغُدُوِّ",
+          "translate_bn": "বেলায় সকাল"
+        },
+        "11": {
+          "words_ar": "وَالْآصَالِ",
+          "translate_bn": "এবং সন্ধ্যায় (নত হয়)"
+        }
+      },
+      "english_trans": "And whoever is in the heavens and the earth makes obeisance to Allah only, willingly and unwillingly, and their shadows too at morn and eve."
+    },
+    "16": {
+      "arabic_text": "قُلْ مَنْ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ قُلِ اللَّهُ قُلْ أَفَاتَّخَذْتُمْ مِنْ دُونِهِ أَوْلِيَاءَ لَا يَمْلِكُونَ لِأَنْفُسِهِمْ نَفْعًا وَلَا ضَرًّا قُلْ هَلْ يَسْتَوِي الْأَعْمَى وَالْبَصِيرُ أَمْ هَلْ تَسْتَوِي الظُّلُمَاتُ وَالنُّورُ أَمْ جَعَلُوا لِلَّهِ شُرَكَاءَ خَلَقُوا كَخَلْقِهِ فَتَشَابَهَ الْخَلْقُ عَلَيْهِمْ قُلِ اللَّهُ خَالِقُ كُلِّ شَيْءٍ وَهُوَ الْوَاحِدُ الْقَهَّارُ",
+      "bangla_trans": "এদেরকে জিজ্ঞেস করো, আকাশ ও পৃথিবীর রব কে?- বলো আল্লাহ!  তারপর এদেরকে জিজ্ঞেস করো, আসল ব্যাপার যখন এই তখন তোমরা কি তাঁকে বাদ দিয়ে এমন মাবুদদেরকে নিজেদের কার্যসম্পাদনকারী বানিয়ে নিয়েছো যারা তাদের নিজেদের জন্যও কোন লাভ ও ক্ষতি করার ক্ষমতা রাখে না? বলো অন্ধ ও চক্ষুষ্মান কি সমান হয়ে থাকে? আলো ও আঁধার কি এক রকম হয়? যদি এমন না হয়, তাহলে তাদের বানানো শরীকরাও কি আল্লাহর মতো কিছু সৃষ্টি করেছে, যে কারণে তারাও সৃষ্টি ক্ষমতার অধিকারী বলে সন্দেহ হয়েছে?  - বলো, প্রত্যেকটি জিনিসের স্রষ্টা একমাত্র আল্লাহ। তিনি একক ও সবার ওপর পরাক্রমশালী।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "2": {
+          "words_ar": "مَنْ",
+          "translate_bn": "কে"
+        },
+        "3": {
+          "words_ar": "رَبُّ",
+          "translate_bn": "রব"
+        },
+        "4": {
+          "words_ar": "السَّمَاوَاتِ",
+          "translate_bn": "আকাশের"
+        },
+        "5": {
+          "words_ar": "وَالْأَرْضِ",
+          "translate_bn": "ও পৃথিবীর"
+        },
+        "6": {
+          "words_ar": "قُلِ",
+          "translate_bn": "বলো"
+        },
+        "7": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "(তিনিই) আল্লাহ"
+        },
+        "8": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "9": {
+          "words_ar": "أَفَاتَّخَذْتُمْ",
+          "translate_bn": "তোমরা তাহলে কি গ্রহণ করেছো"
+        },
+        "10": {
+          "words_ar": "مِنْ",
+          "translate_bn": "পরিবর্তে"
+        },
+        "11": {
+          "words_ar": "دُونِهِ",
+          "translate_bn": "তার"
+        },
+        "12": {
+          "words_ar": "أَوْلِيَاءَ",
+          "translate_bn": "অভিভাবকরূপে (অন্য অনেককে)"
+        },
+        "13": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "14": {
+          "words_ar": "يَمْلِكُونَ",
+          "translate_bn": "তারা সক্ষম হয়"
+        },
+        "15": {
+          "words_ar": "لِأَنْفُسِهِمْ",
+          "translate_bn": "তাদের নিজেদের জন্য"
+        },
+        "16": {
+          "words_ar": "نَفْعًا",
+          "translate_bn": "কোনো উপকারের"
+        },
+        "17": {
+          "words_ar": "وَلَا",
+          "translate_bn": "আর না"
+        },
+        "18": {
+          "words_ar": "ضَرًّا",
+          "translate_bn": "কোনো ক্ষতির"
+        },
+        "19": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "20": {
+          "words_ar": "هَلْ",
+          "translate_bn": "কি"
+        },
+        "21": {
+          "words_ar": "يَسْتَوِي",
+          "translate_bn": "সমান হয়"
+        },
+        "22": {
+          "words_ar": "الْأَعْمَىٰ",
+          "translate_bn": "অন্ধ"
+        },
+        "23": {
+          "words_ar": "وَالْبَصِيرُ",
+          "translate_bn": "ও চক্ষুষ্মান"
+        },
+        "24": {
+          "words_ar": "أَمْ",
+          "translate_bn": "অথবা"
+        },
+        "25": {
+          "words_ar": "هَلْ",
+          "translate_bn": "কি"
+        },
+        "26": {
+          "words_ar": "تَسْتَوِي",
+          "translate_bn": "সমান হয়"
+        },
+        "27": {
+          "words_ar": "الظُّلُمَاتُ",
+          "translate_bn": "অন্ধকারসমূহ"
+        },
+        "28": {
+          "words_ar": "وَالنُّورُ",
+          "translate_bn": "ও আলো"
+        },
+        "29": {
+          "words_ar": "أَمْ",
+          "translate_bn": "(তবে) কি"
+        },
+        "30": {
+          "words_ar": "جَعَلُوا",
+          "translate_bn": "তারা স্হির করেছে"
+        },
+        "31": {
+          "words_ar": "لِلَّهِ",
+          "translate_bn": "আল্লাহর জন্যে"
+        },
+        "32": {
+          "words_ar": "شُرَكَاءَ",
+          "translate_bn": "এমন শরীকদের"
+        },
+        "33": {
+          "words_ar": "خَلَقُوا",
+          "translate_bn": "যা সৃষ্টি করেছে"
+        },
+        "34": {
+          "words_ar": "كَخَلْقِهِ",
+          "translate_bn": "মতো তাঁর সৃষ্টি"
+        },
+        "35": {
+          "words_ar": "فَتَشَابَهَ",
+          "translate_bn": "এ কারণে বিভ্রান্তি ঘটিয়েছে"
+        },
+        "36": {
+          "words_ar": "الْخَلْقُ",
+          "translate_bn": "সৃষ্টি"
+        },
+        "37": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "কাছে তাদের"
+        },
+        "38": {
+          "words_ar": "قُلِ",
+          "translate_bn": "বলো"
+        },
+        "39": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহই"
+        },
+        "40": {
+          "words_ar": "خَالِقُ",
+          "translate_bn": "স্রষ্টা"
+        },
+        "41": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "সব"
+        },
+        "42": {
+          "words_ar": "شَيْءٍ",
+          "translate_bn": "কিছুর"
+        },
+        "43": {
+          "words_ar": "وَهُوَ",
+          "translate_bn": "এবং তিনি"
+        },
+        "44": {
+          "words_ar": "الْوَاحِدُ",
+          "translate_bn": "এক"
+        },
+        "45": {
+          "words_ar": "الْقَهَّارُ",
+          "translate_bn": "মহাপরাক্রমশালী"
+        }
+      },
+      "english_trans": "Say: Who is the Lord of the heavens and the earth?-- Say: Allah. Say: Do you take then besides Him guardians who do not control any profit or harm for themselves? Say: Are the blind and the seeing alike? Or can the darkness and the light be equal? Or have they set up with Allah associates who have created creation like His, so that what is created became confused to them? Say: Allah is the Creator of all things, and He is the One, the Supreme."
+    },
+    "17": {
+      "arabic_text": "أَنْزَلَ مِنَ السَّمَاءِ مَاءً فَسَالَتْ أَوْدِيَةٌ بِقَدَرِهَا فَاحْتَمَلَ السَّيْلُ زَبَدًا رَابِيًا وَمِمَّا يُوقِدُونَ عَلَيْهِ فِي النَّارِ ابْتِغَاءَ حِلْيَةٍ أَوْ مَتَاعٍ زَبَدٌ مِثْلُهُ كَذَلِكَ يَضْرِبُ اللَّهُ الْحَقَّ وَالْبَاطِلَ فَأَمَّا الزَّبَدُ فَيَذْهَبُ جُفَاءً وَأَمَّا مَا يَنْفَعُ النَّاسَ فَيَمْكُثُ فِي الْأَرْضِ كَذَلِكَ يَضْرِبُ اللَّهُ الْأَمْثَالَ",
+      "bangla_trans": "আল্লাহ আকাশ থেকে পানি বর্ষণ করেন এবং প্রত্যেক নদী-নালা নিজের সাধ্য অনুযায়ী তা নিয়ে প্রবাহিত হয়। তারপর যখন প্লাবন আসে তখন ফেনা পানির ওপরে ভাসতে থাকে। আর লোকেরা অলংকার ও তৈজসপত্রাদি নির্মাণের জন্য যেসব ধাতু গরম করে তার ওপরও ঠিক এমনি ফেনা ভেসে ওঠে।  এ উপমার সাহায্যে আল্লাহ হক ও বাতিলের বিষয়টি সুস্পষ্ট করে দেন। ফেনারাশি উড়ে যায় এবং যে বস্তুটি মানুষের জন্য উপকারী হয় তা যমীনে থেকে যায়। এভাবে আল্লাহ উপমার সাহায্যে নিজের কথা বুঝিয়ে থাকেন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَنْزَلَ",
+          "translate_bn": "তিনি বর্ষণ করেন"
+        },
+        "2": {
+          "words_ar": "مِنَ",
+          "translate_bn": "থেকে"
+        },
+        "3": {
+          "words_ar": "السَّمَاءِ",
+          "translate_bn": "আকাশ"
+        },
+        "4": {
+          "words_ar": "مَاءً",
+          "translate_bn": "পানি"
+        },
+        "5": {
+          "words_ar": "فَسَالَتْ",
+          "translate_bn": "ফলে প্লাবিত হয়"
+        },
+        "6": {
+          "words_ar": "أَوْدِيَةٌ",
+          "translate_bn": "উপত্যকাসমূহ"
+        },
+        "7": {
+          "words_ar": "بِقَدَرِهَا",
+          "translate_bn": "তার পরিমাণ অনুসারে"
+        },
+        "8": {
+          "words_ar": "فَاحْتَمَلَ",
+          "translate_bn": "অতঃপর বহন করে"
+        },
+        "9": {
+          "words_ar": "السَّيْلُ",
+          "translate_bn": "প্লাবন"
+        },
+        "10": {
+          "words_ar": "زَبَدًا",
+          "translate_bn": "ফেনা"
+        },
+        "11": {
+          "words_ar": "رَابِيًا",
+          "translate_bn": "উপরিভাগে"
+        },
+        "12": {
+          "words_ar": "وَمِمَّا",
+          "translate_bn": "এবং তা থেকেও যা"
+        },
+        "13": {
+          "words_ar": "يُوقِدُونَ",
+          "translate_bn": "তারা উত্তপ্ত করে"
+        },
+        "14": {
+          "words_ar": "عَلَيْهِ",
+          "translate_bn": "তার উপর"
+        },
+        "15": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "16": {
+          "words_ar": "النَّارِ",
+          "translate_bn": "আগুনের"
+        },
+        "17": {
+          "words_ar": "ابْتِغَاءَ",
+          "translate_bn": "(বানাতে) চায়"
+        },
+        "18": {
+          "words_ar": "حِلْيَةٍ",
+          "translate_bn": "অলংকার"
+        },
+        "19": {
+          "words_ar": "أَوْ",
+          "translate_bn": "বা"
+        },
+        "20": {
+          "words_ar": "مَتَاعٍ",
+          "translate_bn": "তৈজসপত্র"
+        },
+        "21": {
+          "words_ar": "زَبَدٌ",
+          "translate_bn": "ফেনাআবর্জনা"
+        },
+        "22": {
+          "words_ar": "مِثْلُهُ",
+          "translate_bn": "তার মতো"
+        },
+        "23": {
+          "words_ar": "كَذَٰلِكَ",
+          "translate_bn": "এভাবে"
+        },
+        "24": {
+          "words_ar": "يَضْرِبُ",
+          "translate_bn": "উপমা দেন"
+        },
+        "25": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "26": {
+          "words_ar": "الْحَقَّ",
+          "translate_bn": "হক"
+        },
+        "27": {
+          "words_ar": "وَالْبَاطِلَ",
+          "translate_bn": "ও অসত্যের"
+        },
+        "28": {
+          "words_ar": "فَأَمَّا",
+          "translate_bn": "অতঃপর"
+        },
+        "29": {
+          "words_ar": "الزَّبَدُ",
+          "translate_bn": "ফেনাআবর্জনা"
+        },
+        "30": {
+          "words_ar": "فَيَذْهَبُ",
+          "translate_bn": "এভাবে তা চলে যায়"
+        },
+        "31": {
+          "words_ar": "جُفَاءً",
+          "translate_bn": "অকেজো হয়ে"
+        },
+        "32": {
+          "words_ar": "وَأَمَّا",
+          "translate_bn": "আর"
+        },
+        "33": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "34": {
+          "words_ar": "يَنْفَعُ",
+          "translate_bn": "উপকারে আসে"
+        },
+        "35": {
+          "words_ar": "النَّاسَ",
+          "translate_bn": "মানুষের"
+        },
+        "36": {
+          "words_ar": "فَيَمْكُثُ",
+          "translate_bn": "এভাবে তা থেকে যায়"
+        },
+        "37": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "38": {
+          "words_ar": "الْأَرْضِ",
+          "translate_bn": "জমিনের"
+        },
+        "39": {
+          "words_ar": "كَذَٰلِكَ",
+          "translate_bn": "এরূপে"
+        },
+        "40": {
+          "words_ar": "يَضْرِبُ",
+          "translate_bn": "বর্ণনা করেন"
+        },
+        "41": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "42": {
+          "words_ar": "الْأَمْثَالَ",
+          "translate_bn": "দৃষ্টান্তসমূহ"
+        }
+      },
+      "english_trans": "He sends down water from the cloud, then watercourses flow (with water) according to their measure, and the torrent bears along the swelling foam, and from what they melt in the fire for the sake of making ornaments or apparatus arises a scum like it; thus does Allah compare truth and falsehood; then as for the scum, it passes away as a worthless thing; and as for that which profits the people, it tarries in the earth; thus does Allah set forth parables."
+    },
+    "18": {
+      "arabic_text": "لِلَّذِينَ اسْتَجَابُوا لِرَبِّهِمُ الْحُسْنَى وَالَّذِينَ لَمْ يَسْتَجِيبُوا لَهُ لَوْ أَنَّ لَهُمْ مَا فِي الْأَرْضِ جَمِيعًا وَمِثْلَهُ مَعَهُ لَافْتَدَوْا بِهِ أُولَئِكَ لَهُمْ سُوءُ الْحِسَابِ وَمَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمِهَادُ",
+      "bangla_trans": "যারা নিজেদের রবের দাওয়াত গ্রহণ করেছে তাদের জন্য কল্যাণ রয়েছে আর যারা তা গ্রহণ করেনি তারা যদি পৃথিবীর সমস্ত সম্পদের মালিক হয়ে যায় এবং এ পরিমাণ আরো সংগ্রহ করে নেয় তাহলেও তারা আল্লাহর পাকড়াও থেকে বাঁচার জন্য এ সমস্তকে মুক্তিপণ হিসেবে দিয়ে দিতে তৈরী হয়ে যাবে। এদের হিসেব নেয়া হবে নিকৃষ্টভাবে এবং এদের আবাস হবে জাহান্নাম, বড়ই নিকৃষ্ট আবাস।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لِلَّذِينَ",
+          "translate_bn": "(তাদের) জন্যে যারা"
+        },
+        "2": {
+          "words_ar": "اسْتَجَابُوا",
+          "translate_bn": "সাড়া দেয়"
+        },
+        "3": {
+          "words_ar": "لِرَبِّهِمُ",
+          "translate_bn": "তাদের রবের (কথায়)"
+        },
+        "4": {
+          "words_ar": "الْحُسْنَىٰ",
+          "translate_bn": "কল্যাণ (রয়েছে)"
+        },
+        "5": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা"
+        },
+        "6": {
+          "words_ar": "لَمْ",
+          "translate_bn": "না"
+        },
+        "7": {
+          "words_ar": "يَسْتَجِيبُوا",
+          "translate_bn": "সাড়া দেয়"
+        },
+        "8": {
+          "words_ar": "لَهُ",
+          "translate_bn": "তাঁর ডাকে"
+        },
+        "9": {
+          "words_ar": "لَوْ",
+          "translate_bn": "যদি"
+        },
+        "10": {
+          "words_ar": "أَنَّ",
+          "translate_bn": "হয়"
+        },
+        "11": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "জন্যে তাদের"
+        },
+        "12": {
+          "words_ar": "مَا",
+          "translate_bn": "যা কিছু"
+        },
+        "13": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে আছে"
+        },
+        "14": {
+          "words_ar": "الْأَرْضِ",
+          "translate_bn": "পৃথিবীর"
+        },
+        "15": {
+          "words_ar": "جَمِيعًا",
+          "translate_bn": "সমস্তই"
+        },
+        "16": {
+          "words_ar": "وَمِثْلَهُ",
+          "translate_bn": "আরও তার সমপরিমাণ"
+        },
+        "17": {
+          "words_ar": "مَعَهُ",
+          "translate_bn": "তার সাথে"
+        },
+        "18": {
+          "words_ar": "لَافْتَدَوْا",
+          "translate_bn": "অবশ্যই তারা মুক্তিপণ দিবে"
+        },
+        "19": {
+          "words_ar": "بِهِ",
+          "translate_bn": "দিয়ে তা"
+        },
+        "20": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব (লোক)"
+        },
+        "21": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্যে রয়েছে"
+        },
+        "22": {
+          "words_ar": "سُوءُ",
+          "translate_bn": "মন্দ"
+        },
+        "23": {
+          "words_ar": "الْحِسَابِ",
+          "translate_bn": "হিসাব"
+        },
+        "24": {
+          "words_ar": "وَمَأْوَاهُمْ",
+          "translate_bn": "এবং তাদের আবাস"
+        },
+        "25": {
+          "words_ar": "جَهَنَّمُ",
+          "translate_bn": "জাহান্নাম"
+        },
+        "26": {
+          "words_ar": "وَبِئْسَ",
+          "translate_bn": "এবং অতি নিকৃষ্ট"
+        },
+        "27": {
+          "words_ar": "الْمِهَادُ",
+          "translate_bn": "আশ্রয়স্হল"
+        }
+      },
+      "english_trans": "For those who respond to their Lord is good; and (as for) those who do not respond to Him, had they all that is in the earth and the like thereof with it they would certainly offer it for a ransom. (As for) those, an evil reckoning shall be theirs and their abode is hell, and evil is the resting-place."
+    },
+    "19": {
+      "arabic_text": "أَفَمَنْ يَعْلَمُ أَنَّمَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ الْحَقُّ كَمَنْ هُوَ أَعْمَى إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ",
+      "bangla_trans": "আচ্ছা তোমার রবের পক্ষ থেকে তোমার ওপর যে কিতাব নাযিল হয়েছে, তাকে যে ব্যক্তি সত্য মনে করে আর যে ব্যক্তি এ সত্যটির ব্যাপারে অন্ধ, তারা দু’জন সমান হবে, এটা কেমন করে সম্ভব? উপদেশ তো শুধু বিবেকবান লোকেরাই গ্রহণ করে। ",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَفَمَنْ",
+          "translate_bn": "তবে কি যে ব্যক্তি"
+        },
+        "2": {
+          "words_ar": "يَعْلَمُ",
+          "translate_bn": "জানে"
+        },
+        "3": {
+          "words_ar": "أَنَّمَا",
+          "translate_bn": "যে যা কিছু"
+        },
+        "4": {
+          "words_ar": "أُنْزِلَ",
+          "translate_bn": "অবতীর্ণ হয়েছে"
+        },
+        "5": {
+          "words_ar": "إِلَيْكَ",
+          "translate_bn": "তোমার প্রতি"
+        },
+        "6": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "7": {
+          "words_ar": "رَبِّكَ",
+          "translate_bn": "তোমার রবের"
+        },
+        "8": {
+          "words_ar": "الْحَقُّ",
+          "translate_bn": "সত্য"
+        },
+        "9": {
+          "words_ar": "كَمَنْ",
+          "translate_bn": "(ঐ ব্যক্তির) মতো যে"
+        },
+        "10": {
+          "words_ar": "هُوَ",
+          "translate_bn": "সে"
+        },
+        "11": {
+          "words_ar": "أَعْمَىٰ",
+          "translate_bn": "অন্ধ"
+        },
+        "12": {
+          "words_ar": "إِنَّمَا",
+          "translate_bn": "প্রকৃতপক্ষে"
+        },
+        "13": {
+          "words_ar": "يَتَذَكَّرُ",
+          "translate_bn": "শিক্ষা গ্রহণ করে (তা থেকে)"
+        },
+        "14": {
+          "words_ar": "أُولُو",
+          "translate_bn": "সম্পন্নরাই"
+        },
+        "15": {
+          "words_ar": "الْأَلْبَابِ",
+          "translate_bn": "বিবেক"
+        }
+      },
+      "english_trans": "Is he then who knows that what has been revealed to you from your Lord is the truth like him who is blind? Only those possessed of understanding will mind,"
+    },
+    "20": {
+      "arabic_text": "الَّذِينَ يُوفُونَ بِعَهْدِ اللَّهِ وَلَا يَنْقُضُونَ الْمِيثَاقَ",
+      "bangla_trans": "আর তাদের কর্মপদ্ধতি এমন হয় যে, তারা আল্লাহকে প্রদত্ত নিজেদের অঙ্গীকার পালন করে এবং তাকে মজবুত করে বাঁধার পর ভেঙ্গে ফেলে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "2": {
+          "words_ar": "يُوفُونَ",
+          "translate_bn": "পূর্ণ করে সাথে"
+        },
+        "3": {
+          "words_ar": "بِعَهْدِ",
+          "translate_bn": "অঙ্গীকার"
+        },
+        "4": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "5": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "6": {
+          "words_ar": "يَنْقُضُونَ",
+          "translate_bn": "তারা ভঙ্গ করে"
+        },
+        "7": {
+          "words_ar": "الْمِيثَاقَ",
+          "translate_bn": "প্রতিজ্ঞা"
+        }
+      },
+      "english_trans": "Those who fulfil the promise of Allah and do not break the covenant,"
+    },
+    "21": {
+      "arabic_text": "وَالَّذِينَ يَصِلُونَ مَا أَمَرَ اللَّهُ بِهِ أَنْ يُوصَلَ وَيَخْشَوْنَ رَبَّهُمْ وَيَخَافُونَ سُوءَ الْحِسَابِ",
+      "bangla_trans": "তাদের নীতি হয়, আল্লাহ যেসব সম্পর্ক ও বন্ধন অক্ষুণ্ণ রাখার হুকুম দিয়েছেন সেগুলো তারা অক্ষুণ্ন রাখে, নিজেদের রবকে ভয় করে এবং তাদের থেকে কড়া হিসেব না নেয়া হয় এই ভয়ে সন্ত্রস্ত থাকে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা"
+        },
+        "2": {
+          "words_ar": "يَصِلُونَ",
+          "translate_bn": "অক্ষুন্ন রাখে"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "أَمَرَ",
+          "translate_bn": "নির্দেশ দিয়েছেন"
+        },
+        "5": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ তালা"
+        },
+        "6": {
+          "words_ar": "بِهِ",
+          "translate_bn": "তা সম্বন্ধে"
+        },
+        "7": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "8": {
+          "words_ar": "يُوصَلَ",
+          "translate_bn": "অক্ষুন্ন রাখতে"
+        },
+        "9": {
+          "words_ar": "وَيَخْشَوْنَ",
+          "translate_bn": "ও তারা ভয় করে"
+        },
+        "10": {
+          "words_ar": "رَبَّهُمْ",
+          "translate_bn": "তাদের রবকে"
+        },
+        "11": {
+          "words_ar": "وَيَخَافُونَ",
+          "translate_bn": "এবং তারা আশঙ্কা করে"
+        },
+        "12": {
+          "words_ar": "سُوءَ",
+          "translate_bn": "মন্দ"
+        },
+        "13": {
+          "words_ar": "الْحِسَابِ",
+          "translate_bn": "হিসাবের"
+        }
+      },
+      "english_trans": "And those who join that which Allah has bidden to be joined and have awe of their Lord and fear the evil reckoning."
+    },
+    "22": {
+      "arabic_text": "وَالَّذِينَ صَبَرُوا ابْتِغَاءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا الصَّلَاةَ وَأَنْفَقُوا مِمَّا رَزَقْنَاهُمْ سِرًّا وَعَلَانِيَةً وَيَدْرَءُونَ بِالْحَسَنَةِ السَّيِّئَةَ أُولَئِكَ لَهُمْ عُقْبَى الدَّارِ",
+      "bangla_trans": "তাদের অবস্থা হয় এই যে, নিজেদের রবের সন্তুষ্টির জন্য তারা সবর করে, নামায কায়েম করে, আমার দেয়া রিযিক থেকে প্রকাশ্যে ও গোপনে খরচ করে এবং ভালো দিয়ে মন্দ দূরীভূত করে। আখেরাতের গৃহ হচ্ছে তাদের জন্যই। অর্থাৎ এমন সব বাগান যা হবে তাদের চিরস্থায়ী আবাস।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা"
+        },
+        "2": {
+          "words_ar": "صَبَرُوا",
+          "translate_bn": "ধৈর্য ধরে"
+        },
+        "3": {
+          "words_ar": "ابْتِغَاءَ",
+          "translate_bn": "লাভের জন্যে"
+        },
+        "4": {
+          "words_ar": "وَجْهِ",
+          "translate_bn": "সন্তুষ্টি"
+        },
+        "5": {
+          "words_ar": "رَبِّهِمْ",
+          "translate_bn": "তাদের রবের"
+        },
+        "6": {
+          "words_ar": "وَأَقَامُوا",
+          "translate_bn": "এবং তারা প্রতিষ্ঠা করে"
+        },
+        "7": {
+          "words_ar": "الصَّلَاةَ",
+          "translate_bn": "সালাত"
+        },
+        "8": {
+          "words_ar": "وَأَنْفَقُوا",
+          "translate_bn": "ও তারা ব্যয় করে"
+        },
+        "9": {
+          "words_ar": "مِمَّا",
+          "translate_bn": "(তা) থেকে যা"
+        },
+        "10": {
+          "words_ar": "رَزَقْنَاهُمْ",
+          "translate_bn": "আমরা জীবিকা দিয়েছি তাদের"
+        },
+        "11": {
+          "words_ar": "سِرًّا",
+          "translate_bn": "গোপনে"
+        },
+        "12": {
+          "words_ar": "وَعَلَانِيَةً",
+          "translate_bn": "ও প্রকাশ্যে"
+        },
+        "13": {
+          "words_ar": "وَيَدْرَءُونَ",
+          "translate_bn": "এবং তারা প্রতিরোধ করে"
+        },
+        "14": {
+          "words_ar": "بِالْحَسَنَةِ",
+          "translate_bn": "দিয়ে ভালো"
+        },
+        "15": {
+          "words_ar": "السَّيِّئَةَ",
+          "translate_bn": "মন্দকে"
+        },
+        "16": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব লোক"
+        },
+        "17": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্যে (রয়েছে)"
+        },
+        "18": {
+          "words_ar": "عُقْبَى",
+          "translate_bn": "পরকালের"
+        },
+        "19": {
+          "words_ar": "الدَّارِ",
+          "translate_bn": "ঘর"
+        }
+      },
+      "english_trans": "And those who are constant, seeking the pleasure of their Lord, and keep up prayer and spend (benevolently) out of what We have given them secretly and openly and repel evil with good; as for those, they shall have the (happy) issue of the abode"
+    },
+    "23": {
+      "arabic_text": "جَنَّاتُ عَدْنٍ يَدْخُلُونَهَا وَمَنْ صَلَحَ مِنْ آبَائِهِمْ وَأَزْوَاجِهِمْ وَذُرِّيَّاتِهِمْ وَالْمَلَائِكَةُ يَدْخُلُونَ عَلَيْهِمْ مِنْ كُلِّ بَابٍ",
+      "bangla_trans": "তারা নিজেরা তার মধ্যে প্রবেশ করবে এবং তাদের বাপ-দাদারা ও স্ত্রী-সন্তানদের মধ্য থেকে যারা সৎকর্মশীল হবে তারাও তাদের সাথে সেখানে যাবে। ফেরেশতারা সব দিক থেকে তাদেরকে অভ্যর্থনা জানাবার জন্য আসবে",
+      "word_by_word": {
+        "1": {
+          "words_ar": "جَنَّاتُ",
+          "translate_bn": "জান্নাত"
+        },
+        "2": {
+          "words_ar": "عَدْنٍ",
+          "translate_bn": "স্হায়ী"
+        },
+        "3": {
+          "words_ar": "يَدْخُلُونَهَا",
+          "translate_bn": "তাতে তারা প্রবেশ করবে"
+        },
+        "4": {
+          "words_ar": "وَمَنْ",
+          "translate_bn": "এবং যে"
+        },
+        "5": {
+          "words_ar": "صَلَحَ",
+          "translate_bn": "সৎকাজ করেছে"
+        },
+        "6": {
+          "words_ar": "مِنْ",
+          "translate_bn": "মধ্য হতে"
+        },
+        "7": {
+          "words_ar": "آبَائِهِمْ",
+          "translate_bn": "তাদের পূর্ব-পুরুষদের"
+        },
+        "8": {
+          "words_ar": "وَأَزْوَاجِهِمْ",
+          "translate_bn": "ও তাদের পতি-পত্নীদের"
+        },
+        "9": {
+          "words_ar": "وَذُرِّيَّاتِهِمْ",
+          "translate_bn": "ও তাদের সন্তান-সন্ততিদের"
+        },
+        "10": {
+          "words_ar": "وَالْمَلَائِكَةُ",
+          "translate_bn": "এবং ফেরেশতারা"
+        },
+        "11": {
+          "words_ar": "يَدْخُلُونَ",
+          "translate_bn": "প্রবেশ করবে (উপস্হিত হবে)"
+        },
+        "12": {
+          "words_ar": "عَلَيْهِمْ",
+          "translate_bn": "কাছে তাদের"
+        },
+        "13": {
+          "words_ar": "مِنْ",
+          "translate_bn": "দিয়ে"
+        },
+        "14": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "15": {
+          "words_ar": "بَابٍ",
+          "translate_bn": "দরজা"
+        }
+      },
+      "english_trans": "The gardens of perpetual abode which they will enter along with those who do good from among their parents and their spouses and their offspring; and the angels will enter in upon them from every gate:"
+    },
+    "24": {
+      "arabic_text": "سَلَامٌ عَلَيْكُمْ بِمَا صَبَرْتُمْ فَنِعْمَ عُقْبَى الدَّارِ",
+      "bangla_trans": "এবং তাদেরকে বলবেঃ “তোমাদের প্রতি শান্তি।  তোমরা দুনিয়ায় যেভাবে সবর করে এসেছো তার বিনিময়ে আজ তোমরা এর অধিকারী হয়েছো।”- কাজেই কতই চমৎকার এ আখেরাতের গৃহ!",
+      "word_by_word": {
+        "1": {
+          "words_ar": "سَلَامٌ",
+          "translate_bn": "শান্তি (বর্ষিত হোক)"
+        },
+        "2": {
+          "words_ar": "عَلَيْكُمْ",
+          "translate_bn": "তোমাদের উপর"
+        },
+        "3": {
+          "words_ar": "بِمَا",
+          "translate_bn": "এ কারণে যা"
+        },
+        "4": {
+          "words_ar": "صَبَرْتُمْ",
+          "translate_bn": "তোমরা ধৈর্য ধরেছো"
+        },
+        "5": {
+          "words_ar": "فَنِعْمَ",
+          "translate_bn": "অতএব কতই উত্তম"
+        },
+        "6": {
+          "words_ar": "عُقْبَى",
+          "translate_bn": "পরকালের"
+        },
+        "7": {
+          "words_ar": "الدَّارِ",
+          "translate_bn": "ঘর"
+        }
+      },
+      "english_trans": "Peace be on you because you were constant, how excellent, is then, the issue of the abode."
+    },
+    "25": {
+      "arabic_text": "وَالَّذِينَ يَنْقُضُونَ عَهْدَ اللَّهِ مِنْ بَعْدِ مِيثَاقِهِ وَيَقْطَعُونَ مَا أَمَرَ اللَّهُ بِهِ أَنْ يُوصَلَ وَيُفْسِدُونَ فِي الْأَرْضِ أُولَئِكَ لَهُمُ اللَّعْنَةُ وَلَهُمْ سُوءُ الدَّارِ",
+      "bangla_trans": "আর যারা আল্লাহর অঙ্গীকারে মজবুতভাবে আবদ্ধ হবার পর তা ভেঙে ফেলে, আল্লাহ যেসব সম্পর্ক জোড়া দেবার হুকুম দিয়েছেন সেগুলো ছিন্ন করে এবং পৃথিবীতে বিপর্যয় সৃষ্টি করে তারা লানতের অধিকারী এবং তাদের জন্য রয়েছে আখেরাতে বড়ই খারাপ আবাস।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যারা"
+        },
+        "2": {
+          "words_ar": "يَنْقُضُونَ",
+          "translate_bn": "ভঙ্গ করে"
+        },
+        "3": {
+          "words_ar": "عَهْدَ",
+          "translate_bn": "অঙ্গীকার"
+        },
+        "4": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "5": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "6": {
+          "words_ar": "بَعْدِ",
+          "translate_bn": "পর"
+        },
+        "7": {
+          "words_ar": "مِيثَاقِهِ",
+          "translate_bn": "তা (দৃঢ়ভাবে) বেঁধে নেয়ার"
+        },
+        "8": {
+          "words_ar": "وَيَقْطَعُونَ",
+          "translate_bn": "ও তারা ছিন্ন করে"
+        },
+        "9": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "10": {
+          "words_ar": "أَمَرَ",
+          "translate_bn": "নির্দেশ দিয়েছেন"
+        },
+        "11": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "12": {
+          "words_ar": "بِهِ",
+          "translate_bn": "সম্পর্কে তা"
+        },
+        "13": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "14": {
+          "words_ar": "يُوصَلَ",
+          "translate_bn": "জুড়ে দিতে"
+        },
+        "15": {
+          "words_ar": "وَيُفْسِدُونَ",
+          "translate_bn": "এবং তারা অশান্তি করে বেড়ায়"
+        },
+        "16": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "17": {
+          "words_ar": "الْأَرْضِ",
+          "translate_bn": "জমিনের"
+        },
+        "18": {
+          "words_ar": "أُولَٰئِكَ",
+          "translate_bn": "ঐসব লোক"
+        },
+        "19": {
+          "words_ar": "لَهُمُ",
+          "translate_bn": "তাদের জন্যে"
+        },
+        "20": {
+          "words_ar": "اللَّعْنَةُ",
+          "translate_bn": "অভিশাপ"
+        },
+        "21": {
+          "words_ar": "وَلَهُمْ",
+          "translate_bn": "এবং তাদের জন্যে"
+        },
+        "22": {
+          "words_ar": "سُوءُ",
+          "translate_bn": "নিকৃষ্ট"
+        },
+        "23": {
+          "words_ar": "الدَّارِ",
+          "translate_bn": "ঘর"
+        }
+      },
+      "english_trans": "And those who break the covenant of Allah after its confirmation and cut asunder that which Allah has ordered to be joined and make mischief in the land; (as for) those, upon them shall be curse and they shall have the evil (issue) of the abode."
+    },
+    "26": {
+      "arabic_text": "اللَّهُ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ وَفَرِحُوا بِالْحَيَاةِ الدُّنْيَا وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ",
+      "bangla_trans": "আল্লাহ যাকে ইচ্ছা রিযিক সম্প্রসারিত করেন এবং যাকে চান মাপাজোকা রিযিক দান করেন। এরা দুনিয়ার জীবনে উল্লসিত, অথচ দুনিয়ার জীবন আখেরাতের তুলনায় সামান্য সামগ্রী ছাড়া আর কিছুই নয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "2": {
+          "words_ar": "يَبْسُطُ",
+          "translate_bn": "প্রশস্ত করে দেন"
+        },
+        "3": {
+          "words_ar": "الرِّزْقَ",
+          "translate_bn": "জীবনের উপকরণ"
+        },
+        "4": {
+          "words_ar": "لِمَنْ",
+          "translate_bn": "জন্যে যার"
+        },
+        "5": {
+          "words_ar": "يَشَاءُ",
+          "translate_bn": "তিনি ইচ্ছে করেন"
+        },
+        "6": {
+          "words_ar": "وَيَقْدِرُ",
+          "translate_bn": "এবং পরিমিত দেন"
+        },
+        "7": {
+          "words_ar": "وَفَرِحُوا",
+          "translate_bn": "এবং তারা উল্লাসিত হয়েছে"
+        },
+        "8": {
+          "words_ar": "بِالْحَيَاةِ",
+          "translate_bn": "নিয়ে জীবন"
+        },
+        "9": {
+          "words_ar": "الدُّنْيَا",
+          "translate_bn": "পার্থিব"
+        },
+        "10": {
+          "words_ar": "وَمَا",
+          "translate_bn": "অথচ নয়"
+        },
+        "11": {
+          "words_ar": "الْحَيَاةُ",
+          "translate_bn": "জীবন"
+        },
+        "12": {
+          "words_ar": "الدُّنْيَا",
+          "translate_bn": "পার্থিব"
+        },
+        "13": {
+          "words_ar": "فِي",
+          "translate_bn": "তুলনায়"
+        },
+        "14": {
+          "words_ar": "الْآخِرَةِ",
+          "translate_bn": "আখিরাতের"
+        },
+        "15": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ছাড়া"
+        },
+        "16": {
+          "words_ar": "مَتَاعٌ",
+          "translate_bn": "(ক্ষণস্হায়ী) ভোগের সামগ্রী"
+        }
+      },
+      "english_trans": "Allah amplifies and straitens the means of subsistence for whom He pleases; and they rejoice in this world´s life, and this world´s life is nothing compared with the hereafter but a temporary enjoyment."
+    },
+    "27": {
+      "arabic_text": "وَيَقُولُ الَّذِينَ كَفَرُوا لَوْلَا أُنْزِلَ عَلَيْهِ آيَةٌ مِنْ رَبِّهِ قُلْ إِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي إِلَيْهِ مَنْ أَنَابَ",
+      "bangla_trans": "যারা (মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া সাল্লামের রিসালাত মেনে নিতে) অস্বীকার করেছে তারা বলে, “এ ব্যক্তির কাছে এর রবের পক্ষ থেকে কোন নিদর্শন অবতীর্ণ হয়নি কেন?”  বলো, আল্লাহ যাকে চান গোমরাহ করে দেন এবং তিনি তাকেই তাঁর দিকে আসার পথ দেখান যে তাঁর দিকে রুজু করে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَقُولُ",
+          "translate_bn": "এবং বলে"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "4": {
+          "words_ar": "لَوْلَا",
+          "translate_bn": "কেন না"
+        },
+        "5": {
+          "words_ar": "أُنْزِلَ",
+          "translate_bn": "অবতরণ করা হলো"
+        },
+        "6": {
+          "words_ar": "عَلَيْهِ",
+          "translate_bn": "তার উপর"
+        },
+        "7": {
+          "words_ar": "آيَةٌ",
+          "translate_bn": "একটি নিদর্শন"
+        },
+        "8": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কাছ থেকে"
+        },
+        "9": {
+          "words_ar": "رَبِّهِ",
+          "translate_bn": "তাঁর রবের"
+        },
+        "10": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "11": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "12": {
+          "words_ar": "اللَّهَ",
+          "translate_bn": "আল্লাহ"
+        },
+        "13": {
+          "words_ar": "يُضِلُّ",
+          "translate_bn": "পথভ্রষ্ট করেন"
+        },
+        "14": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যাকে"
+        },
+        "15": {
+          "words_ar": "يَشَاءُ",
+          "translate_bn": "তিনি ইচ্ছে করেন"
+        },
+        "16": {
+          "words_ar": "وَيَهْدِي",
+          "translate_bn": "ও পথ দেখান"
+        },
+        "17": {
+          "words_ar": "إِلَيْهِ",
+          "translate_bn": "তাঁর দিকে"
+        },
+        "18": {
+          "words_ar": "مَنْ",
+          "translate_bn": "যে"
+        },
+        "19": {
+          "words_ar": "أَنَابَ",
+          "translate_bn": "মুখ ফিরায়"
+        }
+      },
+      "english_trans": "And those who disbelieve say: Why is not a sign sent down upon him by his Lord? Say: Surely Allah makes him who will go astray, and guides to Himself those who turn (to Him)."
+    },
+    "28": {
+      "arabic_text": "الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُمْ بِذِكْرِ اللَّهِ أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+      "bangla_trans": "তারাই এ ধরনের লোক যারা (এ নবীর দাওয়াত) গ্রহণ করেছে এবং আল্লাহর স্মরণে তাদের চিত্ত প্রশান্ত হয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "2": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "3": {
+          "words_ar": "وَتَطْمَئِنُّ",
+          "translate_bn": "ও শান্তি লাভ করে"
+        },
+        "4": {
+          "words_ar": "قُلُوبُهُمْ",
+          "translate_bn": "তাদের অন্তরগুলো"
+        },
+        "5": {
+          "words_ar": "بِذِكْرِ",
+          "translate_bn": "মাধ্যমে স্মরণের"
+        },
+        "6": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "7": {
+          "words_ar": "أَلَا",
+          "translate_bn": "জেনে রাখো"
+        },
+        "8": {
+          "words_ar": "بِذِكْرِ",
+          "translate_bn": "স্মরণে"
+        },
+        "9": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "10": {
+          "words_ar": "تَطْمَئِنُّ",
+          "translate_bn": "শান্তি লাভ করে"
+        },
+        "11": {
+          "words_ar": "الْقُلُوبُ",
+          "translate_bn": "অন্তরসমূহ"
+        }
+      },
+      "english_trans": "Those who believe and whose hearts are set at rest by the remembrance of Allah; now surely by Allah´s remembrance are the hearts set at rest."
+    },
+    "29": {
+      "arabic_text": "الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ طُوبَى لَهُمْ وَحُسْنُ مَآبٍ",
+      "bangla_trans": "সাবধান হয়ে যাও। আল্লাহর স্মরণই হচ্ছে এমন জিনিস যার সাহায্যে চিত্ত প্রশান্তি লাভ করে। তারপর যারা সত্যের দাওয়াত মেনে নিয়েছে এবং সৎকাজ করেছে তারা সৌভাগ্যবান এবং তাদের জন্য রয়েছে শুভ পরিণাম।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "2": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এসেছে"
+        },
+        "3": {
+          "words_ar": "وَعَمِلُوا",
+          "translate_bn": "ও কাজ করেছে"
+        },
+        "4": {
+          "words_ar": "الصَّالِحَاتِ",
+          "translate_bn": "সৎ"
+        },
+        "5": {
+          "words_ar": "طُوبَىٰ",
+          "translate_bn": "সুসংবাদ"
+        },
+        "6": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্যে রয়েছে"
+        },
+        "7": {
+          "words_ar": "وَحُسْنُ",
+          "translate_bn": "ও উত্তম"
+        },
+        "8": {
+          "words_ar": "مَآبٍ",
+          "translate_bn": "পরিণাম"
+        }
+      },
+      "english_trans": "(As for) those who believe and do good, a good final state shall be theirs and a goodly return."
+    },
+    "30": {
+      "arabic_text": "كَذَلِكَ أَرْسَلْنَاكَ فِي أُمَّةٍ قَدْ خَلَتْ مِنْ قَبْلِهَا أُمَمٌ لِتَتْلُوَ عَلَيْهِمُ الَّذِي أَوْحَيْنَا إِلَيْكَ وَهُمْ يَكْفُرُونَ بِالرَّحْمَنِ قُلْ هُوَ رَبِّي لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ",
+      "bangla_trans": "হে মুহাম্মাদ! এহেন মাহাত্ম সহকারে আমি তোমাকে নবী বানিয়ে পাঠিয়েছি  এমন এক জাতির মধ্যে যার আগে বহু জাতি অতিক্রান্ত হয়ে গেছে, যাতে তোমার কাছে আমি যে পয়গাম অবতীর্ণ করেছি তা তুমি এদেরকে শুনিয়ে দাও, এমন অবস্থায় যখন এরা নিজেদের পরম দয়াময় আল্লাহকে অস্বীকার করছে।  এদেরকে বলে দাও, তিনিই আমার রব, তিনি ছাড়া আর কোন মাবুদ নেই, তাঁরই ওপর আমি ভরসা করেছি এবং তাঁরই কাছে আমাকে ফিরে যেতে হবে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "كَذَٰلِكَ",
+          "translate_bn": "(হে মুহাম্মাদ) এভাবে"
+        },
+        "2": {
+          "words_ar": "أَرْسَلْنَاكَ",
+          "translate_bn": "তোমাকে আমরা পাঠিয়েছি (রাসূলরূপে)"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "أُمَّةٍ",
+          "translate_bn": "এক জাতির"
+        },
+        "5": {
+          "words_ar": "قَدْ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "6": {
+          "words_ar": "خَلَتْ",
+          "translate_bn": "অতীত হয়েছে"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকেই"
+        },
+        "8": {
+          "words_ar": "قَبْلِهَا",
+          "translate_bn": "তার পূর্ব"
+        },
+        "9": {
+          "words_ar": "أُمَمٌ",
+          "translate_bn": "বহু জাতি"
+        },
+        "10": {
+          "words_ar": "لِتَتْلُوَ",
+          "translate_bn": "যাতে তুমি পাঠ করো"
+        },
+        "11": {
+          "words_ar": "عَلَيْهِمُ",
+          "translate_bn": "কাছে তাদের"
+        },
+        "12": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যা"
+        },
+        "13": {
+          "words_ar": "أَوْحَيْنَا",
+          "translate_bn": "আমরা ওহী করেছি"
+        },
+        "14": {
+          "words_ar": "إِلَيْكَ",
+          "translate_bn": "তোমার প্রতি"
+        },
+        "15": {
+          "words_ar": "وَهُمْ",
+          "translate_bn": "এ অবস্থায়ও তারা"
+        },
+        "16": {
+          "words_ar": "يَكْفُرُونَ",
+          "translate_bn": "অস্বীকার করে"
+        },
+        "17": {
+          "words_ar": "بِالرَّحْمَٰنِ",
+          "translate_bn": "পরম দয়াময়কে"
+        },
+        "18": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "19": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনিই"
+        },
+        "20": {
+          "words_ar": "رَبِّي",
+          "translate_bn": "আমার রব"
+        },
+        "21": {
+          "words_ar": "لَا",
+          "translate_bn": "নেই"
+        },
+        "22": {
+          "words_ar": "إِلَٰهَ",
+          "translate_bn": "কোন ইলাহ"
+        },
+        "23": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ছাড়া"
+        },
+        "24": {
+          "words_ar": "هُوَ",
+          "translate_bn": "তিনি"
+        },
+        "25": {
+          "words_ar": "عَلَيْهِ",
+          "translate_bn": "তাঁরই উপর"
+        },
+        "26": {
+          "words_ar": "تَوَكَّلْتُ",
+          "translate_bn": "আমি নির্ভর করেছি"
+        },
+        "27": {
+          "words_ar": "وَإِلَيْهِ",
+          "translate_bn": "এবং তাঁরই দিকে"
+        },
+        "28": {
+          "words_ar": "مَتَابِ",
+          "translate_bn": "আমার প্রত্যাবর্তন"
+        }
+      },
+      "english_trans": "And thus We have sent you among a nation before which other nations have passed away, that you might recite to them what We have revealed to you and (still) they deny the Beneficent Allah. Say: He is my Lord, there is no god but He; on Him do I rely and to Him is my return."
+    },
+    "31": {
+      "arabic_text": "وَلَوْ أَنَّ قُرْآنًا سُيِّرَتْ بِهِ الْجِبَالُ أَوْ قُطِّعَتْ بِهِ الْأَرْضُ أَوْ كُلِّمَ بِهِ الْمَوْتَى بَلْ لِلَّهِ الْأَمْرُ جَمِيعًا أَفَلَمْ يَيْأَسِ الَّذِينَ آمَنُوا أَنْ لَوْ يَشَاءُ اللَّهُ لَهَدَى النَّاسَ جَمِيعًا وَلَا يَزَالُ الَّذِينَ كَفَرُوا تُصِيبُهُمْ بِمَا صَنَعُوا قَارِعَةٌ أَوْ تَحُلُّ قَرِيبًا مِنْ دَارِهِمْ حَتَّى يَأْتِيَ وَعْدُ اللَّهِ إِنَّ اللَّهَ لَا يُخْلِفُ الْمِيعَادَ",
+      "bangla_trans": "আর কী হতো, যদি এমন কোন কুরআন নাযিল করা হতো যার শক্তিতে পাহাড় চলতে থাকতো অথবা পৃথিবী বিদীর্ণ হতো কিংবা মৃত কবর থেকে বের হয়ে কথা বলতে থাকতো?” (এ ধরনের নিদর্শন দেখিয়ে দেয়া তেমন কঠিন কাজ নয়) বরং সমস্ত ক্ষমতা একমাত্র আল্লাহরই হাতে কেন্দ্রীভূত।  তাহলে ঈমানদাররা কি (এখনো পর্যন্ত কাফেরদের চাওয়ার জবাবে কোন নিদর্শন প্রকাশের আশায় বসে আছে এবং তারা একথা জেনে) হতাশ হয়ে যায়নি যে, যদি আল্লাহ চাইতেন তাহলে সমগ্র মানব জাতিকে হেদায়াত দিয়ে দিতেন? যারা আল্লাহর সাথে কুফরীর নীতি অবলম্বন করে রেখেছে তাদের ওপর তাদের কৃতকর্মের দরুন কোন না কোন বিপর্যয় আসতেই থাকে অথবা তাদের ঘরের কাছেই কোথাও তা অবতীর্ণ হয়। এ ধারাবাহিকতা চলতেই থাকবে যে পর্যন্ত না আল্লাহর ওয়াদা পূর্ণ হয়ে যায়। অবশ্যি আল্লাহ নিজের ওয়াদার ব্যতিক্রম করেন না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَوْ",
+          "translate_bn": "এবং যদি (এমন হতো)"
+        },
+        "2": {
+          "words_ar": "أَنَّ",
+          "translate_bn": "যে"
+        },
+        "3": {
+          "words_ar": "قُرْآنًا",
+          "translate_bn": "(এই) কুরআন"
+        },
+        "4": {
+          "words_ar": "سُيِّرَتْ",
+          "translate_bn": "গতিশীল করা যেতো"
+        },
+        "5": {
+          "words_ar": "بِهِ",
+          "translate_bn": "দিয়ে তা"
+        },
+        "6": {
+          "words_ar": "الْجِبَالُ",
+          "translate_bn": "পাহাড়সমূহকে"
+        },
+        "7": {
+          "words_ar": "أَوْ",
+          "translate_bn": "বা"
+        },
+        "8": {
+          "words_ar": "قُطِّعَتْ",
+          "translate_bn": "টুকরো টুকরো করা যেতো"
+        },
+        "9": {
+          "words_ar": "بِهِ",
+          "translate_bn": "দিয়ে তা"
+        },
+        "10": {
+          "words_ar": "الْأَرْضُ",
+          "translate_bn": "জমিনকে"
+        },
+        "11": {
+          "words_ar": "أَوْ",
+          "translate_bn": "অথবা"
+        },
+        "12": {
+          "words_ar": "كُلِّمَ",
+          "translate_bn": "কথা বলা যেতো"
+        },
+        "13": {
+          "words_ar": "بِهِ",
+          "translate_bn": "দিয়ে তা"
+        },
+        "14": {
+          "words_ar": "الْمَوْتَىٰ",
+          "translate_bn": "মৃতদের সাথে (তবুও ঈমান আনতো না)"
+        },
+        "15": {
+          "words_ar": "بَلْ",
+          "translate_bn": "বরং"
+        },
+        "16": {
+          "words_ar": "لِلَّهِ",
+          "translate_bn": "আল্লাহর নিয়ন্ত্রণে"
+        },
+        "17": {
+          "words_ar": "الْأَمْرُ",
+          "translate_bn": "বিষয়"
+        },
+        "18": {
+          "words_ar": "جَمِيعًا",
+          "translate_bn": "সমস্তই"
+        },
+        "19": {
+          "words_ar": "أَفَلَمْ",
+          "translate_bn": "তবে কি না"
+        },
+        "20": {
+          "words_ar": "يَيْأَسِ",
+          "translate_bn": "নিরাশ হয়েছে"
+        },
+        "21": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "22": {
+          "words_ar": "آمَنُوا",
+          "translate_bn": "ঈমান এনেছে"
+        },
+        "23": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "24": {
+          "words_ar": "لَوْ",
+          "translate_bn": "যদি"
+        },
+        "25": {
+          "words_ar": "يَشَاءُ",
+          "translate_bn": "ইচ্ছে করতেন"
+        },
+        "26": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "27": {
+          "words_ar": "لَهَدَى",
+          "translate_bn": "অবশ্যই পথ দেখাতেন"
+        },
+        "28": {
+          "words_ar": "النَّاسَ",
+          "translate_bn": "মানুষকে"
+        },
+        "29": {
+          "words_ar": "جَمِيعًا",
+          "translate_bn": "সকল"
+        },
+        "30": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "31": {
+          "words_ar": "يَزَالُ",
+          "translate_bn": "সর্বদাই"
+        },
+        "32": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "33": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "34": {
+          "words_ar": "تُصِيبُهُمْ",
+          "translate_bn": "তাদের কাছে পৌঁছবে"
+        },
+        "35": {
+          "words_ar": "بِمَا",
+          "translate_bn": "এ কারণে যা"
+        },
+        "36": {
+          "words_ar": "صَنَعُوا",
+          "translate_bn": "তারা করেছে"
+        },
+        "37": {
+          "words_ar": "قَارِعَةٌ",
+          "translate_bn": "বিপর্যয়"
+        },
+        "38": {
+          "words_ar": "أَوْ",
+          "translate_bn": "অথবা"
+        },
+        "39": {
+          "words_ar": "تَحُلُّ",
+          "translate_bn": "আপতিত হবে"
+        },
+        "40": {
+          "words_ar": "قَرِيبًا",
+          "translate_bn": "নিকটে"
+        },
+        "41": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "42": {
+          "words_ar": "دَارِهِمْ",
+          "translate_bn": "তাদের ঘরের"
+        },
+        "43": {
+          "words_ar": "حَتَّىٰ",
+          "translate_bn": "যতক্ষণ না"
+        },
+        "44": {
+          "words_ar": "يَأْتِيَ",
+          "translate_bn": "আসবে"
+        },
+        "45": {
+          "words_ar": "وَعْدُ",
+          "translate_bn": "অঙ্গীকার"
+        },
+        "46": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "47": {
+          "words_ar": "إِنَّ",
+          "translate_bn": "নিশ্চয়ই"
+        },
+        "48": {
+          "words_ar": "اللَّهَ",
+          "translate_bn": "আল্লাহ"
+        },
+        "49": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "50": {
+          "words_ar": "يُخْلِفُ",
+          "translate_bn": "ভঙ্গ করেন"
+        },
+        "51": {
+          "words_ar": "الْمِيعَادَ",
+          "translate_bn": "অঙ্গীকার"
+        }
+      },
+      "english_trans": "And even if there were a Quran with which the mountains were made to pass away, or the earth were travelled over with it, or the dead were made to speak thereby; nay! the commandment is wholly Allah´s, Have not yet those who believe known that if Allah please He would certainly guide all the people? And (as for) those who disbelieve, there will not cease to afflict them because of what they do a repelling calamity, or it will alight close by their abodes, until the promise of Allah comes about; surely Allah will not fail in (His) promise."
+    },
+    "32": {
+      "arabic_text": "وَلَقَدِ اسْتُهْزِئَ بِرُسُلٍ مِنْ قَبْلِكَ فَأَمْلَيْتُ لِلَّذِينَ كَفَرُوا ثُمَّ أَخَذْتُهُمْ فَكَيْفَ كَانَ عِقَابِ",
+      "bangla_trans": "তোমার আগেও অনেক রসূলকে বিদ্রূপ করা হয়েছে। কিন্তু আমি সবসময় অমান্যকারীদেরকে ঢিল দিয়ে এসেছি এবং শেষ পর্যন্ত তাদেরকে পাকড়াও করেছি। তাহলে দেখো আমার শাস্তি কেমন কঠোর ছিল।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَقَدِ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "اسْتُهْزِئَ",
+          "translate_bn": "বিদ্রুপ করা হয়েছে"
+        },
+        "3": {
+          "words_ar": "بِرُسُلٍ",
+          "translate_bn": "সাথে রাসূলদের"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকেই"
+        },
+        "5": {
+          "words_ar": "قَبْلِكَ",
+          "translate_bn": "তোমার পূর্ব"
+        },
+        "6": {
+          "words_ar": "فَأَمْلَيْتُ",
+          "translate_bn": "অতঃপর আমি অবকাশ দিয়েছি"
+        },
+        "7": {
+          "words_ar": "لِلَّذِينَ",
+          "translate_bn": "(তাদেরকে) জন্যে যারা"
+        },
+        "8": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "9": {
+          "words_ar": "ثُمَّ",
+          "translate_bn": "এরপর"
+        },
+        "10": {
+          "words_ar": "أَخَذْتُهُمْ",
+          "translate_bn": "তাদের আমি পাকড়াও করেছি"
+        },
+        "11": {
+          "words_ar": "فَكَيْفَ",
+          "translate_bn": "অতঃপর (দেখো) কেমন"
+        },
+        "12": {
+          "words_ar": "كَانَ",
+          "translate_bn": "ছিলো"
+        },
+        "13": {
+          "words_ar": "عِقَابِ",
+          "translate_bn": "আমার শাস্তি"
+        }
+      },
+      "english_trans": "And messengers before you were certainly mocked at, but I gave respite to those who disbelieved, then I destroyed them; how then was My requital (of evil)?"
+    },
+    "33": {
+      "arabic_text": "أَفَمَنْ هُوَ قَائِمٌ عَلَى كُلِّ نَفْسٍ بِمَا كَسَبَتْ وَجَعَلُوا لِلَّهِ شُرَكَاءَ قُلْ سَمُّوهُمْ أَمْ تُنَبِّئُونَهُ بِمَا لَا يَعْلَمُ فِي الْأَرْضِ أَمْ بِظَاهِرٍ مِنَ الْقَوْلِ بَلْ زُيِّنَ لِلَّذِينَ كَفَرُوا مَكْرُهُمْ وَصُدُّوا عَنِ السَّبِيلِ وَمَنْ يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ",
+      "bangla_trans": "তবে কি যিনি প্রত্যেক ব্যক্তির উপার্জনের প্রতি নজর রাখেন  (তাঁর মোকাবিলায় এ দুঃসাহস করা হচ্ছে যে) লোকেরা তাঁর কিছু শরীক ঠিক করে রেখেছে? হে নবী! এদেরকে বলো, (যদি তারা সত্যিই আল্লাহর বানানো শরীক হয়ে থাকে তাহলে) তাদের পরিচয় দাও, তারা কারা? না কি তোমরা আল্লাহকে এমন একটি নতুন খবর দিচ্ছো যার অস্তিত্ব পৃথিবীতে তাঁর অজানাই রয়ে গেছে? অথবা তোমরা এমনি যা মুখে আসে বলে দাও?  আসলে যারা সত্যের দাওয়াত মেনে নিতে অস্বীকার করেছে তাদের জন্য তাদের প্রতারণাসমূহকে সুসজ্জিত করে দেয়া হয়েছে এবং তাদেরকে সত্য-সঠিক পথ থেকে নিবৃত্ত করা হয়েছে।  তারপর আল্লাহ যাকে গোমরাহীতে লিপ্ত করেন তাকে পথ দেখাবার কেউ নেই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَفَمَنْ",
+          "translate_bn": "তবে কি সেই (সত্ত্বা)"
+        },
+        "2": {
+          "words_ar": "هُوَ",
+          "translate_bn": "যিনি"
+        },
+        "3": {
+          "words_ar": "قَائِمٌ",
+          "translate_bn": "দন্ডায়মান (পর্যবেক্ষক)"
+        },
+        "4": {
+          "words_ar": "عَلَىٰ",
+          "translate_bn": "উপর"
+        },
+        "5": {
+          "words_ar": "كُلِّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "6": {
+          "words_ar": "نَفْسٍ",
+          "translate_bn": "মানুষ"
+        },
+        "7": {
+          "words_ar": "بِمَا",
+          "translate_bn": "ঐ সম্পর্কে যা"
+        },
+        "8": {
+          "words_ar": "كَسَبَتْ",
+          "translate_bn": "সে উপার্জন করেছে"
+        },
+        "9": {
+          "words_ar": "وَجَعَلُوا",
+          "translate_bn": "এ অবস্হায়ও তারা বানিয়েছে"
+        },
+        "10": {
+          "words_ar": "لِلَّهِ",
+          "translate_bn": "আল্লাহর জন্যে"
+        },
+        "11": {
+          "words_ar": "شُرَكَاءَ",
+          "translate_bn": "বহু শরীক"
+        },
+        "12": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "13": {
+          "words_ar": "سَمُّوهُمْ",
+          "translate_bn": "তাদের নাম বলো"
+        },
+        "14": {
+          "words_ar": "أَمْ",
+          "translate_bn": "কি"
+        },
+        "15": {
+          "words_ar": "تُنَبِّئُونَهُ",
+          "translate_bn": "তাঁকে তোমরা সংবাদ দিচ্ছো"
+        },
+        "16": {
+          "words_ar": "بِمَا",
+          "translate_bn": "ঐ সম্পর্কে যা"
+        },
+        "17": {
+          "words_ar": "لَا",
+          "translate_bn": "না"
+        },
+        "18": {
+          "words_ar": "يَعْلَمُ",
+          "translate_bn": "তিনি জানেন"
+        },
+        "19": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "20": {
+          "words_ar": "الْأَرْضِ",
+          "translate_bn": "পৃথিবীর"
+        },
+        "21": {
+          "words_ar": "أَمْ",
+          "translate_bn": "অথবা"
+        },
+        "22": {
+          "words_ar": "بِظَاهِرٍ",
+          "translate_bn": "বাহ্যিক দিক"
+        },
+        "23": {
+          "words_ar": "مِنَ",
+          "translate_bn": "কিছু"
+        },
+        "24": {
+          "words_ar": "الْقَوْلِ",
+          "translate_bn": "(অর্থহীন) কথার"
+        },
+        "25": {
+          "words_ar": "بَلْ",
+          "translate_bn": "বরং"
+        },
+        "26": {
+          "words_ar": "زُيِّنَ",
+          "translate_bn": "শোভনীয় করা হয়েছে"
+        },
+        "27": {
+          "words_ar": "لِلَّذِينَ",
+          "translate_bn": "(তাদের) জন্যে যারা"
+        },
+        "28": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "29": {
+          "words_ar": "مَكْرُهُمْ",
+          "translate_bn": "তাদের ছলনা"
+        },
+        "30": {
+          "words_ar": "وَصُدُّوا",
+          "translate_bn": "এবং নিবৃত্ত করা হয়েছে"
+        },
+        "31": {
+          "words_ar": "عَنِ",
+          "translate_bn": "থেকে"
+        },
+        "32": {
+          "words_ar": "السَّبِيلِ",
+          "translate_bn": "পথ"
+        },
+        "33": {
+          "words_ar": "وَمَنْ",
+          "translate_bn": "এবং যাকে"
+        },
+        "34": {
+          "words_ar": "يُضْلِلِ",
+          "translate_bn": "পথভ্রষ্ট করেন"
+        },
+        "35": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "36": {
+          "words_ar": "فَمَا",
+          "translate_bn": "অতঃপর নেই"
+        },
+        "37": {
+          "words_ar": "لَهُ",
+          "translate_bn": "জন্যে তার"
+        },
+        "38": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কোনো"
+        },
+        "39": {
+          "words_ar": "هَادٍ",
+          "translate_bn": "পথ প্রদর্শক"
+        }
+      },
+      "english_trans": "Is He then Who watches every soul as to what it earns? And yet they give associates to Allah! Say: Give them a name; nay, do you mean to inform Him of what He does not know in the earth, or (do you affirm this) by an outward saying? Rather, their plans are made to appear fair-seeming to those who disbelieve, and they are kept back from the path; and whom Allah makes err, he shall have no guide."
+    },
+    "34": {
+      "arabic_text": "لَهُمْ عَذَابٌ فِي الْحَيَاةِ الدُّنْيَا وَلَعَذَابُ الْآخِرَةِ أَشَقُّ وَمَا لَهُمْ مِنَ اللَّهِ مِنْ وَاقٍ",
+      "bangla_trans": "এ ধরনের লোকদের জন্য দুনিয়ার জীবনেই রয়েছে আযাব এবং আখেরাতের আযাব এর চেয়েও বেশী কঠিন। তাদেরকে আল্লাহর হাত থেকে বাঁচাবার কেউ নেই।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্যে"
+        },
+        "2": {
+          "words_ar": "عَذَابٌ",
+          "translate_bn": "শাস্তি (রয়েছে)"
+        },
+        "3": {
+          "words_ar": "فِي",
+          "translate_bn": "মধ্যে"
+        },
+        "4": {
+          "words_ar": "الْحَيَاةِ",
+          "translate_bn": "জীবনের"
+        },
+        "5": {
+          "words_ar": "الدُّنْيَا",
+          "translate_bn": "পার্থিব"
+        },
+        "6": {
+          "words_ar": "وَلَعَذَابُ",
+          "translate_bn": "এবং অবশ্যই শাস্তি"
+        },
+        "7": {
+          "words_ar": "الْآخِرَةِ",
+          "translate_bn": "আখিরাতের"
+        },
+        "8": {
+          "words_ar": "أَشَقُّ",
+          "translate_bn": "কঠোরতর"
+        },
+        "9": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং নেই"
+        },
+        "10": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "তাদের জন্যে"
+        },
+        "11": {
+          "words_ar": "مِنَ",
+          "translate_bn": "থেকে"
+        },
+        "12": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "13": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কোনো"
+        },
+        "14": {
+          "words_ar": "وَاقٍ",
+          "translate_bn": "রক্ষাকারী"
+        }
+      },
+      "english_trans": "They shall have chastisement in this world´s life, and the chastisement of the hereafter is certainly more grievous, and they shall have no protector against Allah."
+    },
+    "35": {
+      "arabic_text": "مَثَلُ الْجَنَّةِ الَّتِي وُعِدَ الْمُتَّقُونَ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ أُكُلُهَا دَائِمٌ وَظِلُّهَا تِلْكَ عُقْبَى الَّذِينَ اتَّقَوْا وَعُقْبَى الْكَافِرِينَ النَّارُ",
+      "bangla_trans": "যারা আল্লাহকে ভয় করে তাদের জন্য যে জান্নাতের ওয়াদা করা হয়েছে তার অবস্থা হচ্ছে এই যে, তার পাদদেশে নদী প্রবাহিত হচ্ছে, তার ফলসমূহ চিরস্থায়ী এবং তার ছায়ার বিনাশ নেই। এ হচ্ছে মুত্তাকীদের পরিণাম। অন্যদিকে সত্য অমান্যকারীদের পরিণাম হচ্ছে জাহান্নামের আগুন।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "مَثَلُ",
+          "translate_bn": "দৃষ্টান্ত (পরিচয়)"
+        },
+        "2": {
+          "words_ar": "الْجَنَّةِ",
+          "translate_bn": "জান্নাতের"
+        },
+        "3": {
+          "words_ar": "الَّتِي",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "وُعِدَ",
+          "translate_bn": "প্রতিশ্রুতি দেয়া হয়েছে"
+        },
+        "5": {
+          "words_ar": "الْمُتَّقُونَ",
+          "translate_bn": "মুত্তাকীদের (এমন যে)"
+        },
+        "6": {
+          "words_ar": "تَجْرِي",
+          "translate_bn": "প্রবাহিত হয়"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "8": {
+          "words_ar": "تَحْتِهَا",
+          "translate_bn": "তার নিচ"
+        },
+        "9": {
+          "words_ar": "الْأَنْهَارُ",
+          "translate_bn": "ঝর্ণাসমূহ"
+        },
+        "10": {
+          "words_ar": "أُكُلُهَا",
+          "translate_bn": "তার ফলসমূহ"
+        },
+        "11": {
+          "words_ar": "دَائِمٌ",
+          "translate_bn": "চিরস্হায়ী"
+        },
+        "12": {
+          "words_ar": "وَظِلُّهَا",
+          "translate_bn": "এবং তার ছায়াও (অবিনশ্বর)"
+        },
+        "13": {
+          "words_ar": "تِلْكَ",
+          "translate_bn": "এসব"
+        },
+        "14": {
+          "words_ar": "عُقْبَى",
+          "translate_bn": "পরিণাম"
+        },
+        "15": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "(তাদের) যারা"
+        },
+        "16": {
+          "words_ar": "اتَّقَوْا",
+          "translate_bn": "(আল্লাহকে) ভয় করে"
+        },
+        "17": {
+          "words_ar": "وَعُقْبَى",
+          "translate_bn": "ও পরিণাম"
+        },
+        "18": {
+          "words_ar": "الْكَافِرِينَ",
+          "translate_bn": "কাফেরদের"
+        },
+        "19": {
+          "words_ar": "النَّارُ",
+          "translate_bn": "(জাহান্নামের) আগুন"
+        }
+      },
+      "english_trans": "A likeness of the garden which the righteous are promised; there now beneath it rivers, its food and shades are perpetual; this is the requital of those who guarded (against evil), and the requital of the unbelievers is the fire."
+    },
+    "36": {
+      "arabic_text": "وَالَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَفْرَحُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمِنَ الْأَحْزَابِ مَنْ يُنْكِرُ بَعْضَهُ قُلْ إِنَّمَا أُمِرْتُ أَنْ أَعْبُدَ اللَّهَ وَلَا أُشْرِكَ بِهِ إِلَيْهِ أَدْعُو وَإِلَيْهِ مَآبِ",
+      "bangla_trans": "হে নবী! যাদেরকে আমি আগে কিতাব দিয়েছিলাম তারা তোমার প্রতি আমি যে কিতাব নাযিল করেছি তাতে আনন্দিত। আর বিভিন্ন দলে এমন কিছু লোক আছে যারা এর কোন কোন কথা মানে না। তুমি পরিষ্কার বলে দাও, “আমাকে তো শুধুমাত্র আল্লাহর বন্দেগী করার হুকুম দেয়া হয়েছে এবং তাঁর সাথে কাউকে শরীক করা থেকে নিষেধ করা হয়েছে। কাজেই আমি তাঁরই দিকে আহবান জানাচ্ছি এবং তাঁরই কাছে আমার প্রত্যাবর্তন।”",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَالَّذِينَ",
+          "translate_bn": "এবং যাদেরকে"
+        },
+        "2": {
+          "words_ar": "آتَيْنَاهُمُ",
+          "translate_bn": "আমরা দিয়েছি তাদের"
+        },
+        "3": {
+          "words_ar": "الْكِتَابَ",
+          "translate_bn": "কিতাব"
+        },
+        "4": {
+          "words_ar": "يَفْرَحُونَ",
+          "translate_bn": "তারা আনন্দ পায়"
+        },
+        "5": {
+          "words_ar": "بِمَا",
+          "translate_bn": "এ কারণে যা"
+        },
+        "6": {
+          "words_ar": "أُنْزِلَ",
+          "translate_bn": "অবতরণ করা হয়েছে"
+        },
+        "7": {
+          "words_ar": "إِلَيْكَ",
+          "translate_bn": "তোমার প্রতি"
+        },
+        "8": {
+          "words_ar": "وَمِنَ",
+          "translate_bn": "আবার কিন্তু"
+        },
+        "9": {
+          "words_ar": "الْأَحْزَابِ",
+          "translate_bn": "বিভিন্ন দলের"
+        },
+        "10": {
+          "words_ar": "مَنْ",
+          "translate_bn": "কেউ কেউ"
+        },
+        "11": {
+          "words_ar": "يُنْكِرُ",
+          "translate_bn": "অস্বীকার করে"
+        },
+        "12": {
+          "words_ar": "بَعْضَهُ",
+          "translate_bn": "তার কিছু অংশ"
+        },
+        "13": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "14": {
+          "words_ar": "إِنَّمَا",
+          "translate_bn": "শুধুমাত্র"
+        },
+        "15": {
+          "words_ar": "أُمِرْتُ",
+          "translate_bn": "আমাকে আদেশ করা হয়েছে"
+        },
+        "16": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "17": {
+          "words_ar": "أَعْبُدَ",
+          "translate_bn": "আমি (যেন) ইবাদত করি"
+        },
+        "18": {
+          "words_ar": "اللَّهَ",
+          "translate_bn": "আল্লাহর"
+        },
+        "19": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না (যেন)"
+        },
+        "20": {
+          "words_ar": "أُشْرِكَ",
+          "translate_bn": "আমি শরীক করি"
+        },
+        "21": {
+          "words_ar": "بِهِ",
+          "translate_bn": "তাঁর সাথে (অন্য কাউকে)"
+        },
+        "22": {
+          "words_ar": "إِلَيْهِ",
+          "translate_bn": "তাঁরই দিকে"
+        },
+        "23": {
+          "words_ar": "أَدْعُو",
+          "translate_bn": "আমি ডাকি"
+        },
+        "24": {
+          "words_ar": "وَإِلَيْهِ",
+          "translate_bn": "ও তাঁরই দিকে"
+        },
+        "25": {
+          "words_ar": "مَآبِ",
+          "translate_bn": "আমার গন্তব্যস্থান"
+        }
+      },
+      "english_trans": "And those to whom We have given the Book rejoice in that which has been revealed to you, and of the confederates are some who deny a part of it. Say: I am only commanded that I should serve Allah and not associate anything with Him, to Him do I invite (you) and to Him is my return."
+    },
+    "37": {
+      "arabic_text": "وَكَذَلِكَ أَنْزَلْنَاهُ حُكْمًا عَرَبِيًّا وَلَئِنِ اتَّبَعْتَ أَهْوَاءَهُمْ بَعْدَمَا جَاءَكَ مِنَ الْعِلْمِ مَا لَكَ مِنَ اللَّهِ مِنْ وَلِيٍّ وَلَا وَاقٍ",
+      "bangla_trans": "এ হেদায়াতের সাথে আমি এ আরবী ফরমান তোমার প্রতি নাযিল করেছি। এখন তোমার কাছে যে জ্ঞান এসে গেছে তা সত্ত্বেও যদি তুমি লোকদের খেয়াল খুশীর তাবেদারী করো তাহলে আল্লাহর মোকাবিলায় তোমার কোন সহায়ও থাকবে না, আর কেউ তাঁর পাকড়াও থেকেও তোমাকে বাঁচাতে পারবে না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَكَذَٰلِكَ",
+          "translate_bn": "এবং এভাবে"
+        },
+        "2": {
+          "words_ar": "أَنْزَلْنَاهُ",
+          "translate_bn": "তা আমরা অবতীর্ণ করেছি"
+        },
+        "3": {
+          "words_ar": "حُكْمًا",
+          "translate_bn": "বিধানরূপে"
+        },
+        "4": {
+          "words_ar": "عَرَبِيًّا",
+          "translate_bn": "আরবী ভাষায়"
+        },
+        "5": {
+          "words_ar": "وَلَئِنِ",
+          "translate_bn": "এবং অবশ্যই যদি"
+        },
+        "6": {
+          "words_ar": "اتَّبَعْتَ",
+          "translate_bn": "তুমি অনুসরণ করো"
+        },
+        "7": {
+          "words_ar": "أَهْوَاءَهُمْ",
+          "translate_bn": "তাদের খেয়ালখুশীর"
+        },
+        "8": {
+          "words_ar": "بَعْدَمَا",
+          "translate_bn": "পরেও যা"
+        },
+        "9": {
+          "words_ar": "جَاءَكَ",
+          "translate_bn": "তোমার কাছে এসেছে"
+        },
+        "10": {
+          "words_ar": "مِنَ",
+          "translate_bn": "থেকে"
+        },
+        "11": {
+          "words_ar": "الْعِلْمِ",
+          "translate_bn": "জ্ঞান"
+        },
+        "12": {
+          "words_ar": "مَا",
+          "translate_bn": "নেই"
+        },
+        "13": {
+          "words_ar": "لَكَ",
+          "translate_bn": "তোমার জন্যে"
+        },
+        "14": {
+          "words_ar": "مِنَ",
+          "translate_bn": "বিরুদ্ধে"
+        },
+        "15": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "16": {
+          "words_ar": "مِنْ",
+          "translate_bn": "কোনো"
+        },
+        "17": {
+          "words_ar": "وَلِيٍّ",
+          "translate_bn": "অভিভাবক (বাঁচাতে)"
+        },
+        "18": {
+          "words_ar": "وَلَا",
+          "translate_bn": "এবং না"
+        },
+        "19": {
+          "words_ar": "وَاقٍ",
+          "translate_bn": "কোনো রক্ষাকারী"
+        }
+      },
+      "english_trans": "And thus have We revealed it, a true judgment in Arabic, and if you follow their low desires after what has come to you of knowledge, you shall not have against Allah any guardian or a protector."
+    },
+    "38": {
+      "arabic_text": "وَلَقَدْ أَرْسَلْنَا رُسُلًا مِنْ قَبْلِكَ وَجَعَلْنَا لَهُمْ أَزْوَاجًا وَذُرِّيَّةً وَمَا كَانَ لِرَسُولٍ أَنْ يَأْتِيَ بِآيَةٍ إِلَّا بِإِذْنِ اللَّهِ لِكُلِّ أَجَلٍ كِتَابٌ",
+      "bangla_trans": "তোমার আগেও আমি অনেক রসূল পাঠিয়েছি এবং তাদেরকে স্ত্রী ও সন্তান সন্ততি দিয়েছি। আর আল্লাহর অনুমতি ছাড়া নিজেই কোন নিদর্শন এনে দেখাবার শক্তি কোন রসূলেরও ছিল না। প্রত্যেক যুগের জন্য একটি কিতাব রয়েছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَلَقَدْ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "أَرْسَلْنَا",
+          "translate_bn": "আমরা প্রেরণ করেছি"
+        },
+        "3": {
+          "words_ar": "رُسُلًا",
+          "translate_bn": "রাসূলদেরকে"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকেই"
+        },
+        "5": {
+          "words_ar": "قَبْلِكَ",
+          "translate_bn": "তোমার পূর্ব"
+        },
+        "6": {
+          "words_ar": "وَجَعَلْنَا",
+          "translate_bn": "এবং আমরা দিয়েছিলাম"
+        },
+        "7": {
+          "words_ar": "لَهُمْ",
+          "translate_bn": "জন্যে তাদের"
+        },
+        "8": {
+          "words_ar": "أَزْوَاجًا",
+          "translate_bn": "স্ত্রীসমূহ"
+        },
+        "9": {
+          "words_ar": "وَذُرِّيَّةً",
+          "translate_bn": "ও সন্তান-সন্ততি"
+        },
+        "10": {
+          "words_ar": "وَمَا",
+          "translate_bn": "এবং না"
+        },
+        "11": {
+          "words_ar": "كَانَ",
+          "translate_bn": "ছিলো (সম্ভব)"
+        },
+        "12": {
+          "words_ar": "لِرَسُولٍ",
+          "translate_bn": "কোনো রাসূলের জন্যে"
+        },
+        "13": {
+          "words_ar": "أَنْ",
+          "translate_bn": "যে"
+        },
+        "14": {
+          "words_ar": "يَأْتِيَ",
+          "translate_bn": "সে আসবে"
+        },
+        "15": {
+          "words_ar": "بِآيَةٍ",
+          "translate_bn": "নিয়ে কোনো নিদর্শন"
+        },
+        "16": {
+          "words_ar": "إِلَّا",
+          "translate_bn": "ছাড়া"
+        },
+        "17": {
+          "words_ar": "بِإِذْنِ",
+          "translate_bn": "নিয়ে অনুমতি"
+        },
+        "18": {
+          "words_ar": "اللَّهِ",
+          "translate_bn": "আল্লাহর"
+        },
+        "19": {
+          "words_ar": "لِكُلِّ",
+          "translate_bn": "জন্যে প্রত্যেক"
+        },
+        "20": {
+          "words_ar": "أَجَلٍ",
+          "translate_bn": "নির্ধারিত যুগের"
+        },
+        "21": {
+          "words_ar": "كِتَابٌ",
+          "translate_bn": "একটি কিতাব (আছে)"
+        }
+      },
+      "english_trans": "And certainly We sent messengers before you and gave them wives and children, and it is not in (the power of) an messenger to bring a sign except by Allah´s permission; for every term there is an appointment."
+    },
+    "39": {
+      "arabic_text": "يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ وَعِنْدَهُ أُمُّ الْكِتَابِ",
+      "bangla_trans": "আল্লাহ যা চান নিশ্চিহ্ন করে দেন এবং যা চান কায়েম রাখেন। উম্মুল কিতাব তাঁর কাছেই আছে।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "يَمْحُو",
+          "translate_bn": "নিশ্চিহ্ন করেন"
+        },
+        "2": {
+          "words_ar": "اللَّهُ",
+          "translate_bn": "আল্লাহ"
+        },
+        "3": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "4": {
+          "words_ar": "يَشَاءُ",
+          "translate_bn": "ইচ্ছে করেন"
+        },
+        "5": {
+          "words_ar": "وَيُثْبِتُ",
+          "translate_bn": "ও বহাল রাখেন (যা চান)"
+        },
+        "6": {
+          "words_ar": "وَعِنْدَهُ",
+          "translate_bn": "এবং তাঁর কাছে আছে"
+        },
+        "7": {
+          "words_ar": "أُمُّ",
+          "translate_bn": "মূল"
+        },
+        "8": {
+          "words_ar": "الْكِتَابِ",
+          "translate_bn": "কিতাবের"
+        }
+      },
+      "english_trans": "Allah makes to pass away and establishes what He pleases, and with Him is the basis of the Book."
+    },
+    "40": {
+      "arabic_text": "وَإِنْ مَا نُرِيَنَّكَ بَعْضَ الَّذِي نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَعَلَيْنَا الْحِسَابُ",
+      "bangla_trans": "হে নবী! আমি এদেরকে যে অশুভ পরিণামের ভয় দেখাচ্ছি চাই তার কোন অংশ আমি তোমার জীবিতাবস্থায় তোমাকে দেখিয়ে দেই অথবা তা প্রকাশ হবার আগেই তোমাকে উঠিয়ে নিই- সর্বাবস্থায় তোমার কাজই হবে শুধুমাত্র পয়গাম পৌঁছিয়ে দেয়া আর হিসেব নেয়া হলো আমার কাজ।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَإِنْ",
+          "translate_bn": "এবং যদি"
+        },
+        "2": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "3": {
+          "words_ar": "نُرِيَنَّكَ",
+          "translate_bn": "তোমাকে আমরা দেখাই"
+        },
+        "4": {
+          "words_ar": "بَعْضَ",
+          "translate_bn": "কিছুটা"
+        },
+        "5": {
+          "words_ar": "الَّذِي",
+          "translate_bn": "যা"
+        },
+        "6": {
+          "words_ar": "نَعِدُهُمْ",
+          "translate_bn": "তাদের প্রতিশ্রুতি দিচ্ছি আমরা"
+        },
+        "7": {
+          "words_ar": "أَوْ",
+          "translate_bn": "অথবা"
+        },
+        "8": {
+          "words_ar": "نَتَوَفَّيَنَّكَ",
+          "translate_bn": "তোমাকে মৃত্যু দিই আমরা (যাই হউক)"
+        },
+        "9": {
+          "words_ar": "فَإِنَّمَا",
+          "translate_bn": "প্রকৃতপক্ষে"
+        },
+        "10": {
+          "words_ar": "عَلَيْكَ",
+          "translate_bn": "তোমার দায়িত্ব"
+        },
+        "11": {
+          "words_ar": "الْبَلَاغُ",
+          "translate_bn": "প্রচার করা"
+        },
+        "12": {
+          "words_ar": "وَعَلَيْنَا",
+          "translate_bn": "এবং আমাদের দায়িত্ব"
+        },
+        "13": {
+          "words_ar": "الْحِسَابُ",
+          "translate_bn": "হিসাব-নিকাশের"
+        }
+      },
+      "english_trans": "And We will either let you see part of what We threaten them with or cause you to die, for only the delivery of the message is (incumbent) on you, while calling (them) to account is Our (business)."
+    },
+    "41": {
+      "arabic_text": "أَوَلَمْ يَرَوْا أَنَّا نَأْتِي الْأَرْضَ نَنْقُصُهَا مِنْ أَطْرَافِهَا وَاللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِ وَهُوَ سَرِيعُ الْحِسَابِ",
+      "bangla_trans": "এরা কি দেখে না আমি এ ভূখণ্ডের ওপর এগিয়ে চলছি এবং এর গণ্ডী চতুরদিক থেকে সংকুচিত করে আনছি? আল্লাহ রাজত্ব করছেন, তাঁর সিদ্ধান্ত পুনরবিবেচনা করার কেউ নেই এবং তাঁর হিসেব নিতে একটুও দেরী হয় না।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "أَوَلَمْ",
+          "translate_bn": "কি নি"
+        },
+        "2": {
+          "words_ar": "يَرَوْا",
+          "translate_bn": "তারা দেখে"
+        },
+        "3": {
+          "words_ar": "أَنَّا",
+          "translate_bn": "যে আমরা"
+        },
+        "4": {
+          "words_ar": "نَأْتِي",
+          "translate_bn": "আমরা চলে আসছি"
+        },
+        "5": {
+          "words_ar": "الْأَرْضَ",
+          "translate_bn": "জমিনের (উপর)"
+        },
+        "6": {
+          "words_ar": "نَنْقُصُهَا",
+          "translate_bn": "তা সংকুচিত করছি আমরা"
+        },
+        "7": {
+          "words_ar": "مِنْ",
+          "translate_bn": "হতে"
+        },
+        "8": {
+          "words_ar": "أَطْرَافِهَا",
+          "translate_bn": "তার চারপাশ"
+        },
+        "9": {
+          "words_ar": "وَاللَّهُ",
+          "translate_bn": "এবং আল্লাহ"
+        },
+        "10": {
+          "words_ar": "يَحْكُمُ",
+          "translate_bn": "আদেশ করেন"
+        },
+        "11": {
+          "words_ar": "لَا",
+          "translate_bn": "নেই"
+        },
+        "12": {
+          "words_ar": "مُعَقِّبَ",
+          "translate_bn": "কোনো প্রতিহতকারী"
+        },
+        "13": {
+          "words_ar": "لِحُكْمِهِ",
+          "translate_bn": "তাঁর আদেশের"
+        },
+        "14": {
+          "words_ar": "وَهُوَ",
+          "translate_bn": "এবং তিনি"
+        },
+        "15": {
+          "words_ar": "سَرِيعُ",
+          "translate_bn": "দ্রুত"
+        },
+        "16": {
+          "words_ar": "الْحِسَابِ",
+          "translate_bn": "হিসাব-নিকাশে"
+        }
+      },
+      "english_trans": "Do they not see that We are bringing destruction upon the land by curtailing it of its sides? And Allah pronounces a doom-- there is no repeller of His decree, and He is swift to take account."
+    },
+    "42": {
+      "arabic_text": "وَقَدْ مَكَرَ الَّذِينَ مِنْ قَبْلِهِمْ فَلِلَّهِ الْمَكْرُ جَمِيعًا يَعْلَمُ مَا تَكْسِبُ كُلُّ نَفْسٍ وَسَيَعْلَمُ الْكُفَّارُ لِمَنْ عُقْبَى الدَّارِ",
+      "bangla_trans": "এদের আগে যারা অতিক্রান্ত হয়েছে তারাও বড় বড় চক্রান্ত করেছিল কিন্তু আসল সিদ্ধান্তকর কৌশল তো পুরোপুরি আল্লাহর হাতে রয়েছে। তিনি জানেন কে কি উপার্জন করছে এবং শীঘ্রই এ সত্য অস্বীকারকারীরা দেখে নেবে কার পরিণাম ভালো হয়।",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَقَدْ",
+          "translate_bn": "এবং নিশ্চয়ই"
+        },
+        "2": {
+          "words_ar": "مَكَرَ",
+          "translate_bn": "চক্রান্ত করেছিলো"
+        },
+        "3": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "4": {
+          "words_ar": "مِنْ",
+          "translate_bn": "থেকে"
+        },
+        "5": {
+          "words_ar": "قَبْلِهِمْ",
+          "translate_bn": "পূর্ব তাদের (ছিলো)"
+        },
+        "6": {
+          "words_ar": "فَلِلَّهِ",
+          "translate_bn": "অতএব অধীনে আল্লাহর"
+        },
+        "7": {
+          "words_ar": "الْمَكْرُ",
+          "translate_bn": "চক্রান্ত"
+        },
+        "8": {
+          "words_ar": "جَمِيعًا",
+          "translate_bn": "সমস্তই"
+        },
+        "9": {
+          "words_ar": "يَعْلَمُ",
+          "translate_bn": "তিনি জানেন"
+        },
+        "10": {
+          "words_ar": "مَا",
+          "translate_bn": "যা"
+        },
+        "11": {
+          "words_ar": "تَكْسِبُ",
+          "translate_bn": "অর্জন করে"
+        },
+        "12": {
+          "words_ar": "كُلُّ",
+          "translate_bn": "প্রত্যেক"
+        },
+        "13": {
+          "words_ar": "نَفْسٍ",
+          "translate_bn": "ব্যক্তি"
+        },
+        "14": {
+          "words_ar": "وَسَيَعْلَمُ",
+          "translate_bn": "এবং শীঘ্রই জানবে"
+        },
+        "15": {
+          "words_ar": "الْكُفَّارُ",
+          "translate_bn": "কাফেররা"
+        },
+        "16": {
+          "words_ar": "لِمَنْ",
+          "translate_bn": "কার জন্যে"
+        },
+        "17": {
+          "words_ar": "عُقْبَى",
+          "translate_bn": "পরকালের"
+        },
+        "18": {
+          "words_ar": "الدَّارِ",
+          "translate_bn": "ঘর"
+        }
+      },
+      "english_trans": "And those before them did indeed make plans, but all planning is Allah´s; He knows what every soul earns, and the unbelievers shall come to know for whom is the (better) issue of the abode."
+    },
+    "43": {
+      "arabic_text": "وَيَقُولُ الَّذِينَ كَفَرُوا لَسْتَ مُرْسَلًا قُلْ كَفَى بِاللَّهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ وَمَنْ عِنْدَهُ عِلْمُ الْكِتَابِ",
+      "bangla_trans": "এ অস্বীকারকারীরা বলে, তুমি আল্লাহর প্রেরিত নও। বলো, “আমার ও তোমাদের মধ্যে আল্লাহর সাক্ষ যথেষ্ট এবং তারপর আসমানী কিতাবের জ্ঞান রাখে এমন প্রত্যেক ব্যক্তির সাক্ষ।”",
+      "word_by_word": {
+        "1": {
+          "words_ar": "وَيَقُولُ",
+          "translate_bn": "এবং বলে"
+        },
+        "2": {
+          "words_ar": "الَّذِينَ",
+          "translate_bn": "যারা"
+        },
+        "3": {
+          "words_ar": "كَفَرُوا",
+          "translate_bn": "অস্বীকার করেছে"
+        },
+        "4": {
+          "words_ar": "لَسْتَ",
+          "translate_bn": "তুমি নও"
+        },
+        "5": {
+          "words_ar": "مُرْسَلًا",
+          "translate_bn": "প্রেরিত (নাবী)"
+        },
+        "6": {
+          "words_ar": "قُلْ",
+          "translate_bn": "বলো"
+        },
+        "7": {
+          "words_ar": "كَفَىٰ",
+          "translate_bn": "যথেষ্ট"
+        },
+        "8": {
+          "words_ar": "بِاللَّهِ",
+          "translate_bn": "আল্লাহ তালা-ই"
+        },
+        "9": {
+          "words_ar": "شَهِيدًا",
+          "translate_bn": "সাক্ষী হিসেবে"
+        },
+        "10": {
+          "words_ar": "بَيْنِي",
+          "translate_bn": "আমার মাঝে"
+        },
+        "11": {
+          "words_ar": "وَبَيْنَكُمْ",
+          "translate_bn": "ও তোমাদের মাঝে"
+        },
+        "12": {
+          "words_ar": "وَمَنْ",
+          "translate_bn": "এবং (সাক্ষ্য) যে"
+        },
+        "13": {
+          "words_ar": "عِنْدَهُ",
+          "translate_bn": "তার কাছে আছে"
+        },
+        "14": {
+          "words_ar": "عِلْمُ",
+          "translate_bn": "জ্ঞান"
+        },
+        "15": {
+          "words_ar": "الْكِتَابِ",
+          "translate_bn": "(আসমানী) কিতাবের"
+        }
+      },
+      "english_trans": "And those who disbelieve say: You are not a messenger. Say: Allah is sufficient as a witness between me and you and whoever has knowledge of the Book."
+    }
+  }
+}
