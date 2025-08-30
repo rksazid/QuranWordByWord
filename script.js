@@ -19,7 +19,9 @@ let appData = {
         favorites: []
     },
     // Auto scroll
-    autoScrollInterval: null
+    autoScrollInterval: null,
+    // View preferences
+    currentView: 'card'
 };
 
 // ==================== DOM ELEMENTS ==================== //
@@ -48,6 +50,10 @@ const elements = {
     
     // Surah List
     surahList: document.getElementById('surahList'),
+    
+    // View Toggle Controls
+    viewToggleBtns: document.querySelectorAll('.toggle-btn'),
+    surahCountDisplay: document.getElementById('surahCount'),
     lastSurahSuggestion: document.getElementById('lastSurahSuggestion'),
     lastSurahCard: document.getElementById('lastSurahCard'),
     
@@ -450,6 +456,10 @@ function openFavoritesModal() {
 
 function closeFavoritesModal() {
     elements.favoritesModal.style.display = 'none';
+    
+    // Reset bottom nav to home when closing favorites
+    const homeBtn = document.querySelector('[data-page="home"]');
+    updateBottomNavActiveState(homeBtn);
 }
 
 function toggleCurrentSurahFavorite() {
@@ -477,6 +487,9 @@ function toggleCurrentSurahFavorite() {
     
     saveSettings();
     updateFavoriteButtonState();
+    
+    // Update bottom nav favorite state if on mobile
+    updateBottomNavFavoriteState();
 }
 
 function updateFavoriteButtonState() {
@@ -673,6 +686,121 @@ function initializeApp() {
     renderSurahList();
     setupEventListeners();
     initializeSettingsUI();
+    initViewToggle();
+    
+    // Initialize bottom navigation for the home page
+    updateBottomNavForPage(false);
+}
+
+// ==================== BOTTOM NAVIGATION ==================== //
+function initBottomNavigation() {
+    const bottomNav = document.getElementById('bottomNav');
+    if (!bottomNav) return;
+    
+    const bottomNavItems = bottomNav.querySelectorAll('.bottom-nav-item');
+    
+    bottomNavItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            const action = item.dataset.action;
+            const page = item.dataset.page;
+            
+            // Handle page navigation
+            if (page === 'home') {
+                if (elements.surahReadingPage.style.display !== 'none') {
+                    goBackToSurahList();
+                }
+                updateBottomNavActiveState(item);
+                return;
+            }
+            
+            // Handle actions and update active state
+            switch (action) {
+                case 'search':
+                    toggleSearch();
+                    updateBottomNavActiveState(item);
+                    break;
+                case 'favorites':
+                    openFavoritesModal();
+                    updateBottomNavActiveState(item);
+                    break;
+                case 'settings':
+                    openSettings();
+                    updateBottomNavActiveState(item);
+                    break;
+                case 'controls':
+                    toggleFloatingControls();
+                    // Don't change active state for controls, keep home active
+                    break;
+                case 'goto-ayah':
+                    openGoToAyahModal();
+                    // Don't change active state for goto-ayah, keep home active
+                    break;
+                case 'toggle-favorite':
+                    toggleCurrentSurahFavorite();
+                    // Don't change active state for favorite toggle, keep home active
+                    break;
+            }
+        });
+    });
+}
+
+function updateBottomNavActiveState(activeItem) {
+    const bottomNavItems = document.querySelectorAll('.bottom-nav-item');
+    bottomNavItems.forEach(item => item.classList.remove('active'));
+    if (activeItem) {
+        activeItem.classList.add('active');
+    }
+}
+
+function updateBottomNavForPage(isReadingPage = false) {
+    const homeBtn = document.querySelector('[data-page="home"]');
+    const controlsBtn = document.querySelector('[data-action="controls"]');
+    const gotoAyahBtn = document.querySelector('[data-action="goto-ayah"]');
+    const toggleFavoriteBtn = document.querySelector('[data-action="toggle-favorite"]');
+    const searchBtn = document.querySelector('[data-action="search"]');
+    const favoritesBtn = document.querySelector('[data-action="favorites"]');
+    
+    if (isReadingPage) {
+        // Hide search and favorites list for reading page, show reading-specific controls
+        if (searchBtn) searchBtn.style.display = 'none';
+        if (favoritesBtn) favoritesBtn.style.display = 'none';
+        if (controlsBtn) controlsBtn.style.display = 'flex';
+        if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'flex';
+        if (gotoAyahBtn) gotoAyahBtn.style.display = 'flex';
+        
+        // Update favorite button state for current surah
+        updateBottomNavFavoriteState();
+    } else {
+        // Show search and favorites list for home page, hide reading controls
+        if (searchBtn) searchBtn.style.display = 'flex';
+        if (favoritesBtn) favoritesBtn.style.display = 'flex';
+        if (controlsBtn) controlsBtn.style.display = 'none';
+        if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'none';
+        if (gotoAyahBtn) gotoAyahBtn.style.display = 'none';
+    }
+    
+    // Set home as active when changing pages
+    updateBottomNavActiveState(homeBtn);
+}
+
+function updateBottomNavFavoriteState() {
+    const favoriteIcon = document.getElementById('bottomNavFavoriteIcon');
+    const toggleFavoriteBtn = document.querySelector('[data-action="toggle-favorite"]');
+    
+    if (!favoriteIcon || !toggleFavoriteBtn || !appData.currentSurah) return;
+    
+    const isFavorite = appData.settings.favorites.includes(appData.currentSurah);
+    
+    if (isFavorite) {
+        favoriteIcon.className = 'fas fa-heart';
+        toggleFavoriteBtn.title = 'Remove from Favorites';
+        favoriteIcon.style.color = '#e91e63'; // Pink color for favorited
+    } else {
+        favoriteIcon.className = 'far fa-heart';
+        toggleFavoriteBtn.title = 'Add to Favorites';
+        favoriteIcon.style.color = ''; // Reset to default color
+    }
 }
 
 function setupEventListeners() {
@@ -738,6 +866,9 @@ function setupEventListeners() {
     elements.floatingEnglishBtn?.addEventListener('click', () => syncFloatingLanguage('english'));
     elements.floatingWordByWordToggle?.addEventListener('change', syncFloatingWordByWord);
     
+    // Bottom Navigation (Mobile)
+    initBottomNavigation();
+    
     // Go to Ayah Modal
     elements.closeGoToAyahModal?.addEventListener('click', closeGoToAyahModal);
     elements.goToAyahModal?.addEventListener('click', (e) => {
@@ -761,6 +892,21 @@ function setupEventListeners() {
     
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyboard);
+    
+    // Add click event listeners to modals to reset bottom nav when closed by clicking outside
+    document.addEventListener('click', (e) => {
+        // Check if any modal is being closed by clicking outside
+        if (e.target === elements.settingsModal || 
+            e.target === elements.favoritesModal || 
+            e.target === elements.goToAyahModal) {
+            
+            // Small delay to ensure modal is closed first
+            setTimeout(() => {
+                const homeBtn = document.querySelector('[data-page="home"]');
+                updateBottomNavActiveState(homeBtn);
+            }, 100);
+        }
+    });
 }
 
 function handleKeyboard(e) {
@@ -804,6 +950,87 @@ function handleKeyboard(e) {
     }
 }
 
+// ==================== VIEW TOGGLE FUNCTIONALITY ==================== //
+function initViewToggle() {
+    // Load saved view preference
+    const savedView = localStorage.getItem('surahView') || 'card';
+    appData.currentView = savedView;
+    
+    // Set initial view
+    setActiveView(savedView);
+    
+    // Add click listeners to toggle buttons
+    elements.viewToggleBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const view = btn.dataset.view;
+            switchView(view);
+        });
+    });
+}
+
+function switchView(view) {
+    if (appData.currentView === view) return;
+    
+    appData.currentView = view;
+    setActiveView(view);
+    
+    // Save preference
+    localStorage.setItem('surahView', view);
+    
+    // Add smooth transition effect
+    elements.surahList.style.opacity = '0.5';
+    elements.surahList.style.transform = 'scale(0.95)';
+    
+    setTimeout(() => {
+        applyViewLayout(view);
+        elements.surahList.style.opacity = '1';
+        elements.surahList.style.transform = 'scale(1)';
+    }, 100);
+}
+
+function setActiveView(view) {
+    // Update toggle button states
+    elements.viewToggleBtns.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.view === view);
+    });
+    
+    applyViewLayout(view);
+}
+
+function applyViewLayout(view) {
+    if (view === 'list') {
+        elements.surahList.classList.add('list-view');
+        elements.surahList.classList.remove('card-view');
+    } else {
+        elements.surahList.classList.remove('list-view');
+        elements.surahList.classList.add('card-view');
+    }
+}
+
+function updateSurahCount() {
+    if (!elements.surahCountDisplay) return;
+    
+    const totalSurahs = appData.surahNames ? Object.keys(appData.surahNames).length : 114;
+    
+    // Count actual surah cards (excluding search no-results div)
+    const surahCards = elements.surahList.querySelectorAll('.surah-card');
+    const currentCount = surahCards.length;
+    
+    if (appData.searchQuery && currentCount !== totalSurahs) {
+        elements.surahCountDisplay.textContent = `${currentCount} of ${totalSurahs} Surahs`;
+        elements.surahCountDisplay.style.color = 'var(--primary-color)';
+    } else {
+        elements.surahCountDisplay.textContent = `${totalSurahs} Surahs`;
+        elements.surahCountDisplay.style.color = 'var(--text-secondary)';
+    }
+    
+    // Add a subtle animation for count changes
+    elements.surahCountDisplay.style.transform = 'scale(1.05)';
+    setTimeout(() => {
+        elements.surahCountDisplay.style.transform = 'scale(1)';
+    }, 200);
+}
+
 // ==================== SURAH LIST FUNCTIONALITY ==================== //
 function renderSurahList() {
     if (!appData.surahNames) return;
@@ -830,8 +1057,10 @@ function renderSurahList() {
         );
     });
     
-    filteredSurahs.forEach(([surahId, surahInfo]) => {
+    filteredSurahs.forEach(([surahId, surahInfo], index) => {
         const surahCard = createSurahCard(surahId, surahInfo);
+        // Add staggered animation delay for list view
+        surahCard.style.setProperty('--item-index', index);
         elements.surahList.appendChild(surahCard);
     });
     
@@ -844,6 +1073,12 @@ function renderSurahList() {
             </div>
         `;
     }
+    
+    // Update surah count
+    updateSurahCount();
+    
+    // Apply current view layout
+    applyViewLayout(appData.currentView);
 }
 
 function createSurahCard(surahId, surahInfo) {
@@ -915,6 +1150,10 @@ function toggleSearch() {
     if (isVisible) {
         elements.searchContainer.style.display = 'none';
         clearSearch();
+        
+        // Reset bottom nav to home when closing search
+        const homeBtn = document.querySelector('[data-page="home"]');
+        updateBottomNavActiveState(homeBtn);
     } else {
         elements.searchContainer.style.display = 'block';
         elements.searchInput.focus();
@@ -1035,6 +1274,9 @@ function switchToReadingPage() {
     
     // Hide search if open
     elements.searchContainer.style.display = 'none';
+    
+    // Update bottom navigation for reading page
+    updateBottomNavForPage(true);
     
     // Scroll to top
     window.scrollTo(0, 0);
@@ -1214,6 +1456,9 @@ function goBackToSurahList() {
     // Hide floating controls
     if (elements.floatingControls) elements.floatingControls.style.display = 'none';
     
+    // Update bottom navigation for list page
+    updateBottomNavForPage(false);
+    
     appData.currentSurah = null;
     stopAutoScroll();
     
@@ -1229,6 +1474,10 @@ function openSettings() {
 
 function closeSettings() {
     elements.settingsModal.style.display = 'none';
+    
+    // Reset bottom nav to home when closing settings
+    const homeBtn = document.querySelector('[data-page="home"]');
+    updateBottomNavActiveState(homeBtn);
 }
 
 function switchSettingsTab(tabName) {

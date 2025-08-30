@@ -123,9 +123,24 @@
 
             <!-- Surah List Page -->
             <div id="surahListPage" class="page">
-                <div class="page-header">
-                    <h2>Choose a Surah</h2>
-                    <p>Select any surah to read with word-by-word translation</p>
+                <!-- View Toggle Controls -->
+                <div class="view-controls">
+                    <div class="view-toggle">
+                        <span class="view-label">View:</span>
+                        <div class="toggle-buttons">
+                            <button class="toggle-btn active" data-view="card" title="Card View">
+                                <i class="fas fa-th-large"></i>
+                                <span>Cards</span>
+                            </button>
+                            <button class="toggle-btn" data-view="list" title="List View">
+                                <i class="fas fa-list"></i>
+                                <span>List</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="view-stats">
+                        <span id="surahCount">114 Surahs</span>
+                    </div>
                 </div>
                 
                 <!-- Last Opened Surah Suggestion -->
@@ -522,8 +537,8 @@
                                 <img src="./img/dev_img.jpeg" alt="MD Rezaul Karim" class="developer-photo">
                             </div>
                             <h4>MD Rezaul Karim (rksazid)</h4>
-                            <p>Senior Full Stack Developer</p>
-                            <p>Expert in React, Node.js, Python & PWA Development</p>
+                            <p>Lead Software Engineer, Liberate Labs Ltd.</p>
+                            <p>Expert in Ruby on Rails, Spring Boot, React, Node.js, Python & PWA Development</p>
                             <div class="developer-links">
                                 <a href="https://www.linkedin.com/in/rksazid/" target="_blank">
                                     <i class="fab fa-linkedin"></i>
@@ -563,6 +578,67 @@
         <div class="spinner"></div>
         <p>Loading...</p>
     </div>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav id="bottomNav" class="bottom-nav">
+        <div class="bottom-nav-container">
+            <!-- Home -->
+            <button class="bottom-nav-item active" data-page="home" title="Home">
+                <div class="nav-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <span class="nav-label">Home</span>
+            </button>
+            
+            <!-- Favorites -->
+            <button class="bottom-nav-item" data-action="favorites" title="Favorites">
+                <div class="nav-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <span class="nav-label">Favorites</span>
+            </button>
+            
+            <!-- Search -->
+            <button class="bottom-nav-item" data-action="search" title="Search">
+                <div class="nav-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <span class="nav-label">Search</span>
+            </button>
+            
+            <!-- Reading Controls (for surah page) -->
+            <button class="bottom-nav-item" data-action="controls" title="Controls" style="display: none;">
+                <div class="nav-icon">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                <span class="nav-label">Controls</span>
+            </button>
+            
+            <!-- Add to Favorites (for surah page) -->
+            <button class="bottom-nav-item" data-action="toggle-favorite" title="Add to Favorites" style="display: none;">
+                <div class="nav-icon">
+                    <i class="far fa-heart" id="bottomNavFavoriteIcon"></i>
+                </div>
+                <span class="nav-label">Favorite</span>
+            </button>
+            
+            <!-- Go to Ayah (for surah page) -->
+            <button class="bottom-nav-item" data-action="goto-ayah" title="Go to Ayah" style="display: none;">
+                <div class="nav-icon">
+                    <i class="fas fa-list-ol"></i>
+                </div>
+                <span class="nav-label">Go to</span>
+            </button>
+            
+            <!-- Settings -->
+            <button class="bottom-nav-item" data-action="settings" title="Settings">
+                <div class="nav-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <span class="nav-label">Settings</span>
+            </button>
+        </div>
+    </nav>
 
     <!-- Scripts -->
     <script src="script.js"></script>
