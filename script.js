@@ -7,7 +7,7 @@ let appData = {
     isTranslationVisible: true,
     isWordByWordMode: false,
     searchQuery: '',
-    // Settings
+    // Settings  
     settings: {
         fontSize: 'medium',
         arabicFont: 'Amiri',
@@ -145,19 +145,46 @@ function showError(message) {
     alert('Error: ' + message);
 }
 
-// ==================== SESSION STORAGE ==================== //
+// ==================== PERSISTENT STORAGE ==================== //
 function loadSettings() {
     try {
-        const savedSettings = sessionStorage.getItem('quranAppSettings');
+        const savedSettings = localStorage.getItem('quranAppSettings');
         if (savedSettings) {
             const parsedSettings = JSON.parse(savedSettings);
             appData.settings = { ...appData.settings, ...parsedSettings };
         }
         
         // Load last opened surah
-        const lastSurah = sessionStorage.getItem('quranAppLastSurah');
+        const lastSurah = localStorage.getItem('quranAppLastSurah');
         if (lastSurah) {
             appData.lastOpenedSurah = lastSurah;
+        }
+        
+        // Load saved search query
+        const savedSearchQuery = localStorage.getItem('quranAppSearchQuery');
+        if (savedSearchQuery) {
+            appData.searchQuery = savedSearchQuery;
+            if (elements.searchInput) {
+                elements.searchInput.value = savedSearchQuery;
+            }
+        }
+        
+        // Load translation visibility state
+        const savedTranslationState = localStorage.getItem('quranAppTranslationVisible');
+        if (savedTranslationState !== null) {
+            appData.isTranslationVisible = JSON.parse(savedTranslationState);
+        }
+        
+        // Load current translation language
+        const savedTranslationLang = localStorage.getItem('quranAppTranslationLang');
+        if (savedTranslationLang) {
+            appData.currentTranslationLang = savedTranslationLang;
+        }
+        
+        // Load word-by-word mode state
+        const savedWordByWordMode = localStorage.getItem('quranAppWordByWordMode');
+        if (savedWordByWordMode !== null) {
+            appData.isWordByWordMode = JSON.parse(savedWordByWordMode);
         }
         
         applySettings();
@@ -168,7 +195,7 @@ function loadSettings() {
 
 function saveSettings() {
     try {
-        sessionStorage.setItem('quranAppSettings', JSON.stringify(appData.settings));
+        localStorage.setItem('quranAppSettings', JSON.stringify(appData.settings));
     } catch (error) {
         console.error('Error saving settings:', error);
     }
@@ -176,7 +203,7 @@ function saveSettings() {
 
 function saveLastSurah(surahId) {
     try {
-        sessionStorage.setItem('quranAppLastSurah', surahId);
+        localStorage.setItem('quranAppLastSurah', surahId);
         appData.lastOpenedSurah = surahId;
     } catch (error) {
         console.error('Error saving last surah:', error);
@@ -187,6 +214,21 @@ function clearAllData() {
     if (confirm('This will clear all your settings and data. Are you sure?')) {
         try {
             sessionStorage.clear();
+            // Clear all localStorage data related to the app
+            const keysToRemove = [
+                'quranAppSettings',
+                'quranAppLastSurah', 
+                'surahView',
+                'quranAppSearchQuery',
+                'quranAppTranslationVisible',
+                'quranAppTranslationLang',
+                'quranAppWordByWordMode'
+            ];
+            
+            keysToRemove.forEach(key => {
+                localStorage.removeItem(key);
+            });
+            
             // Reset to defaults
             appData.settings = {
                 fontSize: 'medium',
@@ -195,12 +237,35 @@ function clearAllData() {
                 theme: 'light',
                 primaryColor: '#2d7d32',
                 autoScroll: false,
-                scrollSpeed: 1.0
+                scrollSpeed: 1.0,
+                favorites: []
             };
             appData.lastOpenedSurah = null;
+            appData.currentView = 'card';
+            appData.searchQuery = '';
+            appData.isTranslationVisible = true;
+            appData.currentTranslationLang = 'bangla';
+            appData.isWordByWordMode = false;
+            
+            // Reset UI
             applySettings();
             updateSettingsUI();
+            setActiveView('card');
+            renderSurahList();
+            hideLastSurahSuggestion();
+            
+            // Clear search input if exists
+            if (elements.searchInput) {
+                elements.searchInput.value = '';
+                elements.searchContainer.style.display = 'none';
+            }
+            
             alert('All data cleared successfully!');
+            
+            // Refresh page to ensure clean state
+            setTimeout(() => {
+                window.location.reload();
+            }, 1000);
         } catch (error) {
             console.error('Error clearing data:', error);
         }
@@ -229,7 +294,44 @@ async function loadData() {
         // App is ready immediately!
         console.log('✅ Essential data loaded. App ready! (99.9% faster than before)');
         hideLoading();
+        // Initialize app
         initializeApp();
+        
+        // Restore UI states after initialization
+        setTimeout(() => {
+            // Restore translation toggle state
+            if (elements.translationToggle) {
+                elements.translationToggle.checked = appData.isTranslationVisible;
+            }
+            if (elements.floatingTranslationToggle) {
+                elements.floatingTranslationToggle.checked = appData.isTranslationVisible;
+            }
+            
+            // Restore word-by-word toggle state
+            if (elements.wordByWordToggle) {
+                elements.wordByWordToggle.checked = appData.isWordByWordMode;
+            }
+            if (elements.floatingWordByWordToggle) {
+                elements.floatingWordByWordToggle.checked = appData.isWordByWordMode;
+            }
+            
+            // Restore translation language buttons
+            if (elements.banglaBtn && elements.englishBtn) {
+                elements.banglaBtn.classList.toggle('active', appData.currentTranslationLang === 'bangla');
+                elements.englishBtn.classList.toggle('active', appData.currentTranslationLang === 'english');
+            }
+            if (elements.floatingBanglaBtn && elements.floatingEnglishBtn) {
+                elements.floatingBanglaBtn.classList.toggle('active', appData.currentTranslationLang === 'bangla');
+                elements.floatingEnglishBtn.classList.toggle('active', appData.currentTranslationLang === 'english');
+            }
+            
+            // Show search container if there was a saved search query
+            if (appData.searchQuery && appData.searchQuery.trim()) {
+                elements.searchContainer.style.display = 'block';
+            }
+            
+            console.log('✅ All session data restored from localStorage');
+        }, 100);
         
     } catch (error) {
         hideLoading();
@@ -1163,12 +1265,26 @@ function toggleSearch() {
 function handleSearch(e) {
     appData.searchQuery = e.target.value;
     renderSurahList();
+    
+    // Save search query for persistence
+    try {
+        localStorage.setItem('quranAppSearchQuery', appData.searchQuery);
+    } catch (error) {
+        console.error('Error saving search query:', error);
+    }
 }
 
 function clearSearch() {
     elements.searchInput.value = '';
     appData.searchQuery = '';
     renderSurahList();
+    
+    // Clear saved search query
+    try {
+        localStorage.removeItem('quranAppSearchQuery');
+    } catch (error) {
+        console.error('Error clearing search query:', error);
+    }
 }
 
 // ==================== SURAH READING FUNCTIONALITY ==================== //
@@ -1361,6 +1477,13 @@ function toggleTranslation() {
         updateTranslationVisibility();
         syncMainControlsToFloating();
         
+        // Save translation state
+        try {
+            localStorage.setItem('quranAppTranslationVisible', JSON.stringify(appData.isTranslationVisible));
+        } catch (error) {
+            console.error('Error saving translation state:', error);
+        }
+        
     } catch (error) {
         console.error('Error in toggleTranslation:', error);
         showError('Failed to toggle translation. Please try again.');
@@ -1377,6 +1500,13 @@ function setTranslationLanguage(lang) {
     // Update translations
     updateTranslationVisibility();
     updateBismillahTranslation();
+    
+    // Save translation language preference
+    try {
+        localStorage.setItem('quranAppTranslationLang', lang);
+    } catch (error) {
+        console.error('Error saving translation language:', error);
+    }
     syncMainControlsToFloating();
 }
 
@@ -1424,6 +1554,13 @@ function toggleWordByWord() {
         }
         
         syncMainControlsToFloating();
+        
+        // Save word-by-word mode state
+        try {
+            localStorage.setItem('quranAppWordByWordMode', JSON.stringify(appData.isWordByWordMode));
+        } catch (error) {
+            console.error('Error saving word-by-word mode:', error);
+        }
         
     } catch (error) {
         console.error('Error in toggleWordByWord:', error);
