@@ -27,6 +27,21 @@ build/
 # Test files
 performance-test.html
 
+# Performance Optimization Files
+# Note: Minified files are committed for static server deployment
+
+# Build tools and manifests (can be regenerated)
+minification-manifest.json
+
+# Environment config (generated)
+env-config.js
+
+# Compression artifacts (too large for git, regenerate with compress-data.js)
+data-compressed/
+
+# Performance test results
+performance-results.json
+
 # Keep the important data files
 !data/surah_name.json
 !data/surahs/
