@@ -11,6 +11,7 @@ let appData = {
     settings: {
         fontSize: 'medium',
         arabicFont: 'Amiri',
+        bengaliFont: 'Noto Serif Bengali',
         uiFont: 'Inter',
         theme: 'light',
         primaryColor: '#2d7d32',
@@ -96,6 +97,7 @@ const elements = {
     increaseFontSize: document.getElementById('increaseFontSize'),
     fontSizeDisplay: document.getElementById('fontSizeDisplay'),
     arabicFontSelect: document.getElementById('arabicFontSelect'),
+    bengaliFontSelect: document.getElementById('bengaliFontSelect'),
     uiFontSelect: document.getElementById('uiFontSelect'),
     
     // Reading Settings
@@ -245,6 +247,7 @@ function clearAllData() {
             appData.settings = {
                 fontSize: 'medium',
                 arabicFont: 'Amiri',
+                bengaliFont: 'Noto Serif Bengali',
                 uiFont: 'Inter',
                 theme: 'light',
                 primaryColor: '#2d7d32',
@@ -958,6 +961,7 @@ function setupEventListeners() {
     elements.decreaseFontSize?.addEventListener('click', () => changeFontSize(-1));
     elements.increaseFontSize?.addEventListener('click', () => changeFontSize(1));
     elements.arabicFontSelect?.addEventListener('change', changeArabicFont);
+    elements.bengaliFontSelect?.addEventListener('change', changeBengaliFont);
     elements.uiFontSelect?.addEventListener('change', changeUIFont);
     
     // Reading Settings
@@ -1675,6 +1679,7 @@ function applySettings() {
     
     // Apply fonts
     document.documentElement.style.setProperty('--font-arabic', `'${appData.settings.arabicFont}', serif`);
+    document.documentElement.style.setProperty('--font-bengali', `'${appData.settings.bengaliFont}', serif`);
     if (appData.settings.uiFont === 'system') {
         document.documentElement.style.setProperty('--font-system', '-apple-system, BlinkMacSystemFont, sans-serif');
     } else {
@@ -1701,6 +1706,9 @@ function updateSettingsUI() {
     // Update font selects
     if (elements.arabicFontSelect) {
         elements.arabicFontSelect.value = appData.settings.arabicFont;
+    }
+    if (elements.bengaliFontSelect) {
+        elements.bengaliFontSelect.value = appData.settings.bengaliFont;
     }
     if (elements.uiFontSelect) {
         elements.uiFontSelect.value = appData.settings.uiFont;
@@ -1765,6 +1773,20 @@ function changeArabicFont(e) {
         const surahData = surahCache.get(appData.currentSurah);
         renderVerses(surahData);
         console.log('🔄 Re-rendered verses with new font');
+    }
+}
+
+function changeBengaliFont(e) {
+    appData.settings.bengaliFont = e.target.value;
+    console.log('🔤 Changing Bengali font to:', e.target.value);
+    applySettings();
+    saveSettings();
+    
+    // Force re-render if currently viewing a surah
+    if (appData.currentSurah && surahCache.has(appData.currentSurah)) {
+        const surahData = surahCache.get(appData.currentSurah);
+        renderVerses(surahData);
+        console.log('🔄 Re-rendered verses with new Bengali font');
     }
 }
 

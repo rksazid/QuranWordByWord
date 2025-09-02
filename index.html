@@ -56,7 +56,7 @@
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.min.css?v=3.0.0">
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -64,7 +64,7 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <button id="backBtn" class="back-btn" style="display: none;">
+                <button id="backBtn" class="back-btn" style="display: none;" title="Go back to Surah list">
                     <i class="fas fa-arrow-left"></i>
                     <span>Back</span>
                 </button>
@@ -77,10 +77,10 @@
                 <div class="header-controls">
                     <!-- Homepage Controls -->
                     <div id="homepageControls" class="control-group">
-                        <button id="searchBtn" class="icon-btn">
+                        <button id="searchBtn" class="icon-btn" title="Search Surahs">
                             <i class="fas fa-search"></i>
                         </button>
-                        <button id="favoritesBtn" class="icon-btn">
+                        <button id="favoritesBtn" class="icon-btn" title="View Favorite Surahs">
                             <i class="fas fa-heart"></i>
                         </button>
                     </div>
@@ -99,7 +99,7 @@
                     </div>
                     
                     <!-- Common Controls -->
-                    <button id="settingsBtn" class="icon-btn">
+                    <button id="settingsBtn" class="icon-btn" title="Open Settings">
                         <i class="fas fa-cog"></i>
                     </button>
                 </div>
@@ -115,7 +115,7 @@
                 <div class="search-box">
                     <i class="fas fa-search"></i>
                     <input type="text" id="searchInput" placeholder="Search surah by name...">
-                    <button id="clearSearch" class="clear-btn">
+                    <button id="clearSearch" class="clear-btn" title="Clear search">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
@@ -182,10 +182,10 @@
                         </label>
                         
                         <div id="translationLanguage" class="language-selector">
-                            <button id="banglaBtn" class="lang-btn active" data-lang="bangla">
+                            <button id="banglaBtn" class="lang-btn active" data-lang="bangla" title="Show Bengali translation">
                                 বাংলা
                             </button>
-                            <button id="englishBtn" class="lang-btn" data-lang="english">
+                            <button id="englishBtn" class="lang-btn" data-lang="english" title="Show English translation">
                                 English
                             </button>
                         </div>
@@ -202,7 +202,7 @@
 
                 <!-- Floating Reading Controls -->
                 <div id="floatingControls" class="floating-controls" style="display: none;">
-                    <button id="floatingControlsToggle" class="floating-toggle">
+                    <button id="floatingControlsToggle" class="floating-toggle" title="Toggle reading controls">
                         <i class="fas fa-sliders-h"></i>
                     </button>
                     <div id="floatingControlsPanel" class="floating-panel" style="display: none;">
@@ -214,10 +214,10 @@
                             </label>
                             
                             <div class="floating-language-selector">
-                                <button id="floatingBanglaBtn" class="floating-lang-btn active" data-lang="bangla">
+                                <button id="floatingBanglaBtn" class="floating-lang-btn active" data-lang="bangla" title="Bengali translation">
                                     বাং
                                 </button>
-                                <button id="floatingEnglishBtn" class="floating-lang-btn" data-lang="english">
+                                <button id="floatingEnglishBtn" class="floating-lang-btn" data-lang="english" title="English translation">
                                     Eng
                                 </button>
                             </div>
@@ -255,7 +255,7 @@
         <div class="modal-content favorites-modal">
             <div class="modal-header">
                 <h2><i class="fas fa-heart"></i> Favorite Surahs</h2>
-                <button class="close-btn" onclick="closeFavoritesModal()">
+                <button class="close-btn" onclick="closeFavoritesModal()" title="Close favorites">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
@@ -286,9 +286,9 @@
                         <h3>Al-Quran Word by Word</h3>
                     </div>
                     <p class="footer-description">
-                        A modern Progressive Web App for reading the Holy Quran with 
-                        word-by-word Bengali translations. Experience the beauty of 
-                        Quranic study with advanced customization features.
+                        পবিত্র কুরআন শরীফ পড়ার জন্য একটি আধুনিক ওয়েব অ্যাপ্লিকেশন। 
+                        শব্দে শব্দে বাংলা অনুবাদ এবং উন্নত কাস্টমাইজেশন সুবিধা সহ 
+                        কুরআন অধ্যয়নের সৌন্দর্য উপভোগ করুন।
                     </p>
                     <div class="footer-stats">
                         <div class="stat-item">
@@ -309,11 +309,11 @@
                 <div class="footer-section">
                     <h4>Features</h4>
                     <ul class="footer-links">
-                        <li><i class="fas fa-check"></i> Word-by-word Bengali meanings</li>
-                        <li><i class="fas fa-check"></i> Complete translations</li>
-                        <li><i class="fas fa-check"></i> Progressive Web App</li>
-                        <li><i class="fas fa-check"></i> Offline reading support</li>
-                        <li><i class="fas fa-check"></i> Multiple Arabic fonts</li>
+                        <li><i class="fas fa-check"></i> শব্দে শব্দে বাংলা অর্থ</li>
+                        <li><i class="fas fa-check"></i> সম্পূর্ণ অনুবাদ</li>
+                        <li><i class="fas fa-check"></i> প্রগ্রেসিভ ওয়েব অ্যাপ</li>
+                        <li><i class="fas fa-check"></i> অফলাইন পড়ার সুবিধা</li>
+                        <li><i class="fas fa-check"></i> একাধিক আরবি ফন্ট</li>
                         <li><i class="fas fa-check"></i> Dark & Light themes</li>
                     </ul>
                 </div>
@@ -341,7 +341,7 @@
                         "وَنُنَزِّلُ مِنَ ٱلْقُرْآنِ مَا هُوَ شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ"
                         <br>
                         <span class="quote-translation">
-                            "And We send down of the Quran that which is healing and mercy for the believers" - Surah Al-Isra 17:82
+                            "আর আমি কুরআনে এমন জিনিস নাযিল করি যা মুমিনদের জন্য আরোগ্য ও রহমত" - সুরা বনী ইসরাইল ১৭:৮২
                         </span>
                     </p>
                 </div>
@@ -354,7 +354,7 @@
         <div class="modal">
             <div class="modal-header">
                 <h3>Word Meaning</h3>
-                <button id="closeModal" class="close-btn">
+                <button id="closeModal" class="close-btn" title="Close word meaning">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
@@ -372,7 +372,7 @@
         <div class="modal">
             <div class="modal-header">
                 <h3><i class="fas fa-list-ol"></i> Go to Ayah</h3>
-                <button id="closeGoToAyahModal" class="close-btn">
+                <button id="closeGoToAyahModal" class="close-btn" title="Close go to ayah">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
@@ -389,14 +389,14 @@
                     <div class="ayah-quick-nav">
                         <h4>Quick Navigation</h4>
                         <div class="ayah-buttons">
-                            <button class="ayah-nav-btn" data-ayah="1">First Ayah</button>
-                            <button class="ayah-nav-btn" data-ayah="middle">Middle</button>
-                            <button class="ayah-nav-btn" data-ayah="last">Last Ayah</button>
+                            <button class="ayah-nav-btn" data-ayah="1" title="Go to first ayah">First Ayah</button>
+                            <button class="ayah-nav-btn" data-ayah="middle" title="Go to middle ayah">Middle</button>
+                            <button class="ayah-nav-btn" data-ayah="last" title="Go to last ayah">Last Ayah</button>
                         </div>
                     </div>
                     
                     <div class="ayah-actions">
-                        <button id="goToAyahConfirm" class="primary-btn">
+                        <button id="goToAyahConfirm" class="primary-btn" title="Navigate to selected ayah">
                             <i class="fas fa-arrow-down"></i>
                             Go to Ayah
                         </button>
@@ -411,22 +411,22 @@
         <div class="modal large-modal">
             <div class="modal-header">
                 <h3><i class="fas fa-cog"></i> Settings</h3>
-                <button id="closeSettingsModal" class="close-btn">
+                <button id="closeSettingsModal" class="close-btn" title="Close settings">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
             <div class="modal-content">
                 <div class="settings-tabs">
-                    <button class="tab-btn active" data-tab="display">
+                    <button class="tab-btn active" data-tab="display" title="Display settings">
                         <i class="fas fa-eye"></i> Display
                     </button>
-                    <button class="tab-btn" data-tab="reading">
+                    <button class="tab-btn" data-tab="reading" title="Reading settings">
                         <i class="fas fa-book-open"></i> Reading
                     </button>
-                    <button class="tab-btn" data-tab="theme">
+                    <button class="tab-btn" data-tab="theme" title="Theme settings">
                         <i class="fas fa-palette"></i> Theme
                     </button>
-                    <button class="tab-btn" data-tab="about">
+                    <button class="tab-btn" data-tab="about" title="About this app">
                         <i class="fas fa-info-circle"></i> About
                     </button>
                 </div>
@@ -437,9 +437,9 @@
                     <div class="settings-group">
                         <label>Font Size</label>
                         <div class="font-size-control">
-                            <button id="decreaseFontSize" class="font-btn">A-</button>
+                            <button id="decreaseFontSize" class="font-btn" title="Decrease font size">A-</button>
                             <span id="fontSizeDisplay">Medium</span>
-                            <button id="increaseFontSize" class="font-btn">A+</button>
+                            <button id="increaseFontSize" class="font-btn" title="Increase font size">A+</button>
                         </div>
                     </div>
 
@@ -450,6 +450,18 @@
                             <option value="Scheherazade New">Scheherazade New</option>
                             <option value="Lateef">Lateef</option>
                             <option value="Reem Kufi">Reem Kufi</option>
+                        </select>
+                    </div>
+
+                    <div class="settings-group">
+                        <label>Bengali Font</label>
+                        <select id="bengaliFontSelect">
+                            <option value="Noto Serif Bengali">Noto Serif Bengali (Default)</option>
+                            <option value="Noto Sans Bengali">Noto Sans Bengali</option>
+                            <option value="Kalpurush">Kalpurush</option>
+                            <option value="SolaimanLipi">SolaimanLipi</option>
+                            <option value="Mukti">Mukti</option>
+                            <option value="Bangla MN">Bangla MN</option>
                         </select>
                     </div>
 
@@ -483,11 +495,11 @@
                                 <span id="scrollSpeedDisplay">1.0x</span>
                             </div>
                             <div class="speed-presets">
-                                <button class="speed-preset" data-speed="0.5">Slow</button>
-                                <button class="speed-preset" data-speed="1.0">Normal</button>
-                                <button class="speed-preset" data-speed="2.0">Fast</button>
-                                <button class="speed-preset" data-speed="5.0">Very Fast</button>
-                                <button class="speed-preset" data-speed="8.0">Ultra Fast</button>
+                                <button class="speed-preset" data-speed="0.5" title="Set scroll speed to slow (0.5x)">Slow</button>
+                                <button class="speed-preset" data-speed="1.0" title="Set scroll speed to normal (1.0x)">Normal</button>
+                                <button class="speed-preset" data-speed="2.0" title="Set scroll speed to fast (2.0x)">Fast</button>
+                                <button class="speed-preset" data-speed="5.0" title="Set scroll speed to very fast (5.0x)">Very Fast</button>
+                                <button class="speed-preset" data-speed="8.0" title="Set scroll speed to ultra fast (8.0x)">Ultra Fast</button>
                             </div>
                         </div>
                     </div>
@@ -495,7 +507,7 @@
                     <h4>Session Data</h4>
                     <div class="settings-group">
                         <p>Last opened Surah will be suggested on homepage</p>
-                        <button id="clearSessionBtn" class="danger-btn">
+                        <button id="clearSessionBtn" class="danger-btn" title="Clear all app data including favorites and settings">
                             <i class="fas fa-trash"></i> Clear All Data
                         </button>
                     </div>
@@ -507,15 +519,15 @@
                     <div class="settings-group">
                         <label>Theme</label>
                         <div class="theme-selector">
-                            <button class="theme-option active" data-theme="light">
+                            <button class="theme-option active" data-theme="light" title="Light theme">
                                 <i class="fas fa-sun"></i>
                                 Light
                             </button>
-                            <button class="theme-option" data-theme="dark">
+                            <button class="theme-option" data-theme="dark" title="Dark theme">
                                 <i class="fas fa-moon"></i>
                                 Dark
                             </button>
-                            <button class="theme-option" data-theme="auto">
+                            <button class="theme-option" data-theme="auto" title="Auto theme (follows system)">
                                 <i class="fas fa-adjust"></i>
                                 Auto
                             </button>
@@ -526,14 +538,14 @@
                     <div class="settings-group">
                         <label>Primary Color</label>
                         <div class="color-palette">
-                            <button class="color-option active" data-color="#2d7d32" style="background: #2d7d32;"></button>
-                            <button class="color-option" data-color="#1976d2" style="background: #1976d2;"></button>
-                            <button class="color-option" data-color="#7b1fa2" style="background: #7b1fa2;"></button>
-                            <button class="color-option" data-color="#d32f2f" style="background: #d32f2f;"></button>
-                            <button class="color-option" data-color="#f57c00" style="background: #f57c00;"></button>
-                            <button class="color-option" data-color="#5d4037" style="background: #5d4037;"></button>
-                            <button class="color-option" data-color="#455a64" style="background: #455a64;"></button>
-                            <button class="color-option" data-color="#e91e63" style="background: #e91e63;"></button>
+                            <button class="color-option active" data-color="#2d7d32" style="background: #2d7d32;" title="Green theme color"></button>
+                            <button class="color-option" data-color="#1976d2" style="background: #1976d2;" title="Blue theme color"></button>
+                            <button class="color-option" data-color="#7b1fa2" style="background: #7b1fa2;" title="Purple theme color"></button>
+                            <button class="color-option" data-color="#d32f2f" style="background: #d32f2f;" title="Red theme color"></button>
+                            <button class="color-option" data-color="#f57c00" style="background: #f57c00;" title="Orange theme color"></button>
+                            <button class="color-option" data-color="#5d4037" style="background: #5d4037;" title="Brown theme color"></button>
+                            <button class="color-option" data-color="#455a64" style="background: #455a64;" title="Blue gray theme color"></button>
+                            <button class="color-option" data-color="#e91e63" style="background: #e91e63;" title="Pink theme color"></button>
                         </div>
                     </div>
                 </div>
@@ -555,16 +567,16 @@
                         
                         <div class="app-info">
                             <h5>About This App</h5>
-                            <p>Al-Quran Word by Word is a modern web application designed to help users read and understand the Holy Quran with detailed word-by-word Bengali translations.</p>
+                            <p>আল-কুরআন ওয়ার্ড বাই ওয়ার্ড একটি আধুনিক ওয়েব অ্যাপ্লিকেশন যা ব্যবহারকারীদের পবিত্র কুরআন পড়তে এবং বিস্তারিত শব্দে শব্দে বাংলা অনুবাদ সহ বুঝতে সাহায্য করার জন্য ডিজাইন করা হয়েছে।</p>
                             
                             <div class="app-features">
                                 <h6>Features:</h6>
                                 <ul>
-                                    <li>Complete Quran with Bengali & English translations</li>
-                                    <li>Word-by-word Bengali meanings</li>
-                                    <li>Progressive Web App (PWA) support</li>
-                                    <li>Customizable themes and fonts</li>
-                                    <li>Responsive design for all devices</li>
+                                    <li>বাংলা ও ইংরেজি অনুবাদ সহ সম্পূর্ণ কুরআন</li>
+                                    <li>শব্দে শব্দে বাংলা অর্থ</li>
+                                    <li>প্রগ্রেসিভ ওয়েব অ্যাপ (PWA) সাপোর্ট</li>
+                                    <li>কাস্টমাইজেবল থিম এবং ফন্ট</li>
+                                    <li>সব ডিভাইসের জন্য রেসপন্সিভ ডিজাইন</li>
                                 </ul>
                             </div>
                             
@@ -655,16 +667,16 @@
                 <span id="currentSpeedDisplay">1.0x</span>
             </div>
             <div class="scroll-controls">
-                <button id="pauseScrollBtn" class="scroll-btn pause-btn" title="Pause/Resume">
+                                        <button id="pauseScrollBtn" class="scroll-btn pause-btn" title="Pause/Resume auto-scroll">
                     <i class="fas fa-pause"></i>
                 </button>
-                <button id="slowDownBtn" class="scroll-btn speed-btn" title="Slow Down">
+                                        <button id="slowDownBtn" class="scroll-btn speed-btn" title="Decrease scroll speed">
                     <i class="fas fa-minus"></i>
                 </button>
-                <button id="speedUpBtn" class="scroll-btn speed-btn" title="Speed Up">
+                                        <button id="speedUpBtn" class="scroll-btn speed-btn" title="Increase scroll speed">
                     <i class="fas fa-plus"></i>
                 </button>
-                <button id="stopScrollBtn" class="scroll-btn stop-btn" title="Stop Auto Scroll">
+                                        <button id="stopScrollBtn" class="scroll-btn stop-btn" title="Stop auto-scroll and hide controls">
                     <i class="fas fa-stop"></i>
                 </button>
             </div>

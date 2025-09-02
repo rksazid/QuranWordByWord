@@ -28,6 +28,7 @@
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
     
     --font-arabic: 'Amiri', serif;
+    --font-bengali: 'Noto Serif Bengali', serif;
     --font-system: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -99,6 +100,7 @@
 
 .bismillah .translation {
     font-size: calc(1rem * var(--font-size-multiplier));
+    font-family: var(--font-bengali);
 }
 
 /* ==================== RESET & BASE STYLES ==================== */
@@ -680,6 +682,7 @@ body {
     font-size: 1rem;
     color: var(--text-secondary);
     font-weight: 500;
+    font-family: var(--font-bengali);
 }
 
 .surah-meta {
@@ -990,10 +993,12 @@ body {
     line-height: 1.7;
     color: var(--text-primary);
     text-align: justify;
+    font-family: var(--font-bengali);
 }
 
 .bangla-trans {
     line-height: 1.7;
+    font-family: var(--font-bengali);
 }
 
 .english-trans {
@@ -1487,6 +1492,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.app-info p, .app-info li {
+    font-family: var(--font-bengali);
+}
+
 .app-info h5 {
     font-size: 1.2rem;
     border-bottom: 2px solid var(--primary-light);
@@ -1642,6 +1651,7 @@ body {
 .suggestion-surah-bangla {
     font-size: 1rem;
     opacity: 0.9;
+    font-family: var(--font-bengali);
 }
 
 .suggestion-meta {
@@ -1845,6 +1855,7 @@ body {
     margin-bottom: 1.5rem;
     line-height: 1.6;
     opacity: 0.9;
+    font-family: var(--font-bengali);
 }
 
 .footer-stats {
@@ -1880,6 +1891,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     opacity: 0.9;
+    font-family: var(--font-bengali);
 }
 
 .footer-links a {
@@ -2004,7 +2016,7 @@ body {
 }
 
 .quote-translation {
-    font-family: var(--font-system);
+    font-family: var(--font-bengali);
     font-size: 0.9rem;
     font-style: italic;
     opacity: 0.9;
@@ -2264,6 +2276,7 @@ body {
     background: var(--bg-hover);
     padding: 1rem;
     border-radius: var(--border-radius);
+    font-family: var(--font-bengali);
 }
 
 /* Dark theme fix for word meaning text */
