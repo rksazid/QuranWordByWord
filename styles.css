@@ -1254,11 +1254,46 @@ body {
 /* Speed Control */
 .speed-control {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 1rem;
     background: var(--bg-hover);
     padding: 0.75rem;
     border-radius: var(--border-radius);
+}
+
+.speed-control > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.speed-presets {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.speed-preset {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.speed-preset:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.speed-preset.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
 }
 
 .speed-control input[type="range"] {
@@ -2216,6 +2251,12 @@ body {
     margin-bottom: 1rem;
 }
 
+/* Dark theme fix for word modal Arabic text */
+[data-theme="dark"] .arabic-word {
+    color: var(--text-white) !important;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
 .word-meaning {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -2223,6 +2264,12 @@ body {
     background: var(--bg-hover);
     padding: 1rem;
     border-radius: var(--border-radius);
+}
+
+/* Dark theme fix for word meaning text */
+[data-theme="dark"] .word-meaning {
+    color: var(--text-white);
+    background: var(--bg-hover);
 }
 
 /* ==================== LOADING SPINNER ==================== */
@@ -2736,7 +2783,7 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 0.8rem;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 1rem;
 }
@@ -2788,6 +2835,28 @@ select {
     background: var(--bg-primary);
     border-color: var(--border-color);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .modal {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .modal-content {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .modal-header {
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .modal-header h3 {
+    color: var(--text-white);
+}
+
+[data-theme="dark"] .surah-title {
+    color: var(--text-white);
 }
 
 /* Reduce animations on slow devices for better performance */
@@ -2989,6 +3058,108 @@ select {
     font-size: 0.9rem;
     transition: var(--transition);
     margin-top: 1rem;
+}
+
+/* Floating Scroll Control */
+.floating-scroll-control {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: var(--modal-bg);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 999;
+    min-width: 200px;
+    animation: slideInUp 0.3s ease;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.scroll-control-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.scroll-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.scroll-status i {
+    color: var(--primary-color);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.scroll-controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.scroll-btn {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: var(--text-color);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.scroll-btn:hover {
+    background: var(--hover-color);
+    transform: translateY(-1px);
+}
+
+.scroll-btn.pause-btn:hover {
+    background: #ffa726;
+    color: white;
+    border-color: #ffa726;
+}
+
+.scroll-btn.stop-btn:hover {
+    background: #ef5350;
+    color: white;
+    border-color: #ef5350;
+}
+
+.scroll-btn.speed-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.scroll-btn.paused {
+    background: #ffa726;
+    color: white;
+    border-color: #ffa726;
 }
 
 .btn:hover {

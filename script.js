@@ -20,6 +20,7 @@ let appData = {
     },
     // Auto scroll
     autoScrollInterval: null,
+    isScrollPaused: false,
     // View preferences
     currentView: 'card'
 };
@@ -102,6 +103,17 @@ const elements = {
     scrollSpeedRange: document.getElementById('scrollSpeedRange'),
     scrollSpeedDisplay: document.getElementById('scrollSpeedDisplay'),
     clearSessionBtn: document.getElementById('clearSessionBtn'),
+    
+    // Speed Presets
+    speedPresets: document.querySelectorAll('.speed-preset'),
+    
+    // Floating Scroll Control
+    floatingScrollControl: document.getElementById('floatingScrollControl'),
+    currentSpeedDisplay: document.getElementById('currentSpeedDisplay'),
+    pauseScrollBtn: document.getElementById('pauseScrollBtn'),
+    slowDownBtn: document.getElementById('slowDownBtn'),
+    speedUpBtn: document.getElementById('speedUpBtn'),
+    stopScrollBtn: document.getElementById('stopScrollBtn'),
     
     // Theme Settings
     themeOptions: document.querySelectorAll('.theme-option'),
@@ -953,6 +965,17 @@ function setupEventListeners() {
     elements.scrollSpeedRange?.addEventListener('input', changeScrollSpeed);
     elements.clearSessionBtn?.addEventListener('click', clearAllData);
     
+    // Speed Presets
+    elements.speedPresets.forEach(preset => {
+        preset.addEventListener('click', () => setScrollSpeed(parseFloat(preset.dataset.speed)));
+    });
+    
+    // Floating Scroll Control
+    elements.pauseScrollBtn?.addEventListener('click', toggleScrollPause);
+    elements.slowDownBtn?.addEventListener('click', () => adjustScrollSpeed(-0.5));
+    elements.speedUpBtn?.addEventListener('click', () => adjustScrollSpeed(0.5));
+    elements.stopScrollBtn?.addEventListener('click', stopAutoScrollAndHide);
+    
     // Theme Settings
     elements.themeOptions.forEach(option => {
         option.addEventListener('click', () => changeTheme(option.dataset.theme));
@@ -1694,6 +1717,9 @@ function updateSettingsUI() {
         elements.scrollSpeedDisplay.textContent = appData.settings.scrollSpeed.toFixed(1) + 'x';
     }
     
+    // Update speed preset buttons
+    updateSpeedPresetButtons();
+    
     // Update theme buttons
     elements.themeOptions.forEach(option => {
         option.classList.toggle('active', option.dataset.theme === appData.settings.theme);
@@ -1773,24 +1799,54 @@ function toggleAutoScroll() {
     appData.settings.autoScroll = elements.autoScrollToggle.checked;
     if (appData.settings.autoScroll && appData.currentSurah) {
         startAutoScroll();
+        showFloatingScrollControl();
     } else {
         stopAutoScroll();
+        hideFloatingScrollControl();
     }
     saveSettings();
 }
 
 function changeScrollSpeed(e) {
-    appData.settings.scrollSpeed = parseFloat(e.target.value);
+    const speed = parseFloat(e.target.value);
+    setScrollSpeed(speed);
+}
+
+function setScrollSpeed(speed) {
+    appData.settings.scrollSpeed = Math.max(0.1, Math.min(10, speed));
+    
+    // Update displays
     if (elements.scrollSpeedDisplay) {
         elements.scrollSpeedDisplay.textContent = appData.settings.scrollSpeed.toFixed(1) + 'x';
     }
+    if (elements.currentSpeedDisplay) {
+        elements.currentSpeedDisplay.textContent = appData.settings.scrollSpeed.toFixed(1) + 'x';
+    }
+    if (elements.scrollSpeedRange) {
+        elements.scrollSpeedRange.value = appData.settings.scrollSpeed;
+    }
+    
+    // Update preset buttons
+    updateSpeedPresetButtons();
     
     // Restart auto scroll with new speed if active
-    if (appData.settings.autoScroll && appData.autoScrollInterval) {
+    if (appData.settings.autoScroll && appData.autoScrollInterval && !appData.isScrollPaused) {
         stopAutoScroll();
         startAutoScroll();
     }
     saveSettings();
+}
+
+function adjustScrollSpeed(delta) {
+    const newSpeed = appData.settings.scrollSpeed + delta;
+    setScrollSpeed(newSpeed);
+}
+
+function updateSpeedPresetButtons() {
+    elements.speedPresets.forEach(preset => {
+        const presetSpeed = parseFloat(preset.dataset.speed);
+        preset.classList.toggle('active', Math.abs(presetSpeed - appData.settings.scrollSpeed) < 0.05);
+    });
 }
 
 function startAutoScroll() {
@@ -1815,6 +1871,67 @@ function stopAutoScroll() {
         clearInterval(appData.autoScrollInterval);
         appData.autoScrollInterval = null;
     }
+    appData.isScrollPaused = false;
+}
+
+// Floating Scroll Control Functions
+function showFloatingScrollControl() {
+    if (elements.floatingScrollControl) {
+        elements.floatingScrollControl.style.display = 'block';
+        updateFloatingScrollDisplay();
+    }
+}
+
+function hideFloatingScrollControl() {
+    if (elements.floatingScrollControl) {
+        elements.floatingScrollControl.style.display = 'none';
+    }
+}
+
+function updateFloatingScrollDisplay() {
+    if (elements.currentSpeedDisplay) {
+        elements.currentSpeedDisplay.textContent = appData.settings.scrollSpeed.toFixed(1) + 'x';
+    }
+    
+    // Update pause button
+    if (elements.pauseScrollBtn) {
+        const icon = elements.pauseScrollBtn.querySelector('i');
+        if (appData.isScrollPaused) {
+            icon.className = 'fas fa-play';
+            elements.pauseScrollBtn.classList.add('paused');
+            elements.pauseScrollBtn.title = 'Resume Auto Scroll';
+        } else {
+            icon.className = 'fas fa-pause';
+            elements.pauseScrollBtn.classList.remove('paused');
+            elements.pauseScrollBtn.title = 'Pause Auto Scroll';
+        }
+    }
+}
+
+function toggleScrollPause() {
+    if (appData.isScrollPaused) {
+        // Resume scrolling
+        appData.isScrollPaused = false;
+        startAutoScroll();
+    } else {
+        // Pause scrolling
+        appData.isScrollPaused = true;
+        if (appData.autoScrollInterval) {
+            clearInterval(appData.autoScrollInterval);
+            appData.autoScrollInterval = null;
+        }
+    }
+    updateFloatingScrollDisplay();
+}
+
+function stopAutoScrollAndHide() {
+    appData.settings.autoScroll = false;
+    if (elements.autoScrollToggle) {
+        elements.autoScrollToggle.checked = false;
+    }
+    stopAutoScroll();
+    hideFloatingScrollControl();
+    saveSettings();
 }
 
 // Color utility functions
