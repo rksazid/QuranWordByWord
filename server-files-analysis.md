@@ -25,7 +25,6 @@ data-compressed/*.json.gz    (4.4MB) - Compressed data (faster loading)
 ```
 favicon/*.png               - App icons
 manifest.json              - PWA manifest
-img/dev_img.jpeg           - Developer photo
 ```
 
 ## 🛠️ Files NOT Used by Server (Development Tools)

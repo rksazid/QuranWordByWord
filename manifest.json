@@ -1,13 +1,17 @@
 {
   "name": "Al-Quran Word by Word",
-  "short_name": "Quran WbW",
-  "description": "Read the Holy Quran with word-by-word Bengali translations",
+  "short_name": "Quran WbW v3",
+  "description": "Al-Quran Word by Word with 87% performance optimization",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#2d7d32",
   "theme_color": "#2d7d32",
   "orientation": "portrait-primary",
-  "categories": ["education", "religion", "books"],
+  "categories": [
+    "education",
+    "religion",
+    "books"
+  ],
   "lang": "en",
   "dir": "ltr",
   "icons": [
@@ -62,5 +66,6 @@
         }
       ]
     }
-  ]
+  ],
+  "version": "3.0.0"
 }

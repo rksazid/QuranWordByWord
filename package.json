@@ -1,11 +1,11 @@
 {
   "name": "quran-word-by-word",
-  "version": "2.1.0",
-  "description": "Al-Quran Word by Word - Progressive Web App with compression optimization",
+  "version": "3.0.0",
+  "description": "Al-Quran Word by Word - Progressive Web App with 87% performance optimization",
   "main": "index.html",
   "scripts": {
     "dev": "node build-scripts.js dev",
-    "build": "node build-scripts.js build", 
+    "build": "node build-scripts.js build",
     "prod": "node build-scripts.js prod",
     "status": "node build-scripts.js status",
     "verify": "node build-scripts.js verify",
@@ -21,7 +21,13 @@
     "serve": "python -m http.server 8000",
     "help": "node build-scripts.js help",
     "pretest": "npm run status",
-    "posttest": "echo '✅ All tests completed!'"
+    "posttest": "echo '✅ All tests completed!'",
+    "version:major": "node version-manager.js major",
+    "version:minor": "node version-manager.js minor",
+    "version:patch": "node version-manager.js patch",
+    "version:status": "node version-manager.js status",
+    "version:set": "node version-manager.js set",
+    "version:verify": "node tests/version-verification.js"
   },
   "keywords": [
     "quran",
@@ -53,7 +59,7 @@
   },
   "performance": {
     "dataCompression": "86.9%",
-    "assetMinification": "34.4%", 
+    "assetMinification": "34.4%",
     "totalOptimization": "87.2%",
     "loadTimeImprovement": "5-8x faster"
   }

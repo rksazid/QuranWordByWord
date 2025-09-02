@@ -167,8 +167,8 @@ class AssetMinifier {
                 // Add production comment
                 .replace('<!-- Scripts -->', '<!-- Scripts (Production - Minified) -->');
 
-            fs.writeFileSync('index.min.html', minifiedIndex);
-            console.log('📄 Created production HTML: index.min.html');
+            // Note: index.min.html not needed - build-scripts.js modifies index.html directly
+            console.log('📄 Production HTML: index.html (will be modified by build-scripts.js)');
 
         } catch (error) {
             console.error('❌ Error creating minified index:', error.message);
@@ -297,7 +297,7 @@ if (require.main === module) {
         
         console.log('\n✅ Minification completed successfully!');
         console.log('\n💡 Next steps:');
-        console.log('1. Use index.min.html for production');
+        console.log('1. Run "npm run prod" to switch index.html to production mode');
         console.log('2. Update your server to serve minified files');
         console.log('3. Test performance improvements');
         console.log('4. Consider enabling gzip compression on server');

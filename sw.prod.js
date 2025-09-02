@@ -1,14 +1,18 @@
-const CACHE_NAME = 'quran-word-by-word-v2.1.0';
+const CACHE_NAME = 'quran-word-by-word-v3.0.0';
 const urlsToCache = [
     '/',
     '/index.html',
     '/styles.min.css',
     '/script.min.js',
+    '/compression-utils.min.js',
+    '/enhanced-data-loader.min.js',
+    '/migration-patch.min.js',
     '/manifest.json',
     '/data/surah_name.json',
     '/data/al-quran-word-by-word.json',
     'https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap',
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js'
 ];
 
 // Install event - cache resources
