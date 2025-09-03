@@ -1,0 +1,90 @@
+# Robots.txt for Al-Quran Word by Word
+# https://quranwordbyword.onrender.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to index the main content
+Allow: /index.html
+Allow: /manifest.json
+Allow: /favicon/
+
+# Disallow indexing of technical/system files
+Disallow: /sw.js
+Disallow: /sw.min.js  
+Disallow: /sw.prod.js
+Disallow: /env-config.js
+Disallow: /*.min.js
+Disallow: /*.min.css
+Disallow: /build-scripts.js
+Disallow: /minify-assets.js
+Disallow: /version-manager.js
+Disallow: /temp.js
+
+# Disallow indexing of development/testing files
+Disallow: /tests/
+Disallow: /debug-helper.html
+Disallow: /performance-test.html
+Disallow: /performance-comparison.html
+Disallow: /compression-test.html
+
+# Disallow indexing of documentation files (not for search)
+Disallow: /*.md
+Disallow: /README.md
+Disallow: /CHANGELOG.md
+
+# Disallow indexing of data directory (too large for crawling)
+Disallow: /data/
+Disallow: /data-compressed/
+
+# Disallow system files
+Disallow: /.DS_Store
+Disallow: /.git/
+Disallow: /minification-manifest.json
+
+# Allow specific important pages for SEO
+Allow: /
+Allow: /index.html
+
+# Crawl-delay for respectful crawling (1 second)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://quranwordbyword.onrender.com/sitemap.xml
+
+# Additional directives for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Allow: /favicon/
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Allow: /favicon/
+Crawl-delay: 1
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+Allow: /favicon/
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Allow: /favicon/
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Allow: /favicon/
+Crawl-delay: 1
+
+# Archive.org
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 5
