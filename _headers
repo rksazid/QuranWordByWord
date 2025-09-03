@@ -1,0 +1,120 @@
+# Render Static Site Headers Configuration
+# This file configures server-level headers for performance optimization
+
+# Global headers for all files
+/*
+  # Security headers
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  
+  # Enable gzip compression for all text-based content
+  Content-Encoding: gzip
+
+# HTML files - Short cache for dynamic updates
+/*.html
+  Cache-Control: public, max-age=3600, s-maxage=7200
+  # 1 hour cache, 2 hours CDN cache
+
+# CSS files - Long cache with versioning
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+  # 1 year cache for versioned CSS files
+  Content-Type: text/css; charset=utf-8
+
+# JavaScript files - Long cache with versioning  
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+  # 1 year cache for versioned JS files
+  Content-Type: application/javascript; charset=utf-8
+
+# JSON data files - Moderate cache
+/*.json
+  Cache-Control: public, max-age=86400, s-maxage=172800
+  # 1 day cache, 2 days CDN cache
+  Content-Type: application/json; charset=utf-8
+
+# Images - Long cache
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+  # 1 year cache for images
+
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.gif
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+# Web App Manifest - Moderate cache
+/manifest.json
+  Cache-Control: public, max-age=86400, s-maxage=172800
+  # 1 day cache for PWA manifest
+
+# Service Worker - No cache (always fresh)
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  # Service worker should always be fresh
+
+/sw.min.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/sw.prod.js  
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# Font files - Long cache
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable
+  # 1 year cache for web fonts
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.ttf
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.eot
+  Cache-Control: public, max-age=31536000, immutable
+
+# Compressed data files - Long cache  
+/*.gz
+  Cache-Control: public, max-age=2592000, s-maxage=5184000
+  # 30 days cache, 60 days CDN cache
+  Content-Encoding: gzip
+
+# SEO files - Moderate cache
+/robots.txt
+  Cache-Control: public, max-age=86400
+  # 1 day cache for robots.txt
+
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+  # 1 day cache for sitemap
+
+# Root files - Short cache
+/index.html
+  Cache-Control: public, max-age=1800, s-maxage=3600
+  # 30 minutes cache, 1 hour CDN cache
+
+# PWA specific headers
+/
+  # Enable proper PWA installation
+  X-UA-Compatible: IE=edge
+  
+# External resource prefetch hints
+/*.html
+  Link: <https://fonts.googleapis.com>; rel=preconnect
+  Link: <https://fonts.gstatic.com>; rel=preconnect; crossorigin
+  Link: <https://cdnjs.cloudflare.com>; rel=preconnect
