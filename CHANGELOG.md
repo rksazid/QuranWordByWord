@@ -1,4 +1,25 @@
-# Changelog\n\nAll notable changes to Al-Quran Word by Word will be documented in this file.\n\n## [3.0.0] - 2025-09-02
+# Changelog\n\nAll notable changes to Al-Quran Word by Word will be documented in this file.\n\n## [3.3.0] - 2026-03-13
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [3.2.0] - 2026-03-13
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [3.1.0] - 2026-03-13
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [3.0.0] - 2025-09-02
 
 ### 🚀 Major Release - Performance Revolution
 

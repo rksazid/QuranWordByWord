@@ -7,9 +7,13 @@ let appData = {
     isTranslationVisible: true,
     isWordByWordMode: false,
     searchQuery: '',
-    // Settings  
+    searchFilter: 'all',
+    isReadingMode: false,
+    isCompactMode: false,
+    // Settings
     settings: {
         fontSize: 'medium',
+        fontSizeMultiplier: 1.0,
         arabicFont: 'Amiri',
         bengaliFont: 'Noto Serif Bengali',
         uiFont: 'Inter',
@@ -20,8 +24,10 @@ let appData = {
         favorites: []
     },
     // Auto scroll
+    autoScrollAnimationFrame: null,
     autoScrollInterval: null,
     isScrollPaused: false,
+    lastScrollTime: 0,
     // View preferences
     currentView: 'card'
 };
@@ -139,7 +145,30 @@ const elements = {
     ayahNumberInput: document.getElementById('ayahNumberInput'),
     ayahRange: document.getElementById('ayahRange'),
     goToAyahConfirm: document.getElementById('goToAyahConfirm'),
-    
+
+    // Reading Mode
+    readingModeBtn: document.getElementById('readingModeBtn'),
+    readingModeBar: document.getElementById('readingModeBar'),
+    readingModeSurahName: document.getElementById('readingModeSurahName'),
+    readingModeSurahType: document.getElementById('readingModeSurahType'),
+    readingModeSurahAyahs: document.getElementById('readingModeSurahAyahs'),
+    readingModeIndicator: document.getElementById('readingModeIndicator'),
+    compactModeToggle: document.getElementById('compactModeToggle'),
+
+    // Enhanced Search
+    searchResultCount: document.getElementById('searchResultCount'),
+    searchFilterBtns: document.querySelectorAll('.search-filter-btn'),
+
+    // Font Size Slider
+    fontSizeSlider: document.getElementById('fontSizeSlider'),
+    fontSizePercent: document.getElementById('fontSizePercent'),
+    fontPresetBtns: document.querySelectorAll('.font-preset-btn'),
+    arabicFontPreview: document.getElementById('arabicFontPreview'),
+
+    // Footer Install
+    installAppLink: document.getElementById('installAppLink'),
+    aboutAppLink: document.getElementById('aboutAppLink'),
+
     // Loading
     loadingSpinner: document.getElementById('loadingSpinner')
 };
@@ -166,6 +195,27 @@ function loadSettings() {
         if (savedSettings) {
             const parsedSettings = JSON.parse(savedSettings);
             appData.settings = { ...appData.settings, ...parsedSettings };
+        }
+
+        // Backward compat: if no multiplier, derive from old fontSize
+        if (!appData.settings.fontSizeMultiplier) {
+            const oldSizeMap = { 'small': 0.85, 'medium': 1.0, 'large': 1.15, 'extra-large': 1.3 };
+            appData.settings.fontSizeMultiplier = oldSizeMap[appData.settings.fontSize] || 1.0;
+        }
+
+        // Load reading mode preference
+        const savedReadingMode = localStorage.getItem('quranAppReadingMode');
+        if (savedReadingMode !== null) {
+            appData.isReadingMode = JSON.parse(savedReadingMode);
+        }
+
+        // Load compact mode preference
+        const savedCompactMode = localStorage.getItem('quranAppCompactMode');
+        if (savedCompactMode !== null) {
+            appData.isCompactMode = JSON.parse(savedCompactMode);
+            if (elements.compactModeToggle) {
+                elements.compactModeToggle.checked = appData.isCompactMode;
+            }
         }
         
         // Load last opened surah
@@ -231,12 +281,14 @@ function clearAllData() {
             // Clear all localStorage data related to the app
             const keysToRemove = [
                 'quranAppSettings',
-                'quranAppLastSurah', 
+                'quranAppLastSurah',
                 'surahView',
                 'quranAppSearchQuery',
                 'quranAppTranslationVisible',
                 'quranAppTranslationLang',
-                'quranAppWordByWordMode'
+                'quranAppWordByWordMode',
+                'quranAppReadingMode',
+                'quranAppCompactMode'
             ];
             
             keysToRemove.forEach(key => {
@@ -246,6 +298,7 @@ function clearAllData() {
             // Reset to defaults
             appData.settings = {
                 fontSize: 'medium',
+                fontSizeMultiplier: 1.0,
                 arabicFont: 'Amiri',
                 bengaliFont: 'Noto Serif Bengali',
                 uiFont: 'Inter',
@@ -845,17 +898,17 @@ function initBottomNavigation() {
                     openSettings();
                     updateBottomNavActiveState(item);
                     break;
+                case 'reading-mode':
+                    toggleReadingMode();
+                    break;
                 case 'controls':
                     toggleFloatingControls();
-                    // Don't change active state for controls, keep home active
                     break;
                 case 'goto-ayah':
                     openGoToAyahModal();
-                    // Don't change active state for goto-ayah, keep home active
                     break;
                 case 'toggle-favorite':
                     toggleCurrentSurahFavorite();
-                    // Don't change active state for favorite toggle, keep home active
                     break;
             }
         });
@@ -877,27 +930,26 @@ function updateBottomNavForPage(isReadingPage = false) {
     const toggleFavoriteBtn = document.querySelector('[data-action="toggle-favorite"]');
     const searchBtn = document.querySelector('[data-action="search"]');
     const favoritesBtn = document.querySelector('[data-action="favorites"]');
-    
+    const readingModeBtn = document.querySelector('[data-action="reading-mode"]');
+
     if (isReadingPage) {
-        // Hide search and favorites list for reading page, show reading-specific controls
         if (searchBtn) searchBtn.style.display = 'none';
         if (favoritesBtn) favoritesBtn.style.display = 'none';
+        if (readingModeBtn) readingModeBtn.style.display = 'flex';
         if (controlsBtn) controlsBtn.style.display = 'flex';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'flex';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'flex';
-        
-        // Update favorite button state for current surah
+
         updateBottomNavFavoriteState();
     } else {
-        // Show search and favorites list for home page, hide reading controls
         if (searchBtn) searchBtn.style.display = 'flex';
         if (favoritesBtn) favoritesBtn.style.display = 'flex';
+        if (readingModeBtn) readingModeBtn.style.display = 'none';
         if (controlsBtn) controlsBtn.style.display = 'none';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'none';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'none';
     }
-    
-    // Set home as active when changing pages
+
     updateBottomNavActiveState(homeBtn);
 }
 
@@ -930,8 +982,8 @@ function setupEventListeners() {
     elements.toggleFavoriteBtn?.addEventListener('click', toggleCurrentSurahFavorite);
     elements.toggleControlsBtn?.addEventListener('click', toggleFloatingControls);
     
-    // Search
-    elements.searchInput.addEventListener('input', handleSearch);
+    // Search (debounced for performance)
+    elements.searchInput.addEventListener('input', debounce(handleSearch, 200));
     elements.clearSearch.addEventListener('click', clearSearch);
     
     // Reading Controls
@@ -957,12 +1009,31 @@ function setupEventListeners() {
         btn.addEventListener('click', () => switchSettingsTab(btn.dataset.tab));
     });
     
-    // Font Settings
-    elements.decreaseFontSize?.addEventListener('click', () => changeFontSize(-1));
-    elements.increaseFontSize?.addEventListener('click', () => changeFontSize(1));
+    // Reading Mode
+    elements.readingModeBtn?.addEventListener('click', toggleReadingMode);
+    elements.compactModeToggle?.addEventListener('change', toggleCompactMode);
+
+    // Font Settings (slider-based)
+    elements.fontSizeSlider?.addEventListener('input', handleFontSizeSlider);
+    elements.fontPresetBtns?.forEach(btn => {
+        btn.addEventListener('click', () => setFontSizeFromPreset(parseFloat(btn.dataset.size)));
+    });
     elements.arabicFontSelect?.addEventListener('change', changeArabicFont);
     elements.bengaliFontSelect?.addEventListener('change', changeBengaliFont);
     elements.uiFontSelect?.addEventListener('change', changeUIFont);
+
+    // Search Filters
+    elements.searchFilterBtns?.forEach(btn => {
+        btn.addEventListener('click', () => setSearchFilter(btn.dataset.filter));
+    });
+
+    // Footer Install App
+    elements.installAppLink?.addEventListener('click', handleFooterInstall);
+    elements.aboutAppLink?.addEventListener('click', (e) => {
+        e.preventDefault();
+        openSettings();
+        switchSettingsTab('about');
+    });
     
     // Reading Settings
     elements.autoScrollToggle?.addEventListener('change', toggleAutoScroll);
@@ -1077,6 +1148,14 @@ function handleKeyboard(e) {
         e.preventDefault();
         openGoToAyahModal();
     }
+
+    // R key for reading mode (when not in input)
+    if (e.key === 'r' && !e.ctrlKey && !e.altKey && !e.metaKey &&
+        elements.surahReadingPage.style.display !== 'none' &&
+        document.activeElement.tagName !== 'INPUT' &&
+        document.activeElement.tagName !== 'TEXTAREA') {
+        toggleReadingMode();
+    }
 }
 
 // ==================== VIEW TOGGLE FUNCTIONALITY ==================== //
@@ -1173,18 +1252,37 @@ function renderSurahList() {
         hideLastSurahSuggestion();
     }
     
-    // Filter surahs based on search query
+    // Filter surahs based on search query AND type filter
     const filteredSurahs = Object.entries(appData.surahNames).filter(([id, surah]) => {
+        // Type filter
+        if (appData.searchFilter === 'makkah' && !surah.type.toLowerCase().includes('makkah')) return false;
+        if (appData.searchFilter === 'madinah' && !surah.type.toLowerCase().includes('madinah')) return false;
+
         if (!appData.searchQuery) return true;
-        
-        const query = appData.searchQuery.toLowerCase();
+
+        const query = appData.searchQuery.toLowerCase().trim();
+        // Support number search (e.g. "36" for Ya-Sin)
+        if (/^\d+$/.test(query)) {
+            const num = parseInt(query);
+            return id === query || parseInt(id) === num;
+        }
         return (
             surah.name_english.toLowerCase().includes(query) ||
             surah.name_bangla.includes(appData.searchQuery) ||
             surah.name_arabic.includes(appData.searchQuery) ||
-            id === appData.searchQuery
+            surah.type.toLowerCase().includes(query)
         );
     });
+
+    // Update search result count
+    if (elements.searchResultCount) {
+        const total = Object.keys(appData.surahNames).length;
+        if (appData.searchQuery || appData.searchFilter !== 'all') {
+            elements.searchResultCount.textContent = `${filteredSurahs.length}/${total}`;
+        } else {
+            elements.searchResultCount.textContent = '';
+        }
+    }
     
     filteredSurahs.forEach(([surahId, surahInfo], index) => {
         const surahCard = createSurahCard(surahId, surahInfo);
@@ -1292,7 +1390,7 @@ function toggleSearch() {
 function handleSearch(e) {
     appData.searchQuery = e.target.value;
     renderSurahList();
-    
+
     // Save search query for persistence
     try {
         localStorage.setItem('quranAppSearchQuery', appData.searchQuery);
@@ -1301,11 +1399,23 @@ function handleSearch(e) {
     }
 }
 
+function setSearchFilter(filter) {
+    appData.searchFilter = filter;
+    elements.searchFilterBtns?.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+    });
+    renderSurahList();
+}
+
 function clearSearch() {
     elements.searchInput.value = '';
     appData.searchQuery = '';
+    appData.searchFilter = 'all';
+    elements.searchFilterBtns?.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === 'all');
+    });
     renderSurahList();
-    
+
     // Clear saved search query
     try {
         localStorage.removeItem('quranAppSearchQuery');
@@ -1468,12 +1578,27 @@ function createVerseElement(verseNum, verseData) {
         </div>
     ` : '';
     
+    // Create action buttons (skip for bismillah)
+    const actionsHtml = verseNum !== '0' ? `
+        <div class="verse-actions">
+            <button class="verse-action-btn copy-btn" title="Copy verse">
+                <i class="fas fa-copy"></i>
+                <span>Copy</span>
+            </button>
+            <button class="verse-action-btn share-btn" title="Share verse">
+                <i class="fas fa-share-alt"></i>
+                <span>Share</span>
+            </button>
+        </div>
+    ` : '';
+
     verse.innerHTML = `
         ${verseNumberHtml}
         <div class="verse-arabic ${appData.isWordByWordMode ? 'word-by-word' : ''}">${arabicText}</div>
         ${translationHtml}
+        ${actionsHtml}
     `;
-    
+
     return verse;
 }
 
@@ -1612,20 +1737,31 @@ function goBackToSurahList() {
     elements.surahListPage.style.display = 'block';
     elements.surahReadingPage.style.display = 'none';
     elements.backBtn.style.display = 'none';
-    
+
+    // Exit reading mode and compact mode
+    if (appData.isReadingMode) {
+        appData.isReadingMode = false;
+        elements.surahReadingPage.classList.remove('reading-mode-active');
+        if (elements.readingModeBtn) {
+            elements.readingModeBtn.classList.remove('active-mode');
+            elements.readingModeBtn.style.background = '';
+        }
+    }
+    exitCompactMode();
+
     // Switch header controls back
     if (elements.homepageControls) elements.homepageControls.style.display = 'flex';
     if (elements.surahControls) elements.surahControls.style.display = 'none';
-    
+
     // Hide floating controls
     if (elements.floatingControls) elements.floatingControls.style.display = 'none';
-    
+
     // Update bottom navigation for list page
     updateBottomNavForPage(false);
-    
+
     appData.currentSurah = null;
     stopAutoScroll();
-    
+
     // Scroll to top
     window.scrollTo(0, 0);
 }
@@ -1663,18 +1799,8 @@ function applySettings() {
         document.documentElement.setAttribute('data-theme', appData.settings.theme);
     }
     
-    // Apply font size
-    document.documentElement.className = document.documentElement.className.replace(/font-size-\w+/g, '');
-    document.documentElement.classList.add(`font-size-${appData.settings.fontSize}`);
-    
-    // Set CSS custom properties for font scaling
-    const fontSizeMultipliers = {
-        small: 0.85,
-        medium: 1,
-        large: 1.15,
-        'extra-large': 1.3
-    };
-    const multiplier = fontSizeMultipliers[appData.settings.fontSize] || 1;
+    // Apply font size with granular multiplier
+    const multiplier = appData.settings.fontSizeMultiplier || 1;
     document.documentElement.style.setProperty('--font-size-multiplier', multiplier);
     
     // Apply fonts
@@ -1697,11 +1823,8 @@ function applySettings() {
 }
 
 function updateSettingsUI() {
-    // Update font size display
-    if (elements.fontSizeDisplay) {
-        const sizeMap = { small: 'Small', medium: 'Medium', large: 'Large', 'extra-large': 'Extra Large' };
-        elements.fontSizeDisplay.textContent = sizeMap[appData.settings.fontSize] || 'Medium';
-    }
+    // Update font size display (slider-based)
+    updateFontSizeUI();
     
     // Update font selects
     if (elements.arabicFontSelect) {
@@ -1749,17 +1872,62 @@ function initializeSettingsUI() {
 }
 
 // Font Settings Functions
-function changeFontSize(delta) {
-    const sizes = ['small', 'medium', 'large', 'extra-large'];
-    const currentIndex = sizes.indexOf(appData.settings.fontSize);
-    let newIndex = currentIndex + delta;
-    
-    newIndex = Math.max(0, Math.min(sizes.length - 1, newIndex));
-    appData.settings.fontSize = sizes[newIndex];
-    
-    applySettings();
-    updateSettingsUI();
+function handleFontSizeSlider(e) {
+    const multiplier = parseFloat(e.target.value);
+    setFontSizeMultiplier(multiplier);
+}
+
+function setFontSizeFromPreset(multiplier) {
+    setFontSizeMultiplier(multiplier);
+    if (elements.fontSizeSlider) {
+        elements.fontSizeSlider.value = multiplier;
+    }
+}
+
+function setFontSizeMultiplier(multiplier) {
+    multiplier = Math.max(0.7, Math.min(2.0, multiplier));
+    appData.settings.fontSizeMultiplier = multiplier;
+
+    // Map multiplier to named size for backward compat
+    if (multiplier <= 0.78) appData.settings.fontSize = 'extra-small';
+    else if (multiplier <= 0.92) appData.settings.fontSize = 'small';
+    else if (multiplier <= 1.07) appData.settings.fontSize = 'medium';
+    else if (multiplier <= 1.22) appData.settings.fontSize = 'large';
+    else if (multiplier <= 1.4) appData.settings.fontSize = 'extra-large';
+    else if (multiplier <= 1.62) appData.settings.fontSize = '2x-large';
+    else if (multiplier <= 1.87) appData.settings.fontSize = '3x-large';
+    else appData.settings.fontSize = '4x-large';
+
+    document.documentElement.style.setProperty('--font-size-multiplier', multiplier);
+    updateFontSizeUI();
     saveSettings();
+}
+
+function updateFontSizeUI() {
+    const multiplier = appData.settings.fontSizeMultiplier || 1;
+    const percent = Math.round(multiplier * 100);
+
+    const sizeNames = {
+        'extra-small': 'Extra Small', 'small': 'Small', 'medium': 'Medium',
+        'large': 'Large', 'extra-large': 'Extra Large', '2x-large': '2X Large',
+        '3x-large': '3X Large', '4x-large': '4X Large'
+    };
+
+    if (elements.fontSizeDisplay) {
+        elements.fontSizeDisplay.textContent = sizeNames[appData.settings.fontSize] || 'Medium';
+    }
+    if (elements.fontSizePercent) {
+        elements.fontSizePercent.textContent = percent + '%';
+    }
+    if (elements.fontSizeSlider) {
+        elements.fontSizeSlider.value = multiplier;
+    }
+
+    // Update preset buttons
+    elements.fontPresetBtns?.forEach(btn => {
+        const size = parseFloat(btn.dataset.size);
+        btn.classList.toggle('active', Math.abs(size - multiplier) < 0.03);
+    });
 }
 
 function changeArabicFont(e) {
@@ -1767,7 +1935,12 @@ function changeArabicFont(e) {
     console.log('🔤 Changing Arabic font to:', e.target.value);
     applySettings();
     saveSettings();
-    
+
+    // Update font preview
+    if (elements.arabicFontPreview) {
+        elements.arabicFontPreview.style.fontFamily = `'${e.target.value}', serif`;
+    }
+
     // Force re-render if currently viewing a surah
     if (appData.currentSurah && surahCache.has(appData.currentSurah)) {
         const surahData = surahCache.get(appData.currentSurah);
@@ -1851,11 +2024,7 @@ function setScrollSpeed(speed) {
     // Update preset buttons
     updateSpeedPresetButtons();
     
-    // Restart auto scroll with new speed if active
-    if (appData.settings.autoScroll && appData.autoScrollInterval && !appData.isScrollPaused) {
-        stopAutoScroll();
-        startAutoScroll();
-    }
+    // Speed change takes effect immediately with rAF approach, no restart needed
     saveSettings();
 }
 
@@ -1872,23 +2041,44 @@ function updateSpeedPresetButtons() {
 }
 
 function startAutoScroll() {
-    if (appData.autoScrollInterval) {
-        clearInterval(appData.autoScrollInterval);
-    }
-    
-    // Fix: Correct speed calculation - higher speed = faster scrolling
-    const scrollSpeed = Math.max(10, 100 / appData.settings.scrollSpeed);
-    appData.autoScrollInterval = setInterval(() => {
-        window.scrollBy(0, 1);
-        
-        // Stop at bottom
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            stopAutoScroll();
+    stopAutoScroll();
+
+    appData.lastScrollTime = performance.now();
+
+    function scrollStep(timestamp) {
+        if (!appData.settings.autoScroll || appData.isScrollPaused) {
+            appData.autoScrollAnimationFrame = requestAnimationFrame(scrollStep);
+            return;
         }
-    }, scrollSpeed);
+
+        const elapsed = timestamp - appData.lastScrollTime;
+        // Pixels per second based on speed setting
+        const pixelsPerSecond = appData.settings.scrollSpeed * 30;
+        const scrollAmount = (pixelsPerSecond * elapsed) / 1000;
+
+        if (scrollAmount >= 0.5) {
+            window.scrollBy(0, scrollAmount);
+            appData.lastScrollTime = timestamp;
+        }
+
+        // Stop at bottom
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 5) {
+            stopAutoScrollAndHide();
+            return;
+        }
+
+        appData.autoScrollAnimationFrame = requestAnimationFrame(scrollStep);
+    }
+
+    appData.autoScrollAnimationFrame = requestAnimationFrame(scrollStep);
+    showFloatingScrollControl();
 }
 
 function stopAutoScroll() {
+    if (appData.autoScrollAnimationFrame) {
+        cancelAnimationFrame(appData.autoScrollAnimationFrame);
+        appData.autoScrollAnimationFrame = null;
+    }
     if (appData.autoScrollInterval) {
         clearInterval(appData.autoScrollInterval);
         appData.autoScrollInterval = null;
@@ -1931,17 +2121,9 @@ function updateFloatingScrollDisplay() {
 }
 
 function toggleScrollPause() {
-    if (appData.isScrollPaused) {
-        // Resume scrolling
-        appData.isScrollPaused = false;
-        startAutoScroll();
-    } else {
-        // Pause scrolling
-        appData.isScrollPaused = true;
-        if (appData.autoScrollInterval) {
-            clearInterval(appData.autoScrollInterval);
-            appData.autoScrollInterval = null;
-        }
+    appData.isScrollPaused = !appData.isScrollPaused;
+    if (!appData.isScrollPaused) {
+        appData.lastScrollTime = performance.now();
     }
     updateFloatingScrollDisplay();
 }
@@ -2137,13 +2319,232 @@ function goToSelectedAyah() {
     }
 }
 
+// ==================== READING MODE ==================== //
+function toggleReadingMode() {
+    appData.isReadingMode = !appData.isReadingMode;
+    const readingPage = elements.surahReadingPage;
+
+    if (appData.isReadingMode) {
+        readingPage.classList.add('reading-mode-active');
+        if (elements.readingModeBtn) {
+            elements.readingModeBtn.classList.add('active-mode');
+            elements.readingModeBtn.style.background = 'rgba(255,255,255,0.4)';
+        }
+
+        // Populate reading mode bar
+        if (appData.currentSurah && appData.surahNames) {
+            const surahInfo = appData.surahNames[appData.currentSurah];
+            if (surahInfo) {
+                if (elements.readingModeSurahName) elements.readingModeSurahName.textContent = surahInfo.name_arabic;
+                if (elements.readingModeSurahType) elements.readingModeSurahType.textContent = surahInfo.type;
+                if (elements.readingModeSurahAyahs) elements.readingModeSurahAyahs.textContent = surahInfo.ayah_number + ' Ayahs';
+            }
+        }
+
+        // Hide floating controls in reading mode
+        if (elements.floatingControls) elements.floatingControls.style.display = 'none';
+
+        // Restore compact mode if it was active
+        if (appData.isCompactMode) {
+            readingPage.classList.add('compact-mode-active');
+            if (elements.compactModeToggle) elements.compactModeToggle.checked = true;
+            setTimeout(() => restructureVersesForCompactMode(), 50);
+        }
+
+        // Scroll to reading mode bar to ensure it's visible below header
+        if (elements.readingModeBar) {
+            setTimeout(() => {
+                elements.readingModeBar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 150);
+        }
+    } else {
+        readingPage.classList.remove('reading-mode-active');
+        if (elements.readingModeBtn) {
+            elements.readingModeBtn.classList.remove('active-mode');
+            elements.readingModeBtn.style.background = '';
+        }
+        // Restore floating controls
+        if (elements.floatingControls) elements.floatingControls.style.display = 'block';
+        // Exit compact mode when leaving reading mode
+        exitCompactMode();
+    }
+
+    // Save reading mode preference
+    try {
+        localStorage.setItem('quranAppReadingMode', JSON.stringify(appData.isReadingMode));
+    } catch (e) {
+        console.error('Error saving reading mode:', e);
+    }
+}
+
+// ==================== COMPACT MODE ==================== //
+function toggleCompactMode() {
+    appData.isCompactMode = elements.compactModeToggle ? elements.compactModeToggle.checked : !appData.isCompactMode;
+    const readingPage = elements.surahReadingPage;
+
+    if (appData.isCompactMode) {
+        readingPage.classList.add('compact-mode-active');
+        restructureVersesForCompactMode();
+    } else {
+        readingPage.classList.remove('compact-mode-active');
+        restoreVersesFromCompactMode();
+    }
+
+    try {
+        localStorage.setItem('quranAppCompactMode', JSON.stringify(appData.isCompactMode));
+    } catch (e) {
+        console.error('Error saving compact mode:', e);
+    }
+}
+
+function restructureVersesForCompactMode() {
+    const verses = document.querySelectorAll('.verse');
+    verses.forEach(verse => {
+        const verseArabic = verse.querySelector('.verse-arabic');
+        const verseNum = verse.getAttribute('data-verse');
+        if (verseArabic && verseNum && !verse.querySelector('.verse-number-inline')) {
+            const inlineNum = document.createElement('span');
+            inlineNum.className = 'verse-number-inline';
+            inlineNum.textContent = verseNum;
+            verseArabic.appendChild(inlineNum);
+        }
+    });
+}
+
+function restoreVersesFromCompactMode() {
+    document.querySelectorAll('.verse-number-inline').forEach(el => el.remove());
+}
+
+function exitCompactMode() {
+    if (appData.isCompactMode) {
+        appData.isCompactMode = false;
+        elements.surahReadingPage.classList.remove('compact-mode-active');
+        if (elements.compactModeToggle) elements.compactModeToggle.checked = false;
+        restoreVersesFromCompactMode();
+    }
+}
+
+// ==================== INSTALL APP HANDLER ==================== //
+function handleFooterInstall(e) {
+    e.preventDefault();
+
+    // Check if already installed (standalone mode)
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
+        showSuccess('App is already installed!');
+        return;
+    }
+
+    // Check if we have the deferred install prompt
+    if (window.deferredPrompt) {
+        window.deferredPrompt.prompt();
+        window.deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+                showSuccess('App installed successfully!');
+            }
+            window.deferredPrompt = null;
+        });
+    } else {
+        // Show manual install instructions
+        showInstallInstructions();
+    }
+}
+
+function showInstallInstructions() {
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isAndroid = /Android/.test(navigator.userAgent);
+    const isChrome = /Chrome/.test(navigator.userAgent);
+
+    let instructions = '';
+    if (isIOS) {
+        instructions = 'To install on iOS:\n1. Tap the Share button (box with arrow)\n2. Scroll down and tap "Add to Home Screen"\n3. Tap "Add"';
+    } else if (isAndroid && isChrome) {
+        instructions = 'To install on Android:\n1. Tap the menu (three dots) in the top right\n2. Tap "Add to Home screen"\n3. Tap "Add"';
+    } else {
+        instructions = 'To install this app:\n1. Open this site in Chrome or Safari\n2. Look for "Install" or "Add to Home Screen" option in your browser menu';
+    }
+
+    alert(instructions);
+}
+
+// ==================== COPY & SHARE VERSE ==================== //
+function getVerseDataFromCache(verseNum) {
+    if (!appData.currentSurah) return null;
+    const surahIdStr = appData.currentSurah.toString();
+    if (!surahCache.has(surahIdStr)) return null;
+    const surahData = surahCache.get(surahIdStr);
+    return surahData[verseNum] || null;
+}
+
+function formatVerseText(verseNum, verseData) {
+    const surahInfo = appData.surahNames ? appData.surahNames[appData.currentSurah] : null;
+    const surahName = surahInfo ? surahInfo.name_arabic : '';
+    const surahEnglish = surahInfo ? (surahInfo.name_translation || surahInfo.name_english || '') : '';
+    const lang = appData.currentTranslationLang;
+    const translation = lang === 'bangla' ? verseData.bangla_trans : verseData.english_trans;
+    const langLabel = lang === 'bangla' ? 'বাংলা অনুবাদ' : 'Translation';
+
+    return `${surahName} - ${surahEnglish}\nSurah ${appData.currentSurah}, Ayah ${verseNum}\n\n${verseData.arabic_text}\n\n${langLabel}:\n${translation}\n\n— Al-Quran Word by Word`;
+}
+
+async function handleCopyVerse(verseNum, btn) {
+    const verseData = getVerseDataFromCache(verseNum);
+    if (!verseData) return;
+
+    const text = formatVerseText(verseNum, verseData);
+    try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(text);
+        } else {
+            // Fallback for older browsers
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.cssText = 'position:fixed;left:-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+        }
+        // Show copied feedback
+        if (btn) {
+            btn.classList.add('copied');
+            const span = btn.querySelector('span');
+            if (span) { const orig = span.textContent; span.textContent = 'Copied!'; setTimeout(() => { btn.classList.remove('copied'); span.textContent = orig; }, 2000); }
+        }
+    } catch (err) {
+        console.error('Copy failed:', err);
+    }
+}
+
+async function handleShareVerse(verseNum) {
+    const verseData = getVerseDataFromCache(verseNum);
+    if (!verseData) return;
+
+    const surahInfo = appData.surahNames ? appData.surahNames[appData.currentSurah] : null;
+    const surahEnglish = surahInfo ? (surahInfo.name_translation || surahInfo.name_english || '') : '';
+    const text = formatVerseText(verseNum, verseData);
+
+    if (navigator.share) {
+        try {
+            await navigator.share({ title: `${surahEnglish} - Ayah ${verseNum}`, text: text });
+        } catch (err) {
+            if (err.name !== 'AbortError') console.error('Share failed:', err);
+        }
+    } else {
+        // Fallback to copy
+        const btn = document.querySelector(`.verse[data-verse="${verseNum}"] .copy-btn`);
+        await handleCopyVerse(verseNum, btn);
+        showSuccess('Copied to clipboard (Share not supported on this browser)');
+    }
+}
+
 // ==================== APPLICATION STARTUP ==================== //
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Al-Quran Word by Word Application Starting...');
     loadData();
-    
-    // Set up delegation for dynamically created word elements
+
+    // Set up delegation for dynamically created elements
     document.addEventListener('click', (e) => {
+        // Word-by-word click
         if (e.target.classList.contains('arabic-word')) {
             e.preventDefault();
             e.stopPropagation();
@@ -2152,6 +2553,27 @@ document.addEventListener('DOMContentLoaded', function() {
             if (arabicWord && bengaliMeaning) {
                 showWordModal(arabicWord, bengaliMeaning);
             }
+            return;
+        }
+
+        // Copy button
+        const copyBtn = e.target.closest('.copy-btn');
+        if (copyBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            const verse = copyBtn.closest('.verse');
+            if (verse) handleCopyVerse(verse.getAttribute('data-verse'), copyBtn);
+            return;
+        }
+
+        // Share button
+        const shareBtn = e.target.closest('.share-btn');
+        if (shareBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            const verse = shareBtn.closest('.verse');
+            if (verse) handleShareVerse(verse.getAttribute('data-verse'));
+            return;
         }
     });
 });
@@ -2170,8 +2592,8 @@ function debounce(func, wait) {
     };
 }
 
-// Update search handler to use debounced version
-elements.searchInput?.addEventListener('input', debounce(handleSearch, 300));
+// Note: Search handler is already set up in setupEventListeners with direct binding.
+// The debounce is handled within the main handler for simpler architecture.
 
 // ==================== ERROR HANDLING ==================== //
 window.addEventListener('error', (e) => {

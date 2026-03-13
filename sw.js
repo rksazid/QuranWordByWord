@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quran-word-by-word-v3.0.0';
+const CACHE_NAME = 'quran-word-by-word-v3.3.0';
 const urlsToCache = [
     '/',
     '/index.html',
