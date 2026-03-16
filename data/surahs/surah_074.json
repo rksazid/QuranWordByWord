@@ -19,7 +19,8 @@
           "translate_bn": "চাদরাবৃত"
         }
       },
-      "english_trans": "O you who are clothed!"
+      "english_trans": "O you who are clothed!",
+      "arabic_text_uthmani": " يَـٰٓأَيُّهَا ٱلْمُدَّثِّرُ"
     },
     "2": {
       "arabic_text": "قُمْ فَأَنْذِرْ",
@@ -34,7 +35,8 @@
           "translate_bn": "সতর্ক কর অতঃপর"
         }
       },
-      "english_trans": "Arise and warn,"
+      "english_trans": "Arise and warn,",
+      "arabic_text_uthmani": "قُمْ فَأَنذِرْ"
     },
     "3": {
       "arabic_text": "وَرَبَّكَ فَكَبِّرْ",
@@ -49,7 +51,8 @@
           "translate_bn": "অতঃপর শ্রেষ্ঠত্ব ঘোষণা কর"
         }
       },
-      "english_trans": "And your Lord do magnify,"
+      "english_trans": "And your Lord do magnify,",
+      "arabic_text_uthmani": "وَرَبَّكَ فَكَبِّرْ"
     },
     "4": {
       "arabic_text": "وَثِيَابَكَ فَطَهِّرْ",
@@ -64,7 +67,8 @@
           "translate_bn": "অতঃপর পবিত্র কর"
         }
       },
-      "english_trans": "And your garments do purify,"
+      "english_trans": "And your garments do purify,",
+      "arabic_text_uthmani": "وَثِيَابَكَ فَطَهِّرْ"
     },
     "5": {
       "arabic_text": "وَالرُّجْزَ فَاهْجُرْ",
@@ -79,7 +83,8 @@
           "translate_bn": "অতএব দূরে থাক"
         }
       },
-      "english_trans": "And uncleanness do shun,"
+      "english_trans": "And uncleanness do shun,",
+      "arabic_text_uthmani": "وَٱلرُّجْزَ فَٱهْجُرْ"
     },
     "6": {
       "arabic_text": "وَلَا تَمْنُنْ تَسْتَكْثِرُ",
@@ -98,7 +103,8 @@
           "translate_bn": "বেশী পাওয়ার আশায়"
         }
       },
-      "english_trans": "And bestow not favors that you may receive again with increase,"
+      "english_trans": "And bestow not favors that you may receive again with increase,",
+      "arabic_text_uthmani": "وَلَا تَمْنُن تَسْتَكْثِرُ"
     },
     "7": {
       "arabic_text": "وَلِرَبِّكَ فَاصْبِرْ",
@@ -113,7 +119,8 @@
           "translate_bn": "অতএব সবর কর"
         }
       },
-      "english_trans": "And for the sake of your Lord, be patient."
+      "english_trans": "And for the sake of your Lord, be patient.",
+      "arabic_text_uthmani": "وَلِرَبِّكَ فَٱصْبِرْ"
     },
     "8": {
       "arabic_text": "فَإِذَا نُقِرَ فِي النَّاقُورِ",
@@ -136,7 +143,8 @@
           "translate_bn": "সিঙ্গায়"
         }
       },
-      "english_trans": "For when the trumpet is sounded,"
+      "english_trans": "For when the trumpet is sounded,",
+      "arabic_text_uthmani": "فَإِذَا نُقِرَ فِى ٱلنَّاقُورِ"
     },
     "9": {
       "arabic_text": "فَذَلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ",
@@ -159,7 +167,8 @@
           "translate_bn": "কঠিন"
         }
       },
-      "english_trans": "That, at that time, shall be a difficult day,"
+      "english_trans": "That, at that time, shall be a difficult day,",
+      "arabic_text_uthmani": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ"
     },
     "10": {
       "arabic_text": "عَلَى الْكَافِرِينَ غَيْرُ يَسِيرٍ",
@@ -182,7 +191,8 @@
           "translate_bn": "সহজ"
         }
       },
-      "english_trans": "For the unbelievers, anything but easy."
+      "english_trans": "For the unbelievers, anything but easy.",
+      "arabic_text_uthmani": "عَلَى ٱلْكَـٰفِرِينَ غَيْرُ يَسِيرٍ"
     },
     "11": {
       "arabic_text": "ذَرْنِي وَمَنْ خَلَقْتُ وَحِيدًا",
@@ -205,7 +215,8 @@
           "translate_bn": "একেলা"
         }
       },
-      "english_trans": "Leave Me and him whom I created alone,"
+      "english_trans": "Leave Me and him whom I created alone,",
+      "arabic_text_uthmani": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًا"
     },
     "12": {
       "arabic_text": "وَجَعَلْتُ لَهُ مَالًا مَمْدُودًا",
@@ -228,7 +239,8 @@
           "translate_bn": "বিপুল"
         }
       },
-      "english_trans": "And give him vast riches,"
+      "english_trans": "And give him vast riches,",
+      "arabic_text_uthmani": "وَجَعَلْتُ لَهُۥ مَالًا مَّمْدُودًا"
     },
     "13": {
       "arabic_text": "وَبَنِينَ شُهُودًا",
@@ -243,7 +255,8 @@
           "translate_bn": "সদা উপস্থিত"
         }
       },
-      "english_trans": "And sons dwelling in his presence,"
+      "english_trans": "And sons dwelling in his presence,",
+      "arabic_text_uthmani": "وَبَنِينَ شُهُودًا"
     },
     "14": {
       "arabic_text": "وَمَهَّدْتُ لَهُ تَمْهِيدًا",
@@ -262,7 +275,8 @@
           "translate_bn": "প্রচুর স্বচ্ছলতা"
         }
       },
-      "english_trans": "And I adjusted affairs for him adjustably;"
+      "english_trans": "And I adjusted affairs for him adjustably;",
+      "arabic_text_uthmani": "وَمَهَّدتُّ لَهُۥ تَمْهِيدًا"
     },
     "15": {
       "arabic_text": "ثُمَّ يَطْمَعُ أَنْ أَزِيدَ",
@@ -285,7 +299,8 @@
           "translate_bn": "অধিক দিব আমি"
         }
       },
-      "english_trans": "And yet he desires that I should add more!"
+      "english_trans": "And yet he desires that I should add more!",
+      "arabic_text_uthmani": "ثُمَّ يَطْمَعُ أَنْ أَزِيدَ"
     },
     "16": {
       "arabic_text": "كَلَّا إِنَّهُ كَانَ لِآيَاتِنَا عَنِيدًا",
@@ -312,7 +327,8 @@
           "translate_bn": "শত্রুতা ভাবাপন্ন"
         }
       },
-      "english_trans": "By no means! surely he offers opposition to Our communications."
+      "english_trans": "By no means! surely he offers opposition to Our communications.",
+      "arabic_text_uthmani": "كَلَّآ ۖ إِنَّهُۥ كَانَ لِـَٔايَـٰتِنَا عَنِيدًا"
     },
     "17": {
       "arabic_text": "سَأُرْهِقُهُ صَعُودًا",
@@ -327,7 +343,8 @@
           "translate_bn": "কঠিন চড়াইয়ে"
         }
       },
-      "english_trans": "I will make a distressing punishment overtake him."
+      "english_trans": "I will make a distressing punishment overtake him.",
+      "arabic_text_uthmani": "سَأُرْهِقُهُۥ صَعُودًا"
     },
     "18": {
       "arabic_text": "إِنَّهُ فَكَّرَ وَقَدَّرَ",
@@ -346,7 +363,8 @@
           "translate_bn": "এবং সে সিদ্ধান্ত নিল"
         }
       },
-      "english_trans": "Surely he reflected and guessed,"
+      "english_trans": "Surely he reflected and guessed,",
+      "arabic_text_uthmani": "إِنَّهُۥ فَكَّرَ وَقَدَّرَ"
     },
     "19": {
       "arabic_text": "فَقُتِلَ كَيْفَ قَدَّرَ",
@@ -365,7 +383,8 @@
           "translate_bn": "সে সিদ্ধান্ত নিল"
         }
       },
-      "english_trans": "But may he be cursed how he plotted;"
+      "english_trans": "But may he be cursed how he plotted;",
+      "arabic_text_uthmani": "فَقُتِلَ كَيْفَ قَدَّرَ"
     },
     "20": {
       "arabic_text": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ",
@@ -388,7 +407,8 @@
           "translate_bn": "সিদ্ধান্ত নিল"
         }
       },
-      "english_trans": "Again, may he be cursed how he plotted;"
+      "english_trans": "Again, may he be cursed how he plotted;",
+      "arabic_text_uthmani": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ"
     },
     "21": {
       "arabic_text": "ثُمَّ نَظَرَ",
@@ -403,7 +423,8 @@
           "translate_bn": "সে তাকাল"
         }
       },
-      "english_trans": "Then he looked,"
+      "english_trans": "Then he looked,",
+      "arabic_text_uthmani": "ثُمَّ نَظَرَ"
     },
     "22": {
       "arabic_text": "ثُمَّ عَبَسَ وَبَسَرَ",
@@ -422,7 +443,8 @@
           "translate_bn": "ও মুখ বাঁকাল"
         }
       },
-      "english_trans": "Then he frowned and scowled,"
+      "english_trans": "Then he frowned and scowled,",
+      "arabic_text_uthmani": "ثُمَّ عَبَسَ وَبَسَرَ"
     },
     "23": {
       "arabic_text": "ثُمَّ أَدْبَرَ وَاسْتَكْبَرَ",
@@ -441,7 +463,8 @@
           "translate_bn": "এবং অহংকার করল"
         }
       },
-      "english_trans": "Then he turned back and was big with pride,"
+      "english_trans": "Then he turned back and was big with pride,",
+      "arabic_text_uthmani": "ثُمَّ أَدْبَرَ وَٱسْتَكْبَرَ"
     },
     "24": {
       "arabic_text": "فَقَالَ إِنْ هَذَا إِلَّا سِحْرٌ يُؤْثَرُ",
@@ -472,7 +495,8 @@
           "translate_bn": "চলে আসা"
         }
       },
-      "english_trans": "~Then he said: This is naught but enchantment, narrated (from others);"
+      "english_trans": "~Then he said: This is naught but enchantment, narrated (from others);",
+      "arabic_text_uthmani": "فَقَالَ إِنْ هَـٰذَآ إِلَّا سِحْرٌ يُؤْثَرُ"
     },
     "25": {
       "arabic_text": "إِنْ هَذَا إِلَّا قَوْلُ الْبَشَرِ",
@@ -499,7 +523,8 @@
           "translate_bn": "মানুুষের"
         }
       },
-      "english_trans": "This is naught but the word of a mortal."
+      "english_trans": "This is naught but the word of a mortal.",
+      "arabic_text_uthmani": "إِنْ هَـٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ"
     },
     "26": {
       "arabic_text": "سَأُصْلِيهِ سَقَرَ",
@@ -514,7 +539,8 @@
           "translate_bn": "দোযখে"
         }
       },
-      "english_trans": "I will cast him into hell."
+      "english_trans": "I will cast him into hell.",
+      "arabic_text_uthmani": "سَأُصْلِيهِ سَقَرَ"
     },
     "27": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا سَقَرُ",
@@ -537,7 +563,8 @@
           "translate_bn": "দোযখ"
         }
       },
-      "english_trans": "And what will make you realize what hell is?"
+      "english_trans": "And what will make you realize what hell is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا سَقَرُ"
     },
     "28": {
       "arabic_text": "لَا تُبْقِي وَلَا تَذَرُ",
@@ -560,7 +587,8 @@
           "translate_bn": "ছেড়ে দেয়"
         }
       },
-      "english_trans": "It leaves naught nor does it spare aught."
+      "english_trans": "It leaves naught nor does it spare aught.",
+      "arabic_text_uthmani": "لَا تُبْقِى وَلَا تَذَرُ"
     },
     "29": {
       "arabic_text": "لَوَّاحَةٌ لِلْبَشَرِ",
@@ -575,7 +603,8 @@
           "translate_bn": "চামড়াকে"
         }
       },
-      "english_trans": "It scorches the mortal."
+      "english_trans": "It scorches the mortal.",
+      "arabic_text_uthmani": "لَوَّاحَةٌ لِّلْبَشَرِ"
     },
     "30": {
       "arabic_text": "عَلَيْهَا تِسْعَةَ عَشَرَ",
@@ -594,7 +623,8 @@
           "translate_bn": "(প্রহরী)"
         }
       },
-      "english_trans": "Over it are nineteen."
+      "english_trans": "Over it are nineteen.",
+      "arabic_text_uthmani": "عَلَيْهَا تِسْعَةَ عَشَرَ"
     },
     "31": {
       "arabic_text": "وَمَا جَعَلْنَا أَصْحَابَ النَّارِ إِلَّا مَلَائِكَةً وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِلَّذِينَ كَفَرُوا لِيَسْتَيْقِنَ الَّذِينَ أُوتُوا الْكِتَابَ وَيَزْدَادَ الَّذِينَ آمَنُوا إِيمَانًا وَلَا يَرْتَابَ الَّذِينَ أُوتُوا الْكِتَابَ وَالْمُؤْمِنُونَ وَلِيَقُولَ الَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ وَالْكَافِرُونَ مَاذَا أَرَادَ اللَّهُ بِهَذَا مَثَلًا كَذَلِكَ يُضِلُّ اللَّهُ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ وَمَا هِيَ إِلَّا ذِكْرَى لِلْبَشَرِ",
@@ -829,7 +859,8 @@
           "translate_bn": "মানুষের জন্যে"
         }
       },
-      "english_trans": "And We have not made the wardens of the fire others than angels, and We have not made their number but as a trial for those who disbelieve, that those who have been given the book may be certain and those who believe may increase in faith, and those who have been given the book and the believers may not doubt, and that those in whose hearts is a disease and the unbelievers may say: What does Allah mean by this parable? Thus does Allah make err whom He pleases, and He guides whom He pleases, and none knows the hosts of your Lord but He Himself; and this is naught but a reminder to the mortals."
+      "english_trans": "And We have not made the wardens of the fire others than angels, and We have not made their number but as a trial for those who disbelieve, that those who have been given the book may be certain and those who believe may increase in faith, and those who have been given the book and the believers may not doubt, and that those in whose hearts is a disease and the unbelievers may say: What does Allah mean by this parable? Thus does Allah make err whom He pleases, and He guides whom He pleases, and none knows the hosts of your Lord but He Himself; and this is naught but a reminder to the mortals.",
+      "arabic_text_uthmani": "وَمَا جَعَلْنَآ أَصْحَـٰبَ ٱلنَّارِ إِلَّا مَلَـٰٓئِكَةً ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَـٰنًا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْكَـٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَـٰذَا مَثَلًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ"
     },
     "32": {
       "arabic_text": "كَلَّا وَالْقَمَرِ",
@@ -844,7 +875,8 @@
           "translate_bn": "শপথ চাঁদের"
         }
       },
-      "english_trans": "Nay; I swear by the moon,"
+      "english_trans": "Nay; I swear by the moon,",
+      "arabic_text_uthmani": "كَلَّا وَٱلْقَمَرِ"
     },
     "33": {
       "arabic_text": "وَاللَّيْلِ إِذْ أَدْبَرَ",
@@ -863,7 +895,8 @@
           "translate_bn": "প্রত্যাবর্তন করে"
         }
       },
-      "english_trans": "And the night when it departs,"
+      "english_trans": "And the night when it departs,",
+      "arabic_text_uthmani": "وَٱلَّيْلِ إِذْ أَدْبَرَ"
     },
     "34": {
       "arabic_text": "وَالصُّبْحِ إِذَا أَسْفَرَ",
@@ -882,7 +915,8 @@
           "translate_bn": "উজ্জ্বল হয়"
         }
       },
-      "english_trans": "And the daybreak when it shines;"
+      "english_trans": "And the daybreak when it shines;",
+      "arabic_text_uthmani": "وَٱلصُّبْحِ إِذَآ أَسْفَرَ"
     },
     "35": {
       "arabic_text": "إِنَّهَا لَإِحْدَى الْكُبَرِ",
@@ -901,7 +935,8 @@
           "translate_bn": "বড়গুলোর"
         }
       },
-      "english_trans": "Surely it (hell) is one of the gravest (misfortunes),"
+      "english_trans": "Surely it (hell) is one of the gravest (misfortunes),",
+      "arabic_text_uthmani": "إِنَّهَا لَإِحْدَى ٱلْكُبَرِ"
     },
     "36": {
       "arabic_text": "نَذِيرًا لِلْبَشَرِ",
@@ -916,7 +951,8 @@
           "translate_bn": "মানুষের জন্যে"
         }
       },
-      "english_trans": "A warning to mortals,"
+      "english_trans": "A warning to mortals,",
+      "arabic_text_uthmani": "نَذِيرًا لِّلْبَشَرِ"
     },
     "37": {
       "arabic_text": "لِمَنْ شَاءَ مِنْكُمْ أَنْ يَتَقَدَّمَ أَوْ يَتَأَخَّرَ",
@@ -951,7 +987,8 @@
           "translate_bn": "পিছিয়ে যাবে"
         }
       },
-      "english_trans": "To him among you who wishes to go forward or remain behind."
+      "english_trans": "To him among you who wishes to go forward or remain behind.",
+      "arabic_text_uthmani": "لِمَن شَآءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ"
     },
     "38": {
       "arabic_text": "كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِينَةٌ",
@@ -978,7 +1015,8 @@
           "translate_bn": "দায়ে আবদ্ধ"
         }
       },
-      "english_trans": "Every soul is held in pledge for what it earns,"
+      "english_trans": "Every soul is held in pledge for what it earns,",
+      "arabic_text_uthmani": "كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ رَهِينَةٌ"
     },
     "39": {
       "arabic_text": "إِلَّا أَصْحَابَ الْيَمِينِ",
@@ -997,7 +1035,8 @@
           "translate_bn": "ডানদিকস্থ"
         }
       },
-      "english_trans": "Except the people of the right hand,"
+      "english_trans": "Except the people of the right hand,",
+      "arabic_text_uthmani": "إِلَّآ أَصْحَـٰبَ ٱلْيَمِينِ"
     },
     "40": {
       "arabic_text": "فِي جَنَّاتٍ يَتَسَاءَلُونَ",
@@ -1016,7 +1055,8 @@
           "translate_bn": "জিজ্ঞাসা পরস্পরে করবে"
         }
       },
-      "english_trans": "In gardens, they shall ask each other"
+      "english_trans": "In gardens, they shall ask each other",
+      "arabic_text_uthmani": "فِى جَنَّـٰتٍ يَتَسَآءَلُونَ"
     },
     "41": {
       "arabic_text": "عَنِ الْمُجْرِمِينَ",
@@ -1031,7 +1071,8 @@
           "translate_bn": "অপরাধীদের"
         }
       },
-      "english_trans": "About the guilty:"
+      "english_trans": "About the guilty:",
+      "arabic_text_uthmani": "عَنِ ٱلْمُجْرِمِينَ"
     },
     "42": {
       "arabic_text": "مَا سَلَكَكُمْ فِي سَقَرَ",
@@ -1054,7 +1095,8 @@
           "translate_bn": "দোযখের"
         }
       },
-      "english_trans": "What has brought you into hell?"
+      "english_trans": "What has brought you into hell?",
+      "arabic_text_uthmani": "مَا سَلَكَكُمْ فِى سَقَرَ"
     },
     "43": {
       "arabic_text": "قَالُوا لَمْ نَكُ مِنَ الْمُصَلِّينَ",
@@ -1081,7 +1123,8 @@
           "translate_bn": "নামাজীদের"
         }
       },
-      "english_trans": "They shall say: We were not of those who prayed;"
+      "english_trans": "They shall say: We were not of those who prayed;",
+      "arabic_text_uthmani": "قَالُوا۟ لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ"
     },
     "44": {
       "arabic_text": "وَلَمْ نَكُ نُطْعِمُ الْمِسْكِينَ",
@@ -1104,7 +1147,8 @@
           "translate_bn": "মিছকিনকে"
         }
       },
-      "english_trans": "And we used not to feed the poor;"
+      "english_trans": "And we used not to feed the poor;",
+      "arabic_text_uthmani": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ"
     },
     "45": {
       "arabic_text": "وَكُنَّا نَخُوضُ مَعَ الْخَائِضِينَ",
@@ -1127,7 +1171,8 @@
           "translate_bn": "আলোচনাকারীদের"
         }
       },
-      "english_trans": "And we used to enter into vain discourse with those who entered into vain discourses."
+      "english_trans": "And we used to enter into vain discourse with those who entered into vain discourses.",
+      "arabic_text_uthmani": "وَكُنَّا نَخُوضُ مَعَ ٱلْخَآئِضِينَ"
     },
     "46": {
       "arabic_text": "وَكُنَّا نُكَذِّبُ بِيَوْمِ الدِّينِ",
@@ -1150,7 +1195,8 @@
           "translate_bn": "প্রতিদানের"
         }
       },
-      "english_trans": "And we used to call the day of judgment a lie;"
+      "english_trans": "And we used to call the day of judgment a lie;",
+      "arabic_text_uthmani": "وَكُنَّا نُكَذِّبُ بِيَوْمِ ٱلدِّينِ"
     },
     "47": {
       "arabic_text": "حَتَّى أَتَانَا الْيَقِينُ",
@@ -1169,7 +1215,8 @@
           "translate_bn": "দৃঢ়বিশ্বাস (মৃত্যু)"
         }
       },
-      "english_trans": "Till death overtook us."
+      "english_trans": "Till death overtook us.",
+      "arabic_text_uthmani": "حَتَّىٰٓ أَتَىٰنَا ٱلْيَقِينُ"
     },
     "48": {
       "arabic_text": "فَمَا تَنْفَعُهُمْ شَفَاعَةُ الشَّافِعِينَ",
@@ -1192,7 +1239,8 @@
           "translate_bn": "সুপারিশকারীদের"
         }
       },
-      "english_trans": "So the intercession of intercessors shall not avail them."
+      "english_trans": "So the intercession of intercessors shall not avail them.",
+      "arabic_text_uthmani": "فَمَا تَنفَعُهُمْ شَفَـٰعَةُ ٱلشَّـٰفِعِينَ"
     },
     "49": {
       "arabic_text": "فَمَا لَهُمْ عَنِ التَّذْكِرَةِ مُعْرِضِينَ",
@@ -1219,7 +1267,8 @@
           "translate_bn": "মুখ ফিরিয়ে নেয়"
         }
       },
-      "english_trans": "What is then the matter with them, that they turn away from the admonition"
+      "english_trans": "What is then the matter with them, that they turn away from the admonition",
+      "arabic_text_uthmani": "فَمَا لَهُمْ عَنِ ٱلتَّذْكِرَةِ مُعْرِضِينَ"
     },
     "50": {
       "arabic_text": "كَأَنَّهُمْ حُمُرٌ مُسْتَنْفِرَةٌ",
@@ -1238,7 +1287,8 @@
           "translate_bn": "ভীতত্রস্ত"
         }
       },
-      "english_trans": "As if they were asses taking fright"
+      "english_trans": "As if they were asses taking fright",
+      "arabic_text_uthmani": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ"
     },
     "51": {
       "arabic_text": "فَرَّتْ مِنْ قَسْوَرَةٍ",
@@ -1257,7 +1307,8 @@
           "translate_bn": "সিংহ"
         }
       },
-      "english_trans": "That had fled from a lion?"
+      "english_trans": "That had fled from a lion?",
+      "arabic_text_uthmani": "فَرَّتْ مِن قَسْوَرَةٍۭ"
     },
     "52": {
       "arabic_text": "بَلْ يُرِيدُ كُلُّ امْرِئٍ مِنْهُمْ أَنْ يُؤْتَى صُحُفًا مُنَشَّرَةً",
@@ -1300,7 +1351,8 @@
           "translate_bn": "উন্মুক্ত"
         }
       },
-      "english_trans": "Nay; every one of them desires that he may be given pages spread out;"
+      "english_trans": "Nay; every one of them desires that he may be given pages spread out;",
+      "arabic_text_uthmani": "بَلْ يُرِيدُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًا مُّنَشَّرَةً"
     },
     "53": {
       "arabic_text": "كَلَّا بَلْ لَا يَخَافُونَ الْآخِرَةَ",
@@ -1327,7 +1379,8 @@
           "translate_bn": "আখেরাতকে"
         }
       },
-      "english_trans": "Nay! but they do not fear the hereafter."
+      "english_trans": "Nay! but they do not fear the hereafter.",
+      "arabic_text_uthmani": "كَلَّا ۖ بَل لَّا يَخَافُونَ ٱلْـَٔاخِرَةَ"
     },
     "54": {
       "arabic_text": "كَلَّا إِنَّهُ تَذْكِرَةٌ",
@@ -1346,7 +1399,8 @@
           "translate_bn": "উপদেশ"
         }
       },
-      "english_trans": "Nay! it is surely an admonition."
+      "english_trans": "Nay! it is surely an admonition.",
+      "arabic_text_uthmani": "كَلَّآ إِنَّهُۥ تَذْكِرَةٌ"
     },
     "55": {
       "arabic_text": "فَمَنْ شَاءَ ذَكَرَهُ",
@@ -1365,7 +1419,8 @@
           "translate_bn": "তার শিক্ষা নিক"
         }
       },
-      "english_trans": "So whoever pleases may mind it."
+      "english_trans": "So whoever pleases may mind it.",
+      "arabic_text_uthmani": "فَمَن شَآءَ ذَكَرَهُۥ"
     },
     "56": {
       "arabic_text": "وَمَا يَذْكُرُونَ إِلَّا أَنْ يَشَاءَ اللَّهُ هُوَ أَهْلُ التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ",
@@ -1416,7 +1471,8 @@
           "translate_bn": "মাফ করার"
         }
       },
-      "english_trans": "And they will not mind unless Allah please. He is worthy to be feared and worthy to forgive."
+      "english_trans": "And they will not mind unless Allah please. He is worthy to be feared and worthy to forgive.",
+      "arabic_text_uthmani": "وَمَا يَذْكُرُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ هُوَ أَهْلُ ٱلتَّقْوَىٰ وَأَهْلُ ٱلْمَغْفِرَةِ"
     }
   }
 }

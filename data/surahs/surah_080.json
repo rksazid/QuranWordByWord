@@ -19,7 +19,8 @@
           "translate_bn": "ও (মুখ ফিরালো) অনাগ্রহ দেখালো"
         }
       },
-      "english_trans": "He frowned and turned (his) back,"
+      "english_trans": "He frowned and turned (his) back,",
+      "arabic_text_uthmani": " عَبَسَ وَتَوَلَّىٰٓ"
     },
     "2": {
       "arabic_text": "أَنْ جَاءَهُ الْأَعْمَى",
@@ -38,7 +39,8 @@
           "translate_bn": "এক অন্ধ"
         }
       },
-      "english_trans": "Because there came to him the blind man."
+      "english_trans": "Because there came to him the blind man.",
+      "arabic_text_uthmani": "أَن جَآءَهُ ٱلْأَعْمَىٰ"
     },
     "3": {
       "arabic_text": "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّى",
@@ -61,7 +63,8 @@
           "translate_bn": "পরিশুদ্ধ হতো"
         }
       },
-      "english_trans": "And what would make you know that he would purify himself,"
+      "english_trans": "And what would make you know that he would purify himself,",
+      "arabic_text_uthmani": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ"
     },
     "4": {
       "arabic_text": "أَوْ يَذَّكَّرُ فَتَنْفَعَهُ الذِّكْرَى",
@@ -84,7 +87,8 @@
           "translate_bn": "উপদেশ"
         }
       },
-      "english_trans": "Or become reminded so that the reminder should profit him?"
+      "english_trans": "Or become reminded so that the reminder should profit him?",
+      "arabic_text_uthmani": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ"
     },
     "5": {
       "arabic_text": "أَمَّا مَنِ اسْتَغْنَى",
@@ -103,7 +107,8 @@
           "translate_bn": "বেপরোয়া হলো (উন্নাসিকতা দেখালো)"
         }
       },
-      "english_trans": "As for him who considers himself free from need (of you),"
+      "english_trans": "As for him who considers himself free from need (of you),",
+      "arabic_text_uthmani": "أَمَّا مَنِ ٱسْتَغْنَىٰ"
     },
     "6": {
       "arabic_text": "فَأَنْتَ لَهُ تَصَدَّى",
@@ -122,7 +127,8 @@
           "translate_bn": "মনযোগ দিচ্ছো"
         }
       },
-      "english_trans": "To him do you address yourself."
+      "english_trans": "To him do you address yourself.",
+      "arabic_text_uthmani": "فَأَنتَ لَهُۥ تَصَدَّىٰ"
     },
     "7": {
       "arabic_text": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّى",
@@ -145,7 +151,8 @@
           "translate_bn": "সে পরিশুদ্ধ হয়"
         }
       },
-      "english_trans": "And no blame is on you if he would not purify himself"
+      "english_trans": "And no blame is on you if he would not purify himself",
+      "arabic_text_uthmani": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ"
     },
     "8": {
       "arabic_text": "وَأَمَّا مَنْ جَاءَكَ يَسْعَى",
@@ -168,7 +175,8 @@
           "translate_bn": "দৌড়ে"
         }
       },
-      "english_trans": "And as to him who comes to you striving hard,"
+      "english_trans": "And as to him who comes to you striving hard,",
+      "arabic_text_uthmani": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ"
     },
     "9": {
       "arabic_text": "وَهُوَ يَخْشَى",
@@ -183,7 +191,8 @@
           "translate_bn": "ভয় করে"
         }
       },
-      "english_trans": "And he fears,"
+      "english_trans": "And he fears,",
+      "arabic_text_uthmani": "وَهُوَ يَخْشَىٰ"
     },
     "10": {
       "arabic_text": "فَأَنْتَ عَنْهُ تَلَهَّى",
@@ -202,7 +211,8 @@
           "translate_bn": "অনীহা প্রকাশ করছ"
         }
       },
-      "english_trans": "From him will you divert yourself."
+      "english_trans": "From him will you divert yourself.",
+      "arabic_text_uthmani": "فَأَنتَ عَنْهُ تَلَهَّىٰ"
     },
     "11": {
       "arabic_text": "كَلَّا إِنَّهَا تَذْكِرَةٌ",
@@ -221,7 +231,8 @@
           "translate_bn": "উপদেশ"
         }
       },
-      "english_trans": "Nay! surely it is an admonishment."
+      "english_trans": "Nay! surely it is an admonishment.",
+      "arabic_text_uthmani": "كَلَّآ إِنَّهَا تَذْكِرَةٌ"
     },
     "12": {
       "arabic_text": "فَمَنْ شَاءَ ذَكَرَهُ",
@@ -240,7 +251,8 @@
           "translate_bn": "(তা স্মরণ করবে) তা গ্রহণ করবে"
         }
       },
-      "english_trans": "So let him who pleases mind it."
+      "english_trans": "So let him who pleases mind it.",
+      "arabic_text_uthmani": "فَمَن شَآءَ ذَكَرَهُۥ"
     },
     "13": {
       "arabic_text": "فِي صُحُفٍ مُكَرَّمَةٍ",
@@ -259,7 +271,8 @@
           "translate_bn": "(যা) সম্মানিত"
         }
       },
-      "english_trans": "In honored books,"
+      "english_trans": "In honored books,",
+      "arabic_text_uthmani": "فِى صُحُفٍ مُّكَرَّمَةٍ"
     },
     "14": {
       "arabic_text": "مَرْفُوعَةٍ مُطَهَّرَةٍ",
@@ -274,7 +287,8 @@
           "translate_bn": "পবিত্র"
         }
       },
-      "english_trans": "Exalted, purified,"
+      "english_trans": "Exalted, purified,",
+      "arabic_text_uthmani": "مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ"
     },
     "15": {
       "arabic_text": "بِأَيْدِي سَفَرَةٍ",
@@ -289,7 +303,8 @@
           "translate_bn": "দূতদের"
         }
       },
-      "english_trans": "In the hands of scribes"
+      "english_trans": "In the hands of scribes",
+      "arabic_text_uthmani": "بِأَيْدِى سَفَرَةٍ"
     },
     "16": {
       "arabic_text": "كِرَامٍ بَرَرَةٍ",
@@ -304,7 +319,8 @@
           "translate_bn": "সততাসম্পন্ন"
         }
       },
-      "english_trans": "Noble, virtuous."
+      "english_trans": "Noble, virtuous.",
+      "arabic_text_uthmani": "كِرَامٍۭ بَرَرَةٍ"
     },
     "17": {
       "arabic_text": "قُتِلَ الْإِنْسَانُ مَا أَكْفَرَهُ",
@@ -327,7 +343,8 @@
           "translate_bn": "তা অমান্যকারী"
         }
       },
-      "english_trans": "Cursed be man! how ungrateful is he!"
+      "english_trans": "Cursed be man! how ungrateful is he!",
+      "arabic_text_uthmani": "قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ"
     },
     "18": {
       "arabic_text": "مِنْ أَيِّ شَيْءٍ خَلَقَهُ",
@@ -350,7 +367,8 @@
           "translate_bn": "তিনি তাকে সৃষ্টি করেছেন"
         }
       },
-      "english_trans": "Of what thing did He create him?"
+      "english_trans": "Of what thing did He create him?",
+      "arabic_text_uthmani": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ"
     },
     "19": {
       "arabic_text": "مِنْ نُطْفَةٍ خَلَقَهُ فَقَدَّرَهُ",
@@ -373,7 +391,8 @@
           "translate_bn": "অতঃপর তার নিয়তি নির্দিষ্ট করেছেন"
         }
       },
-      "english_trans": "Of a small seed; He created him, then He made him according to a measure,"
+      "english_trans": "Of a small seed; He created him, then He made him according to a measure,",
+      "arabic_text_uthmani": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ"
     },
     "20": {
       "arabic_text": "ثُمَّ السَّبِيلَ يَسَّرَهُ",
@@ -392,7 +411,8 @@
           "translate_bn": "তার (জন্যে) সহজ করেছেন"
         }
       },
-      "english_trans": "Then (as for) the way-- He has made it easy (for him)"
+      "english_trans": "Then (as for) the way-- He has made it easy (for him)",
+      "arabic_text_uthmani": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ"
     },
     "21": {
       "arabic_text": "ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ",
@@ -411,7 +431,8 @@
           "translate_bn": "অতঃপর তাকে কবরস্থ করেন"
         }
       },
-      "english_trans": "Then He causes him to die, then assigns to him a grave,"
+      "english_trans": "Then He causes him to die, then assigns to him a grave,",
+      "arabic_text_uthmani": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ"
     },
     "22": {
       "arabic_text": "ثُمَّ إِذَا شَاءَ أَنْشَرَهُ",
@@ -434,7 +455,8 @@
           "translate_bn": "তাকে পুনরায় জীবিত করবেন"
         }
       },
-      "english_trans": "Then when He pleases, He will raise him to life again."
+      "english_trans": "Then when He pleases, He will raise him to life again.",
+      "arabic_text_uthmani": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ"
     },
     "23": {
       "arabic_text": "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ",
@@ -461,7 +483,8 @@
           "translate_bn": "তাকে আদেশ করেছেন তিনি"
         }
       },
-      "english_trans": "Nay; but he has not done what He bade him."
+      "english_trans": "Nay; but he has not done what He bade him.",
+      "arabic_text_uthmani": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ"
     },
     "24": {
       "arabic_text": "فَلْيَنْظُرِ الْإِنْسَانُ إِلَى طَعَامِهِ",
@@ -484,7 +507,8 @@
           "translate_bn": "তার খাদ্যের"
         }
       },
-      "english_trans": "Then let man look to his food,"
+      "english_trans": "Then let man look to his food,",
+      "arabic_text_uthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ"
     },
     "25": {
       "arabic_text": "أَنَّا صَبَبْنَا الْمَاءَ صَبًّا",
@@ -507,7 +531,8 @@
           "translate_bn": "(প্রচুর) বর্ষণ"
         }
       },
-      "english_trans": "That We pour down the water, pouring (it) down in abundance,"
+      "english_trans": "That We pour down the water, pouring (it) down in abundance,",
+      "arabic_text_uthmani": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا"
     },
     "26": {
       "arabic_text": "ثُمَّ شَقَقْنَا الْأَرْضَ شَقًّا",
@@ -530,7 +555,8 @@
           "translate_bn": "(খুব) বিদীর্ণ"
         }
       },
-      "english_trans": "Then We cleave the earth, cleaving (it) asunder,"
+      "english_trans": "Then We cleave the earth, cleaving (it) asunder,",
+      "arabic_text_uthmani": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا"
     },
     "27": {
       "arabic_text": "فَأَنْبَتْنَا فِيهَا حَبًّا",
@@ -549,7 +575,8 @@
           "translate_bn": "শস্য"
         }
       },
-      "english_trans": "Then We cause to grow therein the grain,"
+      "english_trans": "Then We cause to grow therein the grain,",
+      "arabic_text_uthmani": "فَأَنۢبَتْنَا فِيهَا حَبًّا"
     },
     "28": {
       "arabic_text": "وَعِنَبًا وَقَضْبًا",
@@ -564,7 +591,8 @@
           "translate_bn": "ও শাকসবজি"
         }
       },
-      "english_trans": "And grapes and clover,"
+      "english_trans": "And grapes and clover,",
+      "arabic_text_uthmani": "وَعِنَبًا وَقَضْبًا"
     },
     "29": {
       "arabic_text": "وَزَيْتُونًا وَنَخْلًا",
@@ -579,7 +607,8 @@
           "translate_bn": "ও খেজুর"
         }
       },
-      "english_trans": "And the olive and the palm,"
+      "english_trans": "And the olive and the palm,",
+      "arabic_text_uthmani": "وَزَيْتُونًا وَنَخْلًا"
     },
     "30": {
       "arabic_text": "وَحَدَائِقَ غُلْبًا",
@@ -594,7 +623,8 @@
           "translate_bn": "ঘন গাছপালাবিশিষ্ট"
         }
       },
-      "english_trans": "And thick gardens,"
+      "english_trans": "And thick gardens,",
+      "arabic_text_uthmani": "وَحَدَآئِقَ غُلْبًا"
     },
     "31": {
       "arabic_text": "وَفَاكِهَةً وَأَبًّا",
@@ -609,7 +639,8 @@
           "translate_bn": "গবাদি খাদ্য"
         }
       },
-      "english_trans": "And fruits and herbage"
+      "english_trans": "And fruits and herbage",
+      "arabic_text_uthmani": "وَفَـٰكِهَةً وَأَبًّا"
     },
     "32": {
       "arabic_text": "مَتَاعًا لَكُمْ وَلِأَنْعَامِكُمْ",
@@ -628,7 +659,8 @@
           "translate_bn": "ও তোমাদের চতুষ্পদ জন্তুর জন্যে"
         }
       },
-      "english_trans": "A provision for you and for your cattle."
+      "english_trans": "A provision for you and for your cattle.",
+      "arabic_text_uthmani": "مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ"
     },
     "33": {
       "arabic_text": "فَإِذَا جَاءَتِ الصَّاخَّةُ",
@@ -647,7 +679,8 @@
           "translate_bn": "কর্ণবিদারক ধ্বনি"
         }
       },
-      "english_trans": "But when the deafening cry comes,"
+      "english_trans": "But when the deafening cry comes,",
+      "arabic_text_uthmani": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ"
     },
     "34": {
       "arabic_text": "يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ",
@@ -674,7 +707,8 @@
           "translate_bn": "তার ভাই"
         }
       },
-      "english_trans": "The day on which a man shall fly from his brother,"
+      "english_trans": "The day on which a man shall fly from his brother,",
+      "arabic_text_uthmani": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ"
     },
     "35": {
       "arabic_text": "وَأُمِّهِ وَأَبِيهِ",
@@ -689,7 +723,8 @@
           "translate_bn": "ও তার বাপ (হতে)"
         }
       },
-      "english_trans": "And his mother and his father,"
+      "english_trans": "And his mother and his father,",
+      "arabic_text_uthmani": "وَأُمِّهِۦ وَأَبِيهِ"
     },
     "36": {
       "arabic_text": "وَصَاحِبَتِهِ وَبَنِيهِ",
@@ -704,7 +739,8 @@
           "translate_bn": "এবং তার সন্তানদের (হতে)"
         }
       },
-      "english_trans": "And his spouse and his son--"
+      "english_trans": "And his spouse and his son--",
+      "arabic_text_uthmani": "وَصَـٰحِبَتِهِۦ وَبَنِيهِ"
     },
     "37": {
       "arabic_text": "لِكُلِّ امْرِئٍ مِنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
@@ -735,7 +771,8 @@
           "translate_bn": "তাকে ব্যতিব্যস্ত করবে"
         }
       },
-      "english_trans": "Every man of them shall on that day have an affair which will occupy him."
+      "english_trans": "Every man of them shall on that day have an affair which will occupy him.",
+      "arabic_text_uthmani": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ"
     },
     "38": {
       "arabic_text": "وُجُوهٌ يَوْمَئِذٍ مُسْفِرَةٌ",
@@ -754,7 +791,8 @@
           "translate_bn": "উজ্জ্বল (হবে)"
         }
       },
-      "english_trans": "(Many) faces on that day shall be bright,"
+      "english_trans": "(Many) faces on that day shall be bright,",
+      "arabic_text_uthmani": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ"
     },
     "39": {
       "arabic_text": "ضَاحِكَةٌ مُسْتَبْشِرَةٌ",
@@ -769,7 +807,8 @@
           "translate_bn": "প্রফুল্ল (হবে)"
         }
       },
-      "english_trans": "Laughing, joyous."
+      "english_trans": "Laughing, joyous.",
+      "arabic_text_uthmani": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ"
     },
     "40": {
       "arabic_text": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
@@ -792,7 +831,8 @@
           "translate_bn": "মলিনতা (আসবে)"
         }
       },
-      "english_trans": "And (many) faces on that day, on them shall be dust,"
+      "english_trans": "And (many) faces on that day, on them shall be dust,",
+      "arabic_text_uthmani": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ"
     },
     "41": {
       "arabic_text": "تَرْهَقُهَا قَتَرَةٌ",
@@ -807,7 +847,8 @@
           "translate_bn": "অন্ধকার"
         }
       },
-      "english_trans": "Darkness shall cover them."
+      "english_trans": "Darkness shall cover them.",
+      "arabic_text_uthmani": "تَرْهَقُهَا قَتَرَةٌ"
     },
     "42": {
       "arabic_text": "أُولَئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ",
@@ -830,7 +871,8 @@
           "translate_bn": "পাপী"
         }
       },
-      "english_trans": "These are they who are unbelievers, the wicked."
+      "english_trans": "These are they who are unbelievers, the wicked.",
+      "arabic_text_uthmani": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ"
     }
   }
 }

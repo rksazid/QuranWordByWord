@@ -19,7 +19,8 @@
           "translate_bn": "এবং রাত্রে আত্মপ্রকাশকারী (নক্ষত্রের)"
         }
       },
-      "english_trans": "I swear by the heaven and the comer by night;"
+      "english_trans": "I swear by the heaven and the comer by night;",
+      "arabic_text_uthmani": " وَٱلسَّمَآءِ وَٱلطَّارِقِ"
     },
     "2": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا الطَّارِقُ",
@@ -42,7 +43,8 @@
           "translate_bn": "রাতে আত্মপ্রকাশকারী"
         }
       },
-      "english_trans": "And what will make you know what the comer by night is?"
+      "english_trans": "And what will make you know what the comer by night is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ"
     },
     "3": {
       "arabic_text": "النَّجْمُ الثَّاقِبُ",
@@ -57,7 +59,8 @@
           "translate_bn": "উজ্জ্বল"
         }
       },
-      "english_trans": "The star of piercing brightness;"
+      "english_trans": "The star of piercing brightness;",
+      "arabic_text_uthmani": "ٱلنَّجْمُ ٱلثَّاقِبُ"
     },
     "4": {
       "arabic_text": "إِنْ كُلُّ نَفْسٍ لَمَّا عَلَيْهَا حَافِظٌ",
@@ -88,7 +91,8 @@
           "translate_bn": "তত্ত্বাবধায়ক"
         }
       },
-      "english_trans": "There is not a soul but over it is a keeper."
+      "english_trans": "There is not a soul but over it is a keeper.",
+      "arabic_text_uthmani": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ"
     },
     "5": {
       "arabic_text": "فَلْيَنْظُرِ الْإِنْسَانُ مِمَّ خُلِقَ",
@@ -111,7 +115,8 @@
           "translate_bn": "সৃষ্টি করা হয়েছে (তাকে)"
         }
       },
-      "english_trans": "So let man consider of what he is created:"
+      "english_trans": "So let man consider of what he is created:",
+      "arabic_text_uthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ"
     },
     "6": {
       "arabic_text": "خُلِقَ مِنْ مَاءٍ دَافِقٍ",
@@ -134,7 +139,8 @@
           "translate_bn": "সবেগে স্খলিত"
         }
       },
-      "english_trans": "He is created of water pouring forth,"
+      "english_trans": "He is created of water pouring forth,",
+      "arabic_text_uthmani": "خُلِقَ مِن مَّآءٍ دَافِقٍ"
     },
     "7": {
       "arabic_text": "يَخْرُجُ مِنْ بَيْنِ الصُّلْبِ وَالتَّرَائِبِ",
@@ -161,7 +167,8 @@
           "translate_bn": "ও বক্ষপিঞ্জরের"
         }
       },
-      "english_trans": "Coming from between the back and the ribs."
+      "english_trans": "Coming from between the back and the ribs.",
+      "arabic_text_uthmani": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ"
     },
     "8": {
       "arabic_text": "إِنَّهُ عَلَى رَجْعِهِ لَقَادِرٌ",
@@ -184,7 +191,8 @@
           "translate_bn": "অবশ্যই সক্ষম"
         }
       },
-      "english_trans": "Most surely He is able to return him (to life)."
+      "english_trans": "Most surely He is able to return him (to life).",
+      "arabic_text_uthmani": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ"
     },
     "9": {
       "arabic_text": "يَوْمَ تُبْلَى السَّرَائِرُ",
@@ -203,7 +211,8 @@
           "translate_bn": "গোপন বিষয়াবলী"
         }
       },
-      "english_trans": "On the day when hidden things shall be made manifest,"
+      "english_trans": "On the day when hidden things shall be made manifest,",
+      "arabic_text_uthmani": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ"
     },
     "10": {
       "arabic_text": "فَمَا لَهُ مِنْ قُوَّةٍ وَلَا نَاصِرٍ",
@@ -234,7 +243,8 @@
           "translate_bn": "কোনো সাহায্যকারী"
         }
       },
-      "english_trans": "He shall have neither strength nor helper."
+      "english_trans": "He shall have neither strength nor helper.",
+      "arabic_text_uthmani": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ"
     },
     "11": {
       "arabic_text": "وَالسَّمَاءِ ذَاتِ الرَّجْعِ",
@@ -253,7 +263,8 @@
           "translate_bn": "বৃষ্টির"
         }
       },
-      "english_trans": "I swear by the raingiving heavens,"
+      "english_trans": "I swear by the raingiving heavens,",
+      "arabic_text_uthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ"
     },
     "12": {
       "arabic_text": "وَالْأَرْضِ ذَاتِ الصَّدْعِ",
@@ -272,7 +283,8 @@
           "translate_bn": "বিদীর্ণ (বক্ষ)"
         }
       },
-      "english_trans": "And the earth splitting (with plants);"
+      "english_trans": "And the earth splitting (with plants);",
+      "arabic_text_uthmani": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ"
     },
     "13": {
       "arabic_text": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
@@ -291,7 +303,8 @@
           "translate_bn": "মীমাংসাকারী"
         }
       },
-      "english_trans": "Most surely it is a decisive word,"
+      "english_trans": "Most surely it is a decisive word,",
+      "arabic_text_uthmani": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ"
     },
     "14": {
       "arabic_text": "وَمَا هُوَ بِالْهَزْلِ",
@@ -310,7 +323,8 @@
           "translate_bn": "হাসি-ঠাট্টার কথা"
         }
       },
-      "english_trans": "And it is no joke."
+      "english_trans": "And it is no joke.",
+      "arabic_text_uthmani": "وَمَا هُوَ بِٱلْهَزْلِ"
     },
     "15": {
       "arabic_text": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
@@ -329,7 +343,8 @@
           "translate_bn": "ভীষণ ষড়যন্ত্র"
         }
       },
-      "english_trans": "Surely they will make a scheme,"
+      "english_trans": "Surely they will make a scheme,",
+      "arabic_text_uthmani": "إِنَّهُمْ يَكِيدُونَ كَيْدًا"
     },
     "16": {
       "arabic_text": "وَأَكِيدُ كَيْدًا",
@@ -344,7 +359,8 @@
           "translate_bn": "ভীষণ কৌশল"
         }
       },
-      "english_trans": "And I (too) will make a scheme."
+      "english_trans": "And I (too) will make a scheme.",
+      "arabic_text_uthmani": "وَأَكِيدُ كَيْدًا"
     },
     "17": {
       "arabic_text": "فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا",
@@ -367,7 +383,8 @@
           "translate_bn": "কিছুক্ষণের"
         }
       },
-      "english_trans": "So grant the unbelievers a respite: let them alone for a"
+      "english_trans": "So grant the unbelievers a respite: let them alone for a",
+      "arabic_text_uthmani": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا"
     }
   }
 }

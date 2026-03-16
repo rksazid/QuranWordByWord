@@ -27,7 +27,8 @@
           "translate_bn": "পিছনে দোষ প্রচারকারীর"
         }
       },
-      "english_trans": "Woe to every slanderer, defamer,"
+      "english_trans": "Woe to every slanderer, defamer,",
+      "arabic_text_uthmani": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ"
     },
     "2": {
       "arabic_text": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ",
@@ -50,7 +51,8 @@
           "translate_bn": "এবং তা বারবার গণনা করে রেখেছে"
         }
       },
-      "english_trans": "Who amasses wealth and considers it a provision (against mishap);"
+      "english_trans": "Who amasses wealth and considers it a provision (against mishap);",
+      "arabic_text_uthmani": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ"
     },
     "3": {
       "arabic_text": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ",
@@ -73,7 +75,8 @@
           "translate_bn": "তাকে অমর করবে"
         }
       },
-      "english_trans": "He thinks that his wealth will make him immortal."
+      "english_trans": "He thinks that his wealth will make him immortal.",
+      "arabic_text_uthmani": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ"
     },
     "4": {
       "arabic_text": "كَلَّا لَيُنْبَذَنَّ فِي الْحُطَمَةِ",
@@ -96,7 +99,8 @@
           "translate_bn": "বিচূর্ণকারী স্থানের"
         }
       },
-      "english_trans": "Nay! he shall most certainly be hurled into the crushing disaster,"
+      "english_trans": "Nay! he shall most certainly be hurled into the crushing disaster,",
+      "arabic_text_uthmani": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ"
     },
     "5": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ",
@@ -119,7 +123,8 @@
           "translate_bn": "বিচূর্ণকারী স্থান"
         }
       },
-      "english_trans": "And what will make you realize what the crushing disaster is?"
+      "english_trans": "And what will make you realize what the crushing disaster is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ"
     },
     "6": {
       "arabic_text": "نَارُ اللَّهِ الْمُوقَدَةُ",
@@ -138,7 +143,8 @@
           "translate_bn": "প্রজ্জ্বলিত"
         }
       },
-      "english_trans": "It is the fire kindled by Allah,"
+      "english_trans": "It is the fire kindled by Allah,",
+      "arabic_text_uthmani": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ"
     },
     "7": {
       "arabic_text": "الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ",
@@ -161,7 +167,8 @@
           "translate_bn": "অন্তরসমূহের"
         }
       },
-      "english_trans": "Which rises above the hearts."
+      "english_trans": "Which rises above the hearts.",
+      "arabic_text_uthmani": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ"
     },
     "8": {
       "arabic_text": "إِنَّهَا عَلَيْهِمْ مُؤْصَدَةٌ",
@@ -180,7 +187,8 @@
           "translate_bn": "অবরুদ্ধ করে দেয়া হবে"
         }
       },
-      "english_trans": "Surely it shall be closed over upon them,"
+      "english_trans": "Surely it shall be closed over upon them,",
+      "arabic_text_uthmani": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ"
     },
     "9": {
       "arabic_text": "فِي عَمَدٍ مُمَدَّدَةٍ",
@@ -199,7 +207,8 @@
           "translate_bn": "দীর্ঘায়িত"
         }
       },
-      "english_trans": "In extended columns."
+      "english_trans": "In extended columns.",
+      "arabic_text_uthmani": "فِى عَمَدٍ مُّمَدَّدَةٍۭ"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Al-Quran Word by Word",
-  "short_name": "Quran WbW v3",
+  "name": "Al-Quran Word By Word",
+  "short_name": "Al-Quran WbW",
   "description": "Al-Quran Word by Word with 87% performance optimization",
   "start_url": "/",
   "display": "standalone",
@@ -67,5 +67,5 @@
       ]
     }
   ],
-  "version": "3.3.0"
+  "version": "4.1.0"
 }

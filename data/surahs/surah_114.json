@@ -27,7 +27,8 @@
           "translate_bn": "মানুষের"
         }
       },
-      "english_trans": "Say: I seek refuge in the Lord of men,"
+      "english_trans": "Say: I seek refuge in the Lord of men,",
+      "arabic_text_uthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
     },
     "2": {
       "arabic_text": "مَلِكِ النَّاسِ",
@@ -42,7 +43,8 @@
           "translate_bn": "মানুষের"
         }
       },
-      "english_trans": "The King of men,"
+      "english_trans": "The King of men,",
+      "arabic_text_uthmani": "مَلِكِ ٱلنَّاسِ"
     },
     "3": {
       "arabic_text": "إِلَهِ النَّاسِ",
@@ -57,7 +59,8 @@
           "translate_bn": "মানুষের"
         }
       },
-      "english_trans": "The god of men,"
+      "english_trans": "The god of men,",
+      "arabic_text_uthmani": "إِلَـٰهِ ٱلنَّاسِ"
     },
     "4": {
       "arabic_text": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
@@ -80,7 +83,8 @@
           "translate_bn": "আত্নগোপনকারী"
         }
       },
-      "english_trans": "From the evil of the whisperings of the slinking (Shaitan),"
+      "english_trans": "From the evil of the whisperings of the slinking (Shaitan),",
+      "arabic_text_uthmani": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ"
     },
     "5": {
       "arabic_text": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
@@ -107,7 +111,8 @@
           "translate_bn": "মানুষের"
         }
       },
-      "english_trans": "Who whispers into the hearts of men,"
+      "english_trans": "Who whispers into the hearts of men,",
+      "arabic_text_uthmani": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ"
     },
     "6": {
       "arabic_text": "مِنَ الْجِنَّةِ وَالنَّاسِ",
@@ -126,7 +131,8 @@
           "translate_bn": "ও মানুষের"
         }
       },
-      "english_trans": "From among the jinn and the men."
+      "english_trans": "From among the jinn and the men.",
+      "arabic_text_uthmani": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ"
     }
   }
 }

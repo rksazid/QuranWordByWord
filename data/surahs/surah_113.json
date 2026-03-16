@@ -27,7 +27,8 @@
           "translate_bn": "প্রভাতের"
         }
       },
-      "english_trans": "Say: I seek refuge in the Lord of the dawn,"
+      "english_trans": "Say: I seek refuge in the Lord of the dawn,",
+      "arabic_text_uthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
     },
     "2": {
       "arabic_text": "مِنْ شَرِّ مَا خَلَقَ",
@@ -50,7 +51,8 @@
           "translate_bn": "তিনি সৃষ্টি করেছেন"
         }
       },
-      "english_trans": "From the evil of what He has created,"
+      "english_trans": "From the evil of what He has created,",
+      "arabic_text_uthmani": "مِن شَرِّ مَا خَلَقَ"
     },
     "3": {
       "arabic_text": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ",
@@ -77,7 +79,8 @@
           "translate_bn": "তা গভীর হয়"
         }
       },
-      "english_trans": "And from the evil of the utterly dark night when it comes,"
+      "english_trans": "And from the evil of the utterly dark night when it comes,",
+      "arabic_text_uthmani": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"
     },
     "4": {
       "arabic_text": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
@@ -104,7 +107,8 @@
           "translate_bn": "গিঁটগুলোর"
         }
       },
-      "english_trans": "And from the evil of those who blow on knots,"
+      "english_trans": "And from the evil of those who blow on knots,",
+      "arabic_text_uthmani": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ"
     },
     "5": {
       "arabic_text": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
@@ -131,7 +135,8 @@
           "translate_bn": "সে হিংসা করে"
         }
       },
-      "english_trans": "And from the evil of the envious when he envies"
+      "english_trans": "And from the evil of the envious when he envies",
+      "arabic_text_uthmani": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
     }
   }
 }

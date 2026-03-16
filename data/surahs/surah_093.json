@@ -15,7 +15,8 @@
           "translate_bn": "শপথ প্রথম প্রহরের"
         }
       },
-      "english_trans": "I swear by the early hours of the day,"
+      "english_trans": "I swear by the early hours of the day,",
+      "arabic_text_uthmani": " وَٱلضُّحَىٰ"
     },
     "2": {
       "arabic_text": "وَاللَّيْلِ إِذَا سَجَى",
@@ -34,7 +35,8 @@
           "translate_bn": "নিঝুম হয়"
         }
       },
-      "english_trans": "And the night when it covers with darkness."
+      "english_trans": "And the night when it covers with darkness.",
+      "arabic_text_uthmani": "وَٱلَّيْلِ إِذَا سَجَىٰ"
     },
     "3": {
       "arabic_text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى",
@@ -61,7 +63,8 @@
           "translate_bn": "অসন্তুষ্ট হয়েছেন"
         }
       },
-      "english_trans": "Your Lord has not forsaken you, nor has He become displeased,"
+      "english_trans": "Your Lord has not forsaken you, nor has He become displeased,",
+      "arabic_text_uthmani": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ"
     },
     "4": {
       "arabic_text": "وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَى",
@@ -88,7 +91,8 @@
           "translate_bn": "পূর্ববর্তী (ইহকাল)"
         }
       },
-      "english_trans": "And surely what comes after is better for you than that which has gone before."
+      "english_trans": "And surely what comes after is better for you than that which has gone before.",
+      "arabic_text_uthmani": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ"
     },
     "5": {
       "arabic_text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى",
@@ -111,7 +115,8 @@
           "translate_bn": "ফলে তুমি খুশী হবে"
         }
       },
-      "english_trans": "And soon will your Lord give you so that you shall be well pleased."
+      "english_trans": "And soon will your Lord give you so that you shall be well pleased.",
+      "arabic_text_uthmani": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ"
     },
     "6": {
       "arabic_text": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَى",
@@ -134,7 +139,8 @@
           "translate_bn": "অতঃপর আশ্রয় দিয়েছেন"
         }
       },
-      "english_trans": "Did He not find you an orphan and give you shelter?"
+      "english_trans": "Did He not find you an orphan and give you shelter?",
+      "arabic_text_uthmani": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ"
     },
     "7": {
       "arabic_text": "وَوَجَدَكَ ضَالًّا فَهَدَى",
@@ -153,7 +159,8 @@
           "translate_bn": "অতঃপর তিনি পথের দিশা দেন"
         }
       },
-      "english_trans": "And find you lost (that is, unrecognized by men) and guide (them to you)?"
+      "english_trans": "And find you lost (that is, unrecognized by men) and guide (them to you)?",
+      "arabic_text_uthmani": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ"
     },
     "8": {
       "arabic_text": "وَوَجَدَكَ عَائِلًا فَأَغْنَى",
@@ -172,7 +179,8 @@
           "translate_bn": "অতঃপর অভাবমুক্ত করলেন"
         }
       },
-      "english_trans": "And find you in want and make you to be free from want?"
+      "english_trans": "And find you in want and make you to be free from want?",
+      "arabic_text_uthmani": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ"
     },
     "9": {
       "arabic_text": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
@@ -195,7 +203,8 @@
           "translate_bn": "কঠোর হয়ো"
         }
       },
-      "english_trans": "Therefore, as for the orphan, do not oppress (him)."
+      "english_trans": "Therefore, as for the orphan, do not oppress (him).",
+      "arabic_text_uthmani": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ"
     },
     "10": {
       "arabic_text": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
@@ -218,7 +227,8 @@
           "translate_bn": "তিরস্কার করো"
         }
       },
-      "english_trans": "And as for him who asks, do not chide (him),"
+      "english_trans": "And as for him who asks, do not chide (him),",
+      "arabic_text_uthmani": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ"
     },
     "11": {
       "arabic_text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
@@ -241,7 +251,8 @@
           "translate_bn": "অতঃপর বর্ণনা করো"
         }
       },
-      "english_trans": "And as for the favor of your Lord, do announce (it)."
+      "english_trans": "And as for the favor of your Lord, do announce (it).",
+      "arabic_text_uthmani": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ"
     }
   }
 }

@@ -19,7 +19,8 @@
           "translate_bn": "যারা ওজনে মাপে কম দেয়"
         }
       },
-      "english_trans": "Woe to the defrauders,"
+      "english_trans": "Woe to the defrauders,",
+      "arabic_text_uthmani": " وَيْلٌ لِّلْمُطَفِّفِينَ"
     },
     "2": {
       "arabic_text": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ",
@@ -50,7 +51,8 @@
           "translate_bn": "তারা পূর্ণমাত্রায় নেয়"
         }
       },
-      "english_trans": "Who, when they take the measure (of their dues) from men take it fully,"
+      "english_trans": "Who, when they take the measure (of their dues) from men take it fully,",
+      "arabic_text_uthmani": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ"
     },
     "3": {
       "arabic_text": "وَإِذَا كَالُوهُمْ أَوْ وَزَنُوهُمْ يُخْسِرُونَ",
@@ -77,7 +79,8 @@
           "translate_bn": "তারা কম করে দেয়"
         }
       },
-      "english_trans": "But when they measure out to others or weigh out for them, they are deficient."
+      "english_trans": "But when they measure out to others or weigh out for them, they are deficient.",
+      "arabic_text_uthmani": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ"
     },
     "4": {
       "arabic_text": "أَلَا يَظُنُّ أُولَئِكَ أَنَّهُمْ مَبْعُوثُونَ",
@@ -104,7 +107,8 @@
           "translate_bn": "আবার ওঠানো হবে"
         }
       },
-      "english_trans": "Do not these think that they shall be raised again"
+      "english_trans": "Do not these think that they shall be raised again",
+      "arabic_text_uthmani": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ"
     },
     "5": {
       "arabic_text": "لِيَوْمٍ عَظِيمٍ",
@@ -119,7 +123,8 @@
           "translate_bn": "এক মহা"
         }
       },
-      "english_trans": "For a mighty day,"
+      "english_trans": "For a mighty day,",
+      "arabic_text_uthmani": "لِيَوْمٍ عَظِيمٍ"
     },
     "6": {
       "arabic_text": "يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ",
@@ -146,7 +151,8 @@
           "translate_bn": "বিশ্বজগতের"
         }
       },
-      "english_trans": "The day on which men shall stand before the Lord of the worlds?"
+      "english_trans": "The day on which men shall stand before the Lord of the worlds?",
+      "arabic_text_uthmani": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَـٰلَمِينَ"
     },
     "7": {
       "arabic_text": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ",
@@ -177,7 +183,8 @@
           "translate_bn": "কয়েদখানার"
         }
       },
-      "english_trans": "Nay! most surely the record of the wicked is in the Sijjin."
+      "english_trans": "Nay! most surely the record of the wicked is in the Sijjin.",
+      "arabic_text_uthmani": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ"
     },
     "8": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا سِجِّينٌ",
@@ -200,7 +207,8 @@
           "translate_bn": "কয়েদখানা"
         }
       },
-      "english_trans": "And what will make you know what the Sijjin is?"
+      "english_trans": "And what will make you know what the Sijjin is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ"
     },
     "9": {
       "arabic_text": "كِتَابٌ مَرْقُومٌ",
@@ -215,7 +223,8 @@
           "translate_bn": "চিহ্নিত"
         }
       },
-      "english_trans": "It is a written book."
+      "english_trans": "It is a written book.",
+      "arabic_text_uthmani": "كِتَـٰبٌ مَّرْقُومٌ"
     },
     "10": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -234,7 +243,8 @@
           "translate_bn": "মিথ্যারোপকারীদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters,"
+      "english_trans": "Woe on that day to the rejecters,",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "11": {
       "arabic_text": "الَّذِينَ يُكَذِّبُونَ بِيَوْمِ الدِّينِ",
@@ -257,7 +267,8 @@
           "translate_bn": "বিচারের"
         }
       },
-      "english_trans": "Who give the lie to the day of judgment."
+      "english_trans": "Who give the lie to the day of judgment.",
+      "arabic_text_uthmani": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ"
     },
     "12": {
       "arabic_text": "وَمَا يُكَذِّبُ بِهِ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
@@ -292,7 +303,8 @@
           "translate_bn": "পাপী"
         }
       },
-      "english_trans": "And none gives the lie to it but every exceeder of limits, sinful one"
+      "english_trans": "And none gives the lie to it but every exceeder of limits, sinful one",
+      "arabic_text_uthmani": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ"
     },
     "13": {
       "arabic_text": "إِذَا تُتْلَى عَلَيْهِ آيَاتُنَا قَالَ أَسَاطِيرُ الْأَوَّلِينَ",
@@ -327,7 +339,8 @@
           "translate_bn": "পূর্ববর্তীদের"
         }
       },
-      "english_trans": "When Our communications are recited to him, he says: Stories of those of yore."
+      "english_trans": "When Our communications are recited to him, he says: Stories of those of yore.",
+      "arabic_text_uthmani": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ"
     },
     "14": {
       "arabic_text": "كَلَّا بَلْ رَانَ عَلَى قُلُوبِهِمْ مَا كَانُوا يَكْسِبُونَ",
@@ -366,7 +379,8 @@
           "translate_bn": "তারা অর্জন"
         }
       },
-      "english_trans": "Nay! rather, what they used to do has become like rust upon their hearts."
+      "english_trans": "Nay! rather, what they used to do has become like rust upon their hearts.",
+      "arabic_text_uthmani": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ"
     },
     "15": {
       "arabic_text": "كَلَّا إِنَّهُمْ عَنْ رَبِّهِمْ يَوْمَئِذٍ لَمَحْجُوبُونَ",
@@ -397,7 +411,8 @@
           "translate_bn": "তারা দর্শন বঞ্চিত হবেই"
         }
       },
-      "english_trans": "Nay! most surely they shall on that day be debarred from their Lord."
+      "english_trans": "Nay! most surely they shall on that day be debarred from their Lord.",
+      "arabic_text_uthmani": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ"
     },
     "16": {
       "arabic_text": "ثُمَّ إِنَّهُمْ لَصَالُو الْجَحِيمِ",
@@ -420,7 +435,8 @@
           "translate_bn": "জাহান্নামে"
         }
       },
-      "english_trans": "Then most surely they shall enter the burning fire."
+      "english_trans": "Then most surely they shall enter the burning fire.",
+      "arabic_text_uthmani": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ"
     },
     "17": {
       "arabic_text": "ثُمَّ يُقَالُ هَذَا الَّذِي كُنْتُمْ بِهِ تُكَذِّبُونَ",
@@ -455,7 +471,8 @@
           "translate_bn": "মিথ্যারোপ করতে"
         }
       },
-      "english_trans": "Then shall it be said: This is what you gave the lie to."
+      "english_trans": "Then shall it be said: This is what you gave the lie to.",
+      "arabic_text_uthmani": "ثُمَّ يُقَالُ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ"
     },
     "18": {
       "arabic_text": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ",
@@ -486,7 +503,8 @@
           "translate_bn": "উচ্চ মর্যাদাসম্পন্ন (দফতরে)"
         }
       },
-      "english_trans": "Nay! Most surely the record of the righteous shall be in the Iliyin."
+      "english_trans": "Nay! Most surely the record of the righteous shall be in the Iliyin.",
+      "arabic_text_uthmani": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ"
     },
     "19": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا عِلِّيُّونَ",
@@ -509,7 +527,8 @@
           "translate_bn": "উচ্চ মর্যাদাসম্পন্ন (দফতর)"
         }
       },
-      "english_trans": "And what will make you know what the highest Iliyin is?"
+      "english_trans": "And what will make you know what the highest Iliyin is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ"
     },
     "20": {
       "arabic_text": "كِتَابٌ مَرْقُومٌ",
@@ -524,7 +543,8 @@
           "translate_bn": "চিহ্নিত"
         }
       },
-      "english_trans": "It is a written book,"
+      "english_trans": "It is a written book,",
+      "arabic_text_uthmani": "كِتَـٰبٌ مَّرْقُومٌ"
     },
     "21": {
       "arabic_text": "يَشْهَدُهُ الْمُقَرَّبُونَ",
@@ -539,7 +559,8 @@
           "translate_bn": "নৈকট্যপ্রাপ্ত (ফেরেশতারা)"
         }
       },
-      "english_trans": "Those who are drawn near (to Allah) shall witness it."
+      "english_trans": "Those who are drawn near (to Allah) shall witness it.",
+      "arabic_text_uthmani": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ"
     },
     "22": {
       "arabic_text": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
@@ -562,7 +583,8 @@
           "translate_bn": "স্বাচ্ছন্দ্যের"
         }
       },
-      "english_trans": "Most surely the righteous shall be in bliss,"
+      "english_trans": "Most surely the righteous shall be in bliss,",
+      "arabic_text_uthmani": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ"
     },
     "23": {
       "arabic_text": "عَلَى الْأَرَائِكِ يَنْظُرُونَ",
@@ -581,7 +603,8 @@
           "translate_bn": "তারা দেখবে"
         }
       },
-      "english_trans": "On thrones, they shall gaze;"
+      "english_trans": "On thrones, they shall gaze;",
+      "arabic_text_uthmani": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ"
     },
     "24": {
       "arabic_text": "تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ",
@@ -608,7 +631,8 @@
           "translate_bn": "স্বাচ্ছন্দ্যের"
         }
       },
-      "english_trans": "You will recognize in their faces the brightness of bliss."
+      "english_trans": "You will recognize in their faces the brightness of bliss.",
+      "arabic_text_uthmani": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ"
     },
     "25": {
       "arabic_text": "يُسْقَوْنَ مِنْ رَحِيقٍ مَخْتُومٍ",
@@ -631,7 +655,8 @@
           "translate_bn": "মোহর করা"
         }
       },
-      "english_trans": "They are made to quaff of a pure drink that is sealed (to others)."
+      "english_trans": "They are made to quaff of a pure drink that is sealed (to others).",
+      "arabic_text_uthmani": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ"
     },
     "26": {
       "arabic_text": "خِتَامُهُ مِسْكٌ وَفِي ذَلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُونَ",
@@ -662,7 +687,8 @@
           "translate_bn": "প্রতিযোগীরা"
         }
       },
-      "english_trans": "The sealing of it is (with) musk; and for that let the aspirers aspire."
+      "english_trans": "The sealing of it is (with) musk; and for that let the aspirers aspire.",
+      "arabic_text_uthmani": "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ"
     },
     "27": {
       "arabic_text": "وَمِزَاجُهُ مِنْ تَسْنِيمٍ",
@@ -681,7 +707,8 @@
           "translate_bn": "তাসনীম"
         }
       },
-      "english_trans": "And the admixture of it is a water of Tasnim,"
+      "english_trans": "And the admixture of it is a water of Tasnim,",
+      "arabic_text_uthmani": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ"
     },
     "28": {
       "arabic_text": "عَيْنًا يَشْرَبُ بِهَا الْمُقَرَّبُونَ",
@@ -704,7 +731,8 @@
           "translate_bn": "নৈকট্যপ্রাপ্তগণ"
         }
       },
-      "english_trans": "A fountain from which drink they who are drawn near (to Allah)."
+      "english_trans": "A fountain from which drink they who are drawn near (to Allah).",
+      "arabic_text_uthmani": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ"
     },
     "29": {
       "arabic_text": "إِنَّ الَّذِينَ أَجْرَمُوا كَانُوا مِنَ الَّذِينَ آمَنُوا يَضْحَكُونَ",
@@ -743,7 +771,8 @@
           "translate_bn": "বিদ্রুপ করত (তাদের সাথে)"
         }
       },
-      "english_trans": "Surely they who are guilty used to laugh at those who believe."
+      "english_trans": "Surely they who are guilty used to laugh at those who believe.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ"
     },
     "30": {
       "arabic_text": "وَإِذَا مَرُّوا بِهِمْ يَتَغَامَزُونَ",
@@ -766,7 +795,8 @@
           "translate_bn": "তারা কটাক্ষ করতো"
         }
       },
-      "english_trans": "And when they passed by them, they winked at one another."
+      "english_trans": "And when they passed by them, they winked at one another.",
+      "arabic_text_uthmani": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ"
     },
     "31": {
       "arabic_text": "وَإِذَا انْقَلَبُوا إِلَى أَهْلِهِمُ انْقَلَبُوا فَكِهِينَ",
@@ -797,7 +827,8 @@
           "translate_bn": "উৎফুল্ল হয়ে"
         }
       },
-      "english_trans": "And when they returned to their own followers they returned exulting."
+      "english_trans": "And when they returned to their own followers they returned exulting.",
+      "arabic_text_uthmani": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ"
     },
     "32": {
       "arabic_text": "وَإِذَا رَأَوْهُمْ قَالُوا إِنَّ هَؤُلَاءِ لَضَالُّونَ",
@@ -828,7 +859,8 @@
           "translate_bn": "অবশ্যই বিভ্রান্ত"
         }
       },
-      "english_trans": "And when they saw them, they said: Most surely these are in error;"
+      "english_trans": "And when they saw them, they said: Most surely these are in error;",
+      "arabic_text_uthmani": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ"
     },
     "33": {
       "arabic_text": "وَمَا أُرْسِلُوا عَلَيْهِمْ حَافِظِينَ",
@@ -851,7 +883,8 @@
           "translate_bn": "তত্ত্বাবধায়ক রূপে"
         }
       },
-      "english_trans": "And they were not sent to be keepers over them."
+      "english_trans": "And they were not sent to be keepers over them.",
+      "arabic_text_uthmani": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ"
     },
     "34": {
       "arabic_text": "فَالْيَوْمَ الَّذِينَ آمَنُوا مِنَ الْكُفَّارِ يَضْحَكُونَ",
@@ -882,7 +915,8 @@
           "translate_bn": "উপহাস করবে"
         }
       },
-      "english_trans": "So today those who believe shall laugh at the unbelievers;"
+      "english_trans": "So today those who believe shall laugh at the unbelievers;",
+      "arabic_text_uthmani": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ"
     },
     "35": {
       "arabic_text": "عَلَى الْأَرَائِكِ يَنْظُرُونَ",
@@ -901,7 +935,8 @@
           "translate_bn": "তারা দেখবে"
         }
       },
-      "english_trans": "On thrones, they will look."
+      "english_trans": "On thrones, they will look.",
+      "arabic_text_uthmani": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ"
     },
     "36": {
       "arabic_text": "هَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ",
@@ -932,7 +967,8 @@
           "translate_bn": "তারা করছিল"
         }
       },
-      "english_trans": "Surely the disbelievers are rewarded as they did."
+      "english_trans": "Surely the disbelievers are rewarded as they did.",
+      "arabic_text_uthmani": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ"
     }
   }
 }

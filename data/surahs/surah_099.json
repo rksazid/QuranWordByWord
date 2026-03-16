@@ -27,7 +27,8 @@
           "translate_bn": "তার (ভীষণ) কম্পনে"
         }
       },
-      "english_trans": "When the earth is shaken with her (violent) shaking,"
+      "english_trans": "When the earth is shaken with her (violent) shaking,",
+      "arabic_text_uthmani": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا"
     },
     "2": {
       "arabic_text": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا",
@@ -46,7 +47,8 @@
           "translate_bn": "বোঝাগুলোকে তার"
         }
       },
-      "english_trans": "And the earth brings forth her burdens,"
+      "english_trans": "And the earth brings forth her burdens,",
+      "arabic_text_uthmani": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا"
     },
     "3": {
       "arabic_text": "وَقَالَ الْإِنْسَانُ مَا لَهَا",
@@ -69,7 +71,8 @@
           "translate_bn": "হয়েছে তার"
         }
       },
-      "english_trans": "And man says: What has befallen her?"
+      "english_trans": "And man says: What has befallen her?",
+      "arabic_text_uthmani": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا"
     },
     "4": {
       "arabic_text": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
@@ -88,7 +91,8 @@
           "translate_bn": "তার বৃত্তান্ত"
         }
       },
-      "english_trans": "On that day she shall tell her news,"
+      "english_trans": "On that day she shall tell her news,",
+      "arabic_text_uthmani": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا"
     },
     "5": {
       "arabic_text": "بِأَنَّ رَبَّكَ أَوْحَى لَهَا",
@@ -111,7 +115,8 @@
           "translate_bn": "তাকে"
         }
       },
-      "english_trans": "Because your Lord had inspired her."
+      "english_trans": "Because your Lord had inspired her.",
+      "arabic_text_uthmani": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا"
     },
     "6": {
       "arabic_text": "يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ",
@@ -142,7 +147,8 @@
           "translate_bn": "তাদের কৃতকর্মকে"
         }
       },
-      "english_trans": "On that day men shall come forth in sundry bodies that they may be shown their works."
+      "english_trans": "On that day men shall come forth in sundry bodies that they may be shown their works.",
+      "arabic_text_uthmani": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ"
     },
     "7": {
       "arabic_text": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
@@ -173,7 +179,8 @@
           "translate_bn": "সে তা দেখবে"
         }
       },
-      "english_trans": "So. he who has done an atom´s weight of good shall see it"
+      "english_trans": "So. he who has done an atom´s weight of good shall see it",
+      "arabic_text_uthmani": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ"
     },
     "8": {
       "arabic_text": "وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ",
@@ -204,7 +211,8 @@
           "translate_bn": "সে তা দেখবে"
         }
       },
-      "english_trans": "And he who has done an atom´s weight of evil shall see it."
+      "english_trans": "And he who has done an atom´s weight of evil shall see it.",
+      "arabic_text_uthmani": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ"
     }
   }
 }

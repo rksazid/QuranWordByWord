@@ -15,7 +15,8 @@
           "translate_bn": "অশেষ দয়ালু (আল্লাহ্‌)"
         }
       },
-      "english_trans": "The Beneficent Allah,"
+      "english_trans": "The Beneficent Allah,",
+      "arabic_text_uthmani": " ٱلرَّحْمَـٰنُ"
     },
     "2": {
       "arabic_text": "عَلَّمَ الْقُرْآنَ",
@@ -30,7 +31,8 @@
           "translate_bn": "(এই) কুরআন"
         }
       },
-      "english_trans": "Taught the Quran."
+      "english_trans": "Taught the Quran.",
+      "arabic_text_uthmani": "عَلَّمَ ٱلْقُرْءَانَ"
     },
     "3": {
       "arabic_text": "خَلَقَ الْإِنْسَانَ",
@@ -45,7 +47,8 @@
           "translate_bn": "মানুষকে"
         }
       },
-      "english_trans": "He created man,"
+      "english_trans": "He created man,",
+      "arabic_text_uthmani": "خَلَقَ ٱلْإِنسَـٰنَ"
     },
     "4": {
       "arabic_text": "عَلَّمَهُ الْبَيَانَ",
@@ -60,7 +63,8 @@
           "translate_bn": "ভাব প্রকাশ করতে"
         }
       },
-      "english_trans": "Taught him the mode of expression."
+      "english_trans": "Taught him the mode of expression.",
+      "arabic_text_uthmani": "عَلَّمَهُ ٱلْبَيَانَ"
     },
     "5": {
       "arabic_text": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ",
@@ -79,7 +83,8 @@
           "translate_bn": "একটি হিসাব অনুসরণ করেই চলে"
         }
       },
-      "english_trans": "The sun and the moon follow a reckoning."
+      "english_trans": "The sun and the moon follow a reckoning.",
+      "arabic_text_uthmani": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍ"
     },
     "6": {
       "arabic_text": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
@@ -98,7 +103,8 @@
           "translate_bn": "উভয়ে সিজদারত"
         }
       },
-      "english_trans": "And the herbs and the trees do prostrate (to Him)."
+      "english_trans": "And the herbs and the trees do prostrate (to Him).",
+      "arabic_text_uthmani": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ"
     },
     "7": {
       "arabic_text": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
@@ -121,7 +127,8 @@
           "translate_bn": "মানদণ্ড"
         }
       },
-      "english_trans": "And the heaven, He raised it high, and He made the balance"
+      "english_trans": "And the heaven, He raised it high, and He made the balance",
+      "arabic_text_uthmani": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ"
     },
     "8": {
       "arabic_text": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
@@ -144,7 +151,8 @@
           "translate_bn": "মানদণ্ডের"
         }
       },
-      "english_trans": "That you may not be inordinate in respect of the measure."
+      "english_trans": "That you may not be inordinate in respect of the measure.",
+      "arabic_text_uthmani": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ"
     },
     "9": {
       "arabic_text": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ",
@@ -175,7 +183,8 @@
           "translate_bn": "দাঁড়িপাল্লায় পরিমাপে"
         }
       },
-      "english_trans": "And keep up the balance with equity and do not make the measure deficient."
+      "english_trans": "And keep up the balance with equity and do not make the measure deficient.",
+      "arabic_text_uthmani": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ"
     },
     "10": {
       "arabic_text": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
@@ -194,7 +203,8 @@
           "translate_bn": "সৃষ্ট জীবের জন্যে"
         }
       },
-      "english_trans": "And the earth, He has set it for living creatures;"
+      "english_trans": "And the earth, He has set it for living creatures;",
+      "arabic_text_uthmani": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ"
     },
     "11": {
       "arabic_text": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
@@ -221,7 +231,8 @@
           "translate_bn": "আবরণ বিশিষ্ট (যার ফল)"
         }
       },
-      "english_trans": "Therein is fruit and palms having sheathed clusters,"
+      "english_trans": "Therein is fruit and palms having sheathed clusters,",
+      "arabic_text_uthmani": "فِيهَا فَـٰكِهَةٌ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ"
     },
     "12": {
       "arabic_text": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
@@ -244,7 +255,8 @@
           "translate_bn": "ও সুগন্ধ (বিশিষ্ট উদ্ভিদ)"
         }
       },
-      "english_trans": "And the grain with (its) husk and fragrance."
+      "english_trans": "And the grain with (its) husk and fragrance.",
+      "arabic_text_uthmani": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ"
     },
     "13": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -267,7 +279,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "14": {
       "arabic_text": "خَلَقَ الْإِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ",
@@ -294,7 +307,8 @@
           "translate_bn": "(যা) পোড়া মাটির মতো"
         }
       },
-      "english_trans": "He created man from dry clay like earthen vessels,"
+      "english_trans": "He created man from dry clay like earthen vessels,",
+      "arabic_text_uthmani": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍ كَٱلْفَخَّارِ"
     },
     "15": {
       "arabic_text": "وَخَلَقَ الْجَانَّ مِنْ مَارِجٍ مِنْ نَارٍ",
@@ -325,7 +339,8 @@
           "translate_bn": "আগুনের"
         }
       },
-      "english_trans": "And He created the jinn of a flame of fire."
+      "english_trans": "And He created the jinn of a flame of fire.",
+      "arabic_text_uthmani": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ"
     },
     "16": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -348,7 +363,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "17": {
       "arabic_text": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ",
@@ -371,7 +387,8 @@
           "translate_bn": "দুই অস্তাচলের"
         }
       },
-      "english_trans": "Lord of the East and Lord of the West."
+      "english_trans": "Lord of the East and Lord of the West.",
+      "arabic_text_uthmani": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ"
     },
     "18": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -394,7 +411,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "19": {
       "arabic_text": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
@@ -413,7 +431,8 @@
           "translate_bn": "পরস্পরে মিলিত হয়"
         }
       },
-      "english_trans": "He has made the two seas to flow freely (so that) they meet together:"
+      "english_trans": "He has made the two seas to flow freely (so that) they meet together:",
+      "arabic_text_uthmani": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ"
     },
     "20": {
       "arabic_text": "بَيْنَهُمَا بَرْزَخٌ لَا يَبْغِيَانِ",
@@ -436,7 +455,8 @@
           "translate_bn": "উভয়ে সীমা অতিক্রম করে"
         }
       },
-      "english_trans": "Between them is a barrier which they cannot pass."
+      "english_trans": "Between them is a barrier which they cannot pass.",
+      "arabic_text_uthmani": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ"
     },
     "21": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -459,7 +479,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "22": {
       "arabic_text": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ",
@@ -482,7 +503,8 @@
           "translate_bn": "ও প্রবাল"
         }
       },
-      "english_trans": "There come forth from them pearls, both large and small."
+      "english_trans": "There come forth from them pearls, both large and small.",
+      "arabic_text_uthmani": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ"
     },
     "23": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -505,7 +527,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "24": {
       "arabic_text": "وَلَهُ الْجَوَارِ الْمُنْشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ",
@@ -536,7 +559,8 @@
           "translate_bn": "পাহাড়ের মতো"
         }
       },
-      "english_trans": "And His are the ships reared aloft in the sea like mountains."
+      "english_trans": "And His are the ships reared aloft in the sea like mountains.",
+      "arabic_text_uthmani": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ"
     },
     "25": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -559,7 +583,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "26": {
       "arabic_text": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
@@ -582,7 +607,8 @@
           "translate_bn": "নশ্বর"
         }
       },
-      "english_trans": "Everyone on it must pass away."
+      "english_trans": "Everyone on it must pass away.",
+      "arabic_text_uthmani": "كُلُّ مَنْ عَلَيْهَا فَانٍ"
     },
     "27": {
       "arabic_text": "وَيَبْقَى وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
@@ -613,7 +639,8 @@
           "translate_bn": "মহানুভবতা"
         }
       },
-      "english_trans": "And there will endure for ever the person of your Lord, the Lord of glory and honor."
+      "english_trans": "And there will endure for ever the person of your Lord, the Lord of glory and honor.",
+      "arabic_text_uthmani": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ"
     },
     "28": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -636,7 +663,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "29": {
       "arabic_text": "يَسْأَلُهُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
@@ -683,7 +711,8 @@
           "translate_bn": "(এক বিশেষ) অবস্থায়"
         }
       },
-      "english_trans": "All those who are in the heavens and the earth ask of Him; every moment He is in a state (of glory)."
+      "english_trans": "All those who are in the heavens and the earth ask of Him; every moment He is in a state (of glory).",
+      "arabic_text_uthmani": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ"
     },
     "30": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -706,7 +735,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "31": {
       "arabic_text": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ",
@@ -729,7 +759,8 @@
           "translate_bn": "দুই ভার (জিন ও মানব)"
         }
       },
-      "english_trans": "Soon will We apply Ourselves to you, O you two armies."
+      "english_trans": "Soon will We apply Ourselves to you, O you two armies.",
+      "arabic_text_uthmani": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ"
     },
     "32": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -752,7 +783,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "33": {
       "arabic_text": "يَا مَعْشَرَ الْجِنِّ وَالْإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانْفُذُوا لَا تَنْفُذُونَ إِلَّا بِسُلْطَانٍ",
@@ -823,7 +855,8 @@
           "translate_bn": "শক্তি দিয়ে (যা তোমাদের নেই)"
         }
       },
-      "english_trans": "O assembly of the jinn and the men! If you are able to pass through the regions of the heavens and the earth, then pass through; you cannot pass through but with authority."
+      "english_trans": "O assembly of the jinn and the men! If you are able to pass through the regions of the heavens and the earth, then pass through; you cannot pass through but with authority.",
+      "arabic_text_uthmani": "يَـٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَـٰنٍ"
     },
     "34": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -846,7 +879,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "35": {
       "arabic_text": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِنْ نَارٍ وَنُحَاسٌ فَلَا تَنْتَصِرَانِ",
@@ -885,7 +919,8 @@
           "translate_bn": "তোমরা প্রতিরোধ করতে পারবে"
         }
       },
-      "english_trans": "The flames of fire and smoke will be sent on you two, then you will not be able to defend yourselves."
+      "english_trans": "The flames of fire and smoke will be sent on you two, then you will not be able to defend yourselves.",
+      "arabic_text_uthmani": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ"
     },
     "36": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -908,7 +943,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "37": {
       "arabic_text": "فَإِذَا انْشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ",
@@ -939,7 +975,8 @@
           "translate_bn": "মতো লাল চামড়ার"
         }
       },
-      "english_trans": "And when the heaven is rent asunder, and then becomes red like red hide."
+      "english_trans": "And when the heaven is rent asunder, and then becomes red like red hide.",
+      "arabic_text_uthmani": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ"
     },
     "38": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -962,7 +999,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "39": {
       "arabic_text": "فَيَوْمَئِذٍ لَا يُسْأَلُ عَنْ ذَنْبِهِ إِنْسٌ وَلَا جَانٌّ",
@@ -1001,7 +1039,8 @@
           "translate_bn": "কোনো জিনকে"
         }
       },
-      "english_trans": "So on that day neither man nor jinni shall be asked about his sin."
+      "english_trans": "So on that day neither man nor jinni shall be asked about his sin.",
+      "arabic_text_uthmani": "فَيَوْمَئِذٍ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌ وَلَا جَآنٌّ"
     },
     "40": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1024,7 +1063,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "41": {
       "arabic_text": "يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ فَيُؤْخَذُ بِالنَّوَاصِي وَالْأَقْدَامِ",
@@ -1055,7 +1095,8 @@
           "translate_bn": "ও পা সমূহকে"
         }
       },
-      "english_trans": "The guilty shall be recognized by their marks, so they shall be seized by the forelocks and the feet."
+      "english_trans": "The guilty shall be recognized by their marks, so they shall be seized by the forelocks and the feet.",
+      "arabic_text_uthmani": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَـٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ"
     },
     "42": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1078,7 +1119,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "43": {
       "arabic_text": "هَذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ",
@@ -1109,7 +1151,8 @@
           "translate_bn": "অপরাধীরা"
         }
       },
-      "english_trans": "This is the hell which the guilty called a lie."
+      "english_trans": "This is the hell which the guilty called a lie.",
+      "arabic_text_uthmani": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ"
     },
     "44": {
       "arabic_text": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ",
@@ -1136,7 +1179,8 @@
           "translate_bn": "ফুটন্ত"
         }
       },
-      "english_trans": "Round about shall they go between it and hot, boiling water."
+      "english_trans": "Round about shall they go between it and hot, boiling water.",
+      "arabic_text_uthmani": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍ"
     },
     "45": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1159,7 +1203,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "46": {
       "arabic_text": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
@@ -1186,7 +1231,8 @@
           "translate_bn": "দুটো বাগান (রয়েছে)"
         }
       },
-      "english_trans": "And for him who fears to stand before his Lord are two gardens."
+      "english_trans": "And for him who fears to stand before his Lord are two gardens.",
+      "arabic_text_uthmani": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ"
     },
     "47": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1209,7 +1255,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "48": {
       "arabic_text": "ذَوَاتَا أَفْنَانٍ",
@@ -1224,7 +1271,8 @@
           "translate_bn": "ঘন শাখা পল্লব"
         }
       },
-      "english_trans": "Having in them various kinds."
+      "english_trans": "Having in them various kinds.",
+      "arabic_text_uthmani": "ذَوَاتَآ أَفْنَانٍ"
     },
     "49": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1247,7 +1295,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "50": {
       "arabic_text": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
@@ -1266,7 +1315,8 @@
           "translate_bn": "প্রবহমান (উভয়ে)"
         }
       },
-      "english_trans": "In both of them are two fountains flowing."
+      "english_trans": "In both of them are two fountains flowing.",
+      "arabic_text_uthmani": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ"
     },
     "51": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1289,7 +1339,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "52": {
       "arabic_text": "فِيهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجَانِ",
@@ -1316,7 +1367,8 @@
           "translate_bn": "দুই রকম"
         }
       },
-      "english_trans": "In both of them are two pairs of every fruit."
+      "english_trans": "In both of them are two pairs of every fruit.",
+      "arabic_text_uthmani": "فِيهِمَا مِن كُلِّ فَـٰكِهَةٍ زَوْجَانِ"
     },
     "53": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1339,7 +1391,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "54": {
       "arabic_text": "مُتَّكِئِينَ عَلَى فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ وَجَنَى الْجَنَّتَيْنِ دَانٍ",
@@ -1382,7 +1435,8 @@
           "translate_bn": "নিকটে (ঝুঁকে পড়বে)"
         }
       },
-      "english_trans": "Reclining on beds, the inner coverings of which are of silk brocade; and the fruits of the two gardens shall be within reach."
+      "english_trans": "Reclining on beds, the inner coverings of which are of silk brocade; and the fruits of the two gardens shall be within reach.",
+      "arabic_text_uthmani": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ"
     },
     "55": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1405,7 +1459,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "56": {
       "arabic_text": "فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
@@ -1448,7 +1503,8 @@
           "translate_bn": "কোনো জিন"
         }
       },
-      "english_trans": "In them shall be those who restrained their eyes; before them neither man nor jinni shall have touched them."
+      "english_trans": "In them shall be those who restrained their eyes; before them neither man nor jinni shall have touched them.",
+      "arabic_text_uthmani": "فِيهِنَّ قَـٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ"
     },
     "57": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1471,7 +1527,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "58": {
       "arabic_text": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ",
@@ -1490,7 +1547,8 @@
           "translate_bn": "ও মুক্তার (মত সুন্দরী)"
         }
       },
-      "english_trans": "As though they were rubies and pearls."
+      "english_trans": "As though they were rubies and pearls.",
+      "arabic_text_uthmani": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ"
     },
     "59": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1513,7 +1571,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "60": {
       "arabic_text": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
@@ -1540,7 +1599,8 @@
           "translate_bn": "উত্তম"
         }
       },
-      "english_trans": "Is the reward of goodness aught but goodness?"
+      "english_trans": "Is the reward of goodness aught but goodness?",
+      "arabic_text_uthmani": "هَلْ جَزَآءُ ٱلْإِحْسَـٰنِ إِلَّا ٱلْإِحْسَـٰنُ"
     },
     "61": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1563,7 +1623,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "62": {
       "arabic_text": "وَمِنْ دُونِهِمَا جَنَّتَانِ",
@@ -1582,7 +1643,8 @@
           "translate_bn": "দুটো বাগান (থাকবে)"
         }
       },
-      "english_trans": "And besides these two are two (other) gardens:"
+      "english_trans": "And besides these two are two (other) gardens:",
+      "arabic_text_uthmani": "وَمِن دُونِهِمَا جَنَّتَانِ"
     },
     "63": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1605,7 +1667,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "64": {
       "arabic_text": "مُدْهَامَّتَانِ",
@@ -1616,7 +1679,8 @@
           "translate_bn": "(এ দুই) ঘন সবুজ বাগান"
         }
       },
-      "english_trans": "Both inclining to blackness."
+      "english_trans": "Both inclining to blackness.",
+      "arabic_text_uthmani": "مُدْهَآمَّتَانِ"
     },
     "65": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1639,7 +1703,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "66": {
       "arabic_text": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
@@ -1658,7 +1723,8 @@
           "translate_bn": "উচ্ছলিত উভয়েই"
         }
       },
-      "english_trans": "In both of them are two springs gushing forth."
+      "english_trans": "In both of them are two springs gushing forth.",
+      "arabic_text_uthmani": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ"
     },
     "67": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1681,7 +1747,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "68": {
       "arabic_text": "فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
@@ -1704,7 +1771,8 @@
           "translate_bn": "ও ডালিম"
         }
       },
-      "english_trans": "In both are fruits and palms and pomegranates."
+      "english_trans": "In both are fruits and palms and pomegranates.",
+      "arabic_text_uthmani": "فِيهِمَا فَـٰكِهَةٌ وَنَخْلٌ وَرُمَّانٌ"
     },
     "69": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1727,7 +1795,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "70": {
       "arabic_text": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ",
@@ -1746,7 +1815,8 @@
           "translate_bn": "সুদর্শনা"
         }
       },
-      "english_trans": "In them are goodly things, beautiful ones."
+      "english_trans": "In them are goodly things, beautiful ones.",
+      "arabic_text_uthmani": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌ"
     },
     "71": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1769,7 +1839,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "72": {
       "arabic_text": "حُورٌ مَقْصُورَاتٌ فِي الْخِيَامِ",
@@ -1792,7 +1863,8 @@
           "translate_bn": "তাঁবু সমূহের"
         }
       },
-      "english_trans": "Pure ones confined to the pavilions."
+      "english_trans": "Pure ones confined to the pavilions.",
+      "arabic_text_uthmani": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ"
     },
     "73": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1815,7 +1887,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "74": {
       "arabic_text": "لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
@@ -1846,7 +1919,8 @@
           "translate_bn": "কোন জিন"
         }
       },
-      "english_trans": "Man has not touched them before them nor jinni."
+      "english_trans": "Man has not touched them before them nor jinni.",
+      "arabic_text_uthmani": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ"
     },
     "75": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1869,7 +1943,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "76": {
       "arabic_text": "مُتَّكِئِينَ عَلَى رَفْرَفٍ خُضْرٍ وَعَبْقَرِيٍّ حِسَانٍ",
@@ -1900,7 +1975,8 @@
           "translate_bn": "সুন্দর"
         }
       },
-      "english_trans": "Reclining on green cushions and beautiful carpets."
+      "english_trans": "Reclining on green cushions and beautiful carpets.",
+      "arabic_text_uthmani": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِىٍّ حِسَانٍ"
     },
     "77": {
       "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
@@ -1923,7 +1999,8 @@
           "translate_bn": "উভয়ে অস্বীকার করবে"
         }
       },
-      "english_trans": "Which then of the bounties of your Lord will you deny?"
+      "english_trans": "Which then of the bounties of your Lord will you deny?",
+      "arabic_text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ"
     },
     "78": {
       "arabic_text": "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
@@ -1954,7 +2031,8 @@
           "translate_bn": "ও মর্যাদা"
         }
       },
-      "english_trans": "Blessed be the name of your Lord, the Lord of Glory and Honor!"
+      "english_trans": "Blessed be the name of your Lord, the Lord of Glory and Honor!",
+      "arabic_text_uthmani": "تَبَـٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ"
     }
   }
 }

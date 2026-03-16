@@ -31,7 +31,8 @@
           "translate_bn": "এবং সেও ধ্বংস হোক"
         }
       },
-      "english_trans": "Perdition overtake both hands of Abu Lahab, and he will perish."
+      "english_trans": "Perdition overtake both hands of Abu Lahab, and he will perish.",
+      "arabic_text_uthmani": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ"
     },
     "2": {
       "arabic_text": "مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ",
@@ -62,7 +63,8 @@
           "translate_bn": "সে উপার্জন করেছিল"
         }
       },
-      "english_trans": "His wealth and what he earns will not avail him."
+      "english_trans": "His wealth and what he earns will not avail him.",
+      "arabic_text_uthmani": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ"
     },
     "3": {
       "arabic_text": "سَيَصْلَى نَارًا ذَاتَ لَهَبٍ",
@@ -85,7 +87,8 @@
           "translate_bn": "শিখা"
         }
       },
-      "english_trans": "He shall soon burn in fire that flames,"
+      "english_trans": "He shall soon burn in fire that flames,",
+      "arabic_text_uthmani": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ"
     },
     "4": {
       "arabic_text": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
@@ -104,7 +107,8 @@
           "translate_bn": "কাঠের"
         }
       },
-      "english_trans": "And his wife, the bearer of fuel,"
+      "english_trans": "And his wife, the bearer of fuel,",
+      "arabic_text_uthmani": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ"
     },
     "5": {
       "arabic_text": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
@@ -131,7 +135,8 @@
           "translate_bn": "পাকানো"
         }
       },
-      "english_trans": "Upon her neck a halter of strongly twisted rope."
+      "english_trans": "Upon her neck a halter of strongly twisted rope.",
+      "arabic_text_uthmani": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ"
     }
   }
 }

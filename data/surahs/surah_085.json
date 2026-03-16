@@ -23,7 +23,8 @@
           "translate_bn": "বুরুজ গ্রহ-নক্ষত্র"
         }
       },
-      "english_trans": "I swear by the mansions of the stars,"
+      "english_trans": "I swear by the mansions of the stars,",
+      "arabic_text_uthmani": " وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ"
     },
     "2": {
       "arabic_text": "وَالْيَوْمِ الْمَوْعُودِ",
@@ -38,7 +39,8 @@
           "translate_bn": "প্রতিশ্রুত"
         }
       },
-      "english_trans": "And the promised day,"
+      "english_trans": "And the promised day,",
+      "arabic_text_uthmani": "وَٱلْيَوْمِ ٱلْمَوْعُودِ"
     },
     "3": {
       "arabic_text": "وَشَاهِدٍ وَمَشْهُودٍ",
@@ -53,7 +55,8 @@
           "translate_bn": "ও যা পরিদৃষ্ট হয়"
         }
       },
-      "english_trans": "And the bearer of witness and those against whom the witness is borne."
+      "english_trans": "And the bearer of witness and those against whom the witness is borne.",
+      "arabic_text_uthmani": "وَشَاهِدٍ وَمَشْهُودٍ"
     },
     "4": {
       "arabic_text": "قُتِلَ أَصْحَابُ الْأُخْدُودِ",
@@ -72,7 +75,8 @@
           "translate_bn": "গর্তের"
         }
       },
-      "english_trans": "Cursed be the makers of the pit,"
+      "english_trans": "Cursed be the makers of the pit,",
+      "arabic_text_uthmani": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ"
     },
     "5": {
       "arabic_text": "النَّارِ ذَاتِ الْوَقُودِ",
@@ -91,7 +95,8 @@
           "translate_bn": "(প্রজ্জ্বলিত) ইন্ধন"
         }
       },
-      "english_trans": "Of the fire (kept burning) with fuel,"
+      "english_trans": "Of the fire (kept burning) with fuel,",
+      "arabic_text_uthmani": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ"
     },
     "6": {
       "arabic_text": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
@@ -114,7 +119,8 @@
           "translate_bn": "উপবিষ্ট"
         }
       },
-      "english_trans": "When they sat by it,"
+      "english_trans": "When they sat by it,",
+      "arabic_text_uthmani": "إِذْ هُمْ عَلَيْهَا قُعُودٌ"
     },
     "7": {
       "arabic_text": "وَهُمْ عَلَى مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ",
@@ -145,7 +151,8 @@
           "translate_bn": "প্রত্যক্ষকারী"
         }
       },
-      "english_trans": "And they were witnesses of what they did with the believers."
+      "english_trans": "And they were witnesses of what they did with the believers.",
+      "arabic_text_uthmani": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ"
     },
     "8": {
       "arabic_text": "وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَنْ يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ",
@@ -188,7 +195,8 @@
           "translate_bn": "প্রশংসিত"
         }
       },
-      "english_trans": "And they did not take vengeance on them for aught except that they believed in Allah, the Mighty, the Praised,"
+      "english_trans": "And they did not take vengeance on them for aught except that they believed in Allah, the Mighty, the Praised,",
+      "arabic_text_uthmani": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ"
     },
     "9": {
       "arabic_text": "الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ",
@@ -235,7 +243,8 @@
           "translate_bn": "সূক্ষ্মদর্শী"
         }
       },
-      "english_trans": "Whose is the kingdom of the heavens and the earth; and Allah is a Witness of all things."
+      "english_trans": "Whose is the kingdom of the heavens and the earth; and Allah is a Witness of all things.",
+      "arabic_text_uthmani": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ"
     },
     "10": {
       "arabic_text": "إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ",
@@ -298,7 +307,8 @@
           "translate_bn": "দহনের"
         }
       },
-      "english_trans": "Surely (as for) those who persecute the believing men and the believing women, then do not repent, they shall have the chastisement of hell, and they shall have the chastisement of burning."
+      "english_trans": "Surely (as for) those who persecute the believing men and the believing women, then do not repent, they shall have the chastisement of hell, and they shall have the chastisement of burning.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ"
     },
     "11": {
       "arabic_text": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ ذَلِكَ الْفَوْزُ الْكَبِيرُ",
@@ -361,7 +371,8 @@
           "translate_bn": "মহা"
         }
       },
-      "english_trans": "Surely (as for) those who believe and do good, they shall have gardens beneath which rivers flow, that is the great achievement."
+      "english_trans": "Surely (as for) those who believe and do good, they shall have gardens beneath which rivers flow, that is the great achievement.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ"
     },
     "12": {
       "arabic_text": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
@@ -384,7 +395,8 @@
           "translate_bn": "অবশ্যই কঠিন"
         }
       },
-      "english_trans": "Surely the might of your Lord is great."
+      "english_trans": "Surely the might of your Lord is great.",
+      "arabic_text_uthmani": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ"
     },
     "13": {
       "arabic_text": "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
@@ -407,7 +419,8 @@
           "translate_bn": "ও তিনি পুনরাবর্তন ঘটান"
         }
       },
-      "english_trans": "Surely He it is Who originates and reproduces,"
+      "english_trans": "Surely He it is Who originates and reproduces,",
+      "arabic_text_uthmani": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ"
     },
     "14": {
       "arabic_text": "وَهُوَ الْغَفُورُ الْوَدُودُ",
@@ -426,7 +439,8 @@
           "translate_bn": "প্রেমময়"
         }
       },
-      "english_trans": "And He is the Forgiving, the Loving,"
+      "english_trans": "And He is the Forgiving, the Loving,",
+      "arabic_text_uthmani": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ"
     },
     "15": {
       "arabic_text": "ذُو الْعَرْشِ الْمَجِيدُ",
@@ -445,7 +459,8 @@
           "translate_bn": "সম্মানিত"
         }
       },
-      "english_trans": "Lord of the Arsh, the Glorious,"
+      "english_trans": "Lord of the Arsh, the Glorious,",
+      "arabic_text_uthmani": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ"
     },
     "16": {
       "arabic_text": "فَعَّالٌ لِمَا يُرِيدُ",
@@ -464,7 +479,8 @@
           "translate_bn": "তিনি চান"
         }
       },
-      "english_trans": "The great doer of what He will."
+      "english_trans": "The great doer of what He will.",
+      "arabic_text_uthmani": "فَعَّالٌ لِّمَا يُرِيدُ"
     },
     "17": {
       "arabic_text": "هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ",
@@ -487,7 +503,8 @@
           "translate_bn": "সৈন্যদের"
         }
       },
-      "english_trans": "Has not there come to you the story of the hosts,"
+      "english_trans": "Has not there come to you the story of the hosts,",
+      "arabic_text_uthmani": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ"
     },
     "18": {
       "arabic_text": "فِرْعَوْنَ وَثَمُودَ",
@@ -502,7 +519,8 @@
           "translate_bn": "ও সামূদের"
         }
       },
-      "english_trans": "Of Firon and Samood?"
+      "english_trans": "Of Firon and Samood?",
+      "arabic_text_uthmani": "فِرْعَوْنَ وَثَمُودَ"
     },
     "19": {
       "arabic_text": "بَلِ الَّذِينَ كَفَرُوا فِي تَكْذِيبٍ",
@@ -529,7 +547,8 @@
           "translate_bn": "মিথ্যারোপে"
         }
       },
-      "english_trans": "Nay! those who disbelieve are in (the act of) giving the lie to the truth."
+      "english_trans": "Nay! those who disbelieve are in (the act of) giving the lie to the truth.",
+      "arabic_text_uthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ"
     },
     "20": {
       "arabic_text": "وَاللَّهُ مِنْ وَرَائِهِمْ مُحِيطٌ",
@@ -552,7 +571,8 @@
           "translate_bn": "(তাদেরকে) পরিবেষ্টনকারী"
         }
       },
-      "english_trans": "And Allah encompasses them on every side."
+      "english_trans": "And Allah encompasses them on every side.",
+      "arabic_text_uthmani": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ"
     },
     "21": {
       "arabic_text": "بَلْ هُوَ قُرْآنٌ مَجِيدٌ",
@@ -575,7 +595,8 @@
           "translate_bn": "সম্মানিত"
         }
       },
-      "english_trans": "Nay! it is a glorious Quran,"
+      "english_trans": "Nay! it is a glorious Quran,",
+      "arabic_text_uthmani": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ"
     },
     "22": {
       "arabic_text": "فِي لَوْحٍ مَحْفُوظٍ",
@@ -594,7 +615,8 @@
           "translate_bn": "সুরক্ষিত"
         }
       },
-      "english_trans": "In a guarded tablet."
+      "english_trans": "In a guarded tablet.",
+      "arabic_text_uthmani": "فِى لَوْحٍ مَّحْفُوظٍۭ"
     }
   }
 }

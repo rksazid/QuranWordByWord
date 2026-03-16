@@ -39,7 +39,8 @@
           "translate_bn": "হাতি"
         }
       },
-      "english_trans": "Have you not considered how your Lord dealt with the possessors of the elephant?"
+      "english_trans": "Have you not considered how your Lord dealt with the possessors of the elephant?",
+      "arabic_text_uthmani": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ"
     },
     "2": {
       "arabic_text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
@@ -66,7 +67,8 @@
           "translate_bn": "নিষ্ফলতার"
         }
       },
-      "english_trans": "Did He not cause their war to end in confusion,"
+      "english_trans": "Did He not cause their war to end in confusion,",
+      "arabic_text_uthmani": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ"
     },
     "3": {
       "arabic_text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
@@ -89,7 +91,8 @@
           "translate_bn": "ঝাঁকে ঝাঁকে"
         }
       },
-      "english_trans": "And send down (to prey) upon them birds in flocks,"
+      "english_trans": "And send down (to prey) upon them birds in flocks,",
+      "arabic_text_uthmani": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ"
     },
     "4": {
       "arabic_text": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ",
@@ -112,7 +115,8 @@
           "translate_bn": "কংকরের"
         }
       },
-      "english_trans": "Casting against them stones of baked clay,"
+      "english_trans": "Casting against them stones of baked clay,",
+      "arabic_text_uthmani": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ"
     },
     "5": {
       "arabic_text": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
@@ -131,7 +135,8 @@
           "translate_bn": "খাওয়াভক্ষিত"
         }
       },
-      "english_trans": "So He rendered them like straw eaten up?"
+      "english_trans": "So He rendered them like straw eaten up?",
+      "arabic_text_uthmani": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ"
     }
   }
 }

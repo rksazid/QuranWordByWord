@@ -23,7 +23,8 @@
           "translate_bn": "ফেটে যাবে"
         }
       },
-      "english_trans": "When the heaven becomes cleft asunder,"
+      "english_trans": "When the heaven becomes cleft asunder,",
+      "arabic_text_uthmani": " إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ"
     },
     "2": {
       "arabic_text": "وَإِذَا الْكَوَاكِبُ انْتَثَرَتْ",
@@ -42,7 +43,8 @@
           "translate_bn": "বিক্ষিপ্ত হবে"
         }
       },
-      "english_trans": "And when the stars become dispersed,"
+      "english_trans": "And when the stars become dispersed,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ"
     },
     "3": {
       "arabic_text": "وَإِذَا الْبِحَارُ فُجِّرَتْ",
@@ -61,7 +63,8 @@
           "translate_bn": "উথলে উঠবে"
         }
       },
-      "english_trans": "And when the seas are made to flow forth,"
+      "english_trans": "And when the seas are made to flow forth,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ"
     },
     "4": {
       "arabic_text": "وَإِذَا الْقُبُورُ بُعْثِرَتْ",
@@ -80,7 +83,8 @@
           "translate_bn": "উন্মোচিত হবে"
         }
       },
-      "english_trans": "And when the graves are laid open,"
+      "english_trans": "And when the graves are laid open,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ"
     },
     "5": {
       "arabic_text": "عَلِمَتْ نَفْسٌ مَا قَدَّمَتْ وَأَخَّرَتْ",
@@ -107,7 +111,8 @@
           "translate_bn": "এবং পিছনে ছেড়েছে"
         }
       },
-      "english_trans": "Every soul shall know what it has sent before and held back."
+      "english_trans": "Every soul shall know what it has sent before and held back.",
+      "arabic_text_uthmani": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ"
     },
     "6": {
       "arabic_text": "يَا أَيُّهَا الْإِنْسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ",
@@ -138,7 +143,8 @@
           "translate_bn": "মহান"
         }
       },
-      "english_trans": "O man! what has beguiled you from your Lord, the Gracious one,"
+      "english_trans": "O man! what has beguiled you from your Lord, the Gracious one,",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ"
     },
     "7": {
       "arabic_text": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ",
@@ -161,7 +167,8 @@
           "translate_bn": "অতঃপর তোমাকে সুসামঞ্জস্য করেছেন"
         }
       },
-      "english_trans": "Who created you, then made you complete, then made you symmetrical?"
+      "english_trans": "Who created you, then made you complete, then made you symmetrical?",
+      "arabic_text_uthmani": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ"
     },
     "8": {
       "arabic_text": "فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ",
@@ -192,7 +199,8 @@
           "translate_bn": "তোমাকে গঠন করেছেন"
         }
       },
-      "english_trans": "Into whatever form He pleased He constituted you."
+      "english_trans": "Into whatever form He pleased He constituted you.",
+      "arabic_text_uthmani": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ"
     },
     "9": {
       "arabic_text": "كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ",
@@ -215,7 +223,8 @@
           "translate_bn": "শেষ বিচারকে"
         }
       },
-      "english_trans": "Nay! but you give the lie to the judgment day,"
+      "english_trans": "Nay! but you give the lie to the judgment day,",
+      "arabic_text_uthmani": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ"
     },
     "10": {
       "arabic_text": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ",
@@ -234,7 +243,8 @@
           "translate_bn": "সংরক্ষক দল অবশ্যই (আছে)"
         }
       },
-      "english_trans": "And most surely there are keepers over you"
+      "english_trans": "And most surely there are keepers over you",
+      "arabic_text_uthmani": "وَإِنَّ عَلَيْكُمْ لَحَـٰفِظِينَ"
     },
     "11": {
       "arabic_text": "كِرَامًا كَاتِبِينَ",
@@ -249,7 +259,8 @@
           "translate_bn": "লেখকবৃন্দ"
         }
       },
-      "english_trans": "Honorable recorders,"
+      "english_trans": "Honorable recorders,",
+      "arabic_text_uthmani": "كِرَامًا كَـٰتِبِينَ"
     },
     "12": {
       "arabic_text": "يَعْلَمُونَ مَا تَفْعَلُونَ",
@@ -268,7 +279,8 @@
           "translate_bn": "তোমরা কর"
         }
       },
-      "english_trans": "They know what you do."
+      "english_trans": "They know what you do.",
+      "arabic_text_uthmani": "يَعْلَمُونَ مَا تَفْعَلُونَ"
     },
     "13": {
       "arabic_text": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
@@ -291,7 +303,8 @@
           "translate_bn": "স্বাচ্ছন্দ্যে (সুখে-শান্তিতে)"
         }
       },
-      "english_trans": "Most surely the righteous are in bliss,"
+      "english_trans": "Most surely the righteous are in bliss,",
+      "arabic_text_uthmani": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ"
     },
     "14": {
       "arabic_text": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
@@ -314,7 +327,8 @@
           "translate_bn": "দোজখের"
         }
       },
-      "english_trans": "And most surely the wicked are in burning fire,"
+      "english_trans": "And most surely the wicked are in burning fire,",
+      "arabic_text_uthmani": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ"
     },
     "15": {
       "arabic_text": "يَصْلَوْنَهَا يَوْمَ الدِّينِ",
@@ -333,7 +347,8 @@
           "translate_bn": "বিচার"
         }
       },
-      "english_trans": "They shall enter it on the day of judgment."
+      "english_trans": "They shall enter it on the day of judgment.",
+      "arabic_text_uthmani": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ"
     },
     "16": {
       "arabic_text": "وَمَا هُمْ عَنْهَا بِغَائِبِينَ",
@@ -356,7 +371,8 @@
           "translate_bn": "অনুপস্থিত (থাকতে সক্ষম হবে)"
         }
       },
-      "english_trans": "And they shall by no means be absent from it."
+      "english_trans": "And they shall by no means be absent from it.",
+      "arabic_text_uthmani": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ"
     },
     "17": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
@@ -383,7 +399,8 @@
           "translate_bn": "বিচারের"
         }
       },
-      "english_trans": "And what will make you realize what the day of judgement is?"
+      "english_trans": "And what will make you realize what the day of judgement is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ"
     },
     "18": {
       "arabic_text": "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
@@ -414,7 +431,8 @@
           "translate_bn": "বিচারের"
         }
       },
-      "english_trans": "Again, what will make you realize what the day of judgment Is?"
+      "english_trans": "Again, what will make you realize what the day of judgment Is?",
+      "arabic_text_uthmani": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ"
     },
     "19": {
       "arabic_text": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئًا وَالْأَمْرُ يَوْمَئِذٍ لِلَّهِ",
@@ -457,7 +475,8 @@
           "translate_bn": "আল্লাহর জন্যে"
         }
       },
-      "english_trans": "The day on which no soul shall control anything for (another) soul; and the command on that day shall be entirely Allah´s."
+      "english_trans": "The day on which no soul shall control anything for (another) soul; and the command on that day shall be entirely Allah´s.",
+      "arabic_text_uthmani": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْـًٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍ لِّلَّهِ"
     }
   }
 }
