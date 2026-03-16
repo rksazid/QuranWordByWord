@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al-Quran Word by Word</title>
+    <title>Al-Quran Word By Word</title>
     
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#2d7d32">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Quran WbW">
+    <meta name="apple-mobile-web-app-title" content="Al-Quran WbW">
     
     <!-- SEO and Social Media Meta Tags -->
     <meta name="description" content="Experience the Holy Quran with beautiful word-by-word translations in Bengali and English. Progressive Web App with dark/light themes, favorites, and advanced reading features.">
@@ -65,7 +65,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.min.css?v=3.3.0">
+    <link rel="stylesheet" href="styles.min.css?v=4.1.0">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -78,7 +78,8 @@
                     <i class="fas fa-arrow-left"></i>
                     <span>Back</span>
                 </button>
-                
+                <span id="headerSurahName" class="header-surah-name" style="display: none;"></span>
+
                 <div class="logo">
                     <img src="favicon/favicon-32x32.png" alt="Al-Quran Logo" class="logo-icon">
                     <h1>Al-Quran</h1>
@@ -87,9 +88,6 @@
                 <div class="header-controls">
                     <!-- Homepage Controls -->
                     <div id="homepageControls" class="control-group">
-                        <button id="searchBtn" class="icon-btn" title="Search Surahs">
-                            <i class="fas fa-search"></i>
-                        </button>
                         <button id="favoritesBtn" class="icon-btn" title="View Favorite Surahs">
                             <i class="fas fa-heart"></i>
                         </button>
@@ -97,9 +95,6 @@
                     
                     <!-- Surah Page Controls -->
                     <div id="surahControls" class="control-group" style="display: none;">
-                        <button id="readingModeBtn" class="icon-btn" title="Toggle Reading Mode">
-                            <i class="fas fa-book-reader"></i>
-                        </button>
                         <button id="goToAyahBtn" class="icon-btn" title="Go to Ayah">
                             <i class="fas fa-list-ol"></i>
                         </button>
@@ -124,7 +119,7 @@
     <main class="main-content">
         <div class="container">
             <!-- Search Bar -->
-            <div id="searchContainer" class="search-container" style="display: none;">
+            <div id="searchContainer" class="search-container">
                 <div class="search-box">
                     <i class="fas fa-search"></i>
                     <input type="text" id="searchInput" placeholder="Search by name, number, or type..." autocomplete="off">
@@ -138,6 +133,16 @@
                     <button class="search-filter-btn" data-filter="makkah" title="Show Makki surahs">Makki</button>
                     <button class="search-filter-btn" data-filter="madinah" title="Show Madani surahs">Madani</button>
                 </div>
+            </div>
+
+            <!-- Main View Toggle: Surahs / Hifz -->
+            <div class="main-view-toggle" id="mainViewToggle">
+                <button class="main-view-btn active" data-main-view="surahs">
+                    <i class="fas fa-quran"></i> Surahs
+                </button>
+                <button class="main-view-btn" data-main-view="hifz">
+                    <i class="fas fa-book-open"></i> Hifz
+                </button>
             </div>
 
             <!-- Surah List Page -->
@@ -178,8 +183,48 @@
                 </div>
             </div>
 
+            <!-- Hifz (Juz) List Page -->
+            <div id="hifzListPage" class="page" style="display: none;">
+                <div class="hifz-header">
+                    <h2>30 Juz (Para)</h2>
+                    <p class="hifz-subtitle">Page-by-page Mushaf reading</p>
+                </div>
+                <div id="juzList" class="juz-list">
+                    <!-- Juz cards will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <!-- Hifz Reading Page -->
+            <div id="hifzReadingPage" class="page" style="display: none;">
+                <div class="hifz-page-header">
+                    <div class="hifz-page-info">
+                        <span id="hifzPageNumber" class="hifz-page-num">Page 1</span>
+                        <span id="hifzJuzInfo" class="hifz-juz-info">Juz 1</span>
+                    </div>
+                </div>
+                <div id="hifzPageContent" class="hifz-page-content">
+                    <!-- Page verses will be rendered here -->
+                </div>
+                <div class="hifz-page-nav">
+                    <button id="hifzPrevPage" class="hifz-nav-btn">
+                        <i class="fas fa-chevron-left"></i> Previous
+                    </button>
+                    <span id="hifzPageIndicator" class="hifz-page-indicator">1 / 604</span>
+                    <button id="hifzNextPage" class="hifz-nav-btn">
+                        Next <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
             <!-- Surah Reading Page -->
             <div id="surahReadingPage" class="page" style="display: none;">
+                <!-- View Mode Tabs -->
+                <div class="mode-tabs" id="modeTabs">
+                    <button class="mode-tab active" data-mode="normal">Normal</button>
+                    <button class="mode-tab" data-mode="reading">Reading</button>
+                    <button class="mode-tab" data-mode="compact">Compact</button>
+                </div>
+
                 <!-- Surah Header -->
                 <div class="surah-header">
                     <div class="surah-info">
@@ -252,24 +297,13 @@
                     </div>
                 </div>
 
-                <!-- Reading Mode Bar (shown in reading mode) -->
+                <!-- Reading Mode Bar (shown in reading/compact mode) -->
                 <div id="readingModeBar" class="reading-mode-bar">
                     <div id="readingModeSurahName" class="surah-name"></div>
                     <div class="surah-meta-inline">
                         <span id="readingModeSurahType"></span>
                         <span id="readingModeSurahAyahs"></span>
                     </div>
-                    <label class="compact-mode-toggle" title="Compact continuous reading view">
-                        <input type="checkbox" id="compactModeToggle">
-                        <span class="compact-toggle-slider"></span>
-                        <span class="compact-label">Compact</span>
-                    </label>
-                </div>
-
-                <!-- Reading Mode Indicator -->
-                <div id="readingModeIndicator" class="reading-mode-indicator">
-                    <i class="fas fa-book-reader"></i>
-                    <span>Reading Mode</span>
                 </div>
 
                 <!-- Bismillah -->
@@ -284,6 +318,24 @@
                 <!-- Verses Container -->
                 <div id="versesContainer" class="verses-container">
                     <!-- Verses will be dynamically loaded here -->
+                </div>
+
+                <!-- Previous/Next Surah Navigation -->
+                <div id="surahNavigation" class="surah-navigation" style="display: none;">
+                    <button id="prevSurahBtn" class="surah-nav-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                        <div class="nav-btn-text">
+                            <span class="nav-direction">Previous Surah</span>
+                            <span id="prevSurahName" class="nav-surah-name"></span>
+                        </div>
+                    </button>
+                    <button id="nextSurahBtn" class="surah-nav-btn next-btn">
+                        <div class="nav-btn-text">
+                            <span class="nav-direction">Next Surah</span>
+                            <span id="nextSurahName" class="nav-surah-name"></span>
+                        </div>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -367,7 +419,7 @@
                     </ul>
                     
                     <div class="app-version">
-                        <p><strong>Version 3.3.0</strong></p>
+                        <p><strong>Version 4.1.0</strong></p>
                         <p>Built with ❤️ for the Muslim Ummah</p>
                     </div>
                 </div>
@@ -639,7 +691,7 @@
                             </div>
                             
                             <div class="app-version">
-                                <p><strong>Version:</strong> 3.3.0</p>
+                                <p><strong>Version:</strong> 4.1.0</p>
                                 <p><strong>Last Updated:</strong> <span id="lastUpdated"></span></p>
                             </div>
                         </div>
@@ -653,6 +705,22 @@
     <div id="loadingSpinner" class="loading-spinner" style="display: none;">
         <div class="spinner"></div>
         <p>Loading...</p>
+    </div>
+
+    <!-- Multi-Select Action Bar -->
+    <div id="selectionBar" class="selection-bar" style="display: none;">
+        <span id="selectionCount" class="selection-count">0 selected</span>
+        <div class="selection-actions">
+            <button id="selectionCopyBtn" class="selection-action-btn" title="Copy selected verses">
+                <i class="fas fa-copy"></i> Copy
+            </button>
+            <button id="selectionShareBtn" class="selection-action-btn" title="Share selected verses">
+                <i class="fas fa-share-alt"></i> Share
+            </button>
+            <button id="selectionCancelBtn" class="selection-action-btn cancel" title="Cancel selection">
+                <i class="fas fa-times"></i> Cancel
+            </button>
+        </div>
     </div>
 
     <!-- Mobile Bottom Navigation -->
@@ -682,14 +750,6 @@
                 <span class="nav-label">Search</span>
             </button>
             
-            <!-- Reading Mode (for surah page) -->
-            <button class="bottom-nav-item" data-action="reading-mode" title="Reading Mode" style="display: none;">
-                <div class="nav-icon">
-                    <i class="fas fa-book-reader"></i>
-                </div>
-                <span class="nav-label">Reading</span>
-            </button>
-
             <!-- Reading Controls (for surah page) -->
             <button class="bottom-nav-item" data-action="controls" title="Controls" style="display: none;">
                 <div class="nav-icon">
@@ -754,16 +814,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcaoHcVqRxQJsLq3jGbOJlw9XPcqmf4gePiOphlMC5HS0Ql7XOxQhXdPUGDPEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- Compression Utils -->
-    <script src="compression-utils.min.js?v=3.3.0"></script>
+    <script src="compression-utils.min.js?v=4.1.0"></script>
     
     <!-- Enhanced Data Loader -->
-    <script src="enhanced-data-loader.min.js?v=3.3.0"></script>
+    <script src="enhanced-data-loader.min.js?v=4.1.0"></script>
     
     <!-- Migration Patch for Compression -->
-    <script src="migration-patch.min.js?v=3.3.0"></script>
+    <script src="migration-patch.min.js?v=4.1.0"></script>
     
     <!-- Main Application Script -->
-    <script src="script.min.js?v=3.3.0"></script>
+    <script src="script.min.js?v=4.1.0"></script>
     
     <!-- PWA Service Worker Registration -->
     <script>

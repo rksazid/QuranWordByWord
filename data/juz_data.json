@@ -1,0 +1,302 @@
+{
+  "1": {
+    "name_ar": "آلم",
+    "name_en": "Alif Lam Mim",
+    "start_surah": 1,
+    "start_ayah": 1,
+    "end_surah": 2,
+    "end_ayah": 141,
+    "start_page": 1,
+    "end_page": 21
+  },
+  "2": {
+    "name_ar": "سَيَقُولُ",
+    "name_en": "Sayaqul",
+    "start_surah": 2,
+    "start_ayah": 142,
+    "end_surah": 2,
+    "end_ayah": 252,
+    "start_page": 22,
+    "end_page": 41
+  },
+  "3": {
+    "name_ar": "تِلْكَ الرُّسُلُ",
+    "name_en": "Tilkar Rusul",
+    "start_surah": 2,
+    "start_ayah": 253,
+    "end_surah": 3,
+    "end_ayah": 92,
+    "start_page": 42,
+    "end_page": 61
+  },
+  "4": {
+    "name_ar": "لَنْ تَنَالُوا",
+    "name_en": "Lan Tanaalu",
+    "start_surah": 3,
+    "start_ayah": 93,
+    "end_surah": 4,
+    "end_ayah": 23,
+    "start_page": 62,
+    "end_page": 81
+  },
+  "5": {
+    "name_ar": "وَالْمُحْصَنَاتُ",
+    "name_en": "Wal Muhsanat",
+    "start_surah": 4,
+    "start_ayah": 24,
+    "end_surah": 4,
+    "end_ayah": 147,
+    "start_page": 82,
+    "end_page": 101
+  },
+  "6": {
+    "name_ar": "لَا يُحِبُّ اللَّهُ",
+    "name_en": "La Yuhibbullah",
+    "start_surah": 4,
+    "start_ayah": 148,
+    "end_surah": 5,
+    "end_ayah": 81,
+    "start_page": 102,
+    "end_page": 121
+  },
+  "7": {
+    "name_ar": "وَإِذَا سَمِعُوا",
+    "name_en": "Wa Idha Sami'u",
+    "start_surah": 5,
+    "start_ayah": 82,
+    "end_surah": 6,
+    "end_ayah": 110,
+    "start_page": 122,
+    "end_page": 141
+  },
+  "8": {
+    "name_ar": "وَلَوْ أَنَّنَا",
+    "name_en": "Wa Lau Annana",
+    "start_surah": 6,
+    "start_ayah": 111,
+    "end_surah": 7,
+    "end_ayah": 87,
+    "start_page": 142,
+    "end_page": 161
+  },
+  "9": {
+    "name_ar": "قَالَ الْمَلَأُ",
+    "name_en": "Qalal Mala'u",
+    "start_surah": 7,
+    "start_ayah": 88,
+    "end_surah": 8,
+    "end_ayah": 40,
+    "start_page": 162,
+    "end_page": 181
+  },
+  "10": {
+    "name_ar": "وَاعْلَمُوا",
+    "name_en": "Wa'lamu",
+    "start_surah": 8,
+    "start_ayah": 41,
+    "end_surah": 9,
+    "end_ayah": 92,
+    "start_page": 182,
+    "end_page": 201
+  },
+  "11": {
+    "name_ar": "يَعْتَذِرُونَ",
+    "name_en": "Ya'tadhirun",
+    "start_surah": 9,
+    "start_ayah": 93,
+    "end_surah": 11,
+    "end_ayah": 5,
+    "start_page": 202,
+    "end_page": 221
+  },
+  "12": {
+    "name_ar": "وَمَا مِنْ دَابَّةٍ",
+    "name_en": "Wa Ma Min Dabbah",
+    "start_surah": 11,
+    "start_ayah": 6,
+    "end_surah": 12,
+    "end_ayah": 52,
+    "start_page": 222,
+    "end_page": 241
+  },
+  "13": {
+    "name_ar": "وَمَا أُبَرِّئُ",
+    "name_en": "Wa Ma Ubarri'u",
+    "start_surah": 12,
+    "start_ayah": 53,
+    "end_surah": 14,
+    "end_ayah": 52,
+    "start_page": 242,
+    "end_page": 261
+  },
+  "14": {
+    "name_ar": "رُبَمَا",
+    "name_en": "Rubama",
+    "start_surah": 15,
+    "start_ayah": 1,
+    "end_surah": 16,
+    "end_ayah": 128,
+    "start_page": 262,
+    "end_page": 281
+  },
+  "15": {
+    "name_ar": "سُبْحَانَ الَّذِي",
+    "name_en": "Subhanal Ladhi",
+    "start_surah": 17,
+    "start_ayah": 1,
+    "end_surah": 18,
+    "end_ayah": 74,
+    "start_page": 282,
+    "end_page": 301
+  },
+  "16": {
+    "name_ar": "قَالَ أَلَمْ",
+    "name_en": "Qala Alam",
+    "start_surah": 18,
+    "start_ayah": 75,
+    "end_surah": 20,
+    "end_ayah": 135,
+    "start_page": 302,
+    "end_page": 321
+  },
+  "17": {
+    "name_ar": "اقْتَرَبَ",
+    "name_en": "Iqtarab",
+    "start_surah": 21,
+    "start_ayah": 1,
+    "end_surah": 22,
+    "end_ayah": 78,
+    "start_page": 322,
+    "end_page": 341
+  },
+  "18": {
+    "name_ar": "قَدْ أَفْلَحَ",
+    "name_en": "Qad Aflaha",
+    "start_surah": 23,
+    "start_ayah": 1,
+    "end_surah": 25,
+    "end_ayah": 20,
+    "start_page": 342,
+    "end_page": 361
+  },
+  "19": {
+    "name_ar": "وَقَالَ الَّذِينَ",
+    "name_en": "Wa Qalal Ladhina",
+    "start_surah": 25,
+    "start_ayah": 21,
+    "end_surah": 27,
+    "end_ayah": 55,
+    "start_page": 362,
+    "end_page": 381
+  },
+  "20": {
+    "name_ar": "أَمَّنْ خَلَقَ",
+    "name_en": "Amman Khalaq",
+    "start_surah": 27,
+    "start_ayah": 56,
+    "end_surah": 29,
+    "end_ayah": 45,
+    "start_page": 382,
+    "end_page": 401
+  },
+  "21": {
+    "name_ar": "اتْلُ مَا أُوحِيَ",
+    "name_en": "Utlu Ma Uhiya",
+    "start_surah": 29,
+    "start_ayah": 46,
+    "end_surah": 33,
+    "end_ayah": 30,
+    "start_page": 402,
+    "end_page": 421
+  },
+  "22": {
+    "name_ar": "وَمَنْ يَقْنُتْ",
+    "name_en": "Wa Man Yaqnut",
+    "start_surah": 33,
+    "start_ayah": 31,
+    "end_surah": 36,
+    "end_ayah": 27,
+    "start_page": 422,
+    "end_page": 441
+  },
+  "23": {
+    "name_ar": "وَمَا لِيَ",
+    "name_en": "Wa Mali",
+    "start_surah": 36,
+    "start_ayah": 28,
+    "end_surah": 39,
+    "end_ayah": 31,
+    "start_page": 442,
+    "end_page": 461
+  },
+  "24": {
+    "name_ar": "فَمَنْ أَظْلَمُ",
+    "name_en": "Faman Adhlam",
+    "start_surah": 39,
+    "start_ayah": 32,
+    "end_surah": 41,
+    "end_ayah": 46,
+    "start_page": 462,
+    "end_page": 481
+  },
+  "25": {
+    "name_ar": "إِلَيْهِ يُرَدُّ",
+    "name_en": "Ilaihi Yurad",
+    "start_surah": 41,
+    "start_ayah": 47,
+    "end_surah": 45,
+    "end_ayah": 37,
+    "start_page": 482,
+    "end_page": 501
+  },
+  "26": {
+    "name_ar": "حم",
+    "name_en": "Ha Mim",
+    "start_surah": 46,
+    "start_ayah": 1,
+    "end_surah": 51,
+    "end_ayah": 30,
+    "start_page": 502,
+    "end_page": 521
+  },
+  "27": {
+    "name_ar": "قَالَ فَمَا خَطْبُكُمْ",
+    "name_en": "Qala Fama Khatbukum",
+    "start_surah": 51,
+    "start_ayah": 31,
+    "end_surah": 57,
+    "end_ayah": 29,
+    "start_page": 522,
+    "end_page": 541
+  },
+  "28": {
+    "name_ar": "قَدْ سَمِعَ اللَّهُ",
+    "name_en": "Qad Sami'Allahu",
+    "start_surah": 58,
+    "start_ayah": 1,
+    "end_surah": 66,
+    "end_ayah": 12,
+    "start_page": 542,
+    "end_page": 561
+  },
+  "29": {
+    "name_ar": "تَبَارَكَ",
+    "name_en": "Tabaarak",
+    "start_surah": 67,
+    "start_ayah": 1,
+    "end_surah": 77,
+    "end_ayah": 50,
+    "start_page": 562,
+    "end_page": 581
+  },
+  "30": {
+    "name_ar": "عَمَّ",
+    "name_en": "Amma",
+    "start_surah": 78,
+    "start_ayah": 1,
+    "end_surah": 114,
+    "end_ayah": 6,
+    "start_page": 582,
+    "end_page": 604
+  }
+}

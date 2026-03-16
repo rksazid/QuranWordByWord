@@ -27,7 +27,8 @@
           "translate_bn": "বিচার দিনকে"
         }
       },
-      "english_trans": "Have you considered him who calls the judgment a lie?"
+      "english_trans": "Have you considered him who calls the judgment a lie?",
+      "arabic_text_uthmani": " أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ"
     },
     "2": {
       "arabic_text": "فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
@@ -50,7 +51,8 @@
           "translate_bn": "ইয়াতিমকে"
         }
       },
-      "english_trans": "That is the one who treats the orphan with harshness,"
+      "english_trans": "That is the one who treats the orphan with harshness,",
+      "arabic_text_uthmani": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ"
     },
     "3": {
       "arabic_text": "وَلَا يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ",
@@ -77,7 +79,8 @@
           "translate_bn": "অভাবগ্রস্তকে"
         }
       },
-      "english_trans": "And does not urge (others) to feed the poor."
+      "english_trans": "And does not urge (others) to feed the poor.",
+      "arabic_text_uthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ"
     },
     "4": {
       "arabic_text": "فَوَيْلٌ لِلْمُصَلِّينَ",
@@ -92,7 +95,8 @@
           "translate_bn": "(ঐসব) সালাত আদায়কারীদের জন্য"
         }
       },
-      "english_trans": "So woe to the praying ones,"
+      "english_trans": "So woe to the praying ones,",
+      "arabic_text_uthmani": "فَوَيْلٌ لِّلْمُصَلِّينَ"
     },
     "5": {
       "arabic_text": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
@@ -119,7 +123,8 @@
           "translate_bn": "উদাসীন"
         }
       },
-      "english_trans": "Who are unmindful of their prayers,"
+      "english_trans": "Who are unmindful of their prayers,",
+      "arabic_text_uthmani": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ"
     },
     "6": {
       "arabic_text": "الَّذِينَ هُمْ يُرَاءُونَ",
@@ -138,7 +143,8 @@
           "translate_bn": "লোকদেখানোর (কাজ করে)"
         }
       },
-      "english_trans": "Who do (good) to be seen,"
+      "english_trans": "Who do (good) to be seen,",
+      "arabic_text_uthmani": "ٱلَّذِينَ هُمْ يُرَآءُونَ"
     },
     "7": {
       "arabic_text": "وَيَمْنَعُونَ الْمَاعُونَ",
@@ -153,7 +159,8 @@
           "translate_bn": "সংসারের প্রয়োজনীয় ছোটখাটো জিনিসের"
         }
       },
-      "english_trans": "And withhold the necessaries of life."
+      "english_trans": "And withhold the necessaries of life.",
+      "arabic_text_uthmani": "وَيَمْنَعُونَ ٱلْمَاعُونَ"
     }
   }
 }

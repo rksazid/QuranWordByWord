@@ -19,7 +19,8 @@
           "translate_bn": "(যারা দৌঁড়ায়) উর্ধ্বশ্বাসে"
         }
       },
-      "english_trans": "I swear by the runners breathing pantingly,"
+      "english_trans": "I swear by the runners breathing pantingly,",
+      "arabic_text_uthmani": " وَٱلْعَـٰدِيَـٰتِ ضَبْحًا"
     },
     "2": {
       "arabic_text": "فَالْمُورِيَاتِ قَدْحًا",
@@ -34,7 +35,8 @@
           "translate_bn": "(ক্ষুরাঘাতে) আগুনের ফুলকি"
         }
       },
-      "english_trans": "Then those that produce fire striking,"
+      "english_trans": "Then those that produce fire striking,",
+      "arabic_text_uthmani": "فَٱلْمُورِيَـٰتِ قَدْحًا"
     },
     "3": {
       "arabic_text": "فَالْمُغِيرَاتِ صُبْحًا",
@@ -49,7 +51,8 @@
           "translate_bn": "প্রভাতে"
         }
       },
-      "english_trans": "Then those that make raids at morn,"
+      "english_trans": "Then those that make raids at morn,",
+      "arabic_text_uthmani": "فَٱلْمُغِيرَٰتِ صُبْحًا"
     },
     "4": {
       "arabic_text": "فَأَثَرْنَ بِهِ نَقْعًا",
@@ -68,7 +71,8 @@
           "translate_bn": "ধুলোবালি"
         }
       },
-      "english_trans": "Then thereby raise dust,"
+      "english_trans": "Then thereby raise dust,",
+      "arabic_text_uthmani": "فَأَثَرْنَ بِهِۦ نَقْعًا"
     },
     "5": {
       "arabic_text": "فَوَسَطْنَ بِهِ جَمْعًا",
@@ -87,7 +91,8 @@
           "translate_bn": "(শত্রু)দলে"
         }
       },
-      "english_trans": "Then rush thereby upon an assembly:"
+      "english_trans": "Then rush thereby upon an assembly:",
+      "arabic_text_uthmani": "فَوَسَطْنَ بِهِۦ جَمْعًا"
     },
     "6": {
       "arabic_text": "إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ",
@@ -110,7 +115,8 @@
           "translate_bn": "অবশ্যই অকৃতজ্ঞ"
         }
       },
-      "english_trans": "Most surely man is ungrateful to his Lord."
+      "english_trans": "Most surely man is ungrateful to his Lord.",
+      "arabic_text_uthmani": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ"
     },
     "7": {
       "arabic_text": "وَإِنَّهُ عَلَى ذَلِكَ لَشَهِيدٌ",
@@ -133,7 +139,8 @@
           "translate_bn": "অবশ্যই সাক্ষী"
         }
       },
-      "english_trans": "And most surely he is a witness of that."
+      "english_trans": "And most surely he is a witness of that.",
+      "arabic_text_uthmani": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ"
     },
     "8": {
       "arabic_text": "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ",
@@ -156,7 +163,8 @@
           "translate_bn": "বড়ই প্রবল"
         }
       },
-      "english_trans": "And most surely he is tenacious in the love of wealth."
+      "english_trans": "And most surely he is tenacious in the love of wealth.",
+      "arabic_text_uthmani": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ"
     },
     "9": {
       "arabic_text": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ",
@@ -191,7 +199,8 @@
           "translate_bn": "কবরগুলোর"
         }
       },
-      "english_trans": "Does he not then know when what is in the graves is raised,"
+      "english_trans": "Does he not then know when what is in the graves is raised,",
+      "arabic_text_uthmani": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ"
     },
     "10": {
       "arabic_text": "وَحُصِّلَ مَا فِي الصُّدُورِ",
@@ -214,7 +223,8 @@
           "translate_bn": "অন্তরসমূহের"
         }
       },
-      "english_trans": "And what is in the breasts is made apparent?"
+      "english_trans": "And what is in the breasts is made apparent?",
+      "arabic_text_uthmani": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ"
     },
     "11": {
       "arabic_text": "إِنَّ رَبَّهُمْ بِهِمْ يَوْمَئِذٍ لَخَبِيرٌ",
@@ -241,7 +251,8 @@
           "translate_bn": "অবশ্যই তা ভালো করেই জানেন"
         }
       },
-      "english_trans": "Most surely their Lord that day shall be fully aware of them."
+      "english_trans": "Most surely their Lord that day shall be fully aware of them.",
+      "arabic_text_uthmani": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ"
     }
   }
 }

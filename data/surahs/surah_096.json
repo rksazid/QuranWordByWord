@@ -31,7 +31,8 @@
           "translate_bn": "সৃষ্টি করেছেন"
         }
       },
-      "english_trans": "Read in the name of your Lord Who created."
+      "english_trans": "Read in the name of your Lord Who created.",
+      "arabic_text_uthmani": " ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ"
     },
     "2": {
       "arabic_text": "خَلَقَ الْإِنْسَانَ مِنْ عَلَقٍ",
@@ -54,7 +55,8 @@
           "translate_bn": "জমাট রক্তপিণ্ড"
         }
       },
-      "english_trans": "He created man from a clot."
+      "english_trans": "He created man from a clot.",
+      "arabic_text_uthmani": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ"
     },
     "3": {
       "arabic_text": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
@@ -73,7 +75,8 @@
           "translate_bn": "বড়ই অনুগ্রহশীল"
         }
       },
-      "english_trans": "Read and your Lord is Most Honorable,"
+      "english_trans": "Read and your Lord is Most Honorable,",
+      "arabic_text_uthmani": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ"
     },
     "4": {
       "arabic_text": "الَّذِي عَلَّمَ بِالْقَلَمِ",
@@ -92,7 +95,8 @@
           "translate_bn": "কলম দিয়ে"
         }
       },
-      "english_trans": "Who taught (to write) with the pen"
+      "english_trans": "Who taught (to write) with the pen",
+      "arabic_text_uthmani": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ"
     },
     "5": {
       "arabic_text": "عَلَّمَ الْإِنْسَانَ مَا لَمْ يَعْلَمْ",
@@ -119,7 +123,8 @@
           "translate_bn": "সে জানতো"
         }
       },
-      "english_trans": "Taught man what he knew not."
+      "english_trans": "Taught man what he knew not.",
+      "arabic_text_uthmani": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ"
     },
     "6": {
       "arabic_text": "كَلَّا إِنَّ الْإِنْسَانَ لَيَطْغَى",
@@ -142,7 +147,8 @@
           "translate_bn": "অবশ্যই সীমালঙ্ঘন করে"
         }
       },
-      "english_trans": "Nay! man is most surely inordinate,"
+      "english_trans": "Nay! man is most surely inordinate,",
+      "arabic_text_uthmani": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ"
     },
     "7": {
       "arabic_text": "أَنْ رَآهُ اسْتَغْنَى",
@@ -161,7 +167,8 @@
           "translate_bn": "অভাবমুক্ত"
         }
       },
-      "english_trans": "Because he sees himself free from want."
+      "english_trans": "Because he sees himself free from want.",
+      "arabic_text_uthmani": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ"
     },
     "8": {
       "arabic_text": "إِنَّ إِلَى رَبِّكَ الرُّجْعَى",
@@ -184,7 +191,8 @@
           "translate_bn": "প্রত্যাবর্তন হবে"
         }
       },
-      "english_trans": "Surely to your Lord is the return."
+      "english_trans": "Surely to your Lord is the return.",
+      "arabic_text_uthmani": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ"
     },
     "9": {
       "arabic_text": "أَرَأَيْتَ الَّذِي يَنْهَى",
@@ -203,7 +211,8 @@
           "translate_bn": "বাধা দেয়"
         }
       },
-      "english_trans": "Have you seen him who forbids"
+      "english_trans": "Have you seen him who forbids",
+      "arabic_text_uthmani": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ"
     },
     "10": {
       "arabic_text": "عَبْدًا إِذَا صَلَّى",
@@ -222,7 +231,8 @@
           "translate_bn": "সে সালাত পড়ে"
         }
       },
-      "english_trans": "A servant when he prays?"
+      "english_trans": "A servant when he prays?",
+      "arabic_text_uthmani": "عَبْدًا إِذَا صَلَّىٰٓ"
     },
     "11": {
       "arabic_text": "أَرَأَيْتَ إِنْ كَانَ عَلَى الْهُدَى",
@@ -249,7 +259,8 @@
           "translate_bn": "সঠিক পথের"
         }
       },
-      "english_trans": "Have you considered if he were on the right way,"
+      "english_trans": "Have you considered if he were on the right way,",
+      "arabic_text_uthmani": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ"
     },
     "12": {
       "arabic_text": "أَوْ أَمَرَ بِالتَّقْوَى",
@@ -268,7 +279,8 @@
           "translate_bn": "তাকওয়ার"
         }
       },
-      "english_trans": "Or enjoined guarding (against evil)?"
+      "english_trans": "Or enjoined guarding (against evil)?",
+      "arabic_text_uthmani": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ"
     },
     "13": {
       "arabic_text": "أَرَأَيْتَ إِنْ كَذَّبَ وَتَوَلَّى",
@@ -291,7 +303,8 @@
           "translate_bn": "ও মুখ ফিরায় (কি পরিণাম হবে)"
         }
       },
-      "english_trans": "Have you considered if he gives the lie to the truth and turns (his) back?"
+      "english_trans": "Have you considered if he gives the lie to the truth and turns (his) back?",
+      "arabic_text_uthmani": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ"
     },
     "14": {
       "arabic_text": "أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَى",
@@ -318,7 +331,8 @@
           "translate_bn": "দেখেন (সব কিছু)"
         }
       },
-      "english_trans": "Does he not know that Allah does see?"
+      "english_trans": "Does he not know that Allah does see?",
+      "arabic_text_uthmani": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ"
     },
     "15": {
       "arabic_text": "كَلَّا لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ",
@@ -349,7 +363,8 @@
           "translate_bn": "মাথার সামনের চুল ধরে"
         }
       },
-      "english_trans": "Nay! if he desist not, We would certainly smite his forehead,"
+      "english_trans": "Nay! if he desist not, We would certainly smite his forehead,",
+      "arabic_text_uthmani": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ"
     },
     "16": {
       "arabic_text": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ",
@@ -368,7 +383,8 @@
           "translate_bn": "পাপীর"
         }
       },
-      "english_trans": "A lying, sinful forehead."
+      "english_trans": "A lying, sinful forehead.",
+      "arabic_text_uthmani": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ"
     },
     "17": {
       "arabic_text": "فَلْيَدْعُ نَادِيَهُ",
@@ -383,7 +399,8 @@
           "translate_bn": "তার দোসরদেরকে"
         }
       },
-      "english_trans": "Then let him summon his council,"
+      "english_trans": "Then let him summon his council,",
+      "arabic_text_uthmani": "فَلْيَدْعُ نَادِيَهُۥ"
     },
     "18": {
       "arabic_text": "سَنَدْعُ الزَّبَانِيَةَ",
@@ -398,7 +415,8 @@
           "translate_bn": "জাহান্নামের প্রহরীদেরকে"
         }
       },
-      "english_trans": "We too would summon the braves of the army."
+      "english_trans": "We too would summon the braves of the army.",
+      "arabic_text_uthmani": "سَنَدْعُ ٱلزَّبَانِيَةَ"
     },
     "19": {
       "arabic_text": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ",
@@ -425,7 +443,9 @@
           "translate_bn": "ও নৈকট্য লাভ করো (তোমার রবের)"
         }
       },
-      "english_trans": "Nay! obey him not, and make obeisance and draw nigh (to Allah)."
+      "english_trans": "Nay! obey him not, and make obeisance and draw nigh (to Allah).",
+      "arabic_text_uthmani": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "has_sajdah": true
     }
   }
 }

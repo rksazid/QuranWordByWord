@@ -27,7 +27,8 @@
           "translate_bn": "এক-অদ্বিতীয়"
         }
       },
-      "english_trans": "Say: He, Allah, is One."
+      "english_trans": "Say: He, Allah, is One.",
+      "arabic_text_uthmani": " قُلْ هُوَ ٱللَّهُ أَحَدٌ"
     },
     "2": {
       "arabic_text": "اللَّهُ الصَّمَدُ",
@@ -42,7 +43,8 @@
           "translate_bn": "অমুখাপেক্ষী"
         }
       },
-      "english_trans": "Allah is He on Whom all depend."
+      "english_trans": "Allah is He on Whom all depend.",
+      "arabic_text_uthmani": "ٱللَّهُ ٱلصَّمَدُ"
     },
     "3": {
       "arabic_text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
@@ -65,7 +67,8 @@
           "translate_bn": "তাঁকে জন্ম দেয়া হয়"
         }
       },
-      "english_trans": "He begets not, nor is He begotten."
+      "english_trans": "He begets not, nor is He begotten.",
+      "arabic_text_uthmani": "لَمْ يَلِدْ وَلَمْ يُولَدْ"
     },
     "4": {
       "arabic_text": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
@@ -92,7 +95,8 @@
           "translate_bn": "কেউই"
         }
       },
-      "english_trans": "And none is like Him."
+      "english_trans": "And none is like Him.",
+      "arabic_text_uthmani": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ"
     }
   }
 }

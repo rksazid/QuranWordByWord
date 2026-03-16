@@ -19,7 +19,8 @@
           "translate_bn": "(যারা নির্গত করে) ডুবে"
         }
       },
-      "english_trans": "I swear by the angels who violently pull out the souls of the wicked,"
+      "english_trans": "I swear by the angels who violently pull out the souls of the wicked,",
+      "arabic_text_uthmani": " وَٱلنَّـٰزِعَـٰتِ غَرْقًا"
     },
     "2": {
       "arabic_text": "وَالنَّاشِطَاتِ نَشْطًا",
@@ -34,7 +35,8 @@
           "translate_bn": "(যারা মৃদুভাবে) উন্মুক্ত (করে)"
         }
       },
-      "english_trans": "And by those who gently draw out the souls of the blessed,"
+      "english_trans": "And by those who gently draw out the souls of the blessed,",
+      "arabic_text_uthmani": "وَٱلنَّـٰشِطَـٰتِ نَشْطًا"
     },
     "3": {
       "arabic_text": "وَالسَّابِحَاتِ سَبْحًا",
@@ -49,7 +51,8 @@
           "translate_bn": "(যারা তীব্র গতিতে) সাঁতরায়"
         }
       },
-      "english_trans": "And by those who float in space,"
+      "english_trans": "And by those who float in space,",
+      "arabic_text_uthmani": "وَٱلسَّـٰبِحَـٰتِ سَبْحًا"
     },
     "4": {
       "arabic_text": "فَالسَّابِقَاتِ سَبْقًا",
@@ -64,7 +67,8 @@
           "translate_bn": "দ্রুতবেগে"
         }
       },
-      "english_trans": "Then those who are foremost going ahead,"
+      "english_trans": "Then those who are foremost going ahead,",
+      "arabic_text_uthmani": "فَٱلسَّـٰبِقَـٰتِ سَبْقًا"
     },
     "5": {
       "arabic_text": "فَالْمُدَبِّرَاتِ أَمْرًا",
@@ -79,7 +83,8 @@
           "translate_bn": "(যারা পরিচালনা করে) কর্ম"
         }
       },
-      "english_trans": "Then those who regulate the affair."
+      "english_trans": "Then those who regulate the affair.",
+      "arabic_text_uthmani": "فَٱلْمُدَبِّرَٰتِ أَمْرًا"
     },
     "6": {
       "arabic_text": "يَوْمَ تَرْجُفُ الرَّاجِفَةُ",
@@ -98,7 +103,8 @@
           "translate_bn": "প্রথম শিংগাধ্বনি"
         }
       },
-      "english_trans": "The day on which the quaking one shall quake,"
+      "english_trans": "The day on which the quaking one shall quake,",
+      "arabic_text_uthmani": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ"
     },
     "7": {
       "arabic_text": "تَتْبَعُهَا الرَّادِفَةُ",
@@ -113,7 +119,8 @@
           "translate_bn": "(আরো একটি) শিংগাধ্বনি"
         }
       },
-      "english_trans": "What must happen afterwards shall follow it."
+      "english_trans": "What must happen afterwards shall follow it.",
+      "arabic_text_uthmani": "تَتْبَعُهَا ٱلرَّادِفَةُ"
     },
     "8": {
       "arabic_text": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ",
@@ -132,7 +139,8 @@
           "translate_bn": "ভীত-কম্পিত (হবে)"
         }
       },
-      "english_trans": "Hearts on that day shall palpitate,"
+      "english_trans": "Hearts on that day shall palpitate,",
+      "arabic_text_uthmani": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ"
     },
     "9": {
       "arabic_text": "أَبْصَارُهَا خَاشِعَةٌ",
@@ -147,7 +155,8 @@
           "translate_bn": "ভীতসন্ত্রস্ত (হবে)"
         }
       },
-      "english_trans": "Their eyes cast down."
+      "english_trans": "Their eyes cast down.",
+      "arabic_text_uthmani": "أَبْصَـٰرُهَا خَـٰشِعَةٌ"
     },
     "10": {
       "arabic_text": "يَقُولُونَ أَإِنَّا لَمَرْدُودُونَ فِي الْحَافِرَةِ",
@@ -174,7 +183,8 @@
           "translate_bn": "পূর্বাবস্থার"
         }
       },
-      "english_trans": "They say: Shall we indeed be restored to (our) first state?"
+      "english_trans": "They say: Shall we indeed be restored to (our) first state?",
+      "arabic_text_uthmani": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ"
     },
     "11": {
       "arabic_text": "أَإِذَا كُنَّا عِظَامًا نَخِرَةً",
@@ -197,7 +207,8 @@
           "translate_bn": "গলিত"
         }
       },
-      "english_trans": "What! when we are rotten bones?"
+      "english_trans": "What! when we are rotten bones?",
+      "arabic_text_uthmani": "أَءِذَا كُنَّا عِظَـٰمًا نَّخِرَةً"
     },
     "12": {
       "arabic_text": "قَالُوا تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ",
@@ -224,7 +235,8 @@
           "translate_bn": "বড়ই ক্ষতিকর (হবে)"
         }
       },
-      "english_trans": "They said: That then would be a return occasioning loss."
+      "english_trans": "They said: That then would be a return occasioning loss.",
+      "arabic_text_uthmani": "قَالُوا۟ تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ"
     },
     "13": {
       "arabic_text": "فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ",
@@ -247,7 +259,8 @@
           "translate_bn": "একটি মাত্র"
         }
       },
-      "english_trans": "But it shall be only a single cry,"
+      "english_trans": "But it shall be only a single cry,",
+      "arabic_text_uthmani": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ"
     },
     "14": {
       "arabic_text": "فَإِذَا هُمْ بِالسَّاهِرَةِ",
@@ -266,7 +279,8 @@
           "translate_bn": "খোলা ময়দানে (হবে)"
         }
       },
-      "english_trans": "When lo! they shall be wakeful."
+      "english_trans": "When lo! they shall be wakeful.",
+      "arabic_text_uthmani": "فَإِذَا هُم بِٱلسَّاهِرَةِ"
     },
     "15": {
       "arabic_text": "هَلْ أَتَاكَ حَدِيثُ مُوسَى",
@@ -289,7 +303,8 @@
           "translate_bn": "মূসার"
         }
       },
-      "english_trans": "Has not there come to you the story of Musa?"
+      "english_trans": "Has not there come to you the story of Musa?",
+      "arabic_text_uthmani": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ"
     },
     "16": {
       "arabic_text": "إِذْ نَادَاهُ رَبُّهُ بِالْوَادِ الْمُقَدَّسِ طُوًى",
@@ -320,7 +335,8 @@
           "translate_bn": "তুয়ার"
         }
       },
-      "english_trans": "When his Lord called upon him in the holy valley, twice,"
+      "english_trans": "When his Lord called upon him in the holy valley, twice,",
+      "arabic_text_uthmani": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى"
     },
     "17": {
       "arabic_text": "اذْهَبْ إِلَى فِرْعَوْنَ إِنَّهُ طَغَى",
@@ -347,7 +363,8 @@
           "translate_bn": "সীমালঙ্ঘন করেছে"
         }
       },
-      "english_trans": "Go to Firon, surely he has become inordinate."
+      "english_trans": "Go to Firon, surely he has become inordinate.",
+      "arabic_text_uthmani": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ"
     },
     "18": {
       "arabic_text": "فَقُلْ هَلْ لَكَ إِلَى أَنْ تَزَكَّى",
@@ -378,7 +395,8 @@
           "translate_bn": "তুমি পবিত্র হবে"
         }
       },
-      "english_trans": "Then say: Have you (a desire) to purify yourself:"
+      "english_trans": "Then say: Have you (a desire) to purify yourself:",
+      "arabic_text_uthmani": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ"
     },
     "19": {
       "arabic_text": "وَأَهْدِيَكَ إِلَى رَبِّكَ فَتَخْشَى",
@@ -401,7 +419,8 @@
           "translate_bn": "তুমি যেন ভয় করো"
         }
       },
-      "english_trans": "And I will guide you to your Lord so that you should fear."
+      "english_trans": "And I will guide you to your Lord so that you should fear.",
+      "arabic_text_uthmani": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ"
     },
     "20": {
       "arabic_text": "فَأَرَاهُ الْآيَةَ الْكُبْرَى",
@@ -420,7 +439,8 @@
           "translate_bn": "বড়"
         }
       },
-      "english_trans": "So he showed him the mighty sign."
+      "english_trans": "So he showed him the mighty sign.",
+      "arabic_text_uthmani": "فَأَرَىٰهُ ٱلْـَٔايَةَ ٱلْكُبْرَىٰ"
     },
     "21": {
       "arabic_text": "فَكَذَّبَ وَعَصَى",
@@ -435,7 +455,8 @@
           "translate_bn": "এবং অবাধ্য হলো"
         }
       },
-      "english_trans": "But he rejected (the truth) and disobeyed."
+      "english_trans": "But he rejected (the truth) and disobeyed.",
+      "arabic_text_uthmani": "فَكَذَّبَ وَعَصَىٰ"
     },
     "22": {
       "arabic_text": "ثُمَّ أَدْبَرَ يَسْعَى",
@@ -454,7 +475,8 @@
           "translate_bn": "(প্রতিকারে) সচেষ্ট হলো"
         }
       },
-      "english_trans": "Then he went back hastily."
+      "english_trans": "Then he went back hastily.",
+      "arabic_text_uthmani": "ثُمَّ أَدْبَرَ يَسْعَىٰ"
     },
     "23": {
       "arabic_text": "فَحَشَرَ فَنَادَى",
@@ -469,7 +491,8 @@
           "translate_bn": "আর ঘোষণা করল"
         }
       },
-      "english_trans": "Then he gathered (men) and called out."
+      "english_trans": "Then he gathered (men) and called out.",
+      "arabic_text_uthmani": "فَحَشَرَ فَنَادَىٰ"
     },
     "24": {
       "arabic_text": "فَقَالَ أَنَا رَبُّكُمُ الْأَعْلَى",
@@ -492,7 +515,8 @@
           "translate_bn": "সর্বশ্রেষ্ঠ"
         }
       },
-      "english_trans": "Then he said: I am your lord, the most high."
+      "english_trans": "Then he said: I am your lord, the most high.",
+      "arabic_text_uthmani": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ"
     },
     "25": {
       "arabic_text": "فَأَخَذَهُ اللَّهُ نَكَالَ الْآخِرَةِ وَالْأُولَى",
@@ -519,7 +543,8 @@
           "translate_bn": "ও দুনিয়ার"
         }
       },
-      "english_trans": "So Allah seized him with the punishment of the hereafter and the former life."
+      "english_trans": "So Allah seized him with the punishment of the hereafter and the former life.",
+      "arabic_text_uthmani": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْـَٔاخِرَةِ وَٱلْأُولَىٰٓ"
     },
     "26": {
       "arabic_text": "إِنَّ فِي ذَلِكَ لَعِبْرَةً لِمَنْ يَخْشَى",
@@ -550,7 +575,8 @@
           "translate_bn": "ভয় করে"
         }
       },
-      "english_trans": "Most surely there is in this a lesson to him who fears."
+      "english_trans": "Most surely there is in this a lesson to him who fears.",
+      "arabic_text_uthmani": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰٓ"
     },
     "27": {
       "arabic_text": "أَأَنْتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ بَنَاهَا",
@@ -581,7 +607,8 @@
           "translate_bn": "তা তিনি নির্মাণ করেছেন"
         }
       },
-      "english_trans": "Are you the harder to create or the heaven? He made it."
+      "english_trans": "Are you the harder to create or the heaven? He made it.",
+      "arabic_text_uthmani": "ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا"
     },
     "28": {
       "arabic_text": "رَفَعَ سَمْكَهَا فَسَوَّاهَا",
@@ -600,7 +627,8 @@
           "translate_bn": "অতঃপর তিনি তা সুবিন্যস্ত করেছেন"
         }
       },
-      "english_trans": "He raised high its height, then put it into a right good state."
+      "english_trans": "He raised high its height, then put it into a right good state.",
+      "arabic_text_uthmani": "رَفَعَ سَمْكَهَا فَسَوَّىٰهَا"
     },
     "29": {
       "arabic_text": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَاهَا",
@@ -623,7 +651,8 @@
           "translate_bn": "তার সূর্যের আলো"
         }
       },
-      "english_trans": "And He made dark its night and brought out its light."
+      "english_trans": "And He made dark its night and brought out its light.",
+      "arabic_text_uthmani": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا"
     },
     "30": {
       "arabic_text": "وَالْأَرْضَ بَعْدَ ذَلِكَ دَحَاهَا",
@@ -646,7 +675,8 @@
           "translate_bn": "তা বিস্তৃত করেছেন"
         }
       },
-      "english_trans": "And the earth, He expanded it after that."
+      "english_trans": "And the earth, He expanded it after that.",
+      "arabic_text_uthmani": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ"
     },
     "31": {
       "arabic_text": "أَخْرَجَ مِنْهَا مَاءَهَا وَمَرْعَاهَا",
@@ -669,7 +699,8 @@
           "translate_bn": "ও তার উদ্ভিদ তৃণ"
         }
       },
-      "english_trans": "He brought forth from it its water and its pasturage."
+      "english_trans": "He brought forth from it its water and its pasturage.",
+      "arabic_text_uthmani": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا"
     },
     "32": {
       "arabic_text": "وَالْجِبَالَ أَرْسَاهَا",
@@ -684,7 +715,8 @@
           "translate_bn": "তা দৃঢ়ভাবে প্রোথিত করেছেন"
         }
       },
-      "english_trans": "And the mountains, He made them firm,"
+      "english_trans": "And the mountains, He made them firm,",
+      "arabic_text_uthmani": "وَٱلْجِبَالَ أَرْسَىٰهَا"
     },
     "33": {
       "arabic_text": "مَتَاعًا لَكُمْ وَلِأَنْعَامِكُمْ",
@@ -703,7 +735,8 @@
           "translate_bn": "এবং তোমাদের গৃহপালিত পশুর জন্য"
         }
       },
-      "english_trans": "A provision for you and for your cattle."
+      "english_trans": "A provision for you and for your cattle.",
+      "arabic_text_uthmani": "مَتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ"
     },
     "34": {
       "arabic_text": "فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَى",
@@ -726,7 +759,8 @@
           "translate_bn": "মহা"
         }
       },
-      "english_trans": "But when the great predominating calamity comes;"
+      "english_trans": "But when the great predominating calamity comes;",
+      "arabic_text_uthmani": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ"
     },
     "35": {
       "arabic_text": "يَوْمَ يَتَذَكَّرُ الْإِنْسَانُ مَا سَعَى",
@@ -753,7 +787,8 @@
           "translate_bn": "সে চেষ্টা করেছিল"
         }
       },
-      "english_trans": "The day on which man shall recollect what he strove after,"
+      "english_trans": "The day on which man shall recollect what he strove after,",
+      "arabic_text_uthmani": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ"
     },
     "36": {
       "arabic_text": "وَبُرِّزَتِ الْجَحِيمُ لِمَنْ يَرَى",
@@ -776,7 +811,8 @@
           "translate_bn": "দেখে"
         }
       },
-      "english_trans": "And the hell shall be made manifest to him who sees"
+      "english_trans": "And the hell shall be made manifest to him who sees",
+      "arabic_text_uthmani": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ"
     },
     "37": {
       "arabic_text": "فَأَمَّا مَنْ طَغَى",
@@ -795,7 +831,8 @@
           "translate_bn": "সীমালঙ্ঘন করেছে"
         }
       },
-      "english_trans": "Then as for him who is inordinate,"
+      "english_trans": "Then as for him who is inordinate,",
+      "arabic_text_uthmani": "فَأَمَّا مَن طَغَىٰ"
     },
     "38": {
       "arabic_text": "وَآثَرَ الْحَيَاةَ الدُّنْيَا",
@@ -814,7 +851,8 @@
           "translate_bn": "দুনিয়ার"
         }
       },
-      "english_trans": "And prefers the life of this world,"
+      "english_trans": "And prefers the life of this world,",
+      "arabic_text_uthmani": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا"
     },
     "39": {
       "arabic_text": "فَإِنَّ الْجَحِيمَ هِيَ الْمَأْوَى",
@@ -837,7 +875,8 @@
           "translate_bn": "(তার) বাসস্থান"
         }
       },
-      "english_trans": "Then surely the hell, that is the abode."
+      "english_trans": "Then surely the hell, that is the abode.",
+      "arabic_text_uthmani": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ"
     },
     "40": {
       "arabic_text": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَى",
@@ -880,7 +919,8 @@
           "translate_bn": "খারাপ কামনা"
         }
       },
-      "english_trans": "And as for him who fears to stand in the presence of his Lord and forbids the soul from low desires,"
+      "english_trans": "And as for him who fears to stand in the presence of his Lord and forbids the soul from low desires,",
+      "arabic_text_uthmani": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ"
     },
     "41": {
       "arabic_text": "فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَى",
@@ -903,7 +943,8 @@
           "translate_bn": "(তার) বাসস্থান"
         }
       },
-      "english_trans": "Then surely the garden-- that is the abode."
+      "english_trans": "Then surely the garden-- that is the abode.",
+      "arabic_text_uthmani": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ"
     },
     "42": {
       "arabic_text": "يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا",
@@ -930,7 +971,8 @@
           "translate_bn": "তা ঘটবে"
         }
       },
-      "english_trans": "They ask you about the hour, when it will come."
+      "english_trans": "They ask you about the hour, when it will come.",
+      "arabic_text_uthmani": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا"
     },
     "43": {
       "arabic_text": "فِيمَ أَنْتَ مِنْ ذِكْرَاهَا",
@@ -953,7 +995,8 @@
           "translate_bn": "তার উল্লেখ করার"
         }
       },
-      "english_trans": "About what! You are one to remind of it."
+      "english_trans": "About what! You are one to remind of it.",
+      "arabic_text_uthmani": "فِيمَ أَنتَ مِن ذِكْرَىٰهَآ"
     },
     "44": {
       "arabic_text": "إِلَى رَبِّكَ مُنْتَهَاهَا",
@@ -972,7 +1015,8 @@
           "translate_bn": "তার চূড়ান্ত (জ্ঞান)"
         }
       },
-      "english_trans": "To your Lord is the goal of it."
+      "english_trans": "To your Lord is the goal of it.",
+      "arabic_text_uthmani": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ"
     },
     "45": {
       "arabic_text": "إِنَّمَا أَنْتَ مُنْذِرُ مَنْ يَخْشَاهَا",
@@ -999,7 +1043,8 @@
           "translate_bn": "তা ভয় করে"
         }
       },
-      "english_trans": "You are only a warner to him who would fear it."
+      "english_trans": "You are only a warner to him who would fear it.",
+      "arabic_text_uthmani": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا"
     },
     "46": {
       "arabic_text": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوا إِلَّا عَشِيَّةً أَوْ ضُحَاهَا",
@@ -1042,7 +1087,8 @@
           "translate_bn": "তার এক সকাল"
         }
       },
-      "english_trans": "On the day that they see it, it will be as though they had not tarried but the latter part of a day or the early part of it."
+      "english_trans": "On the day that they see it, it will be as though they had not tarried but the latter part of a day or the early part of it.",
+      "arabic_text_uthmani": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا"
     }
   }
 }

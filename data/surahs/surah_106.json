@@ -19,7 +19,8 @@
           "translate_bn": "কুরাইশদের"
         }
       },
-      "english_trans": "For the protection of the Qureaish--"
+      "english_trans": "For the protection of the Qureaish--",
+      "arabic_text_uthmani": " لِإِيلَـٰفِ قُرَيْشٍ"
     },
     "2": {
       "arabic_text": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
@@ -42,7 +43,8 @@
           "translate_bn": "ও গ্রীষ্মের"
         }
       },
-      "english_trans": "Their protection during their trading caravans in the winter and the summer--"
+      "english_trans": "Their protection during their trading caravans in the winter and the summer--",
+      "arabic_text_uthmani": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ"
     },
     "3": {
       "arabic_text": "فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ",
@@ -65,7 +67,8 @@
           "translate_bn": "ঘরের"
         }
       },
-      "english_trans": "So let them serve the Lord of this House"
+      "english_trans": "So let them serve the Lord of this House",
+      "arabic_text_uthmani": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ"
     },
     "4": {
       "arabic_text": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
@@ -100,7 +103,8 @@
           "translate_bn": "ভয়"
         }
       },
-      "english_trans": "Who feeds them against hunger and gives them security against fear."
+      "english_trans": "Who feeds them against hunger and gives them security against fear.",
+      "arabic_text_uthmani": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ"
     }
   }
 }

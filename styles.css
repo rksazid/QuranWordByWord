@@ -83,6 +83,18 @@
     font-size: calc(1.8rem * var(--font-size-multiplier));
 }
 
+/* Sajdah mark styling */
+.sajdah-mark {
+    color: #c62828;
+    font-size: 0.85em;
+    margin-left: 0.25rem;
+    cursor: help;
+}
+
+[data-theme="dark"] .sajdah-mark {
+    color: #ef5350;
+}
+
 .surah-arabic {
     font-size: calc(1.4rem * var(--font-size-multiplier));
 }
@@ -191,6 +203,16 @@ body {
 .back-btn:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: translateY(-1px);
+}
+
+.header-surah-name {
+    color: var(--text-white);
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
 }
 
 .header-controls {
@@ -1074,6 +1096,88 @@ body {
     border-color: var(--primary-light);
 }
 
+/* Selected verse highlight */
+.verse-selected {
+    border-left: 3px solid var(--primary-color) !important;
+    background: rgba(45, 125, 50, 0.06) !important;
+}
+
+[data-theme="dark"] .verse-selected {
+    background: rgba(76, 175, 80, 0.1) !important;
+}
+
+/* Multi-select action bar */
+.selection-bar {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 0.6rem 1rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+    animation: fadeIn 0.2s ease;
+    max-width: 95%;
+}
+
+.selection-count {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    white-space: nowrap;
+}
+
+.selection-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.selection-action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    background: var(--bg-hover);
+    color: var(--text-color);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: var(--font-system);
+}
+
+.selection-action-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.selection-action-btn.cancel {
+    color: var(--text-secondary);
+}
+
+.selection-action-btn.cancel:hover {
+    background: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    .selection-bar {
+        bottom: calc(70px + env(safe-area-inset-bottom));
+        left: 0.5rem;
+        right: 0.5rem;
+        transform: none;
+        max-width: none;
+    }
+}
+
 /* Mobile */
 @media (max-width: 480px) {
     .verse-actions {
@@ -1087,6 +1191,105 @@ body {
 
     .verse-action-btn span {
         display: none;
+    }
+}
+
+/* ==================== SURAH NAVIGATION ==================== */
+.surah-navigation {
+    display: flex;
+    gap: 0.75rem;
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+    border-top: 2px solid var(--border-color);
+}
+
+.surah-nav-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: var(--text-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.surah-nav-btn:hover {
+    background: var(--bg-hover);
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.surah-nav-btn:active {
+    transform: translateY(0);
+}
+
+.surah-nav-btn i {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.next-btn {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.nav-btn-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.nav-direction {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.nav-surah-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* Hide navigation in reading mode */
+.reading-mode-active .surah-navigation {
+    display: none;
+}
+
+/* Dark mode */
+[data-theme="dark"] .surah-nav-btn {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .surah-nav-btn:hover {
+    background: var(--bg-hover);
+    border-color: var(--primary-color);
+}
+
+@media (max-width: 480px) {
+    .surah-navigation {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .surah-nav-btn {
+        padding: 0.85rem 1rem;
+    }
+
+    .next-btn {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        text-align: left;
     }
 }
 
@@ -2760,16 +2963,23 @@ body {
     }
     
     .floating-controls {
-        bottom: 1rem;
-        right: 1rem;
+        bottom: calc(75px + env(safe-area-inset-bottom));
+        right: 0.75rem;
     }
-    
+
     .floating-toggle {
         width: 48px;
         height: 48px;
         font-size: 1rem;
     }
-    
+
+    .floating-scroll-control {
+        bottom: calc(75px + env(safe-area-inset-bottom));
+        right: 0.75rem;
+        left: 0.75rem;
+        min-width: auto;
+    }
+
     .footer-content {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -2810,16 +3020,16 @@ body {
         font-size: inherit;
     }
     
-    /* Optimize floating controls for small screens */
+    /* Optimize floating controls for small screens — above bottom nav */
     .floating-controls {
-        bottom: 0.5rem;
+        bottom: calc(75px + env(safe-area-inset-bottom));
         right: 0.5rem;
     }
-    
+
     .floating-toggle {
-        width: 56px;
-        height: 56px;
-        font-size: 1.2rem;
+        width: 50px;
+        height: 50px;
+        font-size: 1.1rem;
     }
     
     /* Improve readability */
@@ -2854,7 +3064,32 @@ select {
 .verse-container {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
-    will-change: scroll-position;
+}
+
+/* iOS safe area padding for full-screen PWA */
+@supports (padding: env(safe-area-inset-bottom)) {
+    .bottom-nav-container {
+        padding-bottom: calc(8px + env(safe-area-inset-bottom));
+    }
+}
+
+/* Settings modal scrollability on mobile */
+@media (max-width: 768px) {
+    .modal-body {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        max-height: calc(80vh - 60px);
+    }
+
+    .settings-modal .modal-body {
+        max-height: calc(90vh - 60px);
+    }
+
+    /* Ensure verse-actions buttons are easy to tap */
+    .verse-action-btn {
+        min-height: 40px;
+        min-width: 40px;
+    }
 }
 
 /* Hardware acceleration for smooth animations */
@@ -3409,28 +3644,46 @@ select {
     color: var(--text-white);
 }
 
-/* Reading mode indicator */
-.reading-mode-indicator {
-    display: none;
-    position: fixed;
-    top: 75px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--primary-color);
-    color: white;
-    padding: 0.35rem 0.85rem;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    z-index: 99;
-    box-shadow: var(--shadow-md);
-    animation: fadeIn 0.3s ease;
+/* View Mode Tabs */
+.mode-tabs {
+    display: flex;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 4px;
+    margin-bottom: 0.75rem;
+    box-shadow: var(--shadow-sm);
+    gap: 4px;
 }
 
-.reading-mode-active .reading-mode-indicator {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.mode-tab {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: var(--border-radius-sm);
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-system);
+}
+
+.mode-tab:hover {
+    background: var(--bg-hover);
+    color: var(--text-color);
+}
+
+.mode-tab.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .mode-tab.active {
+    background: var(--primary-light);
+    color: #fff;
 }
 
 /* ==================== ENHANCED SEARCH ==================== */
@@ -3662,61 +3915,6 @@ select {
 }
 
 /* ==================== COMPACT MODE ==================== */
-/* Toggle in reading-mode-bar */
-.compact-mode-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-    cursor: pointer;
-    user-select: none;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-}
-
-.compact-mode-toggle input[type="checkbox"] {
-    position: absolute;
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.compact-toggle-slider {
-    position: relative;
-    width: 36px;
-    height: 20px;
-    background: var(--border-color);
-    border-radius: 10px;
-    transition: var(--transition);
-    flex-shrink: 0;
-}
-
-.compact-toggle-slider::after {
-    content: '';
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 16px;
-    height: 16px;
-    background: white;
-    border-radius: 50%;
-    transition: var(--transition);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-}
-
-.compact-mode-toggle input:checked + .compact-toggle-slider {
-    background: var(--primary-color);
-}
-
-.compact-mode-toggle input:checked + .compact-toggle-slider::after {
-    transform: translateX(16px);
-}
-
-.compact-label {
-    font-weight: 500;
-}
-
 /* Compact mode verse layout */
 .reading-mode-active.compact-mode-active .verses-container {
     display: block;
@@ -3792,8 +3990,24 @@ select {
     box-shadow: 0 0 6px rgba(76, 175, 80, 0.3);
 }
 
-[data-theme="dark"] .compact-toggle-slider {
-    background: #555;
+/* Compact mode page break divider */
+.compact-page-break {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 0;
+    direction: ltr;
+    clear: both;
+}
+
+.page-break-label {
+    display: inline-block;
+    font-family: var(--font-system);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    opacity: 0.6;
+    letter-spacing: 2px;
 }
 
 /* Mobile compact mode */
@@ -3810,10 +4024,6 @@ select {
         height: 22px;
         font-size: 0.6rem;
     }
-
-    .compact-mode-toggle {
-        font-size: 0.8rem;
-    }
 }
 
 @media (max-width: 480px) {
@@ -3828,5 +4038,309 @@ select {
         width: 20px;
         height: 20px;
         font-size: 0.55rem;
+    }
+}
+
+/* ==================== MAIN VIEW TOGGLE (Surahs / Hifz) ==================== */
+.main-view-toggle {
+    display: flex;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 4px;
+    margin-bottom: 0.75rem;
+    box-shadow: var(--shadow-sm);
+    gap: 4px;
+}
+
+.main-view-btn {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: var(--border-radius-sm);
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-system);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.main-view-btn:hover {
+    background: var(--bg-hover);
+    color: var(--text-color);
+}
+
+.main-view-btn.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .main-view-btn.active {
+    background: var(--primary-light);
+}
+
+/* ==================== HIFZ MODE ==================== */
+.hifz-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hifz-header h2 {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.hifz-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0.25rem 0 0;
+}
+
+/* Juz Cards */
+.juz-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.juz-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.juz-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+.juz-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.juz-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.juz-name-ar {
+    font-family: var(--font-arabic);
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.juz-name-en {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 0.15rem;
+}
+
+.juz-meta {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+.juz-pages {
+    font-size: 0.75rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Hifz Reading Page */
+.hifz-page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.hifz-page-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 0.5rem 1.25rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.hifz-page-num {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.hifz-juz-info {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.hifz-page-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    direction: rtl;
+    text-align: justify;
+    font-family: var(--font-arabic);
+    font-size: calc(1.6rem * var(--font-size-multiplier));
+    line-height: 2.8;
+    min-height: 300px;
+}
+
+.hifz-page-content .hifz-verse {
+    display: inline;
+}
+
+.hifz-page-content .hifz-ayah-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    font-weight: 700;
+    font-family: var(--font-system);
+    margin: 0 0.2rem;
+    vertical-align: middle;
+    direction: ltr;
+    line-height: 1;
+}
+
+.hifz-page-content .hifz-surah-separator {
+    display: block;
+    text-align: center;
+    direction: ltr;
+    padding: 0.75rem 0;
+    font-family: var(--font-system);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    margin: 0.5rem 0;
+}
+
+.hifz-page-content .hifz-bismillah {
+    display: block;
+    text-align: center;
+    font-size: calc(1.4rem * var(--font-size-multiplier));
+    color: var(--primary-dark);
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Hifz Page Navigation */
+.hifz-page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top: 0.75rem;
+}
+
+.hifz-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    font-family: var(--font-system);
+}
+
+.hifz-nav-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.hifz-nav-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.hifz-page-indicator {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .hifz-page-content {
+        padding: 1rem;
+        font-size: calc(1.4rem * var(--font-size-multiplier));
+        line-height: 2.6;
+    }
+
+    .hifz-page-content .hifz-ayah-number {
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        font-size: 0.55rem;
+    }
+
+    .juz-card {
+        padding: 0.75rem 1rem;
+    }
+
+    .juz-number {
+        width: 38px;
+        height: 38px;
+        font-size: 0.9rem;
+    }
+
+    .juz-name-ar {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hifz-page-content {
+        padding: 0.75rem;
+        font-size: calc(1.2rem * var(--font-size-multiplier));
+        line-height: 2.4;
     }
 }

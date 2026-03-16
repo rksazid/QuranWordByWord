@@ -15,7 +15,8 @@
           "translate_bn": "মহাপ্রলয়"
         }
       },
-      "english_trans": "The terrible calamity!"
+      "english_trans": "The terrible calamity!",
+      "arabic_text_uthmani": " ٱلْقَارِعَةُ"
     },
     "2": {
       "arabic_text": "مَا الْقَارِعَةُ",
@@ -30,7 +31,8 @@
           "translate_bn": "মহাপ্রলয়"
         }
       },
-      "english_trans": "What is the terrible calamity!"
+      "english_trans": "What is the terrible calamity!",
+      "arabic_text_uthmani": "مَا ٱلْقَارِعَةُ"
     },
     "3": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
@@ -53,7 +55,8 @@
           "translate_bn": "ভয়াবহ দুর্ঘটনা"
         }
       },
-      "english_trans": "And what will make you comprehend what the terrible calamity is?"
+      "english_trans": "And what will make you comprehend what the terrible calamity is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ"
     },
     "4": {
       "arabic_text": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
@@ -80,7 +83,8 @@
           "translate_bn": "বিক্ষিপ্ত"
         }
       },
-      "english_trans": "The day on which men shall be as scattered moths,"
+      "english_trans": "The day on which men shall be as scattered moths,",
+      "arabic_text_uthmani": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ"
     },
     "5": {
       "arabic_text": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ",
@@ -103,7 +107,8 @@
           "translate_bn": "ধুনিত"
         }
       },
-      "english_trans": "And the mountains shall be as loosened wool."
+      "english_trans": "And the mountains shall be as loosened wool.",
+      "arabic_text_uthmani": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ"
     },
     "6": {
       "arabic_text": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
@@ -126,7 +131,8 @@
           "translate_bn": "তার (পূণ্যের) পাল্লাসমূহ"
         }
       },
-      "english_trans": "Then as for him whose measure of good deeds is heavy,"
+      "english_trans": "Then as for him whose measure of good deeds is heavy,",
+      "arabic_text_uthmani": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ"
     },
     "7": {
       "arabic_text": "فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ",
@@ -149,7 +155,8 @@
           "translate_bn": "সন্তোষজনক"
         }
       },
-      "english_trans": "He shall live a pleasant life."
+      "english_trans": "He shall live a pleasant life.",
+      "arabic_text_uthmani": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ"
     },
     "8": {
       "arabic_text": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
@@ -172,7 +179,8 @@
           "translate_bn": "তার পাল্লাসমূহ নেকীর"
         }
       },
-      "english_trans": "And as for him whose measure of good deeds is light,"
+      "english_trans": "And as for him whose measure of good deeds is light,",
+      "arabic_text_uthmani": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ"
     },
     "9": {
       "arabic_text": "فَأُمُّهُ هَاوِيَةٌ",
@@ -187,7 +195,8 @@
           "translate_bn": "গভীর গর্ত হবে"
         }
       },
-      "english_trans": "His abode shall be the abyss."
+      "english_trans": "His abode shall be the abyss.",
+      "arabic_text_uthmani": "فَأُمُّهُۥ هَاوِيَةٌ"
     },
     "10": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا هِيَهْ",
@@ -210,7 +219,8 @@
           "translate_bn": "সেটা"
         }
       },
-      "english_trans": "And what will make you know what it is?"
+      "english_trans": "And what will make you know what it is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ"
     },
     "11": {
       "arabic_text": "نَارٌ حَامِيَةٌ",
@@ -225,7 +235,8 @@
           "translate_bn": "গণগণে"
         }
       },
-      "english_trans": "A burning fire."
+      "english_trans": "A burning fire.",
+      "arabic_text_uthmani": "نَارٌ حَامِيَةٌۢ"
     }
   }
 }

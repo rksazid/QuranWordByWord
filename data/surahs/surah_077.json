@@ -19,7 +19,8 @@
           "translate_bn": "কল্যাণ সুরূপ"
         }
       },
-      "english_trans": "I swear by the emissary winds, sent one after another (for men´s benefit),"
+      "english_trans": "I swear by the emissary winds, sent one after another (for men´s benefit),",
+      "arabic_text_uthmani": " وَٱلْمُرْسَلَـٰتِ عُرْفًا"
     },
     "2": {
       "arabic_text": "فَالْعَاصِفَاتِ عَصْفًا",
@@ -34,7 +35,8 @@
           "translate_bn": "প্রলংকরী"
         }
       },
-      "english_trans": "By the raging hurricanes,"
+      "english_trans": "By the raging hurricanes,",
+      "arabic_text_uthmani": "فَٱلْعَـٰصِفَـٰتِ عَصْفًا"
     },
     "3": {
       "arabic_text": "وَالنَّاشِرَاتِ نَشْرًا",
@@ -49,7 +51,8 @@
           "translate_bn": "বিস্তার করা"
         }
       },
-      "english_trans": "Which scatter clouds to their destined places,"
+      "english_trans": "Which scatter clouds to their destined places,",
+      "arabic_text_uthmani": "وَٱلنَّـٰشِرَٰتِ نَشْرًا"
     },
     "4": {
       "arabic_text": "فَالْفَارِقَاتِ فَرْقًا",
@@ -64,7 +67,8 @@
           "translate_bn": "পৃথক করা (মেঘকে)"
         }
       },
-      "english_trans": "Then separate them one from another,"
+      "english_trans": "Then separate them one from another,",
+      "arabic_text_uthmani": "فَٱلْفَـٰرِقَـٰتِ فَرْقًا"
     },
     "5": {
       "arabic_text": "فَالْمُلْقِيَاتِ ذِكْرًا",
@@ -79,7 +83,8 @@
           "translate_bn": "উপদেশ"
         }
       },
-      "english_trans": "Then I swear by the angels who bring down the revelation,"
+      "english_trans": "Then I swear by the angels who bring down the revelation,",
+      "arabic_text_uthmani": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا"
     },
     "6": {
       "arabic_text": "عُذْرًا أَوْ نُذْرًا",
@@ -98,7 +103,8 @@
           "translate_bn": "সতর্কতা সুরূপ"
         }
       },
-      "english_trans": "To clear or to warn."
+      "english_trans": "To clear or to warn.",
+      "arabic_text_uthmani": "عُذْرًا أَوْ نُذْرًا"
     },
     "7": {
       "arabic_text": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
@@ -117,7 +123,8 @@
           "translate_bn": "সংঘটিত হবে অবশ্যই"
         }
       },
-      "english_trans": "Most surely what you are threatened with must come to pass."
+      "english_trans": "Most surely what you are threatened with must come to pass.",
+      "arabic_text_uthmani": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ"
     },
     "8": {
       "arabic_text": "فَإِذَا النُّجُومُ طُمِسَتْ",
@@ -136,7 +143,8 @@
           "translate_bn": "স্লান করা হবে"
         }
       },
-      "english_trans": "So when the stars are made to lose their light,"
+      "english_trans": "So when the stars are made to lose their light,",
+      "arabic_text_uthmani": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ"
     },
     "9": {
       "arabic_text": "وَإِذَا السَّمَاءُ فُرِجَتْ",
@@ -155,7 +163,8 @@
           "translate_bn": "বিদীর্ণ করা হবে"
         }
       },
-      "english_trans": "And when the heaven is rent asunder,"
+      "english_trans": "And when the heaven is rent asunder,",
+      "arabic_text_uthmani": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ"
     },
     "10": {
       "arabic_text": "وَإِذَا الْجِبَالُ نُسِفَتْ",
@@ -174,7 +183,8 @@
           "translate_bn": "ধুনে ফেলা হবে"
         }
       },
-      "english_trans": "And when the mountains are carried away as dust,"
+      "english_trans": "And when the mountains are carried away as dust,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ"
     },
     "11": {
       "arabic_text": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
@@ -193,7 +203,8 @@
           "translate_bn": "নির্দিষ্ট সময় উপস্থিত করা হবে"
         }
       },
-      "english_trans": "And when the messengers are gathered at their appointed time"
+      "english_trans": "And when the messengers are gathered at their appointed time",
+      "arabic_text_uthmani": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ"
     },
     "12": {
       "arabic_text": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
@@ -212,7 +223,8 @@
           "translate_bn": "স্থগিত করা হয়েছে"
         }
       },
-      "english_trans": "To what day is the doom fixed?"
+      "english_trans": "To what day is the doom fixed?",
+      "arabic_text_uthmani": "لِأَىِّ يَوْمٍ أُجِّلَتْ"
     },
     "13": {
       "arabic_text": "لِيَوْمِ الْفَصْلِ",
@@ -227,7 +239,8 @@
           "translate_bn": "পৃৃথককারী (ফয়সালার)"
         }
       },
-      "english_trans": "To the day of decision."
+      "english_trans": "To the day of decision.",
+      "arabic_text_uthmani": "لِيَوْمِ ٱلْفَصْلِ"
     },
     "14": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
@@ -254,7 +267,8 @@
           "translate_bn": "পৃৃথককারী (ফয়সালার)"
         }
       },
-      "english_trans": "And what will make you comprehend what the day of decision is?"
+      "english_trans": "And what will make you comprehend what the day of decision is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ"
     },
     "15": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -273,7 +287,8 @@
           "translate_bn": "মিথ্যারোপকারীদের জন্য"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "16": {
       "arabic_text": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
@@ -292,7 +307,8 @@
           "translate_bn": "আগের লোকদের"
         }
       },
-      "english_trans": "Did We not destroy the former generations?"
+      "english_trans": "Did We not destroy the former generations?",
+      "arabic_text_uthmani": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ"
     },
     "17": {
       "arabic_text": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ",
@@ -311,7 +327,8 @@
           "translate_bn": "পর্ববর্তী লোকদের"
         }
       },
-      "english_trans": "Then did We follow them up with later ones."
+      "english_trans": "Then did We follow them up with later ones.",
+      "arabic_text_uthmani": "ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ"
     },
     "18": {
       "arabic_text": "كَذَلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
@@ -330,7 +347,8 @@
           "translate_bn": "অপরাধিদের সাথে"
         }
       },
-      "english_trans": "Even thus shall We deal with the guilty."
+      "english_trans": "Even thus shall We deal with the guilty.",
+      "arabic_text_uthmani": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ"
     },
     "19": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -349,7 +367,8 @@
           "translate_bn": "মিথ্যারোপকারীদের জন্য"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "20": {
       "arabic_text": "أَلَمْ نَخْلُقْكُمْ مِنْ مَاءٍ مَهِينٍ",
@@ -376,7 +395,8 @@
           "translate_bn": "তুচ্ছ"
         }
       },
-      "english_trans": "Did We not create you from contemptible water?"
+      "english_trans": "Did We not create you from contemptible water?",
+      "arabic_text_uthmani": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ"
     },
     "21": {
       "arabic_text": "فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ",
@@ -399,7 +419,8 @@
           "translate_bn": "সংরক্ষিত"
         }
       },
-      "english_trans": "Then We placed it in a secure resting-place,"
+      "english_trans": "Then We placed it in a secure resting-place,",
+      "arabic_text_uthmani": "فَجَعَلْنَـٰهُ فِى قَرَارٍ مَّكِينٍ"
     },
     "22": {
       "arabic_text": "إِلَى قَدَرٍ مَعْلُومٍ",
@@ -418,7 +439,8 @@
           "translate_bn": "নির্দিষ্ট"
         }
       },
-      "english_trans": "Till an appointed term,"
+      "english_trans": "Till an appointed term,",
+      "arabic_text_uthmani": "إِلَىٰ قَدَرٍ مَّعْلُومٍ"
     },
     "23": {
       "arabic_text": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
@@ -437,7 +459,8 @@
           "translate_bn": "ক্ষমতার অধিকারী"
         }
       },
-      "english_trans": "So We proportion it-- how well are We at proportioning (things)."
+      "english_trans": "So We proportion it-- how well are We at proportioning (things).",
+      "arabic_text_uthmani": "فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ"
     },
     "24": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -456,7 +479,8 @@
           "translate_bn": "মিথ্যারোপকারীদের জন্য"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "25": {
       "arabic_text": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
@@ -479,7 +503,8 @@
           "translate_bn": "ধারণকারী রূপে"
         }
       },
-      "english_trans": "Have We not made the earth to draw together to itself,"
+      "english_trans": "Have We not made the earth to draw together to itself,",
+      "arabic_text_uthmani": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا"
     },
     "26": {
       "arabic_text": "أَحْيَاءً وَأَمْوَاتًا",
@@ -494,7 +519,8 @@
           "translate_bn": "ও মৃতদের"
         }
       },
-      "english_trans": "The living and the dead,"
+      "english_trans": "The living and the dead,",
+      "arabic_text_uthmani": "أَحْيَآءً وَأَمْوَٰتًا"
     },
     "27": {
       "arabic_text": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُمْ مَاءً فُرَاتًا",
@@ -529,7 +555,8 @@
           "translate_bn": "সুমিষ্ট"
         }
       },
-      "english_trans": "And made therein lofty mountains, and given you to drink of sweet water?"
+      "english_trans": "And made therein lofty mountains, and given you to drink of sweet water?",
+      "arabic_text_uthmani": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا"
     },
     "28": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -548,7 +575,8 @@
           "translate_bn": "মিথ্যারোপকারীদের জন্য"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "29": {
       "arabic_text": "انْطَلِقُوا إِلَى مَا كُنْتُمْ بِهِ تُكَذِّبُونَ",
@@ -579,7 +607,8 @@
           "translate_bn": "মিথ্যারোপ করতে"
         }
       },
-      "english_trans": "Walk on to that which you called a lie."
+      "english_trans": "Walk on to that which you called a lie.",
+      "arabic_text_uthmani": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ"
     },
     "30": {
       "arabic_text": "انْطَلِقُوا إِلَى ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
@@ -610,7 +639,8 @@
           "translate_bn": "শাখা"
         }
       },
-      "english_trans": "Walk on to the covering having three branches,"
+      "english_trans": "Walk on to the covering having three branches,",
+      "arabic_text_uthmani": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَـٰثِ شُعَبٍ"
     },
     "31": {
       "arabic_text": "لَا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
@@ -641,7 +671,8 @@
           "translate_bn": "আগুনের শিখা"
         }
       },
-      "english_trans": "Neither having the coolness of the shade nor availing against the flame."
+      "english_trans": "Neither having the coolness of the shade nor availing against the flame.",
+      "arabic_text_uthmani": "لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ"
     },
     "32": {
       "arabic_text": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
@@ -664,7 +695,8 @@
           "translate_bn": "প্রাসাদের ন্যায়"
         }
       },
-      "english_trans": "Surely it sends up sparks like palaces,"
+      "english_trans": "Surely it sends up sparks like palaces,",
+      "arabic_text_uthmani": "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ"
     },
     "33": {
       "arabic_text": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ",
@@ -683,7 +715,8 @@
           "translate_bn": "হলুদ বর্ণের"
         }
       },
-      "english_trans": "As if they were tawny camels."
+      "english_trans": "As if they were tawny camels.",
+      "arabic_text_uthmani": "كَأَنَّهُۥ جِمَـٰلَتٌ صُفْرٌ"
     },
     "34": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -702,7 +735,8 @@
           "translate_bn": "মিথ্যারোপকারিদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "35": {
       "arabic_text": "هَذَا يَوْمُ لَا يَنْطِقُونَ",
@@ -725,7 +759,8 @@
           "translate_bn": "তোমরা কথা বলবে"
         }
       },
-      "english_trans": "This is the day on which they shall not speak,"
+      "english_trans": "This is the day on which they shall not speak,",
+      "arabic_text_uthmani": "هَـٰذَا يَوْمُ لَا يَنطِقُونَ"
     },
     "36": {
       "arabic_text": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
@@ -748,7 +783,8 @@
           "translate_bn": "তারা ওজর পেশ যে করবে"
         }
       },
-      "english_trans": "And permission shall not be given to them so that they should offer excuses."
+      "english_trans": "And permission shall not be given to them so that they should offer excuses.",
+      "arabic_text_uthmani": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ"
     },
     "37": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -767,7 +803,8 @@
           "translate_bn": "মিথ্যারপকারীদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "38": {
       "arabic_text": "هَذَا يَوْمُ الْفَصْلِ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
@@ -794,7 +831,8 @@
           "translate_bn": "ও (তোমাদের) পূর্ববতীদেরকে"
         }
       },
-      "english_trans": "This is the day of decision: We have gathered you and those of yore."
+      "english_trans": "This is the day of decision: We have gathered you and those of yore.",
+      "arabic_text_uthmani": "هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ"
     },
     "39": {
       "arabic_text": "فَإِنْ كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
@@ -821,7 +859,8 @@
           "translate_bn": "তোমরা কৌশল করো তবে"
         }
       },
-      "english_trans": "So if you have a plan, plan against Me (now)."
+      "english_trans": "So if you have a plan, plan against Me (now).",
+      "arabic_text_uthmani": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ"
     },
     "40": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -840,7 +879,8 @@
           "translate_bn": "মিথ্যারপকারিদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "41": {
       "arabic_text": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
@@ -867,7 +907,8 @@
           "translate_bn": "ও প্রস্রবণে"
         }
       },
-      "english_trans": "Surely those who guard (against evil) shall be amid shades and fountains,"
+      "english_trans": "Surely those who guard (against evil) shall be amid shades and fountains,",
+      "arabic_text_uthmani": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍ وَعُيُونٍ"
     },
     "42": {
       "arabic_text": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
@@ -886,7 +927,8 @@
           "translate_bn": "তারা চাইবে"
         }
       },
-      "english_trans": "And fruits such as they desire."
+      "english_trans": "And fruits such as they desire.",
+      "arabic_text_uthmani": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ"
     },
     "43": {
       "arabic_text": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
@@ -917,7 +959,8 @@
           "translate_bn": "(তোমরা) করতে"
         }
       },
-      "english_trans": "Eat and drink pleasantly because of what you did."
+      "english_trans": "Eat and drink pleasantly because of what you did.",
+      "arabic_text_uthmani": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ"
     },
     "44": {
       "arabic_text": "إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِينَ",
@@ -940,7 +983,8 @@
           "translate_bn": "নেকলোকদের"
         }
       },
-      "english_trans": "Surely thus do We reward the doers of good."
+      "english_trans": "Surely thus do We reward the doers of good.",
+      "arabic_text_uthmani": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ"
     },
     "45": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -959,7 +1003,8 @@
           "translate_bn": "মিথ্যারপকারিদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "46": {
       "arabic_text": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُمْ مُجْرِمُونَ",
@@ -986,7 +1031,8 @@
           "translate_bn": "অপরাধী"
         }
       },
-      "english_trans": "Eat and enjoy yourselves for a little; surely you are guilty."
+      "english_trans": "Eat and enjoy yourselves for a little; surely you are guilty.",
+      "arabic_text_uthmani": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ"
     },
     "47": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -1005,7 +1051,8 @@
           "translate_bn": "মিথ্যারপকারিদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "48": {
       "arabic_text": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
@@ -1036,7 +1083,8 @@
           "translate_bn": "তারা অবনত হয়"
         }
       },
-      "english_trans": "And where it is said to them: Bow down, they do not bow down."
+      "english_trans": "And where it is said to them: Bow down, they do not bow down.",
+      "arabic_text_uthmani": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ"
     },
     "49": {
       "arabic_text": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
@@ -1055,7 +1103,8 @@
           "translate_bn": "মিথ্যারপকারিদের জন্যে"
         }
       },
-      "english_trans": "Woe on that day to the rejecters."
+      "english_trans": "Woe on that day to the rejecters.",
+      "arabic_text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ"
     },
     "50": {
       "arabic_text": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
@@ -1078,7 +1127,8 @@
           "translate_bn": "তারা ইমান (যার উপর) আনবে"
         }
       },
-      "english_trans": "In what announcement, then, after it, will they believe?"
+      "english_trans": "In what announcement, then, after it, will they believe?",
+      "arabic_text_uthmani": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ"
     }
   }
 }

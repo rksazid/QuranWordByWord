@@ -15,7 +15,8 @@
           "translate_bn": "আলিফ লা-ম মী-ম"
         }
       },
-      "english_trans": "Alif Lam Mim."
+      "english_trans": "Alif Lam Mim.",
+      "arabic_text_uthmani": " الٓمٓ"
     },
     "2": {
       "arabic_text": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
@@ -50,7 +51,8 @@
           "translate_bn": "সর্বসত্তার ধারক"
         }
       },
-      "english_trans": "Allah, (there is) no god but He, the Everliving, the Self-subsisting by Whom all things subsist"
+      "english_trans": "Allah, (there is) no god but He, the Everliving, the Self-subsisting by Whom all things subsist",
+      "arabic_text_uthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ"
     },
     "3": {
       "arabic_text": "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ وَأَنْزَلَ التَّوْرَاةَ وَالْإِنْجِيلَ",
@@ -101,7 +103,8 @@
           "translate_bn": "ও ইঞ্জীল"
         }
       },
-      "english_trans": "He has revealed to you the Book with truth, verifying that which is before it, and He revealed the Tavrat and the Injeel aforetime, a guidance for the people, and He sent the Furqan."
+      "english_trans": "He has revealed to you the Book with truth, verifying that which is before it, and He revealed the Tavrat and the Injeel aforetime, a guidance for the people, and He sent the Furqan.",
+      "arabic_text_uthmani": "نَزَّلَ عَلَيْكَ ٱلْكِتَـٰبَ بِٱلْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ"
     },
     "4": {
       "arabic_text": "مِنْ قَبْلُ هُدًى لِلنَّاسِ وَأَنْزَلَ الْفُرْقَانَ إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ وَاللَّهُ عَزِيزٌ ذُو انْتِقَامٍ",
@@ -180,7 +183,8 @@
           "translate_bn": "প্রতিশোধ ক্ষমতা সম্পন্ন"
         }
       },
-      "english_trans": "Surely they who disbelieve in the communications of Allah they shall have a severe chastisement; and Allah is Mighty, the Lord of retribution."
+      "english_trans": "Surely they who disbelieve in the communications of Allah they shall have a severe chastisement; and Allah is Mighty, the Lord of retribution.",
+      "arabic_text_uthmani": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ ۗ إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ"
     },
     "5": {
       "arabic_text": "إِنَّ اللَّهَ لَا يَخْفَى عَلَيْهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ",
@@ -231,7 +235,8 @@
           "translate_bn": "আকাশের"
         }
       },
-      "english_trans": "Allah-- surely nothing is hidden from Him in the earth or in the heaven."
+      "english_trans": "Allah-- surely nothing is hidden from Him in the earth or in the heaven.",
+      "arabic_text_uthmani": "إِنَّ ٱللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَىْءٌ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ"
     },
     "6": {
       "arabic_text": "هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ لَا إِلَهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
@@ -290,7 +295,8 @@
           "translate_bn": "মহাবিজ্ঞ"
         }
       },
-      "english_trans": "He it is Who shapes you in the wombs as He likes; there is no god but He, the Mighty, the Wise"
+      "english_trans": "He it is Who shapes you in the wombs as He likes; there is no god but He, the Mighty, the Wise",
+      "arabic_text_uthmani": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
     },
     "7": {
       "arabic_text": "هُوَ الَّذِي أَنْزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ فَأَمَّا الَّذِينَ فِي قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ ابْتِغَاءَ الْفِتْنَةِ وَابْتِغَاءَ تَأْوِيلِهِ وَمَا يَعْلَمُ تَأْوِيلَهُ إِلَّا اللَّهُ وَالرَّاسِخُونَ فِي الْعِلْمِ يَقُولُونَ آمَنَّا بِهِ كُلٌّ مِنْ عِنْدِ رَبِّنَا وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ",
@@ -481,7 +487,8 @@
           "translate_bn": "বোধশক্তি সম্পন্ন"
         }
       },
-      "english_trans": "He it is Who has revealed the Book to you; some of its verses are decisive, they are the basis of the Book, and others are allegorical; then as for those in whose hearts there is perversity they follow the part of it which is allegorical, seeking to mislead and seeking to give it (their own) interpretation. but none knows its interpretation except Allah, and those who are firmly rooted in knowledge say: We believe in it, it is all from our Lord; and none do mind except those having understanding."
+      "english_trans": "He it is Who has revealed the Book to you; some of its verses are decisive, they are the basis of the Book, and others are allegorical; then as for those in whose hearts there is perversity they follow the part of it which is allegorical, seeking to mislead and seeking to give it (their own) interpretation. but none knows its interpretation except Allah, and those who are firmly rooted in knowledge say: We believe in it, it is all from our Lord; and none do mind except those having understanding.",
+      "arabic_text_uthmani": "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَـٰبَ مِنْهُ ءَايَـٰتٌ مُّحْكَمَـٰتٌ هُنَّ أُمُّ ٱلْكِتَـٰبِ وَأُخَرُ مُتَشَـٰبِهَـٰتٌ ۖ فَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَـٰبَهَ مِنْهُ ٱبْتِغَآءَ ٱلْفِتْنَةِ وَٱبْتِغَآءَ تَأْوِيلِهِۦ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُۥٓ إِلَّا ٱللَّهُ ۗ وَٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ"
     },
     "8": {
       "arabic_text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ",
@@ -548,7 +555,8 @@
           "translate_bn": "মহাদাতা"
         }
       },
-      "english_trans": "Our Lord! make not our hearts to deviate after Thou hast guided us aright, and grant us from Thee mercy; surely Thou art the most liberal Giver."
+      "english_trans": "Our Lord! make not our hearts to deviate after Thou hast guided us aright, and grant us from Thee mercy; surely Thou art the most liberal Giver.",
+      "arabic_text_uthmani": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ"
     },
     "9": {
       "arabic_text": "رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَا رَيْبَ فِيهِ إِنَّ اللَّهَ لَا يُخْلِفُ الْمِيعَادَ",
@@ -607,7 +615,8 @@
           "translate_bn": "প্রতিশ্রুতির"
         }
       },
-      "english_trans": "Our Lord! surely Thou art the Gatherer of men on a day about which there is no doubt; surely Allah will not fail (His) promise."
+      "english_trans": "Our Lord! surely Thou art the Gatherer of men on a day about which there is no doubt; surely Allah will not fail (His) promise.",
+      "arabic_text_uthmani": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ"
     },
     "10": {
       "arabic_text": "إِنَّ الَّذِينَ كَفَرُوا لَنْ تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُمْ مِنَ اللَّهِ شَيْئًا وَأُولَئِكَ هُمْ وَقُودُ النَّارِ",
@@ -678,7 +687,8 @@
           "translate_bn": "আগুনের (দোজখের)"
         }
       },
-      "english_trans": "(As for) those who disbelieve, surely neither their wealth nor their children shall avail them in the least against Allah, and these it is who are the fuel of the fire."
+      "english_trans": "(As for) those who disbelieve, surely neither their wealth nor their children shall avail them in the least against Allah, and these it is who are the fuel of the fire.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَـٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۖ وَأُو۟لَـٰٓئِكَ هُمْ وَقُودُ ٱلنَّارِ"
     },
     "11": {
       "arabic_text": "كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِنْ قَبْلِهِمْ كَذَّبُوا بِآيَاتِنَا فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ وَاللَّهُ شَدِيدُ الْعِقَابِ",
@@ -741,7 +751,8 @@
           "translate_bn": "শাস্তিদানে"
         }
       },
-      "english_trans": "Like the striving of the people of Firon and those before them; they rejected Our communications, so Allah destroyed them on account of their faults; and Allah is severe in requiting (evil)."
+      "english_trans": "Like the striving of the people of Firon and those before them; they rejected Our communications, so Allah destroyed them on account of their faults; and Allah is severe in requiting (evil).",
+      "arabic_text_uthmani": "كَدَأْبِ ءَالِ فِرْعَوْنَ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَـٰتِنَا فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ ۗ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ"
     },
     "12": {
       "arabic_text": "قُلْ لِلَّذِينَ كَفَرُوا سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَى جَهَنَّمَ وَبِئْسَ الْمِهَادُ",
@@ -784,7 +795,8 @@
           "translate_bn": "আবাসস্থল"
         }
       },
-      "english_trans": "Say to those who disbelieve: You shall be vanquished, and driven together to hell; and evil is the resting-place."
+      "english_trans": "Say to those who disbelieve: You shall be vanquished, and driven together to hell; and evil is the resting-place.",
+      "arabic_text_uthmani": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ ٱلْمِهَادُ"
     },
     "13": {
       "arabic_text": "قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ الْتَقَتَا فِئَةٌ تُقَاتِلُ فِي سَبِيلِ اللَّهِ وَأُخْرَى كَافِرَةٌ يَرَوْنَهُمْ مِثْلَيْهِمْ رَأْيَ الْعَيْنِ وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَنْ يَشَاءُ إِنَّ فِي ذَلِكَ لَعِبْرَةً لِأُولِي الْأَبْصَارِ",
@@ -907,7 +919,8 @@
           "translate_bn": "অন্তর্দৃষ্টি সম্পন্নদের"
         }
       },
-      "english_trans": "Indeed there was a sign for you in the two hosts (which) met together in encounter; one party fighting in the way of Allah and the other unbelieving, whom they saw twice as many as themselves with the sight of the eye and Allah strengthens with His aid whom He pleases; most surely there is a lesson in this for those who have sight."
+      "english_trans": "Indeed there was a sign for you in the two hosts (which) met together in encounter; one party fighting in the way of Allah and the other unbelieving, whom they saw twice as many as themselves with the sight of the eye and Allah strengthens with His aid whom He pleases; most surely there is a lesson in this for those who have sight.",
+      "arabic_text_uthmani": "قَدْ كَانَ لَكُمْ ءَايَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا ۖ فِئَةٌ تُقَـٰتِلُ فِى سَبِيلِ ٱللَّهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ ۚ وَٱللَّهُ يُؤَيِّدُ بِنَصْرِهِۦ مَن يَشَآءُ ۗ إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّأُو۟لِى ٱلْأَبْصَـٰرِ"
     },
     "14": {
       "arabic_text": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ذَلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا وَاللَّهُ عِنْدَهُ حُسْنُ الْمَآبِ",
@@ -1010,7 +1023,8 @@
           "translate_bn": "আশ্রয়স্থল"
         }
       },
-      "english_trans": "The love of desires, of women and sons and hoarded treasures of gold and silver and well bred horses and cattle and tilth, is made to seem fair to men; this is the provision of the life of this world; and Allah is He with Whom is the good goal (of life)."
+      "english_trans": "The love of desires, of women and sons and hoarded treasures of gold and silver and well bred horses and cattle and tilth, is made to seem fair to men; this is the provision of the life of this world; and Allah is He with Whom is the good goal (of life).",
+      "arabic_text_uthmani": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَـٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَـٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ"
     },
     "15": {
       "arabic_text": "قُلْ أَؤُنَبِّئُكُمْ بِخَيْرٍ مِنْ ذَلِكُمْ لِلَّذِينَ اتَّقَوْا عِنْدَ رَبِّهِمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَأَزْوَاجٌ مُطَهَّرَةٌ وَرِضْوَانٌ مِنَ اللَّهِ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ",
@@ -1113,7 +1127,8 @@
           "translate_bn": "বান্দাদের উপর"
         }
       },
-      "english_trans": "Say:Shall}I tell you what is better than these? For those who guard (against evil) are gardens with their Lord, beneath which rivers flow, to abide in them, and pure mates and Allah´s pleasure; and Allah sees the servants."
+      "english_trans": "Say:Shall}I tell you what is better than these? For those who guard (against evil) are gardens with their Lord, beneath which rivers flow, to abide in them, and pure mates and Allah´s pleasure; and Allah sees the servants.",
+      "arabic_text_uthmani": "۞ قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَٰلِكُمْ ۚ لِلَّذِينَ ٱتَّقَوْا۟ عِندَ رَبِّهِمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا وَأَزْوَٰجٌ مُّطَهَّرَةٌ وَرِضْوَٰنٌ مِّنَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ"
     },
     "16": {
       "arabic_text": "الَّذِينَ يَقُولُونَ رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
@@ -1164,7 +1179,8 @@
           "translate_bn": "জাহান্নামের"
         }
       },
-      "english_trans": "Those who say: Our Lord! surely we believe, therefore forgive us our faults and save us from the chastisement of the fire."
+      "english_trans": "Those who say: Our Lord! surely we believe, therefore forgive us our faults and save us from the chastisement of the fire.",
+      "arabic_text_uthmani": "ٱلَّذِينَ يَقُولُونَ رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ"
     },
     "17": {
       "arabic_text": "الصَّابِرِينَ وَالصَّادِقِينَ وَالْقَانِتِينَ وَالْمُنْفِقِينَ وَالْمُسْتَغْفِرِينَ بِالْأَسْحَارِ",
@@ -1195,7 +1211,8 @@
           "translate_bn": "রাতের শেষপ্রান্তে"
         }
       },
-      "english_trans": "The patient, and the truthful, and the obedient, and those who spend (benevolently) and those who ask forgiveness in the morning times."
+      "english_trans": "The patient, and the truthful, and the obedient, and those who spend (benevolently) and those who ask forgiveness in the morning times.",
+      "arabic_text_uthmani": "ٱلصَّـٰبِرِينَ وَٱلصَّـٰدِقِينَ وَٱلْقَـٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ"
     },
     "18": {
       "arabic_text": "شَهِدَ اللَّهُ أَنَّهُ لَا إِلَهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ لَا إِلَهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
@@ -1274,7 +1291,8 @@
           "translate_bn": "মহাবিজ্ঞ"
         }
       },
-      "english_trans": "Allah bears witness that there is no god but He, and (so do) the angels and those possessed of knowledge, maintaining His creation with justice; there is no god but He, the Mighty, the Wise."
+      "english_trans": "Allah bears witness that there is no god but He, and (so do) the angels and those possessed of knowledge, maintaining His creation with justice; there is no god but He, the Mighty, the Wise.",
+      "arabic_text_uthmani": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
     },
     "19": {
       "arabic_text": "إِنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِنْ بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْيًا بَيْنَهُمْ وَمَنْ يَكْفُرْ بِآيَاتِ اللَّهِ فَإِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
@@ -1385,7 +1403,8 @@
           "translate_bn": "হিসাব (নিতে)"
         }
       },
-      "english_trans": "Surely the (true) religion with Allah is Islam, and those to whom the Book had been given did not show opposition but after knowledge had come to them, out of envy among themselves; and whoever disbelieves in the communications of Allah then surely Allah is quick in reckoning."
+      "english_trans": "Surely the (true) religion with Allah is Islam, and those to whom the Book had been given did not show opposition but after knowledge had come to them, out of envy among themselves; and whoever disbelieves in the communications of Allah then surely Allah is quick in reckoning.",
+      "arabic_text_uthmani": "إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَـٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَـٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ"
     },
     "20": {
       "arabic_text": "فَإِنْ حَاجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِيَ لِلَّهِ وَمَنِ اتَّبَعَنِ وَقُلْ لِلَّذِينَ أُوتُوا الْكِتَابَ وَالْأُمِّيِّينَ أَأَسْلَمْتُمْ فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ",
@@ -1496,7 +1515,8 @@
           "translate_bn": "বান্দাদের উপর"
         }
       },
-      "english_trans": "But if they dispute with you, say: I have submitted myself entirely to Allah and (so) every one who follows me; and say to those who have been given the Book and the unlearned people: Do you submit yourselves? So if they submit then indeed they follow the right way; and if they turn back, then upon you is only the delivery of the message and Allah sees the servants."
+      "english_trans": "But if they dispute with you, say: I have submitted myself entirely to Allah and (so) every one who follows me; and say to those who have been given the Book and the unlearned people: Do you submit yourselves? So if they submit then indeed they follow the right way; and if they turn back, then upon you is only the delivery of the message and Allah sees the servants.",
+      "arabic_text_uthmani": "فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَٱلْأُمِّيِّـۧنَ ءَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا۟ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا عَلَيْكَ ٱلْبَلَـٰغُ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ"
     },
     "21": {
       "arabic_text": "إِنَّ الَّذِينَ يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ",
@@ -1575,7 +1595,8 @@
           "translate_bn": "বড় যন্ত্রণাদায়ক"
         }
       },
-      "english_trans": "Surely (as for) those who disbelieve in the communications of Allah and slay the prophets unjustly and slay those among men who enjoin justice, announce to them a painful chastisement."
+      "english_trans": "Surely (as for) those who disbelieve in the communications of Allah and slay the prophets unjustly and slay those among men who enjoin justice, announce to them a painful chastisement.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ ٱلَّذِينَ يَأْمُرُونَ بِٱلْقِسْطِ مِنَ ٱلنَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ"
     },
     "22": {
       "arabic_text": "أُولَئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُمْ مِنْ نَاصِرِينَ",
@@ -1626,7 +1647,8 @@
           "translate_bn": "সাহায্যকারী"
         }
       },
-      "english_trans": "Those are they whose works shall become null in this world as well as the hereafter, and they shall have no helpers."
+      "english_trans": "Those are they whose works shall become null in this world as well as the hereafter, and they shall have no helpers.",
+      "arabic_text_uthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ حَبِطَتْ أَعْمَـٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِينَ"
     },
     "23": {
       "arabic_text": "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِنَ الْكِتَابِ يُدْعَوْنَ إِلَى كِتَابِ اللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّى فَرِيقٌ مِنْهُمْ وَهُمْ مُعْرِضُونَ",
@@ -1713,7 +1735,8 @@
           "translate_bn": "মুখ ফিরিয়ে নেয়"
         }
       },
-      "english_trans": "Have you not considered those (Jews) who are given a portion of the Book? They are invited to the Book of Allah that it might decide between them, then a part of them turn back and they withdraw."
+      "english_trans": "Have you not considered those (Jews) who are given a portion of the Book? They are invited to the Book of Allah that it might decide between them, then a part of them turn back and they withdraw.",
+      "arabic_text_uthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَـٰبِ يُدْعَوْنَ إِلَىٰ كِتَـٰبِ ٱللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُمْ وَهُم مُّعْرِضُونَ"
     },
     "24": {
       "arabic_text": "ذَلِكَ بِأَنَّهُمْ قَالُوا لَنْ تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا مَعْدُودَاتٍ وَغَرَّهُمْ فِي دِينِهِمْ مَا كَانُوا يَفْتَرُونَ",
@@ -1780,7 +1803,8 @@
           "translate_bn": "তারা উদ্ভাবন"
         }
       },
-      "english_trans": "This is because they say: The fire shall not touch us but for a few days; and what they have forged deceives them in the matter of their religion."
+      "english_trans": "This is because they say: The fire shall not touch us but for a few days; and what they have forged deceives them in the matter of their religion.",
+      "arabic_text_uthmani": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامًا مَّعْدُودَٰتٍ ۖ وَغَرَّهُمْ فِى دِينِهِم مَّا كَانُوا۟ يَفْتَرُونَ"
     },
     "25": {
       "arabic_text": "فَكَيْفَ إِذَا جَمَعْنَاهُمْ لِيَوْمٍ لَا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
@@ -1847,7 +1871,8 @@
           "translate_bn": "জুলুম করা হবে"
         }
       },
-      "english_trans": "Then how will it be when We shall gather them together on a day about which there is no doubt, and every soul shall be fully paid what it has earned, and they shall not be dealt with unjustly?"
+      "english_trans": "Then how will it be when We shall gather them together on a day about which there is no doubt, and every soul shall be fully paid what it has earned, and they shall not be dealt with unjustly?",
+      "arabic_text_uthmani": "فَكَيْفَ إِذَا جَمَعْنَـٰهُمْ لِيَوْمٍ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ"
     },
     "26": {
       "arabic_text": "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ بِيَدِكَ الْخَيْرُ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
@@ -1954,7 +1979,8 @@
           "translate_bn": "ক্ষমতাবান"
         }
       },
-      "english_trans": "Say: O Allah, Master of the Kingdom! Thou givest the kingdom to whomsoever Thou pleasest and takest away the kingdom from whomsoever Thou pleasest, and Thou exaltest whom Thou pleasest and abasest whom Thou pleasest in Thine hand is the good; surety, Thou hast power over all things."
+      "english_trans": "Say: O Allah, Master of the Kingdom! Thou givest the kingdom to whomsoever Thou pleasest and takest away the kingdom from whomsoever Thou pleasest, and Thou exaltest whom Thou pleasest and abasest whom Thou pleasest in Thine hand is the good; surety, Thou hast power over all things.",
+      "arabic_text_uthmani": "قُلِ ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
     },
     "27": {
       "arabic_text": "تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَتَرْزُقُ مَنْ تَشَاءُ بِغَيْرِ حِسَابٍ",
@@ -2045,7 +2071,8 @@
           "translate_bn": "কোন হিসেব"
         }
       },
-      "english_trans": "Thou makest the night to pass into the day and Thou makest the day to pass into the night, and Thou bringest forth the living from the dead and Thou bringest forth the dead from the living, and Thou givest sustenance to whom Thou pleasest without measure."
+      "english_trans": "Thou makest the night to pass into the day and Thou makest the day to pass into the night, and Thou bringest forth the living from the dead and Thou bringest forth the dead from the living, and Thou givest sustenance to whom Thou pleasest without measure.",
+      "arabic_text_uthmani": "تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ"
     },
     "28": {
       "arabic_text": "لَا يَتَّخِذِ الْمُؤْمِنُونَ الْكَافِرِينَ أَوْلِيَاءَ مِنْ دُونِ الْمُؤْمِنِينَ وَمَنْ يَفْعَلْ ذَلِكَ فَلَيْسَ مِنَ اللَّهِ فِي شَيْءٍ إِلَّا أَنْ تَتَّقُوا مِنْهُمْ تُقَاةً وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ وَإِلَى اللَّهِ الْمَصِيرُ",
@@ -2160,7 +2187,8 @@
           "translate_bn": "(তোমাদের) প্রত্যাবর্তন হবে"
         }
       },
-      "english_trans": "Let not the believers take the unbelievers for friends rather than believers; and whoever does this, he shall have nothing of (the guardianship of) Allah, but you should guard yourselves against them, guarding carefully; and Allah makes you cautious of (retribution from) Himself; and to Allah is the eventual coming."
+      "english_trans": "Let not the believers take the unbelievers for friends rather than believers; and whoever does this, he shall have nothing of (the guardianship of) Allah, but you should guard yourselves against them, guarding carefully; and Allah makes you cautious of (retribution from) Himself; and to Allah is the eventual coming.",
+      "arabic_text_uthmani": "لَّا يَتَّخِذِ ٱلْمُؤْمِنُونَ ٱلْكَـٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۖ وَمَن يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ ٱللَّهِ فِى شَىْءٍ إِلَّآ أَن تَتَّقُوا۟ مِنْهُمْ تُقَىٰةً ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ"
     },
     "29": {
       "arabic_text": "قُلْ إِنْ تُخْفُوا مَا فِي صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ اللَّهُ وَيَعْلَمُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
@@ -2255,7 +2283,8 @@
           "translate_bn": "ক্ষমতাবান"
         }
       },
-      "english_trans": "Say: Whether you hide what is in your hearts or manifest it, Allah knows it, and He knows whatever is in the heavens and whatever is in the earth, and Allah has power over all things."
+      "english_trans": "Say: Whether you hide what is in your hearts or manifest it, Allah knows it, and He knows whatever is in the heavens and whatever is in the earth, and Allah has power over all things.",
+      "arabic_text_uthmani": "قُلْ إِن تُخْفُوا۟ مَا فِى صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ ٱللَّهُ ۗ وَيَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
     },
     "30": {
       "arabic_text": "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَا عَمِلَتْ مِنْ خَيْرٍ مُحْضَرًا وَمَا عَمِلَتْ مِنْ سُوءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُ أَمَدًا بَعِيدًا وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ",
@@ -2366,7 +2395,8 @@
           "translate_bn": "বান্দাদের উপর"
         }
       },
-      "english_trans": "On the day that every soul shall find present what it has done of good and what it has done of evil, it shall wish that between it and that (evil) there were a long duration of time; and Allah makes you to be cautious of (retribution from) Himself; and Allah is Compassionate to the servants."
+      "english_trans": "On the day that every soul shall find present what it has done of good and what it has done of evil, it shall wish that between it and that (evil) there were a long duration of time; and Allah makes you to be cautious of (retribution from) Himself; and Allah is Compassionate to the servants.",
+      "arabic_text_uthmani": "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا وَمَا عَمِلَتْ مِن سُوٓءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَدًۢا بَعِيدًا ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ"
     },
     "31": {
       "arabic_text": "قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ",
@@ -2429,7 +2459,8 @@
           "translate_bn": "মেহেরবান"
         }
       },
-      "english_trans": "Say: If you love Allah, then follow me, Allah will love you and forgive you your faults, and Allah is Forgiving, MercifuL"
+      "english_trans": "Say: If you love Allah, then follow me, Allah will love you and forgive you your faults, and Allah is Forgiving, MercifuL",
+      "arabic_text_uthmani": "قُلْ إِن كُنتُمْ تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ"
     },
     "32": {
       "arabic_text": "قُلْ أَطِيعُوا اللَّهَ وَالرَّسُولَ فَإِنْ تَوَلَّوْا فَإِنَّ اللَّهَ لَا يُحِبُّ الْكَافِرِينَ",
@@ -2480,7 +2511,8 @@
           "translate_bn": "কাফিরদের কে"
         }
       },
-      "english_trans": "Say: Obey Allah and the Messenger; but if they turn back, then surely Allah does not love the unbelievers."
+      "english_trans": "Say: Obey Allah and the Messenger; but if they turn back, then surely Allah does not love the unbelievers.",
+      "arabic_text_uthmani": "قُلْ أَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ ۖ فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْكَـٰفِرِينَ"
     },
     "33": {
       "arabic_text": "إِنَّ اللَّهَ اصْطَفَى آدَمَ وَنُوحًا وَآلَ إِبْرَاهِيمَ وَآلَ عِمْرَانَ عَلَى الْعَالَمِينَ",
@@ -2531,7 +2563,8 @@
           "translate_bn": "সারা দুনিয়ার (লোকদেরকে)"
         }
       },
-      "english_trans": "Surely Allah chose Adam and Nuh and the descendants of Ibrahim and the descendants of Imran above the nations."
+      "english_trans": "Surely Allah chose Adam and Nuh and the descendants of Ibrahim and the descendants of Imran above the nations.",
+      "arabic_text_uthmani": "۞ إِنَّ ٱللَّهَ ٱصْطَفَىٰٓ ءَادَمَ وَنُوحًا وَءَالَ إِبْرَٰهِيمَ وَءَالَ عِمْرَٰنَ عَلَى ٱلْعَـٰلَمِينَ"
     },
     "34": {
       "arabic_text": "ذُرِّيَّةً بَعْضُهَا مِنْ بَعْضٍ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
@@ -2566,7 +2599,8 @@
           "translate_bn": "সবকিছুই জানেন"
         }
       },
-      "english_trans": "Offspring one of the other; and Allah is Hearing, Knowing."
+      "english_trans": "Offspring one of the other; and Allah is Hearing, Knowing.",
+      "arabic_text_uthmani": "ذُرِّيَّةًۢ بَعْضُهَا مِنۢ بَعْضٍ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
     },
     "35": {
       "arabic_text": "إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
@@ -2645,7 +2679,8 @@
           "translate_bn": "সবকিছুই জান"
         }
       },
-      "english_trans": "When a woman of Imran said: My Lord! surely I vow to Thee what is in my womb, to be devoted (to Thy service); accept therefore from me, surely Thou art the Hearing, the Knowing."
+      "english_trans": "When a woman of Imran said: My Lord! surely I vow to Thee what is in my womb, to be devoted (to Thy service); accept therefore from me, surely Thou art the Hearing, the Knowing.",
+      "arabic_text_uthmani": "إِذْ قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًا فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ"
     },
     "36": {
       "arabic_text": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنْثَى وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ الذَّكَرُ كَالْأُنْثَى وَإِنِّي سَمَّيْتُهَا مَرْيَمَ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ",
@@ -2748,7 +2783,8 @@
           "translate_bn": "অভিশপ্ত"
         }
       },
-      "english_trans": "So when she brought forth, she said: My Lord! Surely I have brought it forth a female-- and Allah knew best what she brought forth-- and the male is not like the female, and I have named it Marium, and I commend her and her offspring into Thy protection from the accursed Shaitan."
+      "english_trans": "So when she brought forth, she said: My Lord! Surely I have brought it forth a female-- and Allah knew best what she brought forth-- and the male is not like the female, and I have named it Marium, and I commend her and her offspring into Thy protection from the accursed Shaitan.",
+      "arabic_text_uthmani": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَـٰنِ ٱلرَّجِيمِ"
     },
     "37": {
       "arabic_text": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنْبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا الْمِحْرَابَ وَجَدَ عِنْدَهَا رِزْقًا قَالَ يَا مَرْيَمُ أَنَّى لَكِ هَذَا قَالَتْ هُوَ مِنْ عِنْدِ اللَّهِ إِنَّ اللَّهَ يَرْزُقُ مَنْ يَشَاءُ بِغَيْرِ حِسَابٍ",
@@ -2891,7 +2927,8 @@
           "translate_bn": "কোন হিসাব"
         }
       },
-      "english_trans": "So her Lord accepted her with a good acceptance and made her grow up a good growing, and gave her into the charge of Zakariya; whenever Zakariya entered the sanctuary to (see) her, he found with her food. He said: O Marium! whence comes this to you? She said: It is from Allah. Surely Allah gives to whom He pleases without measure."
+      "english_trans": "So her Lord accepted her with a good acceptance and made her grow up a good growing, and gave her into the charge of Zakariya; whenever Zakariya entered the sanctuary to (see) her, he found with her food. He said: O Marium! whence comes this to you? She said: It is from Allah. Surely Allah gives to whom He pleases without measure.",
+      "arabic_text_uthmani": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنۢبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَـٰمَرْيَمُ أَنَّىٰ لَكِ هَـٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ"
     },
     "38": {
       "arabic_text": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ قَالَ رَبِّ هَبْ لِي مِنْ لَدُنْكَ ذُرِّيَّةً طَيِّبَةً إِنَّكَ سَمِيعُ الدُّعَاءِ",
@@ -2958,7 +2995,8 @@
           "translate_bn": "দুআ"
         }
       },
-      "english_trans": "There did Zakariya pray to his Lord; he said: My Lord! grant me from Thee good offspring; surely Thou art the Hearer of prayer."
+      "english_trans": "There did Zakariya pray to his Lord; he said: My Lord! grant me from Thee good offspring; surely Thou art the Hearer of prayer.",
+      "arabic_text_uthmani": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُۥ ۖ قَالَ رَبِّ هَبْ لِى مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ"
     },
     "39": {
       "arabic_text": "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَى مُصَدِّقًا بِكَلِمَةٍ مِنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِنَ الصَّالِحِينَ",
@@ -3045,7 +3083,8 @@
           "translate_bn": "সৎকর্মশীলদের"
         }
       },
-      "english_trans": "Then the angels called to him as he stood praying in the sanctuary: That Allah gives you the good news of Yahya verifying a Word from Allah, and honorable and chaste and a prophet from among the good ones."
+      "english_trans": "Then the angels called to him as he stood praying in the sanctuary: That Allah gives you the good news of Yahya verifying a Word from Allah, and honorable and chaste and a prophet from among the good ones.",
+      "arabic_text_uthmani": "فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ ٱلصَّـٰلِحِينَ"
     },
     "40": {
       "arabic_text": "قَالَ رَبِّ أَنَّى يَكُونُ لِي غُلَامٌ وَقَدْ بَلَغَنِيَ الْكِبَرُ وَامْرَأَتِي عَاقِرٌ قَالَ كَذَلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ",
@@ -3120,7 +3159,8 @@
           "translate_bn": "তিনি ইচ্ছা করেন"
         }
       },
-      "english_trans": "He said: My Lord! when shall there be a son (born) to me, and old age has already come upon me, and my wife is barren? He said: even thus does Allah what He pleases."
+      "english_trans": "He said: My Lord! when shall there be a son (born) to me, and old age has already come upon me, and my wife is barren? He said: even thus does Allah what He pleases.",
+      "arabic_text_uthmani": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَـٰمٌ وَقَدْ بَلَغَنِىَ ٱلْكِبَرُ وَٱمْرَأَتِى عَاقِرٌ ۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفْعَلُ مَا يَشَآءُ"
     },
     "41": {
       "arabic_text": "قَالَ رَبِّ اجْعَلْ لِي آيَةً قَالَ آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا وَاذْكُرْ رَبَّكَ كَثِيرًا وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ",
@@ -3207,7 +3247,8 @@
           "translate_bn": "ও প্রভাতে"
         }
       },
-      "english_trans": "He said: My Lord! appoint a sign for me. Said He: Your sign is that you should not speak to men for three days except by signs; and remember your Lord much and glorify Him in the evening and the morning."
+      "english_trans": "He said: My Lord! appoint a sign for me. Said He: Your sign is that you should not speak to men for three days except by signs; and remember your Lord much and glorify Him in the evening and the morning.",
+      "arabic_text_uthmani": "قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةً ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَـٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَـٰرِ"
     },
     "42": {
       "arabic_text": "وَإِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَى نِسَاءِ الْعَالَمِينَ",
@@ -3262,7 +3303,8 @@
           "translate_bn": "সারা বিশ্বের"
         }
       },
-      "english_trans": "And when the angels said: O Marium! surely Allah has chosen you and purified you and chosen you above the women of of the world."
+      "english_trans": "And when the angels said: O Marium! surely Allah has chosen you and purified you and chosen you above the women of of the world.",
+      "arabic_text_uthmani": "وَإِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ ٱصْطَفَىٰكِ وَطَهَّرَكِ وَٱصْطَفَىٰكِ عَلَىٰ نِسَآءِ ٱلْعَـٰلَمِينَ"
     },
     "43": {
       "arabic_text": "يَا مَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ",
@@ -3297,7 +3339,8 @@
           "translate_bn": "রুকুকারীদের"
         }
       },
-      "english_trans": "O Marium! keep to obedience to your Lord and humble yourself, and bow down with those who bow."
+      "english_trans": "O Marium! keep to obedience to your Lord and humble yourself, and bow down with those who bow.",
+      "arabic_text_uthmani": "يَـٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ"
     },
     "44": {
       "arabic_text": "ذَلِكَ مِنْ أَنْبَاءِ الْغَيْبِ نُوحِيهِ إِلَيْكَ وَمَا كُنْتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَامَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنْتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
@@ -3384,7 +3427,8 @@
           "translate_bn": "তারা ঝগড়া করছিল পরস্পরে"
         }
       },
-      "english_trans": "This is of the announcements relating to the unseen which We reveal to you; and you were not with them when they cast their pens (to decide) which of them should have Marium in his charge, and you were not with them when they contended one with another."
+      "english_trans": "This is of the announcements relating to the unseen which We reveal to you; and you were not with them when they cast their pens (to decide) which of them should have Marium in his charge, and you were not with them when they contended one with another.",
+      "arabic_text_uthmani": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَـٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ"
     },
     "45": {
       "arabic_text": "إِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ اسْمُهُ الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ وَجِيهًا فِي الدُّنْيَا وَالْآخِرَةِ وَمِنَ الْمُقَرَّبِينَ",
@@ -3471,7 +3515,8 @@
           "translate_bn": "সান্নিধ্য প্রাপ্তদের"
         }
       },
-      "english_trans": "When the angels said: O Marium, surely Allah gives you good news with a Word from Him (of one) whose name is the ´. Messiah, Isa son of Marium, worthy of regard in this world and the hereafter and of those who are made near (to Allah)."
+      "english_trans": "When the angels said: O Marium, surely Allah gives you good news with a Word from Him (of one) whose name is the ´. Messiah, Isa son of Marium, worthy of regard in this world and the hereafter and of those who are made near (to Allah).",
+      "arabic_text_uthmani": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ"
     },
     "46": {
       "arabic_text": "وَيُكَلِّمُ النَّاسَ فِي الْمَهْدِ وَكَهْلًا وَمِنَ الصَّالِحِينَ",
@@ -3506,7 +3551,8 @@
           "translate_bn": "সৎকর্মশীলদের"
         }
       },
-      "english_trans": "And he shall speak to the people when in the cradle and when of old age, and (he shall be) one of the good ones."
+      "english_trans": "And he shall speak to the people when in the cradle and when of old age, and (he shall be) one of the good ones.",
+      "arabic_text_uthmani": "وَيُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّـٰلِحِينَ"
     },
     "47": {
       "arabic_text": "قَالَتْ رَبِّ أَنَّى يَكُونُ لِي وَلَدٌ وَلَمْ يَمْسَسْنِي بَشَرٌ قَالَ كَذَلِكِ اللَّهُ يَخْلُقُ مَا يَشَاءُ إِذَا قَضَى أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُنْ فَيَكُونُ",
@@ -3605,7 +3651,8 @@
           "translate_bn": "অতঃপর হয়ে যায়"
         }
       },
-      "english_trans": "She said: My Lord! when shall there be a son (born) to I me, and man has not touched me? He said: Even so, Allah creates what He pleases; when He has decreed a matter, He only says to it, Be, and it is."
+      "english_trans": "She said: My Lord! when shall there be a son (born) to I me, and man has not touched me? He said: Even so, Allah creates what He pleases; when He has decreed a matter, He only says to it, Be, and it is.",
+      "arabic_text_uthmani": "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌ وَلَمْ يَمْسَسْنِى بَشَرٌ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ"
     },
     "48": {
       "arabic_text": "وَيُعَلِّمُهُ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنْجِيلَ",
@@ -3632,7 +3679,8 @@
           "translate_bn": "ও ইনজীল"
         }
       },
-      "english_trans": "And He will teach him the Book and the wisdom and the Tavrat and the Injeel."
+      "english_trans": "And He will teach him the Book and the wisdom and the Tavrat and the Injeel.",
+      "arabic_text_uthmani": "وَيُعَلِّمُهُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ"
     },
     "49": {
       "arabic_text": "وَرَسُولًا إِلَى بَنِي إِسْرَائِيلَ أَنِّي قَدْ جِئْتُكُمْ بِآيَةٍ مِنْ رَبِّكُمْ أَنِّي أَخْلُقُ لَكُمْ مِنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنْفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَى بِإِذْنِ اللَّهِ وَأُنَبِّئُكُمْ بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمْ إِنَّ فِي ذَلِكَ لَآيَةً لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ",
@@ -3819,7 +3867,8 @@
           "translate_bn": "মুমিন"
         }
       },
-      "english_trans": "And (make him) a messenger to the children of Israel: That I have come to you with a sign from your Lord, that I determine for you out of dust like the form of a bird, then I breathe into it and it becomes a bird with Allah´s permission and I heal the blind and the leprous, and bring the dead to life with Allah´s permission and I inform you of what you should eat and what you should store in your houses; most surely there is a sign in this for you, if you are believers."
+      "english_trans": "And (make him) a messenger to the children of Israel: That I have come to you with a sign from your Lord, that I determine for you out of dust like the form of a bird, then I breathe into it and it becomes a bird with Allah´s permission and I heal the blind and the leprous, and bring the dead to life with Allah´s permission and I inform you of what you should eat and what you should store in your houses; most surely there is a sign in this for you, if you are believers.",
+      "arabic_text_uthmani": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ"
     },
     "50": {
       "arabic_text": "وَمُصَدِّقًا لِمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَلِأُحِلَّ لَكُمْ بَعْضَ الَّذِي حُرِّمَ عَلَيْكُمْ وَجِئْتُكُمْ بِآيَةٍ مِنْ رَبِّكُمْ فَاتَّقُوا اللَّهَ وَأَطِيعُونِ",
@@ -3902,7 +3951,8 @@
           "translate_bn": "এবং আমার আনুগত্য কর"
         }
       },
-      "english_trans": "And a verifier of that which is before me of the Taurat and that I may allow you part of that which has been forbidden t you, and I have come to you with a sign from your Lord therefore be careful of (your duty to) Allah and obey me."
+      "english_trans": "And a verifier of that which is before me of the Taurat and that I may allow you part of that which has been forbidden t you, and I have come to you with a sign from your Lord therefore be careful of (your duty to) Allah and obey me.",
+      "arabic_text_uthmani": "وَمُصَدِّقًا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَلِأُحِلَّ لَكُم بَعْضَ ٱلَّذِى حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ"
     },
     "51": {
       "arabic_text": "إِنَّ اللَّهَ رَبِّي وَرَبُّكُمْ فَاعْبُدُوهُ هَذَا صِرَاطٌ مُسْتَقِيمٌ",
@@ -3941,7 +3991,8 @@
           "translate_bn": "সরল সঠিক"
         }
       },
-      "english_trans": "Surely Allah is my Lord and your Lord, therefore serve Him; this is the right path."
+      "english_trans": "Surely Allah is my Lord and your Lord, therefore serve Him; this is the right path.",
+      "arabic_text_uthmani": "إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ"
     },
     "52": {
       "arabic_text": "فَلَمَّا أَحَسَّ عِيسَى مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنْصَارِي إِلَى اللَّهِ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنْصَارُ اللَّهِ آمَنَّا بِاللَّهِ وَاشْهَدْ بِأَنَّا مُسْلِمُونَ",
@@ -4028,7 +4079,8 @@
           "translate_bn": "(আত্মসমর্পণকারী) মুসলমান"
         }
       },
-      "english_trans": "But when Isa perceived unbelief on their part, he said Who will be my helpers in Allah´s way? The disciples said: We are helpers (in the way) of Allah: We believe in Allah and bear witness that we are submitting ones."
+      "english_trans": "But when Isa perceived unbelief on their part, he said Who will be my helpers in Allah´s way? The disciples said: We are helpers (in the way) of Allah: We believe in Allah and bear witness that we are submitting ones.",
+      "arabic_text_uthmani": "۞ فَلَمَّآ أَحَسَّ عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ ءَامَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ"
     },
     "53": {
       "arabic_text": "رَبَّنَا آمَنَّا بِمَا أَنْزَلْتَ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ",
@@ -4071,7 +4123,8 @@
           "translate_bn": "সাক্ষ্যদাতাদের"
         }
       },
-      "english_trans": "Our Lord! we believe in what Thou hast revealed and we follow the messenger, so write us down with those who bear witness."
+      "english_trans": "Our Lord! we believe in what Thou hast revealed and we follow the messenger, so write us down with those who bear witness.",
+      "arabic_text_uthmani": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ"
     },
     "54": {
       "arabic_text": "وَمَكَرُوا وَمَكَرَ اللَّهُ وَاللَّهُ خَيْرُ الْمَاكِرِينَ",
@@ -4102,7 +4155,8 @@
           "translate_bn": "সব ষড়যন্ত্রকারীদের"
         }
       },
-      "english_trans": "And they planned and Allah (also) planned, and Allah is the best of planners."
+      "english_trans": "And they planned and Allah (also) planned, and Allah is the best of planners.",
+      "arabic_text_uthmani": "وَمَكَرُوا۟ وَمَكَرَ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَـٰكِرِينَ"
     },
     "55": {
       "arabic_text": "إِذْ قَالَ اللَّهُ يَا عِيسَى إِنِّي مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنَ الَّذِينَ كَفَرُوا وَجَاعِلُ الَّذِينَ اتَّبَعُوكَ فَوْقَ الَّذِينَ كَفَرُوا إِلَى يَوْمِ الْقِيَامَةِ ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنْتُمْ فِيهِ تَخْتَلِفُونَ",
@@ -4229,7 +4283,8 @@
           "translate_bn": "মতবিরোধ করতে"
         }
       },
-      "english_trans": "And when Allah said: O Isa, I am going to terminate the period of your stay (on earth) and cause you to ascend unto Me and purify you of those who disbelieve and make those who follow you above those who disbelieve to the day of resurrection; then to Me shall be your return, so l will decide between you concerning that in which you differed."
+      "english_trans": "And when Allah said: O Isa, I am going to terminate the period of your stay (on earth) and cause you to ascend unto Me and purify you of those who disbelieve and make those who follow you above those who disbelieve to the day of resurrection; then to Me shall be your return, so l will decide between you concerning that in which you differed.",
+      "arabic_text_uthmani": "إِذْ قَالَ ٱللَّهُ يَـٰعِيسَىٰٓ إِنِّى مُتَوَفِّيكَ وَرَافِعُكَ إِلَىَّ وَمُطَهِّرُكَ مِنَ ٱلَّذِينَ كَفَرُوا۟ وَجَاعِلُ ٱلَّذِينَ ٱتَّبَعُوكَ فَوْقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ ۖ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ"
     },
     "56": {
       "arabic_text": "فَأَمَّا الَّذِينَ كَفَرُوا فَأُعَذِّبُهُمْ عَذَابًا شَدِيدًا فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُمْ مِنْ نَاصِرِينَ",
@@ -4288,7 +4343,8 @@
           "translate_bn": "সাহায্যকারী"
         }
       },
-      "english_trans": "Then as to those who disbelieve, I will chastise them with severe chastisement in this world and the hereafter, and they shall have no helpers."
+      "english_trans": "Then as to those who disbelieve, I will chastise them with severe chastisement in this world and the hereafter, and they shall have no helpers.",
+      "arabic_text_uthmani": "فَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَأُعَذِّبُهُمْ عَذَابًا شَدِيدًا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِينَ"
     },
     "57": {
       "arabic_text": "وَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ",
@@ -4339,7 +4395,8 @@
           "translate_bn": "জালেমদেরকে"
         }
       },
-      "english_trans": "And as to those who believe and do good deeds, He will pay them fully their rewards; and Allah does not love the unjust."
+      "english_trans": "And as to those who believe and do good deeds, He will pay them fully their rewards; and Allah does not love the unjust.",
+      "arabic_text_uthmani": "وَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّـٰلِمِينَ"
     },
     "58": {
       "arabic_text": "ذَلِكَ نَتْلُوهُ عَلَيْكَ مِنَ الْآيَاتِ وَالذِّكْرِ الْحَكِيمِ",
@@ -4374,7 +4431,8 @@
           "translate_bn": "জ্ঞানগর্ভ"
         }
       },
-      "english_trans": "This We recite to you of the communications and the wise reminder."
+      "english_trans": "This We recite to you of the communications and the wise reminder.",
+      "arabic_text_uthmani": "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ ٱلْـَٔايَـٰتِ وَٱلذِّكْرِ ٱلْحَكِيمِ"
     },
     "59": {
       "arabic_text": "إِنَّ مَثَلَ عِيسَى عِنْدَ اللَّهِ كَمَثَلِ آدَمَ خَلَقَهُ مِنْ تُرَابٍ ثُمَّ قَالَ لَهُ كُنْ فَيَكُونُ",
@@ -4441,7 +4499,8 @@
           "translate_bn": "সে তখনই হয়ে যায়"
         }
       },
-      "english_trans": "Surely the likeness of Isa is with Allah as the likeness of Adam; He created him from dust, then said to him, Be, and he was."
+      "english_trans": "Surely the likeness of Isa is with Allah as the likeness of Adam; He created him from dust, then said to him, Be, and he was.",
+      "arabic_text_uthmani": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ ءَادَمَ ۖ خَلَقَهُۥ مِن تُرَابٍ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ"
     },
     "60": {
       "arabic_text": "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
@@ -4476,7 +4535,8 @@
           "translate_bn": "সন্দেহকারীদের"
         }
       },
-      "english_trans": "(This is) the truth from your Lord, so be not of the disputers."
+      "english_trans": "(This is) the truth from your Lord, so be not of the disputers.",
+      "arabic_text_uthmani": "ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ"
     },
     "61": {
       "arabic_text": "فَمَنْ حَاجَّكَ فِيهِ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ وَأَنْفُسَنَا وَأَنْفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَلْ لَعْنَتَ اللَّهِ عَلَى الْكَاذِبِينَ",
@@ -4583,7 +4643,8 @@
           "translate_bn": "মিথ্যাবাদীদের"
         }
       },
-      "english_trans": "But whoever disputes with you in this matter after what has come to you of knowledge, then say: Come let us call our sons and your sons and our women and your women and our near people and your near people, then let us be earnest in prayer, and pray for the curse of Allah on the liars."
+      "english_trans": "But whoever disputes with you in this matter after what has come to you of knowledge, then say: Come let us call our sons and your sons and our women and your women and our near people and your near people, then let us be earnest in prayer, and pray for the curse of Allah on the liars.",
+      "arabic_text_uthmani": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ فَقُلْ تَعَالَوْا۟ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ ٱللَّهِ عَلَى ٱلْكَـٰذِبِينَ"
     },
     "62": {
       "arabic_text": "إِنَّ هَذَا لَهُوَ الْقَصَصُ الْحَقُّ وَمَا مِنْ إِلَهٍ إِلَّا اللَّهُ وَإِنَّ اللَّهَ لَهُوَ الْعَزِيزُ الْحَكِيمُ",
@@ -4650,7 +4711,8 @@
           "translate_bn": "মহাবিজ্ঞ"
         }
       },
-      "english_trans": "Most surely this is the true explanation, and there is no god but Allah; and most surely Allah-- He is the Mighty, the Wise."
+      "english_trans": "Most surely this is the true explanation, and there is no god but Allah; and most surely Allah-- He is the Mighty, the Wise.",
+      "arabic_text_uthmani": "إِنَّ هَـٰذَا لَهُوَ ٱلْقَصَصُ ٱلْحَقُّ ۚ وَمَا مِنْ إِلَـٰهٍ إِلَّا ٱللَّهُ ۚ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
     },
     "63": {
       "arabic_text": "فَإِنْ تَوَلَّوْا فَإِنَّ اللَّهَ عَلِيمٌ بِالْمُفْسِدِينَ",
@@ -4681,7 +4743,8 @@
           "translate_bn": "ফাসাদ সৃষ্টিকারীদের সম্পর্কে"
         }
       },
-      "english_trans": "But if they turn back, then surely Allah knows the mischief-makers."
+      "english_trans": "But if they turn back, then surely Allah knows the mischief-makers.",
+      "arabic_text_uthmani": "فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ عَلِيمٌۢ بِٱلْمُفْسِدِينَ"
     },
     "64": {
       "arabic_text": "قُلْ يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَى كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا اللَّهَ وَلَا نُشْرِكَ بِهِ شَيْئًا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِنْ دُونِ اللَّهِ فَإِنْ تَوَلَّوْا فَقُولُوا اشْهَدُوا بِأَنَّا مُسْلِمُونَ",
@@ -4812,7 +4875,8 @@
           "translate_bn": "(আল্লাহর অনুগত বান্দা) মুসলমান"
         }
       },
-      "english_trans": "Say: O followers of the Book! come to an equitable proposition between us and you that we shall not serve any but Allah and (that) we shall not associate aught with Him, and (that) some of us shall not take others for lords besides Allah; but if they turn back, then say: Bear witness that we are Muslims."
+      "english_trans": "Say: O followers of the Book! come to an equitable proposition between us and you that we shall not serve any but Allah and (that) we shall not associate aught with Him, and (that) some of us shall not take others for lords besides Allah; but if they turn back, then say: Bear witness that we are Muslims.",
+      "arabic_text_uthmani": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ"
     },
     "65": {
       "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ وَمَا أُنْزِلَتِ التَّوْرَاةُ وَالْإِنْجِيلُ إِلَّا مِنْ بَعْدِهِ أَفَلَا تَعْقِلُونَ",
@@ -4879,7 +4943,8 @@
           "translate_bn": "তোমরা বুঝবে"
         }
       },
-      "english_trans": "O followers of the Book! why do you dispute about Ibrahim, when the Taurat and the Injeel were not revealed till after him; do you not then understand?"
+      "english_trans": "O followers of the Book! why do you dispute about Ibrahim, when the Taurat and the Injeel were not revealed till after him; do you not then understand?",
+      "arabic_text_uthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تُحَآجُّونَ فِىٓ إِبْرَٰهِيمَ وَمَآ أُنزِلَتِ ٱلتَّوْرَىٰةُ وَٱلْإِنجِيلُ إِلَّا مِنۢ بَعْدِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ"
     },
     "66": {
       "arabic_text": "هَا أَنْتُمْ هَؤُلَاءِ حَاجَجْتُمْ فِيمَا لَكُمْ بِهِ عِلْمٌ فَلِمَ تُحَاجُّونَ فِيمَا لَيْسَ لَكُمْ بِهِ عِلْمٌ وَاللَّهُ يَعْلَمُ وَأَنْتُمْ لَا تَعْلَمُونَ",
@@ -4962,7 +5027,8 @@
           "translate_bn": "(প্রকৃত সত্য) জান"
         }
       },
-      "english_trans": "Behold! you are they who disputed about that of which you had knowledge; why then do you dispute about that of which you have no knowledge? And Allah knows while you do not know."
+      "english_trans": "Behold! you are they who disputed about that of which you had knowledge; why then do you dispute about that of which you have no knowledge? And Allah knows while you do not know.",
+      "arabic_text_uthmani": "هَـٰٓأَنتُمْ هَـٰٓؤُلَآءِ حَـٰجَجْتُمْ فِيمَا لَكُم بِهِۦ عِلْمٌ فَلِمَ تُحَآجُّونَ فِيمَا لَيْسَ لَكُم بِهِۦ عِلْمٌ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ"
     },
     "67": {
       "arabic_text": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلَكِنْ كَانَ حَنِيفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
@@ -5025,7 +5091,8 @@
           "translate_bn": "মুশরিকদের"
         }
       },
-      "english_trans": "Ibrahim was not a Jew nor a Christian but he was (an) upright (man), a Muslim, and he was not one of the polytheists."
+      "english_trans": "Ibrahim was not a Jew nor a Christian but he was (an) upright (man), a Muslim, and he was not one of the polytheists.",
+      "arabic_text_uthmani": "مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلَـٰكِن كَانَ حَنِيفًا مُّسْلِمًا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ"
     },
     "68": {
       "arabic_text": "إِنَّ أَوْلَى النَّاسِ بِإِبْرَاهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَذَا النَّبِيُّ وَالَّذِينَ آمَنُوا وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ",
@@ -5084,7 +5151,8 @@
           "translate_bn": "ঈমানদারদের"
         }
       },
-      "english_trans": "Most surely the nearest of people to Ibrahim are those who followed him and this Prophet and those who believe and Allah is the guardian of the believers."
+      "english_trans": "Most surely the nearest of people to Ibrahim are those who followed him and this Prophet and those who believe and Allah is the guardian of the believers.",
+      "arabic_text_uthmani": "إِنَّ أَوْلَى ٱلنَّاسِ بِإِبْرَٰهِيمَ لَلَّذِينَ ٱتَّبَعُوهُ وَهَـٰذَا ٱلنَّبِىُّ وَٱلَّذِينَ ءَامَنُوا۟ ۗ وَٱللَّهُ وَلِىُّ ٱلْمُؤْمِنِينَ"
     },
     "69": {
       "arabic_text": "وَدَّتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
@@ -5143,7 +5211,8 @@
           "translate_bn": "তারা উপলব্ধি করে"
         }
       },
-      "english_trans": "A party of the followers of the Book desire that they should lead you astray, and they lead not astray but themselves, and they do not perceive."
+      "english_trans": "A party of the followers of the Book desire that they should lead you astray, and they lead not astray but themselves, and they do not perceive.",
+      "arabic_text_uthmani": "وَدَّت طَّآئِفَةٌ مِّنْ أَهْلِ ٱلْكِتَـٰبِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ"
     },
     "70": {
       "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ وَأَنْتُمْ تَشْهَدُونَ",
@@ -5182,7 +5251,8 @@
           "translate_bn": "পর্যবেক্ষণ করছ"
         }
       },
-      "english_trans": "O followers of the Book! Why do you disbelieve in the communications of Allah while you witness (them)?"
+      "english_trans": "O followers of the Book! Why do you disbelieve in the communications of Allah while you witness (them)?",
+      "arabic_text_uthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَأَنتُمْ تَشْهَدُونَ"
     },
     "71": {
       "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُونَ الْحَقَّ وَأَنْتُمْ تَعْلَمُونَ",
@@ -5229,7 +5299,8 @@
           "translate_bn": "(ভালভাবেই) জান"
         }
       },
-      "english_trans": "O followers of the Book! Why do you confound the truth with the falsehood and hide the truth while you know?"
+      "english_trans": "O followers of the Book! Why do you confound the truth with the falsehood and hide the truth while you know?",
+      "arabic_text_uthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَلْبِسُونَ ٱلْحَقَّ بِٱلْبَـٰطِلِ وَتَكْتُمُونَ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ"
     },
     "72": {
       "arabic_text": "وَقَالَتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ آمِنُوا بِالَّذِي أُنْزِلَ عَلَى الَّذِينَ آمَنُوا وَجْهَ النَّهَارِ وَاكْفُرُوا آخِرَهُ لَعَلَّهُمْ يَرْجِعُونَ",
@@ -5304,7 +5375,8 @@
           "translate_bn": "ফিরে যাবে"
         }
       },
-      "english_trans": "And a party of the followers of the Book say: Avow belief in that which has been revealed to those who believe, in the first part of the day, and disbelieve at the end of it, perhaps they go back on their religion."
+      "english_trans": "And a party of the followers of the Book say: Avow belief in that which has been revealed to those who believe, in the first part of the day, and disbelieve at the end of it, perhaps they go back on their religion.",
+      "arabic_text_uthmani": "وَقَالَت طَّآئِفَةٌ مِّنْ أَهْلِ ٱلْكِتَـٰبِ ءَامِنُوا۟ بِٱلَّذِىٓ أُنزِلَ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَجْهَ ٱلنَّهَارِ وَٱكْفُرُوٓا۟ ءَاخِرَهُۥ لَعَلَّهُمْ يَرْجِعُونَ"
     },
     "73": {
       "arabic_text": "وَلَا تُؤْمِنُوا إِلَّا لِمَنْ تَبِعَ دِينَكُمْ قُلْ إِنَّ الْهُدَى هُدَى اللَّهِ أَنْ يُؤْتَى أَحَدٌ مِثْلَ مَا أُوتِيتُمْ أَوْ يُحَاجُّوكُمْ عِنْدَ رَبِّكُمْ قُلْ إِنَّ الْفَضْلَ بِيَدِ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ",
@@ -5439,7 +5511,8 @@
           "translate_bn": "সর্বজ্ঞ"
         }
       },
-      "english_trans": "And do not believe but in him who follows your religion. Say: Surely the (true) guidance is the guidance of Allah-- that one may be given (by Him) the like of what you were given; or they would contend with you by an argument before your Lord. Say: Surely grace is in the hand of Allah, He gives it to whom He pleases; and Allah is Ample-giving, Knowing."
+      "english_trans": "And do not believe but in him who follows your religion. Say: Surely the (true) guidance is the guidance of Allah-- that one may be given (by Him) the like of what you were given; or they would contend with you by an argument before your Lord. Say: Surely grace is in the hand of Allah, He gives it to whom He pleases; and Allah is Ample-giving, Knowing.",
+      "arabic_text_uthmani": "وَلَا تُؤْمِنُوٓا۟ إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ أَن يُؤْتَىٰٓ أَحَدٌ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْ ۗ قُلْ إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ"
     },
     "74": {
       "arabic_text": "يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
@@ -5478,7 +5551,8 @@
           "translate_bn": "মহান"
         }
       },
-      "english_trans": "He specially chooses for His mercy whom He pleases; and Allah is the Lord of mighty grace."
+      "english_trans": "He specially chooses for His mercy whom He pleases; and Allah is the Lord of mighty grace.",
+      "arabic_text_uthmani": "يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ"
     },
     "75": {
       "arabic_text": "وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُمْ مَنْ إِنْ تَأْمَنْهُ بِدِينَارٍ لَا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ذَلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
@@ -5629,7 +5703,8 @@
           "translate_bn": "ভালভাবে (জানে)"
         }
       },
-      "english_trans": "And among the followers of the Book there are some such that if you entrust one (of them) with a heap of wealth, he shall pay it back to you; and among them there are some such that if you entrust one (of them) with a dinar he shall not pay it back to you except so long as you remain firm in demanding it; this is because they say: There is not upon us in the matter of the unlearned people any way (to reproach); and they tell a lie against Allah while they know."
+      "english_trans": "And among the followers of the Book there are some such that if you entrust one (of them) with a heap of wealth, he shall pay it back to you; and among them there are some such that if you entrust one (of them) with a dinar he shall not pay it back to you except so long as you remain firm in demanding it; this is because they say: There is not upon us in the matter of the unlearned people any way (to reproach); and they tell a lie against Allah while they know.",
+      "arabic_text_uthmani": "۞ وَمِنْ أَهْلِ ٱلْكِتَـٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّـۧنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ"
     },
     "76": {
       "arabic_text": "بَلَى مَنْ أَوْفَى بِعَهْدِهِ وَاتَّقَى فَإِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ",
@@ -5672,7 +5747,8 @@
           "translate_bn": "নাফরমানী থেকে বেঁচে চলা লোকদের"
         }
       },
-      "english_trans": "Yea, whoever fulfills his promise and guards (against evil)-- then surely Allah loves those who guard (against evil)."
+      "english_trans": "Yea, whoever fulfills his promise and guards (against evil)-- then surely Allah loves those who guard (against evil).",
+      "arabic_text_uthmani": "بَلَىٰ مَنْ أَوْفَىٰ بِعَهْدِهِۦ وَٱتَّقَىٰ فَإِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ"
     },
     "77": {
       "arabic_text": "إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا أُولَئِكَ لَا خَلَاقَ لَهُمْ فِي الْآخِرَةِ وَلَا يُكَلِّمُهُمُ اللَّهُ وَلَا يَنْظُرُ إِلَيْهِمْ يَوْمَ الْقِيَامَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
@@ -5787,7 +5863,8 @@
           "translate_bn": "অতি কষ্টদায়ক"
         }
       },
-      "english_trans": "(As for) those who take a small price for the covenant of Allah and their own oaths-- surely they shall have no portion in the hereafter, and Allah will not speak to them, nor will He look upon them on the day of resurrection nor will He purify them, and they shall have a painful chastisement."
+      "english_trans": "(As for) those who take a small price for the covenant of Allah and their own oaths-- surely they shall have no portion in the hereafter, and Allah will not speak to them, nor will He look upon them on the day of resurrection nor will He purify them, and they shall have a painful chastisement.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ يَشْتَرُونَ بِعَهْدِ ٱللَّهِ وَأَيْمَـٰنِهِمْ ثَمَنًا قَلِيلًا أُو۟لَـٰٓئِكَ لَا خَلَـٰقَ لَهُمْ فِى ٱلْـَٔاخِرَةِ وَلَا يُكَلِّمُهُمُ ٱللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ ٱلْقِيَـٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ"
     },
     "78": {
       "arabic_text": "وَإِنَّ مِنْهُمْ لَفَرِيقًا يَلْوُونَ أَلْسِنَتَهُمْ بِالْكِتَابِ لِتَحْسَبُوهُ مِنَ الْكِتَابِ وَمَا هُوَ مِنَ الْكِتَابِ وَيَقُولُونَ هُوَ مِنْ عِنْدِ اللَّهِ وَمَا هُوَ مِنْ عِنْدِ اللَّهِ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
@@ -5910,7 +5987,8 @@
           "translate_bn": "(ভালভাবে) জানে"
         }
       },
-      "english_trans": "Most surely there is a party amongst those who distort the Book with their tongue that you may consider it to be (a part) of the Book, and they say, It is from Allah, while it is not from Allah, and they tell a lie against Allah whilst they know."
+      "english_trans": "Most surely there is a party amongst those who distort the Book with their tongue that you may consider it to be (a part) of the Book, and they say, It is from Allah, while it is not from Allah, and they tell a lie against Allah whilst they know.",
+      "arabic_text_uthmani": "وَإِنَّ مِنْهُمْ لَفَرِيقًا يَلْوُۥنَ أَلْسِنَتَهُم بِٱلْكِتَـٰبِ لِتَحْسَبُوهُ مِنَ ٱلْكِتَـٰبِ وَمَا هُوَ مِنَ ٱلْكِتَـٰبِ وَيَقُولُونَ هُوَ مِنْ عِندِ ٱللَّهِ وَمَا هُوَ مِنْ عِندِ ٱللَّهِ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ"
     },
     "79": {
       "arabic_text": "مَا كَانَ لِبَشَرٍ أَنْ يُؤْتِيَهُ اللَّهُ الْكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا عِبَادًا لِي مِنْ دُونِ اللَّهِ وَلَكِنْ كُونُوا رَبَّانِيِّينَ بِمَا كُنْتُمْ تُعَلِّمُونَ الْكِتَابَ وَبِمَا كُنْتُمْ تَدْرُسُونَ",
@@ -6029,7 +6107,8 @@
           "translate_bn": "তোমরা অধ্যয়ন করে থাক"
         }
       },
-      "english_trans": "It is not meet for a mortal that Allah should give him the Book and the wisdom and prophethood, then he should say to men: Be my servants rather than Allah´s; but rather (he would say): Be worshippers of the Lord because of your teaching the Book and your reading (it yourselves)."
+      "english_trans": "It is not meet for a mortal that Allah should give him the Book and the wisdom and prophethood, then he should say to men: Be my servants rather than Allah´s; but rather (he would say): Be worshippers of the Lord because of your teaching the Book and your reading (it yourselves).",
+      "arabic_text_uthmani": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًا لِّى مِن دُونِ ٱللَّهِ وَلَـٰكِن كُونُوا۟ رَبَّـٰنِيِّـۧنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَـٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ"
     },
     "80": {
       "arabic_text": "وَلَا يَأْمُرَكُمْ أَنْ تَتَّخِذُوا الْمَلَائِكَةَ وَالنَّبِيِّينَ أَرْبَابًا أَيَأْمُرُكُمْ بِالْكُفْرِ بَعْدَ إِذْ أَنْتُمْ مُسْلِمُونَ",
@@ -6088,7 +6167,8 @@
           "translate_bn": "মুসলমান (তা কি সম্ভব?)"
         }
       },
-      "english_trans": "And neither would he enjoin you that you should take the angels and the prophets for lords; what! would he enjoin you with unbelief after you are Muslims?"
+      "english_trans": "And neither would he enjoin you that you should take the angels and the prophets for lords; what! would he enjoin you with unbelief after you are Muslims?",
+      "arabic_text_uthmani": "وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَـٰٓئِكَةَ وَٱلنَّبِيِّـۧنَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ"
     },
     "81": {
       "arabic_text": "وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ النَّبِيِّينَ لَمَا آتَيْتُكُمْ مِنْ كِتَابٍ وَحِكْمَةٍ ثُمَّ جَاءَكُمْ رَسُولٌ مُصَدِّقٌ لِمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِ وَلَتَنْصُرُنَّهُ قَالَ أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَى ذَلِكُمْ إِصْرِي قَالُوا أَقْرَرْنَا قَالَ فَاشْهَدُوا وَأَنَا مَعَكُمْ مِنَ الشَّاهِدِينَ",
@@ -6227,7 +6307,8 @@
           "translate_bn": "সাক্ষীদাতাদের"
         }
       },
-      "english_trans": "And when Allah made a covenant through the prophets: Certainly what I have given you of Book and wisdom-- then an messenger comes to you verifying that which is with you, you must believe in him, and you must aid him. He said: Do you affirm and accept My compact in this (matter)? They said: We do affirm. He said: Then bear witness, and I (too) am of the bearers of witness with you."
+      "english_trans": "And when Allah made a covenant through the prophets: Certainly what I have given you of Book and wisdom-- then an messenger comes to you verifying that which is with you, you must believe in him, and you must aid him. He said: Do you affirm and accept My compact in this (matter)? They said: We do affirm. He said: Then bear witness, and I (too) am of the bearers of witness with you.",
+      "arabic_text_uthmani": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلنَّبِيِّـۧنَ لَمَآ ءَاتَيْتُكُم مِّن كِتَـٰبٍ وَحِكْمَةٍ ثُمَّ جَآءَكُمْ رَسُولٌ مُّصَدِّقٌ لِّمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِۦ وَلَتَنصُرُنَّهُۥ ۚ قَالَ ءَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِى ۖ قَالُوٓا۟ أَقْرَرْنَا ۚ قَالَ فَٱشْهَدُوا۟ وَأَنَا۠ مَعَكُم مِّنَ ٱلشَّـٰهِدِينَ"
     },
     "82": {
       "arabic_text": "فَمَنْ تَوَلَّى بَعْدَ ذَلِكَ فَأُولَئِكَ هُمُ الْفَاسِقُونَ",
@@ -6262,7 +6343,8 @@
           "translate_bn": "নাফরমান"
         }
       },
-      "english_trans": "Whoever therefore turns back after this, these it is that are the transgressors."
+      "english_trans": "Whoever therefore turns back after this, these it is that are the transgressors.",
+      "arabic_text_uthmani": "فَمَن تَوَلَّىٰ بَعْدَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ"
     },
     "83": {
       "arabic_text": "أَفَغَيْرَ دِينِ اللَّهِ يَبْغُونَ وَلَهُ أَسْلَمَ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ",
@@ -6325,7 +6407,8 @@
           "translate_bn": "তাদের প্রত্যাবর্তন করা হবে"
         }
       },
-      "english_trans": "Is it then other than Allah´s religion that they seek (to follow), and to Him submits whoever is in the heavens and the earth, willingly or unwillingly, and to Him shall they be returned."
+      "english_trans": "Is it then other than Allah´s religion that they seek (to follow), and to Him submits whoever is in the heavens and the earth, willingly or unwillingly, and to Him shall they be returned.",
+      "arabic_text_uthmani": "أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ"
     },
     "84": {
       "arabic_text": "قُلْ آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ عَلَيْنَا وَمَا أُنْزِلَ عَلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَمَا أُوتِيَ مُوسَى وَعِيسَى وَالنَّبِيُّونَ مِنْ رَبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْهُمْ وَنَحْنُ لَهُ مُسْلِمُونَ",
@@ -6448,7 +6531,8 @@
           "translate_bn": "আত্মসমর্পণকারী (অর্থাৎ মুসলমান)"
         }
       },
-      "english_trans": "Say: We believe in Allah and what has been revealed to us, and what was revealed to Ibrahim and Ismail and Ishaq and Yaqoub and the tribes, and what was given to Musa and Isa and to the prophets from their Lord; we do not make any distinction between any of them, and to Him do we submit."
+      "english_trans": "Say: We believe in Allah and what has been revealed to us, and what was revealed to Ibrahim and Ismail and Ishaq and Yaqoub and the tribes, and what was given to Musa and Isa and to the prophets from their Lord; we do not make any distinction between any of them, and to Him do we submit.",
+      "arabic_text_uthmani": "قُلْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ"
     },
     "85": {
       "arabic_text": "وَمَنْ يَبْتَغِ غَيْرَ الْإِسْلَامِ دِينًا فَلَنْ يُقْبَلَ مِنْهُ وَهُوَ فِي الْآخِرَةِ مِنَ الْخَاسِرِينَ",
@@ -6507,7 +6591,8 @@
           "translate_bn": "ক্ষতিগ্রস্থদের"
         }
       },
-      "english_trans": "And whoever desires a religion other than Islam, it shall not be accepted from him, and in the hereafter he shall be one of the losers."
+      "english_trans": "And whoever desires a religion other than Islam, it shall not be accepted from him, and in the hereafter he shall be one of the losers.",
+      "arabic_text_uthmani": "وَمَن يَبْتَغِ غَيْرَ ٱلْإِسْلَـٰمِ دِينًا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِى ٱلْـَٔاخِرَةِ مِنَ ٱلْخَـٰسِرِينَ"
     },
     "86": {
       "arabic_text": "كَيْفَ يَهْدِي اللَّهُ قَوْمًا كَفَرُوا بَعْدَ إِيمَانِهِمْ وَشَهِدُوا أَنَّ الرَّسُولَ حَقٌّ وَجَاءَهُمُ الْبَيِّنَاتُ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
@@ -6586,7 +6671,8 @@
           "translate_bn": "(যারা) জালেম"
         }
       },
-      "english_trans": "How shall Allah guide a people who disbelieved after their believing and (after) they had borne witness that the Messenger was true and clear arguments had come to them; and Allah does not guide the unjust people."
+      "english_trans": "How shall Allah guide a people who disbelieved after their believing and (after) they had borne witness that the Messenger was true and clear arguments had come to them; and Allah does not guide the unjust people.",
+      "arabic_text_uthmani": "كَيْفَ يَهْدِى ٱللَّهُ قَوْمًا كَفَرُوا۟ بَعْدَ إِيمَـٰنِهِمْ وَشَهِدُوٓا۟ أَنَّ ٱلرَّسُولَ حَقٌّ وَجَآءَهُمُ ٱلْبَيِّنَـٰتُ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ"
     },
     "87": {
       "arabic_text": "أُولَئِكَ جَزَاؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَةَ اللَّهِ وَالْمَلَائِكَةِ وَالنَّاسِ أَجْمَعِينَ",
@@ -6629,7 +6715,8 @@
           "translate_bn": "সকলকেই"
         }
       },
-      "english_trans": "(As for) these, their reward is that upon them is the curse of Allah and the angels and of men, all together."
+      "english_trans": "(As for) these, their reward is that upon them is the curse of Allah and the angels and of men, all together.",
+      "arabic_text_uthmani": "أُو۟لَـٰٓئِكَ جَزَآؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَةَ ٱللَّهِ وَٱلْمَلَـٰٓئِكَةِ وَٱلنَّاسِ أَجْمَعِينَ"
     },
     "88": {
       "arabic_text": "خَالِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنْظَرُونَ",
@@ -6672,7 +6759,8 @@
           "translate_bn": "অবকাশ দেয়া হবে"
         }
       },
-      "english_trans": "Abiding in it; their chastisement shall not be lightened nor shall they be respited."
+      "english_trans": "Abiding in it; their chastisement shall not be lightened nor shall they be respited.",
+      "arabic_text_uthmani": "خَـٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ"
     },
     "89": {
       "arabic_text": "إِلَّا الَّذِينَ تَابُوا مِنْ بَعْدِ ذَلِكَ وَأَصْلَحُوا فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
@@ -6723,7 +6811,8 @@
           "translate_bn": "মেহেরবান"
         }
       },
-      "english_trans": "Except those who repent after that and amend, then surely Allah is Forgiving, Merciful."
+      "english_trans": "Except those who repent after that and amend, then surely Allah is Forgiving, Merciful.",
+      "arabic_text_uthmani": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ"
     },
     "90": {
       "arabic_text": "إِنَّ الَّذِينَ كَفَرُوا بَعْدَ إِيمَانِهِمْ ثُمَّ ازْدَادُوا كُفْرًا لَنْ تُقْبَلَ تَوْبَتُهُمْ وَأُولَئِكَ هُمُ الضَّالُّونَ",
@@ -6786,7 +6875,8 @@
           "translate_bn": "পথভ্রষ্ট"
         }
       },
-      "english_trans": "Surely, those who disbelieve a,fter their believing, then increase in unbelief, their repentance shall not be accepted, and these are they that go astray."
+      "english_trans": "Surely, those who disbelieve a,fter their believing, then increase in unbelief, their repentance shall not be accepted, and these are they that go astray.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بَعْدَ إِيمَـٰنِهِمْ ثُمَّ ٱزْدَادُوا۟ كُفْرًا لَّن تُقْبَلَ تَوْبَتُهُمْ وَأُو۟لَـٰٓئِكَ هُمُ ٱلضَّآلُّونَ"
     },
     "91": {
       "arabic_text": "إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ فَلَنْ يُقْبَلَ مِنْ أَحَدِهِمْ مِلْءُ الْأَرْضِ ذَهَبًا وَلَوِ افْتَدَى بِهِ أُولَئِكَ لَهُمْ عَذَابٌ أَلِيمٌ وَمَا لَهُمْ مِنْ نَاصِرِينَ",
@@ -6889,7 +6979,8 @@
           "translate_bn": "সাহায্যকারীদের"
         }
       },
-      "english_trans": "Surely, those who disbelieve and die while they are unbelievers, the earth full of gold shall not be accepted from one of them, though he should offer to ransom himself with it, these it is who shall have a painful chastisement, and they shall have no helpers."
+      "english_trans": "Surely, those who disbelieve and die while they are unbelievers, the earth full of gold shall not be accepted from one of them, though he should offer to ransom himself with it, these it is who shall have a painful chastisement, and they shall have no helpers.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌ فَلَن يُقْبَلَ مِنْ أَحَدِهِم مِّلْءُ ٱلْأَرْضِ ذَهَبًا وَلَوِ ٱفْتَدَىٰ بِهِۦٓ ۗ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ وَمَا لَهُم مِّن نَّـٰصِرِينَ"
     },
     "92": {
       "arabic_text": "لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ وَمَا تُنْفِقُوا مِنْ شَيْءٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ",
@@ -6956,7 +7047,8 @@
           "translate_bn": "খুব অবগত"
         }
       },
-      "english_trans": "By no means shall you attain to righteousness until you spend (benevolently) out of what you love; and whatever thing you spend, Allah surely knows it."
+      "english_trans": "By no means shall you attain to righteousness until you spend (benevolently) out of what you love; and whatever thing you spend, Allah surely knows it.",
+      "arabic_text_uthmani": "لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ"
     },
     "93": {
       "arabic_text": "كُلُّ الطَّعَامِ كَانَ حِلًّا لِبَنِي إِسْرَائِيلَ إِلَّا مَا حَرَّمَ إِسْرَائِيلُ عَلَى نَفْسِهِ مِنْ قَبْلِ أَنْ تُنَزَّلَ التَّوْرَاةُ قُلْ فَأْتُوا بِالتَّوْرَاةِ فَاتْلُوهَا إِنْ كُنْتُمْ صَادِقِينَ",
@@ -7059,7 +7151,8 @@
           "translate_bn": "সত্যবাদী"
         }
       },
-      "english_trans": "All food was lawful to the children of Israel except that which Israel had forbidden to himself, before the Taurat was revealed. Say: Bring then the Taurat and read it, if you are truthful."
+      "english_trans": "All food was lawful to the children of Israel except that which Israel had forbidden to himself, before the Taurat was revealed. Say: Bring then the Taurat and read it, if you are truthful.",
+      "arabic_text_uthmani": "۞ كُلُّ ٱلطَّعَامِ كَانَ حِلًّا لِّبَنِىٓ إِسْرَٰٓءِيلَ إِلَّا مَا حَرَّمَ إِسْرَٰٓءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ ٱلتَّوْرَىٰةُ ۗ قُلْ فَأْتُوا۟ بِٱلتَّوْرَىٰةِ فَٱتْلُوهَآ إِن كُنتُمْ صَـٰدِقِينَ"
     },
     "94": {
       "arabic_text": "فَمَنِ افْتَرَى عَلَى اللَّهِ الْكَذِبَ مِنْ بَعْدِ ذَلِكَ فَأُولَئِكَ هُمُ الظَّالِمُونَ",
@@ -7110,7 +7203,8 @@
           "translate_bn": "জালিম"
         }
       },
-      "english_trans": "Then whoever fabricates a lie against Allah after this, these it is that are the unjust."
+      "english_trans": "Then whoever fabricates a lie against Allah after this, these it is that are the unjust.",
+      "arabic_text_uthmani": "فَمَنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ مِنۢ بَعْدِ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ"
     },
     "95": {
       "arabic_text": "قُلْ صَدَقَ اللَّهُ فَاتَّبِعُوا مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
@@ -7161,7 +7255,8 @@
           "translate_bn": "মুশরিকদের"
         }
       },
-      "english_trans": "Say: Allah has spoken the truth, therefore follow the religion of Ibrahim, the upright one; and he was not one of the polytheists."
+      "english_trans": "Say: Allah has spoken the truth, therefore follow the religion of Ibrahim, the upright one; and he was not one of the polytheists.",
+      "arabic_text_uthmani": "قُلْ صَدَقَ ٱللَّهُ ۗ فَٱتَّبِعُوا۟ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ"
     },
     "96": {
       "arabic_text": "إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكًا وَهُدًى لِلْعَالَمِينَ",
@@ -7208,7 +7303,8 @@
           "translate_bn": "বিশ্ববাসীদের জন্য"
         }
       },
-      "english_trans": "Most surely the first house appointed for men is the one at Bekka, blessed and a guidance for the nations."
+      "english_trans": "Most surely the first house appointed for men is the one at Bekka, blessed and a guidance for the nations.",
+      "arabic_text_uthmani": "إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِى بِبَكَّةَ مُبَارَكًا وَهُدًى لِّلْعَـٰلَمِينَ"
     },
     "97": {
       "arabic_text": "فِيهِ آيَاتٌ بَيِّنَاتٌ مَقَامُ إِبْرَاهِيمَ وَمَنْ دَخَلَهُ كَانَ آمِنًا وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا وَمَنْ كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ عَنِ الْعَالَمِينَ",
@@ -7315,7 +7411,8 @@
           "translate_bn": "দুনিয়াবাসীদের"
         }
       },
-      "english_trans": "In it are clear signs, the standing place of Ibrahim, and whoever enters it shall be secure, and pilgrimage to the House is incumbent upon men for the sake of Allah, (upon) every one who is able to undertake the journey to it; and whoever disbelieves, then surely Allah is Self-sufficient, above any need of the worlds."
+      "english_trans": "In it are clear signs, the standing place of Ibrahim, and whoever enters it shall be secure, and pilgrimage to the House is incumbent upon men for the sake of Allah, (upon) every one who is able to undertake the journey to it; and whoever disbelieves, then surely Allah is Self-sufficient, above any need of the worlds.",
+      "arabic_text_uthmani": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ"
     },
     "98": {
       "arabic_text": "قُلْ يَا أَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ وَاللَّهُ شَهِيدٌ عَلَى مَا تَعْمَلُونَ",
@@ -7370,7 +7467,8 @@
           "translate_bn": "তোমরা কাজ করছ"
         }
       },
-      "english_trans": "Say: O followers of the Book! why do you disbelieve in the communications of Allah? And Allah is a witness of what you do."
+      "english_trans": "Say: O followers of the Book! why do you disbelieve in the communications of Allah? And Allah is a witness of what you do.",
+      "arabic_text_uthmani": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَٱللَّهُ شَهِيدٌ عَلَىٰ مَا تَعْمَلُونَ"
     },
     "99": {
       "arabic_text": "قُلْ يَا أَهْلَ الْكِتَابِ لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللَّهِ مَنْ آمَنَ تَبْغُونَهَا عِوَجًا وَأَنْتُمْ شُهَدَاءُ وَمَا اللَّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
@@ -7453,7 +7551,8 @@
           "translate_bn": "তোমরা কাজ করছ"
         }
       },
-      "english_trans": "Say: O followers of the Book! why do you hinder him who believes from the way of Allah? You seek (to make) it crooked, while you are witness, and Allah is not heedless of what you do."
+      "english_trans": "Say: O followers of the Book! why do you hinder him who believes from the way of Allah? You seek (to make) it crooked, while you are witness, and Allah is not heedless of what you do.",
+      "arabic_text_uthmani": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًا وَأَنتُمْ شُهَدَآءُ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ"
     },
     "100": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ تُطِيعُوا فَرِيقًا مِنَ الَّذِينَ أُوتُوا الْكِتَابَ يَرُدُّوكُمْ بَعْدَ إِيمَانِكُمْ كَافِرِينَ",
@@ -7516,7 +7615,8 @@
           "translate_bn": "কাফির হিসেবে"
         }
       },
-      "english_trans": "O you who believe! if you obey a party from among those who have been given the Book, they will turn you back as unbelievers after you have believed."
+      "english_trans": "O you who believe! if you obey a party from among those who have been given the Book, they will turn you back as unbelievers after you have believed.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ فَرِيقًا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ يَرُدُّوكُم بَعْدَ إِيمَـٰنِكُمْ كَـٰفِرِينَ"
     },
     "101": {
       "arabic_text": "وَكَيْفَ تَكْفُرُونَ وَأَنْتُمْ تُتْلَى عَلَيْكُمْ آيَاتُ اللَّهِ وَفِيكُمْ رَسُولُهُ وَمَنْ يَعْتَصِمْ بِاللَّهِ فَقَدْ هُدِيَ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
@@ -7591,7 +7691,8 @@
           "translate_bn": "সরল সঠিক"
         }
       },
-      "english_trans": "But how can you disbelieve while it is you to whom the communications of Allah are recited, and among you is His Messenger? And whoever holds fast to Allah, he indeed is guided to the right path."
+      "english_trans": "But how can you disbelieve while it is you to whom the communications of Allah are recited, and among you is His Messenger? And whoever holds fast to Allah, he indeed is guided to the right path.",
+      "arabic_text_uthmani": "وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَـٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
     },
     "102": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ",
@@ -7646,7 +7747,8 @@
           "translate_bn": "মুসলমান"
         }
       },
-      "english_trans": "O you who believe! be careful of (your duty to) Allah with the care which is due to Him, and do not die unless you are Muslims."
+      "english_trans": "O you who believe! be careful of (your duty to) Allah with the care which is due to Him, and do not die unless you are Muslims.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ حَقَّ تُقَاتِهِۦ وَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ"
     },
     "103": {
       "arabic_text": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا وَاذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ إِذْ كُنْتُمْ أَعْدَاءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُمْ بِنِعْمَتِهِ إِخْوَانًا وَكُنْتُمْ عَلَى شَفَا حُفْرَةٍ مِنَ النَّارِ فَأَنْقَذَكُمْ مِنْهَا كَذَلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَهْتَدُونَ",
@@ -7789,7 +7891,8 @@
           "translate_bn": "সঠিক পথ পাও"
         }
       },
-      "english_trans": "And hold fast by the covenant of Allah all together and be not disunited, and remember the favor of Allah on you when you were enemies, then He united your hearts so by His favor you became brethren; and you were on the brink of a pit of fire, then He saved you from it, thus does Allah make clear to you His communications that you may follow the right way."
+      "english_trans": "And hold fast by the covenant of Allah all together and be not disunited, and remember the favor of Allah on you when you were enemies, then He united your hearts so by His favor you became brethren; and you were on the brink of a pit of fire, then He saved you from it, thus does Allah make clear to you His communications that you may follow the right way.",
+      "arabic_text_uthmani": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَ"
     },
     "104": {
       "arabic_text": "وَلْتَكُنْ مِنْكُمْ أُمَّةٌ يَدْعُونَ إِلَى الْخَيْرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ وَأُولَئِكَ هُمُ الْمُفْلِحُونَ",
@@ -7852,7 +7955,8 @@
           "translate_bn": "সফলকাম"
         }
       },
-      "english_trans": "And from among you there should be a party who invite to good and enjoin what is right and forbid the wrong, and these it is that shall be successful."
+      "english_trans": "And from among you there should be a party who invite to good and enjoin what is right and forbid the wrong, and these it is that shall be successful.",
+      "arabic_text_uthmani": "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ"
     },
     "105": {
       "arabic_text": "وَلَا تَكُونُوا كَالَّذِينَ تَفَرَّقُوا وَاخْتَلَفُوا مِنْ بَعْدِ مَا جَاءَهُمُ الْبَيِّنَاتُ وَأُولَئِكَ لَهُمْ عَذَابٌ عَظِيمٌ",
@@ -7915,7 +8019,8 @@
           "translate_bn": "কঠিন"
         }
       },
-      "english_trans": "And be not like those who became divided and disagreed after clear arguments had come to them, and these it is that shall have a grievous chastisement."
+      "english_trans": "And be not like those who became divided and disagreed after clear arguments had come to them, and these it is that shall have a grievous chastisement.",
+      "arabic_text_uthmani": "وَلَا تَكُونُوا۟ كَٱلَّذِينَ تَفَرَّقُوا۟ وَٱخْتَلَفُوا۟ مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْبَيِّنَـٰتُ ۚ وَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ عَظِيمٌ"
     },
     "106": {
       "arabic_text": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ فَأَمَّا الَّذِينَ اسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُمْ بَعْدَ إِيمَانِكُمْ فَذُوقُوا الْعَذَابَ بِمَا كُنْتُمْ تَكْفُرُونَ",
@@ -7990,7 +8095,8 @@
           "translate_bn": "তোমরা কুফরী"
         }
       },
-      "english_trans": "On the day when (some) faces shall turn white and (some) faces shall turn black; then as to those whose faces turn black: Did you disbelieve after your believing? Taste therefore the chastisement because you disbelieved."
+      "english_trans": "On the day when (some) faces shall turn white and (some) faces shall turn black; then as to those whose faces turn black: Did you disbelieve after your believing? Taste therefore the chastisement because you disbelieved.",
+      "arabic_text_uthmani": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ ۚ فَأَمَّا ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَـٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ"
     },
     "107": {
       "arabic_text": "وَأَمَّا الَّذِينَ ابْيَضَّتْ وُجُوهُهُمْ فَفِي رَحْمَةِ اللَّهِ هُمْ فِيهَا خَالِدُونَ",
@@ -8037,7 +8143,8 @@
           "translate_bn": "চিরস্থায়ী হবে"
         }
       },
-      "english_trans": "And as to those whose faces turn white, they shall be in Allah´s mercy; in it they shall-abide."
+      "english_trans": "And as to those whose faces turn white, they shall be in Allah´s mercy; in it they shall-abide.",
+      "arabic_text_uthmani": "وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَـٰلِدُونَ"
     },
     "108": {
       "arabic_text": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ وَمَا اللَّهُ يُرِيدُ ظُلْمًا لِلْعَالَمِينَ",
@@ -8088,7 +8195,8 @@
           "translate_bn": "দুনিয়াবাসীর উপর"
         }
       },
-      "english_trans": "These are the communications of Allah which We recite to you with truth, and Allah does not desire any injustice to the creatures."
+      "english_trans": "These are the communications of Allah which We recite to you with truth, and Allah does not desire any injustice to the creatures.",
+      "arabic_text_uthmani": "تِلْكَ ءَايَـٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۗ وَمَا ٱللَّهُ يُرِيدُ ظُلْمًا لِّلْعَـٰلَمِينَ"
     },
     "109": {
       "arabic_text": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ",
@@ -8139,7 +8247,8 @@
           "translate_bn": "সকল বিষয়"
         }
       },
-      "english_trans": "And whatever is in the heavens and whatever is in the earth is Allah´s; and to Allah all things return"
+      "english_trans": "And whatever is in the heavens and whatever is in the earth is Allah´s; and to Allah all things return",
+      "arabic_text_uthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ"
     },
     "110": {
       "arabic_text": "كُنْتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنِ الْمُنْكَرِ وَتُؤْمِنُونَ بِاللَّهِ وَلَوْ آمَنَ أَهْلُ الْكِتَابِ لَكَانَ خَيْرًا لَهُمْ مِنْهُمُ الْمُؤْمِنُونَ وَأَكْثَرُهُمُ الْفَاسِقُونَ",
@@ -8238,7 +8347,8 @@
           "translate_bn": "নাফরমান"
         }
       },
-      "english_trans": "You are the best of the nations raised up for (the benefit of) men; you enjoin what is right and forbid the wrong and believe in Allah; and if the followers of the Book had believed it would have been better for them; of them (some) are believers and most of them are transgressors."
+      "english_trans": "You are the best of the nations raised up for (the benefit of) men; you enjoin what is right and forbid the wrong and believe in Allah; and if the followers of the Book had believed it would have been better for them; of them (some) are believers and most of them are transgressors.",
+      "arabic_text_uthmani": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَتُؤْمِنُونَ بِٱللَّهِ ۗ وَلَوْ ءَامَنَ أَهْلُ ٱلْكِتَـٰبِ لَكَانَ خَيْرًا لَّهُم ۚ مِّنْهُمُ ٱلْمُؤْمِنُونَ وَأَكْثَرُهُمُ ٱلْفَـٰسِقُونَ"
     },
     "111": {
       "arabic_text": "لَنْ يَضُرُّوكُمْ إِلَّا أَذًى وَإِنْ يُقَاتِلُوكُمْ يُوَلُّوكُمُ الْأَدْبَارَ ثُمَّ لَا يُنْصَرُونَ",
@@ -8289,7 +8399,8 @@
           "translate_bn": "তাদের সাহায্যও করা হবে"
         }
       },
-      "english_trans": "They shall by no means harm you but with a slight evil; and if they fight with you they shall turn (their) backs to you, then shall they not be helped."
+      "english_trans": "They shall by no means harm you but with a slight evil; and if they fight with you they shall turn (their) backs to you, then shall they not be helped.",
+      "arabic_text_uthmani": "لَن يَضُرُّوكُمْ إِلَّآ أَذًى ۖ وَإِن يُقَـٰتِلُوكُمْ يُوَلُّوكُمُ ٱلْأَدْبَارَ ثُمَّ لَا يُنصَرُونَ"
     },
     "112": {
       "arabic_text": "ضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ أَيْنَ مَا ثُقِفُوا إِلَّا بِحَبْلٍ مِنَ اللَّهِ وَحَبْلٍ مِنَ النَّاسِ وَبَاءُوا بِغَضَبٍ مِنَ اللَّهِ وَضُرِبَتْ عَلَيْهِمُ الْمَسْكَنَةُ ذَلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ ذَلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ",
@@ -8436,7 +8547,8 @@
           "translate_bn": "তারা সীমালংঘন"
         }
       },
-      "english_trans": "Abasement is made to cleave to them wherever they are found, except under a covenant with Allah and a covenant with men, and they have become deserving of wrath from Allah, and humiliation is made to cleave to them; this is because they disbelieved in the communications of Allah and slew the prophets unjustly; this is because they disobeyed and exceeded the limits."
+      "english_trans": "Abasement is made to cleave to them wherever they are found, except under a covenant with Allah and a covenant with men, and they have become deserving of wrath from Allah, and humiliation is made to cleave to them; this is because they disbelieved in the communications of Allah and slew the prophets unjustly; this is because they disobeyed and exceeded the limits.",
+      "arabic_text_uthmani": "ضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍ مِّنَ ٱللَّهِ وَحَبْلٍ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ"
     },
     "113": {
       "arabic_text": "لَيْسُوا سَوَاءً مِنْ أَهْلِ الْكِتَابِ أُمَّةٌ قَائِمَةٌ يَتْلُونَ آيَاتِ اللَّهِ آنَاءَ اللَّيْلِ وَهُمْ يَسْجُدُونَ",
@@ -8499,7 +8611,8 @@
           "translate_bn": "সিজদা অবনত হয়"
         }
       },
-      "english_trans": "They are not all alike; of the followers of the Book there is an upright party; they recite Allah´s communications in the nighttime and they adore (Him)."
+      "english_trans": "They are not all alike; of the followers of the Book there is an upright party; they recite Allah´s communications in the nighttime and they adore (Him).",
+      "arabic_text_uthmani": "۞ لَيْسُوا۟ سَوَآءً ۗ مِّنْ أَهْلِ ٱلْكِتَـٰبِ أُمَّةٌ قَآئِمَةٌ يَتْلُونَ ءَايَـٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيْلِ وَهُمْ يَسْجُدُونَ"
     },
     "114": {
       "arabic_text": "يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ وَيُسَارِعُونَ فِي الْخَيْرَاتِ وَأُولَئِكَ مِنَ الصَّالِحِينَ",
@@ -8566,7 +8679,8 @@
           "translate_bn": "সৎলোকদের"
         }
       },
-      "english_trans": "They believe in Allah and the last day, and they enjoin what is right and forbid the wrong and they strive with one another in hastening to good deeds, and those are among the good."
+      "english_trans": "They believe in Allah and the last day, and they enjoin what is right and forbid the wrong and they strive with one another in hastening to good deeds, and those are among the good.",
+      "arabic_text_uthmani": "يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَـٰٓئِكَ مِنَ ٱلصَّـٰلِحِينَ"
     },
     "115": {
       "arabic_text": "وَمَا يَفْعَلُوا مِنْ خَيْرٍ فَلَنْ يُكْفَرُوهُ وَاللَّهُ عَلِيمٌ بِالْمُتَّقِينَ",
@@ -8609,7 +8723,8 @@
           "translate_bn": "মুত্তাকীদের সম্পর্কে"
         }
       },
-      "english_trans": "And whatever good they do, they shall not be denied it, and Allah knows those who guard (against evil)."
+      "english_trans": "And whatever good they do, they shall not be denied it, and Allah knows those who guard (against evil).",
+      "arabic_text_uthmani": "وَمَا يَفْعَلُوا۟ مِنْ خَيْرٍ فَلَن يُكْفَرُوهُ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلْمُتَّقِينَ"
     },
     "116": {
       "arabic_text": "إِنَّ الَّذِينَ كَفَرُوا لَنْ تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُمْ مِنَ اللَّهِ شَيْئًا وَأُولَئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
@@ -8688,7 +8803,8 @@
           "translate_bn": "চিরস্থায়ী হবে"
         }
       },
-      "english_trans": "(As for) those who disbelieve, surely neither their wealth nor their children shall avail them in the least against Allah; and these are the inmates of the fire; therein they shall abide."
+      "english_trans": "(As for) those who disbelieve, surely neither their wealth nor their children shall avail them in the least against Allah; and these are the inmates of the fire; therein they shall abide.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَـٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۖ وَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۚ هُمْ فِيهَا خَـٰلِدُونَ"
     },
     "117": {
       "arabic_text": "مَثَلُ مَا يُنْفِقُونَ فِي هَذِهِ الْحَيَاةِ الدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوا أَنْفُسَهُمْ فَأَهْلَكَتْهُ وَمَا ظَلَمَهُمُ اللَّهُ وَلَكِنْ أَنْفُسَهُمْ يَظْلِمُونَ",
@@ -8787,7 +8903,8 @@
           "translate_bn": "জুলুম করেছিল"
         }
       },
-      "english_trans": "The likeness of what they spend in the life of this world is as the likeness of wind in which is intense cold (that) smites the seed produce of a people who haw done injustice to their souls and destroys it; and Allah is not unjust to them, but they are unjust to themselves."
+      "english_trans": "The likeness of what they spend in the life of this world is as the likeness of wind in which is intense cold (that) smites the seed produce of a people who haw done injustice to their souls and destroys it; and Allah is not unjust to them, but they are unjust to themselves.",
+      "arabic_text_uthmani": "مَثَلُ مَا يُنفِقُونَ فِى هَـٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَـٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ"
     },
     "118": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا بِطَانَةً مِنْ دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا مَا عَنِتُّمْ قَدْ بَدَتِ الْبَغْضَاءُ مِنْ أَفْوَاهِهِمْ وَمَا تُخْفِي صُدُورُهُمْ أَكْبَرُ قَدْ بَيَّنَّا لَكُمُ الْآيَاتِ إِنْ كُنْتُمْ تَعْقِلُونَ",
@@ -8914,7 +9031,8 @@
           "translate_bn": "অনুধাবন কর"
         }
       },
-      "english_trans": "O you who believe! do not take for intimate friends from among others than your own people; they do not fall short of inflicting loss upon you; they love what distresses you; vehement hatred has already appeared from out of their mouths, and what their breasts conceal is greater still; indeed, We have made the communications clear to you, if you will understand."
+      "english_trans": "O you who believe! do not take for intimate friends from among others than your own people; they do not fall short of inflicting loss upon you; they love what distresses you; vehement hatred has already appeared from out of their mouths, and what their breasts conceal is greater still; indeed, We have made the communications clear to you, if you will understand.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ بِطَانَةً مِّن دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا۟ مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ أَكْبَرُ ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْـَٔايَـٰتِ ۖ إِن كُنتُمْ تَعْقِلُونَ"
     },
     "119": {
       "arabic_text": "هَا أَنْتُمْ أُولَاءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِالْكِتَابِ كُلِّهِ وَإِذَا لَقُوكُمْ قَالُوا آمَنَّا وَإِذَا خَلَوْا عَضُّوا عَلَيْكُمُ الْأَنَامِلَ مِنَ الْغَيْظِ قُلْ مُوتُوا بِغَيْظِكُمْ إِنَّ اللَّهَ عَلِيمٌ بِذَاتِ الصُّدُورِ",
@@ -9029,7 +9147,8 @@
           "translate_bn": "(তোমাদের) বুকের (অর্থাৎ অন্তরের)"
         }
       },
-      "english_trans": "Lo! you are they who will love them while they do not love you, and you believe in the Book (in) the whole of it; and when they meet you they say: We believe, and when they are alone, they bite the ends of their fingers in rage against you. Say: Die in your rage; surely Allah knows what is in the breasts."
+      "english_trans": "Lo! you are they who will love them while they do not love you, and you believe in the Book (in) the whole of it; and when they meet you they say: We believe, and when they are alone, they bite the ends of their fingers in rage against you. Say: Die in your rage; surely Allah knows what is in the breasts.",
+      "arabic_text_uthmani": "هَـٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَـٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
     },
     "120": {
       "arabic_text": "إِنْ تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِنْ تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا بِهَا وَإِنْ تَصْبِرُوا وَتَتَّقُوا لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْئًا إِنَّ اللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ",
@@ -9120,7 +9239,8 @@
           "translate_bn": "বেষ্টন করে আছেন"
         }
       },
-      "english_trans": "If good befalls you, it grieves them, and if an evil afflicts you, they rejoice at it; and if you are patient and guard yourselves, their scheme will not injure you in any way; surely Allah comprehends what they do."
+      "english_trans": "If good befalls you, it grieves them, and if an evil afflicts you, they rejoice at it; and if you are patient and guard yourselves, their scheme will not injure you in any way; surely Allah comprehends what they do.",
+      "arabic_text_uthmani": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ"
     },
     "121": {
       "arabic_text": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ الْمُؤْمِنِينَ مَقَاعِدَ لِلْقِتَالِ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
@@ -9171,7 +9291,8 @@
           "translate_bn": "সব কিছু জানেন"
         }
       },
-      "english_trans": "And when you did go forth early in the morning from your family to lodge the believers in encampments for war and Allah is Hearing, Knowing."
+      "english_trans": "And when you did go forth early in the morning from your family to lodge the believers in encampments for war and Allah is Hearing, Knowing.",
+      "arabic_text_uthmani": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ مَقَـٰعِدَ لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
     },
     "122": {
       "arabic_text": "إِذْ هَمَّتْ طَائِفَتَانِ مِنْكُمْ أَنْ تَفْشَلَا وَاللَّهُ وَلِيُّهُمَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
@@ -9226,7 +9347,8 @@
           "translate_bn": "ঈমানদারদের"
         }
       },
-      "english_trans": "When two parties from among you had determined that they should show cowardice, and Allah was the guardian of them both, and in Allah should the believers trust."
+      "english_trans": "When two parties from among you had determined that they should show cowardice, and Allah was the guardian of them both, and in Allah should the believers trust.",
+      "arabic_text_uthmani": "إِذْ هَمَّت طَّآئِفَتَانِ مِنكُمْ أَن تَفْشَلَا وَٱللَّهُ وَلِيُّهُمَا ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ"
     },
     "123": {
       "arabic_text": "وَلَقَدْ نَصَرَكُمُ اللَّهُ بِبَدْرٍ وَأَنْتُمْ أَذِلَّةٌ فَاتَّقُوا اللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
@@ -9273,7 +9395,8 @@
           "translate_bn": "শোকর করবে"
         }
       },
-      "english_trans": "And Allah did certainly assist you at Badr when you were weak; be careful of (your duty to) Allah then, that you may give thanks."
+      "english_trans": "And Allah did certainly assist you at Badr when you were weak; be careful of (your duty to) Allah then, that you may give thanks.",
+      "arabic_text_uthmani": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍ وَأَنتُمْ أَذِلَّةٌ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ"
     },
     "124": {
       "arabic_text": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَنْ يَكْفِيَكُمْ أَنْ يُمِدَّكُمْ رَبُّكُمْ بِثَلَاثَةِ آلَافٍ مِنَ الْمَلَائِكَةِ مُنْزَلِينَ",
@@ -9332,7 +9455,8 @@
           "translate_bn": "অবতীর্ণ করা"
         }
       },
-      "english_trans": "When you said to the believers: Does it not suffice you that your Lord should assist you with three thousand of the angels sent down?"
+      "english_trans": "When you said to the believers: Does it not suffice you that your Lord should assist you with three thousand of the angels sent down?",
+      "arabic_text_uthmani": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَـٰثَةِ ءَالَـٰفٍ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُنزَلِينَ"
     },
     "125": {
       "arabic_text": "بَلَى إِنْ تَصْبِرُوا وَتَتَّقُوا وَيَأْتُوكُمْ مِنْ فَوْرِهِمْ هَذَا يُمْدِدْكُمْ رَبُّكُمْ بِخَمْسَةِ آلَافٍ مِنَ الْمَلَائِكَةِ مُسَوِّمِينَ",
@@ -9399,7 +9523,8 @@
           "translate_bn": "(যারা হবে) চিহ্ন যুক্ত"
         }
       },
-      "english_trans": "Yea! if you remain patient and are on your guard, and they come upon you in a headlong manner, your Lord will assist you with five thousand of the havoc-making angels."
+      "english_trans": "Yea! if you remain patient and are on your guard, and they come upon you in a headlong manner, your Lord will assist you with five thousand of the havoc-making angels.",
+      "arabic_text_uthmani": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَـٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَـٰفٍ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُسَوِّمِينَ"
     },
     "126": {
       "arabic_text": "وَمَا جَعَلَهُ اللَّهُ إِلَّا بُشْرَى لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُمْ بِهِ وَمَا النَّصْرُ إِلَّا مِنْ عِنْدِ اللَّهِ الْعَزِيزِ الْحَكِيمِ",
@@ -9474,7 +9599,8 @@
           "translate_bn": "মহাবিজ্ঞ"
         }
       },
-      "english_trans": "And Allah did not make it but as good news for you, and that your hearts might be at ease thereby, and victory is only from Allah, the Mighty, the Wise."
+      "english_trans": "And Allah did not make it but as good news for you, and that your hearts might be at ease thereby, and victory is only from Allah, the Mighty, the Wise.",
+      "arabic_text_uthmani": "وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشْرَىٰ لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُم بِهِۦ ۗ وَمَا ٱلنَّصْرُ إِلَّا مِنْ عِندِ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ"
     },
     "127": {
       "arabic_text": "لِيَقْطَعَ طَرَفًا مِنَ الَّذِينَ كَفَرُوا أَوْ يَكْبِتَهُمْ فَيَنْقَلِبُوا خَائِبِينَ",
@@ -9517,7 +9643,8 @@
           "translate_bn": "ব্যর্থ হয়ে"
         }
       },
-      "english_trans": "That He may cut off a portion from among those who disbelieve, or abase them so that they should return disappointed of attaining what they desired."
+      "english_trans": "That He may cut off a portion from among those who disbelieve, or abase them so that they should return disappointed of attaining what they desired.",
+      "arabic_text_uthmani": "لِيَقْطَعَ طَرَفًا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُوا۟ خَآئِبِينَ"
     },
     "128": {
       "arabic_text": "لَيْسَ لَكَ مِنَ الْأَمْرِ شَيْءٌ أَوْ يَتُوبَ عَلَيْهِمْ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَالِمُونَ",
@@ -9572,7 +9699,8 @@
           "translate_bn": "জালিম"
         }
       },
-      "english_trans": "You have no concern in the affair whether He turns to them (mercifully) or chastises them, for surely they are unjust."
+      "english_trans": "You have no concern in the affair whether He turns to them (mercifully) or chastises them, for surely they are unjust.",
+      "arabic_text_uthmani": "لَيْسَ لَكَ مِنَ ٱلْأَمْرِ شَىْءٌ أَوْ يَتُوبَ عَلَيْهِمْ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَـٰلِمُونَ"
     },
     "129": {
       "arabic_text": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ يَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ وَاللَّهُ غَفُورٌ رَحِيمٌ",
@@ -9643,7 +9771,8 @@
           "translate_bn": "মেহেরবান"
         }
       },
-      "english_trans": "And whatever is in the heavens and whatever is in the earth is Allah´s; He forgives whom He pleases and chastises whom He pleases; and Allah is Forgiving, Merciful."
+      "english_trans": "And whatever is in the heavens and whatever is in the earth is Allah´s; He forgives whom He pleases and chastises whom He pleases; and Allah is Forgiving, Merciful.",
+      "arabic_text_uthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ"
     },
     "130": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا الرِّبَا أَضْعَافًا مُضَاعَفَةً وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
@@ -9698,7 +9827,8 @@
           "translate_bn": "কল্যাণ লাভ করবে"
         }
       },
-      "english_trans": "O you who believe! do not devour usury, making it double and redouble, and be careful of (your duty to) Allah, that you may be successful."
+      "english_trans": "O you who believe! do not devour usury, making it double and redouble, and be careful of (your duty to) Allah, that you may be successful.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًا مُّضَـٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ"
     },
     "131": {
       "arabic_text": "وَاتَّقُوا النَّارَ الَّتِي أُعِدَّتْ لِلْكَافِرِينَ",
@@ -9725,7 +9855,8 @@
           "translate_bn": "কাফিরদের জন্য"
         }
       },
-      "english_trans": "And guard yourselves against the fire which has been prepared for the unbelievers."
+      "english_trans": "And guard yourselves against the fire which has been prepared for the unbelievers.",
+      "arabic_text_uthmani": "وَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِىٓ أُعِدَّتْ لِلْكَـٰفِرِينَ"
     },
     "132": {
       "arabic_text": "وَأَطِيعُوا اللَّهَ وَالرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
@@ -9752,7 +9883,8 @@
           "translate_bn": "রহম করা হবে তোমাদেরকে"
         }
       },
-      "english_trans": "And obey Allah and the Messenger, that you may be shown mercy."
+      "english_trans": "And obey Allah and the Messenger, that you may be shown mercy.",
+      "arabic_text_uthmani": "وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ"
     },
     "133": {
       "arabic_text": "وَسَارِعُوا إِلَى مَغْفِرَةٍ مِنْ رَبِّكُمْ وَجَنَّةٍ عَرْضُهَا السَّمَاوَاتُ وَالْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ",
@@ -9803,7 +9935,8 @@
           "translate_bn": "মুত্তাকীদের জন্য"
         }
       },
-      "english_trans": "And hasten to forgiveness from your Lord; and a Garden, the extensiveness of which is (as) the heavens and the earth, it is prepared for those who guard (against evil)."
+      "english_trans": "And hasten to forgiveness from your Lord; and a Garden, the extensiveness of which is (as) the heavens and the earth, it is prepared for those who guard (against evil).",
+      "arabic_text_uthmani": "۞ وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ"
     },
     "134": {
       "arabic_text": "الَّذِينَ يُنْفِقُونَ فِي السَّرَّاءِ وَالضَّرَّاءِ وَالْكَاظِمِينَ الْغَيْظَ وَالْعَافِينَ عَنِ النَّاسِ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
@@ -9862,7 +9995,8 @@
           "translate_bn": "নেক লোকদেরকে"
         }
       },
-      "english_trans": "Those who spend (benevolently) in ease as well as in straitness, and those who restrain (their) anger and pardon men; and Allah loves the doers of good (to others)."
+      "english_trans": "Those who spend (benevolently) in ease as well as in straitness, and those who restrain (their) anger and pardon men; and Allah loves the doers of good (to others).",
+      "arabic_text_uthmani": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَـٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ"
     },
     "135": {
       "arabic_text": "وَالَّذِينَ إِذَا فَعَلُوا فَاحِشَةً أَوْ ظَلَمُوا أَنْفُسَهُمْ ذَكَرُوا اللَّهَ فَاسْتَغْفَرُوا لِذُنُوبِهِمْ وَمَنْ يَغْفِرُ الذُّنُوبَ إِلَّا اللَّهُ وَلَمْ يُصِرُّوا عَلَى مَا فَعَلُوا وَهُمْ يَعْلَمُونَ",
@@ -9961,7 +10095,8 @@
           "translate_bn": "জানেও"
         }
       },
-      "english_trans": "And those who when they commit an indecency or do injustice to their souls remember Allah and ask forgiveness for their faults-- and who forgives the faults but Allah, and (who) do not knowingly persist in what they have done."
+      "english_trans": "And those who when they commit an indecency or do injustice to their souls remember Allah and ask forgiveness for their faults-- and who forgives the faults but Allah, and (who) do not knowingly persist in what they have done.",
+      "arabic_text_uthmani": "وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَـٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ ذَكَرُوا۟ ٱللَّهَ فَٱسْتَغْفَرُوا۟ لِذُنُوبِهِمْ وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ وَلَمْ يُصِرُّوا۟ عَلَىٰ مَا فَعَلُوا۟ وَهُمْ يَعْلَمُونَ"
     },
     "136": {
       "arabic_text": "أُولَئِكَ جَزَاؤُهُمْ مَغْفِرَةٌ مِنْ رَبِّهِمْ وَجَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَنِعْمَ أَجْرُ الْعَامِلِينَ",
@@ -10028,7 +10163,8 @@
           "translate_bn": "(সৎ) কর্মশীলদের (জন্য)"
         }
       },
-      "english_trans": "(As for) these-- their reward is forgiveness from their Lord, and gardens beneath which rivers flow, to abide in them, and excellent is the reward of the laborers."
+      "english_trans": "(As for) these-- their reward is forgiveness from their Lord, and gardens beneath which rivers flow, to abide in them, and excellent is the reward of the laborers.",
+      "arabic_text_uthmani": "أُو۟لَـٰٓئِكَ جَزَآؤُهُم مَّغْفِرَةٌ مِّن رَّبِّهِمْ وَجَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ وَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ"
     },
     "137": {
       "arabic_text": "قَدْ خَلَتْ مِنْ قَبْلِكُمْ سُنَنٌ فَسِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كَانَ عَاقِبَةُ الْمُكَذِّبِينَ",
@@ -10087,7 +10223,8 @@
           "translate_bn": "সত্য প্রত্যাখ্যানকারীদের"
         }
       },
-      "english_trans": "Indeed there have been examples before you; therefore travel in the earth and see what was the end of the rejecters."
+      "english_trans": "Indeed there have been examples before you; therefore travel in the earth and see what was the end of the rejecters.",
+      "arabic_text_uthmani": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُكَذِّبِينَ"
     },
     "138": {
       "arabic_text": "هَذَا بَيَانٌ لِلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِلْمُتَّقِينَ",
@@ -10118,7 +10255,8 @@
           "translate_bn": "মুত্তাকীদের জন্য"
         }
       },
-      "english_trans": "This is a clear statement for men, and a guidance and an admonition to those who guard (against evil)."
+      "english_trans": "This is a clear statement for men, and a guidance and an admonition to those who guard (against evil).",
+      "arabic_text_uthmani": "هَـٰذَا بَيَانٌ لِّلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِّلْمُتَّقِينَ"
     },
     "139": {
       "arabic_text": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ",
@@ -10161,7 +10299,8 @@
           "translate_bn": "ঈমানদার"
         }
       },
-      "english_trans": "And be not infirm, and be not grieving, and you shall have the upper hand if you are believers."
+      "english_trans": "And be not infirm, and be not grieving, and you shall have the upper hand if you are believers.",
+      "arabic_text_uthmani": "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ"
     },
     "140": {
       "arabic_text": "إِنْ يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ الْقَوْمَ قَرْحٌ مِثْلُهُ وَتِلْكَ الْأَيَّامُ نُدَاوِلُهَا بَيْنَ النَّاسِ وَلِيَعْلَمَ اللَّهُ الَّذِينَ آمَنُوا وَيَتَّخِذَ مِنْكُمْ شُهَدَاءَ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ",
@@ -10264,7 +10403,8 @@
           "translate_bn": "জালিমমদেরকে"
         }
       },
-      "english_trans": "If a wound has afflicted you (at Ohud), a wound like it has also afflicted the (unbelieving) people; and We bring these days to men by turns, and that Allah may know those who believe and take witnesses from among you; and Allah does not love the unjust."
+      "english_trans": "If a wound has afflicted you (at Ohud), a wound like it has also afflicted the (unbelieving) people; and We bring these days to men by turns, and that Allah may know those who believe and take witnesses from among you; and Allah does not love the unjust.",
+      "arabic_text_uthmani": "إِن يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّـٰلِمِينَ"
     },
     "141": {
       "arabic_text": "وَلِيُمَحِّصَ اللَّهُ الَّذِينَ آمَنُوا وَيَمْحَقَ الْكَافِرِينَ",
@@ -10295,7 +10435,8 @@
           "translate_bn": "কাফিরদেরকে"
         }
       },
-      "english_trans": "And that He may purge those who believe and deprive the unbelievers of blessings."
+      "english_trans": "And that He may purge those who believe and deprive the unbelievers of blessings.",
+      "arabic_text_uthmani": "وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَمْحَقَ ٱلْكَـٰفِرِينَ"
     },
     "142": {
       "arabic_text": "أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا الْجَنَّةَ وَلَمَّا يَعْلَمِ اللَّهُ الَّذِينَ جَاهَدُوا مِنْكُمْ وَيَعْلَمَ الصَّابِرِينَ",
@@ -10354,7 +10495,8 @@
           "translate_bn": "ধৈর্যশীলদেরকে"
         }
       },
-      "english_trans": "Do you think that you will enter the garden while Allah has not yet known those who strive hard from among you, and (He has not) known the patient."
+      "english_trans": "Do you think that you will enter the garden while Allah has not yet known those who strive hard from among you, and (He has not) known the patient.",
+      "arabic_text_uthmani": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَـٰهَدُوا۟ مِنكُمْ وَيَعْلَمَ ٱلصَّـٰبِرِينَ"
     },
     "143": {
       "arabic_text": "وَلَقَدْ كُنْتُمْ تَمَنَّوْنَ الْمَوْتَ مِنْ قَبْلِ أَنْ تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنْتُمْ تَنْظُرُونَ",
@@ -10409,7 +10551,8 @@
           "translate_bn": "প্রত্যক্ষ করছ"
         }
       },
-      "english_trans": "And certainly you desired death before you met it, so indeed you have seen it and you look (at it)"
+      "english_trans": "And certainly you desired death before you met it, so indeed you have seen it and you look (at it)",
+      "arabic_text_uthmani": "وَلَقَدْ كُنتُمْ تَمَنَّوْنَ ٱلْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ"
     },
     "144": {
       "arabic_text": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ أَفَإِنْ مَاتَ أَوْ قُتِلَ انْقَلَبْتُمْ عَلَى أَعْقَابِكُمْ وَمَنْ يَنْقَلِبْ عَلَى عَقِبَيْهِ فَلَنْ يَضُرَّ اللَّهَ شَيْئًا وَسَيَجْزِي اللَّهُ الشَّاكِرِينَ",
@@ -10524,7 +10667,8 @@
           "translate_bn": "শোকরকারীদেরকে"
         }
       },
-      "english_trans": "And Muhammad is no more than a messenger; the messengers have already passed away before him; if then he dies or is killed will you turn back upon your heels? And whoever turns back upon his heels!s, he will by no means do harm to Allah in the least and Allah will reward the grateful."
+      "english_trans": "And Muhammad is no more than a messenger; the messengers have already passed away before him; if then he dies or is killed will you turn back upon your heels? And whoever turns back upon his heels!s, he will by no means do harm to Allah in the least and Allah will reward the grateful.",
+      "arabic_text_uthmani": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّـٰكِرِينَ"
     },
     "145": {
       "arabic_text": "وَمَا كَانَ لِنَفْسٍ أَنْ تَمُوتَ إِلَّا بِإِذْنِ اللَّهِ كِتَابًا مُؤَجَّلًا وَمَنْ يُرِدْ ثَوَابَ الدُّنْيَا نُؤْتِهِ مِنْهَا وَمَنْ يُرِدْ ثَوَابَ الْآخِرَةِ نُؤْتِهِ مِنْهَا وَسَنَجْزِي الشَّاكِرِينَ",
@@ -10627,7 +10771,8 @@
           "translate_bn": "শোকরকারীদেরকে"
         }
       },
-      "english_trans": "And a soul will not die but with the permission of Allah the term is fixed; and whoever desires the reward of this world, I shall give him of it, and whoever desires the reward of the hereafter I shall give him of it, and I will reward the grateful."
+      "english_trans": "And a soul will not die but with the permission of Allah the term is fixed; and whoever desires the reward of this world, I shall give him of it, and whoever desires the reward of the hereafter I shall give him of it, and I will reward the grateful.",
+      "arabic_text_uthmani": "وَمَا كَانَ لِنَفْسٍ أَن تَمُوتَ إِلَّا بِإِذْنِ ٱللَّهِ كِتَـٰبًا مُّؤَجَّلًا ۗ وَمَن يُرِدْ ثَوَابَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَن يُرِدْ ثَوَابَ ٱلْـَٔاخِرَةِ نُؤْتِهِۦ مِنْهَا ۚ وَسَنَجْزِى ٱلشَّـٰكِرِينَ"
     },
     "146": {
       "arabic_text": "وَكَأَيِّنْ مِنْ نَبِيٍّ قَاتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ فَمَا وَهَنُوا لِمَا أَصَابَهُمْ فِي سَبِيلِ اللَّهِ وَمَا ضَعُفُوا وَمَا اسْتَكَانُوا وَاللَّهُ يُحِبُّ الصَّابِرِينَ",
@@ -10718,7 +10863,8 @@
           "translate_bn": "সবরকারীদেরকে"
         }
       },
-      "english_trans": "And how many a prophet has fought with whom were many worshippers of the Lord; so they did not become weak-hearted on account of what befell them in Allah´s way, nor did they weaken, nor did they abase themselves; and Allah loves the patient."
+      "english_trans": "And how many a prophet has fought with whom were many worshippers of the Lord; so they did not become weak-hearted on account of what befell them in Allah´s way, nor did they weaken, nor did they abase themselves; and Allah loves the patient.",
+      "arabic_text_uthmani": "وَكَأَيِّن مِّن نَّبِىٍّ قَـٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌ فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا ٱسْتَكَانُوا۟ ۗ وَٱللَّهُ يُحِبُّ ٱلصَّـٰبِرِينَ"
     },
     "147": {
       "arabic_text": "وَمَا كَانَ قَوْلَهُمْ إِلَّا أَنْ قَالُوا رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
@@ -10801,7 +10947,8 @@
           "translate_bn": "কাফির"
         }
       },
-      "english_trans": "And their saying was no other than that they said: Our Lord! forgive us our faults and our extravagance in our affair and make firm our feet and help us against the unbelieving people."
+      "english_trans": "And their saying was no other than that they said: Our Lord! forgive us our faults and our extravagance in our affair and make firm our feet and help us against the unbelieving people.",
+      "arabic_text_uthmani": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ"
     },
     "148": {
       "arabic_text": "فَآتَاهُمُ اللَّهُ ثَوَابَ الدُّنْيَا وَحُسْنَ ثَوَابِ الْآخِرَةِ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
@@ -10848,7 +10995,8 @@
           "translate_bn": "সৎকর্মশালীদেরকে"
         }
       },
-      "english_trans": "So Allah gave them the reward of this world and better reward of the hereafter and Allah loves those who do good (to others)."
+      "english_trans": "So Allah gave them the reward of this world and better reward of the hereafter and Allah loves those who do good (to others).",
+      "arabic_text_uthmani": "فَـَٔاتَىٰهُمُ ٱللَّهُ ثَوَابَ ٱلدُّنْيَا وَحُسْنَ ثَوَابِ ٱلْـَٔاخِرَةِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ"
     },
     "149": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ تُطِيعُوا الَّذِينَ كَفَرُوا يَرُدُّوكُمْ عَلَى أَعْقَابِكُمْ فَتَنْقَلِبُوا خَاسِرِينَ",
@@ -10903,7 +11051,8 @@
           "translate_bn": "ক্ষতিগ্রস্ত হয়ে"
         }
       },
-      "english_trans": "O you who believe! if you obey those who disbelieve they will turn you back upon your heels, so you will turn back losers."
+      "english_trans": "O you who believe! if you obey those who disbelieve they will turn you back upon your heels, so you will turn back losers.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ ٱلَّذِينَ كَفَرُوا۟ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ فَتَنقَلِبُوا۟ خَـٰسِرِينَ"
     },
     "150": {
       "arabic_text": "بَلِ اللَّهُ مَوْلَاكُمْ وَهُوَ خَيْرُ النَّاصِرِينَ",
@@ -10934,7 +11083,8 @@
           "translate_bn": "সাহায্যকারীদের (মধ্যে)"
         }
       },
-      "english_trans": "Nay! Allah is your Patron and He is the best of the helpers."
+      "english_trans": "Nay! Allah is your Patron and He is the best of the helpers.",
+      "arabic_text_uthmani": "بَلِ ٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ خَيْرُ ٱلنَّـٰصِرِينَ"
     },
     "151": {
       "arabic_text": "سَنُلْقِي فِي قُلُوبِ الَّذِينَ كَفَرُوا الرُّعْبَ بِمَا أَشْرَكُوا بِاللَّهِ مَا لَمْ يُنَزِّلْ بِهِ سُلْطَانًا وَمَأْوَاهُمُ النَّارُ وَبِئْسَ مَثْوَى الظَّالِمِينَ",
@@ -11017,7 +11167,8 @@
           "translate_bn": "জালিমদের (জন্য)"
         }
       },
-      "english_trans": "We will cast terror into the hearts of those who disbelieve, because they set up with Allah that for which He has sent down no authority, and their abode is the fire, and evil is the abode of the unjust."
+      "english_trans": "We will cast terror into the hearts of those who disbelieve, because they set up with Allah that for which He has sent down no authority, and their abode is the fire, and evil is the abode of the unjust.",
+      "arabic_text_uthmani": "سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا ۖ وَمَأْوَىٰهُمُ ٱلنَّارُ ۚ وَبِئْسَ مَثْوَى ٱلظَّـٰلِمِينَ"
     },
     "152": {
       "arabic_text": "وَلَقَدْ صَدَقَكُمُ اللَّهُ وَعْدَهُ إِذْ تَحُسُّونَهُمْ بِإِذْنِهِ حَتَّى إِذَا فَشِلْتُمْ وَتَنَازَعْتُمْ فِي الْأَمْرِ وَعَصَيْتُمْ مِنْ بَعْدِ مَا أَرَاكُمْ مَا تُحِبُّونَ مِنْكُمْ مَنْ يُرِيدُ الدُّنْيَا وَمِنْكُمْ مَنْ يُرِيدُ الْآخِرَةَ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ وَلَقَدْ عَفَا عَنْكُمْ وَاللَّهُ ذُو فَضْلٍ عَلَى الْمُؤْمِنِينَ",
@@ -11184,7 +11335,8 @@
           "translate_bn": "ঈমানদারদের"
         }
       },
-      "english_trans": "And certainly Allah made good to you His promise when you slew them by His permission, until when you became weak-hearted and disputed about the affair and disobeyed after He had shown you that which you loved; of you were some who desired this world and of you were some who desired the hereafter; then He turned you away from them that He might try you; and He has certainly pardoned you, and Allah is Gracious to the believers."
+      "english_trans": "And certainly Allah made good to you His promise when you slew them by His permission, until when you became weak-hearted and disputed about the affair and disobeyed after He had shown you that which you loved; of you were some who desired this world and of you were some who desired the hereafter; then He turned you away from them that He might try you; and He has certainly pardoned you, and Allah is Gracious to the believers.",
+      "arabic_text_uthmani": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَـٰزَعْتُمْ فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ ٱلْـَٔاخِرَةَ ۚ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ"
     },
     "153": {
       "arabic_text": "إِذْ تُصْعِدُونَ وَلَا تَلْوُونَ عَلَى أَحَدٍ وَالرَّسُولُ يَدْعُوكُمْ فِي أُخْرَاكُمْ فَأَثَابَكُمْ غَمًّا بِغَمٍّ لِكَيْلَا تَحْزَنُوا عَلَى مَا فَاتَكُمْ وَلَا مَا أَصَابَكُمْ وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ",
@@ -11291,7 +11443,8 @@
           "translate_bn": "তোমরা কাজ করছ"
         }
       },
-      "english_trans": "When you ran off precipitately and did not wait for any one, and the Messenger was calling you from your rear, so He gave you another sorrow instead of (your) sorrow, so that you might not grieve at what had escaped you, nor (at) what befell you; and Allah is aware of what you do."
+      "english_trans": "When you ran off precipitately and did not wait for any one, and the Messenger was calling you from your rear, so He gave you another sorrow instead of (your) sorrow, so that you might not grieve at what had escaped you, nor (at) what befell you; and Allah is aware of what you do.",
+      "arabic_text_uthmani": "۞ إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَىٰكُمْ فَأَثَـٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَـٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ"
     },
     "154": {
       "arabic_text": "ثُمَّ أَنْزَلَ عَلَيْكُمْ مِنْ بَعْدِ الْغَمِّ أَمَنَةً نُعَاسًا يَغْشَى طَائِفَةً مِنْكُمْ وَطَائِفَةٌ قَدْ أَهَمَّتْهُمْ أَنْفُسُهُمْ يَظُنُّونَ بِاللَّهِ غَيْرَ الْحَقِّ ظَنَّ الْجَاهِلِيَّةِ يَقُولُونَ هَلْ لَنَا مِنَ الْأَمْرِ مِنْ شَيْءٍ قُلْ إِنَّ الْأَمْرَ كُلَّهُ لِلَّهِ يُخْفُونَ فِي أَنْفُسِهِمْ مَا لَا يُبْدُونَ لَكَ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ الْأَمْرِ شَيْءٌ مَا قُتِلْنَا هَاهُنَا قُلْ لَوْ كُنْتُمْ فِي بُيُوتِكُمْ لَبَرَزَ الَّذِينَ كُتِبَ عَلَيْهِمُ الْقَتْلُ إِلَى مَضَاجِعِهِمْ وَلِيَبْتَلِيَ اللَّهُ مَا فِي صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِي قُلُوبِكُمْ وَاللَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
@@ -11598,7 +11751,8 @@
           "translate_bn": "অন্তরের"
         }
       },
-      "english_trans": "Then after sorrow He sent down security upon you, a calm coming upon a party of you, and (there was) another party whom their own souls had rendered anxious; they entertained about Allah thoughts of ignorance quite unjustly, saying: We have no hand in the affair. Say: Surely the affair is wholly (in the hands) of Allah. They conceal within their souls what they would not reveal to you. They say: Had we any hand in the affair, we would not have been slain here. Say: Had you remained in your houses, those for whom slaughter was ordained would certainly have gone forth to the places where they would be slain, and that Allah might test what was in your breasts and that He might purge what was in your hearts; and Allah knows what is in the breasts."
+      "english_trans": "Then after sorrow He sent down security upon you, a calm coming upon a party of you, and (there was) another party whom their own souls had rendered anxious; they entertained about Allah thoughts of ignorance quite unjustly, saying: We have no hand in the affair. Say: Surely the affair is wholly (in the hands) of Allah. They conceal within their souls what they would not reveal to you. They say: Had we any hand in the affair, we would not have been slain here. Say: Had you remained in your houses, those for whom slaughter was ordained would certainly have gone forth to the places where they would be slain, and that Allah might test what was in your breasts and that He might purge what was in your hearts; and Allah knows what is in the breasts.",
+      "arabic_text_uthmani": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَـٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَـٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
     },
     "155": {
       "arabic_text": "إِنَّ الَّذِينَ تَوَلَّوْا مِنْكُمْ يَوْمَ الْتَقَى الْجَمْعَانِ إِنَّمَا اسْتَزَلَّهُمُ الشَّيْطَانُ بِبَعْضِ مَا كَسَبُوا وَلَقَدْ عَفَا اللَّهُ عَنْهُمْ إِنَّ اللَّهَ غَفُورٌ حَلِيمٌ",
@@ -11689,7 +11843,8 @@
           "translate_bn": "বড় সহনশীল"
         }
       },
-      "english_trans": "(As for) those of you who turned back on the day when the two armies met, only the Shaitan sought to cause them to make a slip on account of some deeds they had done, and certainly Allah has pardoned them; surely Allah is Forgiving, Forbearing."
+      "english_trans": "(As for) those of you who turned back on the day when the two armies met, only the Shaitan sought to cause them to make a slip on account of some deeds they had done, and certainly Allah has pardoned them; surely Allah is Forgiving, Forbearing.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ تَوَلَّوْا۟ مِنكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ إِنَّمَا ٱسْتَزَلَّهُمُ ٱلشَّيْطَـٰنُ بِبَعْضِ مَا كَسَبُوا۟ ۖ وَلَقَدْ عَفَا ٱللَّهُ عَنْهُمْ ۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ"
     },
     "156": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَكُونُوا كَالَّذِينَ كَفَرُوا وَقَالُوا لِإِخْوَانِهِمْ إِذَا ضَرَبُوا فِي الْأَرْضِ أَوْ كَانُوا غُزًّى لَوْ كَانُوا عِنْدَنَا مَا مَاتُوا وَمَا قُتِلُوا لِيَجْعَلَ اللَّهُ ذَلِكَ حَسْرَةً فِي قُلُوبِهِمْ وَاللَّهُ يُحْيِي وَيُمِيتُ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
@@ -11840,7 +11995,8 @@
           "translate_bn": "ভালোভাবে দেখছেন"
         }
       },
-      "english_trans": "O you who believe! be not like those who disbelieve and say of their brethren when they travel in the earth or engage in fighting: Had they been with us, they would not have died and they would not have been slain; so Allah makes this to be an intense regret in their hearts; and Allah gives life and causes death and Allah sees what you do."
+      "english_trans": "O you who believe! be not like those who disbelieve and say of their brethren when they travel in the earth or engage in fighting: Had they been with us, they would not have died and they would not have been slain; so Allah makes this to be an intense regret in their hearts; and Allah gives life and causes death and Allah sees what you do.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَكُونُوا۟ كَٱلَّذِينَ كَفَرُوا۟ وَقَالُوا۟ لِإِخْوَٰنِهِمْ إِذَا ضَرَبُوا۟ فِى ٱلْأَرْضِ أَوْ كَانُوا۟ غُزًّى لَّوْ كَانُوا۟ عِندَنَا مَا مَاتُوا۟ وَمَا قُتِلُوا۟ لِيَجْعَلَ ٱللَّهُ ذَٰلِكَ حَسْرَةً فِى قُلُوبِهِمْ ۗ وَٱللَّهُ يُحْىِۦ وَيُمِيتُ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ"
     },
     "157": {
       "arabic_text": "وَلَئِنْ قُتِلْتُمْ فِي سَبِيلِ اللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌ مِنَ اللَّهِ وَرَحْمَةٌ خَيْرٌ مِمَّا يَجْمَعُونَ",
@@ -11903,7 +12059,8 @@
           "translate_bn": "তোমরা জমা করেছ"
         }
       },
-      "english_trans": "And if you are slain in the way of Allah or you die, certainly forgiveness from Allah and mercy is better than what they amass."
+      "english_trans": "And if you are slain in the way of Allah or you die, certainly forgiveness from Allah and mercy is better than what they amass.",
+      "arabic_text_uthmani": "وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرَحْمَةٌ خَيْرٌ مِّمَّا يَجْمَعُونَ"
     },
     "158": {
       "arabic_text": "وَلَئِنْ مُتُّمْ أَوْ قُتِلْتُمْ لَإِلَى اللَّهِ تُحْشَرُونَ",
@@ -11938,7 +12095,8 @@
           "translate_bn": "তোমাদের একত্রিত করা হবে"
         }
       },
-      "english_trans": "And if indeed you die or you are slain, certainly to Allah shall you be gathered together."
+      "english_trans": "And if indeed you die or you are slain, certainly to Allah shall you be gathered together.",
+      "arabic_text_uthmani": "وَلَئِن مُّتُّمْ أَوْ قُتِلْتُمْ لَإِلَى ٱللَّهِ تُحْشَرُونَ"
     },
     "159": {
       "arabic_text": "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ لِنْتَ لَهُمْ وَلَوْ كُنْتَ فَظًّا غَلِيظَ الْقَلْبِ لَانْفَضُّوا مِنْ حَوْلِكَ فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ",
@@ -12065,7 +12223,8 @@
           "translate_bn": "ভরসাকারীদেরকে"
         }
       },
-      "english_trans": "Thus it is due to mercy from Allah that you deal with them gently, and had you been rough, hard hearted, they would certainly have dispersed from around you; pardon them therefore and ask pardon for them, and take counsel with them in the affair; so when you have decided, then place your trust in Allah; surely Allah loves those who trust."
+      "english_trans": "Thus it is due to mercy from Allah that you deal with them gently, and had you been rough, hard hearted, they would certainly have dispersed from around you; pardon them therefore and ask pardon for them, and take counsel with them in the affair; so when you have decided, then place your trust in Allah; surely Allah loves those who trust.",
+      "arabic_text_uthmani": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ"
     },
     "160": {
       "arabic_text": "إِنْ يَنْصُرْكُمُ اللَّهُ فَلَا غَالِبَ لَكُمْ وَإِنْ يَخْذُلْكُمْ فَمَنْ ذَا الَّذِي يَنْصُرُكُمْ مِنْ بَعْدِهِ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
@@ -12144,7 +12303,8 @@
           "translate_bn": "ঈমানদারদের"
         }
       },
-      "english_trans": "If Allah assists you, then there is none that can overcome you, and if He forsakes you, who is there then that can assist you after Him? And on Allah should the believers rely."
+      "english_trans": "If Allah assists you, then there is none that can overcome you, and if He forsakes you, who is there then that can assist you after Him? And on Allah should the believers rely.",
+      "arabic_text_uthmani": "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ"
     },
     "161": {
       "arabic_text": "وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ وَمَنْ يَغْلُلْ يَأْتِ بِمَا غَلَّ يَوْمَ الْقِيَامَةِ ثُمَّ تُوَفَّى كُلُّ نَفْسٍ مَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
@@ -12235,7 +12395,8 @@
           "translate_bn": "জুলুম করা হবে"
         }
       },
-      "english_trans": "And it is not attributable to a prophet that he should act unfaithfully; and he who acts unfaithfully shall bring that in respect of which he has acted unfaithfully on the day of resurrection; then shall every soul be paid back fully what it has earned, and they shall not be dealt with unjustly."
+      "english_trans": "And it is not attributable to a prophet that he should act unfaithfully; and he who acts unfaithfully shall bring that in respect of which he has acted unfaithfully on the day of resurrection; then shall every soul be paid back fully what it has earned, and they shall not be dealt with unjustly.",
+      "arabic_text_uthmani": "وَمَا كَانَ لِنَبِىٍّ أَن يَغُلَّ ۚ وَمَن يَغْلُلْ يَأْتِ بِمَا غَلَّ يَوْمَ ٱلْقِيَـٰمَةِ ۚ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ"
     },
     "162": {
       "arabic_text": "أَفَمَنِ اتَّبَعَ رِضْوَانَ اللَّهِ كَمَنْ بَاءَ بِسَخَطٍ مِنَ اللَّهِ وَمَأْوَاهُ جَهَنَّمُ وَبِئْسَ الْمَصِيرُ",
@@ -12294,7 +12455,8 @@
           "translate_bn": "গন্তব্যস্থান"
         }
       },
-      "english_trans": "Is then he who follows the pleasure of Allah like him who has made himself deserving of displeasure from Allah, and his abode is hell; and it is an evil destination."
+      "english_trans": "Is then he who follows the pleasure of Allah like him who has made himself deserving of displeasure from Allah, and his abode is hell; and it is an evil destination.",
+      "arabic_text_uthmani": "أَفَمَنِ ٱتَّبَعَ رِضْوَٰنَ ٱللَّهِ كَمَنۢ بَآءَ بِسَخَطٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمَصِيرُ"
     },
     "163": {
       "arabic_text": "هُمْ دَرَجَاتٌ عِنْدَ اللَّهِ وَاللَّهُ بَصِيرٌ بِمَا يَعْمَلُونَ",
@@ -12333,7 +12495,8 @@
           "translate_bn": "তারা কাজ করছে"
         }
       },
-      "english_trans": "There are (varying) grades with Allah, and Allah sees what they do."
+      "english_trans": "There are (varying) grades with Allah, and Allah sees what they do.",
+      "arabic_text_uthmani": "هُمْ دَرَجَـٰتٌ عِندَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ"
     },
     "164": {
       "arabic_text": "لَقَدْ مَنَّ اللَّهُ عَلَى الْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًا مِنْ أَنْفُسِهِمْ يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَإِنْ كَانُوا مِنْ قَبْلُ لَفِي ضَلَالٍ مُبِينٍ",
@@ -12440,7 +12603,8 @@
           "translate_bn": "সুস্পষ্ট"
         }
       },
-      "english_trans": "Certainly Allah conferred a benefit upon the believers when He raised among them a Messenger from among themselves, reciting to them His communications and purifying them, and teaching them the Book and the wisdom, although before that they were surely in manifest error."
+      "english_trans": "Certainly Allah conferred a benefit upon the believers when He raised among them a Messenger from among themselves, reciting to them His communications and purifying them, and teaching them the Book and the wisdom, although before that they were surely in manifest error.",
+      "arabic_text_uthmani": "لَقَدْ مَنَّ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًا مِّنْ أَنفُسِهِمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِهِۦ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَإِن كَانُوا۟ مِن قَبْلُ لَفِى ضَلَـٰلٍ مُّبِينٍ"
     },
     "165": {
       "arabic_text": "أَوَلَمَّا أَصَابَتْكُمْ مُصِيبَةٌ قَدْ أَصَبْتُمْ مِثْلَيْهَا قُلْتُمْ أَنَّى هَذَا قُلْ هُوَ مِنْ عِنْدِ أَنْفُسِكُمْ إِنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
@@ -12527,7 +12691,8 @@
           "translate_bn": "ক্ষমতাবান"
         }
       },
-      "english_trans": "What! when a misfortune befell you, and you had certainly afflicted (the unbelievers) with twice as much, you began to say: Whence is this? Say: It is from yourselves; surely Allah has power over all things."
+      "english_trans": "What! when a misfortune befell you, and you had certainly afflicted (the unbelievers) with twice as much, you began to say: Whence is this? Say: It is from yourselves; surely Allah has power over all things.",
+      "arabic_text_uthmani": "أَوَلَمَّآ أَصَـٰبَتْكُم مُّصِيبَةٌ قَدْ أَصَبْتُم مِّثْلَيْهَا قُلْتُمْ أَنَّىٰ هَـٰذَا ۖ قُلْ هُوَ مِنْ عِندِ أَنفُسِكُمْ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
     },
     "166": {
       "arabic_text": "وَمَا أَصَابَكُمْ يَوْمَ الْتَقَى الْجَمْعَانِ فَبِإِذْنِ اللَّهِ وَلِيَعْلَمَ الْمُؤْمِنِينَ",
@@ -12570,7 +12735,8 @@
           "translate_bn": "মুমিনদেরকে"
         }
       },
-      "english_trans": "And what befell you on the day when the two armies met (at Ohud) was with Allah´s knowledge, and that He might know the believers."
+      "english_trans": "And what befell you on the day when the two armies met (at Ohud) was with Allah´s knowledge, and that He might know the believers.",
+      "arabic_text_uthmani": "وَمَآ أَصَـٰبَكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ فَبِإِذْنِ ٱللَّهِ وَلِيَعْلَمَ ٱلْمُؤْمِنِينَ"
     },
     "167": {
       "arabic_text": "وَلِيَعْلَمَ الَّذِينَ نَافَقُوا وَقِيلَ لَهُمْ تَعَالَوْا قَاتِلُوا فِي سَبِيلِ اللَّهِ أَوِ ادْفَعُوا قَالُوا لَوْ نَعْلَمُ قِتَالًا لَاتَّبَعْنَاكُمْ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَانِ يَقُولُونَ بِأَفْوَاهِهِمْ مَا لَيْسَ فِي قُلُوبِهِمْ وَاللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ",
@@ -12709,7 +12875,8 @@
           "translate_bn": "তারা গোপন করেছে"
         }
       },
-      "english_trans": "And that He might know the hypocrites; and it was said to them: Come, fight in Allah´s way, or defend yourselves. They said: If we knew fighting, we would certainly have followed you. They were on that day much nearer to unbelief than to belief. They say with their mouths what is not in their hearts, and Allah best knows what they conceal."
+      "english_trans": "And that He might know the hypocrites; and it was said to them: Come, fight in Allah´s way, or defend yourselves. They said: If we knew fighting, we would certainly have followed you. They were on that day much nearer to unbelief than to belief. They say with their mouths what is not in their hearts, and Allah best knows what they conceal.",
+      "arabic_text_uthmani": "وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَـٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ ٱدْفَعُوا۟ ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًا لَّٱتَّبَعْنَـٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَـٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ"
     },
     "168": {
       "arabic_text": "الَّذِينَ قَالُوا لِإِخْوَانِهِمْ وَقَعَدُوا لَوْ أَطَاعُونَا مَا قُتِلُوا قُلْ فَادْرَءُوا عَنْ أَنْفُسِكُمُ الْمَوْتَ إِنْ كُنْتُمْ صَادِقِينَ",
@@ -12780,7 +12947,8 @@
           "translate_bn": "সত্যবাদী"
         }
       },
-      "english_trans": "Those who said of their brethren whilst they (themselves) held back: Had they obeyed us, they would not have been killed. Say: Then avert death from yourselves if you speak the truth."
+      "english_trans": "Those who said of their brethren whilst they (themselves) held back: Had they obeyed us, they would not have been killed. Say: Then avert death from yourselves if you speak the truth.",
+      "arabic_text_uthmani": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ فَٱدْرَءُوا۟ عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَـٰدِقِينَ"
     },
     "169": {
       "arabic_text": "وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ",
@@ -12839,7 +13007,8 @@
           "translate_bn": "তাদের রিয্ক‌ দেয়া হয়"
         }
       },
-      "english_trans": "And reckon not those who are killed in Allah´s way as dead; nay, they are alive (and) are provided sustenance from their Lord;"
+      "english_trans": "And reckon not those who are killed in Allah´s way as dead; nay, they are alive (and) are provided sustenance from their Lord;",
+      "arabic_text_uthmani": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ بَلْ أَحْيَآءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ"
     },
     "170": {
       "arabic_text": "فَرِحِينَ بِمَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ وَيَسْتَبْشِرُونَ بِالَّذِينَ لَمْ يَلْحَقُوا بِهِمْ مِنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
@@ -12922,7 +13091,8 @@
           "translate_bn": "দুঃখিত হবে"
         }
       },
-      "english_trans": "Rejoicing in what Allah has given them out of His grace and they rejoice for the sake of those who, (being left) behind them, have not yet joined them, that they shall have no fear, nor shall they grieve."
+      "english_trans": "Rejoicing in what Allah has given them out of His grace and they rejoice for the sake of those who, (being left) behind them, have not yet joined them, that they shall have no fear, nor shall they grieve.",
+      "arabic_text_uthmani": "فَرِحِينَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِٱلَّذِينَ لَمْ يَلْحَقُوا۟ بِهِم مِّنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
     },
     "171": {
       "arabic_text": "يَسْتَبْشِرُونَ بِنِعْمَةٍ مِنَ اللَّهِ وَفَضْلٍ وَأَنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُؤْمِنِينَ",
@@ -12973,7 +13143,8 @@
           "translate_bn": "ঈমানদারদের"
         }
       },
-      "english_trans": "They rejoice on account of favor from Allah and (His) grace, and that Allah will not waste the reward of the believers."
+      "english_trans": "They rejoice on account of favor from Allah and (His) grace, and that Allah will not waste the reward of the believers.",
+      "arabic_text_uthmani": "۞ يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ وَأَنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُؤْمِنِينَ"
     },
     "172": {
       "arabic_text": "الَّذِينَ اسْتَجَابُوا لِلَّهِ وَالرَّسُولِ مِنْ بَعْدِ مَا أَصَابَهُمُ الْقَرْحُ لِلَّذِينَ أَحْسَنُوا مِنْهُمْ وَاتَّقَوْا أَجْرٌ عَظِيمٌ",
@@ -13040,7 +13211,8 @@
           "translate_bn": "বিরাট"
         }
       },
-      "english_trans": "(As for) those who responded (at Ohud) to the call of Allah and the Messenger after the wound had befallen them, those among them who do good (to others) and guard (against evil)shall have a great reward."
+      "english_trans": "(As for) those who responded (at Ohud) to the call of Allah and the Messenger after the wound had befallen them, those among them who do good (to others) and guard (against evil)shall have a great reward.",
+      "arabic_text_uthmani": "ٱلَّذِينَ ٱسْتَجَابُوا۟ لِلَّهِ وَٱلرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ ٱلْقَرْحُ ۚ لِلَّذِينَ أَحْسَنُوا۟ مِنْهُمْ وَٱتَّقَوْا۟ أَجْرٌ عَظِيمٌ"
     },
     "173": {
       "arabic_text": "الَّذِينَ قَالَ لَهُمُ النَّاسُ إِنَّ النَّاسَ قَدْ جَمَعُوا لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمْ إِيمَانًا وَقَالُوا حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
@@ -13115,7 +13287,8 @@
           "translate_bn": "অভিভাবক"
         }
       },
-      "english_trans": "Those to whom the people said: Surely men have gathered against you, therefore fear them, but this increased their faith, and they said: Allah is sufficient for us and most excellent is the Protector."
+      "english_trans": "Those to whom the people said: Surely men have gathered against you, therefore fear them, but this increased their faith, and they said: Allah is sufficient for us and most excellent is the Protector.",
+      "arabic_text_uthmani": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَـٰنًا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ"
     },
     "174": {
       "arabic_text": "فَانْقَلَبُوا بِنِعْمَةٍ مِنَ اللَّهِ وَفَضْلٍ لَمْ يَمْسَسْهُمْ سُوءٌ وَاتَّبَعُوا رِضْوَانَ اللَّهِ وَاللَّهُ ذُو فَضْلٍ عَظِيمٍ",
@@ -13182,7 +13355,8 @@
           "translate_bn": "মহান"
         }
       },
-      "english_trans": "So they returned with favor from Allah and (His) grace, no evil touched them and they followed the pleasure of Allah; and Allah is the Lord of mighty grace."
+      "english_trans": "So they returned with favor from Allah and (His) grace, no evil touched them and they followed the pleasure of Allah; and Allah is the Lord of mighty grace.",
+      "arabic_text_uthmani": "فَٱنقَلَبُوا۟ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ لَّمْ يَمْسَسْهُمْ سُوٓءٌ وَٱتَّبَعُوا۟ رِضْوَٰنَ ٱللَّهِ ۗ وَٱللَّهُ ذُو فَضْلٍ عَظِيمٍ"
     },
     "175": {
       "arabic_text": "إِنَّمَا ذَلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ وَخَافُونِ إِنْ كُنْتُمْ مُؤْمِنِينَ",
@@ -13233,7 +13407,8 @@
           "translate_bn": "মুমিন"
         }
       },
-      "english_trans": "It is only the Shaitan that causes you to fear from his friends, but do not fear them, and fear Me if you are believers."
+      "english_trans": "It is only the Shaitan that causes you to fear from his friends, but do not fear them, and fear Me if you are believers.",
+      "arabic_text_uthmani": "إِنَّمَا ذَٰلِكُمُ ٱلشَّيْطَـٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ"
     },
     "176": {
       "arabic_text": "وَلَا يَحْزُنْكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ إِنَّهُمْ لَنْ يَضُرُّوا اللَّهَ شَيْئًا يُرِيدُ اللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّا فِي الْآخِرَةِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
@@ -13328,7 +13503,8 @@
           "translate_bn": "বড় কঠিন"
         }
       },
-      "english_trans": "And let not those grieve you who fall into unbelief hastily; surely they can do no harm to Allah at all; Allah intends that He should not give them any portion in the hereafter, and they shall have a grievous chastisement."
+      "english_trans": "And let not those grieve you who fall into unbelief hastily; surely they can do no harm to Allah at all; Allah intends that He should not give them any portion in the hereafter, and they shall have a grievous chastisement.",
+      "arabic_text_uthmani": "وَلَا يَحْزُنكَ ٱلَّذِينَ يُسَـٰرِعُونَ فِى ٱلْكُفْرِ ۚ إِنَّهُمْ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا ۗ يُرِيدُ ٱللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّا فِى ٱلْـَٔاخِرَةِ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ"
     },
     "177": {
       "arabic_text": "إِنَّ الَّذِينَ اشْتَرَوُا الْكُفْرَ بِالْإِيمَانِ لَنْ يَضُرُّوا اللَّهَ شَيْئًا وَلَهُمْ عَذَابٌ أَلِيمٌ",
@@ -13383,7 +13559,8 @@
           "translate_bn": "বড়ই কষ্টদায়ক"
         }
       },
-      "english_trans": "Surely those who have bought unbelief at the price of faith shall do no harm at all to Allah, and they shall have a painful chastisement."
+      "english_trans": "Surely those who have bought unbelief at the price of faith shall do no harm at all to Allah, and they shall have a painful chastisement.",
+      "arabic_text_uthmani": "إِنَّ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْكُفْرَ بِٱلْإِيمَـٰنِ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا وَلَهُمْ عَذَابٌ أَلِيمٌ"
     },
     "178": {
       "arabic_text": "وَلَا يَحْسَبَنَّ الَّذِينَ كَفَرُوا أَنَّمَا نُمْلِي لَهُمْ خَيْرٌ لِأَنْفُسِهِمْ إِنَّمَا نُمْلِي لَهُمْ لِيَزْدَادُوا إِثْمًا وَلَهُمْ عَذَابٌ مُهِينٌ",
@@ -13458,7 +13635,8 @@
           "translate_bn": "বড় অপমানকর"
         }
       },
-      "english_trans": "And let not those who disbelieve think that Our granting them respite is better for their souls; We grant them respite only that they may add to their sins; and they shall have a disgraceful chastisement."
+      "english_trans": "And let not those who disbelieve think that Our granting them respite is better for their souls; We grant them respite only that they may add to their sins; and they shall have a disgraceful chastisement.",
+      "arabic_text_uthmani": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّمَا نُمْلِى لَهُمْ خَيْرٌ لِّأَنفُسِهِمْ ۚ إِنَّمَا نُمْلِى لَهُمْ لِيَزْدَادُوٓا۟ إِثْمًا ۚ وَلَهُمْ عَذَابٌ مُّهِينٌ"
     },
     "179": {
       "arabic_text": "مَا كَانَ اللَّهُ لِيَذَرَ الْمُؤْمِنِينَ عَلَى مَا أَنْتُمْ عَلَيْهِ حَتَّى يَمِيزَ الْخَبِيثَ مِنَ الطَّيِّبِ وَمَا كَانَ اللَّهُ لِيُطْلِعَكُمْ عَلَى الْغَيْبِ وَلَكِنَّ اللَّهَ يَجْتَبِي مِنْ رُسُلِهِ مَنْ يَشَاءُ فَآمِنُوا بِاللَّهِ وَرُسُلِهِ وَإِنْ تُؤْمِنُوا وَتَتَّقُوا فَلَكُمْ أَجْرٌ عَظِيمٌ",
@@ -13609,7 +13787,8 @@
           "translate_bn": "বিরাট"
         }
       },
-      "english_trans": "On no account will Allah leave the believers in the condition which you are in until He separates the evil from the good; nor is Allah going to make you acquainted with the unseen, but Allah chooses of His messengers whom He pleases; therefore believe in Allah and His messengers; and if you believe and guard (against evil), then you shall have a great reward."
+      "english_trans": "On no account will Allah leave the believers in the condition which you are in until He separates the evil from the good; nor is Allah going to make you acquainted with the unseen, but Allah chooses of His messengers whom He pleases; therefore believe in Allah and His messengers; and if you believe and guard (against evil), then you shall have a great reward.",
+      "arabic_text_uthmani": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَـٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ"
     },
     "180": {
       "arabic_text": "وَلَا يَحْسَبَنَّ الَّذِينَ يَبْخَلُونَ بِمَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ هُوَ خَيْرًا لَهُمْ بَلْ هُوَ شَرٌّ لَهُمْ سَيُطَوَّقُونَ مَا بَخِلُوا بِهِ يَوْمَ الْقِيَامَةِ وَلِلَّهِ مِيرَاثُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
@@ -13736,7 +13915,8 @@
           "translate_bn": "খুবই অবহিত"
         }
       },
-      "english_trans": "And let not those deem, who are niggardly in giving away that which Allah has granted them out of His grace, that it is good for them; nay, it is worse for them; they shall have that whereof they were niggardly made to cleave to their necks on the resurrection day; and Allah´s is the heritage of the heavens and the earth; and Allah is aware of what you do."
+      "english_trans": "And let not those deem, who are niggardly in giving away that which Allah has granted them out of His grace, that it is good for them; nay, it is worse for them; they shall have that whereof they were niggardly made to cleave to their necks on the resurrection day; and Allah´s is the heritage of the heavens and the earth; and Allah is aware of what you do.",
+      "arabic_text_uthmani": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَـٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ"
     },
     "181": {
       "arabic_text": "لَقَدْ سَمِعَ اللَّهُ قَوْلَ الَّذِينَ قَالُوا إِنَّ اللَّهَ فَقِيرٌ وَنَحْنُ أَغْنِيَاءُ سَنَكْتُبُ مَا قَالُوا وَقَتْلَهُمُ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ وَنَقُولُ ذُوقُوا عَذَابَ الْحَرِيقِ",
@@ -13831,7 +14011,8 @@
           "translate_bn": "দহনের"
         }
       },
-      "english_trans": "Allah has certainly heard the saying of those who said: Surely Allah is poor and we are rich. I will record what they say, and their killing the prophets unjustly, and I will say: Taste the chastisement of burning."
+      "english_trans": "Allah has certainly heard the saying of those who said: Surely Allah is poor and we are rich. I will record what they say, and their killing the prophets unjustly, and I will say: Taste the chastisement of burning.",
+      "arabic_text_uthmani": "لَّقَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ فَقِيرٌ وَنَحْنُ أَغْنِيَآءُ ۘ سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ"
     },
     "182": {
       "arabic_text": "ذَلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِلْعَبِيدِ",
@@ -13874,7 +14055,8 @@
           "translate_bn": "বান্দাদের উপর"
         }
       },
-      "english_trans": "This is for what your own hands have sent before and because Allah is not in the least unjust to the servants."
+      "english_trans": "This is for what your own hands have sent before and because Allah is not in the least unjust to the servants.",
+      "arabic_text_uthmani": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ"
     },
     "183": {
       "arabic_text": "الَّذِينَ قَالُوا إِنَّ اللَّهَ عَهِدَ إِلَيْنَا أَلَّا نُؤْمِنَ لِرَسُولٍ حَتَّى يَأْتِيَنَا بِقُرْبَانٍ تَأْكُلُهُ النَّارُ قُلْ قَدْ جَاءَكُمْ رُسُلٌ مِنْ قَبْلِي بِالْبَيِّنَاتِ وَبِالَّذِي قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمْ إِنْ كُنْتُمْ صَادِقِينَ",
@@ -13993,7 +14175,8 @@
           "translate_bn": "সত্যবাদী"
         }
       },
-      "english_trans": "(Those are they) who said: Surely Allah has enjoined us that we should not believe in any messenger until he brings us an offering which the fire consumes. Say: Indeed, there came to you messengers before me with clear arguments and with that which you demand; why then did you kill them if you are truthful?"
+      "english_trans": "(Those are they) who said: Surely Allah has enjoined us that we should not believe in any messenger until he brings us an offering which the fire consumes. Say: Indeed, there came to you messengers before me with clear arguments and with that which you demand; why then did you kill them if you are truthful?",
+      "arabic_text_uthmani": "ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ عَهِدَ إِلَيْنَآ أَلَّا نُؤْمِنَ لِرَسُولٍ حَتَّىٰ يَأْتِيَنَا بِقُرْبَانٍ تَأْكُلُهُ ٱلنَّارُ ۗ قُلْ قَدْ جَآءَكُمْ رُسُلٌ مِّن قَبْلِى بِٱلْبَيِّنَـٰتِ وَبِٱلَّذِى قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمْ إِن كُنتُمْ صَـٰدِقِينَ"
     },
     "184": {
       "arabic_text": "فَإِنْ كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِنْ قَبْلِكَ جَاءُوا بِالْبَيِّنَاتِ وَالزُّبُرِ وَالْكِتَابِ الْمُنِيرِ",
@@ -14048,7 +14231,8 @@
           "translate_bn": "আলোকদানকারী (সাথে নিয়ে)"
         }
       },
-      "english_trans": "But if they reject you, so indeed were rejected before you messengers who came with clear arguments and scriptures and the illuminating book."
+      "english_trans": "But if they reject you, so indeed were rejected before you messengers who came with clear arguments and scriptures and the illuminating book.",
+      "arabic_text_uthmani": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَـٰتِ وَٱلزُّبُرِ وَٱلْكِتَـٰبِ ٱلْمُنِيرِ"
     },
     "185": {
       "arabic_text": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ الْقِيَامَةِ فَمَنْ زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ",
@@ -14147,7 +14331,8 @@
           "translate_bn": "ধোঁকার"
         }
       },
-      "english_trans": "Every soul shall taste of death, and you shall only be paid fully your reward on the resurrection day; then whoever is removed far away from the fire and is made to enter the garden he indeed has attained the object; and the life of this world is nothing but a provision of vanities."
+      "english_trans": "Every soul shall taste of death, and you shall only be paid fully your reward on the resurrection day; then whoever is removed far away from the fire and is made to enter the garden he indeed has attained the object; and the life of this world is nothing but a provision of vanities.",
+      "arabic_text_uthmani": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَـٰمَةِ ۖ فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَـٰعُ ٱلْغُرُورِ"
     },
     "186": {
       "arabic_text": "لَتُبْلَوُنَّ فِي أَمْوَالِكُمْ وَأَنْفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ الَّذِينَ أُوتُوا الْكِتَابَ مِنْ قَبْلِكُمْ وَمِنَ الَّذِينَ أَشْرَكُوا أَذًى كَثِيرًا وَإِنْ تَصْبِرُوا وَتَتَّقُوا فَإِنَّ ذَلِكَ مِنْ عَزْمِ الْأُمُورِ",
@@ -14250,7 +14435,8 @@
           "translate_bn": "ব্যাপার"
         }
       },
-      "english_trans": "You shall certainly be tried respecting your wealth and your souls, and you shall certainly hear from those who have been given the Book before you and from those who are polytheists much annoying talk; and if you are patient and guard (against evil), surely this is one of the affairs (which should be) determined upon."
+      "english_trans": "You shall certainly be tried respecting your wealth and your souls, and you shall certainly hear from those who have been given the Book before you and from those who are polytheists much annoying talk; and if you are patient and guard (against evil), surely this is one of the affairs (which should be) determined upon.",
+      "arabic_text_uthmani": "۞ لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًى كَثِيرًا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ"
     },
     "187": {
       "arabic_text": "وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ الَّذِينَ أُوتُوا الْكِتَابَ لَتُبَيِّنُنَّهُ لِلنَّاسِ وَلَا تَكْتُمُونَهُ فَنَبَذُوهُ وَرَاءَ ظُهُورِهِمْ وَاشْتَرَوْا بِهِ ثَمَنًا قَلِيلًا فَبِئْسَ مَا يَشْتَرُونَ",
@@ -14341,7 +14527,8 @@
           "translate_bn": "তারা ক্রয় করে"
         }
       },
-      "english_trans": "And when Allah made a covenant with those who were given the Book: You shall certainly make it known to men and you shall not hide it; but they cast it behind their backs and took a small price for it; so evil is that which they buy."
+      "english_trans": "And when Allah made a covenant with those who were given the Book: You shall certainly make it known to men and you shall not hide it; but they cast it behind their backs and took a small price for it; so evil is that which they buy.",
+      "arabic_text_uthmani": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ فَنَبَذُوهُ وَرَآءَ ظُهُورِهِمْ وَٱشْتَرَوْا۟ بِهِۦ ثَمَنًا قَلِيلًا ۖ فَبِئْسَ مَا يَشْتَرُونَ"
     },
     "188": {
       "arabic_text": "لَا تَحْسَبَنَّ الَّذِينَ يَفْرَحُونَ بِمَا أَتَوْا وَيُحِبُّونَ أَنْ يُحْمَدُوا بِمَا لَمْ يَفْعَلُوا فَلَا تَحْسَبَنَّهُمْ بِمَفَازَةٍ مِنَ الْعَذَابِ وَلَهُمْ عَذَابٌ أَلِيمٌ",
@@ -14428,7 +14615,8 @@
           "translate_bn": "কষ্টদায়ক"
         }
       },
-      "english_trans": "Do not think those who rejoice for what they have done and love that they should be praised for what they have not done-- so do by no means think them to be safe from the chastisement, and they shall have a painful chastisement."
+      "english_trans": "Do not think those who rejoice for what they have done and love that they should be praised for what they have not done-- so do by no means think them to be safe from the chastisement, and they shall have a painful chastisement.",
+      "arabic_text_uthmani": "لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍ مِّنَ ٱلْعَذَابِ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌ"
     },
     "189": {
       "arabic_text": "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
@@ -14471,7 +14659,8 @@
           "translate_bn": "ক্ষমতাবান"
         }
       },
-      "english_trans": "And Allah´s is the kingdom of the heavens and the earth, and Allah has power over all things."
+      "english_trans": "And Allah´s is the kingdom of the heavens and the earth, and Allah has power over all things.",
+      "arabic_text_uthmani": "وَلِلَّهِ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
     },
     "190": {
       "arabic_text": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ",
@@ -14522,7 +14711,8 @@
           "translate_bn": "বুদ্ধিমানদের"
         }
       },
-      "english_trans": "Most surely in the creation of the heavens and the earth and the alternation of the night and the day there are signs for men who understand."
+      "english_trans": "Most surely in the creation of the heavens and the earth and the alternation of the night and the day there are signs for men who understand.",
+      "arabic_text_uthmani": "إِنَّ فِى خَلْقِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَـٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَـَٔايَـٰتٍ لِّأُو۟لِى ٱلْأَلْبَـٰبِ"
     },
     "191": {
       "arabic_text": "الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ",
@@ -14613,7 +14803,8 @@
           "translate_bn": "আগুনের"
         }
       },
-      "english_trans": "Those who remember Allah standing and sitting and lying on their sides and reflect on the creation of the heavens and the earth: Our Lord! Thou hast not created this in vain! Glory be to Thee; save us then from the chastisement of the fire:"
+      "english_trans": "Those who remember Allah standing and sitting and lying on their sides and reflect on the creation of the heavens and the earth: Our Lord! Thou hast not created this in vain! Glory be to Thee; save us then from the chastisement of the fire:",
+      "arabic_text_uthmani": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَـٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ"
     },
     "192": {
       "arabic_text": "رَبَّنَا إِنَّكَ مَنْ تُدْخِلِ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ",
@@ -14664,7 +14855,8 @@
           "translate_bn": "সাহায্যকারী"
         }
       },
-      "english_trans": "Our Lord! surely whomsoever Thou makest enter the fire, him Thou hast indeed brought to disgrace, and there shall be no helpers for the unjust:"
+      "english_trans": "Our Lord! surely whomsoever Thou makest enter the fire, him Thou hast indeed brought to disgrace, and there shall be no helpers for the unjust:",
+      "arabic_text_uthmani": "رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍ"
     },
     "193": {
       "arabic_text": "رَبَّنَا إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ",
@@ -14751,7 +14943,8 @@
           "translate_bn": "নেক লোকদের"
         }
       },
-      "english_trans": "Our Lord! surely we have heard a preacher calling to the faith, saying: Believe in your Lord, so we did believe; Our Lord! forgive us therefore our faults, and cover our evil deeds and make us die with the righteous."
+      "english_trans": "Our Lord! surely we have heard a preacher calling to the faith, saying: Believe in your Lord, so we did believe; Our Lord! forgive us therefore our faults, and cover our evil deeds and make us die with the righteous.",
+      "arabic_text_uthmani": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ"
     },
     "194": {
       "arabic_text": "رَبَّنَا وَآتِنَا مَا وَعَدْتَنَا عَلَى رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ",
@@ -14814,7 +15007,8 @@
           "translate_bn": "ওয়াদার"
         }
       },
-      "english_trans": "Our Lord! and grant us what Thou hast promised us by Thy messengers; and disgrace us not on the day of resurrection; surely Thou dost not fail to perform the promise."
+      "english_trans": "Our Lord! and grant us what Thou hast promised us by Thy messengers; and disgrace us not on the day of resurrection; surely Thou dost not fail to perform the promise.",
+      "arabic_text_uthmani": "رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ"
     },
     "195": {
       "arabic_text": "فَاسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِنْكُمْ مِنْ ذَكَرٍ أَوْ أُنْثَى بَعْضُكُمْ مِنْ بَعْضٍ فَالَّذِينَ هَاجَرُوا وَأُخْرِجُوا مِنْ دِيَارِهِمْ وَأُوذُوا فِي سَبِيلِي وَقَاتَلُوا وَقُتِلُوا لَأُكَفِّرَنَّ عَنْهُمْ سَيِّئَاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ ثَوَابًا مِنْ عِنْدِ اللَّهِ وَاللَّهُ عِنْدَهُ حُسْنُ الثَّوَابِ",
@@ -14993,7 +15187,8 @@
           "translate_bn": "প্রতিফল"
         }
       },
-      "english_trans": "So their Lord accepted their prayer: That I will not waste the work of a worker among you, whether male or female, the one of you being from the other; they, therefore, who fled and were turned out of their homes and persecuted in My way and who fought and were slain, I will most certainly cover their evil deeds, and I will most certainly make them enter gardens beneath which rivers flow; a reward from Allah, and with Allah is yet better reward."
+      "english_trans": "So their Lord accepted their prayer: That I will not waste the work of a worker among you, whether male or female, the one of you being from the other; they, therefore, who fled and were turned out of their homes and persecuted in My way and who fought and were slain, I will most certainly cover their evil deeds, and I will most certainly make them enter gardens beneath which rivers flow; a reward from Allah, and with Allah is yet better reward.",
+      "arabic_text_uthmani": "فَٱسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّى لَآ أُضِيعُ عَمَلَ عَـٰمِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّنۢ بَعْضٍ ۖ فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَـٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَـٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ثَوَابًا مِّنْ عِندِ ٱللَّهِ ۗ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلثَّوَابِ"
     },
     "196": {
       "arabic_text": "لَا يَغُرَّنَّكَ تَقَلُّبُ الَّذِينَ كَفَرُوا فِي الْبِلَادِ",
@@ -15028,7 +15223,8 @@
           "translate_bn": "দেশ দেশে"
         }
       },
-      "english_trans": "Let it not deceive you that those who disbelieve go to and fro in the cities fearlessly."
+      "english_trans": "Let it not deceive you that those who disbelieve go to and fro in the cities fearlessly.",
+      "arabic_text_uthmani": "لَا يَغُرَّنَّكَ تَقَلُّبُ ٱلَّذِينَ كَفَرُوا۟ فِى ٱلْبِلَـٰدِ"
     },
     "197": {
       "arabic_text": "مَتَاعٌ قَلِيلٌ ثُمَّ مَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمِهَادُ",
@@ -15063,7 +15259,8 @@
           "translate_bn": "বিশ্রামস্থল"
         }
       },
-      "english_trans": "A brief enjoyment! then their abode is hell, and evil is the resting-place."
+      "english_trans": "A brief enjoyment! then their abode is hell, and evil is the resting-place.",
+      "arabic_text_uthmani": "مَتَـٰعٌ قَلِيلٌ ثُمَّ مَأْوَىٰهُمْ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمِهَادُ"
     },
     "198": {
       "arabic_text": "لَكِنِ الَّذِينَ اتَّقَوْا رَبَّهُمْ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا نُزُلًا مِنْ عِنْدِ اللَّهِ وَمَا عِنْدَ اللَّهِ خَيْرٌ لِلْأَبْرَارِ",
@@ -15154,7 +15351,8 @@
           "translate_bn": "নেক লোকদের জন্য"
         }
       },
-      "english_trans": "But as to those who are careful of (their duty to) their Lord, they shall have gardens beneath which rivers flow, abiding in them; an entertainment from their Lord, and that which is with Allah is best for the righteous."
+      "english_trans": "But as to those who are careful of (their duty to) their Lord, they shall have gardens beneath which rivers flow, abiding in them; an entertainment from their Lord, and that which is with Allah is best for the righteous.",
+      "arabic_text_uthmani": "لَـٰكِنِ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا نُزُلًا مِّنْ عِندِ ٱللَّهِ ۗ وَمَا عِندَ ٱللَّهِ خَيْرٌ لِّلْأَبْرَارِ"
     },
     "199": {
       "arabic_text": "وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَنْ يُؤْمِنُ بِاللَّهِ وَمَا أُنْزِلَ إِلَيْكُمْ وَمَا أُنْزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا أُولَئِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
@@ -15281,7 +15479,8 @@
           "translate_bn": "হিসাব গ্রহণকারী"
         }
       },
-      "english_trans": "And most surely of the followers of the Book there are those who believe in Allah and (in) that which has been revealed to you and (in) that which has been revealed to them, being lowly before Allah; they do not take a small price for the communications of Allah; these it is that have their reward with their Lord; surely Allah is quick in reckoning."
+      "english_trans": "And most surely of the followers of the Book there are those who believe in Allah and (in) that which has been revealed to you and (in) that which has been revealed to them, being lowly before Allah; they do not take a small price for the communications of Allah; these it is that have their reward with their Lord; surely Allah is quick in reckoning.",
+      "arabic_text_uthmani": "وَإِنَّ مِنْ أَهْلِ ٱلْكِتَـٰبِ لَمَن يُؤْمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْكُمْ وَمَآ أُنزِلَ إِلَيْهِمْ خَـٰشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِـَٔايَـٰتِ ٱللَّهِ ثَمَنًا قَلِيلًا ۗ أُو۟لَـٰٓئِكَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ ۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ"
     },
     "200": {
       "arabic_text": "يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
@@ -15328,7 +15527,8 @@
           "translate_bn": "সফলকাম হবে"
         }
       },
-      "english_trans": "O you who believe! be patient and excel in patience and remain steadfast, and be careful of (your duty to) Allah, that you may be successful."
+      "english_trans": "O you who believe! be patient and excel in patience and remain steadfast, and be careful of (your duty to) Allah, that you may be successful.",
+      "arabic_text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ"
     }
   }
 }

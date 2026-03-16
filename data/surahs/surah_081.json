@@ -23,7 +23,8 @@
           "translate_bn": "নিষ্প্রভ হবে"
         }
       },
-      "english_trans": "When the sun is covered,"
+      "english_trans": "When the sun is covered,",
+      "arabic_text_uthmani": " إِذَا ٱلشَّمْسُ كُوِّرَتْ"
     },
     "2": {
       "arabic_text": "وَإِذَا النُّجُومُ انْكَدَرَتْ",
@@ -42,7 +43,8 @@
           "translate_bn": "খসে পড়বে"
         }
       },
-      "english_trans": "And when the stars darken,"
+      "english_trans": "And when the stars darken,",
+      "arabic_text_uthmani": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ"
     },
     "3": {
       "arabic_text": "وَإِذَا الْجِبَالُ سُيِّرَتْ",
@@ -61,7 +63,8 @@
           "translate_bn": "চালানো হবে"
         }
       },
-      "english_trans": "And when the mountains are made to pass away,"
+      "english_trans": "And when the mountains are made to pass away,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ"
     },
     "4": {
       "arabic_text": "وَإِذَا الْعِشَارُ عُطِّلَتْ",
@@ -80,7 +83,8 @@
           "translate_bn": "উপেক্ষিত হবে"
         }
       },
-      "english_trans": "And when the camels are left untended,"
+      "english_trans": "And when the camels are left untended,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ"
     },
     "5": {
       "arabic_text": "وَإِذَا الْوُحُوشُ حُشِرَتْ",
@@ -99,7 +103,8 @@
           "translate_bn": "একত্র করা হবে"
         }
       },
-      "english_trans": "And when the wild animals are made to go forth,"
+      "english_trans": "And when the wild animals are made to go forth,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ"
     },
     "6": {
       "arabic_text": "وَإِذَا الْبِحَارُ سُجِّرَتْ",
@@ -118,7 +123,8 @@
           "translate_bn": "প্রজ্বলিত করা হবে"
         }
       },
-      "english_trans": "And when the seas are set on fire,"
+      "english_trans": "And when the seas are set on fire,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ"
     },
     "7": {
       "arabic_text": "وَإِذَا النُّفُوسُ زُوِّجَتْ",
@@ -137,7 +143,8 @@
           "translate_bn": "জুড়ে দেয়া হবে (শরীরের সাথে)"
         }
       },
-      "english_trans": "And when souls are united,"
+      "english_trans": "And when souls are united,",
+      "arabic_text_uthmani": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ"
     },
     "8": {
       "arabic_text": "وَإِذَا الْمَوْءُودَةُ سُئِلَتْ",
@@ -156,7 +163,8 @@
           "translate_bn": "জিজ্ঞাসা করা হবে"
         }
       },
-      "english_trans": "And when the female infant buried alive is asked"
+      "english_trans": "And when the female infant buried alive is asked",
+      "arabic_text_uthmani": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ"
     },
     "9": {
       "arabic_text": "بِأَيِّ ذَنْبٍ قُتِلَتْ",
@@ -175,7 +183,8 @@
           "translate_bn": "তাকে হত্যা করা হয়েছে"
         }
       },
-      "english_trans": "For what sin she was killed,"
+      "english_trans": "For what sin she was killed,",
+      "arabic_text_uthmani": "بِأَىِّ ذَنۢبٍ قُتِلَتْ"
     },
     "10": {
       "arabic_text": "وَإِذَا الصُّحُفُ نُشِرَتْ",
@@ -194,7 +203,8 @@
           "translate_bn": "উন্মোচিত হবে"
         }
       },
-      "english_trans": "And when the books are spread,"
+      "english_trans": "And when the books are spread,",
+      "arabic_text_uthmani": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ"
     },
     "11": {
       "arabic_text": "وَإِذَا السَّمَاءُ كُشِطَتْ",
@@ -213,7 +223,8 @@
           "translate_bn": "আবরণ অপসারিত হবে"
         }
       },
-      "english_trans": "And when the heaven has its covering removed,"
+      "english_trans": "And when the heaven has its covering removed,",
+      "arabic_text_uthmani": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ"
     },
     "12": {
       "arabic_text": "وَإِذَا الْجَحِيمُ سُعِّرَتْ",
@@ -232,7 +243,8 @@
           "translate_bn": "প্রজ্বলিত করা হবে"
         }
       },
-      "english_trans": "And when the hell is kindled up,"
+      "english_trans": "And when the hell is kindled up,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ"
     },
     "13": {
       "arabic_text": "وَإِذَا الْجَنَّةُ أُزْلِفَتْ",
@@ -251,7 +263,8 @@
           "translate_bn": "নিকটে আনা হবে"
         }
       },
-      "english_trans": "And when the garden is brought nigh,"
+      "english_trans": "And when the garden is brought nigh,",
+      "arabic_text_uthmani": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ"
     },
     "14": {
       "arabic_text": "عَلِمَتْ نَفْسٌ مَا أَحْضَرَتْ",
@@ -274,7 +287,8 @@
           "translate_bn": "উপস্থিত করেছে"
         }
       },
-      "english_trans": "Every soul shall (then) know what it has prepared."
+      "english_trans": "Every soul shall (then) know what it has prepared.",
+      "arabic_text_uthmani": "عَلِمَتْ نَفْسٌ مَّآ أَحْضَرَتْ"
     },
     "15": {
       "arabic_text": "فَلَا أُقْسِمُ بِالْخُنَّسِ",
@@ -293,7 +307,8 @@
           "translate_bn": "পশ্চাদপসরণকারী"
         }
       },
-      "english_trans": "But nay! I swear by the stars,"
+      "english_trans": "But nay! I swear by the stars,",
+      "arabic_text_uthmani": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ"
     },
     "16": {
       "arabic_text": "الْجَوَارِ الْكُنَّسِ",
@@ -308,7 +323,8 @@
           "translate_bn": "অদৃশ্যমান (নক্ষত্রগুলোর)"
         }
       },
-      "english_trans": "That run their course (and) hide themselves,"
+      "english_trans": "That run their course (and) hide themselves,",
+      "arabic_text_uthmani": "ٱلْجَوَارِ ٱلْكُنَّسِ"
     },
     "17": {
       "arabic_text": "وَاللَّيْلِ إِذَا عَسْعَسَ",
@@ -327,7 +343,8 @@
           "translate_bn": "শেষ হয়"
         }
       },
-      "english_trans": "And the night when it departs,"
+      "english_trans": "And the night when it departs,",
+      "arabic_text_uthmani": "وَٱلَّيْلِ إِذَا عَسْعَسَ"
     },
     "18": {
       "arabic_text": "وَالصُّبْحِ إِذَا تَنَفَّسَ",
@@ -346,7 +363,8 @@
           "translate_bn": "শ্বাস নেয়"
         }
       },
-      "english_trans": "And the morning when it brightens,"
+      "english_trans": "And the morning when it brightens,",
+      "arabic_text_uthmani": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ"
     },
     "19": {
       "arabic_text": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
@@ -369,7 +387,8 @@
           "translate_bn": "সম্মানিত"
         }
       },
-      "english_trans": "Most surely it is the Word of an honored messenger,"
+      "english_trans": "Most surely it is the Word of an honored messenger,",
+      "arabic_text_uthmani": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ"
     },
     "20": {
       "arabic_text": "ذِي قُوَّةٍ عِنْدَ ذِي الْعَرْشِ مَكِينٍ",
@@ -400,7 +419,8 @@
           "translate_bn": "সামর্থ্যশালী"
         }
       },
-      "english_trans": "The processor of strength, having an honorable place with the Lord of the Dominion,"
+      "english_trans": "The processor of strength, having an honorable place with the Lord of the Dominion,",
+      "arabic_text_uthmani": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍ"
     },
     "21": {
       "arabic_text": "مُطَاعٍ ثَمَّ أَمِينٍ",
@@ -419,7 +439,8 @@
           "translate_bn": "(এবং সে) বিশ্বস্ত"
         }
       },
-      "english_trans": "One (to be) obeyed, and faithful in trust."
+      "english_trans": "One (to be) obeyed, and faithful in trust.",
+      "arabic_text_uthmani": "مُّطَاعٍ ثَمَّ أَمِينٍ"
     },
     "22": {
       "arabic_text": "وَمَا صَاحِبُكُمْ بِمَجْنُونٍ",
@@ -438,7 +459,8 @@
           "translate_bn": "পাগল"
         }
       },
-      "english_trans": "And your companion is not gone mad."
+      "english_trans": "And your companion is not gone mad.",
+      "arabic_text_uthmani": "وَمَا صَاحِبُكُم بِمَجْنُونٍ"
     },
     "23": {
       "arabic_text": "وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ",
@@ -461,7 +483,8 @@
           "translate_bn": "সুস্পষ্ট"
         }
       },
-      "english_trans": "And of a truth he saw himself on the clear horizon."
+      "english_trans": "And of a truth he saw himself on the clear horizon.",
+      "arabic_text_uthmani": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ"
     },
     "24": {
       "arabic_text": "وَمَا هُوَ عَلَى الْغَيْبِ بِضَنِينٍ",
@@ -488,7 +511,8 @@
           "translate_bn": "কৃপণ"
         }
       },
-      "english_trans": "Nor of the unseen is he a tenacious concealer."
+      "english_trans": "Nor of the unseen is he a tenacious concealer.",
+      "arabic_text_uthmani": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍ"
     },
     "25": {
       "arabic_text": "وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَجِيمٍ",
@@ -515,7 +539,8 @@
           "translate_bn": "অভিশপ্ত"
         }
       },
-      "english_trans": "Nor is it the word of the cursed Shaitan,"
+      "english_trans": "Nor is it the word of the cursed Shaitan,",
+      "arabic_text_uthmani": "وَمَا هُوَ بِقَوْلِ شَيْطَـٰنٍ رَّجِيمٍ"
     },
     "26": {
       "arabic_text": "فَأَيْنَ تَذْهَبُونَ",
@@ -530,7 +555,8 @@
           "translate_bn": "তোমরা চলেছ"
         }
       },
-      "english_trans": "Whither then will you go?"
+      "english_trans": "Whither then will you go?",
+      "arabic_text_uthmani": "فَأَيْنَ تَذْهَبُونَ"
     },
     "27": {
       "arabic_text": "إِنْ هُوَ إِلَّا ذِكْرٌ لِلْعَالَمِينَ",
@@ -557,7 +583,8 @@
           "translate_bn": "বিশ্ব-জগতের জন্যে"
         }
       },
-      "english_trans": "It is naught but a reminder for the nations,"
+      "english_trans": "It is naught but a reminder for the nations,",
+      "arabic_text_uthmani": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ"
     },
     "28": {
       "arabic_text": "لِمَنْ شَاءَ مِنْكُمْ أَنْ يَسْتَقِيمَ",
@@ -584,7 +611,8 @@
           "translate_bn": "সোজা চলতে"
         }
       },
-      "english_trans": "For him among you who pleases to go straight."
+      "english_trans": "For him among you who pleases to go straight.",
+      "arabic_text_uthmani": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ"
     },
     "29": {
       "arabic_text": "وَمَا تَشَاءُونَ إِلَّا أَنْ يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ",
@@ -623,7 +651,8 @@
           "translate_bn": "জগতসমূহের"
         }
       },
-      "english_trans": "And you do not please except that Allah please, the Lord of the worlds."
+      "english_trans": "And you do not please except that Allah please, the Lord of the worlds.",
+      "arabic_text_uthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ"
     }
   }
 }

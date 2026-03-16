@@ -31,7 +31,8 @@
           "translate_bn": "ও বিজয়"
         }
       },
-      "english_trans": "When there comes the help of Allah and the victory,"
+      "english_trans": "When there comes the help of Allah and the victory,",
+      "arabic_text_uthmani": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ"
     },
     "2": {
       "arabic_text": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
@@ -66,7 +67,8 @@
           "translate_bn": "দলে দলে"
         }
       },
-      "english_trans": "And you see men entering the religion of Allah in companies,"
+      "english_trans": "And you see men entering the religion of Allah in companies,",
+      "arabic_text_uthmani": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا"
     },
     "3": {
       "arabic_text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
@@ -101,7 +103,8 @@
           "translate_bn": "ক্ষমাপরবশ"
         }
       },
-      "english_trans": "Then celebrate the praise of your Lord, and ask His forgiveness; surely He is oft-returning (to mercy)."
+      "english_trans": "Then celebrate the praise of your Lord, and ask His forgiveness; surely He is oft-returning (to mercy).",
+      "arabic_text_uthmani": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا"
     }
   }
 }

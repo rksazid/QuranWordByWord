@@ -27,7 +27,8 @@
           "translate_bn": "সারা জগতের"
         }
       },
-      "english_trans": "All praise is due to Allah, the Lord of the Worlds."
+      "english_trans": "All praise is due to Allah, the Lord of the Worlds.",
+      "arabic_text_uthmani": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
     },
     "2": {
       "arabic_text": "الرَّحْمَنِ الرَّحِيمِ",
@@ -42,7 +43,8 @@
           "translate_bn": "পরম দয়ালু"
         }
       },
-      "english_trans": "The Beneficent, the Merciful."
+      "english_trans": "The Beneficent, the Merciful.",
+      "arabic_text_uthmani": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
     },
     "3": {
       "arabic_text": "مَالِكِ يَوْمِ الدِّينِ",
@@ -61,7 +63,8 @@
           "translate_bn": "বিচারের"
         }
       },
-      "english_trans": "Master of the Day of Judgment."
+      "english_trans": "Master of the Day of Judgment.",
+      "arabic_text_uthmani": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
     },
     "4": {
       "arabic_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
@@ -84,7 +87,8 @@
           "translate_bn": "আমরা সাহায্য চাই।"
         }
       },
-      "english_trans": "Thee do we serve and Thee do we beseech for help."
+      "english_trans": "Thee do we serve and Thee do we beseech for help.",
+      "arabic_text_uthmani": "مَـٰلِكِ يَوْمِ ٱلدِّينِ"
     },
     "5": {
       "arabic_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
@@ -103,7 +107,8 @@
           "translate_bn": "সরল সঠিক"
         }
       },
-      "english_trans": "Keep us on the right path."
+      "english_trans": "Keep us on the right path.",
+      "arabic_text_uthmani": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
     },
     "6": {
       "arabic_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
@@ -146,7 +151,8 @@
           "translate_bn": "পথভ্রষ্টদের"
         }
       },
-      "english_trans": "The path of those upon whom Thou hast bestowed favors. Not (the path) of those upon whom Thy wrath is brought down, nor of those who go astray."
+      "english_trans": "The path of those upon whom Thou hast bestowed favors. Not (the path) of those upon whom Thy wrath is brought down, nor of those who go astray.",
+      "arabic_text_uthmani": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ"
     }
   }
 }

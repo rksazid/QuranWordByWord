@@ -23,7 +23,8 @@
           "translate_bn": "কাউসার"
         }
       },
-      "english_trans": "Surely We have given you Kausar,"
+      "english_trans": "Surely We have given you Kausar,",
+      "arabic_text_uthmani": " إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ"
     },
     "2": {
       "arabic_text": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
@@ -42,7 +43,8 @@
           "translate_bn": "এবং তুমি কুরবানী করো"
         }
       },
-      "english_trans": "Therefore pray to your Lord and make a sacrifice."
+      "english_trans": "Therefore pray to your Lord and make a sacrifice.",
+      "arabic_text_uthmani": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ"
     },
     "3": {
       "arabic_text": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
@@ -65,7 +67,8 @@
           "translate_bn": "নির্বংশ"
         }
       },
-      "english_trans": "Surely your enemy is the one who shall be without posterity,"
+      "english_trans": "Surely your enemy is the one who shall be without posterity,",
+      "arabic_text_uthmani": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"
     }
   }
 }

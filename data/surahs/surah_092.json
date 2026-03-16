@@ -23,7 +23,8 @@
           "translate_bn": "আচ্ছন্ন করে"
         }
       },
-      "english_trans": "I swear by the night when it draws a veil,"
+      "english_trans": "I swear by the night when it draws a veil,",
+      "arabic_text_uthmani": " وَٱلَّيْلِ إِذَا يَغْشَىٰ"
     },
     "2": {
       "arabic_text": "وَالنَّهَارِ إِذَا تَجَلَّى",
@@ -42,7 +43,8 @@
           "translate_bn": "আলোকিত হয়"
         }
       },
-      "english_trans": "And the day when it shines in brightness,"
+      "english_trans": "And the day when it shines in brightness,",
+      "arabic_text_uthmani": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ"
     },
     "3": {
       "arabic_text": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنْثَى",
@@ -65,7 +67,8 @@
           "translate_bn": "ও নারী"
         }
       },
-      "english_trans": "And the creating of the male and the female,"
+      "english_trans": "And the creating of the male and the female,",
+      "arabic_text_uthmani": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ"
     },
     "4": {
       "arabic_text": "إِنَّ سَعْيَكُمْ لَشَتَّى",
@@ -84,7 +87,8 @@
           "translate_bn": "অবশ্যই বিভিন্ন প্রকৃতির"
         }
       },
-      "english_trans": "Your striving is most surely (directed to) various (ends)."
+      "english_trans": "Your striving is most surely (directed to) various (ends).",
+      "arabic_text_uthmani": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ"
     },
     "5": {
       "arabic_text": "فَأَمَّا مَنْ أَعْطَى وَاتَّقَى",
@@ -107,7 +111,8 @@
           "translate_bn": "ও খোদাভীরু হলো"
         }
       },
-      "english_trans": "Then as for him who gives away and guards (against evil),"
+      "english_trans": "Then as for him who gives away and guards (against evil),",
+      "arabic_text_uthmani": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ"
     },
     "6": {
       "arabic_text": "وَصَدَّقَ بِالْحُسْنَى",
@@ -122,7 +127,8 @@
           "translate_bn": "উত্তমকে (ইসলামকে)"
         }
       },
-      "english_trans": "And accepts the best,"
+      "english_trans": "And accepts the best,",
+      "arabic_text_uthmani": "وَصَدَّقَ بِٱلْحُسْنَىٰ"
     },
     "7": {
       "arabic_text": "فَسَنُيَسِّرُهُ لِلْيُسْرَى",
@@ -137,7 +143,8 @@
           "translate_bn": "সহজ (পথের) জন্য"
         }
       },
-      "english_trans": "We will facilitate for him the easy end."
+      "english_trans": "We will facilitate for him the easy end.",
+      "arabic_text_uthmani": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ"
     },
     "8": {
       "arabic_text": "وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَى",
@@ -160,7 +167,8 @@
           "translate_bn": "ও নিজেকে স্বয়ংসম্পূর্ণ মনে করলো"
         }
       },
-      "english_trans": "And as for him who is niggardly and considers himself free from need (of Allah),"
+      "english_trans": "And as for him who is niggardly and considers himself free from need (of Allah),",
+      "arabic_text_uthmani": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ"
     },
     "9": {
       "arabic_text": "وَكَذَّبَ بِالْحُسْنَى",
@@ -175,7 +183,8 @@
           "translate_bn": "উত্তমকে (ইসলামকে)"
         }
       },
-      "english_trans": "And rejects the best,"
+      "english_trans": "And rejects the best,",
+      "arabic_text_uthmani": "وَكَذَّبَ بِٱلْحُسْنَىٰ"
     },
     "10": {
       "arabic_text": "فَسَنُيَسِّرُهُ لِلْعُسْرَى",
@@ -190,7 +199,8 @@
           "translate_bn": "কঠোর পথের জন্য"
         }
       },
-      "english_trans": "We will facilitate for him the difficult end."
+      "english_trans": "We will facilitate for him the difficult end.",
+      "arabic_text_uthmani": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ"
     },
     "11": {
       "arabic_text": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّى",
@@ -221,7 +231,8 @@
           "translate_bn": "সে ধ্বংস হবে"
         }
       },
-      "english_trans": "And his wealth will not avail him when he perishes."
+      "english_trans": "And his wealth will not avail him when he perishes.",
+      "arabic_text_uthmani": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ"
     },
     "12": {
       "arabic_text": "إِنَّ عَلَيْنَا لَلْهُدَى",
@@ -240,7 +251,8 @@
           "translate_bn": "পথ প্রদর্শন"
         }
       },
-      "english_trans": "Surely Ours is it to show the way,"
+      "english_trans": "Surely Ours is it to show the way,",
+      "arabic_text_uthmani": "إِنَّ عَلَيْنَا لَلْهُدَىٰ"
     },
     "13": {
       "arabic_text": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَى",
@@ -263,7 +275,8 @@
           "translate_bn": "ও ইহকালের"
         }
       },
-      "english_trans": "And most surely Ours is the hereafter and the former."
+      "english_trans": "And most surely Ours is the hereafter and the former.",
+      "arabic_text_uthmani": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ"
     },
     "14": {
       "arabic_text": "فَأَنْذَرْتُكُمْ نَارًا تَلَظَّى",
@@ -282,7 +295,8 @@
           "translate_bn": "জ্বলন্ত"
         }
       },
-      "english_trans": "Therefore I warn you of the fire that flames:"
+      "english_trans": "Therefore I warn you of the fire that flames:",
+      "arabic_text_uthmani": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ"
     },
     "15": {
       "arabic_text": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
@@ -305,7 +319,8 @@
           "translate_bn": "নিতান্ত হতভাগ্য"
         }
       },
-      "english_trans": "None shall enter it but the most unhappy,"
+      "english_trans": "None shall enter it but the most unhappy,",
+      "arabic_text_uthmani": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى"
     },
     "16": {
       "arabic_text": "الَّذِي كَذَّبَ وَتَوَلَّى",
@@ -324,7 +339,8 @@
           "translate_bn": "এবং মুখ ফিরালো"
         }
       },
-      "english_trans": "Who gives the lie (to the truth) and turns (his) back."
+      "english_trans": "Who gives the lie (to the truth) and turns (his) back.",
+      "arabic_text_uthmani": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ"
     },
     "17": {
       "arabic_text": "وَسَيُجَنَّبُهَا الْأَتْقَى",
@@ -339,7 +355,8 @@
           "translate_bn": "পরম মুত্তাকীকে"
         }
       },
-      "english_trans": "And away from it shall be kept the one who guards most (against evil),"
+      "english_trans": "And away from it shall be kept the one who guards most (against evil),",
+      "arabic_text_uthmani": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى"
     },
     "18": {
       "arabic_text": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّى",
@@ -362,7 +379,8 @@
           "translate_bn": "আত্মশুদ্ধির জন্য"
         }
       },
-      "english_trans": "Who gives away his wealth, purifying himself"
+      "english_trans": "Who gives away his wealth, purifying himself",
+      "arabic_text_uthmani": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ"
     },
     "19": {
       "arabic_text": "وَمَا لِأَحَدٍ عِنْدَهُ مِنْ نِعْمَةٍ تُجْزَى",
@@ -393,7 +411,8 @@
           "translate_bn": "প্রতিদান দিতে হবে"
         }
       },
-      "english_trans": "And no one has with him any boon for which he should be rewarded,"
+      "english_trans": "And no one has with him any boon for which he should be rewarded,",
+      "arabic_text_uthmani": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ"
     },
     "20": {
       "arabic_text": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَى",
@@ -420,7 +439,8 @@
           "translate_bn": "সর্বশ্রেষ্ঠ"
         }
       },
-      "english_trans": "Except the seeking of the pleasure of his Lord, the Most High."
+      "english_trans": "Except the seeking of the pleasure of his Lord, the Most High.",
+      "arabic_text_uthmani": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ"
     },
     "21": {
       "arabic_text": "وَلَسَوْفَ يَرْضَى",
@@ -435,7 +455,8 @@
           "translate_bn": "তিনি সন্তুষ্ট হবেন (তার প্রতি)"
         }
       },
-      "english_trans": "And he shall soon be well-pleased."
+      "english_trans": "And he shall soon be well-pleased.",
+      "arabic_text_uthmani": "وَلَسَوْفَ يَرْضَىٰ"
     }
   }
 }

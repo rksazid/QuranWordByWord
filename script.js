@@ -10,6 +10,15 @@ let appData = {
     searchFilter: 'all',
     isReadingMode: false,
     isCompactMode: false,
+    viewMode: 'normal', // 'normal', 'reading', 'compact'
+    isSelectionMode: false,
+    selectedVerses: new Set(),
+    // Hifz mode
+    juzData: null,
+    quranPages: null,
+    currentHifzPage: 1,
+    currentJuz: null,
+    mainView: 'surahs', // 'surahs' or 'hifz'
     // Settings
     settings: {
         fontSize: 'medium',
@@ -36,6 +45,7 @@ let appData = {
 const elements = {
     // Navigation
     backBtn: document.getElementById('backBtn'),
+    headerSurahName: document.getElementById('headerSurahName'),
     searchBtn: document.getElementById('searchBtn'),
     settingsBtn: document.getElementById('settingsBtn'),
     favoritesBtn: document.getElementById('favoritesBtn'),
@@ -146,14 +156,38 @@ const elements = {
     ayahRange: document.getElementById('ayahRange'),
     goToAyahConfirm: document.getElementById('goToAyahConfirm'),
 
-    // Reading Mode
-    readingModeBtn: document.getElementById('readingModeBtn'),
+    // Multi-select
+    selectionBar: document.getElementById('selectionBar'),
+    selectionCount: document.getElementById('selectionCount'),
+    selectionCopyBtn: document.getElementById('selectionCopyBtn'),
+    selectionShareBtn: document.getElementById('selectionShareBtn'),
+    selectionCancelBtn: document.getElementById('selectionCancelBtn'),
+
+    // Hifz Mode
+    mainViewToggle: document.getElementById('mainViewToggle'),
+    hifzListPage: document.getElementById('hifzListPage'),
+    juzList: document.getElementById('juzList'),
+    hifzReadingPage: document.getElementById('hifzReadingPage'),
+    hifzPageContent: document.getElementById('hifzPageContent'),
+    hifzPageNumber: document.getElementById('hifzPageNumber'),
+    hifzJuzInfo: document.getElementById('hifzJuzInfo'),
+    hifzPageIndicator: document.getElementById('hifzPageIndicator'),
+    hifzPrevPage: document.getElementById('hifzPrevPage'),
+    hifzNextPage: document.getElementById('hifzNextPage'),
+
+    // Reading Mode & View Tabs
+    modeTabs: document.getElementById('modeTabs'),
     readingModeBar: document.getElementById('readingModeBar'),
     readingModeSurahName: document.getElementById('readingModeSurahName'),
     readingModeSurahType: document.getElementById('readingModeSurahType'),
     readingModeSurahAyahs: document.getElementById('readingModeSurahAyahs'),
-    readingModeIndicator: document.getElementById('readingModeIndicator'),
-    compactModeToggle: document.getElementById('compactModeToggle'),
+
+    // Surah Navigation
+    surahNavigation: document.getElementById('surahNavigation'),
+    prevSurahBtn: document.getElementById('prevSurahBtn'),
+    nextSurahBtn: document.getElementById('nextSurahBtn'),
+    prevSurahName: document.getElementById('prevSurahName'),
+    nextSurahName: document.getElementById('nextSurahName'),
 
     // Enhanced Search
     searchResultCount: document.getElementById('searchResultCount'),
@@ -203,19 +237,12 @@ function loadSettings() {
             appData.settings.fontSizeMultiplier = oldSizeMap[appData.settings.fontSize] || 1.0;
         }
 
-        // Load reading mode preference
-        const savedReadingMode = localStorage.getItem('quranAppReadingMode');
-        if (savedReadingMode !== null) {
-            appData.isReadingMode = JSON.parse(savedReadingMode);
-        }
-
-        // Load compact mode preference
-        const savedCompactMode = localStorage.getItem('quranAppCompactMode');
-        if (savedCompactMode !== null) {
-            appData.isCompactMode = JSON.parse(savedCompactMode);
-            if (elements.compactModeToggle) {
-                elements.compactModeToggle.checked = appData.isCompactMode;
-            }
+        // Load view mode preference
+        const savedViewMode = localStorage.getItem('quranAppViewMode');
+        if (savedViewMode) {
+            appData.viewMode = savedViewMode;
+            appData.isReadingMode = (savedViewMode === 'reading' || savedViewMode === 'compact');
+            appData.isCompactMode = (savedViewMode === 'compact');
         }
         
         // Load last opened surah
@@ -288,7 +315,8 @@ function clearAllData() {
                 'quranAppTranslationLang',
                 'quranAppWordByWordMode',
                 'quranAppReadingMode',
-                'quranAppCompactMode'
+                'quranAppCompactMode',
+                'quranAppViewMode'
             ];
             
             keysToRemove.forEach(key => {
@@ -325,7 +353,6 @@ function clearAllData() {
             // Clear search input if exists
             if (elements.searchInput) {
                 elements.searchInput.value = '';
-                elements.searchContainer.style.display = 'none';
             }
             
             alert('All data cleared successfully!');
@@ -359,6 +386,11 @@ async function loadData() {
         }
         appData.surahNames = await surahNamesResponse.json();
         
+        // Load Hifz data in the background (non-blocking)
+        loadHifzData().then(() => {
+            console.log('📖 Hifz data loaded');
+        }).catch(() => {});
+
         // App is ready immediately!
         console.log('✅ Essential data loaded. App ready! (99.9% faster than before)');
         hideLoading();
@@ -393,9 +425,9 @@ async function loadData() {
                 elements.floatingEnglishBtn.classList.toggle('active', appData.currentTranslationLang === 'english');
             }
             
-            // Show search container if there was a saved search query
+            // Restore search query if saved
             if (appData.searchQuery && appData.searchQuery.trim()) {
-                elements.searchContainer.style.display = 'block';
+                elements.searchInput.value = appData.searchQuery;
             }
             
             console.log('✅ All session data restored from localStorage');
@@ -898,9 +930,6 @@ function initBottomNavigation() {
                     openSettings();
                     updateBottomNavActiveState(item);
                     break;
-                case 'reading-mode':
-                    toggleReadingMode();
-                    break;
                 case 'controls':
                     toggleFloatingControls();
                     break;
@@ -930,12 +959,10 @@ function updateBottomNavForPage(isReadingPage = false) {
     const toggleFavoriteBtn = document.querySelector('[data-action="toggle-favorite"]');
     const searchBtn = document.querySelector('[data-action="search"]');
     const favoritesBtn = document.querySelector('[data-action="favorites"]');
-    const readingModeBtn = document.querySelector('[data-action="reading-mode"]');
 
     if (isReadingPage) {
         if (searchBtn) searchBtn.style.display = 'none';
         if (favoritesBtn) favoritesBtn.style.display = 'none';
-        if (readingModeBtn) readingModeBtn.style.display = 'flex';
         if (controlsBtn) controlsBtn.style.display = 'flex';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'flex';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'flex';
@@ -944,7 +971,6 @@ function updateBottomNavForPage(isReadingPage = false) {
     } else {
         if (searchBtn) searchBtn.style.display = 'flex';
         if (favoritesBtn) favoritesBtn.style.display = 'flex';
-        if (readingModeBtn) readingModeBtn.style.display = 'none';
         if (controlsBtn) controlsBtn.style.display = 'none';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'none';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'none';
@@ -1009,9 +1035,37 @@ function setupEventListeners() {
         btn.addEventListener('click', () => switchSettingsTab(btn.dataset.tab));
     });
     
-    // Reading Mode
-    elements.readingModeBtn?.addEventListener('click', toggleReadingMode);
-    elements.compactModeToggle?.addEventListener('change', toggleCompactMode);
+    // View Mode Tabs
+    if (elements.modeTabs) {
+        elements.modeTabs.querySelectorAll('.mode-tab').forEach(tab => {
+            tab.addEventListener('click', () => setViewMode(tab.dataset.mode));
+        });
+    }
+
+    // Main View Toggle (Surahs / Hifz)
+    if (elements.mainViewToggle) {
+        elements.mainViewToggle.querySelectorAll('.main-view-btn').forEach(btn => {
+            btn.addEventListener('click', () => switchMainView(btn.dataset.mainView));
+        });
+    }
+
+    // Hifz page navigation
+    elements.hifzPrevPage?.addEventListener('click', () => {
+        if (appData.currentHifzPage > 1) navigateToHifzPage(appData.currentHifzPage - 1);
+    });
+    elements.hifzNextPage?.addEventListener('click', () => {
+        if (appData.currentHifzPage < 604) navigateToHifzPage(appData.currentHifzPage + 1);
+    });
+
+    // Surah navigation
+    elements.prevSurahBtn?.addEventListener('click', () => {
+        const currentId = parseInt(appData.currentSurah);
+        if (currentId > 1) navigateToSurah(currentId - 1);
+    });
+    elements.nextSurahBtn?.addEventListener('click', () => {
+        const currentId = parseInt(appData.currentSurah);
+        if (currentId < 114) navigateToSurah(currentId + 1);
+    });
 
     // Font Settings (slider-based)
     elements.fontSizeSlider?.addEventListener('input', handleFontSizeSlider);
@@ -1121,8 +1175,8 @@ function handleKeyboard(e) {
             closeSettings();
         } else if (elements.floatingControlsPanel?.style.display !== 'none') {
             hideFloatingPanel();
-        } else if (elements.searchContainer.style.display !== 'none') {
-            toggleSearch();
+        } else if (elements.searchInput.value) {
+            clearSearch();
         } else if (elements.surahReadingPage.style.display !== 'none') {
             goBackToSurahList();
         }
@@ -1372,19 +1426,8 @@ function hideLastSurahSuggestion() {
 
 // ==================== SEARCH FUNCTIONALITY ==================== //
 function toggleSearch() {
-    const isVisible = elements.searchContainer.style.display !== 'none';
-    
-    if (isVisible) {
-        elements.searchContainer.style.display = 'none';
-        clearSearch();
-        
-        // Reset bottom nav to home when closing search
-        const homeBtn = document.querySelector('[data-page="home"]');
-        updateBottomNavActiveState(homeBtn);
-    } else {
-        elements.searchContainer.style.display = 'block';
-        elements.searchInput.focus();
-    }
+    // Search bar is always visible on home page — just focus the input
+    elements.searchInput.focus();
 }
 
 function handleSearch(e) {
@@ -1454,10 +1497,16 @@ async function openSurah(surahId) {
         elements.surahTitle.textContent = surahInfo.name_arabic;
         elements.surahType.textContent = surahInfo.type;
         elements.surahAyahs.textContent = `${surahInfo.ayah_number} Ayahs`;
-        
+
+        // Update header surah name
+        if (elements.headerSurahName) {
+            elements.headerSurahName.textContent = surahInfo.name_english;
+            elements.headerSurahName.style.display = 'inline';
+        }
+
         // Render the surah content
         renderSurahContent(surahData, surahInfo);
-        
+
         // Switch to reading page
         switchToReadingPage();
         
@@ -1506,27 +1555,71 @@ function renderSurahContent(surahData, surahInfo) {
     // Update ayah range in go to ayah modal
     updateAyahModalForSurah(surahId, surahInfo.ayah_number);
     
+    // Update surah navigation buttons
+    updateSurahNavigation(surahId);
+
     // Start auto scroll if enabled
     if (appData.settings.autoScroll) {
         setTimeout(() => startAutoScroll(), 2000);
     }
 }
 
+// ==================== SURAH NAVIGATION ==================== //
+function updateSurahNavigation(surahId) {
+    const currentId = parseInt(surahId);
+    const prevId = currentId - 1;
+    const nextId = currentId + 1;
+
+    if (elements.prevSurahBtn) {
+        if (prevId >= 1 && appData.surahNames[prevId.toString()]) {
+            elements.prevSurahBtn.style.display = 'flex';
+            const prevInfo = appData.surahNames[prevId.toString()];
+            elements.prevSurahName.textContent = prevInfo.name_english;
+        } else {
+            elements.prevSurahBtn.style.display = 'none';
+        }
+    }
+
+    if (elements.nextSurahBtn) {
+        if (nextId <= 114 && appData.surahNames[nextId.toString()]) {
+            elements.nextSurahBtn.style.display = 'flex';
+            const nextInfo = appData.surahNames[nextId.toString()];
+            elements.nextSurahName.textContent = nextInfo.name_english;
+        } else {
+            elements.nextSurahBtn.style.display = 'none';
+        }
+    }
+
+    if (elements.surahNavigation) {
+        elements.surahNavigation.style.display = 'flex';
+    }
+}
+
+function navigateToSurah(surahId) {
+    setViewMode('normal');
+    stopAutoScroll();
+    hideFloatingScrollControl();
+    openSurah(surahId.toString());
+}
+
 // Switch to reading page view
 function switchToReadingPage() {
     elements.surahListPage.style.display = 'none';
+    if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
     elements.surahReadingPage.style.display = 'block';
     elements.backBtn.style.display = 'flex';
-    
+
     // Switch header controls
     if (elements.homepageControls) elements.homepageControls.style.display = 'none';
     if (elements.surahControls) elements.surahControls.style.display = 'flex';
-    
+    if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'none';
+
     // Show floating controls
     if (elements.floatingControls) elements.floatingControls.style.display = 'block';
-    
-    // Hide search if open
+
+    // Hide search bar on reading page
     elements.searchContainer.style.display = 'none';
+    clearSearch();
     
     // Update bottom navigation for reading page
     updateBottomNavForPage(true);
@@ -1564,9 +1657,9 @@ function createVerseElement(verseNum, verseData) {
     // Create Arabic text
     const arabicText = createArabicText(verseData);
     
-    // Create translation
-    const translationHtml = appData.isTranslationVisible ? `
-        <div class="verse-translation">
+    // Create translation (always include HTML, control visibility via style to prevent toggle bugs)
+    const translationHtml = `
+        <div class="verse-translation" style="display: ${appData.isTranslationVisible ? 'block' : 'none'}">
             <div class="translation-text">
                 <div class="bangla-trans" style="display: ${appData.currentTranslationLang === 'bangla' ? 'block' : 'none'}">
                     ${verseData.bangla_trans}
@@ -1576,7 +1669,7 @@ function createVerseElement(verseNum, verseData) {
                 </div>
             </div>
         </div>
-    ` : '';
+    `;
     
     // Create action buttons (skip for bismillah)
     const actionsHtml = verseNum !== '0' ? `
@@ -1588,6 +1681,10 @@ function createVerseElement(verseNum, verseData) {
             <button class="verse-action-btn share-btn" title="Share verse">
                 <i class="fas fa-share-alt"></i>
                 <span>Share</span>
+            </button>
+            <button class="verse-action-btn select-btn" title="Select for multi-copy">
+                <i class="fas fa-check-circle"></i>
+                <span>Select</span>
             </button>
         </div>
     ` : '';
@@ -1604,15 +1701,25 @@ function createVerseElement(verseNum, verseData) {
 
 function createArabicText(verseData) {
     if (!appData.isWordByWordMode || !verseData.word_by_word) {
-        return verseData.arabic_text;
+        // Prefer Uthmani text (has waqf marks) when available
+        let text = verseData.arabic_text_uthmani || verseData.arabic_text;
+        // Add sajdah mark if applicable
+        if (verseData.has_sajdah) {
+            text += ' <span class="sajdah-mark" title="Sajdah (prostration)">۩</span>';
+        }
+        return text;
     }
-    
+
     // Create word-by-word clickable text
     const words = Object.entries(verseData.word_by_word).map(([wordIndex, wordData]) => {
         return `<span class="arabic-word" data-word-ar="${wordData.words_ar}" data-word-bn="${wordData.translate_bn}">${wordData.words_ar}</span>`;
     });
-    
-    return words.join(' ');
+
+    let result = words.join(' ');
+    if (verseData.has_sajdah) {
+        result += ' <span class="sajdah-mark" title="Sajdah (prostration)">۩</span>';
+    }
+    return result;
 }
 
 // ==================== TRANSLATION CONTROLS ==================== //
@@ -1734,27 +1841,41 @@ function closeModal() {
 
 // ==================== NAVIGATION ==================== //
 function goBackToSurahList() {
-    elements.surahListPage.style.display = 'block';
+    // Handle back from Hifz reading page
+    if (elements.hifzReadingPage && elements.hifzReadingPage.style.display !== 'none') {
+        goBackFromHifz();
+        return;
+    }
+
+    // Restore the right page based on main view
+    if (appData.mainView === 'hifz') {
+        if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
+        elements.surahListPage.style.display = 'none';
+    } else {
+        elements.surahListPage.style.display = 'block';
+        if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+    }
     elements.surahReadingPage.style.display = 'none';
     elements.backBtn.style.display = 'none';
+    if (elements.headerSurahName) elements.headerSurahName.style.display = 'none';
 
-    // Exit reading mode and compact mode
-    if (appData.isReadingMode) {
-        appData.isReadingMode = false;
-        elements.surahReadingPage.classList.remove('reading-mode-active');
-        if (elements.readingModeBtn) {
-            elements.readingModeBtn.classList.remove('active-mode');
-            elements.readingModeBtn.style.background = '';
-        }
-    }
-    exitCompactMode();
+    // Reset view mode
+    setViewMode('normal');
 
     // Switch header controls back
     if (elements.homepageControls) elements.homepageControls.style.display = 'flex';
     if (elements.surahControls) elements.surahControls.style.display = 'none';
 
-    // Hide floating controls
+    // Show search bar and main view toggle again on home page
+    elements.searchContainer.style.display = 'block';
+    if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'flex';
+
+    // Hide floating controls and surah navigation
     if (elements.floatingControls) elements.floatingControls.style.display = 'none';
+    if (elements.surahNavigation) elements.surahNavigation.style.display = 'none';
+
+    // Cancel any active selection
+    cancelSelection();
 
     // Update bottom navigation for list page
     updateBottomNavForPage(false);
@@ -2044,21 +2165,28 @@ function startAutoScroll() {
     stopAutoScroll();
 
     appData.lastScrollTime = performance.now();
+    let accumulatedScroll = 0;
 
     function scrollStep(timestamp) {
         if (!appData.settings.autoScroll || appData.isScrollPaused) {
+            // Keep updating lastScrollTime while paused to prevent jump on resume
+            appData.lastScrollTime = timestamp;
             appData.autoScrollAnimationFrame = requestAnimationFrame(scrollStep);
             return;
         }
 
-        const elapsed = timestamp - appData.lastScrollTime;
-        // Pixels per second based on speed setting
-        const pixelsPerSecond = appData.settings.scrollSpeed * 30;
-        const scrollAmount = (pixelsPerSecond * elapsed) / 1000;
+        const elapsed = Math.min(timestamp - appData.lastScrollTime, 33); // Cap at ~30fps to prevent jumps
+        appData.lastScrollTime = timestamp;
 
-        if (scrollAmount >= 0.5) {
+        // Pixels per second based on speed setting (50px/s base for smoother progression)
+        const pixelsPerSecond = appData.settings.scrollSpeed * 50;
+        accumulatedScroll += (pixelsPerSecond * elapsed) / 1000;
+
+        // Scroll whole pixels only (sub-pixel scrolling causes jank in some browsers)
+        if (accumulatedScroll >= 1) {
+            const scrollAmount = Math.floor(accumulatedScroll);
             window.scrollBy(0, scrollAmount);
-            appData.lastScrollTime = timestamp;
+            accumulatedScroll -= scrollAmount;
         }
 
         // Stop at bottom
@@ -2319,82 +2447,63 @@ function goToSelectedAyah() {
     }
 }
 
-// ==================== READING MODE ==================== //
-function toggleReadingMode() {
-    appData.isReadingMode = !appData.isReadingMode;
+// ==================== VIEW MODE (Normal / Reading / Compact) ==================== //
+function setViewMode(mode) {
     const readingPage = elements.surahReadingPage;
+    const prevMode = appData.viewMode;
 
-    if (appData.isReadingMode) {
-        readingPage.classList.add('reading-mode-active');
-        if (elements.readingModeBtn) {
-            elements.readingModeBtn.classList.add('active-mode');
-            elements.readingModeBtn.style.background = 'rgba(255,255,255,0.4)';
-        }
-
-        // Populate reading mode bar
-        if (appData.currentSurah && appData.surahNames) {
-            const surahInfo = appData.surahNames[appData.currentSurah];
-            if (surahInfo) {
-                if (elements.readingModeSurahName) elements.readingModeSurahName.textContent = surahInfo.name_arabic;
-                if (elements.readingModeSurahType) elements.readingModeSurahType.textContent = surahInfo.type;
-                if (elements.readingModeSurahAyahs) elements.readingModeSurahAyahs.textContent = surahInfo.ayah_number + ' Ayahs';
-            }
-        }
-
-        // Hide floating controls in reading mode
-        if (elements.floatingControls) elements.floatingControls.style.display = 'none';
-
-        // Restore compact mode if it was active
-        if (appData.isCompactMode) {
-            readingPage.classList.add('compact-mode-active');
-            if (elements.compactModeToggle) elements.compactModeToggle.checked = true;
-            setTimeout(() => restructureVersesForCompactMode(), 50);
-        }
-
-        // Scroll to reading mode bar to ensure it's visible below header
-        if (elements.readingModeBar) {
-            setTimeout(() => {
-                elements.readingModeBar.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }, 150);
-        }
-    } else {
-        readingPage.classList.remove('reading-mode-active');
-        if (elements.readingModeBtn) {
-            elements.readingModeBtn.classList.remove('active-mode');
-            elements.readingModeBtn.style.background = '';
-        }
-        // Restore floating controls
-        if (elements.floatingControls) elements.floatingControls.style.display = 'block';
-        // Exit compact mode when leaving reading mode
-        exitCompactMode();
-    }
-
-    // Save reading mode preference
-    try {
-        localStorage.setItem('quranAppReadingMode', JSON.stringify(appData.isReadingMode));
-    } catch (e) {
-        console.error('Error saving reading mode:', e);
-    }
-}
-
-// ==================== COMPACT MODE ==================== //
-function toggleCompactMode() {
-    appData.isCompactMode = elements.compactModeToggle ? elements.compactModeToggle.checked : !appData.isCompactMode;
-    const readingPage = elements.surahReadingPage;
-
-    if (appData.isCompactMode) {
-        readingPage.classList.add('compact-mode-active');
-        restructureVersesForCompactMode();
-    } else {
-        readingPage.classList.remove('compact-mode-active');
+    // Clean up previous mode
+    readingPage.classList.remove('reading-mode-active', 'compact-mode-active');
+    if (prevMode === 'compact') {
         restoreVersesFromCompactMode();
     }
 
-    try {
-        localStorage.setItem('quranAppCompactMode', JSON.stringify(appData.isCompactMode));
-    } catch (e) {
-        console.error('Error saving compact mode:', e);
+    // Set new mode
+    appData.viewMode = mode;
+    appData.isReadingMode = (mode === 'reading' || mode === 'compact');
+    appData.isCompactMode = (mode === 'compact');
+
+    if (mode === 'reading') {
+        readingPage.classList.add('reading-mode-active');
+        if (elements.floatingControls) elements.floatingControls.style.display = 'none';
+        populateReadingModeBar();
+    } else if (mode === 'compact') {
+        readingPage.classList.add('reading-mode-active', 'compact-mode-active');
+        if (elements.floatingControls) elements.floatingControls.style.display = 'none';
+        populateReadingModeBar();
+        setTimeout(() => restructureVersesForCompactMode(), 50);
+    } else {
+        // Normal mode
+        if (elements.floatingControls) elements.floatingControls.style.display = 'block';
     }
+
+    // Update tab UI
+    updateModeTabsUI(mode);
+
+    // Save preference
+    try {
+        localStorage.setItem('quranAppViewMode', mode);
+    } catch (e) {
+        console.error('Error saving view mode:', e);
+    }
+}
+
+function populateReadingModeBar() {
+    if (appData.currentSurah && appData.surahNames) {
+        const surahInfo = appData.surahNames[appData.currentSurah];
+        if (surahInfo) {
+            if (elements.readingModeSurahName) elements.readingModeSurahName.textContent = surahInfo.name_arabic;
+            if (elements.readingModeSurahType) elements.readingModeSurahType.textContent = surahInfo.type;
+            if (elements.readingModeSurahAyahs) elements.readingModeSurahAyahs.textContent = surahInfo.ayah_number + ' Ayahs';
+        }
+    }
+}
+
+function updateModeTabsUI(mode) {
+    if (!elements.modeTabs) return;
+    elements.modeTabs.querySelectorAll('.mode-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.mode === mode);
+    });
 }
 
 function restructureVersesForCompactMode() {
@@ -2408,20 +2517,39 @@ function restructureVersesForCompactMode() {
             inlineNum.textContent = verseNum;
             verseArabic.appendChild(inlineNum);
         }
+        // Add page break divider every 10 ayahs
+        const num = parseInt(verseNum);
+        if (num > 0 && num % 10 === 0 && !verse.nextElementSibling?.classList?.contains('compact-page-break')) {
+            const divider = document.createElement('div');
+            divider.className = 'compact-page-break';
+            divider.innerHTML = `<span class="page-break-label">\u2501\u2501 ${verseNum} \u2501\u2501</span>`;
+            verse.after(divider);
+        }
     });
 }
 
 function restoreVersesFromCompactMode() {
     document.querySelectorAll('.verse-number-inline').forEach(el => el.remove());
+    document.querySelectorAll('.compact-page-break').forEach(el => el.remove());
 }
 
 function exitCompactMode() {
     if (appData.isCompactMode) {
         appData.isCompactMode = false;
-        elements.surahReadingPage.classList.remove('compact-mode-active');
-        if (elements.compactModeToggle) elements.compactModeToggle.checked = false;
+        appData.viewMode = 'normal';
+        elements.surahReadingPage.classList.remove('compact-mode-active', 'reading-mode-active');
         restoreVersesFromCompactMode();
+        updateModeTabsUI('normal');
     }
+}
+
+// Legacy toggle functions (kept for compatibility)
+function toggleReadingMode() {
+    setViewMode(appData.viewMode === 'reading' ? 'normal' : 'reading');
+}
+
+function toggleCompactMode() {
+    setViewMode(appData.viewMode === 'compact' ? 'reading' : 'compact');
 }
 
 // ==================== INSTALL APP HANDLER ==================== //
@@ -2537,6 +2665,338 @@ async function handleShareVerse(verseNum) {
     }
 }
 
+// ==================== HIFZ MODE ==================== //
+async function loadHifzData() {
+    try {
+        const useCompression = typeof pako !== 'undefined';
+        let juzData = null, pagesData = null;
+
+        if (useCompression) {
+            try {
+                const [juzRes, pagesRes] = await Promise.all([
+                    fetch('./data-compressed/juz_data.json.gz'),
+                    fetch('./data-compressed/quran_pages.json.gz')
+                ]);
+                if (juzRes.ok) {
+                    const buf = await juzRes.arrayBuffer();
+                    juzData = JSON.parse(pako.ungzip(buf, { to: 'string' }));
+                }
+                if (pagesRes.ok) {
+                    const buf = await pagesRes.arrayBuffer();
+                    pagesData = JSON.parse(pako.ungzip(buf, { to: 'string' }));
+                }
+            } catch (e) {
+                console.warn('Compressed Hifz data failed, falling back:', e.message);
+            }
+        }
+
+        // Fallback to uncompressed
+        if (!juzData || !pagesData) {
+            const [juzRes, pagesRes] = await Promise.all([
+                !juzData ? fetch('./data/juz_data.json') : Promise.resolve(null),
+                !pagesData ? fetch('./data/quran_pages.json') : Promise.resolve(null)
+            ]);
+            if (juzRes && juzRes.ok) juzData = await juzRes.json();
+            if (pagesRes && pagesRes.ok) pagesData = await pagesRes.json();
+        }
+
+        if (juzData) appData.juzData = juzData;
+        if (pagesData) appData.quranPages = pagesData;
+    } catch (err) {
+        console.warn('Hifz data not available:', err.message);
+    }
+}
+
+async function switchMainView(view) {
+    appData.mainView = view;
+
+    // Update toggle buttons
+    if (elements.mainViewToggle) {
+        elements.mainViewToggle.querySelectorAll('.main-view-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.mainView === view);
+        });
+    }
+
+    if (view === 'surahs') {
+        elements.surahListPage.style.display = 'block';
+        if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+    } else if (view === 'hifz') {
+        elements.surahListPage.style.display = 'none';
+        if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
+        // If data hasn't loaded yet, wait for it
+        if (!appData.juzData) {
+            await loadHifzData();
+        }
+        if (appData.juzData && elements.juzList && elements.juzList.children.length === 0) {
+            renderJuzList();
+        }
+    }
+}
+
+function renderJuzList() {
+    if (!appData.juzData || !elements.juzList) return;
+    elements.juzList.innerHTML = '';
+
+    for (let i = 1; i <= 30; i++) {
+        const juz = appData.juzData[i];
+        if (!juz) continue;
+
+        const startSurahInfo = appData.surahNames ? appData.surahNames[juz.start_surah] : null;
+        const endSurahInfo = appData.surahNames ? appData.surahNames[juz.end_surah] : null;
+        const startName = startSurahInfo ? startSurahInfo.name_english : `Surah ${juz.start_surah}`;
+        const endName = endSurahInfo ? endSurahInfo.name_english : `Surah ${juz.end_surah}`;
+        const surahRange = juz.start_surah === juz.end_surah
+            ? `${startName} (${juz.start_ayah}-${juz.end_ayah})`
+            : `${startName} ${juz.start_ayah} → ${endName} ${juz.end_ayah}`;
+
+        const card = document.createElement('div');
+        card.className = 'juz-card';
+        card.innerHTML = `
+            <div class="juz-number">${i}</div>
+            <div class="juz-info">
+                <div class="juz-name-ar">${juz.name_ar}</div>
+                <div class="juz-name-en">${juz.name_en}</div>
+                <div class="juz-meta">${surahRange}</div>
+            </div>
+            <div class="juz-pages">Pages ${juz.start_page}-${juz.end_page}</div>
+        `;
+        card.addEventListener('click', () => openJuz(i));
+        elements.juzList.appendChild(card);
+    }
+}
+
+function openJuz(juzNum) {
+    if (!appData.juzData || !appData.quranPages) {
+        showError('Hifz data is not available. Please check your internet connection.');
+        return;
+    }
+
+    const juz = appData.juzData[juzNum];
+    if (!juz) return;
+
+    appData.currentJuz = juzNum;
+    navigateToHifzPage(juz.start_page);
+}
+
+async function navigateToHifzPage(pageNum) {
+    if (!appData.quranPages || !appData.quranPages[pageNum]) {
+        showError('Page data not available');
+        return;
+    }
+
+    appData.currentHifzPage = pageNum;
+
+    // Show hifz reading page
+    elements.surahListPage.style.display = 'none';
+    if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+    if (elements.hifzReadingPage) elements.hifzReadingPage.style.display = 'block';
+    elements.backBtn.style.display = 'flex';
+    if (elements.headerSurahName) {
+        elements.headerSurahName.textContent = `Page ${pageNum}`;
+        elements.headerSurahName.style.display = 'inline';
+    }
+    if (elements.homepageControls) elements.homepageControls.style.display = 'none';
+    if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'none';
+    elements.searchContainer.style.display = 'none';
+
+    // Find which juz this page belongs to
+    if (appData.juzData) {
+        for (let j = 1; j <= 30; j++) {
+            const juz = appData.juzData[j];
+            if (juz && pageNum >= juz.start_page && pageNum <= juz.end_page) {
+                appData.currentJuz = j;
+                break;
+            }
+        }
+    }
+
+    // Update header
+    if (elements.hifzPageNumber) elements.hifzPageNumber.textContent = `Page ${pageNum}`;
+    if (elements.hifzJuzInfo) elements.hifzJuzInfo.textContent = `Juz ${appData.currentJuz || ''}`;
+    if (elements.hifzPageIndicator) elements.hifzPageIndicator.textContent = `${pageNum} / 604`;
+
+    // Update nav buttons
+    if (elements.hifzPrevPage) elements.hifzPrevPage.disabled = pageNum <= 1;
+    if (elements.hifzNextPage) elements.hifzNextPage.disabled = pageNum >= 604;
+
+    // Render page content
+    await renderHifzPageContent(pageNum);
+
+    window.scrollTo(0, 0);
+}
+
+async function renderHifzPageContent(pageNum) {
+    if (!elements.hifzPageContent) return;
+    elements.hifzPageContent.innerHTML = '<div style="text-align:center;padding:2rem;direction:ltr;">Loading...</div>';
+
+    const pageData = appData.quranPages[pageNum];
+    if (!pageData) {
+        elements.hifzPageContent.innerHTML = '<div style="text-align:center;padding:2rem;direction:ltr;">Page data not available</div>';
+        return;
+    }
+
+    let html = '';
+    let currentSurah = pageData.start_surah;
+    let currentAyah = pageData.start_ayah;
+    const endSurah = pageData.end_surah;
+    const endAyah = pageData.end_ayah;
+
+    // Load all surahs needed for this page
+    const surahsNeeded = new Set();
+    for (let s = currentSurah; s <= endSurah; s++) {
+        surahsNeeded.add(s);
+    }
+
+    const surahDataMap = {};
+    for (const surahId of surahsNeeded) {
+        try {
+            surahDataMap[surahId] = await loadSurahData(surahId);
+        } catch (err) {
+            console.error(`Failed to load surah ${surahId}:`, err);
+        }
+    }
+
+    // Render verses
+    for (let s = currentSurah; s <= endSurah; s++) {
+        const surahData = surahDataMap[s];
+        if (!surahData) continue;
+
+        const surahInfo = appData.surahNames ? appData.surahNames[s] : null;
+        const startAyah = (s === currentSurah) ? currentAyah : 1;
+        const lastAyah = (s === endSurah) ? endAyah : (surahInfo ? surahInfo.ayah_number : 999);
+
+        // Show surah separator if this is not the first surah on the page or ayah 1
+        if (startAyah === 1 && s !== 1) {
+            const surahName = surahInfo ? surahInfo.name_english : `Surah ${s}`;
+            const surahArabic = surahInfo ? surahInfo.name_arabic : '';
+            html += `<div class="hifz-surah-separator">${surahArabic} — ${surahName}</div>`;
+            // Add bismillah (skip for Surah 9 At-Tawbah)
+            if (s !== 9 && surahData['0']) {
+                html += `<div class="hifz-bismillah">${surahData['0'].arabic_text_uthmani || surahData['0'].arabic_text}</div>`;
+            }
+        }
+
+        for (let a = startAyah; a <= lastAyah; a++) {
+            const verse = surahData[a.toString()];
+            if (!verse) continue;
+
+            const text = verse.arabic_text_uthmani || verse.arabic_text;
+            html += `<span class="hifz-verse">${text}</span>`;
+            html += `<span class="hifz-ayah-number">${a}</span> `;
+        }
+    }
+
+    elements.hifzPageContent.innerHTML = html || '<div style="text-align:center;padding:2rem;direction:ltr;">No content for this page</div>';
+}
+
+function goBackFromHifz() {
+    if (elements.hifzReadingPage) elements.hifzReadingPage.style.display = 'none';
+    if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
+    elements.backBtn.style.display = 'none';
+    if (elements.headerSurahName) elements.headerSurahName.style.display = 'none';
+    if (elements.homepageControls) elements.homepageControls.style.display = 'flex';
+    if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'flex';
+    elements.searchContainer.style.display = 'block';
+    window.scrollTo(0, 0);
+}
+
+// ==================== MULTI-SELECT MODE ==================== //
+function toggleVerseSelection(verseNum) {
+    if (!appData.isSelectionMode) {
+        appData.isSelectionMode = true;
+    }
+
+    if (appData.selectedVerses.has(verseNum)) {
+        appData.selectedVerses.delete(verseNum);
+    } else {
+        appData.selectedVerses.add(verseNum);
+    }
+
+    // Update verse highlight
+    const verseEl = document.querySelector(`.verse[data-verse="${verseNum}"]`);
+    if (verseEl) verseEl.classList.toggle('verse-selected', appData.selectedVerses.has(verseNum));
+
+    updateSelectionBar();
+}
+
+function updateSelectionBar() {
+    const count = appData.selectedVerses.size;
+    if (count > 0) {
+        if (elements.selectionBar) elements.selectionBar.style.display = 'flex';
+        if (elements.selectionCount) elements.selectionCount.textContent = `${count} selected`;
+    } else {
+        cancelSelection();
+    }
+}
+
+function cancelSelection() {
+    appData.isSelectionMode = false;
+    appData.selectedVerses.clear();
+    document.querySelectorAll('.verse-selected').forEach(el => el.classList.remove('verse-selected'));
+    if (elements.selectionBar) elements.selectionBar.style.display = 'none';
+}
+
+function formatMultiVerseText(verseNums) {
+    const surahInfo = appData.surahNames ? appData.surahNames[appData.currentSurah] : null;
+    const surahName = surahInfo ? surahInfo.name_arabic : '';
+    const surahEnglish = surahInfo ? (surahInfo.name_translation || surahInfo.name_english || '') : '';
+    const lang = appData.currentTranslationLang;
+    const langLabel = lang === 'bangla' ? 'বাংলা অনুবাদ' : 'Translation';
+
+    const sorted = [...verseNums].sort((a, b) => parseInt(a) - parseInt(b));
+    const parts = sorted.map(num => {
+        const data = getVerseDataFromCache(num);
+        if (!data) return '';
+        const translation = lang === 'bangla' ? data.bangla_trans : data.english_trans;
+        return `[${num}] ${data.arabic_text}\n${langLabel}: ${translation}`;
+    }).filter(Boolean);
+
+    const range = sorted.length === 1 ? `Ayah ${sorted[0]}` : `Ayahs ${sorted[0]}-${sorted[sorted.length - 1]}`;
+    return `${surahName} - ${surahEnglish}\nSurah ${appData.currentSurah}, ${range}\n\n${parts.join('\n\n')}\n\n— Al-Quran Word by Word`;
+}
+
+async function handleCopySelectedVerses() {
+    if (appData.selectedVerses.size === 0) return;
+    const text = formatMultiVerseText(appData.selectedVerses);
+    try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(text);
+        } else {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.cssText = 'position:fixed;left:-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+        }
+        showSuccess(`${appData.selectedVerses.size} verse(s) copied!`);
+        cancelSelection();
+    } catch (err) {
+        console.error('Copy failed:', err);
+    }
+}
+
+async function handleShareSelectedVerses() {
+    if (appData.selectedVerses.size === 0) return;
+    const surahInfo = appData.surahNames ? appData.surahNames[appData.currentSurah] : null;
+    const surahEnglish = surahInfo ? (surahInfo.name_translation || surahInfo.name_english || '') : '';
+    const text = formatMultiVerseText(appData.selectedVerses);
+    const sorted = [...appData.selectedVerses].sort((a, b) => parseInt(a) - parseInt(b));
+    const range = sorted.length === 1 ? `Ayah ${sorted[0]}` : `Ayahs ${sorted[0]}-${sorted[sorted.length - 1]}`;
+
+    if (navigator.share) {
+        try {
+            await navigator.share({ title: `${surahEnglish} - ${range}`, text: text });
+            cancelSelection();
+        } catch (err) {
+            if (err.name !== 'AbortError') console.error('Share failed:', err);
+        }
+    } else {
+        await handleCopySelectedVerses();
+    }
+}
+
 // ==================== APPLICATION STARTUP ==================== //
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Al-Quran Word by Word Application Starting...');
@@ -2575,7 +3035,22 @@ document.addEventListener('DOMContentLoaded', function() {
             if (verse) handleShareVerse(verse.getAttribute('data-verse'));
             return;
         }
+
+        // Select button (multi-select)
+        const selectBtn = e.target.closest('.select-btn');
+        if (selectBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            const verse = selectBtn.closest('.verse');
+            if (verse) toggleVerseSelection(verse.getAttribute('data-verse'));
+            return;
+        }
     });
+
+    // Selection bar buttons
+    elements.selectionCopyBtn?.addEventListener('click', handleCopySelectedVerses);
+    elements.selectionShareBtn?.addEventListener('click', handleShareSelectedVerses);
+    elements.selectionCancelBtn?.addEventListener('click', cancelSelection);
 });
 
 // ==================== PERFORMANCE OPTIMIZATIONS ==================== //

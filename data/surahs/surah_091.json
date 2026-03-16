@@ -19,7 +19,8 @@
           "translate_bn": "এবং তার কিরণের"
         }
       },
-      "english_trans": "I swear by the sun and its brilliance,"
+      "english_trans": "I swear by the sun and its brilliance,",
+      "arabic_text_uthmani": " وَٱلشَّمْسِ وَضُحَىٰهَا"
     },
     "2": {
       "arabic_text": "وَالْقَمَرِ إِذَا تَلَاهَا",
@@ -38,7 +39,8 @@
           "translate_bn": "তার পিছে আসে"
         }
       },
-      "english_trans": "And the moon when it follows the sun,"
+      "english_trans": "And the moon when it follows the sun,",
+      "arabic_text_uthmani": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا"
     },
     "3": {
       "arabic_text": "وَالنَّهَارِ إِذَا جَلَّاهَا",
@@ -57,7 +59,8 @@
           "translate_bn": "তাকে প্রকাশ করে"
         }
       },
-      "english_trans": "And the day when it shows it,"
+      "english_trans": "And the day when it shows it,",
+      "arabic_text_uthmani": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا"
     },
     "4": {
       "arabic_text": "وَاللَّيْلِ إِذَا يَغْشَاهَا",
@@ -76,7 +79,8 @@
           "translate_bn": "তাকে ঢেকে ফেলে"
         }
       },
-      "english_trans": "And the night when it draws a veil over it,"
+      "english_trans": "And the night when it draws a veil over it,",
+      "arabic_text_uthmani": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا"
     },
     "5": {
       "arabic_text": "وَالسَّمَاءِ وَمَا بَنَاهَا",
@@ -95,7 +99,8 @@
           "translate_bn": "তা তৈরি করেছেন"
         }
       },
-      "english_trans": "And the heaven and Him Who made it,"
+      "english_trans": "And the heaven and Him Who made it,",
+      "arabic_text_uthmani": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا"
     },
     "6": {
       "arabic_text": "وَالْأَرْضِ وَمَا طَحَاهَا",
@@ -114,7 +119,8 @@
           "translate_bn": "তা বিস্তৃত করেছেন"
         }
       },
-      "english_trans": "And the earth and Him Who extended it,"
+      "english_trans": "And the earth and Him Who extended it,",
+      "arabic_text_uthmani": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا"
     },
     "7": {
       "arabic_text": "وَنَفْسٍ وَمَا سَوَّاهَا",
@@ -133,7 +139,8 @@
           "translate_bn": "তাকে সুঠাম করেছেন"
         }
       },
-      "english_trans": "And the soul and Him Who made it perfect,"
+      "english_trans": "And the soul and Him Who made it perfect,",
+      "arabic_text_uthmani": "وَنَفْسٍ وَمَا سَوَّىٰهَا"
     },
     "8": {
       "arabic_text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا",
@@ -152,7 +159,8 @@
           "translate_bn": "ও তার তাকওয়া (সম্পর্কে )"
         }
       },
-      "english_trans": "Then He inspired it to understand what is right and wrong for it;"
+      "english_trans": "Then He inspired it to understand what is right and wrong for it;",
+      "arabic_text_uthmani": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا"
     },
     "9": {
       "arabic_text": "قَدْ أَفْلَحَ مَنْ زَكَّاهَا",
@@ -175,7 +183,8 @@
           "translate_bn": "তাকে পবিত্র করলো"
         }
       },
-      "english_trans": "He will indeed be successful who purifies it,"
+      "english_trans": "He will indeed be successful who purifies it,",
+      "arabic_text_uthmani": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا"
     },
     "10": {
       "arabic_text": "وَقَدْ خَابَ مَنْ دَسَّاهَا",
@@ -198,7 +207,8 @@
           "translate_bn": "তাকে কলুষিত করলো"
         }
       },
-      "english_trans": "And he will indeed fail who corrupts it."
+      "english_trans": "And he will indeed fail who corrupts it.",
+      "arabic_text_uthmani": "وَقَدْ خَابَ مَن دَسَّىٰهَا"
     },
     "11": {
       "arabic_text": "كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا",
@@ -217,7 +227,8 @@
           "translate_bn": "তার অবাধ্যতাবশতঃ"
         }
       },
-      "english_trans": "Samood gave the lie (to the truth) in their inordinacy,"
+      "english_trans": "Samood gave the lie (to the truth) in their inordinacy,",
+      "arabic_text_uthmani": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ"
     },
     "12": {
       "arabic_text": "إِذِ انْبَعَثَ أَشْقَاهَا",
@@ -236,7 +247,8 @@
           "translate_bn": "তার সবচেয়ে হতভাগা ব্যক্তি"
         }
       },
-      "english_trans": "When the most unfortunate of them broke forth with"
+      "english_trans": "When the most unfortunate of them broke forth with",
+      "arabic_text_uthmani": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا"
     },
     "13": {
       "arabic_text": "فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا",
@@ -271,7 +283,8 @@
           "translate_bn": "ও তার পানি পান করায় (বাধা দিও না)"
         }
       },
-      "english_trans": "So Allah´s messenger said to them (Leave alone) Allah´s she-camel, and (give) her (to) drink."
+      "english_trans": "So Allah´s messenger said to them (Leave alone) Allah´s she-camel, and (give) her (to) drink.",
+      "arabic_text_uthmani": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا"
     },
     "14": {
       "arabic_text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا",
@@ -306,7 +319,8 @@
           "translate_bn": "অতঃপর তাদেরকে (মাটি) সমান করে দিলেন"
         }
       },
-      "english_trans": "But they called him a liar and slaughtered her, therefore their Lord crushed them for their sin and levelled them (with the ground)."
+      "english_trans": "But they called him a liar and slaughtered her, therefore their Lord crushed them for their sin and levelled them (with the ground).",
+      "arabic_text_uthmani": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا"
     },
     "15": {
       "arabic_text": "وَلَا يَخَافُ عُقْبَاهَا",
@@ -325,7 +339,8 @@
           "translate_bn": "তাঁর (কাজের) পরিণতির"
         }
       },
-      "english_trans": "And He fears not its consequence."
+      "english_trans": "And He fears not its consequence.",
+      "arabic_text_uthmani": "وَلَا يَخَافُ عُقْبَـٰهَا"
     }
   }
 }

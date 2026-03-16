@@ -19,7 +19,8 @@
           "translate_bn": "বস্ত্রাবৃত"
         }
       },
-      "english_trans": "O you who have wrapped up in your garments!"
+      "english_trans": "O you who have wrapped up in your garments!",
+      "arabic_text_uthmani": " يَـٰٓأَيُّهَا ٱلْمُزَّمِّلُ"
     },
     "2": {
       "arabic_text": "قُمِ اللَّيْلَ إِلَّا قَلِيلًا",
@@ -42,7 +43,8 @@
           "translate_bn": "কিছু অংশ"
         }
       },
-      "english_trans": "Rise to pray in the night except a little,"
+      "english_trans": "Rise to pray in the night except a little,",
+      "arabic_text_uthmani": "قُمِ ٱلَّيْلَ إِلَّا قَلِيلًا"
     },
     "3": {
       "arabic_text": "نِصْفَهُ أَوِ انْقُصْ مِنْهُ قَلِيلًا",
@@ -69,7 +71,8 @@
           "translate_bn": "সামান্য"
         }
       },
-      "english_trans": "Half of it, or lessen it a little,"
+      "english_trans": "Half of it, or lessen it a little,",
+      "arabic_text_uthmani": "نِّصْفَهُۥٓ أَوِ ٱنقُصْ مِنْهُ قَلِيلًا"
     },
     "4": {
       "arabic_text": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا",
@@ -100,7 +103,8 @@
           "translate_bn": "তারতিলসহ"
         }
       },
-      "english_trans": "Or add to it, and recite the Quran as it ought to be recited."
+      "english_trans": "Or add to it, and recite the Quran as it ought to be recited.",
+      "arabic_text_uthmani": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا"
     },
     "5": {
       "arabic_text": "إِنَّا سَنُلْقِي عَلَيْكَ قَوْلًا ثَقِيلًا",
@@ -127,7 +131,8 @@
           "translate_bn": "ভারী"
         }
       },
-      "english_trans": "Surely We will make to light upon you a weighty Word."
+      "english_trans": "Surely We will make to light upon you a weighty Word.",
+      "arabic_text_uthmani": "إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًا ثَقِيلًا"
     },
     "6": {
       "arabic_text": "إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطْئًا وَأَقْوَمُ قِيلًا",
@@ -166,7 +171,8 @@
           "translate_bn": "বাক্য স্ফুরণে"
         }
       },
-      "english_trans": "Surely the rising by night is the firmest way to tread and the best corrective of speech."
+      "english_trans": "Surely the rising by night is the firmest way to tread and the best corrective of speech.",
+      "arabic_text_uthmani": "إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًٔا وَأَقْوَمُ قِيلًا"
     },
     "7": {
       "arabic_text": "إِنَّ لَكَ فِي النَّهَارِ سَبْحًا طَوِيلًا",
@@ -197,7 +203,8 @@
           "translate_bn": "দীর্ঘ"
         }
       },
-      "english_trans": "Surely you have in the day time a long occupation."
+      "english_trans": "Surely you have in the day time a long occupation.",
+      "arabic_text_uthmani": "إِنَّ لَكَ فِى ٱلنَّهَارِ سَبْحًا طَوِيلًا"
     },
     "8": {
       "arabic_text": "وَاذْكُرِ اسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
@@ -228,7 +235,8 @@
           "translate_bn": "খুব নিমগ্ন হয়ে"
         }
       },
-      "english_trans": "And remember the name of your Lord and devote yourself to Him with (exclusive) devotion."
+      "english_trans": "And remember the name of your Lord and devote yourself to Him with (exclusive) devotion.",
+      "arabic_text_uthmani": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا"
     },
     "9": {
       "arabic_text": "رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ لَا إِلَهَ إِلَّا هُوَ فَاتَّخِذْهُ وَكِيلًا",
@@ -271,7 +279,8 @@
           "translate_bn": "কর্ম বিধায়ক রূপে"
         }
       },
-      "english_trans": "The Lord of the East and the West-- there is no god but He-- therefore take Him for a protector."
+      "english_trans": "The Lord of the East and the West-- there is no god but He-- therefore take Him for a protector.",
+      "arabic_text_uthmani": "رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَـٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًا"
     },
     "10": {
       "arabic_text": "وَاصْبِرْ عَلَى مَا يَقُولُونَ وَاهْجُرْهُمْ هَجْرًا جَمِيلًا",
@@ -306,7 +315,8 @@
           "translate_bn": "উত্তম"
         }
       },
-      "english_trans": "And bear patiently what they say and avoid them with a becoming avoidance."
+      "english_trans": "And bear patiently what they say and avoid them with a becoming avoidance.",
+      "arabic_text_uthmani": "وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًا جَمِيلًا"
     },
     "11": {
       "arabic_text": "وَذَرْنِي وَالْمُكَذِّبِينَ أُولِي النَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا",
@@ -337,7 +347,8 @@
           "translate_bn": "সামান্য"
         }
       },
-      "english_trans": "And leave Me and the rejecters, the possessors of ease and plenty, and respite them a little."
+      "english_trans": "And leave Me and the rejecters, the possessors of ease and plenty, and respite them a little.",
+      "arabic_text_uthmani": "وَذَرْنِى وَٱلْمُكَذِّبِينَ أُو۟لِى ٱلنَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا"
     },
     "12": {
       "arabic_text": "إِنَّ لَدَيْنَا أَنْكَالًا وَجَحِيمًا",
@@ -360,7 +371,8 @@
           "translate_bn": "এবং প্রজ্বলিত আগুন"
         }
       },
-      "english_trans": "Surely with Us are heavy fetters and a flaming fire,"
+      "english_trans": "Surely with Us are heavy fetters and a flaming fire,",
+      "arabic_text_uthmani": "إِنَّ لَدَيْنَآ أَنكَالًا وَجَحِيمًا"
     },
     "13": {
       "arabic_text": "وَطَعَامًا ذَا غُصَّةٍ وَعَذَابًا أَلِيمًا",
@@ -387,7 +399,8 @@
           "translate_bn": "কষ্টকর"
         }
       },
-      "english_trans": "And food that chokes and a painful punishment,"
+      "english_trans": "And food that chokes and a painful punishment,",
+      "arabic_text_uthmani": "وَطَعَامًا ذَا غُصَّةٍ وَعَذَابًا أَلِيمًا"
     },
     "14": {
       "arabic_text": "يَوْمَ تَرْجُفُ الْأَرْضُ وَالْجِبَالُ وَكَانَتِ الْجِبَالُ كَثِيبًا مَهِيلًا",
@@ -426,7 +439,8 @@
           "translate_bn": "বিক্ষিপ্ত হয়ে পড়া"
         }
       },
-      "english_trans": "On the day when the earth and the mountains shall quake and the mountains shall become (as) heaps of sand let loose."
+      "english_trans": "On the day when the earth and the mountains shall quake and the mountains shall become (as) heaps of sand let loose.",
+      "arabic_text_uthmani": "يَوْمَ تَرْجُفُ ٱلْأَرْضُ وَٱلْجِبَالُ وَكَانَتِ ٱلْجِبَالُ كَثِيبًا مَّهِيلًا"
     },
     "15": {
       "arabic_text": "إِنَّا أَرْسَلْنَا إِلَيْكُمْ رَسُولًا شَاهِدًا عَلَيْكُمْ كَمَا أَرْسَلْنَا إِلَى فِرْعَوْنَ رَسُولًا",
@@ -477,7 +491,8 @@
           "translate_bn": "একজন রসূল"
         }
       },
-      "english_trans": "Surely We have sent to you a Messenger, a witness against you, as We sent a messenger to Firon."
+      "english_trans": "Surely We have sent to you a Messenger, a witness against you, as We sent a messenger to Firon.",
+      "arabic_text_uthmani": "إِنَّآ أَرْسَلْنَآ إِلَيْكُمْ رَسُولًا شَـٰهِدًا عَلَيْكُمْ كَمَآ أَرْسَلْنَآ إِلَىٰ فِرْعَوْنَ رَسُولًا"
     },
     "16": {
       "arabic_text": "فَعَصَى فِرْعَوْنُ الرَّسُولَ فَأَخَذْنَاهُ أَخْذًا وَبِيلًا",
@@ -508,7 +523,8 @@
           "translate_bn": "শক্ত"
         }
       },
-      "english_trans": "But Firon disobeyed the messenger, so We laid on him a violent hold."
+      "english_trans": "But Firon disobeyed the messenger, so We laid on him a violent hold.",
+      "arabic_text_uthmani": "فَعَصَىٰ فِرْعَوْنُ ٱلرَّسُولَ فَأَخَذْنَـٰهُ أَخْذًا وَبِيلًا"
     },
     "17": {
       "arabic_text": "فَكَيْفَ تَتَّقُونَ إِنْ كَفَرْتُمْ يَوْمًا يَجْعَلُ الْوِلْدَانَ شِيبًا",
@@ -547,7 +563,8 @@
           "translate_bn": "বৃদ্ধ"
         }
       },
-      "english_trans": "How, then, will you guard yourselves, if you disbelieve, on the day which shall make children grey-headed?"
+      "english_trans": "How, then, will you guard yourselves, if you disbelieve, on the day which shall make children grey-headed?",
+      "arabic_text_uthmani": "فَكَيْفَ تَتَّقُونَ إِن كَفَرْتُمْ يَوْمًا يَجْعَلُ ٱلْوِلْدَٰنَ شِيبًا"
     },
     "18": {
       "arabic_text": "السَّمَاءُ مُنْفَطِرٌ بِهِ كَانَ وَعْدُهُ مَفْعُولًا",
@@ -578,7 +595,8 @@
           "translate_bn": "বাস্তবায়িত"
         }
       },
-      "english_trans": "The heaven shall rend asunder thereby; His promise is ever brought to fulfillment."
+      "english_trans": "The heaven shall rend asunder thereby; His promise is ever brought to fulfillment.",
+      "arabic_text_uthmani": "ٱلسَّمَآءُ مُنفَطِرٌۢ بِهِۦ ۚ كَانَ وَعْدُهُۥ مَفْعُولًا"
     },
     "19": {
       "arabic_text": "إِنَّ هَذِهِ تَذْكِرَةٌ فَمَنْ شَاءَ اتَّخَذَ إِلَى رَبِّهِ سَبِيلًا",
@@ -621,7 +639,8 @@
           "translate_bn": "পথ"
         }
       },
-      "english_trans": "Surely this is a reminder, then let him, who will take the way to his Lord."
+      "english_trans": "Surely this is a reminder, then let him, who will take the way to his Lord.",
+      "arabic_text_uthmani": "إِنَّ هَـٰذِهِۦ تَذْكِرَةٌ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا"
     },
     "20": {
       "arabic_text": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَى مِنْ ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِنَ الَّذِينَ مَعَكَ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ عَلِمَ أَنْ لَنْ تُحْصُوهُ فَتَابَ عَلَيْكُمْ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ عَلِمَ أَنْ سَيَكُونُ مِنْكُمْ مَرْضَى وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِنْ فَضْلِ اللَّهِ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا وَمَا تُقَدِّمُوا لِأَنْفُسِكُمْ مِنْ خَيْرٍ تَجِدُوهُ عِنْدَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
@@ -940,7 +959,8 @@
           "translate_bn": "অত্যন্ত মেহেরবান"
         }
       },
-      "english_trans": "Surely your Lord knows that you pass in prayer nearly two-thirds of the night, and (sometimes) half of it, and (sometimes) a third of it, and (also) a party of those with you; and Allah measures the night and the day. He knows that you are not able to do it, so He has turned to you (mercifully), therefore read what is easy of the Quran. He knows that there must be among you sick, and others who travel in the land seeking of the bounty of Allah, and others who fight in Allah´s way, therefore read as much of it as is easy (to you), and keep up prayer and pay the poor-rate and offer to Allah a goodly gift, and whatever of good you send on beforehand for yourselves, you will find it with Allah; that is best and greatest in reward; and ask forgiveness of Allah; surely Allah is Forgiving, Merciful."
+      "english_trans": "Surely your Lord knows that you pass in prayer nearly two-thirds of the night, and (sometimes) half of it, and (sometimes) a third of it, and (also) a party of those with you; and Allah measures the night and the day. He knows that you are not able to do it, so He has turned to you (mercifully), therefore read what is easy of the Quran. He knows that there must be among you sick, and others who travel in the land seeking of the bounty of Allah, and others who fight in Allah´s way, therefore read as much of it as is easy (to you), and keep up prayer and pay the poor-rate and offer to Allah a goodly gift, and whatever of good you send on beforehand for yourselves, you will find it with Allah; that is best and greatest in reward; and ask forgiveness of Allah; surely Allah is Forgiving, Merciful.",
+      "arabic_text_uthmani": "۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ"
     }
   }
 }

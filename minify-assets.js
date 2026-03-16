@@ -36,8 +36,9 @@ class JSMinifier {
             .replace(/\/\*[\s\S]*?\*\//g, '')
             // Remove unnecessary whitespace
             .replace(/\s+/g, ' ')
-            // Remove whitespace around operators and punctuation
-            .replace(/\s*([{}();,=+\-*/<>!&|])\s*/g, '$1')
+            // Remove whitespace around operators and punctuation (except after } to preserve template literal spaces)
+            .replace(/\s*([{(;,=+\-*/<>!&|])\s*/g, '$1')
+            .replace(/\s*([})])/g, '$1')
             // Remove whitespace after keywords
             .replace(/\b(if|for|while|function|return|var|let|const|else)\s+/g, '$1 ')
             // Preserve necessary spaces

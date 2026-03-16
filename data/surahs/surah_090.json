@@ -27,7 +27,8 @@
           "translate_bn": "নগরের (অর্থাৎ মক্কার)"
         }
       },
-      "english_trans": "Nay! I swear by this city."
+      "english_trans": "Nay! I swear by this city.",
+      "arabic_text_uthmani": " لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ"
     },
     "2": {
       "arabic_text": "وَأَنْتَ حِلٌّ بِهَذَا الْبَلَدِ",
@@ -50,7 +51,8 @@
           "translate_bn": "নগরের"
         }
       },
-      "english_trans": "And you shall be made free from obligation in this city--"
+      "english_trans": "And you shall be made free from obligation in this city--",
+      "arabic_text_uthmani": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ"
     },
     "3": {
       "arabic_text": "وَوَالِدٍ وَمَا وَلَدَ",
@@ -69,7 +71,8 @@
           "translate_bn": "জন্ম দিয়েছেন (সেই সন্তানের)"
         }
       },
-      "english_trans": "And the begetter and whom he begot."
+      "english_trans": "And the begetter and whom he begot.",
+      "arabic_text_uthmani": "وَوَالِدٍ وَمَا وَلَدَ"
     },
     "4": {
       "arabic_text": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي كَبَدٍ",
@@ -96,7 +99,8 @@
           "translate_bn": "কষ্টের"
         }
       },
-      "english_trans": "Certainly We have created man to be in distress."
+      "english_trans": "Certainly We have created man to be in distress.",
+      "arabic_text_uthmani": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ"
     },
     "5": {
       "arabic_text": "أَيَحْسَبُ أَنْ لَنْ يَقْدِرَ عَلَيْهِ أَحَدٌ",
@@ -127,7 +131,8 @@
           "translate_bn": "কেউ"
         }
       },
-      "english_trans": "Does he think that no one has power over him?"
+      "english_trans": "Does he think that no one has power over him?",
+      "arabic_text_uthmani": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ"
     },
     "6": {
       "arabic_text": "يَقُولُ أَهْلَكْتُ مَالًا لُبَدًا",
@@ -150,7 +155,8 @@
           "translate_bn": "বিপুল (পরিমাণ)"
         }
       },
-      "english_trans": "He shall say: I have wasted much wealth."
+      "english_trans": "He shall say: I have wasted much wealth.",
+      "arabic_text_uthmani": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا"
     },
     "7": {
       "arabic_text": "أَيَحْسَبُ أَنْ لَمْ يَرَهُ أَحَدٌ",
@@ -177,7 +183,8 @@
           "translate_bn": "কেউ"
         }
       },
-      "english_trans": "Does he think that no one sees him?"
+      "english_trans": "Does he think that no one sees him?",
+      "arabic_text_uthmani": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ"
     },
     "8": {
       "arabic_text": "أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ",
@@ -200,7 +207,8 @@
           "translate_bn": "দুচোখ"
         }
       },
-      "english_trans": "Have We not given him two eyes,"
+      "english_trans": "Have We not given him two eyes,",
+      "arabic_text_uthmani": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ"
     },
     "9": {
       "arabic_text": "وَلِسَانًا وَشَفَتَيْنِ",
@@ -215,7 +223,8 @@
           "translate_bn": "ও দুঠোট"
         }
       },
-      "english_trans": "And a tongue and two lips,"
+      "english_trans": "And a tongue and two lips,",
+      "arabic_text_uthmani": "وَلِسَانًا وَشَفَتَيْنِ"
     },
     "10": {
       "arabic_text": "وَهَدَيْنَاهُ النَّجْدَيْنِ",
@@ -230,7 +239,8 @@
           "translate_bn": "(ভাল মন্দ) দুই পথের"
         }
       },
-      "english_trans": "And pointed out to him the two conspicuous ways?"
+      "english_trans": "And pointed out to him the two conspicuous ways?",
+      "arabic_text_uthmani": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ"
     },
     "11": {
       "arabic_text": "فَلَا اقْتَحَمَ الْعَقَبَةَ",
@@ -249,7 +259,8 @@
           "translate_bn": "কষ্টসাধ্য গিরিপথ"
         }
       },
-      "english_trans": "But he would not attempt the uphill road,"
+      "english_trans": "But he would not attempt the uphill road,",
+      "arabic_text_uthmani": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ"
     },
     "12": {
       "arabic_text": "وَمَا أَدْرَاكَ مَا الْعَقَبَةُ",
@@ -272,7 +283,8 @@
           "translate_bn": "সেই কষ্টসাধ্য গিরিপথ"
         }
       },
-      "english_trans": "And what will make you comprehend what the uphill road is?"
+      "english_trans": "And what will make you comprehend what the uphill road is?",
+      "arabic_text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ"
     },
     "13": {
       "arabic_text": "فَكُّ رَقَبَةٍ",
@@ -287,7 +299,8 @@
           "translate_bn": "দাস"
         }
       },
-      "english_trans": "(It is) the setting free of a slave,"
+      "english_trans": "(It is) the setting free of a slave,",
+      "arabic_text_uthmani": "فَكُّ رَقَبَةٍ"
     },
     "14": {
       "arabic_text": "أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ",
@@ -318,7 +331,8 @@
           "translate_bn": "দুর্ভিক্ষ"
         }
       },
-      "english_trans": "Or the giving of food in a day of hunger"
+      "english_trans": "Or the giving of food in a day of hunger",
+      "arabic_text_uthmani": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ"
     },
     "15": {
       "arabic_text": "يَتِيمًا ذَا مَقْرَبَةٍ",
@@ -337,7 +351,8 @@
           "translate_bn": "নিকট আত্মীয় সম্পর্ক"
         }
       },
-      "english_trans": "To an orphan, having relationship,"
+      "english_trans": "To an orphan, having relationship,",
+      "arabic_text_uthmani": "يَتِيمًا ذَا مَقْرَبَةٍ"
     },
     "16": {
       "arabic_text": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
@@ -360,7 +375,8 @@
           "translate_bn": "ধুলি দারিদ্র-নিষ্পেষিত"
         }
       },
-      "english_trans": "Or to the poor man lying in the dust."
+      "english_trans": "Or to the poor man lying in the dust.",
+      "arabic_text_uthmani": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ"
     },
     "17": {
       "arabic_text": "ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ",
@@ -403,7 +419,8 @@
           "translate_bn": "দয়া প্রদর্শনের"
         }
       },
-      "english_trans": "Then he is of those who believe and charge one another to show patience, and charge one another to show compassion."
+      "english_trans": "Then he is of those who believe and charge one another to show patience, and charge one another to show compassion.",
+      "arabic_text_uthmani": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ"
     },
     "18": {
       "arabic_text": "أُولَئِكَ أَصْحَابُ الْمَيْمَنَةِ",
@@ -422,7 +439,8 @@
           "translate_bn": "ডান দিকের (অর্থাৎ সৌভাগ্যশীল)"
         }
       },
-      "english_trans": "These are the people of the right hand."
+      "english_trans": "These are the people of the right hand.",
+      "arabic_text_uthmani": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ"
     },
     "19": {
       "arabic_text": "وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ",
@@ -453,7 +471,8 @@
           "translate_bn": "বাম দিকের (অর্থাৎ হতভাগ্য)"
         }
       },
-      "english_trans": "And (as for) those who disbelieve in our communications, they are the people of the left hand."
+      "english_trans": "And (as for) those who disbelieve in our communications, they are the people of the left hand.",
+      "arabic_text_uthmani": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ"
     },
     "20": {
       "arabic_text": "عَلَيْهِمْ نَارٌ مُؤْصَدَةٌ",
@@ -472,7 +491,8 @@
           "translate_bn": "পরিবেষ্টনকারী (হয়ে থাকবে)"
         }
       },
-      "english_trans": "On them is fire closed over."
+      "english_trans": "On them is fire closed over.",
+      "arabic_text_uthmani": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ"
     }
   }
 }
