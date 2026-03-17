@@ -3985,13 +3985,13 @@ select {
     display: block;
     direction: rtl;
     text-align: right;
-    line-height: 3;
-    padding: 0rem 1.5rem 0rem 1.5rem;
+    line-height: calc(5.4rem * var(--font-size-multiplier));
+    padding: 0 1.5rem;
     font-family: var(--font-arabic);
     font-size: calc(1.8rem * var(--font-size-multiplier));
     gap: 0;
     background-image: linear-gradient(to bottom, transparent calc(100% - 1px), rgba(0, 0, 0, 0.08) calc(100% - 1px));
-    background-size: 100% 3em;
+    background-size: 100% calc(5.4rem * var(--font-size-multiplier));
 }
 
 [data-theme="dark"] .reading-mode-active.compact-mode-active .verses-container {
@@ -4112,10 +4112,10 @@ select {
 /* Mobile compact mode */
 @media (max-width: 768px) {
     .reading-mode-active.compact-mode-active .verses-container {
-        padding: 1rem;
+        padding: 0 1rem;
         font-size: calc(1.5rem * var(--font-size-multiplier));
-        line-height: 2.8;
-        background-size: 100% 2.8em;
+        line-height: calc(4.2rem * var(--font-size-multiplier));
+        background-size: 100% calc(4.2rem * var(--font-size-multiplier));
     }
 
     .verse-number-inline {
@@ -4128,10 +4128,10 @@ select {
 
 @media (max-width: 480px) {
     .reading-mode-active.compact-mode-active .verses-container {
-        padding: 0.75rem;
+        padding: 0 0.75rem;
         font-size: calc(1.3rem * var(--font-size-multiplier));
-        line-height: 2.6;
-        background-size: 100% 2.6em;
+        line-height: calc(3.38rem * var(--font-size-multiplier));
+        background-size: 100% calc(3.38rem * var(--font-size-multiplier));
     }
 
     .verse-number-inline {
@@ -4308,19 +4308,19 @@ select {
 }
 
 .hifz-page-content {
-    background: var(--bg-card);
+    background-color: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-lg);
-    padding: 0rem 1.5rem 0rem 1.5rem;
+    padding: 0 1.5rem;
     box-shadow: var(--shadow-sm);
     direction: rtl;
     text-align: right;
     font-family: var(--font-arabic);
     font-size: calc(1.6rem * var(--font-size-multiplier));
-    line-height: 2.8;
+    line-height: calc(4.48rem * var(--font-size-multiplier));
     min-height: 300px;
     background-image: linear-gradient(to bottom, transparent calc(100% - 1px), rgba(0, 0, 0, 0.08) calc(100% - 1px));
-    background-size: 100% 2.8em;
+    background-size: 100% calc(4.48rem * var(--font-size-multiplier));
 }
 
 [data-theme="dark"] .hifz-page-content {
@@ -4450,10 +4450,10 @@ select {
 
 @media (max-width: 768px) {
     .hifz-page-content {
-        padding: 1rem;
+        padding: 0 1rem;
         font-size: calc(1.4rem * var(--font-size-multiplier));
-        line-height: 2.6;
-        background-size: 100% 2.6em;
+        line-height: calc(3.64rem * var(--font-size-multiplier));
+        background-size: 100% calc(3.64rem * var(--font-size-multiplier));
     }
 
     .hifz-page-content .hifz-ayah-number {
