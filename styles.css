@@ -205,16 +205,6 @@ body {
     transform: translateY(-1px);
 }
 
-.header-surah-name {
-    color: var(--text-white);
-    font-size: 0.95rem;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 180px;
-}
-
 .header-controls {
     display: flex;
     align-items: center;
@@ -946,14 +936,47 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
-    background: var(--primary-color);
-    color: var(--text-white);
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    color: var(--primary-dark);
+    border: 2px solid var(--primary-color);
     border-radius: 50%;
-    font-weight: 600;
-    font-size: 0.85rem;
+    font-weight: 700;
+    font-size: 0.8rem;
     margin-bottom: 0.5rem;
+    position: relative;
+    box-shadow: inset 0 0 0 2px var(--bg-card), inset 0 0 0 3.5px var(--primary-color);
+}
+
+.verse-number::before,
+.verse-number::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid var(--primary-color);
+}
+
+.verse-number::before {
+    transform: rotate(45deg);
+    border-radius: 2px;
+}
+
+.verse-number::after {
+    transform: rotate(0deg);
+    border-radius: 2px;
+}
+
+[data-theme="dark"] .verse-number {
+    color: var(--primary-light);
+    border-color: var(--primary-light);
+    box-shadow: inset 0 0 0 2px var(--bg-card), inset 0 0 0 3.5px var(--primary-light);
+}
+
+[data-theme="dark"] .verse-number::before,
+[data-theme="dark"] .verse-number::after {
+    border-color: var(--primary-light);
 }
 
 .verse-arabic {
@@ -1120,7 +1143,7 @@ body {
     border-radius: var(--border-radius-lg);
     padding: 0.6rem 1rem;
     box-shadow: var(--shadow-lg);
-    z-index: 100;
+    z-index: 1001;
     animation: fadeIn 0.2s ease;
     max-width: 95%;
 }
@@ -1170,11 +1193,12 @@ body {
 
 @media (max-width: 768px) {
     .selection-bar {
-        bottom: calc(70px + env(safe-area-inset-bottom));
+        bottom: 70px;
         left: 0.5rem;
         right: 0.5rem;
         transform: none;
         max-width: none;
+        z-index: 1001;
     }
 }
 
@@ -1185,8 +1209,8 @@ body {
     }
 
     .verse-action-btn {
-        padding: 0.4rem 0.7rem;
-        font-size: 0.75rem;
+        padding: 0.5rem 0.85rem;
+        font-size: 0.8rem;
     }
 
     .verse-action-btn span {
@@ -2699,10 +2723,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 8px 0 calc(8px + env(safe-area-inset-bottom));
+    padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
     max-width: 500px;
     margin: 0 auto;
-    gap: 4px;
+    gap: 2px;
 }
 
 .bottom-nav-item {
@@ -2715,13 +2739,14 @@ body {
     color: var(--text-secondary);
     cursor: pointer;
     transition: all 0.2s ease;
-    padding: 8px 6px;
+    padding: 6px 8px;
     border-radius: 12px;
-    min-width: 50px;
+    min-width: 56px;
     flex: 1;
     position: relative;
-    max-width: 70px;
+    max-width: 80px;
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .bottom-nav-item:hover {
@@ -2759,7 +2784,7 @@ body {
 }
 
 .nav-label {
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 500;
     line-height: 1;
     text-align: center;
@@ -2858,14 +2883,29 @@ body {
         background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
         padding: 0.75rem 0;
     }
-    
+
     .header-controls {
         display: none !important; /* Hide all header controls on mobile */
     }
-    
+
     .header-content {
         justify-content: center; /* Center the logo on mobile */
+        position: relative;
         gap: 0.5rem;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .back-btn {
+        position: absolute;
+        left: 0;
+        padding: 0.5rem 0.75rem;
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .back-btn span {
+        display: none; /* Icon-only back button on mobile */
     }
     
     .container {
@@ -2912,36 +2952,39 @@ body {
     
     .surah-list {
         grid-template-columns: 1fr;
-        gap: 0.5rem;
+        gap: 0.625rem;
     }
-    
+
     /* Mobile view controls improvements */
     .view-controls {
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-xs);
     }
-    
+
     .surah-card {
-        padding: 0.85rem;
+        padding: 1rem;
+        border-radius: 12px;
     }
 
     .reading-controls {
         flex-direction: column;
         align-items: stretch;
-        gap: 0.5rem;
+        gap: 0.75rem;
+        padding: 0.75rem;
     }
-    
+
     .reading-controls .control-group {
-        justify-content: center;
+        justify-content: space-between;
         min-width: auto;
     }
-    
+
     .surah-header {
         padding: 1rem;
+        margin-bottom: 0.5rem;
     }
-    
+
     .surah-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .surah-meta {
@@ -2950,11 +2993,12 @@ body {
     }
     
     .verse {
-        padding: 0.85rem;
+        padding: 1rem;
+        border-radius: 12px;
     }
 
     .bismillah .arabic-text {
-        font-size: calc(1.5rem * var(--font-size-multiplier));
+        font-size: calc(1.6rem * var(--font-size-multiplier));
     }
     
     .modal {
@@ -2963,18 +3007,29 @@ body {
     }
     
     .floating-controls {
-        bottom: calc(75px + env(safe-area-inset-bottom));
-        right: 0.75rem;
+        bottom: 70px;
+        right: auto;
+        left: 0.75rem;
     }
 
     .floating-toggle {
-        width: 48px;
-        height: 48px;
+        width: 44px;
+        height: 44px;
         font-size: 1rem;
     }
 
+    .floating-panel {
+        position: absolute;
+        bottom: 55px;
+        left: 0;
+        right: auto;
+        min-width: 280px;
+        width: calc(100vw - 1.5rem);
+        max-width: 350px;
+    }
+
     .floating-scroll-control {
-        bottom: calc(75px + env(safe-area-inset-bottom));
+        bottom: 70px;
         right: 0.75rem;
         left: 0.75rem;
         min-width: auto;
@@ -3002,15 +3057,15 @@ body {
     }
     
     .verse-arabic {
-        font-size: calc(1.3rem * var(--font-size-multiplier));
-        line-height: 1.8;
+        font-size: calc(1.4rem * var(--font-size-multiplier));
+        line-height: 2.0;
     }
 
     .translation-text,
     .bangla-trans,
     .english-trans {
-        font-size: calc(0.95rem * var(--font-size-multiplier));
-        line-height: 1.5;
+        font-size: calc(1rem * var(--font-size-multiplier));
+        line-height: 1.6;
     }
 
     /* Better mobile typography */
@@ -3019,19 +3074,30 @@ body {
         margin: 0.15rem;
         font-size: inherit;
     }
-    
+
     /* Optimize floating controls for small screens — above bottom nav */
     .floating-controls {
-        bottom: calc(75px + env(safe-area-inset-bottom));
-        right: 0.5rem;
+        bottom: 70px;
+        right: auto;
+        left: 0.5rem;
     }
 
     .floating-toggle {
-        width: 50px;
-        height: 50px;
-        font-size: 1.1rem;
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
     }
-    
+
+    .floating-panel {
+        position: absolute;
+        bottom: 55px;
+        left: 0;
+        right: auto;
+        min-width: 250px;
+        width: calc(100vw - 1rem);
+        max-width: 320px;
+    }
+
     /* Improve readability */
     .container {
         padding: 0 0.75rem;
@@ -3093,7 +3159,6 @@ select {
 }
 
 /* Hardware acceleration for smooth animations */
-.floating-controls,
 .modal-overlay,
 .settings-modal,
 .word-modal {
@@ -3573,11 +3638,10 @@ select {
 }
 
 .reading-mode-active .verse-number {
-    width: 26px;
-    height: 26px;
-    font-size: 0.75rem;
+    width: 32px;
+    height: 32px;
+    font-size: 0.7rem;
     margin-bottom: 0.5rem;
-    opacity: 0.7;
 }
 
 .reading-mode-active .verse-arabic {
@@ -3658,15 +3722,16 @@ select {
 
 .mode-tab {
     flex: 1;
-    padding: 0.5rem 0.75rem;
+    padding: 0.6rem 0.75rem;
     border: none;
     border-radius: var(--border-radius-sm);
     background: transparent;
     color: var(--text-secondary);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
+    min-height: 44px;
     font-family: var(--font-system);
 }
 
@@ -3919,12 +3984,18 @@ select {
 .reading-mode-active.compact-mode-active .verses-container {
     display: block;
     direction: rtl;
-    text-align: justify;
+    text-align: right;
     line-height: 3;
-    padding: 1.5rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
     font-family: var(--font-arabic);
     font-size: calc(1.8rem * var(--font-size-multiplier));
     gap: 0;
+    background-image: linear-gradient(to bottom, transparent calc(100% - 1px), rgba(0, 0, 0, 0.08) calc(100% - 1px));
+    background-size: 100% 3em;
+}
+
+[data-theme="dark"] .reading-mode-active.compact-mode-active .verses-container {
+    background-image: linear-gradient(to bottom, transparent calc(100% - 1px), rgba(255, 255, 255, 0.08) calc(100% - 1px));
 }
 
 .reading-mode-active.compact-mode-active .verse {
@@ -3968,26 +4039,54 @@ select {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 26px;
-    width: 26px;
-    height: 26px;
-    background: var(--primary-color);
-    color: white;
+    min-width: 28px;
+    width: 28px;
+    height: 28px;
+    background: transparent;
+    color: var(--primary-dark);
+    border: 1.5px solid var(--primary-color);
     border-radius: 50%;
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     font-weight: 700;
     font-family: var(--font-system);
-    margin: 0 0.3rem;
+    margin: 0 0.25rem;
     vertical-align: middle;
     direction: ltr;
     line-height: 1;
     flex-shrink: 0;
+    position: relative;
+    box-shadow: inset 0 0 0 1.5px var(--bg-card), inset 0 0 0 3px var(--primary-color);
+}
+
+.verse-number-inline::before,
+.verse-number-inline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary-color);
+}
+
+.verse-number-inline::before {
+    transform: rotate(45deg);
+    border-radius: 2px;
+}
+
+.verse-number-inline::after {
+    transform: rotate(0deg);
+    border-radius: 2px;
 }
 
 /* Dark mode */
 [data-theme="dark"] .verse-number-inline {
-    background: var(--primary-light);
-    box-shadow: 0 0 6px rgba(76, 175, 80, 0.3);
+    color: var(--primary-light);
+    border-color: var(--primary-light);
+    box-shadow: inset 0 0 0 1.5px var(--bg-card), inset 0 0 0 3px var(--primary-light);
+}
+
+[data-theme="dark"] .verse-number-inline::before,
+[data-theme="dark"] .verse-number-inline::after {
+    border-color: var(--primary-light);
 }
 
 /* Compact mode page break divider */
@@ -4016,13 +4115,14 @@ select {
         padding: 1rem;
         font-size: calc(1.5rem * var(--font-size-multiplier));
         line-height: 2.8;
+        background-size: 100% 2.8em;
     }
 
     .verse-number-inline {
-        min-width: 22px;
-        width: 22px;
-        height: 22px;
-        font-size: 0.6rem;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        font-size: 0.55rem;
     }
 }
 
@@ -4031,13 +4131,14 @@ select {
         padding: 0.75rem;
         font-size: calc(1.3rem * var(--font-size-multiplier));
         line-height: 2.6;
+        background-size: 100% 2.6em;
     }
 
     .verse-number-inline {
-        min-width: 20px;
-        width: 20px;
-        height: 20px;
-        font-size: 0.55rem;
+        min-width: 22px;
+        width: 22px;
+        height: 22px;
+        font-size: 0.5rem;
     }
 }
 
@@ -4210,14 +4311,20 @@ select {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-lg);
-    padding: 1.5rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
     box-shadow: var(--shadow-sm);
     direction: rtl;
-    text-align: justify;
+    text-align: right;
     font-family: var(--font-arabic);
     font-size: calc(1.6rem * var(--font-size-multiplier));
     line-height: 2.8;
     min-height: 300px;
+    background-image: linear-gradient(to bottom, transparent calc(100% - 1px), rgba(0, 0, 0, 0.08) calc(100% - 1px));
+    background-size: 100% 2.8em;
+}
+
+[data-theme="dark"] .hifz-page-content {
+    background-image: linear-gradient(to bottom, transparent calc(100% - 1px), rgba(255, 255, 255, 0.08) calc(100% - 1px));
 }
 
 .hifz-page-content .hifz-verse {
@@ -4228,19 +4335,52 @@ select {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 24px;
-    width: 24px;
-    height: 24px;
-    background: var(--primary-color);
-    color: white;
+    min-width: 26px;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    color: var(--primary-dark);
+    border: 1.5px solid var(--primary-color);
     border-radius: 50%;
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     font-weight: 700;
     font-family: var(--font-system);
-    margin: 0 0.2rem;
+    margin: 0 0.5rem;
     vertical-align: middle;
     direction: ltr;
     line-height: 1;
+    position: relative;
+    box-shadow: inset 0 0 0 1.5px var(--bg-card), inset 0 0 0 3px var(--primary-color);
+}
+
+.hifz-page-content .hifz-ayah-number::before,
+.hifz-page-content .hifz-ayah-number::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary-color);
+}
+
+.hifz-page-content .hifz-ayah-number::before {
+    transform: rotate(45deg);
+    border-radius: 2px;
+}
+
+.hifz-page-content .hifz-ayah-number::after {
+    transform: rotate(0deg);
+    border-radius: 2px;
+}
+
+[data-theme="dark"] .hifz-page-content .hifz-ayah-number {
+    color: var(--primary-light);
+    border-color: var(--primary-light);
+    box-shadow: inset 0 0 0 1.5px var(--bg-card), inset 0 0 0 3px var(--primary-light);
+}
+
+[data-theme="dark"] .hifz-page-content .hifz-ayah-number::before,
+[data-theme="dark"] .hifz-page-content .hifz-ayah-number::after {
+    border-color: var(--primary-light);
 }
 
 .hifz-page-content .hifz-surah-separator {
@@ -4313,13 +4453,14 @@ select {
         padding: 1rem;
         font-size: calc(1.4rem * var(--font-size-multiplier));
         line-height: 2.6;
+        background-size: 100% 2.6em;
     }
 
     .hifz-page-content .hifz-ayah-number {
-        min-width: 20px;
-        width: 20px;
-        height: 20px;
-        font-size: 0.55rem;
+        min-width: 22px;
+        width: 22px;
+        height: 22px;
+        font-size: 0.5rem;
     }
 
     .juz-card {
