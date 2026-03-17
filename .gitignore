@@ -36,9 +36,6 @@ minification-manifest.json
 # Environment config (generated)
 env-config.js
 
-# Compression artifacts (too large for git, regenerate with compress-data.js)
-data-compressed/
-
 # Performance test results
 performance-results.json
 
