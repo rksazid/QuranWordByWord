@@ -45,7 +45,6 @@ let appData = {
 const elements = {
     // Navigation
     backBtn: document.getElementById('backBtn'),
-    headerSurahName: document.getElementById('headerSurahName'),
     searchBtn: document.getElementById('searchBtn'),
     settingsBtn: document.getElementById('settingsBtn'),
     favoritesBtn: document.getElementById('favoritesBtn'),
@@ -1498,12 +1497,6 @@ async function openSurah(surahId) {
         elements.surahType.textContent = surahInfo.type;
         elements.surahAyahs.textContent = `${surahInfo.ayah_number} Ayahs`;
 
-        // Update header surah name
-        if (elements.headerSurahName) {
-            elements.headerSurahName.textContent = surahInfo.name_english;
-            elements.headerSurahName.style.display = 'inline';
-        }
-
         // Render the surah content
         renderSurahContent(surahData, surahInfo);
 
@@ -1857,8 +1850,6 @@ function goBackToSurahList() {
     }
     elements.surahReadingPage.style.display = 'none';
     elements.backBtn.style.display = 'none';
-    if (elements.headerSurahName) elements.headerSurahName.style.display = 'none';
-
     // Reset view mode
     setViewMode('normal');
 
@@ -2611,7 +2602,17 @@ function formatVerseText(verseNum, verseData) {
     const translation = lang === 'bangla' ? verseData.bangla_trans : verseData.english_trans;
     const langLabel = lang === 'bangla' ? 'বাংলা অনুবাদ' : 'Translation';
 
-    return `${surahName} - ${surahEnglish}\nSurah ${appData.currentSurah}, Ayah ${verseNum}\n\n${verseData.arabic_text}\n\n${langLabel}:\n${translation}\n\n— Al-Quran Word by Word`;
+    let text = `${surahName} - ${surahEnglish}\nSurah ${appData.currentSurah}, Ayah ${verseNum}\n\n${verseData.arabic_text}`;
+
+    if (appData.isWordByWordMode && verseData.word_by_word) {
+        text += '\n\nWord by Word:';
+        for (const [, wordData] of Object.entries(verseData.word_by_word)) {
+            text += `\n${wordData.words_ar} — ${wordData.translate_bn}`;
+        }
+    }
+
+    text += `\n\n${langLabel}:\n${translation}\n\n— Al-Quran Word by Word`;
+    return text;
 }
 
 async function handleCopyVerse(verseNum, btn) {
@@ -2791,10 +2792,6 @@ async function navigateToHifzPage(pageNum) {
     if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
     if (elements.hifzReadingPage) elements.hifzReadingPage.style.display = 'block';
     elements.backBtn.style.display = 'flex';
-    if (elements.headerSurahName) {
-        elements.headerSurahName.textContent = `Page ${pageNum}`;
-        elements.headerSurahName.style.display = 'inline';
-    }
     if (elements.homepageControls) elements.homepageControls.style.display = 'none';
     if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'none';
     elements.searchContainer.style.display = 'none';
@@ -2893,7 +2890,6 @@ function goBackFromHifz() {
     if (elements.hifzReadingPage) elements.hifzReadingPage.style.display = 'none';
     if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
     elements.backBtn.style.display = 'none';
-    if (elements.headerSurahName) elements.headerSurahName.style.display = 'none';
     if (elements.homepageControls) elements.homepageControls.style.display = 'flex';
     if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'flex';
     elements.searchContainer.style.display = 'block';
@@ -2948,7 +2944,14 @@ function formatMultiVerseText(verseNums) {
         const data = getVerseDataFromCache(num);
         if (!data) return '';
         const translation = lang === 'bangla' ? data.bangla_trans : data.english_trans;
-        return `[${num}] ${data.arabic_text}\n${langLabel}: ${translation}`;
+        let part = `[${num}] ${data.arabic_text}`;
+        if (appData.isWordByWordMode && data.word_by_word) {
+            for (const [, wordData] of Object.entries(data.word_by_word)) {
+                part += `\n  ${wordData.words_ar} — ${wordData.translate_bn}`;
+            }
+        }
+        part += `\n${langLabel}: ${translation}`;
+        return part;
     }).filter(Boolean);
 
     const range = sorted.length === 1 ? `Ayah ${sorted[0]}` : `Ayahs ${sorted[0]}-${sorted[sorted.length - 1]}`;

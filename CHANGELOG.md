@@ -1,4 +1,46 @@
-# Changelog\n\nAll notable changes to Al-Quran Word by Word will be documented in this file.\n\n## [4.1.0] - 2026-03-16
+# Changelog\n\nAll notable changes to Al-Quran Word by Word will be documented in this file.\n\n## [4.1.6] - 2026-03-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [4.1.5] - 2026-03-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [4.1.4] - 2026-03-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [4.1.3] - 2026-03-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [4.1.2] - 2026-03-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [4.1.1] - 2026-03-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
+\n## [4.1.0] - 2026-03-16
 
 ### Changed
 - Version update
