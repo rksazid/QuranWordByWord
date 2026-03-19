@@ -18,7 +18,12 @@ let appData = {
     quranPages: null,
     currentHifzPage: 1,
     currentJuz: null,
-    mainView: 'surahs', // 'surahs' or 'hifz'
+    mainView: 'surahs', // 'surahs', 'hifz', or 'dua'
+    // Dua mode
+    duaData: null,
+    duaCounts: {},
+    currentDua: null,
+    duaTranslationVisible: false,
     // Settings
     settings: {
         fontSize: 'medium',
@@ -174,6 +179,17 @@ const elements = {
     hifzPrevPage: document.getElementById('hifzPrevPage'),
     hifzNextPage: document.getElementById('hifzNextPage'),
 
+    // Dua Mode
+    duaListPage: document.getElementById('duaListPage'),
+    duaList: document.getElementById('duaList'),
+    duaReadingPage: document.getElementById('duaReadingPage'),
+    duaTitle: document.getElementById('duaTitle'),
+    duaDescription: document.getElementById('duaDescription'),
+    duaItemsContainer: document.getElementById('duaItemsContainer'),
+    duaResetAllBtn: document.getElementById('duaResetAllBtn'),
+    duaTranslationToggle: document.getElementById('duaTranslationToggle'),
+    duaTranslationToggleLabel: document.getElementById('duaTranslationToggleLabel'),
+
     // Reading Mode & View Tabs
     modeTabs: document.getElementById('modeTabs'),
     readingModeBar: document.getElementById('readingModeBar'),
@@ -276,7 +292,13 @@ function loadSettings() {
         if (savedWordByWordMode !== null) {
             appData.isWordByWordMode = JSON.parse(savedWordByWordMode);
         }
-        
+
+        // Load dua counter state
+        const savedDuaCounts = localStorage.getItem('quranAppDuaCounts');
+        if (savedDuaCounts) {
+            appData.duaCounts = JSON.parse(savedDuaCounts);
+        }
+
         applySettings();
     } catch (error) {
         console.error('Error loading settings:', error);
@@ -388,6 +410,11 @@ async function loadData() {
         // Load Hifz data in the background (non-blocking)
         loadHifzData().then(() => {
             console.log('📖 Hifz data loaded');
+        }).catch(() => {});
+
+        // Load Dua data in the background (non-blocking)
+        loadDuaData().then(() => {
+            console.log('🤲 Dua data loaded');
         }).catch(() => {});
 
         // App is ready immediately!
@@ -925,6 +952,11 @@ function initBottomNavigation() {
                     openFavoritesModal();
                     updateBottomNavActiveState(item);
                     break;
+                case 'dua':
+                    switchMainView('dua');
+                    updateBottomNavActiveState(item);
+                    window.scrollTo(0, 0);
+                    break;
                 case 'settings':
                     openSettings();
                     updateBottomNavActiveState(item);
@@ -958,10 +990,12 @@ function updateBottomNavForPage(isReadingPage = false) {
     const toggleFavoriteBtn = document.querySelector('[data-action="toggle-favorite"]');
     const searchBtn = document.querySelector('[data-action="search"]');
     const favoritesBtn = document.querySelector('[data-action="favorites"]');
+    const duaBtn = document.querySelector('[data-action="dua"]');
 
     if (isReadingPage) {
         if (searchBtn) searchBtn.style.display = 'none';
         if (favoritesBtn) favoritesBtn.style.display = 'none';
+        if (duaBtn) duaBtn.style.display = 'none';
         if (controlsBtn) controlsBtn.style.display = 'flex';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'flex';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'flex';
@@ -970,6 +1004,7 @@ function updateBottomNavForPage(isReadingPage = false) {
     } else {
         if (searchBtn) searchBtn.style.display = 'flex';
         if (favoritesBtn) favoritesBtn.style.display = 'flex';
+        if (duaBtn) duaBtn.style.display = 'flex';
         if (controlsBtn) controlsBtn.style.display = 'none';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'none';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'none';
@@ -1599,6 +1634,7 @@ function navigateToSurah(surahId) {
 function switchToReadingPage() {
     elements.surahListPage.style.display = 'none';
     if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+    if (elements.duaListPage) elements.duaListPage.style.display = 'none';
     elements.surahReadingPage.style.display = 'block';
     elements.backBtn.style.display = 'flex';
 
@@ -1840,13 +1876,25 @@ function goBackToSurahList() {
         return;
     }
 
+    // Handle back from Dua reading page
+    if (elements.duaReadingPage && elements.duaReadingPage.style.display !== 'none') {
+        goBackFromDua();
+        return;
+    }
+
     // Restore the right page based on main view
     if (appData.mainView === 'hifz') {
         if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
         elements.surahListPage.style.display = 'none';
+        if (elements.duaListPage) elements.duaListPage.style.display = 'none';
+    } else if (appData.mainView === 'dua') {
+        if (elements.duaListPage) elements.duaListPage.style.display = 'block';
+        elements.surahListPage.style.display = 'none';
+        if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
     } else {
         elements.surahListPage.style.display = 'block';
         if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+        if (elements.duaListPage) elements.duaListPage.style.display = 'none';
     }
     elements.surahReadingPage.style.display = 'none';
     elements.backBtn.style.display = 'none';
@@ -2721,9 +2769,13 @@ async function switchMainView(view) {
     if (view === 'surahs') {
         elements.surahListPage.style.display = 'block';
         if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+        if (elements.duaListPage) elements.duaListPage.style.display = 'none';
+        elements.searchContainer.style.display = 'block';
     } else if (view === 'hifz') {
         elements.surahListPage.style.display = 'none';
         if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
+        if (elements.duaListPage) elements.duaListPage.style.display = 'none';
+        elements.searchContainer.style.display = 'block';
         // If data hasn't loaded yet, wait for it
         if (!appData.juzData) {
             await loadHifzData();
@@ -2731,6 +2783,16 @@ async function switchMainView(view) {
         if (appData.juzData && elements.juzList && elements.juzList.children.length === 0) {
             renderJuzList();
         }
+    } else if (view === 'dua') {
+        elements.surahListPage.style.display = 'none';
+        if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
+        if (elements.duaListPage) elements.duaListPage.style.display = 'block';
+        elements.searchContainer.style.display = 'none';
+        // If data hasn't loaded yet, wait for it
+        if (!appData.duaData) {
+            await loadDuaData();
+        }
+        renderDuaList();
     }
 }
 
@@ -2895,6 +2957,330 @@ function goBackFromHifz() {
     elements.searchContainer.style.display = 'block';
     window.scrollTo(0, 0);
 }
+
+// ==================== DUA FEATURE ==================== //
+async function loadDuaData() {
+    try {
+        const response = await fetch('./data/duas.json');
+        if (!response.ok) throw new Error('Failed to fetch dua data');
+        appData.duaData = await response.json();
+    } catch (err) {
+        console.warn('Dua data not available:', err.message);
+    }
+}
+
+function saveDuaCounts() {
+    localStorage.setItem('quranAppDuaCounts', JSON.stringify(appData.duaCounts));
+}
+
+function renderDuaList() {
+    if (!appData.duaData || !elements.duaList) return;
+    elements.duaList.innerHTML = '';
+
+    appData.duaData.collections.forEach(collection => {
+        // Calculate progress
+        const totalItems = collection.items.length;
+        let completedItems = 0;
+        collection.items.forEach(item => {
+            const count = appData.duaCounts[item.id] || 0;
+            if (count >= item.target_count) completedItems++;
+        });
+        const progressPercent = totalItems > 0 ? Math.round((completedItems / totalItems) * 100) : 0;
+
+        const card = document.createElement('div');
+        card.className = 'dua-card';
+        card.innerHTML = `
+            <div class="dua-card-icon"><i class="fas ${collection.icon}"></i></div>
+            <div class="dua-card-content">
+                <div class="dua-card-title">${collection.title_bn}</div>
+                <div class="dua-card-title-en">${collection.title_en}</div>
+                <div class="dua-card-meta">${totalItems} items · ${completedItems}/${totalItems} complete</div>
+            </div>
+            <div class="dua-card-progress">
+                <svg viewBox="0 0 36 36" class="dua-progress-ring">
+                    <path class="dua-progress-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="dua-progress-fill" stroke-dasharray="${progressPercent}, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                </svg>
+                <span class="dua-progress-text">${progressPercent}%</span>
+            </div>
+        `;
+        card.addEventListener('click', () => openDua(collection.id));
+        elements.duaList.appendChild(card);
+    });
+}
+
+function openDua(duaId) {
+    if (!appData.duaData) return;
+    const collection = appData.duaData.collections.find(c => c.id === duaId);
+    if (!collection) return;
+
+    appData.currentDua = duaId;
+
+    // Update header
+    if (elements.duaTitle) elements.duaTitle.textContent = collection.title_bn;
+    if (elements.duaDescription) elements.duaDescription.textContent = collection.description_bn;
+
+    // Show reading page, hide list
+    if (elements.duaListPage) elements.duaListPage.style.display = 'none';
+    if (elements.duaReadingPage) elements.duaReadingPage.style.display = 'block';
+    elements.backBtn.style.display = 'flex';
+    if (elements.homepageControls) elements.homepageControls.style.display = 'none';
+    if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'none';
+    elements.searchContainer.style.display = 'none';
+
+    // Hide bottom nav items for home, show minimal
+    updateBottomNavForPage(false);
+    const duaBtn = document.querySelector('[data-action="dua"]');
+    if (duaBtn) duaBtn.style.display = 'none';
+
+    // Reset all button
+    if (elements.duaResetAllBtn) {
+        elements.duaResetAllBtn.onclick = () => resetAllDuaCounts(duaId);
+    }
+
+    // Translation toggle
+    if (elements.duaTranslationToggle) {
+        updateDuaTranslationToggleLabel();
+        elements.duaTranslationToggle.onclick = toggleDuaTranslations;
+    }
+
+    renderDuaContent(collection);
+    window.scrollTo(0, 0);
+}
+
+async function renderDuaContent(collection) {
+    if (!elements.duaItemsContainer) return;
+    elements.duaItemsContainer.innerHTML = '<div style="text-align:center;padding:2rem;"><i class="fas fa-spinner fa-spin"></i></div>';
+
+    // Collect all surah IDs we need to load
+    const surahIdsNeeded = new Set();
+    collection.items.forEach(item => {
+        if (item.type === 'quran_ref' && item.surah_id) {
+            surahIdsNeeded.add(item.surah_id);
+        }
+    });
+
+    // Pre-load all needed surahs in parallel
+    const surahDataMap = {};
+    if (surahIdsNeeded.size > 0) {
+        const loadPromises = [...surahIdsNeeded].map(async (sid) => {
+            try {
+                const data = await loadSurahData(sid);
+                surahDataMap[sid] = data;
+            } catch (e) {
+                console.warn(`Failed to load surah ${sid} for dua:`, e);
+            }
+        });
+        await Promise.all(loadPromises);
+    }
+
+    // Render items
+    let html = '';
+    collection.items.forEach((item, index) => {
+        const currentCount = appData.duaCounts[item.id] || 0;
+        const isComplete = currentCount >= item.target_count;
+
+        html += `<div class="dua-item ${isComplete ? 'dua-item-complete' : ''}" id="dua-item-${item.id}">`;
+        html += `<div class="dua-item-number">${index + 1}</div>`;
+        html += `<div class="dua-item-content">`;
+        html += `<div class="dua-item-label">${item.label_bn}</div>`;
+        html += `<div class="dua-item-label-en">${item.label_en}</div>`;
+
+        // Render Arabic text based on type
+        const transHiddenClass = appData.duaTranslationVisible ? '' : ' dua-trans-hidden';
+        if (item.type === 'quran_ref') {
+            html += renderQuranRefHtml(item, surahDataMap, transHiddenClass);
+        } else if (item.type === 'hadith') {
+            html += `<div class="dua-arabic-text">${item.arabic_text}</div>`;
+            html += `<div class="dua-translation${transHiddenClass}">${item.translation_bn}</div>`;
+            html += `<div class="dua-translation-en${transHiddenClass}">${item.translation_en}</div>`;
+        }
+
+        // Instruction & source
+        html += `<div class="dua-instruction"><i class="fas fa-info-circle"></i> ${item.instruction_bn}</div>`;
+        html += `<div class="dua-source">${item.source_bn}</div>`;
+        html += `</div>`; // end dua-item-content
+
+        // Counter section
+        html += `<div class="dua-counter-section">`;
+        html += `<button class="dua-counter-btn ${isComplete ? 'counter-complete' : ''}" onclick="window.incrementDuaCount('${item.id}', ${item.target_count})" id="counter-${item.id}">`;
+        html += `<span class="counter-current">${currentCount}</span>`;
+        html += `<span class="counter-separator">/</span>`;
+        html += `<span class="counter-target">${item.target_count}</span>`;
+        html += `</button>`;
+        html += `<button class="dua-complete-btn ${isComplete ? 'complete-active' : ''}" onclick="window.completeDuaCount('${item.id}', ${item.target_count})" id="complete-${item.id}" title="Mark complete"><i class="fas fa-check"></i></button>`;
+        html += `<button class="dua-reset-btn" onclick="window.resetDuaCount('${item.id}')" title="Reset"><i class="fas fa-redo-alt"></i></button>`;
+        html += `</div>`; // end dua-counter-section
+
+        html += `</div>`; // end dua-item
+    });
+
+    elements.duaItemsContainer.innerHTML = html;
+}
+
+function renderQuranRefHtml(item, surahDataMap, transHiddenClass) {
+    let html = '<div class="dua-quran-ref">';
+    // loadSurahData() returns the verses object directly, not { verses: ... }
+    const verses = surahDataMap[item.surah_id];
+
+    if (!verses) {
+        html += `<div class="dua-arabic-text">Surah ${item.surah_id} — Loading failed</div>`;
+        html += '</div>';
+        return html;
+    }
+
+    // Get surah name
+    const surahInfo = appData.surahNames ? appData.surahNames[item.surah_id] : null;
+    const surahLabel = surahInfo ? `${surahInfo.name_arabic} (${surahInfo.name_english})` : `Surah ${item.surah_id}`;
+    html += `<div class="dua-quran-label"><i class="fas fa-book-quran"></i> ${surahLabel}`;
+    if (item.ayah_start && item.ayah_end) {
+        html += ` : ${item.ayah_start}${item.ayah_end !== item.ayah_start ? '-' + item.ayah_end : ''}`;
+    }
+    html += `</div>`;
+
+    // If partial_text_ar is specified, use that instead of loading from surah data
+    if (item.partial_text_ar) {
+        html += `<div class="dua-arabic-text">${item.partial_text_ar}</div>`;
+        // Still try to get translation from the verse
+        if (item.ayah_start && verses[item.ayah_start]) {
+            const verse = verses[item.ayah_start];
+            html += `<div class="dua-translation${transHiddenClass}">${verse.bangla_trans}</div>`;
+            html += `<div class="dua-translation-en${transHiddenClass}">${verse.english_trans}</div>`;
+        }
+    } else {
+        // Determine ayah range
+        const start = item.ayah_start || 1;
+        const end = item.ayah_end || Object.keys(verses).filter(k => k !== '0').length;
+
+        for (let ayah = start; ayah <= end; ayah++) {
+            const verse = verses[ayah];
+            if (!verse) continue;
+            const arabicText = verse.arabic_text_uthmani || verse.arabic_text;
+            html += `<div class="dua-arabic-text">${arabicText}</div>`;
+            html += `<div class="dua-translation${transHiddenClass}">${verse.bangla_trans}</div>`;
+            html += `<div class="dua-translation-en${transHiddenClass}">${verse.english_trans}</div>`;
+        }
+    }
+
+    html += '</div>';
+    return html;
+}
+
+function incrementDuaCount(itemId, targetCount) {
+    let current = appData.duaCounts[itemId] || 0;
+    if (current >= targetCount) {
+        // Already complete — reset to 0 for next session
+        current = 0;
+    } else {
+        current++;
+    }
+    appData.duaCounts[itemId] = current;
+    saveDuaCounts();
+
+    // Haptic feedback
+    if (navigator.vibrate) navigator.vibrate(30);
+
+    updateDuaItemUI(itemId, current, targetCount);
+}
+
+function resetDuaCount(itemId) {
+    appData.duaCounts[itemId] = 0;
+    saveDuaCounts();
+
+    // Find target count from data
+    if (appData.duaData) {
+        for (const collection of appData.duaData.collections) {
+            const item = collection.items.find(i => i.id === itemId);
+            if (item) {
+                updateDuaItemUI(itemId, 0, item.target_count);
+                break;
+            }
+        }
+    }
+}
+
+function resetAllDuaCounts(collectionId) {
+    if (!appData.duaData) return;
+    const collection = appData.duaData.collections.find(c => c.id === collectionId);
+    if (!collection) return;
+
+    collection.items.forEach(item => {
+        appData.duaCounts[item.id] = 0;
+        updateDuaItemUI(item.id, 0, item.target_count);
+    });
+    saveDuaCounts();
+}
+
+function completeDuaCount(itemId, targetCount) {
+    const current = appData.duaCounts[itemId] || 0;
+    if (current >= targetCount) return; // already complete
+    appData.duaCounts[itemId] = targetCount;
+    saveDuaCounts();
+    if (navigator.vibrate) navigator.vibrate(50);
+    updateDuaItemUI(itemId, targetCount, targetCount);
+}
+
+function updateDuaItemUI(itemId, currentCount, targetCount) {
+    const isComplete = currentCount >= targetCount;
+
+    // Update counter button
+    const counterBtn = document.getElementById(`counter-${itemId}`);
+    if (counterBtn) {
+        counterBtn.querySelector('.counter-current').textContent = currentCount;
+        counterBtn.classList.toggle('counter-complete', isComplete);
+        // Pulse animation
+        counterBtn.classList.add('counter-pulse');
+        setTimeout(() => counterBtn.classList.remove('counter-pulse'), 200);
+    }
+
+    // Update complete button
+    const completeBtn = document.getElementById(`complete-${itemId}`);
+    if (completeBtn) {
+        completeBtn.classList.toggle('complete-active', isComplete);
+    }
+
+    // Update item container
+    const itemEl = document.getElementById(`dua-item-${itemId}`);
+    if (itemEl) {
+        itemEl.classList.toggle('dua-item-complete', isComplete);
+    }
+}
+
+function toggleDuaTranslations() {
+    appData.duaTranslationVisible = !appData.duaTranslationVisible;
+    document.querySelectorAll('.dua-translation, .dua-translation-en').forEach(el => {
+        el.classList.toggle('dua-trans-hidden', !appData.duaTranslationVisible);
+    });
+    updateDuaTranslationToggleLabel();
+}
+
+function updateDuaTranslationToggleLabel() {
+    if (elements.duaTranslationToggleLabel) {
+        elements.duaTranslationToggleLabel.textContent = appData.duaTranslationVisible ? 'Hide Translation' : 'Show Translation';
+    }
+    if (elements.duaTranslationToggle) {
+        elements.duaTranslationToggle.classList.toggle('dua-toggle-active', appData.duaTranslationVisible);
+    }
+}
+
+function goBackFromDua() {
+    if (elements.duaReadingPage) elements.duaReadingPage.style.display = 'none';
+    if (elements.duaListPage) elements.duaListPage.style.display = 'block';
+    elements.backBtn.style.display = 'none';
+    if (elements.homepageControls) elements.homepageControls.style.display = 'flex';
+    if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'flex';
+    appData.currentDua = null;
+    updateBottomNavForPage(false);
+    // Refresh progress on list
+    renderDuaList();
+    window.scrollTo(0, 0);
+}
+
+// Register dua functions as window globals for onclick handlers
+window.incrementDuaCount = incrementDuaCount;
+window.resetDuaCount = resetDuaCount;
+window.resetAllDuaCounts = resetAllDuaCounts;
+window.completeDuaCount = completeDuaCount;
 
 // ==================== MULTI-SELECT MODE ==================== //
 function toggleVerseSelection(verseNum) {

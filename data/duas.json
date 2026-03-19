@@ -1,0 +1,129 @@
+{
+  "collections": [
+    {
+      "id": "hifazat_amal",
+      "title_bn": "বাধ্যতামূলক হিফাজতের আমল",
+      "title_en": "Essential Protection Amal",
+      "title_ar": "أعمال الحفظ الواجبة",
+      "description_bn": "শয়তান আমাদের প্রকাশ্য শত্রু। দ্বীনের কাজ করলে শত্রুতা আরও বৃদ্ধি পায়। শয়তান বিভিন্নভাবে আমাদের বিভ্রান্ত করে এবং দ্বীনের পথ থেকে সরিয়ে দেয়। শয়তানের সাথে সাথে বদনজর, হাসাদ, সিহরের মতো সমস্যাসমূহ হতে হিফাজতের জন্য নিয়মিত আমল চালিয়ে যাওয়া অত্যাবশ্যক। প্রত্যহ সূর্যোদয় ও সূর্যাস্তের সময় ফেরেশতাদের ন্যায় শয়তানের বাহিনীও পালা বদল করে। এরই পরিপ্রেক্ষিতে, সকালের আমলসমূহ সূর্যোদয়ের পূর্বে এবং সন্ধ্যার আমলসমূহ মাগরিবের পূর্বে বা পরে আদায় করতে হয়। মাগরিব পরবর্তী আমলসমূহ ফজর পর্যন্ত এবং ফজর পরবর্তী আমলসমূহ মাগরিব পর্যন্ত হিফাজত করে।",
+      "description_en": "Shaitan is our open enemy. His enmity increases when we engage in religious work. He misleads us in various ways. Regular practice of protective amals is essential against shaitan, evil eye, hasad, and sihr. Morning amals should be done before sunrise, evening amals before or after Maghrib.",
+      "icon": "fa-shield-halved",
+      "category": "protection",
+      "items": [
+        {
+          "id": "hifazat_1",
+          "type": "quran_ref",
+          "label_bn": "আয়াতুল কুরসি",
+          "label_en": "Ayatul Kursi",
+          "instruction_bn": "সকাল-সন্ধ্যায় ১ বার করে। প্রত্যেক নামাজের পর এক বার করে আমল করতে হবে।",
+          "instruction_en": "1x morning, 1x evening. Also 1x after each obligatory prayer.",
+          "target_count": 1,
+          "surah_id": 2,
+          "ayah_start": 255,
+          "ayah_end": 255,
+          "source_bn": "সহীহ মুসলিম, নাসায়ী",
+          "source_en": "Sahih Muslim, Nasa'i"
+        },
+        {
+          "id": "hifazat_2",
+          "type": "hadith",
+          "label_bn": "আল্লাহর পরিপূর্ণ কালিমা দ্বারা আশ্রয়",
+          "label_en": "Seeking refuge with Allah's perfect words",
+          "arabic_text": "أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+          "translation_bn": "আমি আল্লাহর পরিপূর্ণ বাণীসমূহের মাধ্যমে তাঁর সৃষ্টির অনিষ্ট থেকে আশ্রয় চাই।",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+          "instruction_bn": "সকাল-সন্ধ্যায় ৩ বার করে।",
+          "instruction_en": "3x morning, 3x evening.",
+          "target_count": 3,
+          "source_bn": "সহীহ মুসলিম ২৭০৮",
+          "source_en": "Sahih Muslim 2708"
+        },
+        {
+          "id": "hifazat_3",
+          "type": "hadith",
+          "label_bn": "বিসমিল্লাহ — যার নামের সাথে কোনো কিছু ক্ষতি করতে পারে না",
+          "label_en": "In the name of Allah with whose name nothing can cause harm",
+          "arabic_text": "بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+          "translation_bn": "আল্লাহর নামে, যাঁর নামের বরকতে আসমান ও যমীনের কোনো কিছুই ক্ষতি করতে পারে না। তিনি সর্বশ্রোতা, সর্বজ্ঞ।",
+          "translation_en": "In the name of Allah with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, All-Knowing.",
+          "instruction_bn": "সকাল-সন্ধ্যায় ৩ বার করে।",
+          "instruction_en": "3x morning, 3x evening.",
+          "target_count": 3,
+          "source_bn": "আবু দাউদ ৫০৮৮, তিরমিযী ৩৩৮৮",
+          "source_en": "Abu Dawud 5088, Tirmidhi 3388"
+        },
+        {
+          "id": "hifazat_4a",
+          "type": "quran_ref",
+          "label_bn": "সূরা ইখলাস",
+          "label_en": "Surah Al-Ikhlas",
+          "instruction_bn": "সকাল-সন্ধ্যায় ৩ বার করে। ফজর ও মাগরিবের পর ৩ বার, অন্য ৩ ওয়াক্তে ১ বার করে।",
+          "instruction_en": "3x morning, 3x evening. 3x after Fajr & Maghrib, 1x after other prayers.",
+          "target_count": 3,
+          "surah_id": 112,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "আবু দাউদ ৫০৮২, তিরমিযী ৩৫৭৫",
+          "source_en": "Abu Dawud 5082, Tirmidhi 3575"
+        },
+        {
+          "id": "hifazat_4b",
+          "type": "quran_ref",
+          "label_bn": "সূরা ফালাক",
+          "label_en": "Surah Al-Falaq",
+          "instruction_bn": "সকাল-সন্ধ্যায় ৩ বার করে। ফজর ও মাগরিবের পর ৩ বার, অন্য ৩ ওয়াক্তে ১ বার করে।",
+          "instruction_en": "3x morning, 3x evening. 3x after Fajr & Maghrib, 1x after other prayers.",
+          "target_count": 3,
+          "surah_id": 113,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "আবু দাউদ ৫০৮২, তিরমিযী ৩৫৭৫",
+          "source_en": "Abu Dawud 5082, Tirmidhi 3575"
+        },
+        {
+          "id": "hifazat_4c",
+          "type": "quran_ref",
+          "label_bn": "সূরা নাস",
+          "label_en": "Surah An-Nas",
+          "instruction_bn": "সকাল-সন্ধ্যায় ৩ বার করে। ফজর ও মাগরিবের পর ৩ বার, অন্য ৩ ওয়াক্তে ১ বার করে।",
+          "instruction_en": "3x morning, 3x evening. 3x after Fajr & Maghrib, 1x after other prayers.",
+          "target_count": 3,
+          "surah_id": 114,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "আবু দাউদ ৫০৮২, তিরমিযী ৩৫৭৫",
+          "source_en": "Abu Dawud 5082, Tirmidhi 3575"
+        },
+        {
+          "id": "hifazat_5",
+          "type": "hadith",
+          "label_bn": "লা ইলাহা ইল্লাল্লাহ — শয়তানের প্রভাব হতে সুরক্ষা",
+          "label_en": "La ilaha illallah — Protection from Shaitan's influence",
+          "arabic_text": "لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "translation_bn": "আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরীক নেই। রাজত্ব তাঁরই এবং প্রশংসা তাঁরই এবং তিনি সব কিছুর উপর ক্ষমতাবান।",
+          "translation_en": "There is no god but Allah alone, with no partner. His is the dominion and His is the praise, and He has power over all things.",
+          "instruction_bn": "সকাল-সন্ধ্যায় ১০০ বার করে। কোনো সমস্যা না থাকলে ১০ বার করেও আমল করা যায়।",
+          "instruction_en": "100x morning, 100x evening. If no specific issues, 10x is also acceptable.",
+          "target_count": 100,
+          "source_bn": "সহীহ বুখারী ৬৪০৩, সহীহ মুসলিম ২৬৯১",
+          "source_en": "Sahih Bukhari 6403, Sahih Muslim 2691"
+        },
+        {
+          "id": "hifazat_6",
+          "type": "quran_ref",
+          "label_bn": "হাসবিয়াল্লাহু লা ইলাহা ইল্লা হুয়া",
+          "label_en": "HasbiAllahu la ilaha illa Huwa",
+          "instruction_bn": "সকাল-সন্ধ্যায় ৭ বার করে।",
+          "instruction_en": "7x morning, 7x evening.",
+          "target_count": 7,
+          "surah_id": 9,
+          "ayah_start": 129,
+          "ayah_end": 129,
+          "partial_text_ar": "حَسْبِيَ اللهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+          "source_bn": "আবু দাউদ ৫০৮১",
+          "source_en": "Abu Dawud 5081"
+        }
+      ]
+    }
+  ]
+}

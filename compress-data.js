@@ -183,7 +183,7 @@ class ServerDataCompressor {
         
         try {
             // Compress main files
-            const mainFiles = ['al-quran-word-by-word.json', 'surah_name.json', 'juz_data.json', 'quran_pages.json'];
+            const mainFiles = ['al-quran-word-by-word.json', 'surah_name.json', 'juz_data.json', 'quran_pages.json', 'duas.json'];
             
             for (const file of mainFiles) {
                 const inputPath = path.join(this.dataDir, file);
