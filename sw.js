@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quran-word-by-word-v4.1.7';
+const CACHE_NAME = 'quran-word-by-word-v4.2.2';
 
 // Core app shell files — MUST cache successfully for SW to install
 const CORE_URLS = [
@@ -12,7 +12,8 @@ const CORE_URLS = [
     './manifest.json',
     './data/surah_name.json',
     './data/juz_data.json',
-    './data/quran_pages.json'
+    './data/quran_pages.json',
+    './data/duas.json'
 ];
 
 // External CDN resources — cached individually, failure won't block install

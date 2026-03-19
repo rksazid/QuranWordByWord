@@ -4485,3 +4485,543 @@ select {
         line-height: 2.4;
     }
 }
+
+/* ==================== DUA FEATURE ==================== */
+.dua-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.dua-header h2 {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0 0 0.25rem 0;
+    font-family: var(--font-system);
+}
+
+/* Dua Cards (List Page) */
+.dua-card {
+    display: flex;
+    align-items: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-sm);
+    gap: 1rem;
+}
+
+.dua-card:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.dua-card:active {
+    transform: scale(0.98);
+}
+
+.dua-card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.dua-card-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.dua-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.15rem;
+    font-family: var(--font-bengali);
+}
+
+.dua-card-title-en {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.3rem;
+    font-family: var(--font-system);
+}
+
+.dua-card-meta {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-family: var(--font-system);
+}
+
+/* Progress Ring */
+.dua-card-progress {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.dua-progress-ring {
+    width: 44px;
+    height: 44px;
+    transform: rotate(-90deg);
+}
+
+.dua-progress-bg {
+    fill: none;
+    stroke: var(--border-color);
+    stroke-width: 3;
+}
+
+.dua-progress-fill {
+    fill: none;
+    stroke: var(--primary-color);
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.4s ease;
+}
+
+.dua-progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-family: var(--font-system);
+}
+
+/* Dua Detail / Reading Page */
+.dua-detail-header {
+    text-align: center;
+    padding: 1.5rem 1rem 1rem;
+}
+
+.dua-detail-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-family: var(--font-bengali);
+}
+
+.dua-detail-description {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-family: var(--font-bengali);
+    max-width: 700px;
+    margin: 0 auto 1rem;
+}
+
+.dua-reset-all-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 1rem;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: var(--font-system);
+    transition: all 0.2s ease;
+}
+
+.dua-reset-all-btn:hover {
+    border-color: #e53935;
+    color: #e53935;
+    background: rgba(229, 57, 53, 0.05);
+}
+
+/* Dua Items */
+.dua-items-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem 2rem;
+}
+
+.dua-item {
+    display: flex;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    gap: 0.75rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.dua-item-complete {
+    border-color: var(--primary-color);
+    background: linear-gradient(135deg, rgba(45, 125, 50, 0.03), rgba(45, 125, 50, 0.08));
+}
+
+.dua-item-number {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+    font-family: var(--font-system);
+}
+
+.dua-item-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.dua-item-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+    font-family: var(--font-bengali);
+}
+
+.dua-item-label-en {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+    font-family: var(--font-system);
+}
+
+/* Arabic text in dua items */
+.dua-arabic-text {
+    font-family: var(--font-arabic);
+    font-size: calc(1.5rem * var(--font-size-multiplier));
+    line-height: 2.2;
+    color: var(--text-color);
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: var(--border-radius-sm);
+}
+
+[data-theme="dark"] .dua-arabic-text {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.dua-translation {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.3rem;
+    font-family: var(--font-bengali);
+}
+
+.dua-translation-en {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    font-family: var(--font-system);
+}
+
+/* Quran Reference Block */
+.dua-quran-ref {
+    border-left: 3px solid var(--primary-color);
+    padding-left: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.dua-quran-label {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-system);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.dua-instruction {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    background: rgba(45, 125, 50, 0.06);
+    border-radius: var(--border-radius-sm);
+    font-family: var(--font-bengali);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.4rem;
+}
+
+.dua-instruction i {
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+}
+
+.dua-source {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+    font-family: var(--font-system);
+}
+
+/* Counter Button */
+.dua-counter-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    flex-shrink: 0;
+}
+
+.dua-counter-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid var(--border-color);
+    background: var(--bg-card);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    padding: 0;
+    position: relative;
+}
+
+.dua-counter-btn:active {
+    transform: scale(0.9);
+}
+
+.dua-counter-btn .counter-current {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1;
+    font-family: var(--font-system);
+}
+
+.dua-counter-btn .counter-separator {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    line-height: 1;
+}
+
+.dua-counter-btn .counter-target {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    line-height: 1;
+    font-family: var(--font-system);
+}
+
+.dua-counter-btn.counter-complete {
+    border-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    box-shadow: 0 0 12px rgba(45, 125, 50, 0.3);
+}
+
+.dua-counter-btn.counter-complete .counter-current,
+.dua-counter-btn.counter-complete .counter-separator,
+.dua-counter-btn.counter-complete .counter-target {
+    color: white;
+}
+
+.counter-pulse {
+    animation: counterPulse 0.2s ease;
+}
+
+@keyframes counterPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.dua-complete-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.dua-complete-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.dua-complete-btn.complete-active {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+}
+
+.dua-reset-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius-sm);
+    transition: all 0.2s ease;
+}
+
+.dua-reset-btn:hover {
+    color: #e53935;
+    background: rgba(229, 57, 53, 0.08);
+}
+
+/* Translation toggle button */
+.dua-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 1rem;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: var(--font-system);
+    transition: all 0.2s ease;
+}
+
+.dua-toggle-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.dua-toggle-btn.dua-toggle-active {
+    border-color: var(--primary-color);
+    background: rgba(45, 125, 50, 0.08);
+    color: var(--primary-color);
+}
+
+.dua-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Hidden translations */
+.dua-trans-hidden {
+    display: none;
+}
+
+/* Dark mode dua adjustments */
+[data-theme="dark"] .dua-item-complete {
+    background: linear-gradient(135deg, rgba(45, 125, 50, 0.08), rgba(45, 125, 50, 0.15));
+}
+
+[data-theme="dark"] .dua-quran-ref {
+    border-left-color: var(--primary-light);
+}
+
+[data-theme="dark"] .dua-instruction {
+    background: rgba(45, 125, 50, 0.1);
+}
+
+[data-theme="dark"] .dua-counter-btn.counter-complete {
+    box-shadow: 0 0 16px rgba(76, 175, 80, 0.3);
+}
+
+/* Responsive Dua */
+@media (max-width: 768px) {
+    .dua-card {
+        padding: 0.85rem;
+    }
+
+    .dua-card-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 1rem;
+    }
+
+    .dua-counter-btn {
+        width: 56px;
+        height: 56px;
+    }
+
+    .dua-counter-btn .counter-current {
+        font-size: 1rem;
+    }
+
+    .dua-detail-header {
+        padding: 1rem 0.75rem 0.75rem;
+    }
+
+    .dua-detail-description {
+        font-size: 0.8rem;
+    }
+
+    .dua-items-container {
+        padding: 0 0.75rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .dua-card-icon {
+        width: 38px;
+        height: 38px;
+        font-size: 0.9rem;
+    }
+
+    .dua-card-title {
+        font-size: 0.9rem;
+    }
+
+    .dua-counter-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .dua-counter-btn .counter-current {
+        font-size: 0.9rem;
+    }
+
+    .dua-item {
+        padding: 0.75rem;
+        gap: 0.5rem;
+    }
+
+    .dua-item-number {
+        width: 24px;
+        height: 24px;
+        font-size: 0.7rem;
+    }
+
+    .dua-arabic-text {
+        font-size: calc(1.3rem * var(--font-size-multiplier));
+        padding: 0.5rem;
+    }
+}
