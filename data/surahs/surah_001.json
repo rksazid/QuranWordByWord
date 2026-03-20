@@ -2,12 +2,12 @@
   "surah_id": 1,
   "verses": {
     "0": {
-      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
-      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
+      "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
+      "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
       "english_trans": "In the name of Allah, the Beneficent, the Merciful."
     },
     "1": {
-      "arabic_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "arabic_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
       "bangla_trans": "প্রশংসা একমাত্র আল্লাহর জন্য যিনি নিখিল বিশ্ব–জাহানের রব,",
       "word_by_word": {
         "1": {
@@ -15,11 +15,11 @@
           "translate_bn": "সকল প্রশংসা"
         },
         "2": {
-          "words_ar": "لِلَّهِ",
+          "words_ar": "لِلَّهِ",
           "translate_bn": "আল্লাহ্‌রই জন্য"
         },
         "3": {
-          "words_ar": "رَبِّ",
+          "words_ar": "رَبِّ",
           "translate_bn": "(যিনি) রব"
         },
         "4": {
@@ -28,26 +28,26 @@
         }
       },
       "english_trans": "All praise is due to Allah, the Lord of the Worlds.",
-      "arabic_text_uthmani": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
+      "arabic_text_uthmani": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
     },
     "2": {
-      "arabic_text": "الرَّحْمَنِ الرَّحِيمِ",
-      "bangla_trans": "যিনি পরম দয়ালু ও করুণাময়",
+      "arabic_text": "الرَّحْمَنِ الرَّحِيمِ",
+      "bangla_trans": "যিনি পরম দয়ালু ও করুণাময়",
       "word_by_word": {
         "1": {
-          "words_ar": "الرَّحْمَٰنِ",
-          "translate_bn": "অশেষ করুণাময়"
+          "words_ar": "الرَّحْمَٰنِ",
+          "translate_bn": "অশেষ করুণাময়"
         },
         "2": {
-          "words_ar": "الرَّحِيمِ",
-          "translate_bn": "পরম দয়ালু"
+          "words_ar": "الرَّحِيمِ",
+          "translate_bn": "পরম দয়ালু"
         }
       },
       "english_trans": "The Beneficent, the Merciful.",
-      "arabic_text_uthmani": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
+      "arabic_text_uthmani": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
     },
     "3": {
-      "arabic_text": "مَالِكِ يَوْمِ الدِّينِ",
+      "arabic_text": "مَالِكِ يَوْمِ الدِّينِ",
       "bangla_trans": "প্রতিদান দিবসের মালিক।",
       "word_by_word": {
         "1": {
@@ -59,19 +59,19 @@
           "translate_bn": "দিনের"
         },
         "3": {
-          "words_ar": "الدِّينِ",
+          "words_ar": "الدِّينِ",
           "translate_bn": "বিচারের"
         }
       },
       "english_trans": "Master of the Day of Judgment.",
-      "arabic_text_uthmani": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
+      "arabic_text_uthmani": "مَـٰلِكِ يَوْمِ ٱلدِّينِ"
     },
     "4": {
-      "arabic_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "arabic_text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
       "bangla_trans": "আমরা একমাত্র তোমারই ইবাদাত করি এবং একমাত্র তোমারই কাছে সাহায্য চাই",
       "word_by_word": {
         "1": {
-          "words_ar": "إِيَّاكَ",
+          "words_ar": "إِيَّاكَ",
           "translate_bn": "আপনারই শুধু"
         },
         "2": {
@@ -79,7 +79,7 @@
           "translate_bn": "আমরা ইবাদত করি"
         },
         "3": {
-          "words_ar": "وَإِيَّاكَ",
+          "words_ar": "وَإِيَّاكَ",
           "translate_bn": "এবং আপনারই (কাছে শুধু)"
         },
         "4": {
@@ -88,10 +88,10 @@
         }
       },
       "english_trans": "Thee do we serve and Thee do we beseech for help.",
-      "arabic_text_uthmani": "مَـٰلِكِ يَوْمِ ٱلدِّينِ"
+      "arabic_text_uthmani": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
     },
     "5": {
-      "arabic_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "arabic_text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
       "bangla_trans": "তুমি আমাদের সোজা পথ দেখাও,",
       "word_by_word": {
         "1": {
@@ -99,7 +99,7 @@
           "translate_bn": "আমাদেরকে দেখান"
         },
         "2": {
-          "words_ar": "الصِّرَاطَ",
+          "words_ar": "الصِّرَاطَ",
           "translate_bn": "পথ"
         },
         "3": {
@@ -108,18 +108,18 @@
         }
       },
       "english_trans": "Keep us on the right path.",
-      "arabic_text_uthmani": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+      "arabic_text_uthmani": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ"
     },
     "6": {
-      "arabic_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
-      "bangla_trans": "তাদের পথ যাদের প্রতি তুমি অনুগ্রহ করেছ, যাদের ওপর গযব পড়েনি এবং যারা পথভ্রষ্ট হয়নি।",
+      "arabic_text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "bangla_trans": "তাদের পথ যাদের প্রতি তুমি অনুগ্রহ করেছ, যাদের ওপর গযব পড়েনি এবং যারা পথভ্রষ্ট হয়নি।",
       "word_by_word": {
         "1": {
           "words_ar": "صِرَاطَ",
           "translate_bn": "(সেই) পথে"
         },
         "2": {
-          "words_ar": "الَّذِينَ",
+          "words_ar": "الَّذِينَ",
           "translate_bn": "যাদেরকে"
         },
         "3": {
@@ -132,7 +132,7 @@
         },
         "5": {
           "words_ar": "غَيْرِ",
-          "translate_bn": "নয় (পথ)"
+          "translate_bn": "নয় (পথ)"
         },
         "6": {
           "words_ar": "الْمَغْضُوبِ",
@@ -147,12 +147,12 @@
           "translate_bn": "এবং না"
         },
         "9": {
-          "words_ar": "الضَّالِّينَ",
+          "words_ar": "الضَّالِّينَ",
           "translate_bn": "পথভ্রষ্টদের"
         }
       },
       "english_trans": "The path of those upon whom Thou hast bestowed favors. Not (the path) of those upon whom Thy wrath is brought down, nor of those who go astray.",
-      "arabic_text_uthmani": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ"
+      "arabic_text_uthmani": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ"
     }
   }
 }
