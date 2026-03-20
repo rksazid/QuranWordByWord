@@ -3603,6 +3603,79 @@ select {
     }
 }
 
+/* ==================== PRIVACY MODAL ==================== */
+.privacy-modal {
+    max-width: 600px;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-primary);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+    transform: scale(0.9);
+    animation: modalSlideIn 0.3s ease forwards;
+}
+
+.privacy-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.privacy-section {
+    margin-bottom: 1.25rem;
+}
+
+.privacy-section:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-section h3 {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.privacy-section p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.4rem;
+}
+
+.privacy-section ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.privacy-section ul li {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.25rem;
+}
+
+.privacy-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.privacy-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .privacy-modal {
+        max-width: 95vw;
+        max-height: 85vh;
+    }
+
+    .privacy-body {
+        padding: 1rem;
+    }
+}
+
 /* ==================== READING MODE ==================== */
 .reading-mode-active .reading-controls,
 .reading-mode-active .surah-header {
@@ -3652,18 +3725,7 @@ select {
 }
 
 .reading-mode-active .verse-translation {
-    margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
-    background: var(--bg-hover);
-    border-radius: var(--border-radius-sm);
-    opacity: 0.85;
-}
-
-.reading-mode-active .verse-translation .translation-text,
-.reading-mode-active .verse-translation .bangla-trans,
-.reading-mode-active .verse-translation .english-trans {
-    font-size: calc(0.95rem * var(--font-size-multiplier));
-    text-align: center;
+    display: none !important;
 }
 
 .reading-mode-active .bismillah {
@@ -3958,11 +4020,14 @@ select {
 
     .font-size-presets {
         justify-content: center;
+        gap: 0.3rem;
     }
 
     .font-preset-btn {
-        flex: 1;
-        min-width: 30px;
+        flex: 0 1 auto;
+        min-width: 28px;
+        padding: 0.3rem 0.45rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -3972,11 +4037,6 @@ select {
         line-height: 2.2;
     }
 
-    .reading-mode-active .verse-translation .translation-text,
-    .reading-mode-active .verse-translation .bangla-trans,
-    .reading-mode-active .verse-translation .english-trans {
-        font-size: calc(0.85rem * var(--font-size-multiplier));
-    }
 }
 
 /* ==================== COMPACT MODE ==================== */
@@ -4039,14 +4099,14 @@ select {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 28px;
-    width: 28px;
-    height: 28px;
+    min-width: calc(28px * var(--font-size-multiplier));
+    width: calc(28px * var(--font-size-multiplier));
+    height: calc(28px * var(--font-size-multiplier));
     background: transparent;
     color: var(--primary-dark);
     border: 1.5px solid var(--primary-color);
     border-radius: 50%;
-    font-size: 0.6rem;
+    font-size: calc(0.6rem * var(--font-size-multiplier));
     font-weight: 700;
     font-family: var(--font-system);
     margin: 0 0.25rem;
@@ -4089,24 +4149,28 @@ select {
     border-color: var(--primary-light);
 }
 
-/* Compact mode page break divider */
+/* Compact mode page break divider — must match line-height grid */
 .compact-page-break {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 0.75rem 0;
+    padding: 0;
     direction: ltr;
     clear: both;
+    line-height: inherit;
+    height: auto;
 }
 
 .page-break-label {
     display: inline-block;
     font-family: var(--font-system);
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 600;
     color: var(--text-secondary);
     opacity: 0.6;
     letter-spacing: 2px;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 /* Mobile compact mode */
@@ -4119,10 +4183,10 @@ select {
     }
 
     .verse-number-inline {
-        min-width: 24px;
-        width: 24px;
-        height: 24px;
-        font-size: 0.55rem;
+        min-width: calc(24px * var(--font-size-multiplier));
+        width: calc(24px * var(--font-size-multiplier));
+        height: calc(24px * var(--font-size-multiplier));
+        font-size: calc(0.55rem * var(--font-size-multiplier));
     }
 }
 
@@ -4135,10 +4199,10 @@ select {
     }
 
     .verse-number-inline {
-        min-width: 22px;
-        width: 22px;
-        height: 22px;
-        font-size: 0.5rem;
+        min-width: calc(22px * var(--font-size-multiplier));
+        width: calc(22px * var(--font-size-multiplier));
+        height: calc(22px * var(--font-size-multiplier));
+        font-size: calc(0.5rem * var(--font-size-multiplier));
     }
 }
 
@@ -4335,14 +4399,14 @@ select {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 26px;
-    width: 26px;
-    height: 26px;
+    min-width: calc(26px * var(--font-size-multiplier));
+    width: calc(26px * var(--font-size-multiplier));
+    height: calc(26px * var(--font-size-multiplier));
     background: transparent;
     color: var(--primary-dark);
     border: 1.5px solid var(--primary-color);
     border-radius: 50%;
-    font-size: 0.55rem;
+    font-size: calc(0.55rem * var(--font-size-multiplier));
     font-weight: 700;
     font-family: var(--font-system);
     margin: 0 0.5rem;
@@ -4387,14 +4451,15 @@ select {
     display: block;
     text-align: center;
     direction: ltr;
-    padding: 0.75rem 0;
+    padding: 0;
     font-family: var(--font-system);
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--primary-color);
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-    margin: 0.5rem 0;
+    margin: 0;
+    line-height: inherit;
 }
 
 .hifz-page-content .hifz-bismillah {
@@ -4402,8 +4467,9 @@ select {
     text-align: center;
     font-size: calc(1.4rem * var(--font-size-multiplier));
     color: var(--primary-dark);
-    padding: 0.5rem 0;
-    margin-bottom: 0.5rem;
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
 }
 
 /* Hifz Page Navigation */
@@ -4457,10 +4523,10 @@ select {
     }
 
     .hifz-page-content .hifz-ayah-number {
-        min-width: 22px;
-        width: 22px;
-        height: 22px;
-        font-size: 0.5rem;
+        min-width: calc(22px * var(--font-size-multiplier));
+        width: calc(22px * var(--font-size-multiplier));
+        height: calc(22px * var(--font-size-multiplier));
+        font-size: calc(0.5rem * var(--font-size-multiplier));
     }
 
     .juz-card {
@@ -4480,9 +4546,10 @@ select {
 
 @media (max-width: 480px) {
     .hifz-page-content {
-        padding: 0.75rem;
+        padding: 0 0.75rem;
         font-size: calc(1.2rem * var(--font-size-multiplier));
-        line-height: 2.4;
+        line-height: calc(3rem * var(--font-size-multiplier));
+        background-size: 100% calc(3rem * var(--font-size-multiplier));
     }
 }
 

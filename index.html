@@ -65,7 +65,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.min.css?v=4.2.2">
+    <link rel="stylesheet" href="styles.min.css?v=4.2.7">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -87,7 +87,7 @@
                     <!-- Homepage Controls -->
                     <div id="homepageControls" class="control-group">
                         <button id="favoritesBtn" class="icon-btn" title="View Favorite Surahs">
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-bookmark"></i>
                         </button>
                     </div>
                     
@@ -376,7 +376,7 @@
     <div id="favoritesModal" class="modal-overlay" style="display: none;">
         <div class="modal-content favorites-modal">
             <div class="modal-header">
-                <h2><i class="fas fa-heart"></i> Favorite Surahs</h2>
+                <h2><i class="fas fa-bookmark"></i> Favorite Surahs</h2>
                 <button class="close-btn" onclick="closeFavoritesModal()" title="Close favorites">
                     <i class="fas fa-times"></i>
                 </button>
@@ -450,13 +450,13 @@
                     </ul>
                     
                     <div class="app-version">
-                        <p><strong>Version 4.2.2</strong></p>
+                        <p><strong>Version 4.2.7</strong></p>
                         <p>Built with ❤️ for the Muslim Ummah</p>
                     </div>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
+        </div>
+        <div class="footer-bottom">
                 <div class="footer-bottom-content">
                     <p>&copy; 2025 Al-Quran Word by Word. Created for educational and religious purposes.</p>
                     <p class="islamic-quote">
@@ -468,8 +468,52 @@
                     </p>
                 </div>
             </div>
-        </div>
     </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content privacy-modal">
+            <div class="modal-header">
+                <h2><i class="fas fa-shield-alt"></i> Privacy Policy</h2>
+                <button class="close-btn" onclick="closePrivacyModal()" title="Close privacy policy">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body privacy-body">
+                <div class="privacy-section">
+                    <h3>Data Collection</h3>
+                    <p>Al-Quran Word by Word does <strong>not</strong> collect, store, or transmit any personal data to external servers. All your data stays on your device.</p>
+                </div>
+                <div class="privacy-section">
+                    <h3>Local Storage</h3>
+                    <p>The app uses your browser's local storage to save:</p>
+                    <ul>
+                        <li>Reading preferences (font size, theme, Arabic font)</li>
+                        <li>Last read position and bookmarks</li>
+                        <li>Favorite surahs list</li>
+                        <li>Hifz progress and dua counter states</li>
+                    </ul>
+                    <p>This data never leaves your device and can be cleared at any time through your browser settings or the app's "Clear All Data" option.</p>
+                </div>
+                <div class="privacy-section">
+                    <h3>Offline Access</h3>
+                    <p>This app uses a Service Worker to cache Quran data for offline reading. Cached data is stored locally on your device only.</p>
+                </div>
+                <div class="privacy-section">
+                    <h3>No Tracking</h3>
+                    <p>This app does not use any analytics, tracking cookies, or third-party services. There are no advertisements.</p>
+                </div>
+                <div class="privacy-section">
+                    <h3>Third-Party Resources</h3>
+                    <p>The app loads fonts from Google Fonts and icons from Font Awesome CDN. These services may log standard web request data (IP address, browser type) as per their own privacy policies.</p>
+                </div>
+                <div class="privacy-section">
+                    <h3>Contact</h3>
+                    <p>For any privacy concerns, please contact: <a href="mailto:rksazid@gmail.com">rksazid@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Word Meaning Modal -->
     <div id="wordModal" class="modal-overlay" style="display: none;">
@@ -722,7 +766,7 @@
                             </div>
                             
                             <div class="app-version">
-                                <p><strong>Version:</strong> 4.2.2</p>
+                                <p><strong>Version:</strong> 4.2.7</p>
                                 <p><strong>Last Updated:</strong> <span id="lastUpdated"></span></p>
                             </div>
                         </div>
@@ -768,7 +812,7 @@
             <!-- Favorites -->
             <button class="bottom-nav-item" data-action="favorites" title="Favorites">
                 <div class="nav-icon">
-                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-bookmark"></i>
                 </div>
                 <span class="nav-label">Favorites</span>
             </button>
@@ -853,16 +897,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcaoHcVqRxQJsLq3jGbOJlw9XPcqmf4gePiOphlMC5HS0Ql7XOxQhXdPUGDPEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- Compression Utils -->
-    <script src="compression-utils.min.js?v=4.2.2"></script>
+    <script src="compression-utils.min.js?v=4.2.7"></script>
     
     <!-- Enhanced Data Loader -->
-    <script src="enhanced-data-loader.min.js?v=4.2.2"></script>
+    <script src="enhanced-data-loader.min.js?v=4.2.7"></script>
     
     <!-- Migration Patch for Compression -->
-    <script src="migration-patch.min.js?v=4.2.2"></script>
+    <script src="migration-patch.min.js?v=4.2.7"></script>
     
     <!-- Main Application Script -->
-    <script src="script.min.js?v=4.2.2"></script>
+    <script src="script.min.js?v=4.2.7"></script>
     
     <!-- PWA Service Worker Registration -->
     <script>

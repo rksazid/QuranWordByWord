@@ -217,6 +217,8 @@ const elements = {
     // Footer Install
     installAppLink: document.getElementById('installAppLink'),
     aboutAppLink: document.getElementById('aboutAppLink'),
+    privacyLink: document.getElementById('privacyLink'),
+    privacyModal: document.getElementById('privacyModal'),
 
     // Loading
     loadingSpinner: document.getElementById('loadingSpinner')
@@ -297,6 +299,26 @@ function loadSettings() {
         const savedDuaCounts = localStorage.getItem('quranAppDuaCounts');
         if (savedDuaCounts) {
             appData.duaCounts = JSON.parse(savedDuaCounts);
+        }
+
+        // Load saved main view tab
+        const savedMainView = localStorage.getItem('quranAppMainView');
+        if (savedMainView && ['surahs', 'hifz', 'dua'].includes(savedMainView)) {
+            appData.mainView = savedMainView;
+        }
+
+        // Load active page state for restore on reload
+        const savedActivePage = localStorage.getItem('quranAppActivePage');
+        if (savedActivePage) {
+            appData.restoreActivePage = savedActivePage;
+        }
+        const savedHifzPage = localStorage.getItem('quranAppCurrentHifzPage');
+        if (savedHifzPage) {
+            appData.restoreHifzPage = parseInt(savedHifzPage, 10);
+        }
+        const savedCurrentDua = localStorage.getItem('quranAppCurrentDua');
+        if (savedCurrentDua) {
+            appData.restoreCurrentDua = savedCurrentDua;
         }
 
         applySettings();
@@ -690,6 +712,14 @@ function closeFavoritesModal() {
     updateBottomNavActiveState(homeBtn);
 }
 
+function openPrivacyModal() {
+    elements.privacyModal.style.display = 'flex';
+}
+
+function closePrivacyModal() {
+    elements.privacyModal.style.display = 'none';
+}
+
 function toggleCurrentSurahFavorite() {
     if (!appData.currentSurah) {
         showError('Please open a surah first');
@@ -915,9 +945,44 @@ function initializeApp() {
     setupEventListeners();
     initializeSettingsUI();
     initViewToggle();
-    
+
+    // Restore saved main view tab
+    if (appData.mainView && appData.mainView !== 'surahs') {
+        switchMainView(appData.mainView);
+    }
+
     // Initialize bottom navigation for the home page
     updateBottomNavForPage(false);
+
+    // Restore active page state (surah/hifz/dua reading page)
+    restoreActivePage();
+}
+
+async function restoreActivePage() {
+    const page = appData.restoreActivePage;
+    if (!page || page === 'home') return;
+
+    try {
+        if (page === 'surah' && appData.lastOpenedSurah) {
+            await openSurah(appData.lastOpenedSurah);
+            // Restore view mode after surah is rendered
+            const savedMode = appData.viewMode;
+            if (savedMode && savedMode !== 'normal') {
+                setViewMode(savedMode);
+            }
+        } else if (page === 'hifz' && appData.restoreHifzPage) {
+            // Ensure hifz data is loaded first
+            if (!appData.juzData || !appData.quranPages) await loadHifzData();
+            await navigateToHifzPage(appData.restoreHifzPage);
+        } else if (page === 'dua' && appData.restoreCurrentDua) {
+            // Ensure dua data is loaded first
+            if (!appData.duaData) await loadDuaData();
+            if (appData.duaData) openDua(appData.restoreCurrentDua);
+        }
+    } catch (err) {
+        console.warn('Could not restore active page:', err);
+        localStorage.setItem('quranAppActivePage', 'home');
+    }
 }
 
 // ==================== BOTTOM NAVIGATION ==================== //
@@ -935,8 +1000,17 @@ function initBottomNavigation() {
             
             // Handle page navigation
             if (page === 'home') {
-                if (elements.surahReadingPage.style.display !== 'none') {
+                // Check if on any reading/detail page first
+                const onSurahReading = elements.surahReadingPage && elements.surahReadingPage.style.display !== 'none';
+                const onHifzReading = elements.hifzReadingPage && elements.hifzReadingPage.style.display !== 'none';
+                const onDuaReading = elements.duaReadingPage && elements.duaReadingPage.style.display !== 'none';
+
+                if (onSurahReading || onHifzReading || onDuaReading) {
                     goBackToSurahList();
+                }
+                // If on hifz or dua list page, switch back to surahs
+                if (appData.mainView !== 'surahs') {
+                    switchMainView('surahs');
                 }
                 updateBottomNavActiveState(item);
                 return;
@@ -1122,7 +1196,11 @@ function setupEventListeners() {
         openSettings();
         switchSettingsTab('about');
     });
-    
+    elements.privacyLink?.addEventListener('click', (e) => {
+        e.preventDefault();
+        openPrivacyModal();
+    });
+
     // Reading Settings
     elements.autoScrollToggle?.addEventListener('change', toggleAutoScroll);
     elements.scrollSpeedRange?.addEventListener('input', changeScrollSpeed);
@@ -1166,6 +1244,9 @@ function setupEventListeners() {
     // Favorites Modal
     elements.favoritesModal?.addEventListener('click', (e) => {
         if (e.target === elements.favoritesModal) closeFavoritesModal();
+    });
+    elements.privacyModal?.addEventListener('click', (e) => {
+        if (e.target === elements.privacyModal) closePrivacyModal();
     });
     elements.goToAyahConfirm?.addEventListener('click', goToSelectedAyah);
     elements.ayahNumberInput?.addEventListener('input', updateAyahRange);
@@ -1524,7 +1605,8 @@ async function openSurah(surahId) {
         // Update app state
         appData.currentSurah = surahId;
         saveLastSurah(surahId);
-        
+        localStorage.setItem('quranAppActivePage', 'surah');
+
         console.log(`📖 ${surahInfo.name_english} ready for reading!`);
         
         // Update surah header
@@ -1624,10 +1706,15 @@ function updateSurahNavigation(surahId) {
 }
 
 function navigateToSurah(surahId) {
+    const currentMode = appData.viewMode;
     setViewMode('normal');
     stopAutoScroll();
     hideFloatingScrollControl();
-    openSurah(surahId.toString());
+    openSurah(surahId.toString()).then(() => {
+        if (currentMode && currentMode !== 'normal') {
+            setViewMode(currentMode);
+        }
+    });
 }
 
 // Switch to reading page view
@@ -1881,6 +1968,8 @@ function goBackToSurahList() {
         goBackFromDua();
         return;
     }
+
+    localStorage.setItem('quranAppActivePage', 'home');
 
     // Restore the right page based on main view
     if (appData.mainView === 'hifz') {
@@ -2758,6 +2847,7 @@ async function loadHifzData() {
 
 async function switchMainView(view) {
     appData.mainView = view;
+    localStorage.setItem('quranAppMainView', view);
 
     // Update toggle buttons
     if (elements.mainViewToggle) {
@@ -2848,6 +2938,8 @@ async function navigateToHifzPage(pageNum) {
     }
 
     appData.currentHifzPage = pageNum;
+    localStorage.setItem('quranAppActivePage', 'hifz');
+    localStorage.setItem('quranAppCurrentHifzPage', pageNum);
 
     // Show hifz reading page
     elements.surahListPage.style.display = 'none';
@@ -2949,12 +3041,14 @@ async function renderHifzPageContent(pageNum) {
 }
 
 function goBackFromHifz() {
+    localStorage.setItem('quranAppActivePage', 'home');
     if (elements.hifzReadingPage) elements.hifzReadingPage.style.display = 'none';
     if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
     elements.backBtn.style.display = 'none';
     if (elements.homepageControls) elements.homepageControls.style.display = 'flex';
     if (elements.mainViewToggle) elements.mainViewToggle.style.display = 'flex';
     elements.searchContainer.style.display = 'block';
+    updateBottomNavForPage(false);
     window.scrollTo(0, 0);
 }
 
@@ -3015,6 +3109,8 @@ function openDua(duaId) {
     if (!collection) return;
 
     appData.currentDua = duaId;
+    localStorage.setItem('quranAppActivePage', 'dua');
+    localStorage.setItem('quranAppCurrentDua', duaId);
 
     // Update header
     if (elements.duaTitle) elements.duaTitle.textContent = collection.title_bn;
@@ -3264,6 +3360,7 @@ function updateDuaTranslationToggleLabel() {
 }
 
 function goBackFromDua() {
+    localStorage.setItem('quranAppActivePage', 'home');
     if (elements.duaReadingPage) elements.duaReadingPage.style.display = 'none';
     if (elements.duaListPage) elements.duaListPage.style.display = 'block';
     elements.backBtn.style.display = 'none';
