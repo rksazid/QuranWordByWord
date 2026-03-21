@@ -124,6 +124,144 @@
           "source_en": "Abu Dawud 5081"
         }
       ]
+    },
+    {
+      "id": "100_ayat_amal",
+      "title_bn": "১০০ আয়াতের আমল",
+      "title_en": "100 Ayat Nightly Recitation",
+      "title_ar": "عمل تلاوة ١٠٠ آية في الليل",
+      "description_bn": "রাসূলুল্লাহ (সা.) এর হাদিস অনুযায়ী, যারা রাতে ১০০টি আয়াত তেলাওয়াত করেন, তাদের জন্য বিশেষ মর্যাদা রয়েছে:\n\n১. আনুগত্যশীলদের তালিকায় নাম: যে ব্যক্তি রাতে ১০০ আয়াত তেলাওয়াত করবে, তাকে আল্লাহর বিশেষ অনুগত বা আনুগত্যশীল বান্দাদের কাতারে লিপিবদ্ধ করা হবে। (মুসনাদে আহমদ)\n২. উদাসীনতা থেকে মুক্তি: যারা অন্তত ১০০ আয়াত তেলাওয়াত করেন, তারা 'গাফেল' বা উদাসীনদের তালিকা থেকে মুক্তি পান।\n\nহাদিসে নির্দিষ্ট কোনো আয়াত পড়ার বাধ্যবাধকতা নেই, কোরআনের যেকোনো জায়গা থেকে ১০০ আয়াত পড়লেই এই সওয়াব পাওয়া যাবে। তবে বেশি ফজিলতপূর্ণ সূরা ও আয়াতগুলো মিলিয়ে নিচে একটি ১০১ আয়াতের তালিকা দেওয়া হলো।\n\nনিয়ম: এই আমলটি মাগরিবের পর থেকে শুরু করে ঘুমানোর আগ পর্যন্ত যেকোনো সময় করা যায়। কোনো কারণে ১০০ আয়াত সম্ভব না হলে অন্তত ১০টি আয়াত পড়ার চেষ্টা করুন।",
+      "description_en": "According to the hadith of Rasulullah (SAW), those who recite 100 ayahs at night are given special status:\n\n1. Listed among the obedient: Whoever recites 100 ayahs at night will be recorded among Allah's obedient servants. (Musnad Ahmad)\n2. Freedom from heedlessness: Those who recite at least 100 ayahs are freed from the list of the heedless.\n\nThere is no obligation to read specific ayahs — reciting any 100 ayahs from the Quran earns this reward. Below is a curated list of 101 ayahs from the most virtuous surahs.\n\nTiming: This amal can be done any time from after Maghrib until before sleeping. If 100 ayahs are not possible, try to read at least 10 ayahs.",
+      "icon": "fa-moon",
+      "category": "nightly",
+      "items": [
+        {
+          "id": "100ayat_1",
+          "type": "quran_ref",
+          "label_bn": "আয়াতুল কুরসি",
+          "label_en": "Ayatul Kursi",
+          "instruction_bn": "সূরা বাকারার ২৫৫ নং আয়াত — ১টি আয়াত",
+          "instruction_en": "Surah Al-Baqarah, Ayah 255 — 1 ayah",
+          "target_count": 1,
+          "surah_id": 2,
+          "ayah_start": 255,
+          "ayah_end": 255,
+          "source_bn": "মুসনাদে আহমদ",
+          "source_en": "Musnad Ahmad"
+        },
+        {
+          "id": "100ayat_2",
+          "type": "quran_ref",
+          "label_bn": "সূরা বাকারার শেষ দুই আয়াত (আমানার রাসূলু...)",
+          "label_en": "Last 2 Ayahs of Surah Al-Baqarah",
+          "instruction_bn": "সূরা বাকারার ২৮৫-২৮৬ নং আয়াত — ২টি আয়াত",
+          "instruction_en": "Surah Al-Baqarah, Ayahs 285-286 — 2 ayahs",
+          "target_count": 1,
+          "surah_id": 2,
+          "ayah_start": 285,
+          "ayah_end": 286,
+          "source_bn": "সহীহ বুখারী ৫০০৯",
+          "source_en": "Sahih Bukhari 5009"
+        },
+        {
+          "id": "100ayat_3",
+          "type": "quran_ref",
+          "label_bn": "সূরা হাশরের শেষ তিন আয়াত (হুয়াল্লাহুল্লাজি...)",
+          "label_en": "Last 3 Ayahs of Surah Al-Hashr",
+          "instruction_bn": "সূরা হাশরের ২২-২৪ নং আয়াত — ৩টি আয়াত",
+          "instruction_en": "Surah Al-Hashr, Ayahs 22-24 — 3 ayahs",
+          "target_count": 1,
+          "surah_id": 59,
+          "ayah_start": 22,
+          "ayah_end": 24,
+          "source_bn": "তিরমিযী ২৯২২",
+          "source_en": "Tirmidhi 2922"
+        },
+        {
+          "id": "100ayat_4",
+          "type": "quran_ref",
+          "label_bn": "সূরা আস-সফ (সম্পূর্ণ)",
+          "label_en": "Surah As-Saff (Complete)",
+          "instruction_bn": "সূরা আস-সফ সম্পূর্ণ — ১৪টি আয়াত",
+          "instruction_en": "Surah As-Saff, complete — 14 ayahs",
+          "target_count": 1,
+          "surah_id": 61,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "মুসনাদে আহমদ",
+          "source_en": "Musnad Ahmad"
+        },
+        {
+          "id": "100ayat_5",
+          "type": "quran_ref",
+          "label_bn": "সূরা মুলক (সম্পূর্ণ)",
+          "label_en": "Surah Al-Mulk (Complete)",
+          "instruction_bn": "সূরা মুলক সম্পূর্ণ — ৩০টি আয়াত। এই সূরা কবরের আজাব থেকে সুরক্ষা দেয়।",
+          "instruction_en": "Surah Al-Mulk, complete — 30 ayahs. This surah protects from the punishment of the grave.",
+          "target_count": 1,
+          "surah_id": 67,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "তিরমিযী ২৮৯১",
+          "source_en": "Tirmidhi 2891"
+        },
+        {
+          "id": "100ayat_6",
+          "type": "quran_ref",
+          "label_bn": "সূরা কাফিরুন (সম্পূর্ণ)",
+          "label_en": "Surah Al-Kafirun (Complete)",
+          "instruction_bn": "সূরা কাফিরুন সম্পূর্ণ — ৬টি আয়াত",
+          "instruction_en": "Surah Al-Kafirun, complete — 6 ayahs",
+          "target_count": 1,
+          "surah_id": 109,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "মুসনাদে আহমদ",
+          "source_en": "Musnad Ahmad"
+        },
+        {
+          "id": "100ayat_7a",
+          "type": "quran_ref",
+          "label_bn": "সূরা ইখলাস (৩ বার)",
+          "label_en": "Surah Al-Ikhlas (3 times)",
+          "instruction_bn": "সূরা ইখলাস ৩ বার — ৪ × ৩ = ১২টি আয়াত",
+          "instruction_en": "Surah Al-Ikhlas 3 times — 4 × 3 = 12 ayahs",
+          "target_count": 3,
+          "surah_id": 112,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "মুসনাদে আহমদ",
+          "source_en": "Musnad Ahmad"
+        },
+        {
+          "id": "100ayat_7b",
+          "type": "quran_ref",
+          "label_bn": "সূরা ফালাক (৩ বার)",
+          "label_en": "Surah Al-Falaq (3 times)",
+          "instruction_bn": "সূরা ফালাক ৩ বার — ৫ × ৩ = ১৫টি আয়াত",
+          "instruction_en": "Surah Al-Falaq 3 times — 5 × 3 = 15 ayahs",
+          "target_count": 3,
+          "surah_id": 113,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "মুসনাদে আহমদ",
+          "source_en": "Musnad Ahmad"
+        },
+        {
+          "id": "100ayat_7c",
+          "type": "quran_ref",
+          "label_bn": "সূরা নাস (৩ বার)",
+          "label_en": "Surah An-Nas (3 times)",
+          "instruction_bn": "সূরা নাস ৩ বার — ৬ × ৩ = ১৮টি আয়াত",
+          "instruction_en": "Surah An-Nas 3 times — 6 × 3 = 18 ayahs",
+          "target_count": 3,
+          "surah_id": 114,
+          "ayah_start": 1,
+          "ayah_end": null,
+          "source_bn": "মুসনাদে আহমদ",
+          "source_en": "Musnad Ahmad"
+        }
+      ]
     }
   ]
 }
