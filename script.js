@@ -1,3 +1,21 @@
+// ==================== PRODUCTION CONSOLE SILENCER ==================== //
+(function() {
+    const noop = function() {};
+    const methods = ['log', 'debug', 'info', 'warn', 'error', 'trace', 'group', 'groupEnd', 'groupCollapsed'];
+    methods.forEach(function(m) { console[m] = noop; });
+})();
+
+// ==================== HTML SANITIZATION ==================== //
+function escapeHtml(str) {
+    if (str == null) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
 // ==================== APPLICATION STATE ==================== //
 let appData = {
     surahNames: null,
@@ -219,6 +237,8 @@ const elements = {
     aboutAppLink: document.getElementById('aboutAppLink'),
     privacyLink: document.getElementById('privacyLink'),
     privacyModal: document.getElementById('privacyModal'),
+    closePrivacyBtn: document.getElementById('closePrivacyBtn'),
+    closeFavoritesBtn: document.getElementById('closeFavoritesBtn'),
 
     // Loading
     loadingSpinner: document.getElementById('loadingSpinner')
@@ -280,25 +300,25 @@ function loadSettings() {
         // Load translation visibility state
         const savedTranslationState = localStorage.getItem('quranAppTranslationVisible');
         if (savedTranslationState !== null) {
-            appData.isTranslationVisible = JSON.parse(savedTranslationState);
+            try { appData.isTranslationVisible = JSON.parse(savedTranslationState); } catch (_) {}
         }
-        
+
         // Load current translation language
         const savedTranslationLang = localStorage.getItem('quranAppTranslationLang');
         if (savedTranslationLang) {
             appData.currentTranslationLang = savedTranslationLang;
         }
-        
+
         // Load word-by-word mode state
         const savedWordByWordMode = localStorage.getItem('quranAppWordByWordMode');
         if (savedWordByWordMode !== null) {
-            appData.isWordByWordMode = JSON.parse(savedWordByWordMode);
+            try { appData.isWordByWordMode = JSON.parse(savedWordByWordMode); } catch (_) {}
         }
 
         // Load dua counter state
         const savedDuaCounts = localStorage.getItem('quranAppDuaCounts');
         if (savedDuaCounts) {
-            appData.duaCounts = JSON.parse(savedDuaCounts);
+            try { appData.duaCounts = JSON.parse(savedDuaCounts); } catch (_) {}
         }
 
         // Load saved main view tab
@@ -1248,6 +1268,8 @@ function setupEventListeners() {
     elements.privacyModal?.addEventListener('click', (e) => {
         if (e.target === elements.privacyModal) closePrivacyModal();
     });
+    elements.closeFavoritesBtn?.addEventListener('click', closeFavoritesModal);
+    elements.closePrivacyBtn?.addEventListener('click', closePrivacyModal);
     elements.goToAyahConfirm?.addEventListener('click', goToSelectedAyah);
     elements.ayahNumberInput?.addEventListener('input', updateAyahRange);
     
@@ -1483,15 +1505,15 @@ function createSurahCard(surahId, surahInfo) {
     card.addEventListener('click', () => openSurah(surahId));
     
     card.innerHTML = `
-        <div class="surah-number">${surahId}</div>
+        <div class="surah-number">${escapeHtml(surahId)}</div>
         <div class="surah-names">
-            <div class="surah-arabic">${surahInfo.name_arabic}</div>
-            <div class="surah-english">${surahInfo.name_english}</div>
-            <div class="surah-bangla">${surahInfo.name_bangla}</div>
+            <div class="surah-arabic">${escapeHtml(surahInfo.name_arabic)}</div>
+            <div class="surah-english">${escapeHtml(surahInfo.name_english)}</div>
+            <div class="surah-bangla">${escapeHtml(surahInfo.name_bangla)}</div>
         </div>
         <div class="surah-meta">
-            <span class="surah-type">${surahInfo.type}</span>
-            <span class="surah-ayahs">${surahInfo.ayah_number} Ayahs</span>
+            <span class="surah-type">${escapeHtml(surahInfo.type)}</span>
+            <span class="surah-ayahs">${escapeHtml(surahInfo.ayah_number)} Ayahs</span>
         </div>
     `;
     
@@ -1828,7 +1850,7 @@ function createArabicText(verseData) {
 
     // Create word-by-word clickable text
     const words = Object.entries(verseData.word_by_word).map(([wordIndex, wordData]) => {
-        return `<span class="arabic-word" data-word-ar="${wordData.words_ar}" data-word-bn="${wordData.translate_bn}">${wordData.words_ar}</span>`;
+        return `<span class="arabic-word" data-word-ar="${escapeHtml(wordData.words_ar)}" data-word-bn="${escapeHtml(wordData.translate_bn)}">${escapeHtml(wordData.words_ar)}</span>`;
     });
 
     let result = words.join(' ');
@@ -3084,10 +3106,10 @@ function renderDuaList() {
         const card = document.createElement('div');
         card.className = 'dua-card';
         card.innerHTML = `
-            <div class="dua-card-icon"><i class="fas ${collection.icon}"></i></div>
+            <div class="dua-card-icon"><i class="fas ${escapeHtml(collection.icon)}"></i></div>
             <div class="dua-card-content">
-                <div class="dua-card-title">${collection.title_bn}</div>
-                <div class="dua-card-title-en">${collection.title_en}</div>
+                <div class="dua-card-title">${escapeHtml(collection.title_bn)}</div>
+                <div class="dua-card-title-en">${escapeHtml(collection.title_en)}</div>
                 <div class="dua-card-meta">${totalItems} items · ${completedItems}/${totalItems} complete</div>
             </div>
             <div class="dua-card-progress">
@@ -3179,8 +3201,8 @@ async function renderDuaContent(collection) {
         html += `<div class="dua-item ${isComplete ? 'dua-item-complete' : ''}" id="dua-item-${item.id}">`;
         html += `<div class="dua-item-number">${index + 1}</div>`;
         html += `<div class="dua-item-content">`;
-        html += `<div class="dua-item-label">${item.label_bn}</div>`;
-        html += `<div class="dua-item-label-en">${item.label_en}</div>`;
+        html += `<div class="dua-item-label">${escapeHtml(item.label_bn)}</div>`;
+        html += `<div class="dua-item-label-en">${escapeHtml(item.label_en)}</div>`;
 
         // Render Arabic text based on type
         const transHiddenClass = appData.duaTranslationVisible ? '' : ' dua-trans-hidden';
@@ -3193,19 +3215,21 @@ async function renderDuaContent(collection) {
         }
 
         // Instruction & source
-        html += `<div class="dua-instruction"><i class="fas fa-info-circle"></i> ${item.instruction_bn}</div>`;
-        html += `<div class="dua-source">${item.source_bn}</div>`;
+        html += `<div class="dua-instruction"><i class="fas fa-info-circle"></i> ${escapeHtml(item.instruction_bn)}</div>`;
+        html += `<div class="dua-source">${escapeHtml(item.source_bn)}</div>`;
         html += `</div>`; // end dua-item-content
 
         // Counter section
         html += `<div class="dua-counter-section">`;
-        html += `<button class="dua-counter-btn ${isComplete ? 'counter-complete' : ''}" onclick="window.incrementDuaCount('${item.id}', ${item.target_count})" id="counter-${item.id}">`;
+        const safeId = escapeHtml(item.id);
+        const safeTarget = parseInt(item.target_count, 10) || 0;
+        html += `<button class="dua-counter-btn ${isComplete ? 'counter-complete' : ''}" onclick="window.incrementDuaCount('${safeId}', ${safeTarget})" id="counter-${safeId}">`;
         html += `<span class="counter-current">${currentCount}</span>`;
         html += `<span class="counter-separator">/</span>`;
-        html += `<span class="counter-target">${item.target_count}</span>`;
+        html += `<span class="counter-target">${safeTarget}</span>`;
         html += `</button>`;
-        html += `<button class="dua-complete-btn ${isComplete ? 'complete-active' : ''}" onclick="window.completeDuaCount('${item.id}', ${item.target_count})" id="complete-${item.id}" title="Mark complete"><i class="fas fa-check"></i></button>`;
-        html += `<button class="dua-reset-btn" onclick="window.resetDuaCount('${item.id}')" title="Reset"><i class="fas fa-redo-alt"></i></button>`;
+        html += `<button class="dua-complete-btn ${isComplete ? 'complete-active' : ''}" onclick="window.completeDuaCount('${safeId}', ${safeTarget})" id="complete-${safeId}" title="Mark complete"><i class="fas fa-check"></i></button>`;
+        html += `<button class="dua-reset-btn" onclick="window.resetDuaCount('${safeId}')" title="Reset"><i class="fas fa-redo-alt"></i></button>`;
         html += `</div>`; // end dua-counter-section
 
         html += `</div>`; // end dua-item
