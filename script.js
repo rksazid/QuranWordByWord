@@ -3198,6 +3198,7 @@ async function renderDuaContent(collection) {
         const currentCount = appData.duaCounts[item.id] || 0;
         const isComplete = currentCount >= item.target_count;
 
+        const transHiddenClass = appData.duaTranslationVisible ? '' : ' dua-trans-hidden';
         html += `<div class="dua-item ${isComplete ? 'dua-item-complete' : ''}" id="dua-item-${item.id}">`;
 
         // Header: number + title + counter
@@ -3205,7 +3206,7 @@ async function renderDuaContent(collection) {
         html += `<div class="dua-item-number">${index + 1}</div>`;
         html += `<div class="dua-item-titles">`;
         html += `<div class="dua-item-label">${escapeHtml(item.label_bn)}</div>`;
-        html += `<div class="dua-item-label-en">${escapeHtml(item.label_en)}</div>`;
+        html += `<div class="dua-item-label-en${transHiddenClass}">${escapeHtml(item.label_en)}</div>`;
         html += `</div>`;
         const safeId = escapeHtml(item.id);
         const safeTarget = parseInt(item.target_count, 10) || 0;
@@ -3222,7 +3223,6 @@ async function renderDuaContent(collection) {
 
         // Body: Arabic text, translations, instruction, source (full width)
         html += `<div class="dua-item-body">`;
-        const transHiddenClass = appData.duaTranslationVisible ? '' : ' dua-trans-hidden';
         if (item.type === 'quran_ref') {
             html += renderQuranRefHtml(item, surahDataMap, transHiddenClass);
         } else if (item.type === 'hadith') {
@@ -3238,6 +3238,44 @@ async function renderDuaContent(collection) {
     });
 
     elements.duaItemsContainer.innerHTML = html;
+    initDuaStickyHeaders();
+}
+
+function initDuaStickyHeaders() {
+    const headers = elements.duaItemsContainer.querySelectorAll('.dua-item-header');
+    if (!headers.length) return;
+
+    // Use a sentinel element approach: insert a tiny div before each header
+    // When it scrolls out of view, the header is "stuck"
+    if (window._duaStickyObserver) window._duaStickyObserver.disconnect();
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            const header = entry.target.nextElementSibling;
+            if (header && header.classList.contains('dua-item-header')) {
+                if (!entry.isIntersecting) {
+                    header.classList.add('is-stuck');
+                } else {
+                    header.classList.remove('is-stuck');
+                }
+            }
+        });
+    }, { threshold: 0, rootMargin: '-50px 0px 0px 0px' });
+
+    headers.forEach(function(header) {
+        // Insert a sentinel div right before the header
+        let sentinel = header.previousElementSibling;
+        if (!sentinel || !sentinel.classList.contains('dua-sticky-sentinel')) {
+            sentinel = document.createElement('div');
+            sentinel.className = 'dua-sticky-sentinel';
+            sentinel.style.height = '1px';
+            sentinel.style.marginBottom = '-1px';
+            header.parentNode.insertBefore(sentinel, header);
+        }
+        observer.observe(sentinel);
+    });
+
+    window._duaStickyObserver = observer;
 }
 
 function renderQuranRefHtml(item, surahDataMap, transHiddenClass) {
@@ -3370,7 +3408,7 @@ function updateDuaItemUI(itemId, currentCount, targetCount) {
 
 function toggleDuaTranslations() {
     appData.duaTranslationVisible = !appData.duaTranslationVisible;
-    document.querySelectorAll('.dua-translation, .dua-translation-en').forEach(el => {
+    document.querySelectorAll('.dua-translation, .dua-translation-en, .dua-item-label-en').forEach(el => {
         el.classList.toggle('dua-trans-hidden', !appData.duaTranslationVisible);
     });
     updateDuaTranslationToggleLabel();

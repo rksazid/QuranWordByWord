@@ -4735,11 +4735,25 @@ select {
     background: linear-gradient(135deg, rgba(45, 125, 50, 0.03), rgba(45, 125, 50, 0.08));
 }
 
-/* Header: number + title + counter in one row */
+/* Header: number + title + counter in one row — sticky like GitHub file headers */
 .dua-item-header {
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
+    position: sticky;
+    top: 50px;
+    z-index: 10;
+    background: var(--bg-card);
+    margin: -1rem -1rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.dua-item-complete .dua-item-header {
+    background: linear-gradient(135deg, rgba(45, 125, 50, 0.03), rgba(45, 125, 50, 0.08));
+    background-color: var(--bg-card);
 }
 
 .dua-item-number {
@@ -4775,6 +4789,17 @@ select {
     font-size: 0.8rem;
     color: var(--text-secondary);
     font-family: var(--font-system);
+}
+
+/* Stuck state — added via JS IntersectionObserver */
+.dua-item-header.is-stuck {
+    border-bottom-color: var(--border-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+}
+
+[data-theme="dark"] .dua-item-header.is-stuck {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 /* Body: Arabic text, translations — full card width */
@@ -5024,6 +5049,11 @@ select {
     background: linear-gradient(135deg, rgba(45, 125, 50, 0.08), rgba(45, 125, 50, 0.15));
 }
 
+[data-theme="dark"] .dua-item-complete .dua-item-header {
+    background: linear-gradient(135deg, rgba(45, 125, 50, 0.08), rgba(45, 125, 50, 0.15));
+    background-color: var(--bg-card);
+}
+
 [data-theme="dark"] .dua-quran-ref {
     border-left-color: var(--primary-light);
 }
@@ -5068,6 +5098,10 @@ select {
     .dua-items-container {
         padding: 0 0.75rem 2rem;
     }
+
+    .dua-item-header {
+        top: 50px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -5096,6 +5130,9 @@ select {
 
     .dua-item-header {
         gap: 0.5rem;
+        margin: -0.75rem -0.75rem 0;
+        padding: 0.6rem 0.75rem;
+        top: 50px;
     }
 
     .dua-item-number {
