@@ -4721,13 +4721,11 @@ select {
 }
 
 .dua-item {
-    display: flex;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-lg);
     padding: 1rem;
     margin-bottom: 0.75rem;
-    gap: 0.75rem;
     transition: all 0.3s ease;
     box-shadow: var(--shadow-sm);
 }
@@ -4735,6 +4733,13 @@ select {
 .dua-item-complete {
     border-color: var(--primary-color);
     background: linear-gradient(135deg, rgba(45, 125, 50, 0.03), rgba(45, 125, 50, 0.08));
+}
+
+/* Header: number + title + counter in one row */
+.dua-item-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
 }
 
 .dua-item-number {
@@ -4753,7 +4758,7 @@ select {
     font-family: var(--font-system);
 }
 
-.dua-item-content {
+.dua-item-titles {
     flex: 1;
     min-width: 0;
 }
@@ -4769,26 +4774,35 @@ select {
 .dua-item-label-en {
     font-size: 0.8rem;
     color: var(--text-secondary);
-    margin-bottom: 0.75rem;
     font-family: var(--font-system);
+}
+
+/* Body: Arabic text, translations — full card width */
+.dua-item-body {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--border-color);
 }
 
 /* Arabic text in dua items */
 .dua-arabic-text {
     font-family: var(--font-arabic);
     font-size: calc(1.5rem * var(--font-size-multiplier));
-    line-height: 2.2;
+    line-height: 2.4;
     color: var(--text-color);
     direction: rtl;
     text-align: right;
-    margin-bottom: 0.5rem;
-    padding: 0.75rem;
-    background: rgba(0, 0, 0, 0.02);
-    border-radius: var(--border-radius-sm);
+    margin-bottom: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: linear-gradient(135deg, rgba(45, 125, 50, 0.02), rgba(45, 125, 50, 0.05));
+    border-radius: var(--border-radius-md);
+    border-right: 3px solid var(--primary-color);
+    word-spacing: 0.15em;
 }
 
 [data-theme="dark"] .dua-arabic-text {
-    background: rgba(255, 255, 255, 0.03);
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.04), rgba(76, 175, 80, 0.08));
+    border-right-color: var(--primary-light);
 }
 
 .dua-translation {
@@ -4854,7 +4868,7 @@ select {
 /* Counter Button */
 .dua-counter-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 0.4rem;
     flex-shrink: 0;
@@ -5078,6 +5092,9 @@ select {
 
     .dua-item {
         padding: 0.75rem;
+    }
+
+    .dua-item-header {
         gap: 0.5rem;
     }
 
@@ -5087,8 +5104,14 @@ select {
         font-size: 0.7rem;
     }
 
+    .dua-item-body {
+        margin-top: 0.6rem;
+        padding-top: 0.6rem;
+    }
+
     .dua-arabic-text {
-        font-size: calc(1.3rem * var(--font-size-multiplier));
-        padding: 0.5rem;
+        font-size: calc(1.35rem * var(--font-size-multiplier));
+        padding: 0.85rem 1rem;
+        line-height: 2.3;
     }
 }

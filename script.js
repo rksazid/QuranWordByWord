@@ -3199,12 +3199,29 @@ async function renderDuaContent(collection) {
         const isComplete = currentCount >= item.target_count;
 
         html += `<div class="dua-item ${isComplete ? 'dua-item-complete' : ''}" id="dua-item-${item.id}">`;
+
+        // Header: number + title + counter
+        html += `<div class="dua-item-header">`;
         html += `<div class="dua-item-number">${index + 1}</div>`;
-        html += `<div class="dua-item-content">`;
+        html += `<div class="dua-item-titles">`;
         html += `<div class="dua-item-label">${escapeHtml(item.label_bn)}</div>`;
         html += `<div class="dua-item-label-en">${escapeHtml(item.label_en)}</div>`;
+        html += `</div>`;
+        const safeId = escapeHtml(item.id);
+        const safeTarget = parseInt(item.target_count, 10) || 0;
+        html += `<div class="dua-counter-section">`;
+        html += `<button class="dua-counter-btn ${isComplete ? 'counter-complete' : ''}" onclick="window.incrementDuaCount('${safeId}', ${safeTarget})" id="counter-${safeId}">`;
+        html += `<span class="counter-current">${currentCount}</span>`;
+        html += `<span class="counter-separator">/</span>`;
+        html += `<span class="counter-target">${safeTarget}</span>`;
+        html += `</button>`;
+        html += `<button class="dua-complete-btn ${isComplete ? 'complete-active' : ''}" onclick="window.completeDuaCount('${safeId}', ${safeTarget})" id="complete-${safeId}" title="Mark complete"><i class="fas fa-check"></i></button>`;
+        html += `<button class="dua-reset-btn" onclick="window.resetDuaCount('${safeId}')" title="Reset"><i class="fas fa-redo-alt"></i></button>`;
+        html += `</div>`;
+        html += `</div>`; // end dua-item-header
 
-        // Render Arabic text based on type
+        // Body: Arabic text, translations, instruction, source (full width)
+        html += `<div class="dua-item-body">`;
         const transHiddenClass = appData.duaTranslationVisible ? '' : ' dua-trans-hidden';
         if (item.type === 'quran_ref') {
             html += renderQuranRefHtml(item, surahDataMap, transHiddenClass);
@@ -3213,24 +3230,9 @@ async function renderDuaContent(collection) {
             html += `<div class="dua-translation${transHiddenClass}">${item.translation_bn}</div>`;
             html += `<div class="dua-translation-en${transHiddenClass}">${item.translation_en}</div>`;
         }
-
-        // Instruction & source
         html += `<div class="dua-instruction"><i class="fas fa-info-circle"></i> ${escapeHtml(item.instruction_bn)}</div>`;
         html += `<div class="dua-source">${escapeHtml(item.source_bn)}</div>`;
-        html += `</div>`; // end dua-item-content
-
-        // Counter section
-        html += `<div class="dua-counter-section">`;
-        const safeId = escapeHtml(item.id);
-        const safeTarget = parseInt(item.target_count, 10) || 0;
-        html += `<button class="dua-counter-btn ${isComplete ? 'counter-complete' : ''}" onclick="window.incrementDuaCount('${safeId}', ${safeTarget})" id="counter-${safeId}">`;
-        html += `<span class="counter-current">${currentCount}</span>`;
-        html += `<span class="counter-separator">/</span>`;
-        html += `<span class="counter-target">${safeTarget}</span>`;
-        html += `</button>`;
-        html += `<button class="dua-complete-btn ${isComplete ? 'complete-active' : ''}" onclick="window.completeDuaCount('${safeId}', ${safeTarget})" id="complete-${safeId}" title="Mark complete"><i class="fas fa-check"></i></button>`;
-        html += `<button class="dua-reset-btn" onclick="window.resetDuaCount('${safeId}')" title="Reset"><i class="fas fa-redo-alt"></i></button>`;
-        html += `</div>`; // end dua-counter-section
+        html += `</div>`; // end dua-item-body
 
         html += `</div>`; // end dua-item
     });
