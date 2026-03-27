@@ -1,6 +1,6 @@
 {
   "name": "quran-word-by-word",
-  "version": "4.2.12",
+  "version": "4.3.0",
   "description": "Al-Quran Word by Word - Progressive Web App with 87% performance optimization",
   "main": "index.html",
   "scripts": {

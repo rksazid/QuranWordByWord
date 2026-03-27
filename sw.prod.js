@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quran-word-by-word-v4.2.12';
+const CACHE_NAME = 'quran-word-by-word-v4.3.0';
 
 // Core app shell files — MUST cache successfully for SW to install
 const CORE_URLS = [

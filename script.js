@@ -16,6 +16,54 @@ function escapeHtml(str) {
         .replace(/'/g, '&#39;');
 }
 
+// ==================== DEEP LINK HASH ROUTING ==================== //
+var _skipNextHashChange = false;
+
+function setAppHash(path) {
+    var newHash = path ? '#/' + path : '#/';
+    if (location.hash === newHash) return;
+    _skipNextHashChange = true;
+    location.hash = newHash;
+}
+
+function parseAppHash() {
+    var hash = location.hash;
+    if (!hash || hash === '#' || hash === '#/') return null;
+    var match = hash.match(/^#\/(\w+)\/(.+)$/);
+    if (match) return { type: match[1], id: decodeURIComponent(match[2]) };
+    return null;
+}
+
+async function navigateToHash(route) {
+    if (!route) return false;
+    try {
+        if (route.type === 'surah') {
+            var surahId = parseInt(route.id, 10);
+            if (surahId >= 1 && surahId <= 114) {
+                await openSurah(surahId.toString());
+                return true;
+            }
+        } else if (route.type === 'hifz') {
+            var pageNum = parseInt(route.id, 10);
+            if (pageNum >= 1) {
+                if (!appData.juzData || !appData.quranPages) await loadHifzData();
+                if (appData.quranPages && appData.quranPages[pageNum]) {
+                    await navigateToHifzPage(pageNum);
+                    return true;
+                }
+            }
+        } else if (route.type === 'dua') {
+            if (!appData.duaData) await loadDuaData();
+            if (appData.duaData) {
+                switchMainView('dua');
+                openDua(route.id);
+                return true;
+            }
+        }
+    } catch (e) {}
+    return false;
+}
+
 // ==================== APPLICATION STATE ==================== //
 let appData = {
     surahNames: null,
@@ -315,11 +363,19 @@ function loadSettings() {
             try { appData.isWordByWordMode = JSON.parse(savedWordByWordMode); } catch (_) {}
         }
 
-        // Load dua counter state
-        const savedDuaCounts = localStorage.getItem('quranAppDuaCounts');
-        if (savedDuaCounts) {
-            try { appData.duaCounts = JSON.parse(savedDuaCounts); } catch (_) {}
+        // Load dua counter state (with daily auto-reset)
+        const today = new Date().toDateString();
+        const lastDuaDate = localStorage.getItem('quranAppDuaLastDate');
+        if (lastDuaDate && lastDuaDate !== today) {
+            appData.duaCounts = {};
+            localStorage.setItem('quranAppDuaCounts', JSON.stringify({}));
+        } else {
+            const savedDuaCounts = localStorage.getItem('quranAppDuaCounts');
+            if (savedDuaCounts) {
+                try { appData.duaCounts = JSON.parse(savedDuaCounts); } catch (_) {}
+            }
         }
+        localStorage.setItem('quranAppDuaLastDate', today);
 
         // Load saved main view tab
         const savedMainView = localStorage.getItem('quranAppMainView');
@@ -974,8 +1030,33 @@ function initializeApp() {
     // Initialize bottom navigation for the home page
     updateBottomNavForPage(false);
 
-    // Restore active page state (surah/hifz/dua reading page)
-    restoreActivePage();
+    // Deep link: check URL hash first (shared links), fall back to localStorage
+    var hashRoute = parseAppHash();
+    if (hashRoute) {
+        navigateToHash(hashRoute);
+    } else {
+        restoreActivePage();
+    }
+
+    // Handle browser back/forward and externally changed URLs
+    window.addEventListener('hashchange', function() {
+        if (_skipNextHashChange) {
+            _skipNextHashChange = false;
+            return;
+        }
+        var route = parseAppHash();
+        if (route) {
+            navigateToHash(route);
+        } else {
+            // Hash cleared or set to #/ — go home if not already there
+            var onReadingPage = (elements.surahReadingPage.style.display !== 'none') ||
+                (elements.hifzReadingPage && elements.hifzReadingPage.style.display !== 'none') ||
+                (elements.duaReadingPage && elements.duaReadingPage.style.display !== 'none');
+            if (onReadingPage) {
+                goBackToSurahList();
+            }
+        }
+    });
 }
 
 async function restoreActivePage() {
@@ -1628,6 +1709,7 @@ async function openSurah(surahId) {
         appData.currentSurah = surahId;
         saveLastSurah(surahId);
         localStorage.setItem('quranAppActivePage', 'surah');
+        setAppHash('surah/' + surahId);
 
         console.log(`📖 ${surahInfo.name_english} ready for reading!`);
         
@@ -1992,6 +2074,7 @@ function goBackToSurahList() {
     }
 
     localStorage.setItem('quranAppActivePage', 'home');
+    setAppHash('');
 
     // Restore the right page based on main view
     if (appData.mainView === 'hifz') {
@@ -2962,6 +3045,7 @@ async function navigateToHifzPage(pageNum) {
     appData.currentHifzPage = pageNum;
     localStorage.setItem('quranAppActivePage', 'hifz');
     localStorage.setItem('quranAppCurrentHifzPage', pageNum);
+    setAppHash('hifz/' + pageNum);
 
     // Show hifz reading page
     elements.surahListPage.style.display = 'none';
@@ -3064,6 +3148,7 @@ async function renderHifzPageContent(pageNum) {
 
 function goBackFromHifz() {
     localStorage.setItem('quranAppActivePage', 'home');
+    setAppHash('');
     if (elements.hifzReadingPage) elements.hifzReadingPage.style.display = 'none';
     if (elements.hifzListPage) elements.hifzListPage.style.display = 'block';
     elements.backBtn.style.display = 'none';
@@ -3133,6 +3218,7 @@ function openDua(duaId) {
     appData.currentDua = duaId;
     localStorage.setItem('quranAppActivePage', 'dua');
     localStorage.setItem('quranAppCurrentDua', duaId);
+    setAppHash('dua/' + duaId);
 
     // Update header
     if (elements.duaTitle) elements.duaTitle.textContent = collection.title_bn;
@@ -3425,6 +3511,7 @@ function updateDuaTranslationToggleLabel() {
 
 function goBackFromDua() {
     localStorage.setItem('quranAppActivePage', 'home');
+    setAppHash('');
     if (elements.duaReadingPage) elements.duaReadingPage.style.display = 'none';
     if (elements.duaListPage) elements.duaListPage.style.display = 'block';
     elements.backBtn.style.display = 'none';
