@@ -785,6 +785,258 @@ updateState('settings.theme', 'dark');
 
 ---
 
+## Pattern 9: Dua Collection with Counter (Tasbeeh Pattern)
+
+### HTML Structure
+```html
+<!-- Dua Collection Card (in list) -->
+<div class="dua-card" onclick="openDua('collection_id')">
+    <div class="dua-card-icon">
+        <i class="fas fa-shield-halved"></i>
+    </div>
+    <div class="dua-card-content">
+        <div class="dua-card-title">Bengali Title</div>
+        <div class="dua-card-title-en">English Title</div>
+        <div class="dua-card-meta">6 items · 3/6 complete</div>
+    </div>
+    <div class="dua-card-progress">
+        <svg class="dua-progress-ring" viewBox="0 0 36 36">
+            <circle class="dua-progress-bg" cx="18" cy="18" r="15.9155"/>
+            <circle class="dua-progress-fill" cx="18" cy="18" r="15.9155"
+                    stroke-dasharray="50, 100"/>
+            <text class="dua-progress-text" x="18" y="20.5">50%</text>
+        </svg>
+    </div>
+</div>
+
+<!-- Dua Item with Counter -->
+<div class="dua-item" id="dua-item-item_id">
+    <div class="dua-item-header">
+        <div class="dua-item-number">1</div>
+        <div class="dua-item-titles">
+            <div class="dua-item-label">Bengali label</div>
+            <div class="dua-item-label-en">English label</div>
+        </div>
+        <div class="dua-counter-section">
+            <button class="dua-counter-btn" onclick="incrementDuaCount('item_id', 3)">
+                <span class="counter-current">0</span>
+                <span class="counter-separator">/</span>
+                <span class="counter-target">3</span>
+            </button>
+            <button class="dua-reset-btn" onclick="resetDuaCount('item_id')">
+                <i class="fas fa-redo-alt"></i>
+            </button>
+        </div>
+    </div>
+    <div class="dua-item-body">
+        <div class="dua-arabic-text" dir="rtl">Arabic text here</div>
+        <div class="dua-translation">Bengali translation</div>
+        <div class="dua-translation-en">English translation</div>
+        <div class="dua-instruction">Instructions</div>
+        <div class="dua-source">Source citation</div>
+    </div>
+</div>
+```
+
+### CSS Template
+```css
+/* Counter button */
+.dua-counter-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    background: var(--bg-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dua-counter-btn.counter-complete {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 12px rgba(45, 125, 50, 0.3);
+}
+
+/* Sticky header */
+.dua-item-header {
+    position: sticky;
+    top: 50px;
+    z-index: 10;
+    background: var(--bg-card);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    margin: -1rem -1rem 0;
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+}
+
+.dua-item-header.is-stuck {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+}
+
+/* Arabic text with accent border */
+.dua-arabic-text {
+    line-height: 2.4;
+    padding: 1rem 1.25rem;
+    background: linear-gradient(135deg, rgba(45,125,50,0.02), rgba(45,125,50,0.05));
+    border-right: 3px solid var(--primary-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    word-spacing: 0.15em;
+}
+```
+
+### JavaScript Pattern
+```javascript
+// Increment counter (wraps to 0 at target)
+function incrementDuaCount(itemId, targetCount) {
+    var current = appData.duaCounts[itemId] || 0;
+    current++;
+    if (current > targetCount) current = 0;
+    appData.duaCounts[itemId] = current;
+    saveDuaCounts();
+    updateDuaItemUI(itemId, current, targetCount);
+    // Haptic feedback
+    if (navigator.vibrate) navigator.vibrate(30);
+}
+
+// Sticky headers with IntersectionObserver
+function initDuaStickyHeaders() {
+    document.querySelectorAll('.dua-item-header').forEach(function(header) {
+        var sentinel = document.createElement('div');
+        sentinel.className = 'dua-sentinel';
+        header.parentNode.insertBefore(sentinel, header);
+
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                header.classList.toggle('is-stuck', !entry.isIntersecting);
+            });
+        }, { threshold: [0], rootMargin: '-50px 0px 0px 0px' });
+
+        observer.observe(sentinel);
+    });
+}
+```
+
+---
+
+## Pattern 10: Hash-Based Deep Linking
+
+### JavaScript Pattern
+```javascript
+var _skipNextHashChange = false;
+
+// Set hash (e.g., 'surah/67', 'dua/100_ayat_amal')
+function setAppHash(path) {
+    var newHash = path ? '#/' + path : '#/';
+    if (location.hash === newHash) return;
+    _skipNextHashChange = true;
+    location.hash = newHash;
+}
+
+// Parse hash → { type: 'surah', id: '67' } or null
+function parseAppHash() {
+    var hash = location.hash;
+    if (!hash || hash === '#' || hash === '#/') return null;
+    var match = hash.match(/^#\/(\w+)\/(.+)$/);
+    if (!match) return null;
+    return { type: match[1], id: match[2] };
+}
+
+// Navigate to route
+async function navigateToHash(route) {
+    switch (route.type) {
+        case 'surah':
+            await openSurah(parseInt(route.id));
+            return true;
+        case 'hifz':
+            await navigateToHifzPage(parseInt(route.id));
+            return true;
+        case 'dua':
+            await openDua(route.id);
+            return true;
+    }
+    return false;
+}
+
+// Listen for browser back/forward
+window.addEventListener('hashchange', function() {
+    if (_skipNextHashChange) { _skipNextHashChange = false; return; }
+    var route = parseAppHash();
+    if (route) navigateToHash(route);
+    else { /* return to home */ }
+});
+```
+
+---
+
+## Pattern 11: IndexedDB Backup for Offline Data
+
+### JavaScript Pattern
+```javascript
+var IDB = {
+    _db: null,
+    _name: 'quranAppDB',
+    _store: 'appData',
+
+    open: function() {
+        return new Promise(function(resolve, reject) {
+            var req = indexedDB.open(IDB._name, 1);
+            req.onupgradeneeded = function(e) {
+                e.target.result.createObjectStore(IDB._store);
+            };
+            req.onsuccess = function(e) {
+                IDB._db = e.target.result;
+                resolve(IDB._db);
+            };
+            req.onerror = function() { reject(req.error); };
+        });
+    },
+
+    set: function(key, value) {
+        if (!IDB._db) return IDB.open().then(function() { return IDB.set(key, value); });
+        return new Promise(function(resolve, reject) {
+            var tx = IDB._db.transaction(IDB._store, 'readwrite');
+            tx.objectStore(IDB._store).put(value, key);
+            tx.oncomplete = resolve;
+            tx.onerror = function() { reject(tx.error); };
+        });
+    },
+
+    get: function(key) {
+        if (!IDB._db) return IDB.open().then(function() { return IDB.get(key); });
+        return new Promise(function(resolve, reject) {
+            var tx = IDB._db.transaction(IDB._store, 'readonly');
+            var req = tx.objectStore(IDB._store).get(key);
+            req.onsuccess = function() { resolve(req.result); };
+            req.onerror = function() { reject(req.error); };
+        });
+    }
+};
+
+// Usage: Network fetch with IDB backup
+async function loadDataWithBackup(url, idbKey) {
+    try {
+        const resp = await fetch(url);
+        const data = await resp.json();
+        IDB.set(idbKey, data);  // Backup on success
+        return data;
+    } catch (err) {
+        const backup = await IDB.get(idbKey);
+        if (backup) return backup;
+        throw new Error('No data available');
+    }
+}
+```
+
+---
+
 ## Naming Conventions
 
 ### HTML IDs

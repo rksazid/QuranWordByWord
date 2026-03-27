@@ -4,9 +4,9 @@
 
 ### Framework & Platform
 - **Type**: Vanilla JavaScript Progressive Web App (PWA)
-- **Version**: 3.0.0
-- **Architecture**: Single Page Application (SPA)
-- **Build System**: Custom Node.js build scripts
+- **Version**: 4.3.1
+- **Architecture**: Single Page Application (SPA) with hash-based routing
+- **Build System**: Custom Node.js build scripts (`minify-assets.js`)
 - **Package Manager**: NPM
 - **Node Version**: >= 14.0.0
 
@@ -14,27 +14,24 @@
 - **HTML5**: Semantic markup with PWA metadata
 - **CSS3**: Custom properties (CSS variables), Flexbox, CSS Grid
 - **JavaScript (ES6+)**: Vanilla JS (no framework dependencies)
-- **Icons**: Font Awesome 6.4.0
+- **Icons**: Font Awesome 6.4.0 (CDN with SRI)
 
 ### Font Stack
-**Arabic Fonts**:
-- Amiri (primary)
-- Scheherazade New
-- Lateef
-- Reem Kufi
+**Arabic Fonts** (8 options):
+- Amiri (primary), Scheherazade New, Lateef, Reem Kufi
+- Noto Naskh Arabic, Harmattan, Alkalami, Markazi Text
 
 **Bengali Fonts**:
-- Noto Serif Bengali (primary for translations)
+- Noto Serif Bengali (primary)
 - Noto Sans Bengali
 
 **UI Fonts**:
-- Inter (default system font)
-- Apple System Font
-- BlinkMacSystemFont
+- Inter (default), Apple System Font, BlinkMacSystemFont
 
 ### External Libraries
-- **Font Awesome**: Icon library (CDN: cdnjs.cloudflare.com)
+- **Font Awesome 6.4.0**: Icon library (CDN: cdnjs.cloudflare.com)
 - **Google Fonts**: Typography (fonts.googleapis.com)
+- **Pako 2.1.0**: Gzip compression/decompression (CDN with SRI hash)
 - **No Framework Dependencies**: Pure vanilla JavaScript
 
 ---
@@ -43,51 +40,45 @@
 
 ```
 QuranWordByWord/
-├── index.html                    # Main HTML file (3208 lines)
-├── script.js                     # Main application logic (2185 lines)
-├── styles.css                    # Main stylesheet (3208 lines)
-├── styles.min.css               # Minified styles
-├── script.min.js                # Minified scripts
-├── manifest.json                # PWA manifest
-├── sw.js                        # Service Worker
+├── index.html                    # Main HTML file (1,008 lines)
+├── script.js                     # Main application logic (3,791 lines)
+├── styles.css                    # Main stylesheet (5,206 lines)
+├── styles.min.css               # Minified styles (77 KB)
+├── script.min.js                # Minified scripts (98 KB)
+├── manifest.json                # PWA manifest (v4.3.1)
+├── sw.js                        # Service Worker (cache-first + offline fallback)
 ├── sw.prod.js                   # Production Service Worker
 ├── sw.min.js                    # Minified Service Worker
+├── compression-utils.js         # Compression utilities
+├── enhanced-data-loader.js      # Advanced data loading
+├── migration-patch.js           # Data migration
 ├── env-config.js                # Environment configuration
 │
 ├── data/
 │   ├── surah_name.json          # All 114 surah metadata
-│   ├── al-quran-word-by-word.json
+│   ├── juz_data.json            # 30 Juz page mappings
+│   ├── quran_pages.json         # 604 Quran page data
+│   ├── duas.json                # Dua collections with counter configs
 │   └── surahs/
-│       ├── surah_001.json       # Al-Fatihah
-│       ├── surah_002.json       # Al-Baqarah
-│       └── ... (114 surah files total)
+│       ├── surah_001.json...surah_114.json  (114 files)
 │
-├── data-compressed/             # Compressed data versions
+├── data-compressed/             # Compressed data versions (gzip)
 ├── favicon/                     # App icons & favicons
 │
-├── Build & Utility Scripts
-├── build-scripts.js             # Build system
-├── minify-assets.js             # Asset minification
-├── compress-data.js             # Data compression
-├── version-manager.js           # Version management
-├── migration-patch.js           # Data migration
-├── enhanced-data-loader.js      # Advanced data loading
-├── compression-utils.js         # Compression utilities
-├── complete-sitemap-generator.js
+├── Build Scripts
+│   ├── minify-assets.js         # Asset minification
+│   ├── build-scripts.js         # Build system
+│   ├── compress-data.js         # Data compression
+│   └── version-manager.js       # Version management
 │
-├── Tests/
-├── tests/
-│   ├── quick-audit.js
-│   ├── memory-efficient-audit.js
-│   ├── performance-test.js
-│   ├── production-audit.js
-│   └── version-verification.js
+├── Tests
+│   └── tests/                   # Audit and performance tests
 │
 └── Documentation
-    ├── README.md
-    ├── CHANGELOG.md
-    ├── Various optimization guides
-    └── Feature documentation
+    ├── README.md, CHANGELOG.md
+    ├── QUICK_START.md, TECH_STACK_SUMMARY.md
+    ├── COMPONENT_PATTERNS.md, COLOR_SYSTEM.md
+    └── DOCUMENTATION_INDEX.md
 ```
 
 ---
@@ -98,281 +89,232 @@ QuranWordByWord/
 - **Methodology**: BEM-inspired with utility classes
 - **Approach**: CSS Custom Properties (CSS Variables) for theming
 - **Preprocessor**: None (vanilla CSS3)
-- **Total Size**: 3,208 lines (minified: 34.4% reduction)
-
-### CSS Features Used
-- **CSS Variables**: Theme colors, spacing, typography
-- **Flexbox**: Layout for headers, controls, modals
-- **CSS Grid**: Surah list, footer sections
-- **Media Queries**: Responsive design (mobile-first)
-- **Transitions & Animations**: Smooth interactions
-- **Gradients**: Header and footer backgrounds
-- **Pseudo-classes**: :hover, :active, :checked states
+- **Total Size**: 5,206 lines (minified: 77 KB)
 
 ### CSS Organization (Major Sections)
 ```
-1. CSS Variables (colors, fonts, shadows)
-2. Reset & Base Styles
-3. Header
-4. Search
-5. Main Content
-6. View Toggle Controls
-7. Surah List
-8. Surah Reading Page
-9. Reading Controls
+1.  CSS Variables (colors, fonts, shadows, spacing)
+2.  Reset & Base Styles
+3.  Header
+4.  Search (with Makki/Madani filters)
+5.  Main Content
+6.  View Toggle Controls (Surahs/Hifz/Dua's)
+7.  Surah List (card + list views)
+8.  Surah Reading Page
+9.  Reading Controls
 10. Bismillah
-11. Verses
-12. Modals
-13. Settings Modal
+11. Verses (word-by-word, multi-select)
+12. Modals (Settings, Favorites, Word Meaning, Go to Ayah, Privacy)
+13. Settings Modal (4 tabs)
 14. Last Surah Suggestion
-15. PWA Install Banner
-16. Floating Controls
+15. Floating Controls
+16. Floating Scroll Control
 17. Go to Ayah Modal
 18. Loading Spinner
 19. Animations
-20. Footer
-21. Bottom Navigation (Mobile)
-22. Responsive Design (Mobile Optimization)
-23. Favorites Modal
+20. Hifz Mode (Juz list, page reading)
+21. Dua Mode (cards, detail, counters, sticky headers, Quran refs)
+22. Footer (brand, stats, quote, meta)
+23. Bottom Navigation (Mobile)
+24. Responsive Design (768px, 480px breakpoints)
+25. Reading Mode (Normal/Reading/Compact)
+26. Favorites Modal
+27. Multi-Select Bar
 ```
 
 ### Color System
 **Light Theme (Default)**:
 ```css
---primary-color: #2d7d32 (Deep Green)
---primary-light: #4caf50 (Light Green)
---primary-dark: #1b5e20 (Dark Green)
---secondary-color: #d4af37 (Gold)
---secondary-light: #ffd54f (Light Gold)
---secondary-dark: #bf9000 (Dark Gold)
-
---text-primary: #1a1a1a
---text-secondary: #666666
---bg-primary: #fafafa
---bg-secondary: #ffffff
---border-color: #e0e0e0
+--primary-color: #2d7d32    --primary-light: #4caf50    --primary-dark: #1b5e20
+--secondary-color: #d4af37  --secondary-light: #ffd54f  --secondary-dark: #bf9000
+--text-primary: #1a1a1a     --text-secondary: #666666   --bg-primary: #fafafa
 ```
 
-**Dark Theme**:
+**Dark Theme** (`[data-theme="dark"]`):
 ```css
---text-primary: #ffffff
---text-secondary: #b0b0b0
---bg-primary: #121212
---bg-secondary: #1e1e1e
---bg-card: #2d2d2d
---border-color: #404040
+--text-primary: #ffffff     --text-secondary: #b0b0b0
+--bg-primary: #121212       --bg-secondary: #1e1e1e     --bg-card: #2d2d2d
 ```
 
 ---
 
 ## 4. EXISTING COMPONENTS & PATTERNS
 
-### Main Layout Components
+### Main Layout
 
-#### Header Component
-- **ID**: `.header`
-- **Features**: Logo, navigation buttons, settings control
-- **Responsive**: Adapts controls on mobile
-- **Structure**:
-  ```html
-  <header class="header">
-    <div class="header-content">
-      <button class="back-btn"> ← Back
-      <div class="logo"> Logo with icon
-      <div class="header-controls">
-        <!-- Conditional controls based on page -->
-  ```
+#### Header
+- Logo with gradient background, navigation buttons, settings control
+- Contextual controls based on current page (home vs reading)
 
-#### Search Bar Component
-- **ID**: `#searchContainer`
-- **Features**: Real-time search across surahs
-- **Supports**: Arabic, Bengali, English names
-- **Input**: `.search-box` with icon and clear button
+#### Search Bar
+- Real-time search across Arabic, Bengali, English names
+- **Filters**: All / Makkah / Madinah toggle buttons
+- **Result count** display
+- **Numeric search** support (e.g., type "67" to find Surah 67)
 
-#### View Toggle Component
-- **Classes**: `.view-controls`, `.toggle-buttons`
-- **Options**: Card view (default) and List view
-- **Features**: View count statistics
+#### Main View Toggle (3 tabs)
+- **Surahs** (`fa-quran`) — surah card/list grid
+- **Hifz** (`fa-book-open`) — 30 Juz with page navigation
+- **Dua's** (`fa-hands-praying`) — dua collections with counters
 
 ### Reading Components
 
 #### Surah Card
-- **Function**: `createSurahCard(surahId, surahInfo)`
-- **Contains**: Arabic name, Bengali name, type, ayah count
-- **Features**: Hover effects, favorite toggle, last-opened highlighting
-- **Layout**: Grid-based responsive cards
+- `createSurahCard(surahId, surahInfo)` — card or list item
+- Arabic name, Bengali name, type badge, ayah count
+- Hover effects, favorite toggle, last-opened highlighting
 
-#### Verse/Ayah Display
-- **Function**: `createVerseElement(verseNum, verseData)`
-- **Structure**: Arabic text → Full translation → Word-by-word breakdown
-- **Features**: Interactive word highlighting, click-to-view meanings
+#### Verse Display
+- `createVerseElement(verseNum, verseData)` — verse DOM element
+- Arabic text → Full translation → Word-by-word breakdown
+- Interactive word highlighting, click-to-view meanings
+- Copy and share actions per verse
 
-#### Reading Controls
-- **ID**: `#surahControls`, `.reading-controls`
-- **Controls**:
-  - Translation toggle checkbox
-  - Language selector buttons (Bengali/English)
-  - Word-by-word toggle
-  - Go to Ayah button
+#### Reading Mode (3 views)
+- **Normal**: Full controls with verse actions
+- **Reading**: Distraction-free with sticky reading mode bar
+- **Compact**: Tightly-spaced minimal layout
 
-#### Bismillah Component
-- **ID**: `#bismillah`
-- **Features**: Special formatting for opening verse
-- **Auto-handling**: Different display for Surah 9
+#### Multi-Select Mode
+- Select multiple verses, copy/share as formatted text
+
+### Hifz Components
+
+#### Juz List
+- 30 Juz cards with page ranges
+- Click to open page-by-page reading
+
+#### Hifz Page Reader
+- Page number, Juz info, pagination indicator
+- Previous/Next page navigation
+- Renders verses from multiple surahs on a single page
+
+### Dua Components
+
+#### Dua Collection Cards
+- Icon circle, title (Bengali + English), item count
+- **Circular SVG progress ring** showing completion ratio (conic-gradient)
+
+#### Dua Detail Page
+- Collection title and description
+- Translation toggle and Reset All button
+- **Sticky item headers** (GitHub-style) with IntersectionObserver
+
+#### Dua Items
+- `.dua-item-header` — number badge + titles + counter buttons (sticky)
+- `.dua-item-body` — Arabic text, translations, instructions, source
+- **Counter button** (64px circle) showing current/target count
+- `.counter-complete` state with green gradient + glow
+- **Quran references** load verses from existing surah data (no duplication)
 
 ### Modal Components
 
-#### Settings Modal
-- **ID**: `#settingsModal`
-- **Large modal variant**: `.large-modal`
-- **Tabs** (4 total):
-  1. **Display Tab** (`#displayTab`):
-     - Font size controls (Small/Medium/Large/Extra Large)
-     - Font selection (Arabic, Bengali, UI)
-  2. **Reading Tab** (`#readingTab`):
-     - Auto-scroll toggle
-     - Scroll speed slider (0.5x - 3.0x)
-     - Clear session button
-  3. **Theme Tab** (`#themeTab`):
-     - Light/Dark/Auto theme options
-     - 8 color scheme options
-  4. **About Tab** (`#aboutTab`):
-     - Version info
-     - Developer credits
-     - Last update timestamp
+| Modal | ID | Purpose |
+|-------|-----|---------|
+| Settings | `#settingsModal` | 4 tabs: Display, Reading, Theme, About |
+| Word Meaning | `#wordModal` | Arabic word + Bengali meaning popup |
+| Favorites | `#favoritesModal` | Bookmark list with remove buttons |
+| Go to Ayah | `#goToAyahModal` | Number input + First/Middle/Last quick nav |
+| Privacy | `#privacyModal` | Privacy policy display |
 
-#### Word Meaning Modal
-- **ID**: `#wordModal`
-- **Content**: Arabic word + Bengali meaning
-- **Trigger**: Click word in word-by-word mode
-
-#### Favorites Modal
-- **ID**: `#favoritesModal`
-- **Classes**: `.modal-overlay`, `.modal-content`, `.favorites-modal`
-- **Features**: Empty state, favorites list, remove button
-
-#### Go to Ayah Modal
-- **ID**: `#goToAyahModal`
-- **Features**: 
-  - Number input
-  - Quick navigation (First, Middle, Last)
-  - Range display
-
-### Floating/Mobile Components
-
-#### Floating Controls Panel
-- **ID**: `#floatingControls`
-- **Mobile-specific**: Button group for quick access
-- **Features**: Translation, language, word-by-word toggles
-
-#### Floating Scroll Control
-- **ID**: `#floatingScrollControl`
-- **Features**: Pause/resume, slow down, speed up, stop buttons
-- **Display**: During auto-scroll mode
+### Mobile Components
 
 #### Bottom Navigation
-- **Classes**: `.bottom-nav`, `.bottom-nav-item`
-- **Mobile-only**: Appears on screens < 768px
-- **Items**: Search, Favorites, Back, Controls
-- **Fixed positioning**: Bottom safe-area aware
+- **Home page**: Home, Favorites, Dua's, Search, Settings
+- **Reading page**: Home, Toggle Favorite, Go to Ayah, Controls, Settings
+- Contextual items via `updateBottomNavForPage(isReadingPage)`
 
-### Data Structures
+#### Floating Controls Panel
+- Translation toggle, language buttons, word-by-word toggle
+- Collapsible panel on reading page
 
-#### Application State
-```javascript
-appData = {
-    surahNames: null,           // All 114 surahs metadata
-    quranData: null,            // Current surah verses
-    currentSurah: null,         // Currently displayed surah
-    currentTranslationLang: 'bangla', // 'bangla' or 'english'
-    isTranslationVisible: true,
-    isWordByWordMode: false,
-    searchQuery: '',
-    settings: {
-        fontSize: 'medium',     // small|medium|large|extra-large
-        arabicFont: 'Amiri',
-        bengaliFont: 'Noto Serif Bengali',
-        uiFont: 'Inter',
-        theme: 'light',         // light|dark|auto
-        primaryColor: '#2d7d32',
-        autoScroll: false,
-        scrollSpeed: 1.0,
-        favorites: []           // Array of surah IDs
-    },
-    autoScrollInterval: null,
-    isScrollPaused: false,
-    currentView: 'card'         // card|list
-}
-```
+#### Floating Scroll Control
+- Pause/resume, slow down, speed up, stop buttons
+- Shown during auto-scroll mode
 
-#### Surah Metadata (surah_name.json)
-```json
-{
-    "1": {
-        "name_arabic": "الفاتحة",
-        "name_bengali": "আল-ফাতিহা",
-        "name_english": "Surah Al-Fatihah",
-        "type": "Makkah",      // Makkah|Madinah|Makkah & Madinah
-        "ayah_number": 6       // Total verses in surah
-    }
-}
-```
-
-#### Surah Content (surah_XXX.json)
-```json
-{
-    "surah_id": 1,
-    "verses": {
-        "0": {
-            "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ",
-            "bangla_trans": "পরম করুণাময় মেহেরবান আল্লাহর নামে",
-            "english_trans": "In the name of Allah..."
-        },
-        "1": {
-            "arabic_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-            "bangla_trans": "প্রশংসা একমাত্র আল্লাহর জন্য...",
-            "english_trans": "All praise is due to Allah...",
-            "word_by_word": {
-                "1": {
-                    "words_ar": "الْحَمْدُ",
-                    "translate_bn": "সকল প্রশংসা"
-                },
-                "2": {
-                    "words_ar": "لِلَّهِ",
-                    "translate_bn": "আল্লাহ্‌রই জন্য"
-                }
-            }
-        }
-    }
-}
-```
+### Footer
+- **Brand section**: Logo, description, stats (114 Surahs · 6236 Ayahs · 2+ Languages)
+- **Feature links**: Icons with labels
+- **Support links**: Install, privacy, feedback
+- **Quote section**: Arabic verse with ornamental dividers
+- **Meta line**: Copyright · version pill badge · tagline
 
 ---
 
-## 5. MOBILE RESPONSIVENESS APPROACH
+## 5. DATA STRUCTURES
 
-### Breakpoints
-```css
-@media (max-width: 768px)  /* Tablet and below */
-@media (max-width: 480px)  /* Phone and below */
+### Application State (appData)
+```javascript
+{
+    surahNames: null,           // All 114 surahs metadata (from surah_name.json)
+    quranData: null,            // Current surah verses
+    currentSurah: null,         // Currently displayed surah ID
+    currentTranslationLang: 'bangla',
+    isTranslationVisible: true,
+    isWordByWordMode: false,
+    searchQuery: '',
+    searchFilter: 'all',        // 'all', 'makkah', 'madinah'
+    viewMode: 'normal',         // 'normal', 'reading', 'compact'
+    mainView: 'surahs',         // 'surahs', 'hifz', 'dua'
+    isSelectionMode: false,
+    selectedVerses: new Set(),
+    juzData: null,              // 30 Juz data
+    quranPages: null,           // 604 Quran pages
+    currentHifzPage: 1,
+    currentJuz: null,
+    duaData: null,              // Dua collections from duas.json
+    duaCounts: {},              // { itemId: count }
+    currentDua: null,           // Active dua collection ID
+    duaTranslationVisible: false,
+    settings: {
+        fontSize: 'medium',
+        fontSizeMultiplier: 1.0,    // 0.7 to 2.0
+        arabicFont: 'Amiri',
+        bengaliFont: 'Noto Serif Bengali',
+        uiFont: 'Inter',
+        theme: 'light',
+        primaryColor: '#2d7d32',
+        autoScroll: false,
+        scrollSpeed: 1.0,           // 0.1 to 3.0
+        favorites: []
+    },
+    currentView: 'card'         // 'card' or 'list'
+}
 ```
 
-### Mobile-First Changes
-1. **Header**: Controls hidden, logo centered
-2. **Bottom Navigation**: Visible instead of header buttons
-3. **Surah List**: Single column instead of grid
-4. **Modals**: 95-98vw width instead of fixed
-5. **Font Sizes**: Scaled down proportionally
-6. **Touch Targets**: Minimum 48px height for buttons
-7. **Safe Area**: Padding for notched devices
-8. **Floating Controls**: Repositioned for mobile
-
-### Mobile Optimization Features
-- **Safe Area Insets**: Notch/home indicator support
-- **Touch-Friendly**: Large tap targets
-- **Bottom Sheet Modals**: Slides up from bottom
-- **Performance**: Lazy loading on scroll
-- **Storage**: IndexedDB caching for offline
+### Dua Data Structure (duas.json)
+```json
+{
+  "collections": [
+    {
+      "id": "essential_protection",
+      "title_bn": "...", "title_en": "...", "title_ar": "...",
+      "description_bn": "...", "description_en": "...",
+      "icon": "fa-shield-halved",
+      "category": "protection",
+      "items": [
+        {
+          "id": "item_1",
+          "type": "quran_ref",
+          "label_bn": "...", "label_en": "...",
+          "instruction_bn": "...", "instruction_en": "...",
+          "target_count": 3,
+          "surah_id": 112,
+          "ayah_start": 1, "ayah_end": null,
+          "source_bn": "...", "source_en": "..."
+        },
+        {
+          "id": "item_2",
+          "type": "hadith",
+          "arabic_text": "...",
+          "target_count": 7,
+          "partial_text_ar": "..."
+        }
+      ]
+    }
+  ]
+}
+```
 
 ---
 
@@ -380,39 +322,57 @@ appData = {
 
 ### Data Loading
 ```javascript
-loadSurahNames()              // Load all surah metadata
-loadSurahData(surahId)        // Load specific surah verses
-preloadAdjacentSurahs()       // Background preload next/prev
+loadData()                    // Main init: loads surah_name.json with IDB backup
+loadSurahData(surahId)        // Load specific surah (network → cache → IDB)
+loadSurahFromServer(surahId)  // Fetch with IDB backup on success
+loadDuaData()                 // Load duas.json with IDB fallback
+loadHifzData()                // Load juz_data.json + quran_pages.json with IDB
+preloadAdjacentSurahs(id)     // Background preload next/prev surahs
 ```
 
-### Navigation & Pages
+### Navigation & Routing
 ```javascript
+switchMainView(view)          // Switch 'surahs'/'hifz'/'dua', hide others
 switchToReadingPage()         // Show surah reading interface
-switchToSurahListPage()       // Show surah list
-showLastSurahSuggestion()     // Display continue reading card
+setAppHash(path)              // Set hash URL: #/surah/1, #/hifz/5, #/dua/id
+parseAppHash()                // Parse hash → { type, id } or null
+navigateToHash(route)         // Navigate to parsed route
+goBackToSurahList()           // Return to surah list, clear hash
+initBottomNavigation()        // Setup bottom nav with page-specific items
+updateBottomNavForPage(isReading)  // Show/hide contextual nav items
 ```
 
 ### Rendering
 ```javascript
-renderSurahList()             // Render all surah cards
+renderSurahList()             // Render all surah cards/list items
 renderVerses(surahData)       // Render verses with controls
-createVerseElement()          // Create single verse DOM
-renderFavorites()             // Render favorite surahs
+createVerseElement(num, data) // Create single verse DOM element
+renderFavorites()             // Render favorites modal content
+renderJuzList()               // Render 30 Juz cards
+renderHifzPageContent(page)   // Render verses for a Quran page
+renderDuaList()               // Render dua collection cards with progress rings
+renderDuaContent(collection)  // Render dua items with counters + Quran refs
+renderQuranRefHtml(item, map, cls)  // Insert Quran verses into dua items
+```
+
+### Dua Counter Management
+```javascript
+saveDuaCounts()               // Persist to localStorage
+incrementDuaCount(id, target) // Increment, wrap at target
+resetDuaCount(id)             // Reset single counter
+resetAllDuaCounts(colId)      // Reset entire collection
+completeDuaCount(id, target)  // Mark as complete
+updateDuaItemUI(id, cur, tgt) // Sync DOM without full re-render
+toggleDuaTranslations()       // Show/hide translations + English labels
+initDuaStickyHeaders()        // Setup sticky headers with IntersectionObserver
 ```
 
 ### Settings & State
 ```javascript
-loadSettings()                // Load from localStorage
+loadSettings()                // Load from localStorage (includes daily dua reset)
 saveSettings()                // Save to localStorage
 saveLastSurah(surahId)        // Track last opened surah
 clearAllData()                // Reset all user data
-```
-
-### Favorites
-```javascript
-toggleCurrentSurahFavorite()  // Add/remove from favorites
-updateFavoriteButtonState()   // Update UI after change
-removeFavorite(surahId)       // Remove specific favorite
 ```
 
 ### Translation & Display
@@ -420,14 +380,41 @@ removeFavorite(surahId)       // Remove specific favorite
 toggleTranslation()           // Show/hide translations
 setTranslationLanguage(lang)  // Switch Bengali↔English
 toggleWordByWord()            // Enable word-by-word mode
-updateBismillahTranslation()  // Update opening verse translation
+setViewMode(mode)             // Set 'normal'/'reading'/'compact'
+toggleReadingMode()           // Toggle reading mode
+handleFontSizeSlider(e)       // Granular font size (0.7x-2.0x)
 ```
 
-### Performance & Debugging
+### Auto-Scroll
 ```javascript
-getPerformanceStats()         // Cache and memory info
-clearSurahCache()             // Free memory
-QuranPerformance.check()      // Console debugging
+toggleAutoScroll()            // Start/stop
+startAutoScroll()             // requestAnimationFrame smooth scroll
+stopAutoScroll()              // Cancel animation frame
+changeScrollSpeed(e)          // Speed slider handler
+toggleScrollPause()           // Pause/resume
+```
+
+### Multi-Select
+```javascript
+toggleVerseSelection(num)     // Add/remove verse from selection
+handleCopySelectedVerses()    // Copy selected verses to clipboard
+handleShareSelectedVerses()   // Share via Web Share API
+```
+
+### Utilities
+```javascript
+escapeHtml(str)               // Sanitize HTML to prevent XSS
+showLoading() / hideLoading() // Loading spinner
+showError(msg)                // Error notification
+showSuccess(msg)              // Success notification
+debounce(func, wait)          // Event debouncing
+```
+
+### IndexedDB Helper (IDB)
+```javascript
+IDB.open()                    // Initialize database connection
+IDB.set(key, value)           // Store data persistently
+IDB.get(key)                  // Retrieve stored data
 ```
 
 ---
@@ -435,21 +422,32 @@ QuranPerformance.check()      // Console debugging
 ## 7. STORAGE & PERSISTENCE
 
 ### localStorage Keys
-```javascript
-'quranAppSettings'            // User settings
-'quranAppLastSurah'           // Last opened surah ID
-'quranAppSearchQuery'         // Search history
-'quranAppTranslationVisible'  // Translation visibility
-'quranAppTranslationLang'     // Selected language
-'quranAppWordByWordMode'      // Word-by-word mode state
-'quranAppCurrentView'         // Card or list view
-'quranAppFavorites'           // Favorite surah IDs
-```
+| Key | Purpose | Type |
+|-----|---------|------|
+| `quranAppSettings` | All user settings | JSON |
+| `quranAppLastSurah` | Last opened surah ID | String |
+| `quranAppSearchQuery` | Last search query | String |
+| `quranAppTranslationVisible` | Translation visibility | JSON boolean |
+| `quranAppTranslationLang` | Current language | String |
+| `quranAppWordByWordMode` | Word-by-word state | JSON boolean |
+| `quranAppMainView` | Active view (surahs/hifz/dua) | String |
+| `quranAppActivePage` | Current page state | String |
+| `quranAppViewMode` | Reading view mode | String |
+| `quranAppCurrentHifzPage` | Current Hifz page | String |
+| `quranAppCurrentDua` | Current dua collection ID | String |
+| `quranAppDuaCounts` | Dua counter states | JSON object |
+| `quranAppDuaLastDate` | Last dua reset date | Date string |
+| `surahView` | List view preference (card/list) | String |
 
-### IndexedDB (for PWA)
-- Caches entire surah data
-- Enables offline reading
-- Improves load times
+### IndexedDB (quranAppDB)
+| Key | Purpose |
+|-----|---------|
+| `surah_names` | Backup of surah metadata |
+| `surah_XXX` | Individual surah verse data |
+| `duas` | Dua collections data |
+| `juz_data` | Hifz/Juz page mappings |
+
+**Fallback strategy**: Network → Service Worker Cache → IndexedDB
 
 ---
 
@@ -471,82 +469,78 @@ QuranPerformance.check()      // Console debugging
 ### Typography
 - **Base Font Size**: 16px (1rem)
 - **Line Height**: 1.6
-- **System Stack**: Inter, -apple-system, BlinkMacSystemFont, sans-serif
-- **Arabic**: Amiri (1.6rem default)
-- **Bengali**: Noto Serif Bengali (1.1rem default)
+- **Arabic**: Amiri (default, 8 font options available)
+- **Bengali**: Noto Serif Bengali
+- **UI**: Inter
 
-### Font Size Multipliers
-```css
---font-size-multiplier: 0.85    /* Small */
---font-size-multiplier: 1       /* Medium (default) */
---font-size-multiplier: 1.15    /* Large */
---font-size-multiplier: 1.3     /* Extra Large */
+### Font Size Multipliers (8 presets)
 ```
-
-### Transitions
-```css
---transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+XS: 0.7  |  S: 0.85  |  M: 1.0  |  L: 1.15
+XL: 1.3  |  2XL: 1.5  |  3XL: 1.75  |  4XL: 2.0
 ```
 
 ---
 
-## 9. PERFORMANCE OPTIMIZATIONS
+## 9. MOBILE RESPONSIVENESS
 
-### Current Achievements
+### Breakpoints
+```css
+@media (max-width: 768px)  /* Tablet and below */
+@media (max-width: 480px)  /* Phone and below */
+```
+
+### Mobile-Specific Features
+1. **Bottom Navigation**: Contextual items for home vs reading page
+2. **Floating Controls**: Collapsible translation/WbW toggles
+3. **Safe Area Insets**: Notch/home indicator support
+4. **Touch Targets**: Minimum 48px height
+5. **Dua Counter Buttons**: 64px → 56px → 50px at smaller breakpoints
+6. **Sticky Headers**: Different `top` offsets per breakpoint (50px/46px/42px)
+
+---
+
+## 10. PERFORMANCE
+
+### Achievements
 - **Data Compression**: 86.9%
-- **Asset Minification**: 34.4%
-- **Total Optimization**: 87.2%
-- **Load Time Improvement**: 5-8x faster
-- **Initial Load**: 16KB (vs 17MB before)
+- **Asset Minification**: ~30%
+- **Load Time**: 5-8x faster than v2.x
+- **Offline**: Full app works without network (Service Worker + IDB)
 
-### Techniques Used
-1. **Lazy Loading**: On-demand surah loading
-2. **Caching**: In-memory + IndexedDB caching
-3. **Compression**: gzip data files
-4. **Minification**: CSS, JS, HTML minified
-5. **Service Worker**: Offline support & caching
-6. **Preloading**: Popular surahs preloaded
-7. **Debouncing**: Search input debounced
+### Techniques
+1. **Lazy Loading**: On-demand surah loading with in-memory cache
+2. **IndexedDB Backup**: Persistent data survives iOS cache eviction
+3. **Cache-First SW**: Service Worker serves cached assets immediately
+4. **Compression**: Pako gzip for data files
+5. **Preloading**: Adjacent surahs preloaded in background
+6. **Debouncing**: Search input debounced
 
 ---
 
-## 10. ACCESSIBILITY FEATURES
+## 11. ACCESSIBILITY
 
 - **ARIA Labels**: Button titles and descriptions
 - **Semantic HTML**: Header, nav, main, footer
-- **Keyboard Navigation**: Tab order, keyboard shortcuts
+- **Keyboard Shortcuts**: Ctrl+F (search), Ctrl+, (settings), Escape (close)
 - **Color Contrast**: WCAG AAA compliant
-- **Alt Text**: Images with descriptions
 - **Focus Indicators**: Visible focus states
-- **Title Attributes**: Hover tooltips on buttons
-
-### Keyboard Shortcuts
-- `Ctrl+F`: Open search
-- `Ctrl+,`: Open settings
-- `Escape`: Close modals/search/back
+- **RTL Support**: Arabic text rendered right-to-left
 
 ---
 
-## 11. PWA FEATURES
-
-### manifest.json Configuration
-```json
-{
-    "name": "Al-Quran Word by Word",
-    "short_name": "Quran WbW v3",
-    "display": "standalone",
-    "start_url": "/",
-    "background_color": "#2d7d32",
-    "theme_color": "#2d7d32",
-    "orientation": "portrait-primary"
-}
-```
+## 12. PWA FEATURES
 
 ### Service Worker
-- Offline support
-- Asset caching
-- Background sync
-- Push notifications ready
+- **Cache-first** strategy for all requests
+- **Embedded offline fallback** — bilingual HTML page when cache is empty
+- **Background sync** ready
+- **Push notifications** ready
+- Dynamic caching of network responses
+
+### Deep Linking
+- Hash-based routing: `#/surah/1`, `#/hifz/5`, `#/dua/collection_id`
+- Browser back/forward navigation support
+- Shareable URLs
 
 ### Installation
 - Installable on Android/iOS
@@ -558,14 +552,13 @@ QuranPerformance.check()      // Console debugging
 
 ## SUMMARY
 
-The Quran Word By Word application is a **feature-rich, performance-optimized Progressive Web App** built with vanilla JavaScript and modern CSS. It demonstrates excellent patterns for:
+The Quran Word By Word application is a **feature-rich, performance-optimized Progressive Web App** built with vanilla JavaScript and modern CSS. Key capabilities:
 
-1. **Component-based architecture** without a framework
-2. **State management** using simple objects and localStorage
-3. **Responsive design** with mobile-first approach
-4. **PWA implementation** with offline support
-5. **Performance optimization** through lazy loading and caching
-6. **Accessibility** and internationalization (Arabic, Bengali, English)
-7. **Beautiful Islamic-themed design** with customizable colors and fonts
-
-The codebase is well-organized, maintainable, and ready for feature additions with clear patterns for new components and functionality.
+1. **3 main views**: Surahs (114 surahs), Hifz (30 Juz, 604 pages), Dua's (collections with tasbeeh counters)
+2. **Offline-first**: Service Worker + IndexedDB ensure full offline operation
+3. **Deep linking**: Shareable URLs via hash routing
+4. **Mobile-optimized**: Bottom navigation, floating controls, responsive breakpoints
+5. **Customizable**: 8 Arabic fonts, granular font sizing (0.7x-2.0x), light/dark themes
+6. **Bilingual**: Arabic, Bengali, and English throughout
+7. **Reading modes**: Normal, Reading (distraction-free), Compact
+8. **Counter system**: Dua tasbeeh counters with daily auto-reset and progress tracking

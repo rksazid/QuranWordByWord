@@ -3,10 +3,11 @@
 ## Project Overview
 
 **Type**: Vanilla JavaScript Progressive Web App (PWA)
-**Version**: 3.0.0
+**Version**: 4.3.1
 **Performance**: 87% optimized, 5-8x faster loading
 **Mobile Ready**: Yes, responsive design with mobile-first approach
-**Offline Support**: Yes, via Service Worker
+**Offline Support**: Yes, via Service Worker + IndexedDB backup
+**Deep Links**: Hash-based URL routing (`#/surah/1`, `#/hifz/5`, `#/dua/100_ayat_amal`)
 
 ---
 
@@ -18,26 +19,32 @@
 | Styling | CSS3 with CSS Variables |
 | HTML | HTML5 Semantic Markup |
 | Icons | Font Awesome 6.4.0 |
-| Fonts | Google Fonts (Amiri, Noto Serif Bengali, Inter) |
-| Storage | localStorage + IndexedDB |
-| PWA | Service Worker + manifest.json |
+| Fonts | Google Fonts (Amiri, Scheherazade, Noto Naskh Arabic, Harmattan, Alkalami, Markazi Text, Noto Serif Bengali, Inter) |
+| Storage | localStorage + IndexedDB (IDB helper) |
+| PWA | Service Worker (cache-first) + manifest.json |
+| Compression | Pako (gzip) via CDN with SRI |
 
 ---
 
 ## Project Structure at a Glance
 
 ```
-├── index.html              (3208 lines)  Main UI
-├── script.js               (2185 lines)  Application logic
-├── styles.css              (3208 lines)  Styling system
-├── manifest.json                         PWA configuration
-├── sw.js                                 Service Worker
+├── index.html              (1008 lines)   Main UI
+├── script.js               (3791 lines)   Application logic
+├── styles.css              (5206 lines)   Styling system
+├── manifest.json                          PWA configuration (v4.3.1)
+├── sw.js                                  Service Worker (cache-first + offline fallback)
 ├── data/
-│   ├── surah_name.json                   All 114 surah metadata
+│   ├── surah_name.json                    All 114 surah metadata
+│   ├── juz_data.json                      30 Juz page mappings
+│   ├── quran_pages.json                   604 Quran page data
+│   ├── duas.json                          Dua collections with counter configs
 │   └── surahs/
 │       ├── surah_001.json...surah_114.json  Quran content
-├── TECH_STACK_SUMMARY.md                 Full documentation
-└── COMPONENT_PATTERNS.md                 Coding patterns & examples
+├── TECH_STACK_SUMMARY.md                  Full documentation
+├── COMPONENT_PATTERNS.md                  Coding patterns & examples
+├── COLOR_SYSTEM.md                        Color design tokens
+└── DOCUMENTATION_INDEX.md                 Documentation navigation
 ```
 
 ---
@@ -61,16 +68,24 @@ All colors use CSS variables in `:root` selector - easy to update globally!
 
 ## Essential DOM Elements to Know
 
-### Pages
-- `#surahListPage` - Home page with surah list
+### Pages (6 total)
+- `#surahListPage` - Home page with surah card/list grid
 - `#surahReadingPage` - Reading interface for selected surah
+- `#hifzListPage` - Hifz mode: 30 Juz list
+- `#hifzReadingPage` - Hifz mode: single Quran page view
+- `#duaListPage` - Dua collections list with progress rings
+- `#duaReadingPage` - Dua detail page with counters and Quran references
 
 ### Key Containers
 - `#surahList` - Grid of surah cards
 - `#versesContainer` - Verses/ayahs display
-- `#searchContainer` - Search bar
-- `#settingsModal` - Settings panel (4 tabs)
+- `#searchContainer` - Search bar with Makki/Madani filters
+- `#settingsModal` - Settings panel (4 tabs: Display, Reading, Theme, About)
 - `#favoritesModal` - User's favorite surahs
+- `#mainViewToggle` - Surahs / Hifz / Dua's tab buttons
+- `#duaList` - Dua collection cards container
+- `#duaItemsContainer` - Dua items with counters
+- `#bottomNav` - Mobile bottom navigation bar
 
 ### Important Buttons
 - `#searchBtn` - Open search
@@ -78,6 +93,8 @@ All colors use CSS variables in `:root` selector - easy to update globally!
 - `#favoritesBtn` - Open favorites
 - `#toggleFavoriteBtn` - Add/remove current surah
 - `#toggleControlsBtn` - Show/hide reading controls
+- `#duaTranslationToggle` - Show/hide dua translations
+- `#duaResetAllBtn` - Reset all dua counters in a collection
 
 ---
 
@@ -85,17 +102,51 @@ All colors use CSS variables in `:root` selector - easy to update globally!
 
 ```javascript
 {
-    surahNames: {},           // All surah metadata
+    surahNames: {},           // All 114 surah metadata
     quranData: {},            // Current surah verses
-    currentSurah: null,       // Currently reading
-    
+    currentSurah: null,       // Currently reading surah ID
+
+    // Translation
+    currentTranslationLang: 'bangla',  // 'bangla' or 'english'
+    isTranslationVisible: true,
+    isWordByWordMode: false,
+
+    // Search
+    searchQuery: '',
+    searchFilter: 'all',      // 'all', 'makkah', 'madinah'
+
+    // View Modes
+    viewMode: 'normal',       // 'normal', 'reading', 'compact'
+    mainView: 'surahs',       // 'surahs', 'hifz', 'dua'
+    currentView: 'card',      // 'card' or 'list'
+
+    // Multi-Select
+    isSelectionMode: false,
+    selectedVerses: new Set(),
+
+    // Hifz Mode
+    juzData: null,
+    quranPages: null,
+    currentHifzPage: 1,
+    currentJuz: null,
+
+    // Dua Mode
+    duaData: null,            // Loaded from data/duas.json
+    duaCounts: {},            // {itemId: count, ...}
+    currentDua: null,         // Current dua collection ID
+    duaTranslationVisible: false,
+
     settings: {
-        theme: 'light',       // light|dark|auto
-        fontSize: 'medium',   // small|medium|large|extra-large
+        theme: 'light',             // 'light' or 'dark'
+        fontSize: 'medium',
+        fontSizeMultiplier: 1.0,    // 0.7 to 2.0
         arabicFont: 'Amiri',
+        bengaliFont: 'Noto Serif Bengali',
+        uiFont: 'Inter',
+        primaryColor: '#2d7d32',
         autoScroll: false,
-        scrollSpeed: 1.0,
-        favorites: []         // Array of surah IDs
+        scrollSpeed: 1.0,           // 0.1 to 3.0
+        favorites: []               // Array of surah IDs
     }
 }
 ```
@@ -143,39 +194,30 @@ const allSurahs = appData.surahNames;
 
 ### 7. Toggle Modal Display
 ```javascript
-// Open
-document.getElementById('myModal').style.display = 'flex';
-
-// Close
-document.getElementById('myModal').style.display = 'none';
+document.getElementById('myModal').style.display = 'flex';  // Open
+document.getElementById('myModal').style.display = 'none';  // Close
 ```
 
-### 8. Add Event Listener to Button
+### 8. Use Hash Routing (Deep Links)
 ```javascript
-document.getElementById('myBtn').addEventListener('click', () => {
-    // Handle click
-});
+setAppHash('surah/67');           // Set URL to #/surah/67
+setAppHash('dua/100_ayat_amal');  // Set URL to #/dua/100_ayat_amal
+setAppHash('');                   // Clear hash (go home)
+
+const route = parseAppHash();     // Returns { type: 'surah', id: '67' } or null
 ```
 
-### 9. Render Dynamic List
+### 9. Use IndexedDB Backup
 ```javascript
-const container = document.getElementById('listContainer');
-container.innerHTML = '';  // Clear
-
-items.forEach(item => {
-    const el = document.createElement('div');
-    el.className = 'list-item';
-    el.innerHTML = `<h3>${item.title}</h3>`;
-    container.appendChild(el);
-});
+await IDB.set('my_key', myData);          // Store data
+const data = await IDB.get('my_key');     // Retrieve data
 ```
 
-### 10. Toggle Dark Mode
-The app automatically uses CSS variables. To toggle theme:
+### 10. Switch Main View
 ```javascript
-appData.settings.theme = 'dark';
-document.documentElement.setAttribute('data-theme', 'dark');
-saveSettings();
+switchMainView('surahs');  // Show surah list
+switchMainView('hifz');    // Show Hifz/Juz list
+switchMainView('dua');     // Show Dua collections
 ```
 
 ---
@@ -193,25 +235,29 @@ When adding a new feature:
 ### CSS
 - [ ] Use CSS variables for colors: `var(--primary-color)`
 - [ ] Use flexbox/grid for layout
-- [ ] Add responsive breakpoint at 768px
+- [ ] Add responsive breakpoints at 768px and 480px
 - [ ] Use transition for smooth animations: `var(--transition)`
+- [ ] Support dark theme via `[data-theme="dark"]`
 - [ ] Follow BEM naming: `.component__element--modifier`
 
 ### JavaScript
 - [ ] Add DOM element reference to `elements` object
 - [ ] Create open/close functions
+- [ ] Use `escapeHtml()` for any user-generated content in innerHTML
 - [ ] Use try-catch for error handling
 - [ ] Call `saveSettings()` when state changes
-- [ ] Add console.log for debugging
+- [ ] Add IDB backup for important data: `IDB.set(key, data)`
+- [ ] Update hash routing if page is navigable: `setAppHash('type/id')`
 - [ ] Handle mobile responsiveness
 - [ ] Close on Escape key press
 
 ### Testing
-- [ ] Test on mobile devices (< 768px)
+- [ ] Test on mobile devices (< 768px and < 480px)
 - [ ] Test in light and dark themes
-- [ ] Test with different font sizes
+- [ ] Test with different font sizes (0.7x to 2.0x)
 - [ ] Test with Arabic and Bengali text
-- [ ] Test with slow network (DevTools)
+- [ ] Test offline behavior (disconnect network)
+- [ ] Test deep link URL sharing
 
 ---
 
@@ -227,8 +273,10 @@ clearAllData()          // Reset everything
 
 ### Navigation
 ```javascript
+switchMainView(view)    // Switch between 'surahs', 'hifz', 'dua'
 switchToReadingPage()   // Show reading interface
-switchToSurahListPage() // Show surah list
+setAppHash(path)        // Set hash URL for deep linking
+navigateToHash(route)   // Navigate to a parsed hash route
 ```
 
 ### Rendering
@@ -236,6 +284,9 @@ switchToSurahListPage() // Show surah list
 renderSurahList()       // Draw all surah cards
 renderVerses(data)      // Draw verses for current surah
 renderFavorites()       // Draw favorite surahs
+renderDuaList()         // Draw dua collection cards with progress rings
+renderDuaContent(col)   // Draw dua items with counters and Quran refs
+renderJuzList()         // Draw 30 Juz cards
 ```
 
 ### Favorites
@@ -249,6 +300,16 @@ updateFavoriteButtonState()    // Update UI button
 toggleTranslation()     // Show/hide translations
 setTranslationLanguage('bangla')  // Switch Bengali/English
 toggleWordByWord()      // Enable word-by-word mode
+toggleDuaTranslations() // Show/hide dua translations
+```
+
+### Data with Offline Backup
+```javascript
+loadSurahData(id)       // Load surah (network → cache → IDB fallback)
+loadDuaData()           // Load duas.json with IDB fallback
+loadHifzData()          // Load juz/page data with IDB fallback
+IDB.set(key, value)     // Store data in IndexedDB
+IDB.get(key)            // Retrieve data from IndexedDB
 ```
 
 ### Utilities
@@ -257,6 +318,7 @@ showLoading()           // Show loading spinner
 hideLoading()           // Hide loading spinner
 showError(msg)          // Show error notification
 showSuccess(msg)        // Show success notification
+escapeHtml(str)         // Sanitize HTML to prevent XSS
 ```
 
 ---
@@ -277,24 +339,8 @@ font-family: var(--font-bengali);  /* For Bengali text */
 
 ### Media Queries for Mobile
 ```css
-@media (max-width: 768px) {
-    /* Mobile styles */
-}
-```
-
-### Grid Layout for Cards
-```css
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-gap: 1.5rem;
-```
-
-### Flexbox for Controls
-```css
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 1rem;
+@media (max-width: 768px) { /* Tablet */ }
+@media (max-width: 480px) { /* Phone */ }
 ```
 
 ### Dark Theme Automatic
@@ -302,110 +348,67 @@ All colors automatically switch in dark theme using `[data-theme="dark"]` select
 
 ---
 
-## API/Data Endpoints
-
-### Load Surah Names
-```javascript
-fetch('./data/surah_name.json')
-  .then(r => r.json())
-  .then(data => console.log(data))
-```
-
-### Load Specific Surah (001 = Surah Al-Fatihah)
-```javascript
-fetch('./data/surahs/surah_001.json')
-  .then(r => r.json())
-  .then(data => console.log(data))
-```
-
----
-
 ## localStorage Keys to Know
 
 ```javascript
-'quranAppSettings'         // User settings (theme, font, etc)
-'quranAppLastSurah'        // Last opened surah ID
-'quranAppFavorites'        // Favorite surah IDs
-'quranAppTranslationLang'  // Current language (bengla/english)
+'quranAppSettings'            // User settings (theme, font, favorites, etc.)
+'quranAppLastSurah'           // Last opened surah ID
+'quranAppSearchQuery'         // Last search query
+'quranAppTranslationVisible'  // Translation visibility state
+'quranAppTranslationLang'     // Current language ('bangla' or 'english')
+'quranAppWordByWordMode'      // Word-by-word mode state
+'quranAppMainView'            // Active main view ('surahs', 'hifz', 'dua')
+'quranAppActivePage'          // Current page state
+'quranAppViewMode'            // Reading view mode ('normal', 'reading', 'compact')
+'quranAppCurrentHifzPage'     // Current Hifz page number
+'quranAppCurrentDua'          // Current dua collection ID
+'quranAppDuaCounts'           // Dua counter states { itemId: count }
+'quranAppDuaLastDate'         // Date of last dua reset (daily auto-reset)
+'surahView'                   // Surah list view ('card' or 'list')
 ```
 
----
+## IndexedDB Keys (quranAppDB)
 
-## Testing the App
-
-### Open Console Debugger
 ```javascript
-// Check performance stats
-window.checkPerformance()
-
-// Preload popular surahs
-window.preloadPopularSurahs()
-
-// Compare old vs new loading
-window.compareLoadingMethods()
-
-// Get all stats
-window.QuranPerformance.check()
+'surah_names'    // Backup of surah metadata
+'surah_XXX'      // Individual surah data (XXX = surah number)
+'duas'           // Dua collections and items
+'juz_data'       // Hifz/Juz information
 ```
 
 ---
 
-## Deployment Notes
+## Build & Deploy
 
-- Build with: `npm run build` or `npm run optimize`
-- All assets are minified (styles.min.css, script.min.js)
-- Service Worker enabled for offline support
-- Favicon and PWA icons are in `/favicon` folder
-- No external dependencies to install
+- Build minified files: `node minify-assets.js`
+- All assets are minified (styles.min.css, script.min.js, sw.min.js)
+- Service Worker enabled for offline support with embedded fallback page
+- Favicon and PWA icons in `/favicon` folder
+- No external dependencies to install (npm only for build tools)
 
 ---
 
 ## Where to Put New Code
 
-### For New Feature:
 1. **HTML** → Add elements to `index.html` (before closing `</body>`)
-2. **CSS** → Add to `styles.css` (with proper organization comments)
-3. **JavaScript** → Add to `script.js` (organize by feature)
-4. **Data** → Add JSON files to `/data` if needed
-
-### Structure JavaScript like this:
-```javascript
-// ==================== MY NEW FEATURE ==================== //
-
-// State variables
-let myFeatureState = {
-    // ...
-};
-
-// DOM elements
-const myFeatureElements = {
-    btn: document.getElementById('myBtn'),
-    // ...
-};
-
-// Core functions
-function initMyFeature() { }
-function openMyFeature() { }
-function closeMyFeature() { }
-
-// Event listeners
-setupMyFeatureListeners() {
-    myFeatureElements.btn.addEventListener('click', openMyFeature);
-}
-```
+2. **CSS** → Add to `styles.css` (with section comment headers)
+3. **JavaScript** → Add to `script.js` (organize by feature section)
+4. **Data** → Add JSON files to `/data`, add to `sw.js` CORE_URLS, run `node minify-assets.js`
 
 ---
 
 ## Common Gotchas
 
-1. **Always check if element exists** before using it
-2. **Remember to save settings** after changes with `saveSettings()`
-3. **Close modals on overlay click** by checking `if (e.target === this)`
-4. **Use `var(--variable)` in CSS** instead of hardcoded colors
-5. **Test mobile at 768px breakpoint** using DevTools
-6. **Minified files are loaded in production**, not source files
-7. **All strings should support Bengali** in addition to English
-8. **Arabic text uses Amiri font** by default
+1. **Always run `node minify-assets.js`** after editing source files
+2. **Use `escapeHtml()`** for any dynamic content in innerHTML to prevent XSS
+3. **Remember to save settings** after changes with `saveSettings()`
+4. **Add IDB backup** for important data fetched from network
+5. **Update `sw.js` CORE_URLS** when adding new data files
+6. **Use `var(--variable)` in CSS** instead of hardcoded colors
+7. **Test mobile at 768px and 480px** breakpoints
+8. **All strings should support Bengali** in addition to English
+9. **Hash routing** — update `setAppHash()` when navigating to new pages
+10. **Bottom nav** — update `updateBottomNavForPage()` when adding new page types
 
 ---
 
@@ -413,20 +416,10 @@ setupMyFeatureListeners() {
 
 1. Check `TECH_STACK_SUMMARY.md` for full documentation
 2. Check `COMPONENT_PATTERNS.md` for coding examples
-3. Look at existing components in `index.html` for patterns
-4. Search `script.js` for similar functionality
-5. Use browser DevTools console for debugging
-
----
-
-## Quick Links to Key Files
-
-- **Main HTML**: `/Users/mdrezaulkarim/Documents/Projects/QuranWordByWord/index.html`
-- **Logic**: `/Users/mdrezaulkarim/Documents/Projects/QuranWordByWord/script.js`
-- **Styling**: `/Users/mdrezaulkarim/Documents/Projects/QuranWordByWord/styles.css`
-- **Data**: `/Users/mdrezaulkarim/Documents/Projects/QuranWordByWord/data/surahs/`
-- **Full Docs**: `/Users/mdrezaulkarim/Documents/Projects/QuranWordByWord/TECH_STACK_SUMMARY.md`
-- **Patterns**: `/Users/mdrezaulkarim/Documents/Projects/QuranWordByWord/COMPONENT_PATTERNS.md`
+3. Check `COLOR_SYSTEM.md` for styling guidance
+4. Check `DOCUMENTATION_INDEX.md` for navigation
+5. Search `script.js` for similar functionality
+6. Use browser DevTools console for debugging
 
 ---
 

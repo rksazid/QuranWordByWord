@@ -5,6 +5,44 @@
     methods.forEach(function(m) { console[m] = noop; });
 })();
 
+// ==================== INDEXEDDB PERSISTENT BACKUP ==================== //
+// Backup critical data in IndexedDB — more persistent than Cache API on iOS
+var IDB = {
+    _db: null,
+    _name: 'quranAppDB',
+    _store: 'appData',
+    open: function() {
+        if (this._db) return Promise.resolve(this._db);
+        var self = this;
+        return new Promise(function(resolve, reject) {
+            var req = indexedDB.open(self._name, 1);
+            req.onupgradeneeded = function(e) { e.target.result.createObjectStore(self._store); };
+            req.onsuccess = function(e) { self._db = e.target.result; resolve(self._db); };
+            req.onerror = function() { reject(req.error); };
+        });
+    },
+    set: function(key, value) {
+        return this.open().then(function(db) {
+            return new Promise(function(resolve, reject) {
+                var tx = db.transaction('appData', 'readwrite');
+                tx.objectStore('appData').put(value, key);
+                tx.oncomplete = function() { resolve(); };
+                tx.onerror = function() { reject(tx.error); };
+            });
+        }).catch(function() {});
+    },
+    get: function(key) {
+        return this.open().then(function(db) {
+            return new Promise(function(resolve, reject) {
+                var tx = db.transaction('appData', 'readonly');
+                var req = tx.objectStore('appData').get(key);
+                req.onsuccess = function() { resolve(req.result); };
+                req.onerror = function() { reject(req.error); };
+            });
+        }).catch(function() { return undefined; });
+    }
+};
+
 // ==================== HTML SANITIZATION ==================== //
 function escapeHtml(str) {
     if (str == null) return '';
@@ -496,14 +534,29 @@ const loadingPromises = new Map();
 async function loadData() {
     try {
         showLoading();
-        
-        // Load only surah names initially - 99.9% size reduction!
-        console.log('📚 Loading surah names (16KB)...');
-        const surahNamesResponse = await fetch('./data/surah_name.json');
-        if (!surahNamesResponse.ok) {
-            throw new Error('Failed to fetch surah names');
+
+        // Request persistent storage (prevents iOS cache eviction)
+        if (navigator.storage && navigator.storage.persist) {
+            navigator.storage.persist().catch(function() {});
         }
-        appData.surahNames = await surahNamesResponse.json();
+
+        // Load surah names — try network first, then IndexedDB fallback
+        console.log('📚 Loading surah names (16KB)...');
+        try {
+            const surahNamesResponse = await fetch('./data/surah_name.json');
+            if (!surahNamesResponse.ok) throw new Error('HTTP ' + surahNamesResponse.status);
+            appData.surahNames = await surahNamesResponse.json();
+            IDB.set('surah_names', appData.surahNames);
+        } catch (fetchErr) {
+            // Network/cache failed — try IndexedDB backup
+            var idbNames = await IDB.get('surah_names');
+            if (idbNames) {
+                appData.surahNames = idbNames;
+                console.log('📦 Surah names restored from IndexedDB');
+            } else {
+                throw new Error('Failed to fetch surah names');
+            }
+        }
         
         // Load Hifz data in the background (non-blocking)
         loadHifzData().then(() => {
@@ -604,29 +657,27 @@ async function loadSurahData(surahId) {
 
 // Fetch surah data from individual chunk file
 async function loadSurahFromServer(surahId) {
-    const paddedId = surahId.padStart(3, '0'); // Convert "1" to "001"
+    const paddedId = surahId.padStart(3, '0');
     const surahFile = `./data/surahs/surah_${paddedId}.json`;
-    
+    const idbKey = 'surah_' + paddedId;
+
     try {
         console.log(`📥 Loading Surah ${surahId} (${surahFile})...`);
-        
         const response = await fetch(surahFile);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: Failed to load ${surahFile}`);
-        }
-        
+        if (!response.ok) throw new Error('HTTP ' + response.status);
         const surahData = await response.json();
-        
-        if (!surahData.verses) {
-            throw new Error(`Invalid surah data structure in ${surahFile}`);
-        }
-        
-        console.log(`✅ Surah ${surahId} loaded successfully (${(JSON.stringify(surahData).length / 1024).toFixed(1)}KB)`);
+        if (!surahData.verses) throw new Error('Invalid surah data');
+        // Save to IndexedDB for offline resilience
+        IDB.set(idbKey, surahData.verses);
         return surahData.verses;
-        
     } catch (error) {
-        console.error(`❌ Error loading Surah ${surahId}:`, error);
-        throw new Error(`Failed to load Surah ${surahId}. Please check your connection.`);
+        // Network + SW cache failed — try IndexedDB backup
+        var idbData = await IDB.get(idbKey);
+        if (idbData) {
+            console.log('📦 Surah ' + surahId + ' restored from IndexedDB');
+            return idbData;
+        }
+        throw new Error('Failed to load Surah ' + surahId + '. Please check your connection.');
     }
 }
 
@@ -2943,9 +2994,24 @@ async function loadHifzData() {
             if (pagesRes && pagesRes.ok) pagesData = await pagesRes.json();
         }
 
-        if (juzData) appData.juzData = juzData;
-        if (pagesData) appData.quranPages = pagesData;
+        if (juzData) { appData.juzData = juzData; IDB.set('juz_data', juzData); }
+        if (pagesData) { appData.quranPages = pagesData; IDB.set('quran_pages', pagesData); }
+
+        // If still missing, try IndexedDB backup
+        if (!appData.juzData) {
+            var idbJuz = await IDB.get('juz_data');
+            if (idbJuz) appData.juzData = idbJuz;
+        }
+        if (!appData.quranPages) {
+            var idbPages = await IDB.get('quran_pages');
+            if (idbPages) appData.quranPages = idbPages;
+        }
     } catch (err) {
+        // Last resort — IndexedDB fallback
+        try {
+            if (!appData.juzData) { var j = await IDB.get('juz_data'); if (j) appData.juzData = j; }
+            if (!appData.quranPages) { var p = await IDB.get('quran_pages'); if (p) appData.quranPages = p; }
+        } catch (_) {}
         console.warn('Hifz data not available:', err.message);
     }
 }
@@ -3165,7 +3231,13 @@ async function loadDuaData() {
         const response = await fetch('./data/duas.json');
         if (!response.ok) throw new Error('Failed to fetch dua data');
         appData.duaData = await response.json();
+        IDB.set('duas', appData.duaData);
     } catch (err) {
+        // Try IndexedDB fallback
+        try {
+            var idbDua = await IDB.get('duas');
+            if (idbDua) { appData.duaData = idbDua; return; }
+        } catch (_) {}
         console.warn('Dua data not available:', err.message);
     }
 }
