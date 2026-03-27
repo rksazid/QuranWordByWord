@@ -426,4 +426,62 @@ border-top: 4px solid var(--primary-color);
 color: var(--secondary-color);
 ```
 
+---
+
+## Dua Component Colors
+
+The Dua feature uses the existing color system with some specific patterns:
+
+### Counter Button States
+```css
+/* Default: border only */
+.dua-counter-btn {
+    border: 3px solid var(--primary-color);
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+/* Complete: filled with glow */
+.dua-counter-btn.counter-complete {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: white;
+    box-shadow: 0 0 12px rgba(45, 125, 50, 0.3);
+}
+```
+
+### Arabic Text Accent
+```css
+.dua-arabic-text {
+    background: linear-gradient(135deg, rgba(45,125,50,0.02), rgba(45,125,50,0.05));
+    border-right: 3px solid var(--primary-color);
+}
+```
+
+### Quran Reference Block
+```css
+.dua-quran-ref {
+    border-left: 3px solid var(--primary-color);
+    background: rgba(45, 125, 50, 0.03);
+}
+```
+
+### Completed Item
+```css
+.dua-item-complete {
+    border-color: var(--primary-color);
+    background: rgba(45, 125, 50, 0.02);
+}
+```
+
+### Progress Ring (SVG)
+```css
+.dua-progress-bg { stroke: var(--border-color); }
+.dua-progress-fill { stroke: var(--primary-color); }
+.dua-progress-text { fill: var(--primary-color); }
+```
+
+All these automatically adapt in dark mode through the CSS variable system.
+
+---
+
 This comprehensive color system ensures consistency, accessibility, and easy theme switching throughout the app!

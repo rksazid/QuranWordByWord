@@ -39,28 +39,28 @@ Welcome to the comprehensive documentation for the Quran Word By Word applicatio
 
 ### Quick Reference Documents
 
-#### QUICK_START.md (11 KB)
+#### QUICK_START.md (14 KB)
 The fastest way to understand the project structure and get started with feature development.
 
 **Contains:**
-- Project overview (type, version, performance)
+- Project overview (type, version 4.3.1, performance)
 - Key tech stack table
-- Project structure diagram
+- Project structure diagram (6 pages, data files)
 - Color system quick reference
-- Essential DOM elements
-- Application state (appData)
-- 10 common code snippets
-- Feature development checklist
-- Important functions reference
+- Essential DOM elements (6 pages, main view toggle)
+- Application state (appData) with Hifz, Dua, and multi-select state
+- 10 common code snippets (including hash routing, IDB backup, switchMainView)
+- Feature development checklist (including offline, deep links)
+- Important functions reference (navigation, dua, data loading)
 - CSS tips and tricks
-- localStorage keys
-- Deployment notes
+- localStorage keys (14 keys) + IndexedDB keys
+- Build & deploy notes
 
 **Best for:** Getting started, finding quick answers, copy-paste code snippets
 
 ---
 
-#### COLOR_SYSTEM.md (9.6 KB)
+#### COLOR_SYSTEM.md (11 KB)
 Complete guide to all colors, themes, and design tokens used in the application.
 
 **Contains:**
@@ -75,6 +75,7 @@ Complete guide to all colors, themes, and design tokens used in the application.
 - Customization guide
 - Suggested color themes
 - Color reference for quick copy-paste
+- **Dua component colors** (counter states, Arabic text accent, progress ring, Quran refs)
 
 **Best for:** Styling new components, understanding color decisions, customizing themes
 
@@ -82,7 +83,7 @@ Complete guide to all colors, themes, and design tokens used in the application.
 
 ### Detailed Documentation
 
-#### COMPONENT_PATTERNS.md (18 KB)
+#### COMPONENT_PATTERNS.md (26 KB)
 Ready-to-use patterns for building components in the app.
 
 **Contains:**
@@ -94,6 +95,9 @@ Ready-to-use patterns for building components in the app.
 - Pattern 6: Loading and error states
 - Pattern 7: Event listener setup
 - Pattern 8: State management and localStorage
+- **Pattern 9: Dua collection with counter (tasbeeh pattern)**
+- **Pattern 10: Hash-based deep linking**
+- **Pattern 11: IndexedDB backup for offline data**
 - Naming conventions
 - Best practices checklist
 
@@ -101,63 +105,66 @@ Ready-to-use patterns for building components in the app.
 
 ---
 
-#### TECH_STACK_SUMMARY.md (16 KB)
+#### TECH_STACK_SUMMARY.md (19 KB)
 Comprehensive technical documentation of the entire application.
 
 **Contains:**
 1. Technology Stack
-   - Framework: Vanilla JavaScript PWA
-   - All external libraries
-   - Font stack (Arabic, Bengali, UI)
+   - Framework: Vanilla JavaScript PWA (v4.3.1)
+   - All external libraries (Font Awesome, Google Fonts, Pako)
+   - Font stack (8 Arabic, 2 Bengali, UI fonts)
 
 2. Project Structure
-   - File organization
-   - Directory breakdown
+   - File organization (script.js: 3,791 lines, styles.css: 5,206 lines)
+   - Directory breakdown including data files
    - Build and utility scripts
 
 3. Styling Approach
    - CSS methodology
-   - CSS organization (22 major sections)
-   - Color system
-   - Dark/light themes
+   - CSS organization (27 major sections)
+   - Color system with dark/light themes
 
 4. Existing Components
-   - Header, Search, View Toggle
-   - Surah Cards, Verse Display
-   - Reading Controls
-   - All Modals (Settings, Favorites, Word Meaning, Go to Ayah)
-   - Floating Controls
-   - Data structures (appData, metadata, content)
+   - Header, Search (with Makki/Madani filters), Main View Toggle (3 tabs)
+   - Surah Cards, Verse Display, Reading Mode (3 views)
+   - **Hifz Components** (Juz list, page reader)
+   - **Dua Components** (cards with progress rings, detail page, counters, sticky headers)
+   - All Modals (Settings, Favorites, Word Meaning, Go to Ayah, Privacy)
+   - Floating Controls, Bottom Navigation
+   - **Footer** (brand, stats, quote, meta)
+   - Data structures (appData with Hifz/Dua state, duas.json schema)
 
-5. Mobile Responsiveness
-   - Breakpoints
-   - Mobile-first approach
-   - Optimization features
+5. Data Structures
+   - Full appData object reference
+   - Dua data JSON schema
 
-6. Storage & Persistence
-   - localStorage keys
-   - IndexedDB usage
+6. Key Functions & Utilities
+   - Data loading with IDB backup
+   - Navigation & hash routing
+   - Rendering (Surah, Hifz, Dua)
+   - Dua counter management
+   - Settings, translation, auto-scroll, multi-select
+   - IndexedDB helper (IDB)
 
-7. Design System
-   - Spacing scale
-   - Border radius
-   - Shadows
-   - Typography
-   - Transitions
+7. Storage & Persistence
+   - 14 localStorage keys
+   - IndexedDB keys and fallback strategy
 
-8. Performance Optimizations
-   - Current metrics (87% optimized)
-   - Techniques used
+8. Design System
+   - Spacing, typography, shadows
+   - Font size multipliers (8 presets: XS through 4XL)
 
-9. Accessibility Features
-   - ARIA labels
-   - Keyboard navigation
-   - Color contrast
+9. Mobile Responsiveness
+   - Breakpoints (768px, 480px)
+   - Mobile-specific features
 
-10. PWA Features
-    - manifest.json configuration
-    - Service Worker features
-    - Installation support
+10. Performance
+    - Offline-first with Service Worker + IDB
+    - Lazy loading, caching, compression
+
+11. Accessibility & PWA
+    - ARIA, keyboard shortcuts, WCAG AAA
+    - Cache-first SW, deep linking, installation
 
 **Best for:** Understanding the full system, finding specific components, reference documentation
 
@@ -179,8 +186,8 @@ Original project README with feature descriptions and usage guide.
 
 ---
 
-#### CHANGELOG.md (1.5 KB)
-Version history and recent updates.
+#### CHANGELOG.md (6 KB)
+Version history and recent updates with detailed feature descriptions.
 
 **Best for:** Understanding what changed between versions
 
@@ -242,26 +249,29 @@ All documentation files are located in:
 ```
 
 Main application files:
-- `index.html` - Main UI (3,208 lines)
-- `script.js` - Application logic (2,185 lines)
-- `styles.css` - Styling (3,208 lines)
-- `manifest.json` - PWA configuration
-- `data/` - Quran content JSON files
+- `index.html` - Main UI (1,008 lines)
+- `script.js` - Application logic (3,791 lines)
+- `styles.css` - Styling (5,206 lines)
+- `manifest.json` - PWA configuration (v4.3.1)
+- `sw.js` - Service Worker (cache-first + offline fallback)
+- `data/` - Quran content, Juz data, Dua collections
 
 ---
 
 ## Key Facts to Remember
 
 1. **Framework**: Pure vanilla JavaScript (no React, Vue, etc.)
-2. **Styling**: CSS3 with custom properties (CSS variables)
-3. **Colors**: All use variables, automatically switch in dark mode
-4. **Mobile**: Responsive at 768px breakpoint
-5. **Storage**: localStorage for user preferences
-6. **PWA**: Service Worker for offline support
-7. **Performance**: 87% optimized, very fast loading
-8. **Accessibility**: WCAG AAA compliant
-9. **Languages**: Supports Arabic, Bengali, English
-10. **No dependencies**: Everything built from scratch
+2. **Version**: 4.3.1 with 3 main views (Surahs, Hifz, Dua's)
+3. **Styling**: CSS3 with custom properties (CSS variables)
+4. **Colors**: All use variables, automatically switch in dark mode
+5. **Mobile**: Responsive at 768px and 480px breakpoints
+6. **Storage**: localStorage + IndexedDB for offline resilience
+7. **PWA**: Service Worker (cache-first) + embedded offline fallback
+8. **Deep Links**: Hash-based routing (`#/surah/1`, `#/hifz/5`, `#/dua/id`)
+9. **Performance**: 87% optimized, offline-first architecture
+10. **Accessibility**: WCAG AAA compliant
+11. **Languages**: Supports Arabic, Bengali, English
+12. **Build**: `node minify-assets.js` after editing source files
 
 ---
 
@@ -303,13 +313,13 @@ See TECH_STACK_SUMMARY.md section 4 (Existing Components)
 
 | Document | Size | Lines | Purpose |
 |----------|------|-------|---------|
-| QUICK_START.md | 11 KB | 400 | Fast reference and snippets |
-| COMPONENT_PATTERNS.md | 18 KB | 600 | Ready-to-use patterns |
-| TECH_STACK_SUMMARY.md | 16 KB | 500 | Comprehensive reference |
-| COLOR_SYSTEM.md | 9.6 KB | 350 | Color and theme guide |
+| QUICK_START.md | 14 KB | 426 | Fast reference and snippets |
+| COMPONENT_PATTERNS.md | 26 KB | 1,076 | Ready-to-use patterns (11 patterns) |
+| TECH_STACK_SUMMARY.md | 19 KB | 564 | Comprehensive reference |
+| COLOR_SYSTEM.md | 11 KB | 487 | Color, theme, and dua color guide |
 | README.md | 11 KB | 250 | Feature overview |
-| CHANGELOG.md | 1.5 KB | 40 | Version history |
-| **Total** | **66.1 KB** | **~2,140** | Complete documentation |
+| CHANGELOG.md | 6 KB | 202 | Detailed version history |
+| **Total** | **~87 KB** | **~3,005** | Complete documentation |
 
 ---
 

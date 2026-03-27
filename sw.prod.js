@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quran-word-by-word-v4.3.0';
+const CACHE_NAME = 'quran-word-by-word-v4.3.2';
 
 // Core app shell files — MUST cache successfully for SW to install
 const CORE_URLS = [
@@ -71,10 +71,48 @@ self.addEventListener('activate', (event) => {
     self.clients.claim();
 });
 
+// Offline fallback page — served when cache is empty and device is offline
+const OFFLINE_HTML = `<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Al-Quran Word by Word — Offline</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;background:#f5f5f5;color:#333;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:1.5rem;text-align:center}
+.card{background:#fff;border-radius:16px;padding:2.5rem 2rem;max-width:380px;box-shadow:0 4px 24px rgba(0,0,0,0.08)}
+.icon{font-size:3rem;margin-bottom:1rem}
+h1{color:#2d7d32;font-size:1.3rem;margin-bottom:0.75rem}
+.msg{color:#666;line-height:1.7;margin-bottom:1.5rem;font-size:0.95rem}
+.msg-bn{font-size:1rem;margin-bottom:0.5rem}
+.btn{display:inline-block;background:linear-gradient(135deg,#2d7d32,#4caf50);color:#fff;border:none;padding:0.85rem 2rem;border-radius:10px;font-size:1rem;cursor:pointer;text-decoration:none}
+.btn:active{transform:scale(0.97)}
+.status{margin-top:1rem;font-size:0.8rem;color:#999}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="icon">📖</div>
+<h1>Al-Quran Word by Word</h1>
+<p class="msg msg-bn">ইন্টারনেট সংযোগ পাওয়া যাচ্ছে না। অ্যাপ পুনরায় লোড করতে ইন্টারনেটে সংযুক্ত হয়ে নিচের বাটনে ক্লিক করুন।</p>
+<p class="msg">You are offline and app data needs to be restored. Please connect to the internet and tap below.</p>
+<button class="btn" onclick="location.reload()">Retry / পুনরায় চেষ্টা</button>
+<p class="status" id="status">Checking connection...</p>
+</div>
+<script>
+function check(){
+  if(navigator.onLine){document.getElementById('status').textContent='Online detected — reloading...';location.reload();return}
+  document.getElementById('status').textContent='Still offline. Connect to Wi-Fi or mobile data.';
+}
+setInterval(check,3000);check();
+window.addEventListener('online',function(){location.reload()});
+</script>
+</body>
+</html>`;
+
 // Fetch event - smart caching strategy
-// App shell: cache-first (fast loads)
-// Data files: network-first (fresh data), fallback to cache
-// All successful responses are cached for offline use
+// App shell & assets: cache-first (fast loads, background update)
+// Data files: cache-first with background update (reliable offline)
 self.addEventListener('fetch', (event) => {
     // Skip non-GET requests
     if (event.request.method !== 'GET') return;
@@ -82,16 +120,12 @@ self.addEventListener('fetch', (event) => {
     // Skip chrome-extension and other non-http(s) requests
     if (!event.request.url.startsWith('http')) return;
 
-    const url = new URL(event.request.url);
-    const isDataFile = url.pathname.includes('/data/');
-    const isSameOrigin = url.origin === self.location.origin;
-
     event.respondWith(
         caches.match(event.request).then((cached) => {
             // Network fetch with dynamic caching
             const fetchPromise = fetch(event.request.clone())
                 .then((response) => {
-                    // Cache all successful responses (same-origin and CORS)
+                    // Cache all successful responses
                     if (response && response.status === 200) {
                         const responseToCache = response.clone();
                         caches.open(CACHE_NAME).then((cache) => {
@@ -104,9 +138,19 @@ self.addEventListener('fetch', (event) => {
                     // Network failed — return cached version if available
                     if (cached) return cached;
 
-                    // For navigation requests, return the cached app shell
-                    if (event.request.destination === 'document') {
-                        return caches.match('./') || caches.match('./index.html');
+                    // For navigation requests, try cached app shell then offline fallback
+                    if (event.request.mode === 'navigate' || event.request.destination === 'document') {
+                        return caches.match('./').then((r) => {
+                            if (r) return r;
+                            return caches.match('./index.html');
+                        }).then((r) => {
+                            if (r) return r;
+                            // Cache completely empty — serve embedded offline page
+                            return new Response(OFFLINE_HTML, {
+                                status: 200,
+                                headers: new Headers({ 'Content-Type': 'text/html; charset=utf-8' })
+                            });
+                        });
                     }
 
                     // Return offline response for uncached resources
@@ -117,11 +161,8 @@ self.addEventListener('fetch', (event) => {
                     });
                 });
 
-            // Data files: network-first (get fresh data when online)
-            // App shell & assets: cache-first (fast loads, update in background)
-            if (isDataFile) {
-                return fetchPromise;
-            }
+            // Always cache-first, then update in background
+            // This ensures offline reliability (critical for iOS)
             return cached || fetchPromise;
         })
     );
