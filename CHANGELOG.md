@@ -200,6 +200,13 @@ All notable changes to Al-Quran Word by Word will be documented in this file.
 - **Cache efficiency**: Under 200KB for mobile optimization
 
 ---
+\n## [4.3.3] - 2026-03-30
+
+### Changed
+- Version update
+- Bug fixes and improvements
+
+---
 \n## [4.3.2] - 2026-03-27
 
 ### Changed

@@ -1981,9 +1981,9 @@ function createArabicText(verseData) {
         return text;
     }
 
-    // Create word-by-word clickable text
+    // Create word-by-word inline text with translations beneath each word
     const words = Object.entries(verseData.word_by_word).map(([wordIndex, wordData]) => {
-        return `<span class="arabic-word" data-word-ar="${escapeHtml(wordData.words_ar)}" data-word-bn="${escapeHtml(wordData.translate_bn)}">${escapeHtml(wordData.words_ar)}</span>`;
+        return `<span class="word-block"><span class="arabic-word">${escapeHtml(wordData.words_ar)}</span><span class="word-meaning">${escapeHtml(wordData.translate_bn)}</span></span>`;
     });
 
     let result = words.join(' ');
@@ -3713,17 +3713,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Set up delegation for dynamically created elements
     document.addEventListener('click', (e) => {
-        // Word-by-word click
-        if (e.target.classList.contains('arabic-word')) {
-            e.preventDefault();
-            e.stopPropagation();
-            const arabicWord = e.target.dataset.wordAr;
-            const bengaliMeaning = e.target.dataset.wordBn;
-            if (arabicWord && bengaliMeaning) {
-                showWordModal(arabicWord, bengaliMeaning);
-            }
-            return;
-        }
+        // Word-by-word: inline translations shown beneath words, no modal needed
 
         // Copy button
         const copyBtn = e.target.closest('.copy-btn');
