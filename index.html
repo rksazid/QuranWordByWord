@@ -65,7 +65,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.min.css?v=4.3.3">
+    <link rel="stylesheet" href="styles.min.css?v=4.4.0">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
@@ -86,8 +86,11 @@
                 <div class="header-controls">
                     <!-- Homepage Controls -->
                     <div id="homepageControls" class="control-group">
+                        <button id="bookmarksBtn" class="icon-btn" title="Bookmarked Verses">
+                            <i class="far fa-bookmark"></i>
+                        </button>
                         <button id="favoritesBtn" class="icon-btn" title="View Favorite Surahs">
-                            <i class="fas fa-bookmark"></i>
+                            <i class="fas fa-heart"></i>
                         </button>
                     </div>
                     
@@ -120,17 +123,13 @@
             <div id="searchContainer" class="search-container">
                 <div class="search-box">
                     <i class="fas fa-search"></i>
-                    <input type="text" id="searchInput" placeholder="Search by name, number, or type..." autocomplete="off">
+                    <input type="text" id="searchInput" placeholder="Search surahs, juz, or duas..." autocomplete="off">
                     <span id="searchResultCount" class="search-result-count"></span>
                     <button id="clearSearch" class="clear-btn" title="Clear search">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
-                <div class="search-filters">
-                    <button class="search-filter-btn active" data-filter="all" title="Show all surahs">All</button>
-                    <button class="search-filter-btn" data-filter="makkah" title="Show Makki surahs">Makki</button>
-                    <button class="search-filter-btn" data-filter="madinah" title="Show Madani surahs">Madani</button>
-                </div>
+                <div id="searchSuggestions" class="search-suggestions" style="display: none;"></div>
             </div>
 
             <!-- Main View Toggle: Surahs / Hifz / Dua's -->
@@ -168,17 +167,29 @@
                     </div>
                 </div>
                 
-                <!-- Last Opened Surah Suggestion -->
-                <div id="lastSurahSuggestion" class="last-surah-suggestion" style="display: none;">
-                    <div class="suggestion-header">
-                        <i class="fas fa-bookmark"></i>
-                        <h3>Continue Reading</h3>
+                <!-- Continue Reading + Verse of the Day (side by side) -->
+                <div class="homepage-widgets">
+                    <div id="lastSurahSuggestion" class="last-surah-suggestion" style="display: none;">
+                        <div class="suggestion-header">
+                            <i class="fas fa-bookmark"></i>
+                            <h3>Continue Reading</h3>
+                        </div>
+                        <div id="lastSurahCard" class="suggestion-card">
+                            <!-- Last surah content will be populated here -->
+                        </div>
                     </div>
-                    <div id="lastSurahCard" class="suggestion-card">
-                        <!-- Last surah content will be populated here -->
+
+                    <div id="verseOfTheDay" class="verse-of-the-day" style="display: none;">
+                        <div class="suggestion-header">
+                            <i class="fas fa-star"></i>
+                            <h3>Verse of the Day</h3>
+                        </div>
+                        <div id="votdCard" class="votd-card">
+                            <!-- Rendered dynamically -->
+                        </div>
                     </div>
                 </div>
-                
+
                 <div id="surahList" class="surah-list">
                     <!-- Surah items will be dynamically loaded here -->
                 </div>
@@ -249,6 +260,25 @@
 
             <!-- Surah Reading Page -->
             <div id="surahReadingPage" class="page" style="display: none;">
+                <!-- Surah Sidebar Navigation -->
+                <aside id="surahSidebar" class="surah-sidebar">
+                    <div class="sidebar-header">
+                        <div class="sidebar-tabs">
+                            <button class="sidebar-tab active" data-sidebar-tab="all">All (114)</button>
+                            <button class="sidebar-tab" data-sidebar-tab="favorites">Favorites</button>
+                        </div>
+                        <button id="closeSidebarBtn" class="sidebar-close-btn" title="Close sidebar">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div id="sidebarSurahList" class="sidebar-surah-list">
+                        <!-- Rendered dynamically by renderSidebarSurahList() -->
+                    </div>
+                </aside>
+                <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+                <!-- Main Reading Content -->
+                <div class="surah-reading-main">
                 <!-- View Mode Tabs -->
                 <div class="mode-tabs" id="modeTabs">
                     <button class="mode-tab active" data-mode="normal">Normal</button>
@@ -368,6 +398,7 @@
                         <i class="fas fa-chevron-right"></i>
                     </button>
                 </div>
+                </div><!-- /.surah-reading-main -->
             </div>
         </div>
     </main>
@@ -445,6 +476,7 @@
                     <ul class="footer-links">
                         <li><a href="#" id="aboutAppLink"><i class="fas fa-info-circle"></i> About App</a></li>
                         <li><a href="#" id="installAppLink" class="install-app-footer-btn"><i class="fas fa-download"></i> Install App</a></li>
+                        <li><a href="#" id="shareAppLink"><i class="fas fa-share-alt"></i> Share App</a></li>
                         <li><a href="mailto:rksazid@gmail.com" id="feedbackLink"><i class="fas fa-comment"></i> Send Feedback</a></li>
                         <li><a href="#" id="privacyLink"><i class="fas fa-shield-alt"></i> Privacy</a></li>
                     </ul>
@@ -533,6 +565,23 @@
                 <div class="word-info">
                     <div id="modalArabicWord" class="arabic-word"></div>
                     <div id="modalMeaning" class="word-meaning"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bookmarks Modal -->
+    <div id="bookmarksModal" class="modal-overlay" style="display: none;">
+        <div class="modal bookmarks-modal">
+            <div class="modal-header">
+                <h3>Bookmarked Verses</h3>
+                <button id="closeBookmarksModal" class="close-btn" title="Close bookmarks">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content">
+                <div id="bookmarksList" class="bookmarks-list">
+                    <!-- Rendered dynamically -->
                 </div>
             </div>
         </div>
@@ -631,7 +680,10 @@
                     <div class="settings-group">
                         <label>Arabic Font</label>
                         <select id="arabicFontSelect">
-                            <option value="Amiri">Amiri (Default)</option>
+                            <option value="KFGQPC Uthman Taha Naskh">KFGQPC Uthman Taha</option>
+                            <option value="me_quran">me_quran (Thick Naskh)</option>
+                            <option value="PDMS Saleem Quran">PDMS Saleem (IndoPak)</option>
+                            <option value="Amiri">Amiri</option>
                             <option value="Scheherazade New">Scheherazade New</option>
                             <option value="Noto Naskh Arabic">Noto Naskh Arabic</option>
                             <option value="Lateef">Lateef</option>
@@ -771,7 +823,7 @@
                             </div>
                             
                             <div class="app-version">
-                                <p><strong>Version:</strong> 4.3.3</p>
+                                <p><strong>Version:</strong> 4.4.0</p>
                                 <p><strong>Last Updated:</strong> <span id="lastUpdated"></span></p>
                             </div>
                         </div>
@@ -838,6 +890,14 @@
                 <span class="nav-label">Search</span>
             </button>
             
+            <!-- Surah Sidebar Toggle (for surah page) -->
+            <button class="bottom-nav-item" data-action="sidebar" title="Surahs" style="display: none;">
+                <div class="nav-icon">
+                    <i class="fas fa-list-ul"></i>
+                </div>
+                <span class="nav-label">Surahs</span>
+            </button>
+
             <!-- Reading Controls (for surah page) -->
             <button class="bottom-nav-item" data-action="controls" title="Controls" style="display: none;">
                 <div class="nav-icon">
@@ -872,6 +932,11 @@
         </div>
     </nav>
 
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" title="Back to top" style="display: none;">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
     <!-- Floating Auto Scroll Control -->
     <div id="floatingScrollControl" class="floating-scroll-control" style="display: none;">
         <div class="scroll-control-content">
@@ -902,16 +967,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- Compression Utils -->
-    <script src="compression-utils.min.js?v=4.3.3"></script>
+    <script src="compression-utils.min.js?v=4.4.0"></script>
     
     <!-- Enhanced Data Loader -->
-    <script src="enhanced-data-loader.min.js?v=4.3.3"></script>
+    <script src="enhanced-data-loader.min.js?v=4.4.0"></script>
     
     <!-- Migration Patch for Compression -->
-    <script src="migration-patch.min.js?v=4.3.3"></script>
+    <script src="migration-patch.min.js?v=4.4.0"></script>
     
     <!-- Main Application Script -->
-    <script src="script.min.js?v=4.3.3"></script>
+    <script src="script.min.js?v=4.4.0"></script>
     
     <!-- PWA Service Worker Registration -->
     <script>

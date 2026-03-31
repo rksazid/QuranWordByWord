@@ -128,11 +128,15 @@ let appData = {
     duaCounts: {},
     currentDua: null,
     duaTranslationVisible: false,
+    // Bookmarks
+    bookmarks: [],
+    // Sidebar
+    sidebarTab: 'all',
     // Settings
     settings: {
         fontSize: 'medium',
         fontSizeMultiplier: 1.0,
-        arabicFont: 'Amiri',
+        arabicFont: 'KFGQPC Uthman Taha Naskh',
         bengaliFont: 'Noto Serif Bengali',
         uiFont: 'Inter',
         theme: 'light',
@@ -157,6 +161,7 @@ const elements = {
     searchBtn: document.getElementById('searchBtn'),
     settingsBtn: document.getElementById('settingsBtn'),
     favoritesBtn: document.getElementById('favoritesBtn'),
+    bookmarksBtn: document.getElementById('bookmarksBtn'),
     toggleFavoriteBtn: document.getElementById('toggleFavoriteBtn'),
     
     // Header Controls
@@ -205,6 +210,21 @@ const elements = {
     settingsModal: document.getElementById('settingsModal'),
     closeSettingsModal: document.getElementById('closeSettingsModal'),
     
+    // Surah Sidebar
+    surahSidebar: document.getElementById('surahSidebar'),
+    sidebarSurahList: document.getElementById('sidebarSurahList'),
+    sidebarOverlay: document.getElementById('sidebarOverlay'),
+    closeSidebarBtn: document.getElementById('closeSidebarBtn'),
+
+    // Bookmarks Modal
+    bookmarksModal: document.getElementById('bookmarksModal'),
+    bookmarksList: document.getElementById('bookmarksList'),
+    closeBookmarksModal: document.getElementById('closeBookmarksModal'),
+
+    // Verse of the Day
+    verseOfTheDay: document.getElementById('verseOfTheDay'),
+    votdCard: document.getElementById('votdCard'),
+
     // Favorites Modal
     favoritesModal: document.getElementById('favoritesModal'),
     favoritesList: document.getElementById('favoritesList'),
@@ -318,9 +338,10 @@ const elements = {
     fontPresetBtns: document.querySelectorAll('.font-preset-btn'),
     arabicFontPreview: document.getElementById('arabicFontPreview'),
 
-    // Footer Install
+    // Footer Links
     installAppLink: document.getElementById('installAppLink'),
     aboutAppLink: document.getElementById('aboutAppLink'),
+    shareAppLink: document.getElementById('shareAppLink'),
     privacyLink: document.getElementById('privacyLink'),
     privacyModal: document.getElementById('privacyModal'),
     closePrivacyBtn: document.getElementById('closePrivacyBtn'),
@@ -484,7 +505,7 @@ function clearAllData() {
             appData.settings = {
                 fontSize: 'medium',
                 fontSizeMultiplier: 1.0,
-                arabicFont: 'Amiri',
+                arabicFont: 'KFGQPC Uthman Taha Naskh',
                 bengaliFont: 'Noto Serif Bengali',
                 uiFont: 'Inter',
                 theme: 'light',
@@ -1068,6 +1089,7 @@ window.renderFavorites = renderFavorites;
 function initializeApp() {
     hideLoading();
     loadSettings();
+    loadBookmarks();
     renderSurahList();
     setupEventListeners();
     initializeSettingsUI();
@@ -1080,6 +1102,7 @@ function initializeApp() {
 
     // Initialize bottom navigation for the home page
     updateBottomNavForPage(false);
+    initBackToTop();
 
     // Deep link: check URL hash first (shared links), fall back to localStorage
     var hashRoute = parseAppHash();
@@ -1196,6 +1219,9 @@ function initBottomNavigation() {
                 case 'toggle-favorite':
                     toggleCurrentSurahFavorite();
                     break;
+                case 'sidebar':
+                    openSidebar();
+                    break;
             }
         });
     });
@@ -1217,6 +1243,7 @@ function updateBottomNavForPage(isReadingPage = false) {
     const searchBtn = document.querySelector('[data-action="search"]');
     const favoritesBtn = document.querySelector('[data-action="favorites"]');
     const duaBtn = document.querySelector('[data-action="dua"]');
+    const sidebarBtn = document.querySelector('[data-action="sidebar"]');
 
     if (isReadingPage) {
         if (searchBtn) searchBtn.style.display = 'none';
@@ -1225,6 +1252,7 @@ function updateBottomNavForPage(isReadingPage = false) {
         if (controlsBtn) controlsBtn.style.display = 'flex';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'flex';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'flex';
+        if (sidebarBtn) sidebarBtn.style.display = 'flex';
 
         updateBottomNavFavoriteState();
     } else {
@@ -1234,6 +1262,7 @@ function updateBottomNavForPage(isReadingPage = false) {
         if (controlsBtn) controlsBtn.style.display = 'none';
         if (toggleFavoriteBtn) toggleFavoriteBtn.style.display = 'none';
         if (gotoAyahBtn) gotoAyahBtn.style.display = 'none';
+        if (sidebarBtn) sidebarBtn.style.display = 'none';
     }
 
     updateBottomNavActiveState(homeBtn);
@@ -1265,12 +1294,26 @@ function setupEventListeners() {
     elements.settingsBtn.addEventListener('click', openSettings);
     elements.goToAyahBtn?.addEventListener('click', openGoToAyahModal);
     elements.favoritesBtn?.addEventListener('click', openFavoritesModal);
+    elements.bookmarksBtn?.addEventListener('click', openBookmarksModal);
     elements.toggleFavoriteBtn?.addEventListener('click', toggleCurrentSurahFavorite);
     elements.toggleControlsBtn?.addEventListener('click', toggleFloatingControls);
     
     // Search (debounced for performance)
     elements.searchInput.addEventListener('input', debounce(handleSearch, 200));
     elements.clearSearch.addEventListener('click', clearSearch);
+    // Close search suggestions on click outside
+    document.addEventListener('click', function(e) {
+        const suggestions = document.getElementById('searchSuggestions');
+        if (suggestions && !e.target.closest('.search-container')) {
+            suggestions.style.display = 'none';
+        }
+    });
+    // Re-show suggestions on focus if query exists
+    elements.searchInput.addEventListener('focus', function() {
+        if (appData.searchQuery && appData.searchQuery.trim().length > 0) {
+            renderSearchSuggestions(appData.searchQuery);
+        }
+    });
     
     // Reading Controls
     elements.translationToggle.addEventListener('change', toggleTranslation);
@@ -1289,6 +1332,66 @@ function setupEventListeners() {
     elements.settingsModal.addEventListener('click', (e) => {
         if (e.target === elements.settingsModal) closeSettings();
     });
+
+    // Surah Sidebar
+    if (elements.closeSidebarBtn) {
+        elements.closeSidebarBtn.addEventListener('click', closeSidebar);
+    }
+    if (elements.sidebarOverlay) {
+        elements.sidebarOverlay.addEventListener('click', closeSidebar);
+    }
+    if (elements.surahSidebar) {
+        // Sidebar tab switching
+        elements.surahSidebar.querySelectorAll('.sidebar-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                elements.surahSidebar.querySelectorAll('.sidebar-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                renderSidebarSurahList(tab.dataset.sidebarTab);
+            });
+        });
+        // Sidebar surah click (event delegation)
+        elements.sidebarSurahList.addEventListener('click', (e) => {
+            const item = e.target.closest('.sidebar-surah-item');
+            if (item) {
+                handleSidebarSurahClick(item.dataset.sidebarSurah);
+            }
+        });
+    }
+
+    // Bookmarks Modal
+    if (elements.closeBookmarksModal) {
+        elements.closeBookmarksModal.addEventListener('click', closeBookmarksModalFn);
+    }
+    if (elements.bookmarksModal) {
+        elements.bookmarksModal.addEventListener('click', (e) => {
+            if (e.target === elements.bookmarksModal) closeBookmarksModalFn();
+        });
+        // Bookmark item click (navigate) and remove button
+        elements.bookmarksList.addEventListener('click', (e) => {
+            const removeBtn = e.target.closest('.bookmark-remove-btn');
+            if (removeBtn) {
+                e.stopPropagation();
+                const sid = removeBtn.dataset.removeSurah;
+                const vid = removeBtn.dataset.removeVerse;
+                toggleBookmark(sid, vid);
+                renderBookmarksList();
+                return;
+            }
+            const item = e.target.closest('.bookmark-item');
+            if (item) {
+                closeBookmarksModalFn();
+                const sid = item.dataset.bmSurah;
+                const vid = item.dataset.bmVerse;
+                openSurah(sid).then(() => {
+                    // Scroll to the bookmarked verse after a brief delay
+                    setTimeout(() => {
+                        const verseEl = document.querySelector(`.verse[data-verse="${vid}"]`);
+                        if (verseEl) verseEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }, 300);
+                });
+            }
+        });
+    }
     
     // Settings Tabs
     elements.tabBtns.forEach(btn => {
@@ -1347,6 +1450,10 @@ function setupEventListeners() {
         e.preventDefault();
         openSettings();
         switchSettingsTab('about');
+    });
+    elements.shareAppLink?.addEventListener('click', (e) => {
+        e.preventDefault();
+        shareApp();
     });
     elements.privacyLink?.addEventListener('click', (e) => {
         e.preventDefault();
@@ -1568,14 +1675,16 @@ function renderSurahList() {
     
     elements.surahList.innerHTML = '';
     
-    // Show last surah suggestion if no search query
+    // Show last surah suggestion and verse of the day if no search query
     if (!appData.searchQuery) {
         showLastSurahSuggestion();
+        renderVerseOfTheDay();
     } else {
         hideLastSurahSuggestion();
+        if (elements.verseOfTheDay) elements.verseOfTheDay.style.display = 'none';
     }
     
-    // Filter surahs based on search query AND type filter
+    // Filter surahs based on search query AND type filter (with fuzzy matching)
     const filteredSurahs = Object.entries(appData.surahNames).filter(([id, surah]) => {
         // Type filter
         if (appData.searchFilter === 'makkah' && !surah.type.toLowerCase().includes('makkah')) return false;
@@ -1583,18 +1692,19 @@ function renderSurahList() {
 
         if (!appData.searchQuery) return true;
 
-        const query = appData.searchQuery.toLowerCase().trim();
+        const query = appData.searchQuery.trim();
         // Support number search (e.g. "36" for Ya-Sin)
         if (/^\d+$/.test(query)) {
-            const num = parseInt(query);
-            return id === query || parseInt(id) === num;
+            return id === query || id.startsWith(query);
         }
-        return (
-            surah.name_english.toLowerCase().includes(query) ||
-            surah.name_bangla.includes(appData.searchQuery) ||
-            surah.name_arabic.includes(appData.searchQuery) ||
-            surah.type.toLowerCase().includes(query)
+        // Fuzzy match across all name fields
+        const score = Math.max(
+            fuzzyMatch(query, surah.name_english),
+            fuzzyMatch(query, surah.name_bangla),
+            fuzzyMatch(query, surah.name_arabic),
+            fuzzyMatch(query, surah.type)
         );
+        return score > 20;
     });
 
     // Update search result count
@@ -1684,7 +1794,7 @@ function showLastSurahSuggestion() {
     `;
 
     elements.lastSurahCard.addEventListener('click', () => openSurah(appData.lastOpenedSurah));
-    elements.lastSurahSuggestion.style.display = 'block';
+    elements.lastSurahSuggestion.style.display = 'flex';
 }
 
 function hideLastSurahSuggestion() {
@@ -1699,8 +1809,225 @@ function toggleSearch() {
     elements.searchInput.focus();
 }
 
+// Fuzzy string match: returns a score (0 = no match, higher = better)
+function fuzzyMatch(query, target) {
+    if (!query || !target) return 0;
+    const q = query.toLowerCase();
+    const t = target.toLowerCase();
+
+    // Exact substring match → highest score
+    if (t.includes(q)) return 100;
+
+    // Starts-with → very high
+    if (t.startsWith(q)) return 95;
+
+    // Word-starts-with match
+    const words = t.split(/[\s\-_]+/);
+    for (const w of words) {
+        if (w.startsWith(q)) return 80;
+    }
+
+    // Sequential character match (fuzzy)
+    let qi = 0;
+    let consecutive = 0;
+    let maxConsecutive = 0;
+    let matched = 0;
+    for (let ti = 0; ti < t.length && qi < q.length; ti++) {
+        if (t[ti] === q[qi]) {
+            qi++;
+            matched++;
+            consecutive++;
+            if (consecutive > maxConsecutive) maxConsecutive = consecutive;
+        } else {
+            consecutive = 0;
+        }
+    }
+    if (qi < q.length) return 0; // Not all query chars found
+    // Score: ratio of matched chars + bonus for consecutive runs
+    return Math.round((matched / t.length) * 40 + maxConsecutive * 10);
+}
+
+function getSearchSuggestions(query) {
+    if (!query || query.trim().length === 0) return [];
+    const q = query.trim();
+    const results = [];
+
+    // 1. Search Surahs
+    if (appData.surahNames) {
+        Object.entries(appData.surahNames).forEach(([id, s]) => {
+            let bestScore = 0;
+            // Number match
+            if (/^\d+$/.test(q) && id === q) {
+                bestScore = 100;
+            } else if (/^\d+$/.test(q) && id.startsWith(q)) {
+                bestScore = 80;
+            } else {
+                bestScore = Math.max(
+                    fuzzyMatch(q, s.name_english),
+                    fuzzyMatch(q, s.name_bangla),
+                    fuzzyMatch(q, s.name_arabic),
+                    fuzzyMatch(q, s.type)
+                );
+            }
+            if (bestScore > 20) {
+                results.push({
+                    type: 'surah',
+                    id: id,
+                    title: s.name_english,
+                    arabic: s.name_arabic,
+                    meta: `${s.type} · ${s.ayah_number} Ayahs`,
+                    score: bestScore,
+                    action: () => openSurah(id)
+                });
+            }
+        });
+    }
+
+    // 2. Search Juz (Hifz)
+    if (appData.juzData) {
+        for (let i = 1; i <= 30; i++) {
+            const juz = appData.juzData[i];
+            if (!juz) continue;
+            let bestScore = 0;
+            // Number match (e.g. "1" matches Juz 1)
+            if (/^\d+$/.test(q) && i.toString() === q) {
+                bestScore = 90;
+            } else {
+                bestScore = Math.max(
+                    fuzzyMatch(q, juz.name_en),
+                    fuzzyMatch(q, juz.name_ar),
+                    fuzzyMatch(q, 'juz ' + i),
+                    fuzzyMatch(q, 'para ' + i)
+                );
+            }
+            if (bestScore > 20) {
+                results.push({
+                    type: 'juz',
+                    id: i,
+                    title: juz.name_en,
+                    arabic: juz.name_ar,
+                    meta: `Juz ${i} · Pages ${juz.start_page}-${juz.end_page}`,
+                    score: bestScore,
+                    action: () => { switchMainView('hifz'); openJuz(i); }
+                });
+            }
+        }
+    }
+
+    // 3. Search Duas
+    if (appData.duaData && appData.duaData.collections) {
+        appData.duaData.collections.forEach(col => {
+            let bestScore = Math.max(
+                fuzzyMatch(q, col.title_en),
+                fuzzyMatch(q, col.title_bn),
+                fuzzyMatch(q, 'dua'),
+                fuzzyMatch(q, col.description_en || ''),
+                fuzzyMatch(q, col.description_bn || '')
+            );
+            if (bestScore > 20) {
+                results.push({
+                    type: 'dua',
+                    id: col.id,
+                    title: col.title_en,
+                    arabic: col.title_bn,
+                    meta: `${col.items.length} items`,
+                    score: bestScore,
+                    action: () => { switchMainView('dua'); openDua(col.id); }
+                });
+            }
+        });
+    }
+
+    // Sort by score descending, limit to 8
+    results.sort((a, b) => b.score - a.score);
+    return results.slice(0, 8);
+}
+
+function renderSearchSuggestions(query) {
+    const container = document.getElementById('searchSuggestions');
+    if (!container) return;
+
+    if (!query || query.trim().length === 0) {
+        container.style.display = 'none';
+        return;
+    }
+
+    const results = getSearchSuggestions(query);
+    if (results.length === 0) {
+        container.style.display = 'none';
+        return;
+    }
+
+    // Group by type
+    const groups = { surah: [], juz: [], dua: [] };
+    results.forEach(r => groups[r.type].push(r));
+
+    let html = '';
+    if (groups.surah.length) {
+        html += `<div class="search-suggestion-group"><div class="search-suggestion-label">Surahs</div>`;
+        groups.surah.forEach(r => {
+            html += `<div class="search-suggestion-item" data-suggestion-type="surah" data-suggestion-id="${escapeHtml(r.id)}">
+                <div class="search-suggestion-icon">${escapeHtml(r.id)}</div>
+                <div class="search-suggestion-text">
+                    <div class="search-suggestion-title">${escapeHtml(r.title)}</div>
+                    <div class="search-suggestion-meta">${escapeHtml(r.meta)}</div>
+                </div>
+                <div class="search-suggestion-arabic">${escapeHtml(r.arabic)}</div>
+            </div>`;
+        });
+        html += `</div>`;
+    }
+    if (groups.juz.length) {
+        html += `<div class="search-suggestion-group"><div class="search-suggestion-label">Hifz / Juz</div>`;
+        groups.juz.forEach(r => {
+            html += `<div class="search-suggestion-item" data-suggestion-type="juz" data-suggestion-id="${r.id}">
+                <div class="search-suggestion-icon juz">${r.id}</div>
+                <div class="search-suggestion-text">
+                    <div class="search-suggestion-title">${escapeHtml(r.title)}</div>
+                    <div class="search-suggestion-meta">${escapeHtml(r.meta)}</div>
+                </div>
+                <div class="search-suggestion-arabic">${escapeHtml(r.arabic)}</div>
+            </div>`;
+        });
+        html += `</div>`;
+    }
+    if (groups.dua.length) {
+        html += `<div class="search-suggestion-group"><div class="search-suggestion-label">Duas</div>`;
+        groups.dua.forEach(r => {
+            html += `<div class="search-suggestion-item" data-suggestion-type="dua" data-suggestion-id="${escapeHtml(r.id)}">
+                <div class="search-suggestion-icon dua"><i class="fas fa-hands-praying"></i></div>
+                <div class="search-suggestion-text">
+                    <div class="search-suggestion-title">${escapeHtml(r.title)}</div>
+                    <div class="search-suggestion-meta">${escapeHtml(r.meta)}</div>
+                </div>
+            </div>`;
+        });
+        html += `</div>`;
+    }
+
+    container.innerHTML = html;
+    container.style.display = 'block';
+
+    // Click delegation for suggestion items
+    container.onclick = function(e) {
+        const item = e.target.closest('.search-suggestion-item');
+        if (!item) return;
+        const type = item.dataset.suggestionType;
+        const id = item.dataset.suggestionId;
+        const result = results.find(r => r.type === type && r.id.toString() === id);
+        if (result) {
+            container.style.display = 'none';
+            elements.searchInput.value = '';
+            appData.searchQuery = '';
+            renderSurahList();
+            result.action();
+        }
+    };
+}
+
 function handleSearch(e) {
     appData.searchQuery = e.target.value;
+    renderSearchSuggestions(appData.searchQuery);
     renderSurahList();
 
     // Save search query for persistence
@@ -1726,6 +2053,8 @@ function clearSearch() {
     elements.searchFilterBtns?.forEach(btn => {
         btn.classList.toggle('active', btn.dataset.filter === 'all');
     });
+    const suggestions = document.getElementById('searchSuggestions');
+    if (suggestions) suggestions.style.display = 'none';
     renderSurahList();
 
     // Clear saved search query
@@ -1768,6 +2097,9 @@ async function openSurah(surahId) {
         elements.surahTitle.textContent = surahInfo.name_arabic;
         elements.surahType.textContent = surahInfo.type;
         elements.surahAyahs.textContent = `${surahInfo.ayah_number} Ayahs`;
+
+        // Update sidebar active state
+        updateSidebarActiveState(surahId);
 
         // Render the surah content
         renderSurahContent(surahData, surahInfo);
@@ -1891,7 +2223,10 @@ function switchToReadingPage() {
     // Hide search bar on reading page
     elements.searchContainer.style.display = 'none';
     clearSearch();
-    
+
+    // Render sidebar surah list
+    renderSidebarSurahList(appData.sidebarTab);
+
     // Update bottom navigation for reading page
     updateBottomNavForPage(true);
     
@@ -1943,6 +2278,7 @@ function createVerseElement(verseNum, verseData) {
     `;
     
     // Create action buttons (skip for bismillah)
+    const bookmarked = verseNum !== '0' && appData.currentSurah ? isBookmarked(appData.currentSurah, verseNum) : false;
     const actionsHtml = verseNum !== '0' ? `
         <div class="verse-actions">
             <button class="verse-action-btn copy-btn" title="Copy verse">
@@ -1952,6 +2288,10 @@ function createVerseElement(verseNum, verseData) {
             <button class="verse-action-btn share-btn" title="Share verse">
                 <i class="fas fa-share-alt"></i>
                 <span>Share</span>
+            </button>
+            <button class="verse-action-btn bookmark-btn${bookmarked ? ' bookmarked' : ''}" title="Bookmark this verse">
+                <i class="${bookmarked ? 'fas' : 'far'} fa-bookmark"></i>
+                <span>${bookmarked ? 'Saved' : 'Save'}</span>
             </button>
             <button class="verse-action-btn select-btn" title="Select for multi-copy">
                 <i class="fas fa-check-circle"></i>
@@ -2110,6 +2450,281 @@ function closeModal() {
     elements.wordModal.style.display = 'none';
 }
 
+// ==================== SURAH SIDEBAR ==================== //
+
+function renderSidebarSurahList(filter) {
+    if (!appData.surahNames || !elements.sidebarSurahList) return;
+
+    appData.sidebarTab = filter || 'all';
+    const surahs = Object.entries(appData.surahNames);
+    let filtered = surahs;
+
+    if (filter === 'favorites') {
+        const favs = appData.settings.favorites || [];
+        filtered = surahs.filter(([id]) => favs.includes(id) || favs.includes(parseInt(id)));
+    }
+
+    if (filtered.length === 0) {
+        elements.sidebarSurahList.innerHTML = `
+            <div class="sidebar-empty">
+                <i class="far fa-bookmark"></i>
+                <p>No favorite surahs yet</p>
+            </div>
+        `;
+        return;
+    }
+
+    elements.sidebarSurahList.innerHTML = filtered.map(([id, info]) => {
+        const isActive = appData.currentSurah && id === appData.currentSurah.toString();
+        return `<div class="sidebar-surah-item${isActive ? ' active' : ''}" data-sidebar-surah="${escapeHtml(id)}">
+            <div class="sidebar-surah-num">${escapeHtml(id)}</div>
+            <div class="sidebar-surah-info">
+                <div class="sidebar-surah-name">${escapeHtml(info.name_english)}</div>
+                <div class="sidebar-surah-meaning">${escapeHtml(info.type)} · ${escapeHtml(info.ayah_number)} Ayahs</div>
+            </div>
+            <div class="sidebar-surah-arabic">${escapeHtml(info.name_arabic)}</div>
+        </div>`;
+    }).join('');
+
+    // Scroll to active surah
+    requestAnimationFrame(() => {
+        const activeItem = elements.sidebarSurahList.querySelector('.sidebar-surah-item.active');
+        if (activeItem) {
+            activeItem.scrollIntoView({ block: 'center', behavior: 'instant' });
+        }
+    });
+}
+
+function updateSidebarActiveState(surahId) {
+    if (!elements.sidebarSurahList) return;
+    const items = elements.sidebarSurahList.querySelectorAll('.sidebar-surah-item');
+    items.forEach(item => {
+        item.classList.toggle('active', item.dataset.sidebarSurah === surahId.toString());
+    });
+    // Scroll to active
+    const activeItem = elements.sidebarSurahList.querySelector('.sidebar-surah-item.active');
+    if (activeItem) {
+        activeItem.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+}
+
+function openSidebar() {
+    if (!elements.surahSidebar) return;
+    // On desktop, sidebar is always visible. Only toggle on mobile.
+    if (window.innerWidth >= 1024) return;
+    elements.surahSidebar.classList.add('open');
+    elements.sidebarOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeSidebar() {
+    if (!elements.surahSidebar) return;
+    elements.surahSidebar.classList.remove('open');
+    elements.sidebarOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+function handleSidebarSurahClick(surahId) {
+    closeSidebar();
+    openSurah(surahId);
+}
+
+// ==================== BOOKMARKS ==================== //
+
+function loadBookmarks() {
+    try {
+        const saved = localStorage.getItem('quranAppBookmarks');
+        if (saved) {
+            appData.bookmarks = JSON.parse(saved);
+        }
+    } catch (e) {
+        console.error('Error loading bookmarks:', e);
+        appData.bookmarks = [];
+    }
+}
+
+function saveBookmarks() {
+    try {
+        localStorage.setItem('quranAppBookmarks', JSON.stringify(appData.bookmarks));
+    } catch (e) {
+        console.error('Error saving bookmarks:', e);
+    }
+}
+
+function isBookmarked(surahId, verseNum) {
+    return appData.bookmarks.some(b => b.surahId === surahId.toString() && b.verseNum === verseNum.toString());
+}
+
+function toggleBookmark(surahId, verseNum) {
+    const sid = surahId.toString();
+    const vid = verseNum.toString();
+    const idx = appData.bookmarks.findIndex(b => b.surahId === sid && b.verseNum === vid);
+
+    if (idx >= 0) {
+        appData.bookmarks.splice(idx, 1);
+    } else {
+        appData.bookmarks.push({ surahId: sid, verseNum: vid, timestamp: Date.now() });
+    }
+    saveBookmarks();
+}
+
+function handleBookmarkVerse(verseNum, btn) {
+    if (!appData.currentSurah) return;
+    toggleBookmark(appData.currentSurah, verseNum);
+
+    const bookmarked = isBookmarked(appData.currentSurah, verseNum);
+    if (btn) {
+        const icon = btn.querySelector('i');
+        const span = btn.querySelector('span');
+        if (icon) {
+            icon.className = bookmarked ? 'fas fa-bookmark' : 'far fa-bookmark';
+        }
+        if (span) {
+            span.textContent = bookmarked ? 'Saved' : 'Save';
+        }
+        btn.classList.toggle('bookmarked', bookmarked);
+
+        // Brief feedback
+        if (bookmarked && navigator.vibrate) {
+            navigator.vibrate(30);
+        }
+    }
+}
+
+function openBookmarksModal() {
+    renderBookmarksList();
+    if (elements.bookmarksModal) {
+        elements.bookmarksModal.style.display = 'flex';
+    }
+}
+
+function closeBookmarksModalFn() {
+    if (elements.bookmarksModal) {
+        elements.bookmarksModal.style.display = 'none';
+    }
+}
+
+function renderBookmarksList() {
+    if (!elements.bookmarksList) return;
+
+    if (appData.bookmarks.length === 0) {
+        elements.bookmarksList.innerHTML = `
+            <div class="bookmarks-empty">
+                <i class="far fa-bookmark"></i>
+                <p>No bookmarked verses yet</p>
+                <p style="font-size:0.8rem">Tap "Save" on any verse to bookmark it</p>
+            </div>
+        `;
+        return;
+    }
+
+    // Sort by timestamp descending (newest first)
+    const sorted = [...appData.bookmarks].sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+
+    elements.bookmarksList.innerHTML = sorted.map(bm => {
+        const surahInfo = appData.surahNames ? appData.surahNames[bm.surahId] : null;
+        const surahName = surahInfo ? surahInfo.name_english : `Surah ${bm.surahId}`;
+        const surahArabic = surahInfo ? surahInfo.name_arabic : '';
+
+        return `<div class="bookmark-item" data-bm-surah="${escapeHtml(bm.surahId)}" data-bm-verse="${escapeHtml(bm.verseNum)}">
+            <div class="bookmark-surah-num">${escapeHtml(bm.surahId)}:${escapeHtml(bm.verseNum)}</div>
+            <div class="bookmark-info">
+                <div class="bookmark-surah-name">${escapeHtml(surahName)}</div>
+                <div class="bookmark-verse-ref">Ayah ${escapeHtml(bm.verseNum)} · ${escapeHtml(surahArabic)}</div>
+            </div>
+            <button class="bookmark-remove-btn" data-remove-surah="${escapeHtml(bm.surahId)}" data-remove-verse="${escapeHtml(bm.verseNum)}" title="Remove bookmark">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>`;
+    }).join('');
+}
+
+// ==================== VERSE OF THE DAY ==================== //
+
+const CURATED_VERSES = [
+    {s:1,v:2},{s:2,v:152},{s:2,v:186},{s:2,v:216},{s:2,v:255},{s:2,v:286},
+    {s:3,v:26},{s:3,v:139},{s:3,v:173},{s:3,v:185},{s:5,v:32},
+    {s:6,v:59},{s:7,v:56},{s:9,v:51},{s:9,v:129},{s:10,v:62},
+    {s:12,v:87},{s:13,v:28},{s:14,v:7},{s:16,v:97},{s:17,v:82},
+    {s:18,v:10},{s:20,v:114},{s:21,v:87},{s:23,v:116},{s:24,v:35},
+    {s:25,v:74},{s:27,v:62},{s:29,v:69},{s:31,v:18},{s:33,v:56},
+    {s:36,v:58},{s:39,v:10},{s:39,v:53},{s:40,v:60},{s:41,v:34},
+    {s:42,v:19},{s:45,v:15},{s:49,v:10},{s:49,v:13},{s:55,v:13},
+    {s:55,v:60},{s:57,v:4},{s:59,v:22},{s:59,v:23},{s:59,v:24},
+    {s:65,v:3},{s:67,v:2},{s:73,v:8},{s:93,v:5},{s:94,v:5},
+    {s:94,v:6},{s:95,v:4},{s:103,v:1},{s:103,v:2},{s:103,v:3},
+    {s:110,v:1},{s:112,v:1},{s:113,v:1},{s:114,v:1}
+];
+
+async function renderVerseOfTheDay() {
+    if (!appData.surahNames || !elements.votdCard) return;
+
+    try {
+        // Deterministic daily pick based on date
+        const today = new Date();
+        const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+        const index = seed % CURATED_VERSES.length;
+        const { s: surahId, v: verseNum } = CURATED_VERSES[index];
+
+        const surahData = await loadSurahData(surahId);
+        if (!surahData) return;
+
+        const verse = surahData[verseNum.toString()];
+        if (!verse) return;
+
+        const surahInfo = appData.surahNames[surahId];
+        const arabicText = verse.arabic_text_uthmani || verse.arabic_text;
+        const translation = appData.currentTranslationLang === 'english'
+            ? (verse.english_trans || verse.bangla_trans)
+            : (verse.bangla_trans || verse.english_trans);
+
+        elements.votdCard.innerHTML = `
+            <div class="votd-arabic" dir="rtl">${arabicText}</div>
+            <div class="votd-translation">${translation}</div>
+            <div class="votd-ref">\u2014 ${escapeHtml(surahInfo.name_english)} ${surahId}:${verseNum}</div>
+        `;
+
+        // Make card clickable
+        elements.votdCard.onclick = () => openSurah(surahId);
+        elements.verseOfTheDay.style.display = 'flex';
+    } catch (e) {
+        console.warn('Verse of the Day load failed:', e);
+    }
+}
+
+// ==================== BACK TO TOP ==================== //
+
+function initBackToTop() {
+    const btn = document.getElementById('backToTopBtn');
+    if (!btn) return;
+
+    let ticking = false;
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            requestAnimationFrame(function() {
+                if (window.scrollY > 400) {
+                    btn.style.display = 'flex';
+                    requestAnimationFrame(() => btn.classList.add('visible'));
+                } else {
+                    btn.classList.remove('visible');
+                    // Hide after transition ends
+                    setTimeout(() => {
+                        if (!btn.classList.contains('visible')) {
+                            btn.style.display = 'none';
+                        }
+                    }, 300);
+                }
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }, { passive: true });
+
+    btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+
 // ==================== NAVIGATION ==================== //
 function goBackToSurahList() {
     // Handle back from Hifz reading page
@@ -2126,6 +2741,7 @@ function goBackToSurahList() {
 
     localStorage.setItem('quranAppActivePage', 'home');
     setAppHash('');
+    closeSidebar();
 
     // Restore the right page based on main view
     if (appData.mainView === 'hifz') {
@@ -2350,6 +2966,10 @@ function changeArabicFont(e) {
     if (appData.currentSurah && surahCache.has(appData.currentSurah)) {
         const surahData = surahCache.get(appData.currentSurah);
         renderVerses(surahData);
+        // Re-apply compact mode structure if active
+        if (appData.isCompactMode) {
+            restructureVersesForCompactMode();
+        }
         console.log('🔄 Re-rendered verses with new font');
     }
 }
@@ -2837,6 +3457,38 @@ function toggleCompactMode() {
 }
 
 // ==================== INSTALL APP HANDLER ==================== //
+async function shareApp() {
+    const shareData = {
+        title: 'Al-Quran Word by Word',
+        text: 'Read the Holy Quran with word-by-word Bengali translation. Offline-ready PWA with Hifz mode, Dua collections, and more.',
+        url: window.location.origin + '/'
+    };
+
+    try {
+        if (navigator.share) {
+            await navigator.share(shareData);
+        } else {
+            // Fallback: copy link to clipboard
+            await navigator.clipboard.writeText(shareData.url);
+            showSuccess('Link copied to clipboard!');
+        }
+    } catch (e) {
+        // User cancelled share or clipboard failed — try textarea fallback
+        if (e.name !== 'AbortError') {
+            try {
+                const ta = document.createElement('textarea');
+                ta.value = shareData.url;
+                ta.style.cssText = 'position:fixed;opacity:0';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                showSuccess('Link copied to clipboard!');
+            } catch (_) {}
+        }
+    }
+}
+
 function handleFooterInstall(e) {
     e.preventDefault();
 
@@ -3048,7 +3700,7 @@ async function switchMainView(view) {
         elements.surahListPage.style.display = 'none';
         if (elements.hifzListPage) elements.hifzListPage.style.display = 'none';
         if (elements.duaListPage) elements.duaListPage.style.display = 'block';
-        elements.searchContainer.style.display = 'none';
+        elements.searchContainer.style.display = 'block';
         // If data hasn't loaded yet, wait for it
         if (!appData.duaData) {
             await loadDuaData();
@@ -3732,6 +4384,16 @@ document.addEventListener('DOMContentLoaded', function() {
             e.stopPropagation();
             const verse = shareBtn.closest('.verse');
             if (verse) handleShareVerse(verse.getAttribute('data-verse'));
+            return;
+        }
+
+        // Bookmark button
+        const bookmarkBtn = e.target.closest('.bookmark-btn');
+        if (bookmarkBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            const verse = bookmarkBtn.closest('.verse');
+            if (verse) handleBookmarkVerse(verse.getAttribute('data-verse'), bookmarkBtn);
             return;
         }
 
