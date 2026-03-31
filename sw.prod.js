@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quran-word-by-word-v4.3.3';
+const CACHE_NAME = 'quran-word-by-word-v4.4.0';
 
 // Core app shell files — MUST cache successfully for SW to install
 const CORE_URLS = [
@@ -10,6 +10,10 @@ const CORE_URLS = [
     './enhanced-data-loader.min.js',
     './migration-patch.min.js',
     './manifest.json',
+    './fonts/UthmanTN1-Ver10.woff2',
+    './fonts/UthmanTN1B-Ver10.woff2',
+    './fonts/me_quran.woff2',
+    './fonts/pdms-saleem.woff2',
     './data/surah_name.json',
     './data/juz_data.json',
     './data/quran_pages.json',
