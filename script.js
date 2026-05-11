@@ -284,6 +284,20 @@ const elements = {
     ayahRange: document.getElementById('ayahRange'),
     goToAyahConfirm: document.getElementById('goToAyahConfirm'),
 
+    // Reader Power-Up: sticky header, streak, reading time, shortcuts modal
+    stickyReaderHeader: document.getElementById('stickyReaderHeader'),
+    stickyReaderTitle: document.getElementById('stickyReaderTitle'),
+    stickyCurrentVerse: document.getElementById('stickyCurrentVerse'),
+    stickyTotalVerses: document.getElementById('stickyTotalVerses'),
+    stickyProgressFill: document.getElementById('stickyProgressFill'),
+    stickyBackBtn: document.getElementById('stickyBackBtn'),
+    stickyJumpBtn: document.getElementById('stickyJumpBtn'),
+    stickyShortcutsBtn: document.getElementById('stickyShortcutsBtn'),
+    surahReadTime: document.getElementById('surahReadTime'),
+    surahStreak: document.getElementById('surahStreak'),
+    shortcutsModal: document.getElementById('shortcutsModal'),
+    closeShortcutsModal: document.getElementById('closeShortcutsModal'),
+
     // Multi-select
     selectionBar: document.getElementById('selectionBar'),
     selectionCount: document.getElementById('selectionCount'),
@@ -1094,6 +1108,7 @@ function initializeApp() {
     setupEventListeners();
     initializeSettingsUI();
     initViewToggle();
+    initReaderPowerUp();
 
     // Restore saved main view tab
     if (appData.mainView && appData.mainView !== 'surahs') {
@@ -1586,6 +1601,87 @@ function handleKeyboard(e) {
         document.activeElement.tagName !== 'TEXTAREA') {
         toggleReadingMode();
     }
+
+    // ---- Reader power-up shortcuts (no modifier, not in input) ----
+    const onReadingPage = elements.surahReadingPage && elements.surahReadingPage.style.display !== 'none';
+    const isTyping = document.activeElement && (
+        document.activeElement.tagName === 'INPUT' ||
+        document.activeElement.tagName === 'TEXTAREA' ||
+        document.activeElement.isContentEditable
+    );
+    if (isTyping || e.ctrlKey || e.altKey || e.metaKey) return;
+
+    // ? — show shortcuts help (works anywhere)
+    if (e.key === '?' || (e.shiftKey && e.key === '/')) {
+        e.preventDefault();
+        if (elements.shortcutsModal && elements.shortcutsModal.style.display !== 'none') {
+            closeShortcutsModal();
+        } else {
+            openShortcutsModal();
+        }
+        return;
+    }
+
+    if (!onReadingPage) return;
+
+    switch (e.key) {
+        case 'j':
+        case 'ArrowDown':
+            if (e.key === 'j' || (e.key === 'ArrowDown' && !e.shiftKey)) {
+                e.preventDefault();
+                gotoNextVerse();
+            }
+            break;
+        case 'k':
+        case 'ArrowUp':
+            if (e.key === 'k' || (e.key === 'ArrowUp' && !e.shiftKey)) {
+                e.preventDefault();
+                gotoPrevVerse();
+            }
+            break;
+        case ']': {
+            e.preventDefault();
+            const id = parseInt(appData.currentSurah, 10);
+            if (id && id < 114) navigateToSurah(id + 1);
+            break;
+        }
+        case '[': {
+            e.preventDefault();
+            const id = parseInt(appData.currentSurah, 10);
+            if (id && id > 1) navigateToSurah(id - 1);
+            break;
+        }
+        case 't':
+            e.preventDefault();
+            if (elements.translationToggle) {
+                elements.translationToggle.checked = !elements.translationToggle.checked;
+                toggleTranslation();
+            }
+            break;
+        case 'w':
+            e.preventDefault();
+            if (elements.wordByWordToggle) {
+                elements.wordByWordToggle.checked = !elements.wordByWordToggle.checked;
+                toggleWordByWord();
+            }
+            break;
+        case 'b':
+            e.preventDefault();
+            actOnCurrentVerse('bookmark');
+            break;
+        case 'c':
+            e.preventDefault();
+            actOnCurrentVerse('copy');
+            break;
+        case 'l': {
+            e.preventDefault();
+            const next = appData.currentTranslationLang === 'bangla' ? 'english' : 'bangla';
+            if (typeof setTranslationLanguage === 'function') {
+                setTranslationLanguage(next);
+            }
+            break;
+        }
+    }
 }
 
 // ==================== VIEW TOGGLE FUNCTIONALITY ==================== //
@@ -1764,17 +1860,42 @@ function createSurahCard(surahId, surahInfo) {
 
 // ==================== LAST SURAH SUGGESTION ==================== //
 function showLastSurahSuggestion() {
-    if (!appData.lastOpenedSurah || !appData.surahNames || !elements.lastSurahSuggestion) {
+    if (!elements.lastSurahSuggestion || !appData.surahNames) {
         hideLastSurahSuggestion();
         return;
     }
 
-    const surahInfo = appData.surahNames[appData.lastOpenedSurah];
+    const surahInfo = appData.lastOpenedSurah ? appData.surahNames[appData.lastOpenedSurah] : null;
+
+    // First-open / empty state — render a "Start Reading" welcome card so the
+    // homepage grid doesn't leave a blank column next to Verse of the Day.
     if (!surahInfo) {
-        hideLastSurahSuggestion();
+        const firstSurah = appData.surahNames['1'];
+        if (!firstSurah) { hideLastSurahSuggestion(); return; }
+
+        elements.lastSurahSuggestion.classList.add('is-welcome');
+        elements.lastSurahCard.innerHTML = `
+            <div class="suggestion-content suggestion-welcome">
+                <div class="suggestion-welcome-icon"><i class="fas fa-book-open"></i></div>
+                <div class="suggestion-surah-names">
+                    <div class="suggestion-welcome-title">Begin Your Journey</div>
+                    <div class="suggestion-welcome-sub">Start with Surah Al-Fatihah</div>
+                </div>
+                <div class="suggestion-meta">
+                    <span class="suggestion-type">${firstSurah.type || 'Makkah'}</span>
+                    <div class="suggestion-continue">
+                        <i class="fas fa-play"></i>
+                        <span>Start Reading</span>
+                    </div>
+                </div>
+            </div>
+        `;
+        elements.lastSurahCard.onclick = () => openSurah('1');
+        elements.lastSurahSuggestion.style.display = 'flex';
         return;
     }
 
+    elements.lastSurahSuggestion.classList.remove('is-welcome');
     elements.lastSurahCard.innerHTML = `
         <div class="suggestion-content">
             <div class="suggestion-surah-number">${appData.lastOpenedSurah}</div>
@@ -1793,7 +1914,7 @@ function showLastSurahSuggestion() {
         </div>
     `;
 
-    elements.lastSurahCard.addEventListener('click', () => openSurah(appData.lastOpenedSurah));
+    elements.lastSurahCard.onclick = () => openSurah(appData.lastOpenedSurah);
     elements.lastSurahSuggestion.style.display = 'flex';
 }
 
@@ -2097,6 +2218,11 @@ async function openSurah(surahId) {
         elements.surahTitle.textContent = surahInfo.name_arabic;
         elements.surahType.textContent = surahInfo.type;
         elements.surahAyahs.textContent = `${surahInfo.ayah_number} Ayahs`;
+        if (elements.stickyReaderTitle) {
+            elements.stickyReaderTitle.textContent = `${surahInfo.name_arabic} · ${surahInfo.name_english}`;
+        }
+        updateSurahHeaderStats(surahInfo);
+        recordReadingActivity();
 
         // Update sidebar active state
         updateSidebarActiveState(surahId);
@@ -2236,14 +2362,17 @@ function switchToReadingPage() {
 
 function renderVerses(surahData) {
     elements.versesContainer.innerHTML = '';
-    
+
     Object.entries(surahData).forEach(([verseNum, verseData]) => {
         // Skip verse 0 (bismillah) for most surahs
         if (verseNum === '0' && appData.currentSurah !== '1') return;
-        
+
         const verseElement = createVerseElement(verseNum, verseData);
         elements.versesContainer.appendChild(verseElement);
     });
+
+    // Re-bind verse observer for sticky-header live tracking
+    if (typeof setupVerseObserver === 'function') setupVerseObserver();
 }
 
 function createVerseElement(verseNum, verseData) {
@@ -2331,6 +2460,205 @@ function createArabicText(verseData) {
         result += ' <span class="sajdah-mark" title="Sajdah (prostration)">۩</span>';
     }
     return result;
+}
+
+// ==================== READER POWER-UP ==================== //
+// Sticky reading header, in-page progress, current-verse tracking,
+// reading streak, reading-time estimate, and an extended keyboard map.
+
+const readerPowerUp = {
+    verseObserver: null,
+    progressRafId: 0,
+    currentVerse: 1,
+    totalVerses: 0,
+    headerShown: false,
+};
+
+// Estimated reading time: ~12 seconds per ayah feels right for reflective reading
+function estimateReadingMinutes(ayahCount) {
+    const seconds = Math.max(60, ayahCount * 12);
+    return Math.ceil(seconds / 60);
+}
+
+function updateSurahHeaderStats(surahInfo) {
+    if (elements.surahReadTime) {
+        const mins = estimateReadingMinutes(surahInfo.ayah_number);
+        const text = elements.surahReadTime.querySelector('[data-text]');
+        if (text) text.textContent = `~${mins} min`;
+    }
+    refreshStreakBadge();
+}
+
+// ---- Reading streak ----
+function loadStreak() {
+    try {
+        return JSON.parse(localStorage.getItem('quranAppReadingStreak') || '{}');
+    } catch (_) {
+        return {};
+    }
+}
+function saveStreak(streak) {
+    localStorage.setItem('quranAppReadingStreak', JSON.stringify(streak));
+}
+function recordReadingActivity() {
+    const today = new Date().toDateString();
+    const streak = loadStreak();
+    if (streak.lastDate === today) return;
+
+    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    streak.count = streak.lastDate === yesterday ? (streak.count || 0) + 1 : 1;
+    streak.lastDate = today;
+    streak.best = Math.max(streak.best || 0, streak.count);
+    saveStreak(streak);
+    refreshStreakBadge();
+}
+function refreshStreakBadge() {
+    if (!elements.surahStreak) return;
+    const streak = loadStreak();
+    const today = new Date().toDateString();
+    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    // Only show streak when current (today or yesterday — grace day)
+    const isLive = streak.lastDate === today || streak.lastDate === yesterday;
+    if (isLive && streak.count > 0) {
+        elements.surahStreak.style.display = 'inline-flex';
+        const text = elements.surahStreak.querySelector('[data-text]');
+        if (text) text.textContent = `${streak.count} day${streak.count === 1 ? '' : 's'}`;
+        elements.surahStreak.title = `Reading streak — best: ${streak.best || streak.count}`;
+    } else {
+        elements.surahStreak.style.display = 'none';
+    }
+}
+
+// ---- Sticky header + progress + current-verse tracking ----
+function initReaderPowerUp() {
+    if (elements.stickyBackBtn) {
+        elements.stickyBackBtn.addEventListener('click', () => goBackToSurahList());
+    }
+    if (elements.stickyJumpBtn) {
+        elements.stickyJumpBtn.addEventListener('click', () => openGoToAyahModal());
+    }
+    if (elements.stickyShortcutsBtn) {
+        elements.stickyShortcutsBtn.addEventListener('click', () => openShortcutsModal());
+    }
+    if (elements.closeShortcutsModal) {
+        elements.closeShortcutsModal.addEventListener('click', () => closeShortcutsModal());
+    }
+    if (elements.shortcutsModal) {
+        elements.shortcutsModal.addEventListener('click', (e) => {
+            if (e.target === elements.shortcutsModal) closeShortcutsModal();
+        });
+    }
+
+    window.addEventListener('scroll', onReaderScroll, { passive: true });
+}
+
+function setupVerseObserver() {
+    if (readerPowerUp.verseObserver) {
+        readerPowerUp.verseObserver.disconnect();
+    }
+    const verses = elements.versesContainer
+        ? elements.versesContainer.querySelectorAll('.verse[data-verse]')
+        : [];
+    readerPowerUp.totalVerses = verses.length;
+    if (elements.stickyTotalVerses) elements.stickyTotalVerses.textContent = verses.length;
+    readerPowerUp.currentVerse = 1;
+    if (elements.stickyCurrentVerse) elements.stickyCurrentVerse.textContent = '1';
+
+    if (!verses.length || !('IntersectionObserver' in window)) return;
+
+    // Build rootMargin at runtime — our naive source minifier strips
+    // whitespace before "-", which corrupts a literal like "0px -65%" into
+    // "0px-65%" and makes the IntersectionObserver constructor throw.
+    const rmTop = -80;
+    const rmBottom = -65;
+    const observerOpts = {
+        rootMargin: rmTop + 'px 0px ' + rmBottom + '% 0px',
+        threshold: 0
+    };
+    readerPowerUp.verseObserver = new IntersectionObserver((entries) => {
+        // Find the topmost intersecting verse — that's "current"
+        const visible = entries
+            .filter(e => e.isIntersecting)
+            .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (!visible.length) return;
+        const num = parseInt(visible[0].target.dataset.verse, 10);
+        if (!Number.isFinite(num) || num === readerPowerUp.currentVerse) return;
+        readerPowerUp.currentVerse = num;
+        if (elements.stickyCurrentVerse) elements.stickyCurrentVerse.textContent = num;
+        verses.forEach(v => v.classList.toggle('is-current', parseInt(v.dataset.verse, 10) === num));
+    }, observerOpts);
+
+    verses.forEach(v => readerPowerUp.verseObserver.observe(v));
+}
+
+function onReaderScroll() {
+    if (readerPowerUp.progressRafId) return;
+    readerPowerUp.progressRafId = requestAnimationFrame(() => {
+        readerPowerUp.progressRafId = 0;
+        const onReadingPage = elements.surahReadingPage && elements.surahReadingPage.style.display !== 'none';
+        if (!onReadingPage || !elements.stickyReaderHeader) return;
+
+        const header = elements.surahHeader || document.querySelector('.surah-header');
+        const triggerY = header ? header.getBoundingClientRect().bottom : 120;
+        const shouldShow = triggerY < 8;
+        if (shouldShow !== readerPowerUp.headerShown) {
+            readerPowerUp.headerShown = shouldShow;
+            elements.stickyReaderHeader.classList.toggle('visible', shouldShow);
+            elements.stickyReaderHeader.setAttribute('aria-hidden', shouldShow ? 'false' : 'true');
+        }
+
+        // progress %
+        const doc = document.documentElement;
+        const scrolled = window.scrollY;
+        const max = (doc.scrollHeight - window.innerHeight) || 1;
+        const pct = Math.min(100, Math.max(0, (scrolled / max) * 100));
+        if (elements.stickyProgressFill) elements.stickyProgressFill.style.width = pct.toFixed(1) + '%';
+    });
+}
+
+// ---- Shortcuts modal ----
+function openShortcutsModal() {
+    if (!elements.shortcutsModal) return;
+    elements.shortcutsModal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+function closeShortcutsModal() {
+    if (!elements.shortcutsModal) return;
+    elements.shortcutsModal.style.display = 'none';
+    document.body.style.overflow = '';
+}
+
+// ---- Verse-level keyboard navigation helpers ----
+function scrollToVerseNumber(num) {
+    const target = elements.versesContainer && elements.versesContainer.querySelector(`.verse[data-verse="${num}"]`);
+    if (!target) return false;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    target.classList.add('verse-flash');
+    setTimeout(() => target.classList.remove('verse-flash'), 800);
+    return true;
+}
+
+function gotoNextVerse() {
+    const next = Math.min(readerPowerUp.totalVerses, (readerPowerUp.currentVerse || 1) + 1);
+    scrollToVerseNumber(next);
+}
+function gotoPrevVerse() {
+    const prev = Math.max(1, (readerPowerUp.currentVerse || 1) - 1);
+    scrollToVerseNumber(prev);
+}
+
+function actOnCurrentVerse(action) {
+    const verseEl = elements.versesContainer && elements.versesContainer.querySelector(
+        `.verse[data-verse="${readerPowerUp.currentVerse}"]`
+    );
+    if (!verseEl) return;
+    const selector = action === 'bookmark' ? '.bookmark-btn'
+        : action === 'copy' ? '.copy-btn'
+        : action === 'share' ? '.share-btn'
+        : null;
+    if (!selector) return;
+    const btn = verseEl.querySelector(selector);
+    if (btn) btn.click();
 }
 
 // ==================== TRANSLATION CONTROLS ==================== //
@@ -3705,6 +4033,7 @@ async function switchMainView(view) {
         if (!appData.duaData) {
             await loadDuaData();
         }
+        setupDuaListControls();
         renderDuaList();
     }
 }
@@ -3902,8 +4231,31 @@ function renderDuaList() {
     if (!appData.duaData || !elements.duaList) return;
     elements.duaList.innerHTML = '';
 
-    appData.duaData.collections.forEach(collection => {
-        // Calculate progress
+    const filter = appData.duaCategoryFilter || 'all';
+    const query = (appData.duaSearchQuery || '').trim().toLowerCase();
+
+    const matches = appData.duaData.collections.filter(collection => {
+        if (filter !== 'all' && collection.category !== filter) return false;
+        if (!query) return true;
+        // Match against collection title/desc OR any item label
+        const hay = [
+            collection.title_bn, collection.title_en, collection.title_ar,
+            collection.description_bn, collection.description_en,
+            collection.category
+        ].filter(Boolean).join(' ').toLowerCase();
+        if (hay.indexOf(query) !== -1) return true;
+        return collection.items.some(it => {
+            const itemHay = [it.label_bn, it.label_en, it.arabic_text, it.translation_en]
+                .filter(Boolean).join(' ').toLowerCase();
+            return itemHay.indexOf(query) !== -1;
+        });
+    });
+
+    // Empty state
+    const emptyEl = document.getElementById('duaEmptyState');
+    if (emptyEl) emptyEl.style.display = matches.length === 0 ? 'flex' : 'none';
+
+    matches.forEach(collection => {
         const totalItems = collection.items.length;
         let completedItems = 0;
         collection.items.forEach(item => {
@@ -3914,12 +4266,16 @@ function renderDuaList() {
 
         const card = document.createElement('div');
         card.className = 'dua-card';
+        card.setAttribute('data-category', collection.category || 'general');
         card.innerHTML = `
             <div class="dua-card-icon"><i class="fas ${escapeHtml(collection.icon)}"></i></div>
             <div class="dua-card-content">
                 <div class="dua-card-title">${escapeHtml(collection.title_bn)}</div>
                 <div class="dua-card-title-en">${escapeHtml(collection.title_en)}</div>
-                <div class="dua-card-meta">${totalItems} items · ${completedItems}/${totalItems} complete</div>
+                <div class="dua-card-meta">
+                    <span class="dua-card-cat-pill">${escapeHtml(collection.category || 'general')}</span>
+                    <span>${totalItems} items · ${completedItems}/${totalItems} complete</span>
+                </div>
             </div>
             <div class="dua-card-progress">
                 <svg viewBox="0 0 36 36" class="dua-progress-ring">
@@ -3929,9 +4285,75 @@ function renderDuaList() {
                 <span class="dua-progress-text">${progressPercent}%</span>
             </div>
         `;
-        card.addEventListener('click', () => openDua(collection.id));
+        card.onclick = () => openDua(collection.id);
         elements.duaList.appendChild(card);
     });
+
+    // Refresh category chip counts on every render (cheap)
+    updateDuaCategoryChipCounts();
+}
+
+function updateDuaCategoryChipCounts() {
+    if (!appData.duaData) return;
+    const counts = { all: appData.duaData.collections.length };
+    appData.duaData.collections.forEach(c => {
+        const k = c.category || 'general';
+        counts[k] = (counts[k] || 0) + 1;
+    });
+    document.querySelectorAll('.dua-cat-chip').forEach(chip => {
+        const cat = chip.dataset.cat;
+        const n = counts[cat] || 0;
+        let badge = chip.querySelector('.dua-cat-count');
+        if (n > 0) {
+            if (!badge) {
+                badge = document.createElement('span');
+                badge.className = 'dua-cat-count';
+                chip.appendChild(badge);
+            }
+            badge.textContent = n;
+        } else if (badge) {
+            badge.remove();
+        }
+    });
+}
+
+function setupDuaListControls() {
+    // Wire only once
+    if (appData._duaControlsBound) return;
+    appData._duaControlsBound = true;
+
+    const chips = document.querySelectorAll('.dua-cat-chip');
+    chips.forEach(chip => {
+        chip.addEventListener('click', () => {
+            chips.forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            appData.duaCategoryFilter = chip.dataset.cat || 'all';
+            renderDuaList();
+        });
+    });
+
+    const input = document.getElementById('duaSearchInput');
+    const clearBtn = document.getElementById('duaSearchClear');
+    if (input) {
+        let debounce;
+        input.addEventListener('input', () => {
+            clearTimeout(debounce);
+            const v = input.value || '';
+            if (clearBtn) clearBtn.style.display = v ? 'flex' : 'none';
+            debounce = setTimeout(() => {
+                appData.duaSearchQuery = v;
+                renderDuaList();
+            }, 120);
+        });
+    }
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+            if (input) input.value = '';
+            clearBtn.style.display = 'none';
+            appData.duaSearchQuery = '';
+            renderDuaList();
+        });
+    }
 }
 
 function openDua(duaId) {
@@ -4027,6 +4449,7 @@ async function renderDuaContent(collection) {
         html += `<span class="counter-target">${safeTarget}</span>`;
         html += `</button>`;
         html += `<button class="dua-complete-btn ${isComplete ? 'complete-active' : ''}" onclick="window.completeDuaCount('${safeId}', ${safeTarget})" id="complete-${safeId}" title="Mark complete"><i class="fas fa-check"></i></button>`;
+        html += `<button class="dua-share-btn" onclick="window.shareDuaItem('${safeId}')" title="Copy / share" aria-label="Share this dua"><i class="fas fa-share-nodes"></i></button>`;
         html += `<button class="dua-reset-btn" onclick="window.resetDuaCount('${safeId}')" title="Reset"><i class="fas fa-redo-alt"></i></button>`;
         html += `</div>`;
         html += `</div>`; // end dua-item-header
@@ -4253,6 +4676,82 @@ window.incrementDuaCount = incrementDuaCount;
 window.resetDuaCount = resetDuaCount;
 window.resetAllDuaCounts = resetAllDuaCounts;
 window.completeDuaCount = completeDuaCount;
+
+// Share / copy a dua item — Arabic + translation + source + ref
+async function shareDuaItem(itemId) {
+    if (!appData.duaData || !appData.currentDua) return;
+    const collection = appData.duaData.collections.find(c => c.id === appData.currentDua);
+    if (!collection) return;
+    const item = collection.items.find(it => it.id === itemId);
+    if (!item) return;
+
+    let arabic = item.arabic_text || '';
+    // For quran_ref items, pull Arabic from loaded surah cache when possible
+    if (item.type === 'quran_ref' && item.surah_id && surahCache && surahCache.get) {
+        const surah = surahCache.get(String(item.surah_id));
+        if (surah) {
+            const start = item.ayah_start || 1;
+            const end = item.ayah_end || start;
+            const parts = [];
+            for (let a = start; a <= end; a++) {
+                const v = surah[String(a)];
+                if (v) parts.push((v.arabic_text_uthmani || v.arabic_text || '').trim());
+            }
+            if (parts.length) arabic = parts.join(' ');
+        }
+    }
+
+    const lines = [
+        `📖 ${item.label_bn} — ${item.label_en}`,
+        '',
+        arabic,
+        '',
+        item.translation_bn || '',
+        item.translation_en || '',
+        '',
+        `📚 ${item.source_en || item.source_bn || ''}`,
+        `Al-Quran Word by Word`
+    ].filter(Boolean);
+    const text = lines.join('\n');
+
+    try {
+        if (navigator.share) {
+            await navigator.share({ title: item.label_en || 'Dua', text });
+        } else if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(text);
+            showDuaShareToast('Copied to clipboard');
+        } else {
+            // Last-resort fallback
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+            showDuaShareToast('Copied');
+        }
+    } catch (err) {
+        if (err && err.name === 'AbortError') return; // user cancelled share sheet
+        console.warn('shareDuaItem failed:', err);
+        showDuaShareToast('Could not copy');
+    }
+}
+
+function showDuaShareToast(msg) {
+    let toast = document.getElementById('duaShareToast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'duaShareToast';
+        toast.className = 'dua-share-toast';
+        document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.classList.add('visible');
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => toast.classList.remove('visible'), 1600);
+}
+
+window.shareDuaItem = shareDuaItem;
 
 // ==================== MULTI-SELECT MODE ==================== //
 function toggleVerseSelection(verseNum) {

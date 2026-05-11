@@ -2,6 +2,39 @@
 
 All notable changes to Al-Quran Word by Word will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- **Ruqyah Shariah collection** (12 items) — Surah Al-Fatihah, Ayatul Kursi, last two ayahs of Al-Baqarah, the three Quls, sihr-breaking verses (Al-A'raf 117-122, Yunus 81-82, Ta-Ha 69), shifa verse (Al-Isra 82), the Prophet's ﷺ healing du'a (Allahumma Rabban-nas) and Jibril's ruqyah. Each item carries authentic source citations.
+- **Adhkar After Obligatory Prayer collection** (8 items) — istighfar 3x, Allahumma antas-salam, la ilaha illallah wahdahu (mu'aqqibat), SubhanAllah / Alhamdulillah / Allahu Akbar 33x each, the 100th tahlil, and Ayatul Kursi.
+- **Dua list search** — debounced search box on the Dua list page that matches collection titles, descriptions, item labels, Arabic text, and English translations.
+- **Dua category filter chips** — All / Protection / Ruqyah / Adhkar / Nightly with badge counts. Persisted within the session.
+- **Dua empty-state** when search/filter returns no matches.
+- **Per-dua share & copy button** — uses `navigator.share` on mobile (system share sheet) or falls back to clipboard. Composes Arabic + Bengali + English + source citation. For Qur'an references, pulls the actual ayah text from the surah cache.
+- **Category pill on each Dua card** showing protection / ruqyah / adhkar / nightly badge.
+- **Reader power-up** — sticky frosted-glass reading header that fades in on scroll, showing surah title, live "X / Y" ayah counter, scroll progress bar, and quick-action icons (jump-to-ayah, shortcuts help, back). Works on mobile and desktop.
+- **Live current-ayah tracking** via `IntersectionObserver` — the visible ayah gets a subtle left-border accent and the sticky header counter follows the reader.
+- **Reading streak tracker** — daily streak (consecutive days) shown as a fire-pill in the surah header; gracefully tolerates a one-day gap before resetting.
+- **Reading time estimate** — `~N min` pill in the surah header based on ayah count (~12 s/ayah).
+- **Extended keyboard shortcuts** for desktop power users:
+  - `J` / `↓` next ayah, `K` / `↑` previous ayah
+  - `]` / `[` next / previous surah
+  - `T` toggle translation, `W` toggle word-by-word, `L` switch BN/EN
+  - `B` bookmark current ayah, `C` copy current ayah
+  - `?` open shortcuts cheatsheet
+- **Keyboard shortcuts modal** — organized cheatsheet (Navigation / Reader / App) reachable from `?` or the sticky header.
+- **More Arabic font options** matching quran.com selections, organized by script style (Madinah Mushaf, IndoPak, Calligraphic, Modern).
+- **Mehr Nastaliq** — authentic Indo-Pak Nastaliq script for IndoPak readers.
+- **Aref Ruqaa** and **Aref Ruqaa Ink** — traditional Ruq'ah calligraphic styles.
+- **Noto Kufi Arabic**, **Cairo**, **Tajawal** — additional modern and Kufi Arabic font choices.
+
+### Changed
+- Arabic font select grouped via `<optgroup>` (Madinah Mushaf / IndoPak / Calligraphic / Modern).
+- All modal overlays now use `backdrop-filter: blur(6px)` for a modernized dim.
+- Bumped Service Worker cache to `v4.4.1` so the expanded Google Fonts URL re-caches on existing installs.
+
+---
+
 ## [4.3.1] - 2026-03-28
 
 ### Fixed
@@ -198,6 +231,13 @@ All notable changes to Al-Quran Word by Word will be documented in this file.
 - **Asset optimization**: 167 KB → 107.8 KB (35.4% reduction)
 - **Load time**: 5-8x faster loading
 - **Cache efficiency**: Under 200KB for mobile optimization
+
+---
+\n## [4.5.0] - 2026-05-11
+
+### Changed
+- Version update
+- Bug fixes and improvements
 
 ---
 \n## [4.4.0] - 2026-03-31
