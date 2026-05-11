@@ -2429,17 +2429,49 @@ body {
 /* Legacy .app-version removed — version info moved to footer-bottom */
 
 /* ==================== HOMEPAGE WIDGETS (side by side) ==================== */
+/* auto-fit so a hidden widget collapses cleanly (no blank column next to
+   Verse of the Day on first open before any reading history exists). */
 .homepage-widgets {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
-@media (min-width: 600px) {
-    .homepage-widgets {
-        grid-template-columns: 1fr 1fr;
-    }
+/* Welcome / first-open variant of the Continue Reading card */
+.last-surah-suggestion.is-welcome .suggestion-card {
+    background: linear-gradient(135deg, rgba(45, 125, 50, 0.06), rgba(76, 175, 80, 0.10));
+    border: 1px dashed var(--primary-color);
+}
+[data-theme="dark"] .last-surah-suggestion.is-welcome .suggestion-card {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.10), rgba(76, 175, 80, 0.14));
+}
+.suggestion-welcome {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.suggestion-welcome-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--text-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
+.suggestion-welcome-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+}
+.suggestion-welcome-sub {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.15rem;
 }
 
 /* ==================== LAST SURAH SUGGESTION ==================== */
@@ -5841,5 +5873,438 @@ select {
         font-size: calc(1.35rem * var(--font-size-multiplier));
         padding: 0.85rem 1rem;
         line-height: 2.3;
+    }
+}
+
+/* ==================== READER POWER-UP: STICKY HEADER ==================== */
+.sticky-reader-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 950;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+    background: rgba(255, 255, 255, 0.78);
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+    backdrop-filter: saturate(180%) blur(14px);
+    border-bottom: 1px solid var(--border-color);
+    transform: translateY(-110%);
+    transition: transform 0.25s ease-out, opacity 0.2s ease-out;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+[data-theme="dark"] .sticky-reader-header {
+    background: rgba(30, 30, 30, 0.78);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+.sticky-reader-header.visible {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+.sticky-back-btn,
+.sticky-icon-btn {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.sticky-back-btn:hover,
+.sticky-icon-btn:hover {
+    background: var(--bg-hover);
+    color: var(--primary-color);
+    transform: scale(1.05);
+}
+.sticky-reader-meta {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.sticky-reader-title {
+    font-family: var(--font-arabic);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sticky-reader-progress-text {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+}
+.sticky-reader-actions {
+    display: flex;
+    gap: 0.25rem;
+}
+.sticky-reader-progress-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: transparent;
+    overflow: hidden;
+}
+.sticky-reader-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+    transition: width 0.15s linear;
+    will-change: width;
+}
+
+/* Push the page content down a bit when the sticky header is visible
+   so verses don't sit underneath it. Use scroll-padding-top instead of
+   margin to keep layout stable. */
+html {
+    scroll-padding-top: 72px;
+}
+
+/* Surah header pill additions */
+.surah-read-time,
+.surah-streak {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: var(--font-system);
+}
+.surah-streak {
+    color: #d97706;
+    border-color: rgba(245, 158, 11, 0.35);
+    background: rgba(245, 158, 11, 0.08);
+}
+.surah-streak i {
+    color: #f97316;
+}
+[data-theme="dark"] .surah-streak {
+    background: rgba(245, 158, 11, 0.14);
+    color: #fbbf24;
+}
+
+/* Currently-viewed verse highlight (driven by IntersectionObserver) */
+.verse.is-current {
+    box-shadow: inset 3px 0 0 var(--primary-color), var(--shadow-sm);
+}
+[data-theme="dark"] .verse.is-current {
+    box-shadow: inset 3px 0 0 var(--primary-light), var(--shadow-sm);
+}
+/* Brief flash when a keyboard shortcut jumps to a verse */
+@keyframes verseFlash {
+    0%   { background-color: rgba(76, 175, 80, 0.18); }
+    100% { background-color: transparent; }
+}
+.verse-flash {
+    animation: verseFlash 0.8s ease-out;
+}
+
+/* ==================== DUA TOOLBAR (search + category chips) ==================== */
+.dua-toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 0.25rem 0 1rem;
+}
+.dua-search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.dua-search-icon {
+    position: absolute;
+    left: 0.85rem;
+    color: var(--text-light);
+    font-size: 0.85rem;
+    pointer-events: none;
+}
+.dua-search-input {
+    width: 100%;
+    padding: 0.65rem 2.4rem 0.65rem 2.2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-family: var(--font-system);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.dua-search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(45, 125, 50, 0.15);
+}
+.dua-search-clear {
+    position: absolute;
+    right: 0.5rem;
+    background: transparent;
+    border: none;
+    color: var(--text-light);
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dua-search-clear:hover { color: var(--text-primary); }
+
+.dua-category-filter {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+}
+.dua-cat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.85rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: var(--font-system);
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+    white-space: nowrap;
+}
+.dua-cat-chip i { font-size: 0.78rem; }
+.dua-cat-chip:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+.dua-cat-chip.active {
+    background: var(--primary-color);
+    color: var(--text-white);
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(45, 125, 50, 0.25);
+}
+.dua-cat-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    margin-left: 0.15rem;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.dua-cat-chip.active .dua-cat-count {
+    background: rgba(255, 255, 255, 0.22);
+}
+[data-theme="dark"] .dua-cat-count {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+/* Dua card meta: category pill */
+.dua-card-cat-pill {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    background: rgba(45, 125, 50, 0.08);
+    color: var(--primary-dark);
+    border-radius: 999px;
+    font-size: 0.68rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+[data-theme="dark"] .dua-card-cat-pill {
+    background: rgba(76, 175, 80, 0.18);
+    color: var(--primary-light);
+}
+
+/* Empty-state when search/filter has no matches */
+.dua-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    color: var(--text-light);
+    text-align: center;
+}
+.dua-empty-state i {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+    opacity: 0.6;
+}
+
+/* Share button on dua items */
+.dua-share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.12s ease;
+}
+.dua-share-btn:hover {
+    background: var(--primary-color);
+    color: var(--text-white);
+    border-color: var(--primary-color);
+    transform: scale(1.05);
+}
+[data-theme="dark"] .dua-share-btn {
+    background: var(--bg-card);
+}
+
+/* Toast for share/copy feedback */
+.dua-share-toast {
+    position: fixed;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: #1f2937;
+    color: #fff;
+    padding: 0.6rem 1.1rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 1100;
+}
+.dua-share-toast.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+@media (min-width: 720px) {
+    .dua-toolbar {
+        flex-direction: row;
+        align-items: center;
+    }
+    .dua-search-wrap { flex: 1; max-width: 360px; }
+    .dua-category-filter { flex: 1; flex-wrap: wrap; }
+}
+@media (max-width: 480px) {
+    .dua-cat-chip { padding: 0.4rem 0.7rem; font-size: 0.78rem; }
+    .dua-share-btn { width: 32px; height: 32px; font-size: 0.78rem; }
+}
+
+/* ==================== READER POWER-UP: KEYBOARD SHORTCUTS MODAL ==================== */
+.shortcuts-modal {
+    max-width: 720px;
+    width: 92vw;
+}
+.shortcuts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    padding: 0.25rem 0.25rem 1rem;
+}
+.shortcuts-section h4 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.shortcut-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.45rem 0;
+    font-size: 0.88rem;
+    color: var(--text-primary);
+}
+.shortcut-label {
+    flex: 1;
+}
+.shortcut-keys {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+.shortcut-keys kbd {
+    display: inline-block;
+    min-width: 1.5rem;
+    text-align: center;
+    padding: 0.15rem 0.45rem;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-color);
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.75rem;
+    color: var(--text-primary);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+.shortcuts-footnote {
+    margin: 0.5rem 0 0;
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--text-light);
+}
+
+/* Modal-overlay backdrop blur (modernize all modals) */
+.modal-overlay {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+@media (max-width: 768px) {
+    .sticky-reader-header {
+        padding: 0.5rem 0.65rem;
+        gap: 0.35rem;
+    }
+    .sticky-reader-title {
+        font-size: 0.95rem;
+    }
+    .sticky-back-btn,
+    .sticky-icon-btn {
+        width: 34px;
+        height: 34px;
+    }
+    .shortcuts-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .surah-read-time,
+    .surah-streak {
+        font-size: 0.72rem;
+        padding: 0.3rem 0.6rem;
     }
 }
