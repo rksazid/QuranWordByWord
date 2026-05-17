@@ -5,6 +5,28 @@ All notable changes to Al-Quran Word by Word will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- **Hifz spaced-repetition tracker** — per-page state machine (`New → Learning → Reviewing → Memorized`) with spaced review intervals (1d → 3d → 7d → 14d → 30d). State chips and a "Mark reviewed" button live in the reading page header; a "Last reviewed · next in N d" line shows when each page is due.
+- **"Due today" widget** on the Juz list page — shows all pages whose review window has elapsed with quick-jump pills and a "Start review" CTA. Hides when nothing is due.
+- **Per-Juz progress bars + ✓ stamp** — every Juz card on the list page now shows `N/M pages memorized` with a green bar, and earns a checkmark stamp at 100%.
+- **Mushaf-width toggle** on the Hifz reading page — constrains the page container to ~580px to mimic a real Madinah Mushaf page width, with a paper-style shadow + line guides. Persisted in `localStorage('quranAppHifzPrefs')`. Note: pixel-perfect line matching to a hardcopy Mushaf requires page-by-page glyph fonts (QCF v1/v2 — not bundled). We constrain the column width and use Uthman Taha to get visually close.
+- **Verse highlights** — tap "Mark" on any ayah to pick one of four colors (yellow / green / blue / pink). Highlight renders as a soft left-stripe + gradient that stays readable in light, dark, and sepia themes. Persisted across sessions in `localStorage('quranAppHighlights')`.
+- **Private notes per ayah** — attach a personal reflection (up to 2000 chars) via the same popover. Saved ayahs show a small sticky-note indicator in the top-right; tap it to re-open the note. Stored in `localStorage('quranAppNotes')`.
+- **Highlight popover** — floating menu with 4 color swatches + clear + Add/Edit note, smartly positioned above or below the trigger button, dismissed on outside click, scroll, resize, or `Esc`.
+- **Note editor modal** — focused textarea with live character counter, primary Save / secondary Delete, accessible via `Esc`.
+- **Sepia / Paper theme** — third theme option (Light · Sepia · Dark · Auto) with warm cream paper background, easier on the eyes for long Mushaf-style reading.
+- **Home greeting card** — time-based salutation in Arabic + English (morning / afternoon / evening / Maghrib / night) with a dynamic sun → moon icon.
+- **Home stats row** — three quick pills (streak · saved ayahs · duas completed today) visible the moment the app opens.
+- **Swipe gestures on reading page** — swipe-left for next surah, swipe-right for previous (mobile). Quick-flick detection with vertical-scroll guard so it doesn't fight scrolling.
+- **Skeleton loader** for Verse of the Day card (shimmer animation while the daily surah JSON is fetched).
+- **Centralized `haptic()` helper** that respects `prefers-reduced-motion` — used by dua counter, dua complete, and bookmark actions.
+- **`prefers-reduced-motion` honoured globally** — disables animations, transitions, and skeleton shimmer for users who prefer reduced motion.
+
+### Changed
+- **iOS safe-area insets** — `viewport-fit=cover` plus `env(safe-area-inset-*)` on the sticky reading header (top), floating controls, back-to-top button, selection bar, and share toast so nothing hides under the iPhone notch or home indicator.
+- Dua counter and complete buttons now vibrate via the central helper (gentle 15ms tick, 40ms on completion, success pattern on full-complete).
+- Bookmark action uses the centralized haptic helper.
+
+### Added (earlier in cycle)
 - **Ruqyah Shariah collection** (12 items) — Surah Al-Fatihah, Ayatul Kursi, last two ayahs of Al-Baqarah, the three Quls, sihr-breaking verses (Al-A'raf 117-122, Yunus 81-82, Ta-Ha 69), shifa verse (Al-Isra 82), the Prophet's ﷺ healing du'a (Allahumma Rabban-nas) and Jibril's ruqyah. Each item carries authentic source citations.
 - **Adhkar After Obligatory Prayer collection** (8 items) — istighfar 3x, Allahumma antas-salam, la ilaha illallah wahdahu (mu'aqqibat), SubhanAllah / Alhamdulillah / Allahu Akbar 33x each, the 100th tahlil, and Ayatul Kursi.
 - **Dua list search** — debounced search box on the Dua list page that matches collection titles, descriptions, item labels, Arabic text, and English translations.
@@ -231,6 +253,13 @@ All notable changes to Al-Quran Word by Word will be documented in this file.
 - **Asset optimization**: 167 KB → 107.8 KB (35.4% reduction)
 - **Load time**: 5-8x faster loading
 - **Cache efficiency**: Under 200KB for mobile optimization
+
+---
+\n## [4.6.0] - 2026-05-17
+
+### Changed
+- Version update
+- Bug fixes and improvements
 
 ---
 \n## [4.5.0] - 2026-05-11

@@ -1104,6 +1104,8 @@ function initializeApp() {
     hideLoading();
     loadSettings();
     loadBookmarks();
+    loadHifzProgress();
+    loadHifzPrefs();
     renderSurahList();
     setupEventListeners();
     initializeSettingsUI();
@@ -1556,6 +1558,15 @@ function setupEventListeners() {
 
 function handleKeyboard(e) {
     if (e.key === 'Escape') {
+        const noteModal = document.getElementById('noteEditorModal');
+        if (_markPopover && _markPopover.classList.contains('visible')) {
+            hideMarkPopover();
+            return;
+        }
+        if (noteModal && noteModal.style.display !== 'none') {
+            closeNoteEditor();
+            return;
+        }
         if (elements.wordModal.style.display !== 'none') {
             closeModal();
         } else if (elements.goToAyahModal?.style.display !== 'none') {
@@ -1768,9 +1779,12 @@ function updateSurahCount() {
 // ==================== SURAH LIST FUNCTIONALITY ==================== //
 function renderSurahList() {
     if (!appData.surahNames) return;
-    
+
     elements.surahList.innerHTML = '';
-    
+
+    // Greeting + stats (always refresh — current time / counts may have changed)
+    if (typeof renderHomeGreeting === 'function') renderHomeGreeting();
+
     // Show last surah suggestion and verse of the day if no search query
     if (!appData.searchQuery) {
         showLastSurahSuggestion();
@@ -2408,6 +2422,8 @@ function createVerseElement(verseNum, verseData) {
     
     // Create action buttons (skip for bismillah)
     const bookmarked = verseNum !== '0' && appData.currentSurah ? isBookmarked(appData.currentSurah, verseNum) : false;
+    const highlightColor = verseNum !== '0' && appData.currentSurah ? getHighlight(appData.currentSurah, verseNum) : null;
+    const hasNote = verseNum !== '0' && appData.currentSurah ? !!getNote(appData.currentSurah, verseNum) : false;
     const actionsHtml = verseNum !== '0' ? `
         <div class="verse-actions">
             <button class="verse-action-btn copy-btn" title="Copy verse">
@@ -2422,6 +2438,10 @@ function createVerseElement(verseNum, verseData) {
                 <i class="${bookmarked ? 'fas' : 'far'} fa-bookmark"></i>
                 <span>${bookmarked ? 'Saved' : 'Save'}</span>
             </button>
+            <button class="verse-action-btn mark-btn${highlightColor ? ' has-highlight' : ''}" data-color="${highlightColor || ''}" title="Highlight & note">
+                <i class="fas fa-highlighter"></i>
+                <span>Mark</span>
+            </button>
             <button class="verse-action-btn select-btn" title="Select for multi-copy">
                 <i class="fas fa-check-circle"></i>
                 <span>Select</span>
@@ -2429,8 +2449,20 @@ function createVerseElement(verseNum, verseData) {
         </div>
     ` : '';
 
+    // Build verse class names with highlight + has-note state
+    const highlightClass = highlightColor ? ` verse-highlight-${highlightColor}` : '';
+    const noteClass = hasNote ? ' verse-has-note' : '';
+    verse.className = 'verse' + highlightClass + noteClass;
+
+    const noteIndicatorHtml = verseNum !== '0' ? `
+        <button type="button" class="verse-note-indicator" title="View/edit note" style="display:${hasNote ? 'inline-flex' : 'none'}" aria-label="Edit note">
+            <i class="far fa-sticky-note"></i>
+        </button>
+    ` : '';
+
     verse.innerHTML = `
         ${verseNumberHtml}
+        ${noteIndicatorHtml}
         <div class="verse-arabic ${appData.isWordByWordMode ? 'word-by-word' : ''}">${arabicText}</div>
         ${translationHtml}
         ${actionsHtml}
@@ -2529,6 +2561,56 @@ function refreshStreakBadge() {
     }
 }
 
+// ---- Home greeting card (time-based) + stats ----
+function timeBasedGreeting() {
+    const h = new Date().getHours();
+    if (h >= 4 && h < 12)  return { text: 'Good morning',   icon: 'fa-sun',         cls: 'is-morning' };
+    if (h >= 12 && h < 16) return { text: 'Good afternoon', icon: 'fa-cloud-sun',   cls: 'is-afternoon' };
+    if (h >= 16 && h < 19) return { text: 'Good evening',   icon: 'fa-mug-hot',     cls: 'is-evening' };
+    if (h >= 19 && h < 22) return { text: 'Maghrib has set in', icon: 'fa-moon',    cls: 'is-evening' };
+    return                     { text: 'Peaceful night',   icon: 'fa-moon',        cls: 'is-night' };
+}
+
+function renderHomeGreeting() {
+    const greetEl = document.getElementById('homeGreeting');
+    if (!greetEl) return;
+    const g = timeBasedGreeting();
+    const iconWrap = document.getElementById('greetingIcon');
+    const text = document.getElementById('greetingText');
+    if (iconWrap) {
+        iconWrap.className = 'home-greeting-icon ' + g.cls;
+        iconWrap.innerHTML = `<i class="fas ${g.icon}"></i>`;
+    }
+    if (text) text.textContent = g.text;
+
+    // Stats
+    const streak = loadStreak();
+    const today = new Date().toDateString();
+    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    const live = streak.lastDate === today || streak.lastDate === yesterday;
+    const streakEl = document.getElementById('homeStatStreak');
+    if (streakEl) streakEl.textContent = live && streak.count ? streak.count : 0;
+
+    const bmEl = document.getElementById('homeStatBookmarks');
+    if (bmEl) bmEl.textContent = (appData.bookmarks && appData.bookmarks.length) || 0;
+
+    const duaEl = document.getElementById('homeStatDuas');
+    if (duaEl) {
+        let completed = 0;
+        if (appData.duaData && appData.duaCounts) {
+            appData.duaData.collections.forEach(c => {
+                c.items.forEach(it => {
+                    const cnt = appData.duaCounts[it.id] || 0;
+                    if (cnt >= it.target_count) completed++;
+                });
+            });
+        }
+        duaEl.textContent = completed;
+    }
+
+    greetEl.style.display = 'flex';
+}
+
 // ---- Sticky header + progress + current-verse tracking ----
 function initReaderPowerUp() {
     if (elements.stickyBackBtn) {
@@ -2550,6 +2632,71 @@ function initReaderPowerUp() {
     }
 
     window.addEventListener('scroll', onReaderScroll, { passive: true });
+
+    // Swipe gestures on the reading page (mobile UX)
+    setupReadingSwipeGestures();
+}
+
+// ---- Lightweight haptic helper (no-op on browsers without vibration) ----
+function haptic(ms) {
+    try {
+        if (navigator.vibrate && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            navigator.vibrate(ms || 10);
+        }
+    } catch (_) { /* ignore */ }
+}
+window.haptic = haptic;
+
+// ---- Touch swipe — horizontal navigation between surahs ----
+function setupReadingSwipeGestures() {
+    const page = elements.surahReadingPage;
+    if (!page || page._swipeBound) return;
+    page._swipeBound = true;
+
+    let startX = 0, startY = 0, startedAt = 0, active = false;
+    const THRESHOLD_X = 80;        // min horizontal travel
+    const MAX_VERTICAL = 60;       // ignore if user scrolled vertically too far
+    const MAX_TIME = 600;          // ms — quick flick
+
+    page.addEventListener('touchstart', (e) => {
+        if (e.touches.length !== 1) { active = false; return; }
+        // Skip if the touch began inside an interactive control or word-by-word block
+        const t = e.target;
+        if (t.closest('button, a, input, textarea, select, .word-block, .verse-action-btn, .sticky-reader-header, .surah-sidebar')) {
+            active = false;
+            return;
+        }
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        startedAt = Date.now();
+        active = true;
+    }, { passive: true });
+
+    page.addEventListener('touchend', (e) => {
+        if (!active) return;
+        active = false;
+        const t = (e.changedTouches && e.changedTouches[0]);
+        if (!t) return;
+        const dx = t.clientX - startX;
+        const dy = t.clientY - startY;
+        const dt = Date.now() - startedAt;
+        if (dt > MAX_TIME) return;
+        if (Math.abs(dy) > MAX_VERTICAL) return;
+        if (Math.abs(dx) < THRESHOLD_X) return;
+
+        const id = parseInt(appData.currentSurah, 10);
+        if (!Number.isFinite(id)) return;
+
+        if (dx < 0 && id < 114) {
+            // Swipe left → next surah
+            haptic(8);
+            navigateToSurah(id + 1);
+        } else if (dx > 0 && id > 1) {
+            // Swipe right → previous surah
+            haptic(8);
+            navigateToSurah(id - 1);
+        }
+    }, { passive: true });
 }
 
 function setupVerseObserver() {
@@ -2869,6 +3016,7 @@ function loadBookmarks() {
         console.error('Error loading bookmarks:', e);
         appData.bookmarks = [];
     }
+    loadHighlightsAndNotes();
 }
 
 function saveBookmarks() {
@@ -2877,6 +3025,228 @@ function saveBookmarks() {
     } catch (e) {
         console.error('Error saving bookmarks:', e);
     }
+}
+
+// ==================== HIGHLIGHTS + NOTES ==================== //
+const HIGHLIGHT_COLORS = ['yellow', 'green', 'blue', 'pink'];
+function verseKey(surahId, verseNum) {
+    return surahId.toString() + ':' + verseNum.toString();
+}
+function loadHighlightsAndNotes() {
+    try {
+        appData.highlights = JSON.parse(localStorage.getItem('quranAppHighlights') || '{}');
+    } catch (_) { appData.highlights = {}; }
+    try {
+        appData.notes = JSON.parse(localStorage.getItem('quranAppNotes') || '{}');
+    } catch (_) { appData.notes = {}; }
+}
+function saveHighlights() {
+    try { localStorage.setItem('quranAppHighlights', JSON.stringify(appData.highlights || {})); }
+    catch (e) { console.error('Save highlights failed:', e); }
+}
+function saveNotes() {
+    try { localStorage.setItem('quranAppNotes', JSON.stringify(appData.notes || {})); }
+    catch (e) { console.error('Save notes failed:', e); }
+}
+function getHighlight(surahId, verseNum) {
+    return (appData.highlights || {})[verseKey(surahId, verseNum)] || null;
+}
+function setHighlight(surahId, verseNum, color) {
+    if (!appData.highlights) appData.highlights = {};
+    const k = verseKey(surahId, verseNum);
+    if (!color) delete appData.highlights[k];
+    else appData.highlights[k] = color;
+    saveHighlights();
+}
+function getNote(surahId, verseNum) {
+    return (appData.notes || {})[verseKey(surahId, verseNum)] || '';
+}
+function setNote(surahId, verseNum, text) {
+    if (!appData.notes) appData.notes = {};
+    const k = verseKey(surahId, verseNum);
+    const v = (text || '').trim();
+    if (!v) delete appData.notes[k];
+    else appData.notes[k] = v;
+    saveNotes();
+}
+
+function applyHighlightToVerseEl(verseEl, surahId, verseNum) {
+    if (!verseEl) return;
+    HIGHLIGHT_COLORS.forEach(c => verseEl.classList.remove('verse-highlight-' + c));
+    const color = getHighlight(surahId, verseNum);
+    if (color && HIGHLIGHT_COLORS.indexOf(color) !== -1) {
+        verseEl.classList.add('verse-highlight-' + color);
+    }
+    const hasNote = !!getNote(surahId, verseNum);
+    verseEl.classList.toggle('verse-has-note', hasNote);
+
+    // Sync the Mark button's active dot color
+    const markBtn = verseEl.querySelector('.mark-btn');
+    if (markBtn) {
+        markBtn.dataset.color = color || '';
+        markBtn.classList.toggle('has-highlight', !!color);
+    }
+    // Note-icon indicator (rendered once; toggle visibility)
+    const noteIndicator = verseEl.querySelector('.verse-note-indicator');
+    if (noteIndicator) noteIndicator.style.display = hasNote ? 'inline-flex' : 'none';
+}
+
+// ---- Popover (shared instance) ----
+let _markPopover = null;
+function getMarkPopover() {
+    if (_markPopover) return _markPopover;
+    const pop = document.createElement('div');
+    pop.id = 'markPopover';
+    pop.className = 'mark-popover';
+    pop.setAttribute('role', 'menu');
+    pop.innerHTML = `
+        <div class="mark-popover-row">
+            ${HIGHLIGHT_COLORS.map(c =>
+                `<button class="mark-color-swatch mark-color-${c}" data-color="${c}" aria-label="Highlight ${c}" title="${c[0].toUpperCase() + c.slice(1)}"></button>`
+            ).join('')}
+            <button class="mark-color-swatch mark-color-clear" data-color="" aria-label="Remove highlight" title="Remove highlight"><i class="fas fa-slash"></i></button>
+        </div>
+        <button class="mark-popover-note-btn" type="button">
+            <i class="far fa-sticky-note"></i> <span class="mark-popover-note-label">Add note</span>
+        </button>
+    `;
+    document.body.appendChild(pop);
+
+    pop.addEventListener('click', (e) => {
+        const swatch = e.target.closest('.mark-color-swatch');
+        if (swatch && pop._targetVerse) {
+            const { surahId, verseNum, verseEl } = pop._targetVerse;
+            setHighlight(surahId, verseNum, swatch.dataset.color);
+            applyHighlightToVerseEl(verseEl, surahId, verseNum);
+            haptic(10);
+            hideMarkPopover();
+            return;
+        }
+        const noteBtn = e.target.closest('.mark-popover-note-btn');
+        if (noteBtn && pop._targetVerse) {
+            const { surahId, verseNum } = pop._targetVerse;
+            hideMarkPopover();
+            openNoteEditor(surahId, verseNum);
+        }
+    });
+
+    // Close on outside click / escape
+    document.addEventListener('click', (e) => {
+        if (!_markPopover || !_markPopover.classList.contains('visible')) return;
+        if (_markPopover.contains(e.target)) return;
+        if (e.target.closest('.mark-btn')) return; // toggled by the button itself
+        hideMarkPopover();
+    });
+    window.addEventListener('scroll', hideMarkPopover, { passive: true });
+    window.addEventListener('resize', hideMarkPopover);
+
+    _markPopover = pop;
+    return pop;
+}
+
+function showMarkPopover(triggerBtn, surahId, verseNum) {
+    const pop = getMarkPopover();
+    const verseEl = triggerBtn.closest('.verse');
+    pop._targetVerse = { surahId, verseNum, verseEl };
+
+    // Pre-set active color on the popover
+    pop.querySelectorAll('.mark-color-swatch').forEach(s => {
+        s.classList.toggle('is-active', s.dataset.color === (getHighlight(surahId, verseNum) || ''));
+    });
+    // Update note button label
+    const label = pop.querySelector('.mark-popover-note-label');
+    if (label) label.textContent = getNote(surahId, verseNum) ? 'Edit note' : 'Add note';
+
+    // Position above the trigger, clamped to viewport
+    pop.style.visibility = 'hidden';
+    pop.classList.add('visible');
+    const tRect = triggerBtn.getBoundingClientRect();
+    const pRect = pop.getBoundingClientRect();
+    let left = tRect.left + tRect.width / 2 - pRect.width / 2;
+    let top = tRect.top - pRect.height - 8;
+    const m = 8;
+    if (left < m) left = m;
+    if (left + pRect.width > window.innerWidth - m) left = window.innerWidth - pRect.width - m;
+    if (top < m) top = tRect.bottom + 8; // flip below if no room above
+    pop.style.left = (left + window.scrollX) + 'px';
+    pop.style.top = (top + window.scrollY) + 'px';
+    pop.style.visibility = 'visible';
+}
+
+function hideMarkPopover() {
+    if (_markPopover) _markPopover.classList.remove('visible');
+}
+
+// ---- Note editor modal ----
+function openNoteEditor(surahId, verseNum) {
+    let modal = document.getElementById('noteEditorModal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'noteEditorModal';
+        modal.className = 'modal-overlay';
+        modal.innerHTML = `
+            <div class="modal note-editor-modal">
+                <div class="modal-header">
+                    <h3><i class="far fa-sticky-note"></i> <span id="noteEditorTitle">Note</span></h3>
+                    <button id="closeNoteEditor" class="close-btn" title="Close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-content">
+                    <textarea id="noteEditorTextarea" placeholder="Your personal reflection on this ayah…" maxlength="2000" rows="6"></textarea>
+                    <div class="note-editor-meta">
+                        <span id="noteEditorCount" class="note-editor-count">0 / 2000</span>
+                    </div>
+                    <div class="note-editor-actions">
+                        <button id="noteEditorDelete" class="note-editor-secondary"><i class="far fa-trash-can"></i> Delete</button>
+                        <button id="noteEditorSave" class="note-editor-primary"><i class="fas fa-check"></i> Save</button>
+                    </div>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeNoteEditor();
+        });
+        modal.querySelector('#closeNoteEditor').addEventListener('click', closeNoteEditor);
+        const ta = modal.querySelector('#noteEditorTextarea');
+        const count = modal.querySelector('#noteEditorCount');
+        ta.addEventListener('input', () => {
+            count.textContent = ta.value.length + ' / 2000';
+        });
+        modal.querySelector('#noteEditorSave').addEventListener('click', () => {
+            const { surahId: sid, verseNum: vn } = modal._target || {};
+            if (!sid) return;
+            setNote(sid, vn, ta.value);
+            const verseEl = elements.versesContainer && elements.versesContainer.querySelector(`.verse[data-verse="${vn}"]`);
+            applyHighlightToVerseEl(verseEl, sid, vn);
+            haptic(10);
+            closeNoteEditor();
+        });
+        modal.querySelector('#noteEditorDelete').addEventListener('click', () => {
+            const { surahId: sid, verseNum: vn } = modal._target || {};
+            if (!sid) return;
+            setNote(sid, vn, '');
+            const verseEl = elements.versesContainer && elements.versesContainer.querySelector(`.verse[data-verse="${vn}"]`);
+            applyHighlightToVerseEl(verseEl, sid, vn);
+            closeNoteEditor();
+        });
+    }
+    modal._target = { surahId: surahId.toString(), verseNum: verseNum.toString() };
+    const title = modal.querySelector('#noteEditorTitle');
+    if (title) title.textContent = `Note · Ayah ${verseNum}`;
+    const ta = modal.querySelector('#noteEditorTextarea');
+    ta.value = getNote(surahId, verseNum) || '';
+    modal.querySelector('#noteEditorCount').textContent = ta.value.length + ' / 2000';
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    // Defer focus so the modal animation/layout settles
+    setTimeout(() => ta.focus(), 30);
+}
+
+function closeNoteEditor() {
+    const modal = document.getElementById('noteEditorModal');
+    if (modal) modal.style.display = 'none';
+    document.body.style.overflow = '';
 }
 
 function isBookmarked(surahId, verseNum) {
@@ -2913,9 +3283,7 @@ function handleBookmarkVerse(verseNum, btn) {
         btn.classList.toggle('bookmarked', bookmarked);
 
         // Brief feedback
-        if (bookmarked && navigator.vibrate) {
-            navigator.vibrate(30);
-        }
+        haptic(bookmarked ? 20 : 10);
     }
 }
 
@@ -2986,6 +3354,15 @@ const CURATED_VERSES = [
 
 async function renderVerseOfTheDay() {
     if (!appData.surahNames || !elements.votdCard) return;
+
+    // Skeleton placeholder while the surah JSON for the daily verse is fetched
+    elements.votdCard.innerHTML = `
+        <div class="skeleton skeleton-votd" style="margin-bottom:0.5rem;height:60px"></div>
+        <div class="skeleton" style="height:14px;margin-bottom:0.4rem;width:90%"></div>
+        <div class="skeleton" style="height:14px;margin-bottom:0.4rem;width:75%"></div>
+        <div class="skeleton" style="height:12px;width:40%"></div>
+    `;
+    if (elements.verseOfTheDay) elements.verseOfTheDay.style.display = 'flex';
 
     try {
         // Deterministic daily pick based on date
@@ -4038,9 +4415,102 @@ async function switchMainView(view) {
     }
 }
 
+// ==================== HIFZ SPACED-REPETITION TRACKER ==================== //
+// Per-page progress { state: 'new'|'learning'|'reviewing'|'memorized', lastReviewed: 'YYYY-MM-DD', reviewCount }
+// Spaced intervals (days): learning=1, reviewing@1=3, @2=7, @3=14, memorized=30
+const HIFZ_STATES = ['new', 'learning', 'reviewing', 'memorized'];
+function hifzIntervalDays(state, reviewCount) {
+    if (state === 'memorized') return 30;
+    if (state === 'reviewing') {
+        if (reviewCount <= 1) return 3;
+        if (reviewCount === 2) return 7;
+        return 14;
+    }
+    if (state === 'learning') return 1;
+    return 1;
+}
+function loadHifzProgress() {
+    try { appData.hifzProgress = JSON.parse(localStorage.getItem('quranAppHifzProgress') || '{}'); }
+    catch (_) { appData.hifzProgress = {}; }
+}
+function saveHifzProgress() {
+    try { localStorage.setItem('quranAppHifzProgress', JSON.stringify(appData.hifzProgress || {})); }
+    catch (e) { console.error('Save hifz progress failed:', e); }
+}
+function getHifzPageState(pageNum) {
+    const rec = (appData.hifzProgress || {})[String(pageNum)];
+    return rec || { state: 'new', lastReviewed: null, reviewCount: 0 };
+}
+function setHifzPageState(pageNum, state) {
+    if (!appData.hifzProgress) appData.hifzProgress = {};
+    const k = String(pageNum);
+    const prev = appData.hifzProgress[k] || { state: 'new', lastReviewed: null, reviewCount: 0 };
+    if (state === 'new') {
+        delete appData.hifzProgress[k];
+    } else {
+        const today = new Date().toISOString().slice(0, 10);
+        const isAdvance = HIFZ_STATES.indexOf(state) > HIFZ_STATES.indexOf(prev.state);
+        appData.hifzProgress[k] = {
+            state,
+            lastReviewed: today,
+            reviewCount: isAdvance ? (prev.reviewCount || 0) + 1 : (prev.reviewCount || 1)
+        };
+    }
+    saveHifzProgress();
+}
+function markHifzReviewedToday(pageNum) {
+    if (!appData.hifzProgress) appData.hifzProgress = {};
+    const k = String(pageNum);
+    const prev = appData.hifzProgress[k];
+    if (!prev || prev.state === 'new') {
+        // First touch — mark as learning
+        appData.hifzProgress[k] = {
+            state: 'learning',
+            lastReviewed: new Date().toISOString().slice(0, 10),
+            reviewCount: 1
+        };
+    } else {
+        appData.hifzProgress[k] = {
+            ...prev,
+            lastReviewed: new Date().toISOString().slice(0, 10),
+            reviewCount: (prev.reviewCount || 0) + 1
+        };
+    }
+    saveHifzProgress();
+}
+function isHifzPageDue(pageNum) {
+    const rec = (appData.hifzProgress || {})[String(pageNum)];
+    if (!rec || rec.state === 'new' || !rec.lastReviewed) return false;
+    const days = hifzIntervalDays(rec.state, rec.reviewCount || 1);
+    const last = new Date(rec.lastReviewed + 'T00:00:00');
+    const due = new Date(last.getTime() + days * 86400000);
+    return Date.now() >= due.getTime();
+}
+function listDueHifzPages() {
+    const out = [];
+    const prog = appData.hifzProgress || {};
+    Object.keys(prog).forEach(p => { if (isHifzPageDue(parseInt(p, 10))) out.push(parseInt(p, 10)); });
+    out.sort((a, b) => a - b);
+    return out;
+}
+function juzMemorizedCount(juzNum) {
+    if (!appData.juzData || !appData.juzData[juzNum]) return { memorized: 0, total: 0 };
+    const juz = appData.juzData[juzNum];
+    let memorized = 0;
+    const total = (juz.end_page - juz.start_page) + 1;
+    for (let p = juz.start_page; p <= juz.end_page; p++) {
+        const rec = (appData.hifzProgress || {})[String(p)];
+        if (rec && rec.state === 'memorized') memorized++;
+    }
+    return { memorized, total };
+}
+
 function renderJuzList() {
     if (!appData.juzData || !elements.juzList) return;
     elements.juzList.innerHTML = '';
+
+    // "Due today" widget (only renders if there are due pages)
+    renderHifzDueWidget();
 
     for (let i = 1; i <= 30; i++) {
         const juz = appData.juzData[i];
@@ -4054,20 +4524,64 @@ function renderJuzList() {
             ? `${startName} (${juz.start_ayah}-${juz.end_ayah})`
             : `${startName} ${juz.start_ayah} → ${endName} ${juz.end_ayah}`;
 
+        const { memorized, total } = juzMemorizedCount(i);
+        const pct = total > 0 ? Math.round((memorized / total) * 100) : 0;
+        const progressHtml = memorized > 0
+            ? `<div class="juz-progress" title="${memorized}/${total} pages memorized">
+                   <div class="juz-progress-bar"><div class="juz-progress-fill" style="width:${pct}%"></div></div>
+                   <span class="juz-progress-text">${memorized}/${total}</span>
+               </div>`
+            : '';
+
         const card = document.createElement('div');
-        card.className = 'juz-card';
+        card.className = 'juz-card' + (pct === 100 ? ' juz-card-complete' : '');
         card.innerHTML = `
             <div class="juz-number">${i}</div>
             <div class="juz-info">
                 <div class="juz-name-ar">${juz.name_ar}</div>
                 <div class="juz-name-en">${juz.name_en}</div>
                 <div class="juz-meta">${surahRange}</div>
+                ${progressHtml}
             </div>
             <div class="juz-pages">Pages ${juz.start_page}-${juz.end_page}</div>
         `;
         card.addEventListener('click', () => openJuz(i));
         elements.juzList.appendChild(card);
     }
+}
+
+function renderHifzDueWidget() {
+    const due = listDueHifzPages();
+    const host = document.getElementById('hifzDueWidget');
+    if (!host) return;
+    if (!due.length) {
+        host.style.display = 'none';
+        return;
+    }
+    host.style.display = 'block';
+    const preview = due.slice(0, 8);
+    host.innerHTML = `
+        <div class="hifz-due-head">
+            <div class="hifz-due-title">
+                <i class="fas fa-bell"></i>
+                <span>Due for review today</span>
+            </div>
+            <span class="hifz-due-count">${due.length} page${due.length === 1 ? '' : 's'}</span>
+        </div>
+        <div class="hifz-due-pills">
+            ${preview.map(p => `<button class="hifz-due-pill" data-page="${p}">Page ${p}</button>`).join('')}
+            ${due.length > preview.length ? `<span class="hifz-due-more">+${due.length - preview.length} more</span>` : ''}
+        </div>
+        <button class="hifz-due-start" data-page="${due[0]}">
+            <i class="fas fa-play"></i> Start review (page ${due[0]})
+        </button>
+    `;
+    host.querySelectorAll('[data-page]').forEach(el => {
+        el.addEventListener('click', () => {
+            const p = parseInt(el.dataset.page, 10);
+            if (Number.isFinite(p)) navigateToHifzPage(p);
+        });
+    });
 }
 
 function openJuz(juzNum) {
@@ -4123,10 +4637,107 @@ async function navigateToHifzPage(pageNum) {
     if (elements.hifzPrevPage) elements.hifzPrevPage.disabled = pageNum <= 1;
     if (elements.hifzNextPage) elements.hifzNextPage.disabled = pageNum >= 604;
 
+    // Ensure controls + state chips are wired before first paint
+    setupHifzReadingControls();
+
     // Render page content
     await renderHifzPageContent(pageNum);
 
+    // Update memorization state UI for this page
+    updateHifzStateUI(pageNum);
+
     window.scrollTo(0, 0);
+}
+
+// ---- Mushaf-width preference ----
+function loadHifzPrefs() {
+    try { appData.hifzPrefs = JSON.parse(localStorage.getItem('quranAppHifzPrefs') || '{}'); }
+    catch (_) { appData.hifzPrefs = {}; }
+}
+function saveHifzPrefs() {
+    try { localStorage.setItem('quranAppHifzPrefs', JSON.stringify(appData.hifzPrefs || {})); }
+    catch (e) { console.error('Save hifz prefs failed:', e); }
+}
+function applyHifzMushafMode() {
+    const wrap = document.getElementById('hifzPageContentWrap');
+    const btn = document.getElementById('hifzMushafToggle');
+    if (!wrap) return;
+    const on = !!(appData.hifzPrefs && appData.hifzPrefs.mushafWidth);
+    wrap.classList.toggle('hifz-mushaf-mode', on);
+    if (btn) {
+        btn.classList.toggle('active', on);
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+}
+function toggleHifzMushafMode() {
+    if (!appData.hifzPrefs) appData.hifzPrefs = {};
+    appData.hifzPrefs.mushafWidth = !appData.hifzPrefs.mushafWidth;
+    saveHifzPrefs();
+    applyHifzMushafMode();
+    haptic(10);
+}
+
+// ---- Reading-page state chips + mark-reviewed wiring ----
+function updateHifzStateUI(pageNum) {
+    const row = document.getElementById('hifzStateRow');
+    if (!row) return;
+    const rec = getHifzPageState(pageNum);
+    row.querySelectorAll('.hifz-state-chip').forEach(chip => {
+        chip.classList.toggle('active', chip.dataset.state === rec.state);
+        chip.dataset.activeFor = rec.state;
+    });
+    const last = document.getElementById('hifzLastReviewed');
+    if (last) {
+        if (rec.lastReviewed) {
+            const days = Math.floor((Date.now() - new Date(rec.lastReviewed + 'T00:00:00').getTime()) / 86400000);
+            const due = isHifzPageDue(pageNum);
+            const interval = hifzIntervalDays(rec.state, rec.reviewCount || 1);
+            const dueLabel = due ? '· due now' : `· next in ${Math.max(0, interval - days)}d`;
+            const cnt = rec.reviewCount || 0;
+            last.innerHTML = `<i class="far fa-calendar-check"></i> Last reviewed ${days === 0 ? 'today' : days + 'd ago'} · ${cnt} review${cnt === 1 ? '' : 's'} ${dueLabel}`;
+            last.classList.toggle('is-due', due);
+        } else {
+            last.innerHTML = '<i class="far fa-calendar-check"></i> Not reviewed yet';
+            last.classList.remove('is-due');
+        }
+    }
+}
+
+function setupHifzReadingControls() {
+    if (appData._hifzControlsBound) return;
+    appData._hifzControlsBound = true;
+
+    // State chips
+    document.querySelectorAll('.hifz-state-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+            const state = chip.dataset.state;
+            const p = appData.currentHifzPage;
+            if (!Number.isFinite(p)) return;
+            setHifzPageState(p, state);
+            updateHifzStateUI(p);
+            haptic(10);
+        });
+    });
+
+    // Mark reviewed
+    const reviewBtn = document.getElementById('hifzMarkReviewedBtn');
+    if (reviewBtn) {
+        reviewBtn.addEventListener('click', () => {
+            const p = appData.currentHifzPage;
+            if (!Number.isFinite(p)) return;
+            markHifzReviewedToday(p);
+            updateHifzStateUI(p);
+            haptic([10, 30, 10]);
+        });
+    }
+
+    // Mushaf width toggle
+    const mushafBtn = document.getElementById('hifzMushafToggle');
+    if (mushafBtn) {
+        mushafBtn.addEventListener('click', toggleHifzMushafMode);
+    }
+    // Apply persisted mode on load
+    applyHifzMushafMode();
 }
 
 async function renderHifzPageContent(pageNum) {
@@ -4570,8 +5181,7 @@ function incrementDuaCount(itemId, targetCount) {
     appData.duaCounts[itemId] = current;
     saveDuaCounts();
 
-    // Haptic feedback
-    if (navigator.vibrate) navigator.vibrate(30);
+    haptic(current >= targetCount ? 40 : 15);
 
     updateDuaItemUI(itemId, current, targetCount);
 }
@@ -4609,7 +5219,7 @@ function completeDuaCount(itemId, targetCount) {
     if (current >= targetCount) return; // already complete
     appData.duaCounts[itemId] = targetCount;
     saveDuaCounts();
-    if (navigator.vibrate) navigator.vibrate(50);
+    haptic([15, 40, 15]); // success pattern
     updateDuaItemUI(itemId, targetCount, targetCount);
 }
 
@@ -4903,6 +5513,35 @@ document.addEventListener('DOMContentLoaded', function() {
             e.stopPropagation();
             const verse = selectBtn.closest('.verse');
             if (verse) toggleVerseSelection(verse.getAttribute('data-verse'));
+            return;
+        }
+
+        // Mark button — open highlight/note popover
+        const markBtn = e.target.closest('.mark-btn');
+        if (markBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            const verse = markBtn.closest('.verse');
+            const vn = verse && verse.getAttribute('data-verse');
+            if (!vn || !appData.currentSurah) return;
+            const pop = getMarkPopover();
+            const sameTarget = pop._targetVerse && pop._targetVerse.verseEl === verse;
+            if (pop.classList.contains('visible') && sameTarget) {
+                hideMarkPopover();
+            } else {
+                showMarkPopover(markBtn, appData.currentSurah, vn);
+            }
+            return;
+        }
+
+        // Note indicator — jump straight into the note editor
+        const noteIndicator = e.target.closest('.verse-note-indicator');
+        if (noteIndicator) {
+            e.preventDefault();
+            e.stopPropagation();
+            const verse = noteIndicator.closest('.verse');
+            const vn = verse && verse.getAttribute('data-verse');
+            if (vn && appData.currentSurah) openNoteEditor(appData.currentSurah, vn);
             return;
         }
     });
