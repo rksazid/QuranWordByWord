@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Al-Quran Word By Word</title>
     
     <!-- PWA Manifest -->
@@ -65,7 +65,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.min.css?v=4.5.0">
+    <link rel="stylesheet" href="styles.min.css?v=4.6.0">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Mehr+Nastaliq:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Aref+Ruqaa+Ink:wght@400;700&family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
@@ -130,6 +130,34 @@
                     </button>
                 </div>
                 <div id="searchSuggestions" class="search-suggestions" style="display: none;"></div>
+            </div>
+
+            <!-- Time-based greeting + reading stats -->
+            <div id="homeGreeting" class="home-greeting" style="display:none">
+                <div class="home-greeting-left">
+                    <div class="home-greeting-salaam">السلام عليكم</div>
+                    <div class="home-greeting-line">
+                        <span id="greetingIcon" class="home-greeting-icon"><i class="fas fa-sun"></i></span>
+                        <span id="greetingText">Good day</span>
+                    </div>
+                </div>
+                <div id="homeStatsRow" class="home-stats-row">
+                    <div class="home-stat" title="Current reading streak">
+                        <i class="fas fa-fire"></i>
+                        <span id="homeStatStreak">0</span>
+                        <small>streak</small>
+                    </div>
+                    <div class="home-stat" title="Ayahs read today">
+                        <i class="far fa-bookmark"></i>
+                        <span id="homeStatBookmarks">0</span>
+                        <small>saved</small>
+                    </div>
+                    <div class="home-stat" title="Duas completed today">
+                        <i class="fas fa-hands-praying"></i>
+                        <span id="homeStatDuas">0</span>
+                        <small>duas</small>
+                    </div>
+                </div>
             </div>
 
             <!-- Main View Toggle: Surahs / Hifz / Dua's -->
@@ -199,7 +227,10 @@
             <div id="hifzListPage" class="page" style="display: none;">
                 <div class="hifz-header">
                     <h2>30 Juz (Para)</h2>
-                    <p class="hifz-subtitle">Page-by-page Mushaf reading</p>
+                    <p class="hifz-subtitle">Page-by-page Mushaf reading with memorization tracking</p>
+                </div>
+                <div id="hifzDueWidget" class="hifz-due-widget" style="display:none">
+                    <!-- "Due today" pages rendered dynamically -->
                 </div>
                 <div id="juzList" class="juz-list">
                     <!-- Juz cards will be dynamically loaded here -->
@@ -213,9 +244,29 @@
                         <span id="hifzPageNumber" class="hifz-page-num">Page 1</span>
                         <span id="hifzJuzInfo" class="hifz-juz-info">Juz 1</span>
                     </div>
+                    <button id="hifzMushafToggle" class="hifz-mushaf-toggle" title="Toggle Mushaf-width page" aria-pressed="false">
+                        <i class="fas fa-book"></i>
+                        <span>Mushaf width</span>
+                    </button>
                 </div>
-                <div id="hifzPageContent" class="hifz-page-content">
-                    <!-- Page verses will be rendered here -->
+                <div id="hifzStateRow" class="hifz-state-row">
+                    <div class="hifz-state-label"><i class="fas fa-brain"></i> Memorization</div>
+                    <div class="hifz-state-chips" role="tablist">
+                        <button class="hifz-state-chip" data-state="new" role="tab">New</button>
+                        <button class="hifz-state-chip" data-state="learning" role="tab">Learning</button>
+                        <button class="hifz-state-chip" data-state="reviewing" role="tab">Reviewing</button>
+                        <button class="hifz-state-chip" data-state="memorized" role="tab">Memorized</button>
+                    </div>
+                    <button id="hifzMarkReviewedBtn" class="hifz-review-btn" title="Mark this page reviewed today">
+                        <i class="fas fa-check-double"></i>
+                        <span>Mark reviewed</span>
+                    </button>
+                    <div id="hifzLastReviewed" class="hifz-last-reviewed"></div>
+                </div>
+                <div id="hifzPageContentWrap" class="hifz-page-wrap">
+                    <div id="hifzPageContent" class="hifz-page-content">
+                        <!-- Page verses will be rendered here -->
+                    </div>
                 </div>
                 <div class="hifz-page-nav">
                     <button id="hifzPrevPage" class="hifz-nav-btn">
@@ -870,6 +921,10 @@
                                 <i class="fas fa-sun"></i>
                                 Light
                             </button>
+                            <button class="theme-option" data-theme="sepia" title="Sepia (warm paper)">
+                                <i class="fas fa-book"></i>
+                                Sepia
+                            </button>
                             <button class="theme-option" data-theme="dark" title="Dark theme">
                                 <i class="fas fa-moon"></i>
                                 Dark
@@ -928,7 +983,7 @@
                             </div>
                             
                             <div class="app-version">
-                                <p><strong>Version:</strong> 4.5.0</p>
+                                <p><strong>Version:</strong> 4.6.0</p>
                                 <p><strong>Last Updated:</strong> <span id="lastUpdated"></span></p>
                             </div>
                         </div>
@@ -1072,16 +1127,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- Compression Utils -->
-    <script src="compression-utils.min.js?v=4.5.0"></script>
+    <script src="compression-utils.min.js?v=4.6.0"></script>
     
     <!-- Enhanced Data Loader -->
-    <script src="enhanced-data-loader.min.js?v=4.5.0"></script>
+    <script src="enhanced-data-loader.min.js?v=4.6.0"></script>
     
     <!-- Migration Patch for Compression -->
-    <script src="migration-patch.min.js?v=4.5.0"></script>
+    <script src="migration-patch.min.js?v=4.6.0"></script>
     
     <!-- Main Application Script -->
-    <script src="script.min.js?v=4.5.0"></script>
+    <script src="script.min.js?v=4.6.0"></script>
     
     <!-- PWA Service Worker Registration -->
     <script>
