@@ -65,8 +65,10 @@
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.min.css?v=4.6.0">
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Mehr+Nastaliq:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Aref+Ruqaa+Ink:wght@400;700&family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/UthmanTN1-Ver10.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.min.css?v=4.8.0">
+    <link media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Mehr+Nastaliq:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Aref+Ruqaa+Ink:wght@400;700&family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@400&family=Reem+Kufi:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;700&family=Harmattan:wght@400;700&family=Alkalami&family=Markazi+Text:wght@400;500;600;700&family=Mehr+Nastaliq:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Aref+Ruqaa+Ink:wght@400;700&family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap"></noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
@@ -376,9 +378,6 @@
 
                 <!-- Sticky Reading Progress Header (frosted glass) -->
                 <div id="stickyReaderHeader" class="sticky-reader-header" aria-hidden="true">
-                    <button id="stickyBackBtn" class="sticky-back-btn" title="Back to surah list (Esc)">
-                        <i class="fas fa-arrow-left"></i>
-                    </button>
                     <div class="sticky-reader-meta">
                         <span id="stickyReaderTitle" class="sticky-reader-title"></span>
                         <span class="sticky-reader-progress-text">
@@ -983,7 +982,7 @@
                             </div>
                             
                             <div class="app-version">
-                                <p><strong>Version:</strong> 4.6.0</p>
+                                <p><strong>Version:</strong> 4.8.0</p>
                                 <p><strong>Last Updated:</strong> <span id="lastUpdated"></span></p>
                             </div>
                         </div>
@@ -1127,16 +1126,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- Compression Utils -->
-    <script src="compression-utils.min.js?v=4.6.0"></script>
+    <script src="compression-utils.min.js?v=4.8.0"></script>
     
     <!-- Enhanced Data Loader -->
-    <script src="enhanced-data-loader.min.js?v=4.6.0"></script>
+    <script src="enhanced-data-loader.min.js?v=4.8.0"></script>
     
     <!-- Migration Patch for Compression -->
-    <script src="migration-patch.min.js?v=4.6.0"></script>
+    <script src="migration-patch.min.js?v=4.8.0"></script>
     
     <!-- Main Application Script -->
-    <script src="script.min.js?v=4.6.0"></script>
+    <script src="script.min.js?v=4.8.0"></script>
     
     <!-- PWA Service Worker Registration -->
     <script>
@@ -1152,10 +1151,8 @@
                             const newWorker = registration.installing;
                             newWorker.addEventListener('statechange', () => {
                                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                    // Show update notification
-                                    if (confirm('New version available! Refresh to update?')) {
-                                        window.location.reload();
-                                    }
+                                    // Non-blocking update notice (never interrupt reading with confirm())
+                                    showUpdateToast();
                                 }
                             });
                         });
@@ -1163,6 +1160,24 @@
                     .catch((registrationError) => {
                         console.log('SW registration failed: ', registrationError);
                     });
+            });
+        }
+
+        function showUpdateToast() {
+            if (document.getElementById('updateToast')) return;
+            const toast = document.createElement('div');
+            toast.id = 'updateToast';
+            toast.className = 'update-toast';
+            toast.setAttribute('role', 'status');
+            toast.innerHTML = '<span>New version ready</span>'
+                + '<button type="button" class="update-toast-btn" id="updateToastRefresh">Refresh</button>'
+                + '<button type="button" class="update-toast-dismiss" id="updateToastDismiss" aria-label="Dismiss"><i class="fas fa-times"></i></button>';
+            document.body.appendChild(toast);
+            requestAnimationFrame(() => toast.classList.add('visible'));
+            document.getElementById('updateToastRefresh').addEventListener('click', () => window.location.reload());
+            document.getElementById('updateToastDismiss').addEventListener('click', () => {
+                toast.classList.remove('visible');
+                setTimeout(() => toast.remove(), 250);
             });
         }
 

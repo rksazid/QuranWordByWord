@@ -6,7 +6,7 @@
 - **Type**: Vanilla JavaScript Progressive Web App (PWA)
 - **Version**: 4.3.1
 - **Architecture**: Single Page Application (SPA) with hash-based routing
-- **Build System**: Custom Node.js build scripts (`minify-assets.js`)
+- **Build System**: Node.js build scripts (`minify-assets.js`) — uses `terser` + `csso` when installed (`npm install`), legacy regex fallback otherwise
 - **Package Manager**: NPM
 - **Node Version**: >= 14.0.0
 

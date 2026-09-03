@@ -9,16 +9,28 @@
 const fs = require('fs');
 const path = require('path');
 
-// Simple CSS minifier (removes comments, whitespace, etc.)
+// Real minifiers (devDependencies). `npm install` once; if they are missing we
+// fall back to the conservative regex minifiers below so the build never breaks.
+let terser = null;
+let csso = null;
+try { terser = require('terser'); } catch (_) { /* optional */ }
+try { csso = require('csso'); } catch (_) { /* optional */ }
+
+// Fallback CSS minifier (removes comments, whitespace, etc.)
+// NOTE: never strip whitespace around "+" / "-": inside calc() they MUST be
+// surrounded by spaces or the whole declaration is invalid and dropped.
 class CSSMinifier {
     static minify(css) {
+        if (csso) {
+            return csso.minify(css, { restructure: false, comments: false }).css;
+        }
         return css
             // Remove comments
             .replace(/\/\*[\s\S]*?\*\//g, '')
             // Remove unnecessary whitespace
             .replace(/\s+/g, ' ')
-            // Remove whitespace around specific characters
-            .replace(/\s*([{}:;,>+~])\s*/g, '$1')
+            // Remove whitespace around structural characters only
+            .replace(/\s*([{}:;,>~])\s*/g, '$1')
             // Remove trailing semicolon before }
             .replace(/;}/g, '}')
             // Remove leading/trailing whitespace
@@ -26,9 +38,29 @@ class CSSMinifier {
     }
 }
 
-// Simple JavaScript minifier (basic optimizations)
+// JavaScript minifier — terser when available (safe, scope-aware),
+// otherwise the legacy regex pass (which can corrupt string literals).
 class JSMinifier {
-    static minify(js) {
+    static async minify(js, filename) {
+        if (terser) {
+            const result = await terser.minify(js, {
+                ecma: 2018,
+                compress: {
+                    passes: 2,
+                    // strip verbose debug logging from production bundles;
+                    // keep console.warn / console.error for diagnostics
+                    pure_funcs: ['console.log', 'console.debug', 'console.info']
+                },
+                mangle: { keep_classnames: true, keep_fnames: false },
+                format: { comments: false }
+            });
+            if (result.error) throw result.error;
+            return result.code;
+        }
+        return JSMinifier.legacyMinify(js);
+    }
+
+    static legacyMinify(js) {
         return js
             // Remove single-line comments (but preserve URLs)
             .replace(/(?<!:)\/\/.*$/gm, '')
@@ -61,7 +93,7 @@ class AssetMinifier {
     /**
      * Minify a single file
      */
-    minifyFile(inputPath, outputPath) {
+    async minifyFile(inputPath, outputPath) {
         try {
             const content = fs.readFileSync(inputPath, 'utf8');
             const extension = path.extname(inputPath).toLowerCase();
@@ -70,7 +102,7 @@ class AssetMinifier {
             if (extension === '.css') {
                 minified = CSSMinifier.minify(content);
             } else if (extension === '.js') {
-                minified = JSMinifier.minify(content);
+                minified = await JSMinifier.minify(content, inputPath);
             } else {
                 throw new Error(`Unsupported file type: ${extension}`);
             }
@@ -110,6 +142,8 @@ class AssetMinifier {
      */
     async minifyAllAssets() {
         console.log('🗜️  Starting asset minification...\n');
+        console.log(`   JS engine : ${terser ? 'terser' : 'legacy regex (run npm install for terser)'}`);
+        console.log(`   CSS engine: ${csso ? 'csso' : 'legacy regex (run npm install for csso)'}\n`);
 
         const filesToMinify = [
             {
@@ -140,7 +174,7 @@ class AssetMinifier {
 
         for (const file of filesToMinify) {
             if (fs.existsSync(file.input)) {
-                this.minifyFile(file.input, file.output);
+                await this.minifyFile(file.input, file.output);
             } else {
                 console.log(`⚠️  File not found: ${file.input}`);
             }

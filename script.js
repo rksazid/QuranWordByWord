@@ -290,7 +290,6 @@ const elements = {
     stickyCurrentVerse: document.getElementById('stickyCurrentVerse'),
     stickyTotalVerses: document.getElementById('stickyTotalVerses'),
     stickyProgressFill: document.getElementById('stickyProgressFill'),
-    stickyBackBtn: document.getElementById('stickyBackBtn'),
     stickyJumpBtn: document.getElementById('stickyJumpBtn'),
     stickyShortcutsBtn: document.getElementById('stickyShortcutsBtn'),
     surahReadTime: document.getElementById('surahReadTime'),
@@ -408,6 +407,7 @@ function loadSettings() {
         if (lastSurah) {
             appData.lastOpenedSurah = lastSurah;
         }
+        loadLastRead();
         
         // Load saved search query
         const savedSearchQuery = localStorage.getItem('quranAppSearchQuery');
@@ -493,6 +493,46 @@ function saveLastSurah(surahId) {
     }
 }
 
+// ---- Last-read ayah (resume exactly where the reader stopped) ----
+let _lastReadTimer = 0;
+function loadLastRead() {
+    try {
+        const raw = localStorage.getItem('quranAppLastRead');
+        appData.lastRead = raw ? JSON.parse(raw) : null;
+    } catch (_) {
+        appData.lastRead = null;
+    }
+}
+function scheduleLastReadSave(verse) {
+    if (!appData.currentSurah) return;
+    clearTimeout(_lastReadTimer);
+    _lastReadTimer = setTimeout(() => saveLastRead(appData.currentSurah, verse), 400);
+}
+function saveLastRead(surahId, verse) {
+    const rec = { surah: String(surahId), verse: Math.max(1, parseInt(verse, 10) || 1), ts: Date.now() };
+    appData.lastRead = rec;
+    try { localStorage.setItem('quranAppLastRead', JSON.stringify(rec)); } catch (_) { /* quota */ }
+}
+function formatRelativeTime(ts) {
+    const diff = Date.now() - ts;
+    const m = Math.floor(diff / 60000);
+    if (m < 1) return 'just now';
+    if (m < 60) return m + ' min ago';
+    const h = Math.floor(m / 60);
+    if (h < 24) return h + (h === 1 ? ' hour ago' : ' hours ago');
+    const d = Math.floor(h / 24);
+    if (d < 7) return d + (d === 1 ? ' day ago' : ' days ago');
+    return new Date(ts).toLocaleDateString();
+}
+// Open a surah and land on a specific ayah (used by the Continue Reading card)
+function resumeReading(surahId, verse) {
+    openSurah(String(surahId)).then(() => {
+        if (!verse || verse <= 1) return;
+        // switchToReadingPage() scrolls to top synchronously; jump after layout.
+        requestAnimationFrame(() => requestAnimationFrame(() => scrollToVerseNumber(verse)));
+    });
+}
+
 function clearAllData() {
     if (confirm('This will clear all your settings and data. Are you sure?')) {
         try {
@@ -501,6 +541,7 @@ function clearAllData() {
             const keysToRemove = [
                 'quranAppSettings',
                 'quranAppLastSurah',
+                'quranAppLastRead',
                 'surahView',
                 'quranAppSearchQuery',
                 'quranAppTranslationVisible',
@@ -529,6 +570,7 @@ function clearAllData() {
                 favorites: []
             };
             appData.lastOpenedSurah = null;
+            appData.lastRead = null;
             appData.currentView = 'card';
             appData.searchQuery = '';
             appData.isTranslationVisible = true;
@@ -1910,6 +1952,13 @@ function showLastSurahSuggestion() {
     }
 
     elements.lastSurahSuggestion.classList.remove('is-welcome');
+    const lr = appData.lastRead && String(appData.lastRead.surah) === String(appData.lastOpenedSurah) ? appData.lastRead : null;
+    const resumeVerse = lr && lr.verse > 1 ? lr.verse : 0;
+    const resumeRow = lr ? `
+            <div class="suggestion-resume-row">
+                <span class="suggestion-ayah"><i class="fas fa-book-open"></i> Ayah ${lr.verse} of ${surahInfo.ayah_number}</span>
+                <span class="suggestion-time">${escapeHtml(formatRelativeTime(lr.ts))}</span>
+            </div>` : '';
     elements.lastSurahCard.innerHTML = `
         <div class="suggestion-content">
             <div class="suggestion-surah-number">${appData.lastOpenedSurah}</div>
@@ -1917,18 +1966,18 @@ function showLastSurahSuggestion() {
                 <div class="suggestion-surah-arabic">${surahInfo.name_arabic}</div>
                 <div class="suggestion-surah-english">${surahInfo.name_english}</div>
                 <div class="suggestion-surah-bangla">${surahInfo.name_bangla}</div>
-            </div>
+            </div>${resumeRow}
             <div class="suggestion-meta">
                 <span class="suggestion-type">${surahInfo.type}</span>
                 <div class="suggestion-continue">
                     <i class="fas fa-play"></i>
-                    <span>Continue Reading</span>
+                    <span>${resumeVerse ? 'Resume at Ayah ' + resumeVerse : 'Continue Reading'}</span>
                 </div>
             </div>
         </div>
     `;
 
-    elements.lastSurahCard.onclick = () => openSurah(appData.lastOpenedSurah);
+    elements.lastSurahCard.onclick = () => resumeReading(appData.lastOpenedSurah, resumeVerse);
     elements.lastSurahSuggestion.style.display = 'flex';
 }
 
@@ -2613,9 +2662,6 @@ function renderHomeGreeting() {
 
 // ---- Sticky header + progress + current-verse tracking ----
 function initReaderPowerUp() {
-    if (elements.stickyBackBtn) {
-        elements.stickyBackBtn.addEventListener('click', () => goBackToSurahList());
-    }
     if (elements.stickyJumpBtn) {
         elements.stickyJumpBtn.addEventListener('click', () => openGoToAyahModal());
     }
@@ -2633,8 +2679,25 @@ function initReaderPowerUp() {
 
     window.addEventListener('scroll', onReaderScroll, { passive: true });
 
+    // Keep --app-header-h in sync so the sticky reader bar always sits
+    // directly under the app header instead of covering it.
+    syncHeaderHeightVar();
+    const appHeader = document.querySelector('.header');
+    if (appHeader && 'ResizeObserver' in window) {
+        new ResizeObserver(() => syncHeaderHeightVar()).observe(appHeader);
+    } else {
+        window.addEventListener('resize', syncHeaderHeightVar);
+    }
+
     // Swipe gestures on the reading page (mobile UX)
     setupReadingSwipeGestures();
+}
+
+function syncHeaderHeightVar() {
+    const appHeader = document.querySelector('.header');
+    if (!appHeader) return;
+    const h = Math.round(appHeader.getBoundingClientRect().height);
+    if (h > 0) document.documentElement.style.setProperty('--app-header-h', h + 'px');
 }
 
 // ---- Lightweight haptic helper (no-op on browsers without vibration) ----
@@ -2733,6 +2796,7 @@ function setupVerseObserver() {
         readerPowerUp.currentVerse = num;
         if (elements.stickyCurrentVerse) elements.stickyCurrentVerse.textContent = num;
         verses.forEach(v => v.classList.toggle('is-current', parseInt(v.dataset.verse, 10) === num));
+        scheduleLastReadSave(num);
     }, observerOpts);
 
     verses.forEach(v => readerPowerUp.verseObserver.observe(v));
@@ -3773,37 +3837,54 @@ function updateSpeedPresetButtons() {
 function startAutoScroll() {
     stopAutoScroll();
 
+    // The stylesheet sets `html { scroll-behavior: smooth }`. That turns every
+    // per-frame programmatic scroll into an *animated* scroll which the next
+    // frame interrupts — the main source of auto-scroll jank. Force instant
+    // scrolling for the duration of auto-scroll only; restored in stopAutoScroll().
+    const root = document.documentElement;
+    appData._prevScrollBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = 'auto';
+    // Backdrop blurs (sticky bar, bottom nav) re-render every scrolled frame on
+    // mobile GPUs; suspend them while auto-scroll is driving the page.
+    document.body.classList.add('is-autoscrolling');
+
     appData.lastScrollTime = performance.now();
-    let accumulatedScroll = 0;
+    // Fractional target position. Scrolling to a float (instead of whole-pixel
+    // scrollBy steps) lets hi-DPI browsers keep sub-pixel offsets, so 0.5x/1x
+    // speeds move every frame instead of the 1px,1px,0px stutter pattern.
+    let targetY = window.scrollY;
 
     function scrollStep(timestamp) {
         if (!appData.settings.autoScroll || appData.isScrollPaused) {
-            // Keep updating lastScrollTime while paused to prevent jump on resume
+            // Keep clock + anchor in sync while paused to prevent a jump on resume
             appData.lastScrollTime = timestamp;
+            targetY = window.scrollY;
             appData.autoScrollAnimationFrame = requestAnimationFrame(scrollStep);
             return;
         }
 
-        const elapsed = Math.min(timestamp - appData.lastScrollTime, 33); // Cap at ~30fps to prevent jumps
+        // Use real frame timing so speed stays constant when frames drop; only
+        // clamp pathological gaps (tab hidden / app backgrounded).
+        const elapsed = Math.min(timestamp - appData.lastScrollTime, 100);
         appData.lastScrollTime = timestamp;
 
-        // Pixels per second based on speed setting (50px/s base for smoother progression)
-        const pixelsPerSecond = appData.settings.scrollSpeed * 50;
-        accumulatedScroll += (pixelsPerSecond * elapsed) / 1000;
-
-        // Scroll whole pixels only (sub-pixel scrolling causes jank in some browsers)
-        if (accumulatedScroll >= 1) {
-            const scrollAmount = Math.floor(accumulatedScroll);
-            window.scrollBy(0, scrollAmount);
-            accumulatedScroll -= scrollAmount;
+        // Reader scrolled manually (wheel / touch)? Continue from where they are.
+        if (Math.abs(window.scrollY - targetY) > 2) {
+            targetY = window.scrollY;
         }
 
+        const pixelsPerSecond = appData.settings.scrollSpeed * 50; // 1.0x = 50px/s
+        targetY += (pixelsPerSecond * elapsed) / 1000;
+
         // Stop at bottom
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 5) {
+        const maxY = Math.max(0, root.scrollHeight - window.innerHeight);
+        if (targetY >= maxY - 1) {
+            window.scrollTo(0, maxY);
             stopAutoScrollAndHide();
             return;
         }
 
+        window.scrollTo(0, targetY);
         appData.autoScrollAnimationFrame = requestAnimationFrame(scrollStep);
     }
 
@@ -3815,6 +3896,9 @@ function stopAutoScroll() {
     if (appData.autoScrollAnimationFrame) {
         cancelAnimationFrame(appData.autoScrollAnimationFrame);
         appData.autoScrollAnimationFrame = null;
+        // Restore the stylesheet's smooth scrolling for normal navigation
+        document.documentElement.style.scrollBehavior = appData._prevScrollBehavior || '';
+        document.body.classList.remove('is-autoscrolling');
     }
     if (appData.autoScrollInterval) {
         clearInterval(appData.autoScrollInterval);

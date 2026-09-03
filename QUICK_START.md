@@ -399,7 +399,7 @@ All colors automatically switch in dark theme using `[data-theme="dark"]` select
 
 ## Common Gotchas
 
-1. **Always run `node minify-assets.js`** after editing source files
+1. **Always run `node minify-assets.js`** after editing source files (run `npm install` once so terser/csso are used — the legacy regex fallback breaks `calc()` and can corrupt string literals)
 2. **Use `escapeHtml()`** for any dynamic content in innerHTML to prevent XSS
 3. **Remember to save settings** after changes with `saveSettings()`
 4. **Add IDB backup** for important data fetched from network

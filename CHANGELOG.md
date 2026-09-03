@@ -4,7 +4,23 @@ All notable changes to Al-Quran Word by Word will be documented in this file.
 
 ## [Unreleased]
 
+### Fixed
+- **Sticky reading bar covered the app header** — the frosted progress bar was `position: fixed; top: 0; z-index: 950`, sitting on top of the sticky app header and making Back / Go-to-Ayah / Favorite / Settings unclickable while reading. It now docks directly *below* the header (`top: var(--app-header-h)`, measured at runtime via `ResizeObserver`, `z-index: 90`), is `visibility: hidden` when collapsed (no phantom tab stops), and `scroll-padding-top` accounts for both bars so ayah jumps land fully visible. The duplicate Back button in the bar was removed (the header already has one); the keyboard-shortcuts button is hidden on touch widths.
+- **Broken `calc()` in production CSS** — the hand-rolled minifier stripped spaces around `+`, turning `calc(2rem + env(...))` into invalid `calc(2rem+env(...))`. Browsers dropped those declarations, so the reading-controls FAB rendered mid-page on desktop, the back-to-top button / install banner lost their safe-area offsets, and the mobile body lost its bottom-nav padding. Fixed by switching the build to **terser + csso** (see Changed).
+- **Unreadable "Begin Your Journey" pills** — white text on a pale-green card; now primary-green on a tinted chip in light/sepia and light-green in dark theme.
+- **Blocking `confirm()` on app update** replaced by a non-blocking "New version ready · Refresh" toast, so an update never interrupts reading.
+- Install banner now clears the bottom nav plus the iOS home-indicator inset.
+- **Auto-scroll stutter** — two compounding causes: the global `html { scroll-behavior: smooth }` turned every per-frame `scrollBy` into an animated scroll that the next frame interrupted, and whole-pixel stepping produced a periodic `1px,1px,0px` (1.0x) / `1px,0px` (0.5x) hitch. Auto-scroll now forces instant scroll behaviour only while running (restored on stop), advances a fractional target with `scrollTo` (sub-pixel on hi-DPI screens), uses real frame timing so speed no longer sags on slow frames, re-anchors if the reader scrolls manually, and suspends the sticky-bar / bottom-nav backdrop blur (a per-frame GPU cost on mobile) while running.
+
 ### Added
+- **Resume at the exact ayah** — the Continue Reading card now shows "Ayah N of M · 3 hours ago" and jumps straight to that ayah. The current ayah (already tracked by the sticky bar's `IntersectionObserver`) is saved to `localStorage('quranAppLastRead')` with a 400 ms debounce; cleared by "Clear all data".
+
+### Changed
+- **Build: real minifiers** — `node minify-assets.js` now uses `terser` (JS, scope-aware, drops `console.log`/`info`/`debug` from production bundles) and `csso` (CSS) when installed (`npm install`), falling back to the legacy regex pass otherwise. `script.min.js` shrank 150 KB → 132 KB and no longer risks corrupting string literals containing `-`.
+- **Faster first paint** — the default Uthman Taha font is `<link rel="preload">`ed and the large Google Fonts stylesheet loads non-render-blocking (`media="print"` → `all` on load, with a `<noscript>` fallback).
+- Service Worker cache bumped to `v4.7.0`; asset cache-busters and manifest/package versions to 4.7.0.
+
+### Added (earlier in cycle)
 - **Hifz spaced-repetition tracker** — per-page state machine (`New → Learning → Reviewing → Memorized`) with spaced review intervals (1d → 3d → 7d → 14d → 30d). State chips and a "Mark reviewed" button live in the reading page header; a "Last reviewed · next in N d" line shows when each page is due.
 - **"Due today" widget** on the Juz list page — shows all pages whose review window has elapsed with quick-jump pills and a "Start review" CTA. Hides when nothing is due.
 - **Per-Juz progress bars + ✓ stamp** — every Juz card on the list page now shows `N/M pages memorized` with a green bar, and earns a checkmark stamp at 100%.
@@ -253,6 +269,13 @@ All notable changes to Al-Quran Word by Word will be documented in this file.
 - **Asset optimization**: 167 KB → 107.8 KB (35.4% reduction)
 - **Load time**: 5-8x faster loading
 - **Cache efficiency**: Under 200KB for mobile optimization
+
+---
+\n## [4.8.0] - 2026-09-03
+
+### Changed
+- Version update
+- Bug fixes and improvements
 
 ---
 \n## [4.6.0] - 2026-05-17
